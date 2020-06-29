@@ -1,0 +1,38 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Surface Hub
+metadata:
+  document_id: null
+  title: Surface Hub
+  description: '조직에서 Surface Hub를 설치, 설정 및 관리하도록 돕는 도구와 리소스를 찾아보세요.'
+  keywords: 'Surface Hub, Windows 10'
+  ms.localizationpriority: medium
+  author: lizap
+  ms.author: elizapo
+  manager: dougkim
+  ms.topic: article
+  ms.devlang: na
+sections:
+  - items:
+      - type: markdown
+        text: ' 조직에서 Surface Hub를 설치, 설정 및 관리하도록 돕는 도구와 리소스를 찾아보세요.  '
+  - title: 탐색
+  - items:
+      - type: markdown
+        text: ' 이 올인원 생산성 장치를 통해 팀이 보다 효율적으로 브레인스토밍하고 공동 작업을 수행하며 아이디어를 공유할 수 있는 방법을 찾아보세요.<br>  <img src=''images/getstarted.png''><br> <table><tr><td><a href=''https://www.microsoft.com/microsoft-surface-hub/product-specs#tech-specs''>Surface Hub의 주요 기능 및 제품 사양에 대해 알아봅니다.</a><br><a href=''https://www.microsoft.com/microsoft-surface-hub/case-studies''>생산성을 높이고 공동 작업을 개선할 수 있는 방법의 실제 예를 확인하세요.</a></td><td><a href=''https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise''>Surface Hub와 Windows 10 Enterprise 간의 차이점</a><br><a href=''https://www.microsoft.com/microsoft-surface-hub/faq''>Surface Hub FAQ ''</a></td></tr> </table> '
+  - title: 계획
+  - items:
+      - type: markdown
+        text: ' 조직에 Surface Hub를 배포하도록 준비하세요. 사이트 준비, 어셈블리, 구성과 교환 및 ActiveSync 정책을 살펴보세요. <br>  <table><tr><td><img src=''images/plan1.png'' width=''192'' height=''192''><br>**Surface Hub 사용 준비**<br>Surface Hub를 설정하기 위해 수행해야 할 단계를 살펴보세요.<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-site-readiness.guide''>Surface Hub 사이트 준비 가이드 </a> (PDF, 1.48 MB)<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-downloads''>포장 풀기 가이드</a></td><td><img src=''images/plan2.png'' width=''192'' height=''192''><br>**Surface Hub 어셈블리**<br>Surface Hub를 조립하는 방법을 알아보세요.<br><a href=''https://download.microsoft.com/download/0/1/6/016363A4-8602-4F01-8281-9BE5C814DC78/Setup-Guide_EN-FR-SP.pdf''>Surface Hub 설정 가이드 </a> (PDF, 1.43 MB)<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-downloads''>가이드 탑재 및 조립</a></td><td><img src=''images/plan3.png'' width=''192'' height=''192''><br>**사용자 환경 준비**<br>설치 종속성 및 계정 요구 사항에 대해 알아보세요.<br><a href=''https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub''>사용자 환경 준비</a><br><a href=''https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub''>장치 계정 만들기 및 테스트</a></td></tr> </table> '
+  - title: 배포
+  - items:
+      - type: markdown
+        text: ' Surface Hub의 설정, 앱 관리 및 설치, 네트워크 관리에 대한 정보를 확인하세요.<br>  <table><tr><td><img src=''images/deploy1.png'' width=''192'' height=''192''><br>**Surface Hub 설치**<br>첫 실행 경험을 사용하여 Surface Hub를 설치하도록 준비하는 데 필요한 정보를 검토해 보세요.<br><a href=''https://docs.microsoft.com/surface-hub/setup-worksheet-surface-hub''>설치 워크시트</a><br><a href=''https://docs.microsoft.com/surface-hub/first-run-program-surface-hub''>첫 실행 프로그램</a><br><a href=''https://docs.microsoft.com/surface-hub/appendix-a-powershell-scripts-for-surface-hub''>PowerShell 스크립트</a></td><td><img src=''images/deploy2.png'' width=''192'' height=''192''><br>**앱 설치**<br>Surface Hub에서 앱을 설치하고 관리하기 위한 옵션입니다.<br><a href=''https://docs.microsoft.com/surface-hub/install-apps-on-surface-hub''>앱 설치</a><br><a href=''https://docs.microsoft.com/surface-hub/whiteboard-collaboration''>화이트보드 대 화이트보드 공동 작업</a><br><a href=''https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub''>프로비전 패키지 만들기</a></td><td><img src=''images/deploy3.png'' width=''192'' height=''192''><br>**Surface Hub 네트워크**<br>Surface Hub에 대한 네트워크 시나리오입니다.<br><a href=''https://docs.microsoft.com/surface-hub/wireless-network-management-for-surface-hub''>무선 네트워크 관리</a><br><a href=''https://docs.microsoft.com/surface-hub/use-room-control-system-with-surface-hub''>회의실 제어 시스템 사용</a><br><a href=''https://docs.microsoft.com/surface-hub/connect-and-display-with-surface-hub''>Surface Hub를 사용 하 여 다른 장치를 연결 합니다.</a></td></tr> </table> '
+  - title: 관리
+  - items:
+      - type: markdown
+        text: ' Surface Hub 업데이트를 관리 하 고 회사 장치의 보안 및 무결성을 유지 하는 방법에 대해 알아봅니다.<br>  <table><tr><td><img src=''images/manage1.png'' width=''192'' height=''192''><br>**장치 관리**<br>Surface Hub 모니터링은 Microsoft Operations Management Suite(OMS)를 통해 수행됩니다.<br><a href=''https://docs.microsoft.com/surface-hub/monitor-surface-hub''>Surface Hub 모니터링</a><br><a href=''https://docs.microsoft.com/surface-hub/accessibility-surface-hub''>접근성 및 Surface Hub</a></td><td><img src=''images/manage2.png'' width=''192'' height=''192''><br>**계정 관리**<br>Surface Hub에서 사용되는 계정을 관리하기 위한 옵션을 알아보세요.<br><a href=''https://docs.microsoft.com/surface-hub/change-surface-hub-device-account''>Surface Hub 장치 계정 변경</a><br><a href=''https://docs.microsoft.com/surface-hub/admin-group-management-for-surface-hub''>관리자 계정 관리</a></td><td><img src=''images/manage3.png'' width=''192'' height=''192''><br>**보안 및 최신 상태 유지**<br>Surface Hub를 최신으로 유지하는 방법을 알아보세요.<br><a href=''https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub''>Windows업데이트 관리</a><br><a href=''https://support.microsoft.com/help/4037666/surface-surface-hub-update-history''>Surface Hub 업데이트 기록</a><br><a href=''https://docs.microsoft.com/surface-hub/save-bitlocker-key-surface-hub''>BitLocker 키 저장</a></td><td><img src=''images/manage4.png'' width=''192'' height=''192''><br>**직원 교육**<br>Surface Hub를 사용하여 직원의 생산성 향상에 도움이 되는 리소스를 찾아보세요.<br><a href=''https://download.microsoft.com/download/3/6/B/36B6331E-0C63-4E71-A05D-EE88D05081F8/surface-hub-user-guide-en-us.pdf''>Surface Hub 사용자 가이드 </a> (PDF, 1.69 MB)<br><a href=''https://support.microsoft.com/help/20431''>방법 비디오</a></td></tr> </table> '
+  - title: 정보 계속 받기
+  - items:
+      - type: markdown
+        text: ' <table><tr><td><img src=''images/surfaceblog.png'' width=''192'' height=''192''><br>**Surface IT 전문가 블로그**<br>새로운 Surface 제품 뿐만 아니라 IT 전문가를 위한 팁과 트릭을 자세히 확인하세요.<br><a href=''https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro''>자세히 알아보기</a></td><td><img src=''images/surfacemechanics.png'' width=''192'' height=''192''><br>**Microsoft Mechanics의 Surface**<br>Surface 장치와 기능에 대한 기술 데모 및 연습을 확인하세요.<br><a href=''https://technet.microsoft.com/windows/mt697546''>시작</a></td><td><img src=''images/twitter.png'' width=''192'' height=''192''><br>**Twitter에서 Microsoft 팔로우**<br>최신 뉴스를 계속 확인하고 최신 제품 데모를 보세요.<br><a href=''https://twitter.com/surface''>Twitter 방문</a></td></tr> </table> '
