@@ -8,15 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 7/02/2020
+ms.date: 7/07/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 52de90847d85698cba25cc511a4c6eda327c810d
-ms.sourcegitcommit: 1b673d9d3240d6217b36fcc5fea53c23ab8cf367
+ms.openlocfilehash: 35794e36f37041754ee722c286554437c6dd7be2
+ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "10857585"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "10860648"
 ---
 # Surface Book 3 Quadro RTX 3000 기술 개요
 
@@ -106,7 +107,7 @@ Quadro RTX 3000이 있는 Surface Book은 모든 Surface 노트북의 최상의 
 | **Adobe 물질 용 디자이너**                        | -RTX 가속 bakers 기능을 갖춘 절차 자료를 작성 합니다.<br><br>-텍스처/substances 및 비트맵 텍스처 내보내기를 포함 하는 NVIDIA Iray 렌더링을 사용 하 여 MDL과 호환 되는 모든 Iray 렌더링 합니다.<br><br>-DXR-가속화 된 라이트 및 주변광 폐색 baking.                                                                                                                                                                                                              |
 | **ANSYS**<br>**검색 라이브**                     | -ANSYS 실시간 엔지니어링 시뮬레이션 도구 (ANSYS 검색 라이브)를 통해 구축할 DA.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Autodesk**<br>**Revit**                           | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-부드러운 대화형 디자인 환경을 위한 GPU 가속 뷰포트.<br><br>-V-레이 및 Enscape와 같이 타사 GPU 가속 3D 렌더러를 지원 합니다.                                                                                                                                                                                                                                        |
-| **Autodesk**<br>**3ds Max**                         | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-고속, 대화형 3D modelling 및 디자인을 위한 GPU 가속 뷰포트 그래픽<br><br>-RTX-가속화 된 광선 추적과 기본 Arnold 렌더러를 사용 하는 denoising 인공 지능.<br><br>-70% 이상이 Surface Book 2 15와 비교 하 여 더욱 빨라집니다.                                                                                                                                                        |
+| **Autodesk**<br>**AutoCad**                         | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-고속, 대화형 3D modelling 및 디자인을 위한 GPU 가속 뷰포트 그래픽<br><br>-RTX-가속화 된 광선 추적과 기본 Arnold 렌더러를 사용 하는 denoising 인공 지능.<br><br>-70% 이상이 Surface Book 2 15와 비교 하 여 더욱 빨라집니다.                                                                                                                                                        |
 | **Autodesk**<br>**야**                            | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-RTX-가속화 된 광선 추적과 기본 Arnold 렌더러를 사용 하는 denoising 인공 지능.<br><br>-OpenGL 뷰포트 가속.                                                                                                                                                                                                                                                                                  |
 | **Bentley 마이크로 스테이션**                            | **Bentley-Quadro RTX 3000를 사용 하 여 Surface Book 3을 테스트 하 고 승인 했습니다.**                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Dassault 전 Systemes**<br>**3D 환경 플랫폼** | -CATIA 대화형 광선 추적 (라이브 렌더링)을 RT 코어로 가속화<br><br>-Catia는 Surface Book 2 15와 비교 하 여 100% 보다 많은 속도를 실행 합니다.                                                                                                                                                                                                                                                                                                                                     |

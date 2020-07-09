@@ -12,12 +12,12 @@ ms.date: 6/25/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 92838599a9d05dbe75f1caad948b97c9cb75bcac
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1f6f4a7efb8dc345487e5e5054374f81a91a20d5
+ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834287"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "10860638"
 ---
 # Surface Dock 2의 새로운 기능
 
@@ -35,19 +35,16 @@ Surface Dock 2는 IT 관리를 단순화 하 여 관리자가 Windows Update를 
 - Windows 10 버전 1809. Windows 7, Windows 8 또는 비 Surface host 장치는 지원 되지 않습니다. 서피스 도크 2는 다음 Surface 장치에서 작동 합니다.
 
   - Surface Pro (다섯째 Gen)
-  - LTE Advanced를 사용 하는 Surface Pro (다섯 번째 Gen)
   - Surface 노트북 (첫번째 Gen)
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
   - Surface Go
-  - Surface Go LTE Advanced 
   - Surface Pro 7
+  - Surface Pro X 
   - Surface 노트북 3
   - Surface Book 3
   - Surface Go 2
-  - LTE 고급을 사용 하는 Surface Go 2
-
 
 ## 서피스 도크 2 구성 요소
 
@@ -65,7 +62,6 @@ Surface Dock 2는 IT 관리를 단순화 하 여 관리자가 Windows Update를 
 
   - Surface Book 3
   - Surface Go 2
-  - LTE 고급을 사용 하는 Surface Go 2
   - Surface Pro 7
   - Surface Pro X
   - Surface 노트북 3
@@ -74,7 +70,6 @@ Surface Dock 2는 IT 관리를 단순화 하 여 관리자가 Windows Update를 
 
   - Surface Pro 6
   - Surface Pro (다섯째 Gen)
-  - LTE Advanced를 사용 하는 Surface Pro (다섯 번째 Gen)
   - Surface Laptop 2
   - Surface 노트북 (첫번째 Gen)
   - Surface Go
@@ -132,4 +127,4 @@ Surface에서 Windows Update를 통해 능률적인 관리 기능을 해제 하 
 
 - [Surface Enterprise 관리 모드를 사용 하는 보안 Surface Dock 2 포트](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface Enterprise 관리 모드](surface-enterprise-management-mode.md)
-- [Surface 장치에 대한 모범 사례 전원 설정](maintain-optimal-power-settings-on-Surface-devices.md)
+- [Surface 장치의 모범 사례 전원 설정](maintain-optimal-power-settings-on-Surface-devices.md)
