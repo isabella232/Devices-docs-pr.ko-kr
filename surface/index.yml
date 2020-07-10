@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Microsoft Surface
+title: IT 전문가를 위한 Microsoft Surface
 summary: Microsoft Surface 및 Surface Hub 장치를 계획, 배포 및 관리하는 방법에 대해 알아보세요.
 brand: windows
 metadata:
@@ -12,43 +12,59 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: 7c723733836ee00e43571714c7df2ca11d3a8a49
-  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.openlocfilehash: d751e7a08f492ed3b5799da08b5d0014123a758f
+  ms.sourcegitcommit: a292b4843d5808745b8320b721829a91d2b1a5d0
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/27/2020
-  ms.locfileid: "10837150"
+  ms.lasthandoff: 07/09/2020
+  ms.locfileid: "10861185"
+highlightedContent:
+  items:
+  - title: Surface 장치 설명서
+    itemType: learn
+    url: https://docs.microsoft.com/surface/get-started
+  - title: Surface Hub 설명서
+    itemType: learn
+    url: https://docs.microsoft.com/surface-hub/index
 additionalContent:
   sections:
-  - title: IT 전문가용
+  - title: Surface 리소스
+    summary: Microsoft Surface 장치에 대한 리소스를 찾아보세요.
     items:
-    - title: Surface 장치 설명서
-      summary: 클라우드를 통해 함께 연결된 Surface, Windows, Office의 기능을 활용하세요. 조직에서 Surface 장치를 계획, 배포 및 관리하도록 돕는 단계별 지침 및 기타 리소스를 찾아보세요.
-      url: https://docs.microsoft.com/en-us/surface/get-started
-    - title: Surface Hub 설명서
-      summary: 올인원 디지털 대화형 화이트 보드, 회의 플랫폼 및 협업 컴퓨팅 장치인 Surface Hub 2S를 배포하고 관리하는 방법에 대해 알아보세요.
-      url: https://docs.microsoft.com/surface-hub/index
-  - title: 다른 리소스
-    items:
-    - title: 커뮤니티
+    - title: Surface 개요
+      links:
+      - text: 비즈니스용 Surface Pro 2
+        url: https://www.microsoft.com/surface/business/surface-go-2
+      - text: 비즈니스용 Surface Book 3
+        url: https://www.microsoft.com/surface/business/surface-book-3
+      - text: 모든 Surface 패밀리 제품 탐색
+        url: https://www.microsoft.com/surface/business
+    - title: Surface 커뮤니티
       links:
       - text: Surface IT 전문가 블로그
         url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
       - text: Surface 장치 기술 커뮤니티
         url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-    - title: 알아보기
+    - title: Surface 도움말
       links:
-      - text: Microsoft Learn의 Surface 교육
-        url: https://docs.microsoft.com/learn/browse/?term=Surface
-      - text: Surface Hub 2S 채택 지침
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-adoption-kit
-      - text: Microsoft Mechanics Surface 비디오
-        url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-    - title: 도움이 필요하세요?
+      - text: Surface 지원 문의
+        url: contact-surface-support.md
+  - title: Surface Hub 리소스
+    summary: Microsoft Surface Hub에 대한 리소스를 찾아보세요.
+    items:
+    - title: Surface Hub 개요
       links:
-      - text: Surface 장치
-        url: https://support.microsoft.com/products/surface-devices
-      - text: Surface Hub
-        url: https://support.microsoft.com/hub/4343507/surface-hub-help
+      - text: Surface Hub 2S의 새로운 기능은 무엇인가요?
+        url: /surface-hub/surface-hub-2s-whats-new.md
+      - text: Surface Hub 2S 기술 사양
+        url: /surface-hub/surface-hub-2s-techspecs.md
+      - text: 운영 체제 필수 항목
+        url: /surface-hub/differences-between-surface-hub-and-windows-10-enterprise.md
+    - title: Surface Hub 커뮤니티
+      links:
+      - text: Surface Hub 기술 커뮤니티
+        url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+    - title: Surface Hub 도움말
+      links:
       - text: Surface Hub 지원 문의
         url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
