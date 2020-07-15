@@ -15,19 +15,19 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 98de32213861aa53ac00a565d4f81f0199995077
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 88c7029c99d69818e9f0b8fddef5fc193581963a
+ms.sourcegitcommit: 608226b64ef92743b1a3361877d4c49228e3ea5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834276"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "10868752"
 ---
 # Surface 기기에 대한 주요 지원 솔루션
 
 > [!Note]
-> **개인 사용자**:이 문서는 IT 전문가와 기술 지원 상담원만 사용할 수 있으며 Surface 디바이스에만 적용 됩니다. 홈 장치 문제에 대 한 도움말을 찾고 있는 경우 [Surface Devices 도움말](https://support.microsoft.com/products/surface-devices)을 참조 하세요.
+> **개인 사용자**:이 문서는 IT 전문가와 기술 지원 상담원만 사용할 수 있으며 Surface 디바이스에만 적용 됩니다. 홈 장치 문제에 대 한 도움말을 찾고 있는 경우 [Surface 지원](contact-surface-support.md?tabs=online)을 참조 하세요.
 
-다음은 엔터프라이즈에서 Surface 장치를 사용할 때 발생할 수 있는 일반적인 문제에 대 한 Microsoft 지원 솔루션입니다. 문제가 여기에 나와 있지 않은 경우 [Microsoft 지원에 문의 하세요](https://support.microsoft.com/supportforbusiness/productselection).
+다음은 엔터프라이즈에서 Surface 장치를 사용할 때 발생할 수 있는 일반적인 문제에 대 한 Microsoft 지원 솔루션입니다. 문제가 여기에 나열 되지 않는 경우 [Surface 지원에 문의 하세요](contact-surface-support.md?tabs=online).
 
 ## Surface Drivers 및 펌웨어
 
@@ -54,7 +54,7 @@ Microsoft는 Surface 기기에 대한 업데이트 및 솔루션을 정기적으
 
 ## 화면 깨짐 또는 긁힘 문제
 
-- [Microsoft 지원에 문의](https://support.microsoft.com/supportforbusiness/productselection)
+- [Surface 지원 문의](contact-surface-support.md?tabs=online)
 
 ## Surface Power 또는 배터리 문제
 
