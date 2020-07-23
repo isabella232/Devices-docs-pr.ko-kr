@@ -11,22 +11,22 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 90908a9ff95875cf0c3337bf0b8e93f7bfc42e53
-  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.openlocfilehash: 79bd1f8bb8368efe391def8dafef22c687d08b4c
+  ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/27/2020
-  ms.locfileid: "10836849"
+  ms.lasthandoff: 07/22/2020
+  ms.locfileid: "10893070"
 landingContent:
 - title: Surface 장치
   linkLists:
   - linkListType: overview
     links:
-    - text: 비즈니스에 대 한 Surface Go 2
+    - text: 비즈니스용 Surface Pro 2
       url: https://www.microsoft.com/surface/business/surface-go-2
-    - text: 비즈니스를 위한 Surface Book 3
+    - text: 비즈니스용 Surface Book 3
       url: https://www.microsoft.com/surface/business/surface-book-3
-    - text: 모든 Surface family 제품 살펴보기
+    - text: 모든 Surface 패밀리 제품 탐색
       url: https://www.microsoft.com/surface/business
 - title: 시작
   linkLists:
@@ -46,7 +46,7 @@ landingContent:
       url: microsoft-surface-deployment-accelerator.md
     - text: Autopilot 및 Surface 디바이스
       url: windows-autopilot-and-surface-devices.md
-    - text: Surface의 Windows 가상 데스크톱
+    - text: 가상 데스크톱 Windows Virtual Desktop
       url: windows-virtual-desktop-surface.md
 - title: Surface 장치 관리
   linkLists:
@@ -54,11 +54,11 @@ landingContent:
     links:
     - text: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface 장치에 대한 모범 사례 전원 설정
+    - text: Surface 장치의 모범 사례 전원 설정
       url: maintain-optimal-power-settings-on-Surface-devices.md
     - text: Surface 장치에 대한 Wi-Fi 연결 최적화
       url: surface-wireless-connect.md
-- title: 보안 지침 살펴보기
+- title: 보안 지침 탐색
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -78,7 +78,7 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: 배터리 제한 설정
       url: battery-limit.md
-- title: 지원 솔루션 찾아보기
+- title: 문제 해결
   linkLists:
   - linkListType: learn
     links:
@@ -98,3 +98,9 @@ landingContent:
       url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
     - text: Microsoft Mechanics Surface 비디오
       url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
+- title: 도움이 필요하세요?
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Surface 지원 문의
+      url: contact-surface-support.md

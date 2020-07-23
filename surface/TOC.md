@@ -67,6 +67,7 @@
 ### [Surface DMA 보호](dma-protect.md)
 
 ## 문제 해결
+### [Surface 지원 문의](contact-surface-support.md)
 ### [Surface 장치에 대한 주요 지원 솔루션](support-solutions-surface.md)
 ### [비즈니스용 Surface 진단 도구 키트를 사용한 일반적인 Surface 문제 해결](surface-diagnostic-toolkit-for-business-intro.md)
 #### [비즈니스용 Surface 진단 도구 키트 배포](surface-diagnostic-toolkit-business.md)
