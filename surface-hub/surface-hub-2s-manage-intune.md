@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/28/2020
+ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1d1b836c18a41982497bb28c57f379408c04f8a5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 05279a54b51113ca96c4c939e8d64e51c4eca543
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836636"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893117"
 ---
 # Intune으로 Surface Hub 2S 관리하기
 
@@ -35,17 +35,27 @@ Surface Hub 2S에서는 IT 관리자가 MDM(모바일 장치 관리) 공급자�
 
 초기 설정 프로세스 중에 Intune 자동 등록이 설정된 Azure AD 테넌트로 Surface Hub를 연결하는 경우 장치가 자동으로 Intune에 등록됩니다. 자세한 내용은 [Windows 장치에 대한 Intune 등록 방법](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods)을 참조하세요. Surface Hub가 Intune에서 "호환 장치"가 되려면 Azure AD에 연결과 Intune 자동 등록이 필요합니다. 
 
-## Windows 10 Team 버전 설정
+## Intune을 사용 하 여 Windows 10 Team Edition 설정 관리
 
-Surface Hub 및 Surface Hub 2S에 대한 사전 설정된 장치 제한을 보려면 Windows 10 Teams을 선택하세요.
+1. **Microsoft Endpoint Manager**에 로그인 하 고 **장치**  >  **구성 프로필**을 선택 하 여  >  **프로필을 만듭니다**. 
+2. **플랫폼**에서 **windows 10 이상**  >  **장치 제한 (windows 10 팀)** 을 선택 하 고 **만들기**를 선택 합니다. 
+3. 이제 Surface Hub 및 Surface Hub 2S에 대해 미리 설정 된 장치 제한 설정을 찾아 선택할 수 있습니다.
 
  ![Surface Hub 2S에 대한 장치 제한을 설정합니다.](images/sh2-set-intune3.png) <br>
 
-이러한 설정에는 사용자 환경과 앱 동작, Azure Log Analytics 등록, 유지 관리 기간 구성, 세션 설정, Miracast 설정 등이 포함됩니다. 사용 가능한 Windows 10 Team 설정의 전체 목록은 [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)를 참조하세요.
+이러한 설정에는 앱과 환경, Azure operational insights, 유지 관리, 세션, 무선 프로젝션이 범주로 분류 됩니다.  
 
-## 추가 지원되는 CSP(구성 서비스 공급자)
+## 지원 되는 Csp (구성 서비스 공급자)
 
-추가 지원되는 CSP에 대한 자세한 내용은 [Windows 10의 Surface Hub CSP](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)를 참조하세요.
+Intune 콘솔을 통해 직접 사용할 수 있는 정책 외에도 레지스트리 키 또는 파일에 매핑되는 다양 한 Csp (구성 서비스 공급자)가 있습니다. 
+
+Microsoft는 일반적으로 새 Windows 10 운영 체제 버전 마다 새로운 Csp를 제공 합니다. Windows 참가자 프로그램을 통해 미리 보기에서 사용할 수 있는 [windows 10 Team 2020 업데이트](surface-hub-install-2020preview.md)에는 surface Hub 및 Surface hub 2S에 대 한 20 개 이상의 새로운 장치 관리 정책 및 업데이트 됨이 포함 되어 있습니다. 이러한 MDM 정책을 통해 관리자는 Microsoft Store, 인프라를 통해 Miracast, 802.1 x 유선 인증, 새로운 개인 정보/GDPR 관련 설정 등의 무선 프로젝션 설정에서 앱 업데이트를 더욱 효율적으로 제어할 수 있습니다.
+
+자세한 내용은 다음 리소스를 참조하세요. 
+
+- [구성 서비스 공급자 참조](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
+- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+- [Microsoft Surface Hub에서 지원되는 정책 CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 ## QoS(서비스 품질) 설정
 
