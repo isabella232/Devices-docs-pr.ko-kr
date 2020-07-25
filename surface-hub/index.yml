@@ -14,23 +14,23 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 975115cc4f7baea18bcd9ad119ce448d59772515
-  ms.sourcegitcommit: 63607aa9b65687bf597916f548f5a3416ef87fe8
+  ms.openlocfilehash: 9bbf8ae97aedde4c14670fd2a72f1286371a8a41
+  ms.sourcegitcommit: 819498edd5c7cf0eae038a561b2efd6c2903dee5
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/10/2020
-  ms.locfileid: "10861720"
+  ms.lasthandoff: 07/23/2020
+  ms.locfileid: "10895149"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface Hub 2S의 새로운 기능은 무엇인가요?
-      url: surface-hub-2s-whats-new.md
-    - text: Surface Hub 2S 순서 지정
-      url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab
-    - text: Surface Hub 2S에 대한 환경 준비
-      url: surface-hub-2s-prepare-environment.md
+    - text: 새 Surface Hub 공개 미리 보기를 위해 릴리스된 OS 업데이트
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823
+    - text: Windows 10 Team 2020 업데이트 미리 보기 빌드 설치
+      url: surface-hub-install-2020preview.md
+    - text: Surface Hub에 새 Microsoft Edge 설치 및 구성
+      url: surface-hub-install-chromium-edge.md
     - text: Surface Hub 업데이트 기록
       url: surface-hub-update-history.md
   - linkListType: video
@@ -45,14 +45,14 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
+    - text: Surface Hub 2S 순서 지정
+      url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab
     - text: 운영 체제 필수 항목
       url: differences-between-surface-hub-and-windows-10-enterprise.md
     - text: Surface Hub 2S 사이트 준비 가이드
       url: surface-hub-2s-site-readiness-guide.md
-    - text: Surface Hub 2S 설치 사용자 지정
-      url: surface-hub-2s-custom-install.md
-    - url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
-      text: Surface Hub에서 Microsoft Whiteboard 사용
+    - text: Surface Hub에서 Microsoft Whiteboard 사용
+      url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
   - linkListType: deploy
     links:
     - url: surface-hub-2s-adoption-kit.md
