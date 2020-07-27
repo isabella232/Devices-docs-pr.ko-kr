@@ -19,14 +19,14 @@
 #### [Surface Hub 2S 포트 및 키패드 개요](surface-hub-2s-port-keypad-overview.md)
 #### [Surface Hub 2S에 디바이스 연결](surface-hub-2s-connect.md)
 ### [Microsoft Surface Hub 2S에 대한 사용자 환경 준비](surface-hub-2s-prepare-environment.md)
-### [Surface Hub 2S에 대한 쉬운 인증 구성](surface-hub-2s-phone-authenticate.md)
+
 
 ## 배포
 ### [Surface Hub 2S 채택 및 교육](surface-hub-2s-adoption-kit.md)
 ### [Surface Hub 2S 채택 비디오](surface-hub-2s-adoption-videos.md)
 
 ### [처음으로 Surface Hub 2S 설치](surface-hub-2s-setup.md)
-### [Surface Hub 2S에 디바이스 연결](surface-hub-2s-connect.md)
+### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
 ### [Surface Hub 2S 배포 체크리스트](surface-hub-2s-deploy-checklist.md)
 ### [Surface Hub 2S 장치 계정 만들기](surface-hub-2s-account.md)
 ### [Surface Hub 2S용 프로비전 패키지 만들기](surface-hub-2s-deploy.md)
@@ -35,6 +35,8 @@
 ### [Surface Hub Teams 앱](hub-teams-app.md)
 
 ## 관리
+### [Windows 10 Team 2020 업데이트 Preview 빌드 설치](surface-hub-install-2020preview.md)  
+### [Surface Hub에 새 Microsoft Edge 설치 및 구성](surface-hub-install-chromium-edge.md)        
 ### [Microsoft Intune을 사용하여 Surface Hub 2S 관리](surface-hub-2s-manage-intune.md)
 ### [Surface Hub 2S 설정에 대한 로컬 관리](local-management-surface-hub-settings.md)
 ### [디바이스 계정 암호 순환 관리](surface-hub-2s-manage-passwords.md)
@@ -45,9 +47,12 @@
 ### [디바이스 계정에 ActiveSync 정책 적용](apply-activesync-policies-for-surface-hub-device-accounts.md)
 ### [Surface Hub 2S에서 펜 펌웨어 업데이트](surface-hub-2s-pen-firmware.md)
 
+
 ## 보안
 ### [Surface Hub 보안 개요](surface-hub-security.md)
 ### [SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리](surface-hub-2s-secure-with-uefi-semm.md)
+### [Surface Hub의 최신 인증](surface-hub-modern-auth.md) 
+### [Surface Hub에서 암호 없는 로그인 구성](surface-hub-2s-phone-authenticate.md) 
 ### [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](surface-hub-wifi-direct.md)
 
 ## 문제 해결
@@ -88,6 +93,8 @@
 
 ## 관리
 ### [Microsoft Surface Hub 관리](manage-surface-hub.md)
+### [Windows 10 Team 2020 업데이트 Preview 빌드 설치](surface-hub-install-2020preview.md)  
+### [Surface Hub에 새 Microsoft Edge 설치 및 구성](surface-hub-install-chromium-edge.md)    
 ### [Surface Hub용 PowerShell](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [원격 Surface Hub 관리](remote-surface-hub-management.md)
 #### [MDM 공급자를 사용하여 설정 관리](manage-settings-with-mdm-for-surface-hub.md)
@@ -113,6 +120,8 @@
 ## 보안
 ### [Microsoft Authenticator로 Surface Hub 로그인](surface-hub-authenticator-app.md)
 ### [BitLocker 키 저장](save-bitlocker-key-surface-hub.md)
+### [Surface Hub의 최신 인증](surface-hub-modern-auth.md) 
+### [Surface Hub에서 암호 없는 로그인 구성](surface-hub-2s-phone-authenticate.md) 
 ### [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](surface-hub-wifi-direct.md)
 
 ## 문제 해결
