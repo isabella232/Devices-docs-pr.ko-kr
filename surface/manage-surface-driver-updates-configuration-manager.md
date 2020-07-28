@@ -1,5 +1,5 @@
 ---
-title: Configuration Manager에서 화면 드라이버 업데이트 관리
+title: Configuration Manager에서 구성 관리자 관리
 description: 이 문서에서는 Surface 장치에 대 한 펌웨어 및 드라이버 업데이트를 관리 하 고 배포 하는 데 사용할 수 있는 옵션을 설명 합니다.
 ms.assetid: b64879c4-37eb-4fcf-a000-e05cbb3d26ea
 ms.reviewer: ''
@@ -14,14 +14,14 @@ ms.sitesec: library
 ms.author: daclark
 ms.topic: article
 audience: itpro
-ms.openlocfilehash: 1a9c8c64bd524de58696c73a28795b69cc70a7b2
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: be32309b26ff6a873c36927cc39595022c4dbb90
+ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835868"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "10897076"
 ---
-# Configuration Manager에서 화면 드라이버 업데이트 관리
+# Configuration Manager에서 구성 관리자 관리
 
 ## 요약
 
@@ -119,7 +119,7 @@ SUP가 올바르게 구성 되어 있는지 확인 하려면 다음 단계를 �
 
    이전 섹션의 6 단계에서 선택한 제품을 찾을 수 없는 경우 SUP 설정이 저장 되었는지 두 번 확인 합니다.
 
-   다음 동기화가 완료 될 때까지 기다린 다음 Surface driver 및 펌웨어 업데이트가 Configuration Manager 콘솔의 소프트웨어 업데이트에 나열 되는지 확인 합니다. 예를 들어 콘솔에는 다음 정보가 표시 될 것입니다.
+   다음 동기화가 완료 될 때까지 기다린 다음 Surface driver 및 펌웨어 업데이트가 Configuration Manager 콘솔의 소프트웨어 업데이트에 나열 되는지 확인 합니다. 예를 들어 콘솔에 다음 정보가 표시 될 것입니다.
 
    ![모든 소프트웨어 업데이트 검색 결과](images/manage-surface-driver-updates-4.png)
 
@@ -162,24 +162,23 @@ SUP가 올바르게 구성 되어 있는지 확인 하려면 다음 단계를 �
 
 Microsoft 업데이트 대신 업스트림 WSUS (Windows Server Update Services) 서버에서 동기화 하는 경우에는 업스트림 WSUS 서버가 Surface driver 업데이트를 지원 하 고 동기화 하도록 구성 되어 있는지 확인 합니다. 모든 다운스트림 서버는 업스트림 WSUS 서버 데이터베이스에 있는 업데이트로 제한 됩니다.
 
-WSUS의 드라이버로 분류 되는 68000 업데이트가 있습니다. 비 Surface 관련 드라이버를 구성 관리자와 동기화 하는 것을 방지 하기 위해 Microsoft는 허용 목록에 대해 드라이버 동기화를 필터링 합니다. 새 허용 목록이 게시 되 고 구성 관리자에 통합 되 면 다음 동기화 이후 새 드라이버가 콘솔에 추가 됩니다. Microsoft는 Configuration Manager와 동기화 하는 데 사용할 수 있도록 각 월에 허용 목록에 추가 된 화면 드라이버를 다운로드 하는 것을 목표로 합니다.
+WSUS의 드라이버로 분류 되는 68000 업데이트가 있습니다. 비 Surface 관련 드라이버를 구성 관리자와 동기화 하는 것을 방지 하기 위해 Microsoft는 허용 목록에 대해 드라이버 동기화를 필터링 합니다. 새 허용 목록이 게시 되 고 구성 관리자에 통합 되 면 다음 동기화 이후 새 드라이버가 콘솔에 추가 됩니다. Microsoft는 매월 업데이트 릴리스와 함께 허용 목록에 추가 된 Surface 드라이버를 구성 관리자와 동기화 하는 데 사용할 수 있도록 하는 것을 목표로 가져옵니다.
 
-구성 관리자 환경이 오프 라인 상태인 경우에는 Configuration Manager에 대 한 [서비스 업데이트](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) 를 가져올 때마다 새 허용 목록을 가져옵니다. 또한 업데이트가 Configuration Manager 콘솔에 표시 되기 전에 해당 드라이버를 포함 하는 [새 WSUS 카탈로그](https://docs.microsoft.com/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) 를 가져와야 합니다. 독립 실행형 WSUS 환경에는 구성 관리자 SUP 보다 더 많은 드라이버가 포함 되어 있으므로 온라인 기능이 있는 Configuration Manager 환경을 설정 하 고 화면 드라이버를 동기화 하도록 구성 하는 것이 좋습니다. 이것은 오프 라인 환경과 비슷하게 WSUS 내보내기의 크기를 줄입니다.
+구성 관리자 환경이 오프 라인인 경우에는 Configuration Manager에 대 한 [서비스 업데이트](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) 를 가져올 때마다 새 허용 목록을 가져옵니다. 또한 업데이트가 Configuration Manager 콘솔에 표시 되기 전에 해당 드라이버를 포함 하는 [새 WSUS 카탈로그](https://docs.microsoft.com/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) 를 가져와야 합니다. 독립 실행형 WSUS 환경에는 구성 관리자 SUP 보다 더 많은 드라이버가 포함 되어 있으므로 온라인 기능이 있는 Configuration Manager 환경을 설정 하 고 Surface drivers를 동기화 하도록 구성 하는 것이 좋습니다. 이것은 오프 라인 환경과 비슷하게 WSUS 내보내기의 크기를 줄입니다.
 
-Configuration Manager 환경이 온라인 상태이 고 새 업데이트를 검색할 수 있는 경우 목록에 대 한 업데이트를 자동으로 받게 됩니다. 예상 되는 드라이버가 표시 되지 않으면 모든 동기화 오류에 대해 WCM 및 WsyncMgr. 로그를 검토 하세요.
+Configuration Manager 환경이 온라인 상태이 고 새 업데이트를 검색할 수 있는 경우 목록에 대 한 업데이트를 자동으로 받게 됩니다. 예상 되는 드라이버가 표시 되지 않으면 모든 동기화 오류에 대해 WCM 및 WsyncMgr 파일을 검토 하세요.
 
-**내 구성 관리자 환경이 오프 라인 상태 이므로 수동으로 Surface drivers를 WSUS로 가져올 수 있나요?**
+**내 구성 관리자 환경이 오프 라인 상태입니다. 수동으로 Surface drivers를 WSUS로 가져올 수 있나요?**
 
 아니요. 업데이트를 WSUS에 가져오면 해당 업데이트가 허용 목록에 나열 되어 있지 않은 경우 배포를 위해 Configuration Manager 콘솔로 가져오지 않습니다. [서비스 연결 도구](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) 를 사용 하 여 구성 관리자에 대 한 서비스 업데이트를 가져와 허용 목록을 업데이트 해야 합니다.
 
 **화면 드라이버와 펌웨어 업데이트를 배포 하는 데는 어떤 대체 방법이 필요 한가요?**
 
-대체 채널을 통해 Surface driver 및 펌웨어 업데이트를 배포 하는 방법에 대 한 자세한 내용은 [surface driver 및 펌웨어 업데이트 관리](https://docs.microsoft.com/surface/manage-surface-driver-and-firmware-updates)를 참조 하세요. .Msi 또는 .exe 파일을 다운로드 한 다음 기존 소프트웨어 배포 채널을 통해 배포 하려는 경우에는 [구성 관리자를 사용 하 여 Surface 펌웨어를 업데이트 상태로 유지](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager)를 참조 하세요.
+대체 채널을 통해 Surface driver 및 펌웨어 업데이트를 배포 하는 방법에 대 한 자세한 내용은 [surface driver 및 펌웨어 업데이트 관리](manage-surface-driver-and-firmware-updates.md)를 참조 하세요. .Msi 또는 .exe 파일을 다운로드 한 다음 기존 소프트웨어 배포 채널을 통해 배포 하려는 경우에는 [구성 관리자를 사용 하 여 Surface 펌웨어를 업데이트 상태로 유지](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager)를 참조 하세요.
 
 ## 추가 정보
 
 Surface driver 및 펌웨어 업데이트에 대 한 자세한 내용은 다음 문서를 참조 하세요.
 
-- [Surface 장치의 최신 펌웨어 및 드라이버 다운로드](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)
-- [Surface 드라이버 및 펌웨어 업데이트 관리](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
-- [Surface 및 System Center Configuration Manager에 대한 고려 사항](https://docs.microsoft.com/surface/considerations-for-surface-and-system-center-configuration-manager)
+- [Surface 드라이버 및 펌웨어 업데이트 관리](manage-surface-driver-and-firmware-updates.md)
+- [Surface 및 System Center Configuration Manager에 대한 고려 사항](considerations-for-surface-and-system-center-configuration-manager.md)
