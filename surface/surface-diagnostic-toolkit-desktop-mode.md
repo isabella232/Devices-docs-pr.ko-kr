@@ -1,6 +1,6 @@
 ---
 title: 비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
-description: SDT를 사용 하 여 조직의 사용자가 Surface 디바이스의 문제를 식별 하 고 진단 하는 데 도움이 되도록 도구를 실행 하는 방법을 설명 합니다.
+description: SDT를 사용 하 여 조직의 사용자가 Surface 디바이스의 문제를 식별 하 고 진단 하는 데 도움을 주는 방법과 도구에서 직접 지원 요청을 제출 하는 방법에 대해 알아봅니다.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,16 +11,19 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9e6b34a8d34081fc12cab4851104f0b67c3dfea4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 7/31/2020
+ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834268"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902976"
 ---
 # 비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
 
-이 항목에서는 Surface 진단 도구 키트 (SDT)를 사용 하 여 조직의 사용자가 Surface 디바이스의 문제를 식별 하 고 진단 하는 데 도움을 주는 방법에 대해 설명 합니다. SDT를 성공적으로 실행 하면 보고 된 문제가 하드웨어 또는 사용자 오류로 인해 발생 했는지 신속 하 게 확인할 수 있습니다. SDT의 지원 되는 Surface 디바이스 목록은 [비즈니스용 배포 Surface 진단 툴킷](surface-diagnostic-toolkit-business.md)을 참조 하세요.
+이 항목에서는 Surface 진단 도구 키트 (SDT)를 사용 하 여 조직의 사용자가 Surface 디바이스의 문제를 식별 하 고 진단 하는 데 도움이 되 고 도구에서 직접 지원 요청을 제출 하는 방법에 대해 설명 합니다. 
+
+SDT를 성공적으로 실행 하면 보고 된 문제가 하드웨어 또는 사용자 오류로 인해 발생 했는지 신속 하 게 확인할 수 있습니다. SDT의 지원 되는 Surface 디바이스 목록은 [비즈니스용 배포 Surface 진단 툴킷](surface-diagnostic-toolkit-business.md)을 참조 하세요.
 
 
 1. 사용자가 소프트웨어 배포 지점이 나 네트워크 공유에서 [SDT 패키지](surface-diagnostic-toolkit-business.md#create-custom-sdt) 를 설치 하도록 지시할 수 있습니다. 설치 된 후에는 일련의 테스트를 통해 사용자를 안내할 준비가 된 것입니다. 
@@ -32,12 +35,12 @@ ms.locfileid: "10834268"
 
 3. SDT가 장치에 최신 업데이트가 있음을 나타내면 **계속** 을 클릭 하 여 그림 2와 같이 사용 가능한 테스트의 카탈로그로 이동 합니다.
 
-    ![SDT 옵션 ](images/sdt-desk-2.png)
+    ![SDT 옵션 ](images/sdt1.png)
  *그림 2에서 선택 합니다. SDT 옵션에서 선택*
 
 4. 모든 진단 테스트를 실행 하도록 선택할 수 있습니다. 또는 잘못 된 표시 또는 전원 공급 장치 문제와 같은 특정 문제가 이미 의심 되는 경우 **선택** 을 클릭 하 여 사용 가능한 테스트 중에서 선택 하 고 다음을 클릭 하 여 그림 3에 표시 된 것 처럼 **실행**을 선택 합니다. 각 테스트에 대 한 자세한 내용은 다음 표를 참조 하세요. 
 
-    ![하드웨어 테스트 선택 ](images/sdt-desk-3.png)
+    ![하드웨어 테스트 선택 ](images/sdt2.png)
  *그림 3. 하드웨어 테스트 선택*
 
     하드웨어 테스트 | 설명
@@ -46,15 +49,21 @@ ms.locfileid: "10834268"
     디스플레이 및 소리   | 밝기, 정지 또는 데드 픽셀, 스피커, 마이크 작동을 확인 합니다.
     포트 및 액세서리   | 액세서리, 화면 연결, USB 작동을 확인 합니다.
     Connectivity |  Bluetooth, 무선 및 LTE 연결 확인
-    보안    | 보안 관련 문제를 확인 합니다.
+    Security    | 보안 관련 문제를 확인 합니다.
     터치   | 터치 관련 문제 확인
     키보드 및 터치 |    통합 키보드 연결을 확인 하 고 덮개를 입력 합니다.
     센서 | 장치에서 다른 센서의 기능을 검사 합니다.
     하드웨어 |  그래픽 카드, 카메라 등의 다양 한 하드웨어 구성 요소에 대 한 문제 확인
 
+5. 모든 테스트가 완료 되 면 도구가 문제 해결 여부를 확인 하는 메시지를 표시 합니다. 
 
+ ![문제가 해결 되었습니까? ](images/sdt3.png)
+ *그림 3a. 문제가 해결 되었습니까?*
 
-
+6. 문제가 해결 되지 않았거나 알 수 없는 경우 **에** 는 문의처를 선택 하 여 지원 티켓을 제출 하 여 **도움을 받으세요.**
+ 
+ ![지원 티켓 제출 ](images/sdt4.png)
+ *그림 3b. 지원 티켓 제출*
 
 <span id="multiple" />
 

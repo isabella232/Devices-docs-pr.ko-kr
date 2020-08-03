@@ -52,6 +52,7 @@
 ### [배터리 제한 설정](battery-limit.md)
 ### [Surface 밝기 제어](microsoft-surface-brightness-control.md)
 ### [Surface 자산 태그](assettag.md)
+### [Surface 디바이스에 대한 Wake On Power](wake-on-power-for-surface.md)
 
 ## 보안
 

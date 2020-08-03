@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 05/11/2020
+ms.date: 07/31/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9233ca1f7e32e2017424e9fb6ceb0556de9d37bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834300"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902986"
 ---
 # 비즈니스용 Surface 진단 도구 키트 배포
 
@@ -107,7 +107,7 @@ Microsoft Surface (비즈니스 관련 진단 도구 키트) (SDT)는 IT 관리�
     ```
     msiexec.exe /i <the path of installer> ADMINMODE=1. 
     ```
-    **예:**
+    **예제:**
 
     ```
     C:\Users\Administrator> msiexec.exe/I"C:\Users\Administrator\Desktop\Microsoft_Surface_Diagnostic_Toolkit_for_Business_Installer.msi" ADMINMODE=1
@@ -179,6 +179,14 @@ SDT는 .exe 파일 외에도 그림 2와 같이 JSON 파일과 admin.dll 파일 
 - [명령을 사용 하 여 비즈니스를 위한 Surface 진단 도구 키트 사용](surface-diagnostic-toolkit-command-line.md)
 
 ## 변경 및 업데이트
+
+
+### 버전 2.121.139
+*릴리스 날짜: 31 2020 년 7 월*<br>
+이 버전의 비즈니스용 Surface 진단 도구 키트에는 다음에 대 한 지원이 추가 되었습니다.
+
+- 원활한 지원 환경
+- 버그 수정
 
 ### 버전 2.94.139.0
 *릴리스 날짜: 5 월 11 일 2020*<br>
