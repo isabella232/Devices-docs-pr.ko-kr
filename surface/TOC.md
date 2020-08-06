@@ -74,5 +74,11 @@
 #### [비즈니스용 Surface 진단 도구 키트 배포](surface-diagnostic-toolkit-business.md)
 #### [비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용](surface-diagnostic-toolkit-desktop-mode.md)
 #### [명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행](surface-diagnostic-toolkit-command-line.md)
-
 ### [Surface 문서 변경 기록](change-history-for-surface.md)
+### [최종 사용자를 위한 도움말](https://support.microsoft.com/products/surface-devices)
+
+## 무상 수리 및 확장 서비스 플랜
+### [Surface for Business 무상 수리 및 확장 서비스 플랜](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+### [사용 약관](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [장치 무상 수리 상태 확인](https://mybusinessservice.surface.com/)
+### [서비스를 위해 Surface를 보낼 때 데이터 보호](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
