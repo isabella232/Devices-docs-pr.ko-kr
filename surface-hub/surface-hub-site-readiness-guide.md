@@ -9,12 +9,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f523fcfb29a2a7141dcc13183d7b0bc2801fc796
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 74b48d6fb7501d8c17d17604b5b2dbc9eff308c9
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835167"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916019"
 ---
 # Surface Hub 사이트 준비 가이드 
 
@@ -115,6 +115,7 @@ Surface Hub를 탑재 하는 방법에는 세 가지가 있습니다.
 무선 연결이 Miracast를 기반으로 하기 때문에 케이블 또는 추가 설정 계획을 사용할 필요가 없습니다. 사용자는 대부분의 Miracast 지원 Windows 8.1 및 Windows 10 장치에서 Miracast를 로드할 수 있습니다. 그런 다음 컴퓨터 또는 휴대폰에서 Surface Hub 화면으로 자신의 디스플레이를 투영할 수 있습니다.
 
 <span id="wired" />
+
 #### 유선 연결
 
 유선 연결을 사용 하는 케이블은 컴퓨터, 태블릿 또는 휴대폰에서 Surface Hub로 정보를 전송 합니다. 3 개의 비디오 케이블 옵션이 있으며, 모두 동일한 USB 2.0 케이블을 사용 합니다. 케이블 번들에는 이러한 연결 옵션이 하나 또는 모두 포함 될 수 있습니다.
@@ -137,6 +138,6 @@ Touchback 및 Inkback에 대 한 자세한 내용은의 사용자 가이드를 �
 
 
 
-## 기타 참조
+## 참고 항목
 
 [동영상 보기(팝업 미디어 플레이어에서 열림)](https://compass.xbox.com/assets/27/aa/27aa7dd7-7cb7-40ea-9bd6-c7de0795f68c.mov?n=04.07.16_installation_video_01_site_readiness.mov)  

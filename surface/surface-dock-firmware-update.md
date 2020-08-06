@@ -11,12 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: aab4c67a6a262b11cd5982ebe145afbddfeaa1c9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 8/05/2020
+ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834631"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916029"
 ---
 # Microsoft Surface Dock 펌웨어 업데이트: IT 관리자를 위한 기술 정보
 
@@ -56,7 +57,7 @@ ms.locfileid: "10834631"
 3. 이 문서의 [다음 섹션](#install-the-surface-dock-firmware-update) 에 설명 된 대로 업데이트를 설치 합니다.
 4. 다음 텍스트를 포함 하는 이벤트 2007에 업데이트 **완료 됨 펌웨어가 업데이트 되었습니다. hr = 0 Driverementry EventCode = 2007**. 
     - 업데이트가 실패 하면 이벤트 ID 2007이 **정보가**아닌 **오류** 이벤트로 표시 됩니다. 또한 Windows 레지스트리에 보고 된 버전은 최신 상태가 아닙니다.
-5. 업데이트가 완료 되 면 최신 버전의 도구에 해당 하는 업데이트 된 DWORD 값이 Windows 레지스트리에 표시 됩니다. 자세한 내용은이 문서의 [버전 참조](#versions-reference) 섹션을 참조 하세요. 예:
+5. 업데이트가 완료 되 면 최신 버전의 도구에 해당 하는 업데이트 된 DWORD 값이 Windows 레지스트리에 표시 됩니다. 자세한 내용은이 문서의 [버전 참조](#versions-reference) 섹션을 참조 하세요. 예를 들어 다음과 같은 가치를 제공해야 합니다.
     - Component10CurrentFwVersion 0x04ac3970 (78395760)
     - Component20CurrentFwVersion 0x04915a70 (76634736)
 
@@ -75,7 +76,7 @@ Windows Installer 명령 (Msiexec.exe)을 사용 하 여 네트워크를 통해 
 
 - **Msiexec.exe/i \<path to msi file\> /quiet/norestart** 
 
-  예:
+  예를 들어 다음과 같은 가치를 제공해야 합니다.
   ```
   msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
   ```
@@ -155,6 +156,16 @@ Surface Dock 펌웨어 업데이트가 성공적으로 완료 되 면 이러한 
 
 >[!NOTE]
 >**Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (예: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 인 설치 파일은 기본적으로 C:\Program Files\SurfaceUpdate.에 설치 되 고 다음과 같은 이름 지정 형식으로 릴리스됩니다.
+
+### 버전 1.53.139.0
+*릴리스 날짜: 2020 년 8 월 4 일*
+
+이 버전의 Surface Dock 펌웨어 업데이트에는 다음에 대 한 버그 수정 및 지원이 포함 됩니다.
+- Surface Pro X를 사용 하 여 Surface Dock 1을 업데이트 합니다. 
+   > [!NOTE]
+   > Surface Pro X를 실행 하는 경우을 다운로드 합니다. ARM64 빌드. 다른 모든 장치에는 AMD64 빌드를 사용 합니다. 
+ 
+
 
 ### 버전 1.42.139 
 *릴리스 날짜: 18 2019 년 9 월*

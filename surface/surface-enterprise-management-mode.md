@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 05/26/2020
-ms.openlocfilehash: 116aeb6d1d92f387efa34319f7852febda729207
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 08/05/2020
+ms.openlocfilehash: 4af917ca583dac504bc61bdfb36c8b8485473db9
+ms.sourcegitcommit: 97e19fdcd074647bedec9efdfd3ce28e900ae2ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835607"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916520"
 ---
 # Microsoft Surface Enterprise 관리 모드
 
@@ -102,7 +102,7 @@ SEMM 인증서에 대 한 요구 사항에 대 한 자세한 내용은이 문서
 | 자동 전원 켜기                      | 자동 전원 켜기 부팅 설정을 관리할 수 있습니다. 이 설정을 구성 하지 않으면 자동 전원을 켤 수 있습니다.                                                                                                        |
 | SMT (동시 다중 스레드) | 하이퍼스레딩을 사용 하거나 사용 하지 않도록 설정 하는 동시 다중 스레드 (SMT)를 관리할 수 있습니다. 이 설정을 구성 하지 않으면 SMT가 사용 하도록 설정 됩니다.                                                  |
 |배터리 한도 사용| 배터리 제한 기능을 관리할 수 있습니다. 이 설정을 구성 하지 않으면 배터리 한도가 사용 됩니다. |
-| 보안                           | Surface UEFI **보안** 페이지를 표시 합니다. 이 설정을 구성 하지 않으면 보안 페이지가 표시 됩니다.                                                                                                                 |
+| Security                           | Surface UEFI **보안** 페이지를 표시 합니다. 이 설정을 구성 하지 않으면 보안 페이지가 표시 됩니다.                                                                                                                 |
 | 장치                            | Surface UEFI **장치** 페이지를 표시 합니다. 이 설정을 구성 하지 않으면 장치 페이지가 표시 됩니다.                                                                                                                     |
 | Boot                               | Surface UEFI **부팅** 페이지를 표시 합니다. 이 설정을 구성 하지 않으면 부팅 페이지가 표시 됩니다.                                                                                                                                                            |
 | DateTime                           | Surface UEFI **날짜/시간** 페이지를 표시 합니다. 이 설정을 구성 하지 않으면 날짜/시간 페이지가 표시 됩니다.                                                                                                                |
@@ -226,6 +226,16 @@ SEMM 재설정 또는 복구가 작동 하도록 하려면 인증서가 유효 �
 
 ## 버전 기록
 
+
+### 버전 2.73.136.0
+
+이 SEMM 버전에는 다음이 포함 됩니다.
+
+- 이제 Surface Hub2S에서 오디오를 사용 하지 않도록 설정할 수 있음 (SEMM)
+- Dock 2 용 Surface Pro X에 대 한 지원
+- 2에 고정 연결 작업에 대 한 UEFI 관리자 지원
+- Surface Go 패키지 버그 수정 다시 설정
+
 ### 버전 2.71.139.0
 
 이 SEMM에는 surface Book 3, Surface 랩톱 3 및 Surface Pro 7에 대 한 Surface Dock 2 관리 기능에 대 한 지원이 추가 됩니다.
@@ -281,5 +291,5 @@ SEMM 재설정 또는 복구가 작동 하도록 하려면 인증서가 유효 �
 ## 관련 항목
 
 - [SEMM을 사용하여 Surface 장치 등록 및 구성](enroll-and-configure-surface-devices-with-semm.md)
-- [SEMM에서 Surface 장치 등록 해제](unenroll-surface-devices-from-semm.md)
-- [보안 Surface Dock 2 포트 (SEMM)](secure-surface-dock-ports-semm.md)
+- [SEMM에서 Surface 디바이스 등록 취소](unenroll-surface-devices-from-semm.md)
+- [Secure Surface Dock 2 포트(SEMM 포함)](secure-surface-dock-ports-semm.md)
