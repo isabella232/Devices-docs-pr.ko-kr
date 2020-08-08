@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/05/2020
-ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
-ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
+ms.date: 8/07/2020
+ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
+ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916029"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "10918938"
 ---
 # Microsoft Surface Dock 펌웨어 업데이트: IT 관리자를 위한 기술 정보
 
@@ -39,7 +39,7 @@ ms.locfileid: "10916029"
     - 업데이트에는 Windows 10 버전 1803 이상을 실행 하는 Surface 장치가 필요 합니다.
     - MSI 파일을 설치 하면 Surface를 다시 시작 하 라는 메시지가 표시 될 수 있습니다. 그러나 업데이트를 수행 하는 데는 다시 시작이 필요 하지 않습니다.
 
-2. Surface Dock (전원 어댑터 사용)에서 Surface 디바이스의 연결을 끊고 ~ 5 초간 기다린 다음 다시 연결 합니다. Surface Dock 펌웨어 업데이트는 백그라운드에서 자동으로 도크를 업데이트 합니다. 이 프로세스는 완료 하는 데 몇 분 정도 소요 될 수 있으며 중단 된 경우에도 계속 됩니다. 
+2. Surface Dock에서 Surface device의 연결을 끊고 ~ 5 초간 기다린 다음 다시 연결 합니다. Surface Dock 펌웨어 업데이트는 백그라운드에서 자동으로 도크를 업데이트 합니다. 이 프로세스는 완료 하는 데 몇 분 정도 소요 될 수 있으며 중단 된 경우에도 계속 됩니다. 
 
 ## Surface Dock 펌웨어 업데이트 모니터링
 
