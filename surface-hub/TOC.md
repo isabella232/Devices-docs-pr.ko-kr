@@ -17,7 +17,7 @@
 #### [Surface Hub 2S의 벽걸이 사용자 지정](surface-hub-2s-custom-install.md)
 #### [설치 워크시트](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S 포트 및 키패드 개요](surface-hub-2s-port-keypad-overview.md)
-#### [Surface Hub 2S에 디바이스 연결](surface-hub-2s-connect.md)
+#### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
 ### [Microsoft Surface Hub 2S에 대한 사용자 환경 준비](surface-hub-2s-prepare-environment.md)
 
 
@@ -35,7 +35,8 @@
 ### [Surface Hub Teams 앱](hub-teams-app.md)
 
 ## 관리
-### [Windows 10 Team 2020 업데이트 Preview 빌드 설치](surface-hub-install-2020preview.md)  
+### [Windows 10 Team 2020 업데이트 미리 보기 빌드 설치](surface-hub-install-2020preview.md)  
+### [알려진 문제-Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
 ### [Surface Hub에 새 Microsoft Edge 설치 및 구성](surface-hub-install-chromium-edge.md)        
 ### [Microsoft Intune을 사용하여 Surface Hub 2S 관리](surface-hub-2s-manage-intune.md)
 ### [Surface Hub 2S 설정에 대한 로컬 관리](local-management-surface-hub-settings.md)
