@@ -10,12 +10,12 @@ ms.date: 01/18/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: bdc6e384839606fe6138c75e190d68a84679f5b4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 722309a6b018c32bde329cb7b2cdd68b859fc1ca
+ms.sourcegitcommit: 8e809e8481023fe4421abcdaa1e055a6f2f74f5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834895"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "10924944"
 ---
 # Microsoft Surface Hub에 대한 Windows 10 버전 1703의 새로운 기능은 무엇인가요?
 
@@ -65,7 +65,7 @@ Surface Hub 디바이스를 초기화하면 이제 클라우드에서 운영 체
     
 ## 세션 종료
 
-**완료**가 이제 **세션 종료**로 변경되었습니다. [세션 종료를 사용하는 방법을 알아보세요.](i-am-done-finishing-your-surface-hub-meeting.md) 
+**완료**가 이제 **세션 종료**로 변경되었습니다. [세션 종료를 사용하는 방법을 알아보세요.](finishing-your-surface-hub-meeting.md) 
 
 ![세션 종료](images/end-session.png)
 

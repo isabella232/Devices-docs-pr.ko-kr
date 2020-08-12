@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/17/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 04eb2b08ebc8fc7034ab5d27a038c5d517a2eda3
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 935f67e88af8b784230becb1cd89f7360b8a0857
+ms.sourcegitcommit: 8e809e8481023fe4421abcdaa1e055a6f2f74f5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10837009"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "10924964"
 ---
 # Microsoft Surface Hub 관리
 
@@ -40,7 +40,7 @@ Surface Hub 관리 및 업데이트에 대해 알아봅니다.
 | [Surface Hub에 앱 설치]( https://technet.microsoft.com/itpro/surface-hub/install-apps-on-surface-hub) | 관리자는 Microsoft Store 또는 비즈니스용 Microsoft Store에서 앱을 설치할 수 있습니다.|
 [Surface Hub 시작 메뉴 구성](surface-hub-start-menu.md) | MDM를 사용하여 Surface Hub에 대한 시작 메뉴를 사용자 지정합니다.
 | [Microsoft Whiteboard 설정 및 사용](whiteboard-collaboration.md)  | Microsoft Whiteboard의 최신 업데이트에는 실시간으로 동일한 보드에서 공동 작업하기 위한 두 개의 Surface Hub에 대한 기능이 포함되어 있습니다.   |
-| [세션 종료를 사용하여 모임 종료](https://technet.microsoft.com/itpro/surface-hub/i-am-done-finishing-your-surface-hub-meeting) | 모임이 끝나면 사용자가 **세션 종료**를 탭하여 중요한 데이터를 정리하고 다음 모임을 위해 장치를 준비할 수 있습니다.|
+| [세션 종료를 사용하여 모임 종료](https://technet.microsoft.com/itpro/surface-hub/finishing-your-surface-hub-meeting) | 모임이 끝나면 사용자가 **세션 종료**를 탭하여 중요한 데이터를 정리하고 다음 모임을 위해 장치를 준비할 수 있습니다.|
 | [Microsoft Authenticator로 Surface Hub 로그인](surface-hub-authenticator-app.md) | Android 및 iOS에서 사용 가능한 Microsoft Authenticator 앱을 사용하여 암호 없이 Surface Hub에 로그인할 수 있습니다.   |
 | [BitLocker 키 저장](https://technet.microsoft.com/itpro/surface-hub/save-bitlocker-key-surface-hub) | 모든 Surface Hub가 BitLocker 드라이브 암호화 소프트웨어를 사용하여 자동으로 설정됩니다. BitLocker 복구 키를 백업하는 것이 좋습니다.|
 | [다른 디바이스를 연결하여 Surface Hub에서 표시](https://technet.microsoft.com/itpro/surface-hub/connect-and-display-with-surface-hub) | 다른 디바이스를 Surface Hub에 연결하여 콘텐츠를 표시할 수 있습니다.|
