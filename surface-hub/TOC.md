@@ -112,7 +112,7 @@
 ### [Surface Hub에 앱 설치](install-apps-on-surface-hub.md)
 ### [Surface Hub 시작 메뉴 구성](surface-hub-start-menu.md)
 ### [Microsoft Whiteboard 설정 및 사용](whiteboard-collaboration.md) 
-### [세션 종료를 사용하여 Surface Hub 모임 종료](i-am-done-finishing-your-surface-hub-meeting.md)
+### [세션 종료를 사용하여 Surface Hub 모임 종료](finishing-your-surface-hub-meeting.md)
 ### [다른 디바이스를 연결하여 Surface Hub에서 표시](connect-and-display-with-surface-hub.md)
 ### [기존 무선 네트워크 또는 LAN의 Miracast](miracast-over-infrastructure.md)
 ### [802.1x 유선 인증 사용](enable-8021x-wired-authentication.md)
