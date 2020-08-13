@@ -1,7 +1,7 @@
 ---
-title: 연락처 표면 지원
+title: Surface 지원 문의
 ms.author: v-todmc
-author: todmccoy
+author: greg-lindsay
 manager: laurawi
 ms.date: 5/27/2020
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Microsoft Surface 및 Surface Hub 제품에 대 한 지원 정보
-ms.openlocfilehash: e36139b48e77907e0a2bc044e82cbc67c8bb6503
-ms.sourcegitcommit: ef49c3356fdce856b51239eb9c070df7b869e110
+ms.openlocfilehash: 52be75fdec27e1ccf4d68be36afab19c77db540a
+ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "10861250"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "10926300"
 ---
 # Surface 지원
 

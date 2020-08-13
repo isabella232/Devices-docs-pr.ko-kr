@@ -1,5 +1,5 @@
 ---
-title: Surface의 Windows 가상 데스크톱
+title: 가상 데스크톱 Windows Virtual Desktop
 description: 이 문서에서는 Surface 디바이스에서 Windows 가상 데스크톱 솔루션에 대 한 이상적인 종료 노드를 제공 하 여 고객에 게 유연한 폼 팩터, Windows 10 최신 장치 보안 및 관리 효율성, 그리고 지속적인 주문형 & just-in-time 작업 시나리오에 대 한 지원을 제공 합니다.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -8,22 +8,22 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 5/20/2020
+ms.date: 8/12/2020
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 7db54b7bf8d08a10707753738e40c358a8723cf4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a3dfb5e4b2e5dc87dd4ae1dbced943e6be0772df
+ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835079"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "10926310"
 ---
-# Surface의 Windows 가상 데스크톱
+# 가상 데스크톱 Windows Virtual Desktop
 
 ## 소개
 
-Surface의 Windows 가상 데스크톱을 사용 하면 Surface 디바이스에서 VDI (가상 데스크톱 인프라)를 실행 하 여 로컬 데스크톱 환경과 터치, 펜, 잉크 및 생체 인식 인증이 물리적 환경과 가상 환경 모두에 걸쳐 있는 가상 데스크톱 간의 선을 흐리게 표시할 수 있습니다. 컴퓨팅을 진행 하는 동안 다른 중요 시점을 표시 하는 경우 Surface 1에 있는 Windows 가상 데스크톱 <a href="#1"><sup> </sup></a> 은 Azure 클라우드에서 가상화 된 Microsoft 365를 windows 10의 고급 보안 보호, 엔터프라이즈 수준의 관리 효율성 및 향상 된 생산성 도구를 사용 하 여 통합 합니다.  Azure의 premium form 팩터 및 가상 데스크톱 인프라에 대 한이 통합은 사용자 환경, 이식성, 보안, 비즈니스 연속성, 그리고 현대적인 관리를 통해 탁월한 고객 가치를 제공 합니다.
+Surface의 Windows 가상 데스크톱을 사용 하면 Surface 디바이스에서 VDI (가상 데스크톱 인프라)를 실행 하 여 로컬 데스크톱 환경과 터치, 펜, 잉크 및 생체 인식 인증이 물리적 환경과 가상 환경 모두에 걸쳐 있는 가상 데스크톱 간의 선을 흐리게 표시할 수 있습니다. 컴퓨팅을 진행 하는 동안 다른 중요 시점을 표시 하는 경우 Surface 1에 있는 Windows 가상 데스크톱 <a href="#1"><sup> </sup></a> 은 Azure 클라우드에서 가상화 된 Microsoft 365를 windows 10의 고급 보안 보호, 엔터프라이즈 수준의 관리 효율성 및 향상 된 생산성 도구를 사용 하 여 통합 합니다.  Azure의이 프리미엄 폼 팩터 및 가상 데스크톱 인프라에 대 한이 통합은 사용자 환경, 이식성, 보안, 비즈니스 연속성, 그리고 최신 관리를 통해 탁월한 고객 가치를 제공 합니다.
 
 ### Windows Virtual Desktop
 
@@ -37,7 +37,7 @@ Windows 가상 데스크톱에 대 한 승인 된 파트너 공급자 및 독립
 
 Surface 공학적는 터치, 음성, 잉크 또는 Surface Dial 등 장치와 상호 작용 하는 데 더 자연 스러운 방법을 생각 하기 위해 키보드와 마우스를 통해 혁신을 위한 새로운 표준입니다. Microsoft 365의 칩 대 클라우드 통합 및 Windows 10 Pro의 보안 및 관리 효율성을 위해 Surface는 연결 된 하드웨어, 소프트웨어, 앱 및 서비스를 의도 된 방식으로 제공 합니다. Windows 7로 복구 되는 Windows 장치에서 WVD를 실행할 수 있지만 Microsoft Surface 디바이스는 다음에 대 한 지원을 비롯 하 여 고유한 장점을 제공 합니다.
 
-- **유연한 폼 팩터** -Surface Go 2, surface pro 7 및 Surface pro X와 같은 2-1 개 디바이스 (예: 펜, 터치 및 분리형 키보드)
+- **유연한 폼 팩터** -Surface Go 2, surface pro 7 및 Surface pro X와 같은 2-1 개 디바이스 (예: 펜, 터치 및 분리형 키보드) 새 Surface Duo를 사용 하 여 WVD에 연결할 수도 있습니다.
 - **지속적인 주문형 및 just-in-time 작업 시나리오** -보다 생산적인 환경에 대 한 오프 라인 및 장치에서 액세스할 때 사용 합니다.
 - **Windows 10 최신 장치 보안 및 관리 효율성** -어디서 나 생산성 높은 유연성을 제공 합니다.
 
