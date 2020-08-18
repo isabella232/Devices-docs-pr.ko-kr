@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 05279a54b51113ca96c4c939e8d64e51c4eca543
-ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
+ms.openlocfilehash: 389db218d06f9f8d3f510e711b03487daf4e06f9
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10893117"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934868"
 ---
 # Intune으로 Surface Hub 2S 관리하기
 
@@ -35,7 +35,7 @@ Surface Hub 2S에서는 IT 관리자가 MDM(모바일 장치 관리) 공급자�
 
 초기 설정 프로세스 중에 Intune 자동 등록이 설정된 Azure AD 테넌트로 Surface Hub를 연결하는 경우 장치가 자동으로 Intune에 등록됩니다. 자세한 내용은 [Windows 장치에 대한 Intune 등록 방법](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods)을 참조하세요. Surface Hub가 Intune에서 "호환 장치"가 되려면 Azure AD에 연결과 Intune 자동 등록이 필요합니다. 
 
-## Intune을 사용 하 여 Windows 10 Team Edition 설정 관리
+## Intune을 사용 하 여 Windows 10 팀 설정 관리
 
 1. **Microsoft Endpoint Manager**에 로그인 하 고 **장치**  >  **구성 프로필**을 선택 하 여  >  **프로필을 만듭니다**. 
 2. **플랫폼**에서 **windows 10 이상**  >  **장치 제한 (windows 10 팀)** 을 선택 하 고 **만들기**를 선택 합니다. 
@@ -63,7 +63,7 @@ Surface Hub 2S에서 최적의 비디오 및 오디오 품질을 보장하려면
 
 ### Microsoft Teams QoS 설정 
 
-|**이름**|**설명**|**OMA-URI**|**형식**|**값**|
+| 이름 | 설명 | OMA-URI | 형식 | 값 |
 |:------ |:------------- |:--------- |:------ |:------- |
 |**오디오 포트**| 오디오 포트 범위 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | 문자열  | 3478-3479 |
 |**오디오 DSCP**| 오디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | 정수 | 46 |
@@ -101,7 +101,7 @@ Intune을 사용하여 Microsoft Teams 앱 모드를 설정할 수 있습니다.
 
 모드를 설정하려면 사용자 지정 장치 구성 프로필에 다음 설정을 추가하세요.
 
-|**이름**|**설명**|**OMA-URI**|**형식**|**값**|
+| 이름 | 설명 | OMA-URI | 형식 | 값 |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams 앱 ID**|앱 이름|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|문자열| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams 앱 모드**|Teams 모드|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|정수| 0 또는 1 또는 2|

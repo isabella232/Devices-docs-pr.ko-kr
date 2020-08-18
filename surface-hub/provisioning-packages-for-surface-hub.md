@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/16/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce77122aecfc9a30ac9dc52dfea7e0b0ccf7e1f
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9158bec3d2285e5e8d4f9f56e582ff2320a34024
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836508"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934878"
 ---
 # 프로비저닝 패키지 만들기(Surface Hub)
 
@@ -107,7 +107,7 @@ Surface Hub 구성 파일에는 장치에서 Exchange 및 비즈니스용 Skype�
 
 Microsoft Excel 또는 다른 CSV 편집 소프트웨어를 사용해 파일명이 `SurfaceHubConfiguration.csv`인 CSV 파일을 만듭니다. 파일 안에 다음 형식으로 장치 계정 및 식별 이름 목록을 입력합니다.
 
-```
+```console
 <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
 ```
 >[!IMPORTANT]
@@ -116,7 +116,7 @@ Microsoft Excel 또는 다른 CSV 편집 소프트웨어를 사용해 파일명�
 
 다음은 `SurfaceHubConfiguration.csv`를 사용한 예시입니다. 
 
-```
+```console
 Rainier@contoso.com,password,Rainier Surface Hub
 Adams@contoso.com,password,Adams Surface Hub
 Baker@contoso.com,password,Baker Surface Hub
@@ -156,11 +156,11 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
    
 3. 프로젝트 이름을 지정하고 **다음**을 클릭합니다.
 
-4. **Windows10 Team 버전 공통**을 선택하고, **다음**을 클릭하고 나서, **마침**을 클릭합니다.
+4. **Windows 10 팀에 공통**을 선택 하 고 **다음**을 클릭 한 다음 **마침을**클릭 합니다.
 
     ![ICD 새 프로젝트](images/icd-new-project.png)
 
-5. 프로젝트의 **사용 가능한 사용자 지정**에서 **공통 Team Edition 설정**을 선택합니다.
+5. 프로젝트의 **사용 가능한 사용자 지정**에서 **일반 팀 설정을**선택 합니다.
 
     ![ICD 공통 설정](images/icd-common-settings.png)
 

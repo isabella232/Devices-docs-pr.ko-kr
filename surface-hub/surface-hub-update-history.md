@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 1b7ea8b795681bd3d7b8708d81b1e6a7d745fcca
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 031a826a8868d9452e13bb1ffc6b43eeb287f181
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835004"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934838"
 ---
 # Surface Hub 업데이트 기록
 
@@ -62,7 +62,7 @@ Windows 10은 정기 소프트웨어 업데이트를 통해 자동으로 개선 
 </details>
 
 <details>
-<summary>KB4537765 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.2284)</summary>
+<summary>KB4537765 * (OS 빌드 15063.2284) 기반의 팀 업데이트 (2020 년 2 월 11 일)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -74,7 +74,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>KB4534296 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.2254) (2020 년 1 월 14 일)</summary>
+<summary>KB4534296 *를 기반으로 하는 팀에 대 한 업데이트 (2020 년 1 월 14 일)-(OS 빌드 15063.2254)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -85,13 +85,13 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2019 년 9 월 24 일-KB4516059 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.2078)</summary>
+<summary>2019 년 9 월 24 일-KB4516059 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.2078)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
  * 복구 옵션을 정확 하 게 반영 하도록 Surface Hub 2S 복구 설정 페이지로 업데이트 합니다.
  * 디바이스 recognizability를 개선 하기 위해 Surface Hub 2S 시작 화면으로 업데이트 합니다.
- * Windows Team Edition shell 배경이 잘못 표시 되는 문제를 해결 했습니다.
+ * 잘못 표시 된 Windows 팀 셸 배경과 관련 된 문제를 해결 했습니다.
  * MDM 정책을 사용 하 여 구성 된 경우 시작 메뉴 레이아웃 유지를 사용 하 여 문제를 해결 했습니다.
  * Microsoft Edge에서 일부 내부 웹 사이트를 검색할 때 발생 하는 문제를 해결 했습니다.
  * 전체 화면 모드로 프레젠테이션할 때 발생 하는 비즈니스용 Skype의 문제를 해결 했습니다.
@@ -101,7 +101,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2019 년 8 월 17 일 — KB4512474 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.2021)</summary>
+<summary>2019 년 8 월 17 일-KB4512474 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.2021)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -113,7 +113,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
  </details>
 
 <details>
-<summary>2019 년 6 월 18 일-KB4503289 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.1897)</summary>
+<summary>2019 년 6 월 18 일-KB4503289 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1897)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -127,7 +127,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2019 년 5 월 28 일-KB4499162를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.1835)</summary>
+<summary>2019 년 5 월 28 일 KB4499162 * 기반 팀 업데이트 (OS 빌드 15063.1835)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -141,7 +141,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2019 년 4 월 25 일-KB4493436 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.1784)</summary>
+<summary>2019 년 4 월 25 일-KB4493436 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1784)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -152,7 +152,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2018 년 11 월 27 일 — KB4467699 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.1478)</summary>
+<summary>2018 년 11 월 27 일-KB4467699 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1478)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -163,7 +163,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2018 — 10 월 18 일-KB4462939 * 기반 Team edition 업데이트 (OS 빌드 15063.1418)</summary>
+<summary>2018 년 10 월 18 일-KB4462939 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1418)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -179,7 +179,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2018 년 8 월 31 일 — KB4343889 * 기반 Team edition 업데이트 (OS 빌드 15063.1292)</summary>
+<summary>2018 년 8 월 31 일 — KB4343889 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1292)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -193,7 +193,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2018 년 6 월 21 일-KB4284830 * 기반 Team edition 업데이트 (OS 빌드 15063.1182)</summary>
+<summary>2018 년 6 월 21 일-KB4284830 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1182)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -204,7 +204,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>4 월 17 일 2018 — KB4093117 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.1058)</summary>
+<summary>2018 년 4 월 17 일-KB4093117 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.1058)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -222,7 +222,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2018 년 2 월 23 일 — KB4077528 * 기반 Team edition 업데이트 (OS 빌드 15063.907)</summary>
+<summary>2018 년 2 월 23 일-KB4077528 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.907)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -234,7 +234,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2018 년 1 월 16 일-KB4057144 * 기반 Team edition 업데이트 (OS 빌드 15063.877)</summary>
+<summary>2018 년 1 월 16 일-KB4057144 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.877)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -246,7 +246,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 년 12 월 12 일-KB4053580 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.786)</summary>
+<summary>2017 년 12 월 12 일-KB4053580 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.786)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -258,7 +258,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>KB4048954 * (OS 빌드 15063.726)를 기반으로 하는 Team edition 업데이트 (2017 년 11 월 14 일)</summary>
+<summary>2017 — KB4048954 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.726)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -276,7 +276,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 — KB4041676 * 기반 Team edition 업데이트 (OS 빌드 15063.674)</summary>
+<summary>2017 년 10 월 10 일-KB4041676 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.674)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -285,20 +285,20 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
   * 외부 대화 상대가 Skype Online 허브 계정을 통해 확인 하지 못한 문제를 해결 합니다.
 * PowerPoint
   * 일부 PowerPoint 프레젠테이션 중 허브에서 프로젝트 하지 않는 문제를 해결 합니다.
-* 일반
+* 일반 사항
   * 시스템 관리자가 USB 포트를 비활성화할 수 없는 문제를 해결 하려면 해결 하세요.
 
 *[KB4041676](https://support.microsoft.com/help/4041676)
 </details>
 
 <details>
-<summary>2017 년 9 월 12 일 — KB4038788 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.605) </summary>
+<summary>2017 년 9 월 12 일-KB4038788 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.605) </summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
 * 보안
   * 장치가 절전 모드에서 해제 될 때 Bitlocker 관련 문제를 해결 합니다.
-* 일반
+* 일반 사항
   * 장치 상태 원격 분석의 빈도/양을 줄여 시스템 성능을 개선 합니다.
   * 장치에서 시스템 로그를 수집 하지 못하게 하는 문제를 해결 합니다.
 
@@ -306,7 +306,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 년 8 월 1 일-KB4032188 * 기반 Team edition 업데이트 (OS 빌드 15063.498)</summary>
+<summary>2017 년 8 월 1 일-KB4032188 * 기반 팀 업데이트 (OS 빌드 15063.498)</summary>
 
 * 비즈니스용 Skype 
   * 다시 시도 하거나 시스템을 다시 부팅 해야 하는 비즈니스용 Skype 로그인 문제를 해결 합니다.
@@ -317,7 +317,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 년 6 월 27 일-KB4022716 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.442)</summary>
+<summary>2017 년 6 월 27 일-KB4022716 *를 기반으로 하는 팀 업데이트 (OS 빌드 15063.442)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -328,11 +328,11 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 년 6 월 13 일-KB4022725 * 기반 Team edition 업데이트 (OS 빌드 15063.413)</summary>
+<summary>2017 년 6 월 13 일-KB4022725 * 기반 팀 업데이트 (OS 빌드 15063.413)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
-* 일반
+* 일반 사항
   * 해결 된 펜 잉크 펜으로 문제 놓기
   * 연장 된 문제를 해결 하는 동안 "정리" 모임이 발생 합니다.
 
@@ -340,22 +340,22 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 — KB4021573 * 기반 Team edition 업데이트 (OS 빌드 15063.328)</summary>
+<summary>KB4021573 *를 기반으로 하는 팀에 대 한 업데이트 (OS 빌드 15063.328)는 24, 2017-5 월</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
-* 일반
+* 일반 사항
   * 업데이트 문제 중 프록시 설정 보존으로 해결 된 문제
 
 *[KB4021573](https://support.microsoft.com/help/4021573)
 </details>
 
 <details>
-<summary>5 월 9 일 2017 — KB4016871를 기반으로 하는 Team edition 업데이트 (OS 빌드 15063.296)</summary>
+<summary>5 월 9 일 2017 — KB4016871에 기반한 팀 업데이트 (OS 빌드 15063.296)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
-* 일반
+* 일반 사항
   * 주소가 지정 된 절전 모드/절전 모드 해제 주기 문제
   * 몇 가지 다시 설정 및 복구 문제 해결 됨
   * 해결 된 업데이트 기록 탭 문제
@@ -414,11 +414,11 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 ## Windows 10 팀 기념일 업데이트 1607
 
 <details>
-<summary>3 월 14th 2017 — KB4013429 * 기반 Team edition 업데이트 (OS 빌드 14393.953)</summary>
+<summary>3 월 14th 2017 — KB4013429 * 기반 팀 업데이트 (OS 빌드 14393.953)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
-* 일반
+* 일반 사항
   * 제한 된 파일 위치 탐색을 방지 하는 파일 탐색기 용 보안 픽스
 * 비즈니스용 Skype
   * 원격 데스크톱 기반 화면 공유 중 해결 방법 주소 대기 시간
@@ -427,7 +427,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2017 — 1 월 10 일-KB4000825 * 기반 Team edition 업데이트 (OS 빌드 14393.693)</summary>
+<summary>2017 — 1 월 10 일-KB4000825 * 기반 팀 업데이트 (OS 빌드 14393.693)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -437,7 +437,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2016 년 12 월 13 일-KB3206632 * 기반 Team edition 업데이트 (OS 빌드 14393.576)</summary>
+<summary>2016 년 12 월 13 일-KB3206632 * 기반 팀 업데이트 (OS 빌드 14393.576)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -457,12 +457,12 @@ Surface Hub 용 Windows 10 Team 기념일 업데이트 (버전 1607)에 대 한�
 </details>
 
 <details>
-<summary>2016 — 10 월 25 일-KB3197954 * 기반 Team edition 업데이트 (OS 빌드 14393.351)</summary>
+<summary>2016 — 10 월 25 일-KB3197954 *를 기반으로 하는 팀 업데이트 (OS 빌드 14393.351)</summary>
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
 * OS 및 Bios에서 새로운 절전 기능을 사용 하 여 Surface Hub의 전력 소비량을 줄이고 장기간 신뢰성을 높일 수 있습니다.
-* 일반
+* 일반 사항
   * 화상 키보드가 표시 되지 않는 경우를 해결 합니다.
   * 예약 된 모임을 열 때 가끔씩 발생 하는 화이트 보드 응용 프로그램 이동을 해결 합니다.
   * 디바이스가 다시 설정 된 후 관리자가 로컬 관리자 암호를 변경 하는 것을 방해 하는 문제를 해결 합니다.
@@ -473,7 +473,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 </details>
 
 <details>
-<summary>2016 — 10 월 11 일, KB3194496 *를 기반으로 하는 Team edition 업데이트 (OS 빌드 14393.222)</summary>
+<summary>2016 — 10 월 11 일-KB3194496 *를 기반으로 하는 팀 업데이트 (OS 빌드 14393.222)</summary>
 
 이 업데이트는 Windows 10 팀 기념일 업데이트를 Surface Hub에 제공 하 고 품질 향상 및 보안 픽스를 포함 합니다. (장치를 설치 하면 Windows 10 버전 1607를 실행 하 게 됩니다.) Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
@@ -497,7 +497,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
   * 대시보드를 보기 위해 사전 설치 된 PowerBI 앱
   * Office 앱-Word, Excel, PowerPoint – 모든 잉크를 사용할 수 있습니다.
   * 이제 Surface Hub의 Edge에서 Flash 기반 웹 사이트를 지원 합니다.
-* 일반
+* 일반 사항
   * 오디오 장치 선택 가능 (외부 오디오 장치를 사용 하 여 연결 된 Surface Hub)
   * DisplayPort 출력 커넥터에서 HDCP 지원 사용
   * 시스템 UI가 유용성 최적화 설정으로 변경 됩니다 (자세한 내용은 [사용자 및 관리 가이드](https://www.microsoft.com/surface/support/surface-hub) 참조).
@@ -518,7 +518,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 <details>
 <summary>2016 년 11 월 4 일, KB3198586에 대 한 Windows 10 팀 (버전 1511) 업데이트 (OS Build 10586.679)</summary>
 
-Surface Hub에 대 한 Windows 10 Team edition (버전 1511)에 대 한이 업데이트에는 [windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 요약 된 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. 이 업데이트에는 Surface Hub 관련 항목이 없습니다.
+Surface Hub에 대 한 Windows 10 팀 (버전 1511)에 대 한이 업데이트에는 [windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 요약 된 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. 이 업데이트에는 Surface Hub 관련 항목이 없습니다.
 
 *[KB3198586](https://support.microsoft.com/help/3198586)
 </details>

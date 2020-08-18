@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 11/21/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 38f02b885a0ac2789ffc82f1ab38dc57fea5e841
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: dddab2adce1bec9ff722a3324b9c4b1be609ae89
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835343"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934848"
 ---
 # Surface Hub 2S에 대한 환경 준비
 
@@ -31,7 +31,7 @@ Microsoft는 필요한 포트, Url, IP 주소를 변경할 수 있는 새로운 
 ## 디바이스 소속
 
 디바이스 소속을 사용 하 여 Surface Hub 2S의 설정 앱에 대 한 사용자 액세스를 관리할 수 있습니다.
-Surface Hub 2S에서 실행 되는 Windows 10 Team Edition 운영 체제를 사용 하 여 권한 있는 사용자만 설정 앱을 사용 하 여 설정을 조정할 수 있습니다. 소속을 선택 하면 기능 가용성에 영향을 줄 수 있으므로, 사용자가 의도 한 대로 기능에 액세스할 수 있도록 적절 하 게 계획 합니다.
+Surface Hub 2S에서 실행 되는 Windows 10 Team 운영 체제를 사용 하 여 권한 있는 사용자만 설정 앱을 사용 하 여 설정을 조정할 수 있습니다. 소속을 선택 하면 기능 가용성에 영향을 줄 수 있으므로, 사용자가 의도 한 대로 기능에 액세스할 수 있도록 적절 하 게 계획 합니다.
 
 > [!NOTE]
 > 초기 OOBE (첫 실행 경험) 설정 중에만 디바이스 소속을 설정할 수 있습니다. 디바이스 소속을 다시 설정 해야 하는 경우 OOBE 설치 프로그램을 반복 해야 합니다.
