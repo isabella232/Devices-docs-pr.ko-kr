@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 7/20/2020
+ms.date: 8/21/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 3bfdcf1d95b058270b741b7959d9161c66652b4c
-ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
+ms.openlocfilehash: d0783879c3e0cab2f44ea01cdc15b96a1b4e9c21
+ms.sourcegitcommit: 537fa38bdd21fcd679af0764e734f4b8efb6a03f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10893090"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "10959960"
 ---
 # Surface Book 3 Quadro RTX 3000 기술 개요
 
@@ -105,7 +105,7 @@ Quadro RTX 3000이 있는 Surface Book은 모든 Surface 노트북의 최상의 
 | **Adobe 물질 Alchemist**                       | -RTX 가속 인공 지능 기능을 사용 하 여 자료를 간편 하 게 만들고 블렌드 하세요.                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Adobe 물질 복사**                         | **Adobe-Quadro RTX 3000를 사용 하 여 Surface Book 3에 대해 테스트 및 승인 됨**<br><br>-RTX 가속 bakers 기능을 갖춘 3d 모델에 재질을 그리고 대화형 및 일괄 처리 작업을 위한 photorealistic 이미지를 생성 하는 Iray RTX 렌더링을 그립니다.                                                                                                                                                                                                                            |
 | **Adobe 물질 용 디자이너**                        | -RTX 가속 bakers 기능을 갖춘 절차 자료를 작성 합니다.<br><br>-텍스처/substances 및 비트맵 텍스처 내보내기를 포함 하는 NVIDIA Iray 렌더링을 사용 하 여 MDL과 호환 되는 모든 Iray 렌더링 합니다.<br><br>-DXR-가속화 된 라이트 및 주변광 폐색 baking.                                                                                                                                                                                                              |
-| **ANSYS**<br>**검색 라이브**                     | -ANSYS 실시간 엔지니어링 시뮬레이션 도구 (ANSYS 검색 라이브)를 통해 구축할 DA.                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **ANSYS**                     | **ANSYS-Quadro RTX 3000를 사용 하 여 Surface Book 3을 테스트 하 고 승인 했습니다.**<br><br>-ANSYS에 작성 된 실시간 엔지니어링 시뮬레이션 도구입니다.                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Autodesk**<br>**Revit**                           | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-부드러운 대화형 디자인 환경을 위한 GPU 가속 뷰포트.<br><br>-V-레이 및 Enscape와 같이 타사 GPU 가속 3D 렌더러를 지원 합니다.                                                                                                                                                                                                                                        |
 | **Autodesk**<br>**AutoCad**                         | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-고속, 대화형 3D modelling 및 디자인을 위한 GPU 가속 뷰포트 그래픽<br><br>-RTX-가속화 된 광선 추적과 기본 Arnold 렌더러를 사용 하는 denoising 인공 지능.<br><br>-70% 이상이 Surface Book 2 15와 비교 하 여 더욱 빨라집니다.                                                                                                                                                        |
 | **Autodesk**<br>**야**                            | **Autodesk-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-RTX-가속화 된 광선 추적과 기본 Arnold 렌더러를 사용 하는 denoising 인공 지능.<br><br>-OpenGL 뷰포트 가속.                                                                                                                                                                                                                                                                                  |
@@ -116,7 +116,7 @@ Quadro RTX 3000이 있는 Surface Book은 모든 Surface 노트북의 최상의 
 | **Esri ArcGIS**                                     | -DL inferencing tensor 코어를 활용 하기 때문에 일 및 주가 소요 된 실시간 결과입니다.                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Luxion KeyShot**                                  | -Solidworks, Creo 및 Rhino에서 사용 되는 제 3 자 대화형 광선 추적 프로그램 RT 코어로 가속화, OptiX™ AI 가속 denoising.                                                                                                                                                                                                                                                                                                                                                        |
 | **McNeel & 연결**<br>**Rhino 3D**             | **Rhino-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**<br><br>-원활한 대화형 modelling 및 디자인 환경을 위한 GPU 가속 뷰포트.<br><br>-GPU 가속 3D 렌더링에 대 한 주기를 지원 합니다.                                                                                                                                                                                                                                                         |
-| **PTC Creo**                                        | -Creo의 실시간 엔지니어링 시뮬레이션 도구 (Creo 시뮬레이션 라이브)를 제공 합니다.<br><br>-Surface Book 2 15와 비교 하 여 15% 이상의 속도를 실행 합니다.                                                                                                                                                                                        |
+| **PTC Creo**                                        |**Quadro RTX 3000를 사용 하 여 3 번 가이드에 대 한 PTC 테스트 및 승인 됨**<br><br> -Creo의 실시간 엔지니어링 시뮬레이션 도구 (Creo 시뮬레이션 라이브)를 제공 합니다.<br><br>-Surface Book 2 15와 비교 하 여 15% 이상의 속도를 실행 합니다.                                                                                                                                                                                        |
 | **Siemens SolidEdge 2020**                                        |  **Siemens-Quadro RTX 3000으로 Surface Book 3에 대 한 테스트 및 승인**                                                                                                                                                                                 |
 | **Siemens NX**                                      | -Siemens NX 대화형 광선 추적 (광선 추적 스튜디오) RT 코어로 가속화.<br><br>-Surface Book 2 15와 비교 하 여 10x 보다 더 빠르게 실행 됩니다.                                                                                                                                                                                                                                                                                                                                    |
 
@@ -129,7 +129,7 @@ Quadro RTX 3000이 있는 Surface Book은 모든 Surface 노트북의 최상의 
 
 **표 4. Quadro RTX 3000 Sku 인 Surface Book 3**
 
-| **Display** | **처리자**                     | **GPU**                                                                                          | **RAM**    | **Storage** |
+| **Display** | **프로세서**                     | **GPU**                                                                                          | **RAM**    | **Storage** |
 | ----------- | --------------------------------- | ------------------------------------------------------------------------------------------------ | ---------- | ----------- |
 | 15 인치 | 쿼드 코어 10 Gen 코어 i7-1065G7 | Intel 홍 채™ 및 그래픽<br>NVIDIA Quadro RTX 3000. 6GB GDDR6 그래픽 메모리를 사용 하 여 최대 Q 디자인 | 32 LPDDR4x | 512 GB      |
 | 15 인치 | 쿼드 코어 10 Gen 코어 i7-1065G7 | Intel 홍 채™ 및 그래픽<br>NVIDIA Quadro RTX 3000. 6GB GDDR6 그래픽 메모리를 사용 하 여 최대 Q 디자인 | 32 LPDDR4x | 1TB        |
