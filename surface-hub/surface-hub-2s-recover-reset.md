@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7d79fab22b62e6ef29832be6241c484e9caf72e0
-ms.sourcegitcommit: 537fa38bdd21fcd679af0764e734f4b8efb6a03f
+ms.openlocfilehash: e3b1e380f9776fc56e99b8d4e35f708aa952759c
+ms.sourcegitcommit: e075b46f14b730464d66246b0280ef2cfa16b3fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "10959950"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "10963580"
 ---
 # Surface Hub 2S 다시 설정 및 복구
 
@@ -60,9 +60,9 @@ Surface Hub 2S를 사용 하 여 복구 이미지를 사용 하 여 디바이스
 
 1. 디바이스 끄기:
 
-   1. 볼륨 크게 단추를 누른 상태에서 전원 단추를 누릅니다.
+   1. 볼륨 작게 단추를 누른 상태에서 전원 단추를 누릅니다.
    1. Windows 로고가 나타날 때까지 두 단추를 계속 누릅니다.
-   1. 전원 단추를 해제 하 고 설치 UI가 시작 될 때까지 계속 볼륨 단추를 누르고 있습니다.
+   1. 전원 단추를 해제 하 고 설치 UI가 시작 될 때까지 볼륨 아래로 단추를 계속 누르고 있습니다.
 
    ![* 볼륨 작게 및 전원 단추를 사용 하 여 복구 시작 *](images/sh2-keypad.png) <br>
    **그림 2. 볼륨 및 전원 단추**
