@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 09/01/2020
-ms.openlocfilehash: a6ea1742ab767a99e7b4868e56d081bf0016785b
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
+ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986330"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "10993668"
 ---
 # Microsoft Surface Enterprise 관리 모드
 
@@ -209,10 +209,10 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 1.  C: 드라이브에서 스크립트를 저장할 폴더를 만듭니다. 예를 들어 C:\SEMM.
 2.  예제 스크립트를 메모장 이나 해당 텍스트 편집기에 복사 하 고 파일을 PowerShell 스크립트 (. ps1)로 저장 합니다.
 3.  관리자 자격 증명으로 PC에 로그인 하 고 관리자 권한 PowerShell 세션을 엽니다.
-4.  스크립트 실행을 허용 하도록 사용 권한이 설정 되어 있는지 확인 합니다. 기본적으로 실행 정책을 수정 하지 않으면 스크립트가 실행 되지 않도록 차단 됩니다. 자세히 알아보려면 실행 정책 정보를 참조 하세요.
+4.  스크립트 실행을 허용 하도록 사용 권한이 설정 되어 있는지 확인 합니다. 기본적으로 실행 정책을 수정 하지 않으면 스크립트가 실행 되지 않도록 차단 됩니다. 자세히 알아보려면 [실행 정책 정보](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies)를 참조 하세요.
 5.  명령 프롬프트에서 스크립트의 전체 경로를 입력 한 다음 enter 키를 누릅니다. 이 스크립트는 TempOwner 이라는 데모 인증서를 만듭니다.
 
-또는 PowerShell을 사용 하 여 고유한 자체 서명 된 인증서를 만들 수 있습니다. 자세한 내용은 다음 PowerShell 설명서를 참조 하세요. [New-New-selfsignedcertificate] (https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
+또는 PowerShell을 사용 하 여 고유한 자체 서명 된 인증서를 만들 수 있습니다. 자세한 내용은 PowerShell 설명서: [New-new-selfsignedcertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)을 참조 하세요.
 
 
 
