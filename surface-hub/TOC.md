@@ -35,7 +35,9 @@
 ### [Surface Hub Teams 앱](hub-teams-app.md)
 
 ## 관리
-### [Windows 10 Team 2020 업데이트 미리 보기 빌드 설치](surface-hub-install-2020preview.md)  
+### [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md)
+### [Surface Hub 2용 Windows 10 설치 후 구성](surface-hub-2-post-install.md)
+### [Windows 10 Team 2020 업데이트 Preview 빌드 설치](surface-hub-install-2020preview.md)  
 ### [알려진 문제-Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
 ### [Surface Hub에 새 Microsoft Edge 설치 및 구성](surface-hub-install-chromium-edge.md)        
 ### [Microsoft Intune을 사용하여 Surface Hub 2S 관리](surface-hub-2s-manage-intune.md)
