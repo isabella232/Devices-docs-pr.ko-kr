@@ -8,20 +8,34 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/03/2019
+ms.date: 09/02/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: c236bf066d22cae80f4c0df39cc04450ad57a419
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 155f77a50e0ca529669bac98e70f57c8c8a20081
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835567"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994581"
 ---
 # Surface Pro X 앱 호환성
 
-Surface Pro X와 같은 ARM 기반 Windows 10 Pc에서는 응용 프로그램이 다르게 실행 됩니다. 제한 사항에는 다음이 포함 됩니다.
+
+
+ ![PC 사용자 이미지](images/4527790_en_4.png)<br><br>
+
+
+
+Windows 10 ARM 기반 Pc는 어디서 나 계속 작업할 수 있도록 지원 합니다. 몇 가지 주요 혜택은 다음과 같습니다.
+
+- **항상 인터넷에 연결 되어 있어야 합니다.** 셀룰러 데이터 연결을 사용 하는 경우 휴대폰을 사용 하는 것과 마찬가지로 언제 든 지 온라인에서 전화를 받을 수 있습니다. 회사, 집 또는 다른 Wi-fi 네트워크를 통해 신뢰 하는 경우 Wi-fi에 연결 하 여 셀룰러 데이터를 저장 하 고 계속 작업할 수 있습니다.
+
+- **하루 종일 진행 되는 배터리 수명.**  다른 Pc를 사용 하는 것 보다 더 저렴 하 게 사용할 수 있으므로, 배터리를 부족 하 게 하거나 연결할 콘센트를 찾기가 걱정 없이 일반적인 회사 또는 학교에서 일을 진행 하 게 됩니다. 더 재미 있게 PC를 사용 하려는 경우에는 그 사이에 배터리를 충전 하지 않고 PC에 저장 된 비디오를 다양 한 시간 동안 재생할 수 있습니다.
+
+- **즉시 켜십시오.** PC를 사용 하 고 있지 않은 경우에는 휴대폰에서 작업 하는 것 처럼 전원 단추를 눌러 화면을 종료 하면 됩니다. PC를 사용 하 여 다시 켜면 즉시 켜 집니다. 수업, 모임 또는 기타 작업 사이에 몇 분이 소요 될 때마다 PC가 시작 될 때까지 기다리지 않고도 작업을 수행할 수 있습니다.
+
+이 응용 프로그램은 Surface Pro X와 같은 ARM 기반 Windows 10 Pc에서 다르게 실행 됩니다. 제한 사항에는 다음이 포함 됩니다.
 
 - **하드웨어, 게임 및 앱에 대 한 드라이버는 Windows 10 ARM 기반 PC 용으로 디자인 된 경우에만 작동**합니다. 자세한 내용은 하드웨어 제조업체나 드라이버를 개발한 조직을 확인 하세요. 드라이버는 하드웨어 장치와 통신 하는 소프트웨어 프로그램으로, 일반적으로 바이러스 백신 및 맬웨어 방지 소프트웨어, 인쇄, PDF 소프트웨어, 보조 기술, CD 및 DVD 유틸리티, 가상화 소프트웨어에 사용 됩니다. 드라이버를 사용할 수 없는 경우에는이를 사용 하는 앱 또는 하드웨어가 작동 하지 않습니다 (최소한 완전히 완료 되지 않음). 주변 기기 및 장치는 해당 드라이버를 Windows 10에 기본으로 제공 하거나 하드웨어 개발자가 장치에 대 한 ARM64 드라이버를 해제 한 경우에만 작동 합니다.
 - **64 비트 (x64) 앱이 작동 하지 않습니다**. 64 비트 (ARM64) 앱, 32 비트 (ARM32) 앱 또는 32 비트 (x86) 앱이 필요 합니다. 일반적으로 32 비트 (x86) 버전의 앱을 찾을 수 있지만 일부 앱 개발자는 64 비트 (x64) 앱만 제공 합니다.
@@ -30,4 +44,4 @@ Surface Pro X와 같은 ARM 기반 Windows 10 Pc에서는 응용 프로그램이
 - **일부 타사 바이러스 백신 소프트웨어를 설치할 수 없습니다**. Windows 10 ARM 기반 PC에 일부 타사 바이러스 백신 소프트웨어를 설치할 수 없습니다. 그러나 Windows 보안은 Windows 10 장치의 지원 되는 수명에 대해 안전을 유지 하는 데 도움이 됩니다.
 - **Windows 팩스 및 스캔을 사용할 수**없습니다. Windows 10 ARM 기반 PC에서는이 기능을 사용할 수 없습니다.
 
-앱 호환성에 대 한 자세한 내용은 [Windows 10 ARM 기반 PC FAQ](https://support.microsoft.com/en-us/help/4521606) 를 참조 하세요.
+앱 호환성에 대 한 자세한 내용은 [Windows 10 ARM 기반 PC FAQ](https://support.microsoft.com/en-us/help/4521606)를 참조 하세요.

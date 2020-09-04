@@ -1,6 +1,6 @@
 ---
-title: Surface Hub 2 설치 후 구성에 대 한 Windows 10
-description: Surface Hub 2 설치 후 구성에 대 한 Windows 10
+title: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성
+description: 이 문서에는 개인 설정 된 대형 화면 터치 및 펜 컴퓨터를 사용할 때 최상의 환경을 유지 하기 위한 권장 사항이 포함 되어 있습니다.
 keywords: Surface Hub, Windows 10, 데스크톱, 설치, 구성
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
@@ -13,14 +13,14 @@ ms.audience: itpro
 author: greg-lindsay
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d6a1cdb2cac01b48c80e0fa4b7ccb6d3bcdb76ac
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 47852284c35d213b81dd7b87ca875b400d8c713f
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986631"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994594"
 ---
-# Surface Hub 2 설치 후 구성에 대 한 Windows 10
+# Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성
 
 **적용 대상: Surface Hub 2S** 
 
@@ -135,14 +135,20 @@ Windows 10 Enterprise를 실행 하는 Surface Hub 2S는 Win32 데스크톱 응�
 Windows-L 바로 가기 키와 비슷한 터치 스크린 잠금 기능을 사용할 수 있도록 하는 아이콘을 작업 표시줄에 추가 하려면 다음을 실행 합니다. 
 
 1.  바탕 화면을 길게 누르거나 마우스 오른쪽 단추로 클릭 하 고 **새**  >  **바로 가기**  >  **찾아보기**  >  **바탕 화면**  >  **확인**  >  **다음**을 선택 합니다.
-2.  바로 가기의 이름 (예: **내 PC 잠금**)을 입력 한 다음 **마침을**선택 합니다.
-3.  바탕 화면에서 새로 만든 바로 가기를 마우스 오른쪽 단추로 클릭 하거나 길게 탭 하 고 **속성**을 선택 합니다. **바로 가기** 탭에서 **대상** 필드에 다음을 입력 합니다: **Rundll32.exe User32.dll, lockworkstation**
-4.  **아이콘 변경** 단추를 선택 하 고 **C:\Windows\System32\imageres.dll** 으로 이동 하 여 사용할 아이콘을 선택 합니다. 
-5. 다음 예제를 참조하세요.
+
+1.  바로 가기의 이름 (예: **내 PC 잠금**)을 입력 한 다음 **마침을**선택 합니다.
+
+1.  바탕 화면에서 새로 만든 바로 가기를 마우스 오른쪽 단추로 클릭 하거나 길게 탭 하 고 **속성**을 선택 합니다. **바로 가기** 탭에서 **대상** 필드에 다음을 입력 합니다: **Rundll32.exe User32.dll, lockworkstation**
+
+1.  **아이콘 변경** 단추를 선택 하 고 **C:\Windows\System32\imageres.dll** 으로 이동 하 여 사용할 아이콘을 선택 합니다. 
+
+    다음 예제를 참조하세요.
 
     ![아이콘 선택](images/lock.png)
-6.  **확인** 을 선택 하 여 바로 가기를 저장 합니다.
-7.  바로 가기를 마우스 오른쪽 단추로 클릭 하거나 길게 탭 하 고 **작업 표시줄에 고정을**선택 합니다.
+    
+1.  **확인** 을 선택 하 여 바로 가기를 저장 합니다.
+
+1.  바로 가기를 마우스 오른쪽 단추로 클릭 하거나 길게 탭 하 고 **작업 표시줄에 고정을**선택 합니다.
 
 ## 응용 프로그램
 
@@ -151,14 +157,16 @@ Windows-L 바로 가기 키와 비슷한 터치 스크린 잠금 기능을 사�
 설치 된 모든 스토어 앱을 업데이트 하려면:
 
 1. Microsoft Store 앱을 열고 오른쪽 위 모서리에 있는 **더 많은 줄임표 참조** 를 선택 합니다.
-2. **다운로드 및 업데이트**를 선택 합니다.
-2. **업데이트 가져오기를**선택 합니다.
+2. **다운로드 및 업데이트**를 선택합니다.
+2. **업데이트**를 선택합니다.
 
 ### Microsoft Whiteboard
 
 Microsoft 화이트 보드를 설치 하려면 다음을 수행 합니다.
 
-1. 작업 표시줄의 오른쪽 아래에 있는 **Windows Ink 작업 영역** 아이콘 ![ 잉크 작업 영역 ](images/ink.png) 을 선택 하 고 **화이트 보드**를 다운로드 합니다.
+ - 작업 표시줄의 오른쪽 아래에 있는 **Windows Ink 작업 영역** 아이콘을 선택 하 고 **화이트 보드**를 다운로드 합니다.
+ 
+   ![잉크 작업 영역](images/ink.png) 
 
 또는 Microsoft Store에서 화이트 보드를 설치할 수 있습니다.
 
@@ -275,9 +283,9 @@ Surface Hub 2는 로컬 저장소에 대 한 128GB SSD를가지고 있으므로 
 
 1. **소프트웨어 센터** 를 검색 하 여 엽니다.
 2. 탐색 창에서 **옵션** 을 선택 합니다.
-3. **Power management** 섹션을 확장 하 고 확인란을 선택 하 여 **IT 부서의 전원 설정을이 컴퓨터에 적용 하지 마세요**.
+3. **Power management** 섹션을 확장 하 고 **IT 부서의 전원 설정을이 컴퓨터에 적용 안 함**을 선택 합니다.
 
-  ![소프트웨어 설정](images/soft-cntr.png)
+   ![소프트웨어 설정](images/soft-cntr.png)
 
 ### 소리 설정
 
