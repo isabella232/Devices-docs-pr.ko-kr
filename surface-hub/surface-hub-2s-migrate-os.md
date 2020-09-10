@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/03/2020
+ms.date: 09/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a114a9200a58a848f2480de965f268cee71cebae
-ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
+ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
+ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "10994604"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "11004490"
 ---
 # Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 
@@ -64,10 +64,11 @@ Surface Hub를 Windows 10 Team에서 Windows 10 데스크톱으로 마이그레�
 
 1. Surface Hub 2S 홈 화면에서 **시작** 을 선택 하 고 **SurfaceApp** (**모든 앱**  >  **화면**)을 엽니다.
 
-1. 장치에서 현재 버전의 UEFI를 포함 하 여 Surface Hub에 대 한 정보를 표시 하려면 **화면** 을 선택 합니다. UEFI 버전이 아래와 같이 **694.2938.768.0** 이거나 이후 버전인 경우 OS 마이그레이션을 사용 하도록 설정 하기 위해 UEFI는 semm 패키지를 만들 수 있습니다.
+2. 장치에서 현재 버전의 UEFI를 포함 하 여 Surface Hub에 대 한 정보를 표시 하려면 **화면** 을 선택 합니다. UEFI 버전이 아래와 같이 **694.2938.768.0** 이거나 이후 버전인 경우 OS 마이그레이션을 사용 하도록 설정 하기 위해 UEFI는 semm 패키지를 만들 수 있습니다.
 
-   ! [Open Sur
-1. UEFI 버전이 버전 6face 앱 & Surface] (이미지/shm-fig1.png) 94.2938.768.0를 선택 하는 경우 Windows Update를 사용 하 여 현재 버전을 구해야 합니다.
+    ![Surface 앱을 열고 서피스 선택 &](images/shm-fig1.png)
+ 
+3. UEFI 버전이 버전 **694.2938.768.0**보다 이전인 경우 Windows Update를 사용 하 여 현재 버전을 가져와야 합니다.
 
 **Windows Update에서 UEFI를 업데이트 하려면 다음을 수행 합니다.**
 1. Surface Hub 2S에서 **관리자로**로그인 하 고, **모든 앱**  >  **설정** >  **업데이트 및 보안**  >  **Windows** 로 이동한 다음 모든 업데이트를 업데이트 하 고 설치 하 고, 장치를 다시 시작 합니다. Surface 앱을 사용 하 여 UEFI 버전을 확인 합니다. 참고: 사용자 이름 또는 관리자 암호를 모르는 경우에는 장치를 재설정 해야 합니다. 자세한 내용은 [Surface Hub 2S 다시 설정 및 복구](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset)를 참조 하세요.
