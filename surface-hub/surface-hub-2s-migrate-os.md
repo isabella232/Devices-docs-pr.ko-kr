@@ -1,7 +1,7 @@
 ---
 title: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 description: 이 문서에서는 Surface Hub 2의 Windows 10 Team에서 Windows 10 Pro 또는 Windows 10 Enterprise로 마이그레이션하는 과정을 설명 합니다.
-keywords: 쉼표로 값 구분
+keywords: Surface Hub 데스크톱, Surface Hub
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 09/09/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.openlocfilehash: 5431cb9c11fbcfadf0ef517164521c237fb6b3bb
+ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004490"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009626"
 ---
 # Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 
@@ -232,7 +232,7 @@ UEFI 설정을 적용 하기 전에 구성 파일의 서명을 확인 하기 위
 
    ![USB에서 설치 & 관리를 선택 합니다.](images/shm-fig21.png)
    
-5. 아래와 같이 **지금 다시 시작**을 선택 합니다. 장치가 종료 됩니다.
+5. 아래와 같이 **지금 다시 시작**을 선택 합니다. 장치가 재부팅 되 고 화면 가운데에 흰색 4 사각형 로고가 표시 되 고 종료 됩니다.
 
    ![지금 다시 시작 선택](images/shm-fig25.png)
    
@@ -245,7 +245,7 @@ UEFI 설정을 적용 하기 전에 구성 파일의 서명을 확인 하기 위
    > [!NOTE]
    > 장치에서 SEMM을 활성화 하면 새 UEFI 설정 **Enableosmigration** 적용 됩니다. 더 이상 Windows 10 팀에 액세스할 수 없으며 다음 단계로 진행 하 여 Windows 10 Pro 또는 Windows 10 Enterprise를 설치 해야 합니다. 
 
-8. 장치가 재부팅 되 고 화면 가운데에 흰색 4 개의 정사각형을 표시 한 다음 다시 꺼집니다.
+8. 장치가 재부팅 되 고 화면 가운데에 흰색 4 사각형 로고가 표시 된 다음 다시 종료 됩니다.
 
 ### Windows 10 Pro 또는 Enterprise 설치
 
@@ -253,7 +253,7 @@ UEFI 설정을 적용 하기 전에 구성 파일의 서명을 확인 하기 위
 
 2. 장치가 시작 되 면 화면 가운데에 흰색 4 정사각형이 표시 되 고 흰색 4 사각형 로고 아래에 회전 원이 표시 됩니다.
 
-3. 장치가 USB 드라이브로 자동으로 부팅 하지 않는 경우 장치 끄기 (전원 코드를 뽑아 다시 연결), 전원 단추를 눌렀다가 놓은 다음 흰색 4 네모 로고 아래에 회전 하는 원이 표시 될 때까지 볼륨 작게 단추를 길게 누릅니다.
+3. 장치가 USB 드라이브로 자동으로 부팅 되지 않으면 장치 전원을 끈 다음 (전원 코드를 뽑고 다시 연결). 전원 코드를 다시 연결한 후에는 화면이 화면 가운데에 있는 흰색 4 개 정사각형 로고까지 몇 초 후에 장치가 부팅 되거나 전원 단추를 눌렀다가 놓아 장치를 다시 켤 수 있습니다. 화면 가운데에 4 사각형 로고가 표시 되 면 즉시 4도 흰색 사각형 로고 아래에 회전 하는 원이 나타날 때까지 볼륨 작게 단추를 길게 누릅니다.
  
    ![USB에서 Windows 10으로 부팅](images/shm-fig26.png)
    

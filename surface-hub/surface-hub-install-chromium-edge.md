@@ -9,33 +9,33 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/22/2020
+ms.date: 09/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: cf4d909a8c06bddf2bb0b3e42259f0b69cd97109
-ms.sourcegitcommit: df1e178b724966e4cf8ff219c5e937e6c31cd9b4
+ms.openlocfilehash: fe5f76034b5b8ae4801a8fb403d6db0ed423c144
+ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10894104"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009616"
 ---
 # Surface Hub에 새 Microsoft Edge 설치 및 구성
 
 Windows 10 Team 2020 업데이트는 Chromium (버전 85 이상) 기반의 새 Microsoft Edge를 Surface Hub에 권장 하는 브라우저로 지원 합니다. Microsoft Intune 또는 기본 MDM (모바일 장치 관리) 공급자를 사용 하 여 원격으로 제공 되는 프로비저닝 패키지를 사용 하 여 Microsoft Edge를 수동으로 설치할 수 있습니다.
 
- 기본적으로 Surface Hub 디바이스는 Microsoft Edge 레거시 (버전 44)로 미리 설치 되어 있습니다.
-
-> [!IMPORTANT]
-> Surface Hub에는 새로운 Microsoft Edge 버전 85 이상이 필요 하며,이는 관리자에 게 최신 Edge 기능을 미리 살펴보고 다음 베타 릴리스를 준비할 수 있도록 설계 된 "[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels)"으로 제한 됩니다.  Windows 참가자가 Microsoft Edge를 미리 볼 수 있도록 개발자 채널에 대 한 지원이 일시적으로 활성화 됩니다. 일반적으로 Surface Hub는 "안정 된 채널"에 릴리스된 버전만 지원 합니다. 자세한 내용은 [Microsoft Edge 채널 개요](https://docs.microsoft.com/deployedge/microsoft-edge-channels) 를 참조 하세요.
+기본적으로 Surface Hub 디바이스는 Microsoft Edge 레거시 (버전 44)로 미리 설치 되어 있습니다.
  
-### Microsoft Edge 개발자 채널 빌드 설치 
+Edge 개발자가 이미 설치 되어 있는 경우 다음 단계를 완료 합니다.
 
-- 디자인에 따라 Microsoft edge 개발자 채널은 Microsoft Edge 레거시와 나란히 설치 되며 사용자는 Surface Hub 시작 메뉴에 "Microsoft Edge 개발자" (버전 85) 및 "Microsoft Edge" (버전 44)를 모두 볼 수 있습니다. 반면 Microsoft Edge 안정화 채널은 Microsoft Edge 레거시를 기본 브라우저로 바꿉니다.
-- 설치 된 Microsoft Edge 개발자 채널은 고정 된 앱으로 자동으로 표시 되지 않습니다. 열려면 **Start**  >  **모든 앱**시작을 선택 합니다. 이와 대조적으로 Microsoft edge 안정적인 채널은 자동으로 Microsoft Edge 레거시를 모든 앱 목록의 고정 앱으로 바꿉니다.
-- 버전 85이 안정적인 채널로 승격 되 면 Microsoft Edge 개발자 채널은 시작 메뉴에서 자동으로 사라지고 Surface Hub에 Microsoft Edge 안정적인 채널을 설치 해야 합니다.
+1. 버전을 모르거나 확인 하 고 싶은 경우에는 Edge 브라우저를 열고 edge://version로 이동 합니다.
+2. **Surface Hub > 장치 관리**로 이동 합니다. **배포 패키지**에서 **배포 패키지 추가 또는 제거를 선택 합니다.**
+3. 이전 설치 관리자를 사용 하 여 시작 메뉴에서 Microsoft Edge 개발자를 고정 한 경우 목록에서 **사용자 지정 시작 메뉴** 를 클릭 하 고 제거를 클릭 **합니다.**
+4. 사용자 지정 시작 레이아웃 정책을 사용한 경우에는 [Surface Hub 시작 메뉴의 Microsoft Edge 표시](#display-microsoft-edge-in-the-surface-hub-start-menu)섹션에 설명 된 대로 최신 Edge 경로를 사용 하 여 수정 해야 합니다.
+5. 이제 MicrosoftEdgeDevUninstaller kg을 프로 비전 할 수 있습니다.
+6. **모든 앱**에서 Edge 개발자가 제거 되 면 먼저 "MicrosoftEdgeDevInstaller"를 제거한 다음 "MicrosoftEdgeDevUninstaller"을 제거 합니다.
+7. 이는 Microsoft Edge 개발자를 제거 했습니다. 이제 표준 버전을 설치할 수 있습니다.
 
-> [!NOTE]
->  새 Microsoft Edge를 제거 하려면 장치 재설정이 필요 합니다. 자세한 내용은 [Surface Hub 다시 설정 또는 복구](https://docs.microsoft.com/surface-hub/device-reset-surface-hub) 를 참조 하세요.
-
+ 
+ 
 ## Microsoft Edge 설치
 
 ### 배포 패키지를 사용 하 여 Microsoft Edge 설치
@@ -48,9 +48,6 @@ Windows 10 Team 2020 업데이트는 Chromium (버전 85 이상) 기반의 새 M
 6. Microsoft Edge 프로비저닝 패키지를 선택 하 고 **추가**를 선택 합니다.
 7. 배포 패키지에 적용 되는 변경 내용에 대 한 요약이 표시 됩니다. **예, 추가**를 선택합니다.
 8. Microsoft Edge 설치가 완료 될 때까지 기다립니다. 설치 되 면 Surface Hub 시작 메뉴로 이동 하 여 새 Microsoft Edge에 액세스 합니다.              
-그래
-> [!IMPORTANT]
->  설치 된 후에는 Surface Hub 시작 메뉴에 Microsoft Edge 개발자 채널이 고정 된 앱으로 자동으로 표시 되지 않습니다. 대신 **Start**  >  **모든 앱**시작 아래에 사용자가 검색 합니다. 기본 시작 메뉴 레이아웃을 사용 하는 경우 [microsoft edge 프로비저닝 패키지](https://aka.ms/HubEdge) 를 사용 하 여 시작 메뉴를 설치 하 여 microsoft edge를 고정 된 앱으로 추가할 수 있습니다. 자세한 내용은 [Microsoft Edge 시작 메뉴에 Microsoft Edge 표시](#display-start)섹션을 참조 하세요.
 
 > [!NOTE]
 > 사용 가능한 최신 버전의 Microsoft Edge가 있는 경우 자동으로 업데이트 됩니다.
@@ -62,7 +59,7 @@ Windows 10 Team 2020 업데이트는 Chromium (버전 85 이상) 기반의 새 M
  
 
 1. [Microsoft에서 Microsoft Edge 설치 관리자를 다운로드](https://www.microsoft.com/edge/business/download)합니다.
-    - [개발자 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(버전 85)** 에서 현재 버전 사용
+    - [안정적인 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels) 의 현재 버전 사용 **(버전 85)**
     - **Windows 64 비트** 선택
 2. Microsoft [Edge 설치 관리자를 Microsoft Intune의 lob (기간 업무) 앱으로 추가](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows)합니다.
     - Microsoft Edge 업데이트를 사용 하 여 Microsoft Edge에 대 한 자동 업데이트를 처리 하도록 선택 하는 경우 앱 **버전 무시** 설정을 **앱 정보** 창으로 구성 해야 합니다. 이 설정을 **Yes**로 전환 하면 Microsoft Intune에서 Surface Hub 장치에 설치 된 앱 버전을 적용 하지 않습니다.
@@ -71,7 +68,7 @@ Windows 10 Team 2020 업데이트는 Chromium (버전 85 이상) 기반의 새 M
 ### 모바일 장치 관리를 사용 하 여 Microsoft Edge 설치
 
 1. [Microsoft에서 Microsoft Edge 설치 관리자를 다운로드](https://www.microsoft.com/edge/business/download)합니다.
-    - [개발자 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(버전 85)** 에서 현재 버전 사용
+    - [안정적인 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels) 의 현재 버전 사용 **(버전 85)**
     - **Windows 64 비트** 선택
 2. 로컬 파일 공유 (\\server\share\MicrosoftEdgeEnterpriseX64.msi)와 같은 호스팅된 위치에서 Microsoft Edge 설치 관리자를 준비 합니다. Surface Hub 장치에는 호스팅된 위치에 액세스할 수 있는 권한이 있어야 합니다.
 3. MDM 공급자를 통해 [EnterpriseDesktopAppManagement 구성 서비스 공급자 (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) 를 사용 하 여 Microsoft Edge를 설치 합니다.
@@ -103,8 +100,10 @@ Surface Hub에 최적화 된 환경을 제공 하기 위해 Microsoft Edge는 �
 | [ProActiveAuthEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Microsoft Edge에서 Microsoft 서비스에 로그인 한 사용자를 사전 인증할 수 있도록 합니다. 이렇게 하면 SSO (Single Sign-on) 환경이 단순해 집니다.                                                                                                                         | raid-1                 |
 | [PromptForDownloadLocation](https://docs.microsoft.com/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | 파일을 저장할 위치를 사용자에 게 묻지 않고 파일을 다운로드 폴더에 자동으로 저장 합니다. 이렇게 하면 검색 환경이 단순해 집니다.                                                                                                                             | 0                 |
 
- 
-### Microsoft Edge 정책 구성
+> [!IMPORTANT]
+> 현재 PWAs (배포 가능한 프로그레시브 웹 앱)는 Windows 10 Team 운영 체제에서 지원 되지 않습니다.  또한 Surface Hub에서는 Microsoft Edge 정책 설정 [WebAppInstallForceList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#webappinstallforcelist) 이 지원 되지 않습니다. 
+
+### Microsoft Edge 정책 설정 구성
 
 Microsoft [edge 브라우저 정책을](https://docs.microsoft.com/deployedge/microsoft-edge-policies) 사용 하 여 microsoft edge에서 브라우저 설정을 구성 합니다. 이러한 정책은 다음을 사용 하 여 적용할 수 있습니다.
 
@@ -124,9 +123,8 @@ Surface Hub는 다음 Microsoft Edge 업데이트 정책을 지원 하지 않는
 > [!NOTE]
 >  Microsoft Edge 기능을 지원하려면 인터넷에 연결되어 있어야 합니다. [필요한 도메인 url](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) 이 허용 목록에 추가 되었는지 확인 하 여 방화벽과 기타 보안 메커니즘을 통해 통신을 보장 합니다.
  
-### <a name="display-start"></a> Surface Hub 시작 메뉴에 Microsoft Edge 표시
+### Surface Hub 시작 메뉴에 Microsoft Edge 표시
 
-설치 된 후에는 Surface Hub 시작 메뉴에 Microsoft Edge 개발자 채널이 고정 된 앱으로 자동으로 표시 되지 않습니다. 대신 **Start**  >  **모든 앱**시작 아래에 사용자가 검색 합니다.
 기본 시작 메뉴 레이아웃을 사용 하는 경우 Microsoft Edge 프로비저닝 패키지를 사용 하 여 시작 메뉴를 설치 하 여 Microsoft Edge를 고정 된 앱으로 추가할 수 있습니다.
 사용자 지정 된 시작 메뉴 레이아웃을 적용 하려는 경우 다음 XML을 사용 하 여 Microsoft Edge의 고정 된 타일을 추가 합니다.
 
@@ -134,7 +132,7 @@ Surface Hub는 다음 Microsoft Edge 업데이트 정책을 지원 하지 않는
 
 <start:DesktopApplicationTile
 
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge Dev\Application\msedge.exe"
+DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
 Size="2x2"
 
