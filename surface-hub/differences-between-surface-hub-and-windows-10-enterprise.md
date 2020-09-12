@@ -7,20 +7,26 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92a634e897d3e0c9163fe092aaf7992f625de991
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cae09fa3a21fe497d021f38621085b639b15c4da
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835503"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013408"
 ---
 # 운영 체제 필수 항목(Surface Hub)
 
 Surface Hub 운영 체제인 Windows 10 Team은 Windows 10 Enterprise를 기반으로 하며 엔터프라이즈 관리, 보안 및 기타 기능에 대한 풍부한 지원을 제공합니다. 그러나 둘 간에는 중요한 차이점이 있습니다. Enterprise 버전은 PC용으로 설계되었지만 Windows 10 Team은 처음부터 큰 화면과 회의실용으로 설계되었습니다. Surface Hub에 대한 보안 및 관리 요구 사항을 평가하는 경우 새 운영 체제로 고려하는 것이 좋습니다. 이 문서는 Surface Hub의 Windows 10 Team과 Windows 10 Enterprise 간의 주요 차이점과 이러한 차이가 조직에 어떤 의미가 있는지를 설명하기 위해 작성되었습니다.
+
+2020 년 9 월부터 고객은 Surface Hub 2S에서 Windows 10 Pro 또는 Enterprise로 마이그레이션하는 옵션을 사용할 수 있습니다. 자세한 내용은 다음을 참조하세요.
+
+- [Surface Hub 2에서 Windows 10 Pro 및 Enterprise를 사용할 가능성을 발표](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)했습니다.
+
+- [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md)
 
 ## 사용자 인터페이스
 

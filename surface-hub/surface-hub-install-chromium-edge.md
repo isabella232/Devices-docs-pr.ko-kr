@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/10/2020
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: fe5f76034b5b8ae4801a8fb403d6db0ed423c144
-ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+ms.openlocfilehash: 6de949c7341f9d9bee60f808dab77770377acefc
+ms.sourcegitcommit: a64f5f375ebc0611e5735c63afd9540db0f807c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009616"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013699"
 ---
 # Surface Hub에 새 Microsoft Edge 설치 및 구성
 
@@ -24,15 +24,16 @@ Windows 10 Team 2020 업데이트는 Chromium (버전 85 이상) 기반의 새 M
 
 기본적으로 Surface Hub 디바이스는 Microsoft Edge 레거시 (버전 44)로 미리 설치 되어 있습니다.
  
-Edge 개발자가 이미 설치 되어 있는 경우 다음 단계를 완료 합니다.
-
-1. 버전을 모르거나 확인 하 고 싶은 경우에는 Edge 브라우저를 열고 edge://version로 이동 합니다.
-2. **Surface Hub > 장치 관리**로 이동 합니다. **배포 패키지**에서 **배포 패키지 추가 또는 제거를 선택 합니다.**
-3. 이전 설치 관리자를 사용 하 여 시작 메뉴에서 Microsoft Edge 개발자를 고정 한 경우 목록에서 **사용자 지정 시작 메뉴** 를 클릭 하 고 제거를 클릭 **합니다.**
-4. 사용자 지정 시작 레이아웃 정책을 사용한 경우에는 [Surface Hub 시작 메뉴의 Microsoft Edge 표시](#display-microsoft-edge-in-the-surface-hub-start-menu)섹션에 설명 된 대로 최신 Edge 경로를 사용 하 여 수정 해야 합니다.
-5. 이제 MicrosoftEdgeDevUninstaller kg을 프로 비전 할 수 있습니다.
-6. **모든 앱**에서 Edge 개발자가 제거 되 면 먼저 "MicrosoftEdgeDevInstaller"를 제거한 다음 "MicrosoftEdgeDevUninstaller"을 제거 합니다.
-7. 이는 Microsoft Edge 개발자를 제거 했습니다. 이제 표준 버전을 설치할 수 있습니다.
+> [!NOTE]
+> Edge 개발자가 이미 설치 되어 있는 경우 다음 단계를 완료 합니다.
+>
+>1. 버전을 모르거나 확인 하 고 싶은 경우에는 Edge 브라우저를 열고 edge://version로 이동 합니다.
+>2. **Surface Hub > 장치 관리**로 이동 합니다. **배포 패키지**에서 **배포 패키지 추가 또는 제거를 선택 합니다.**
+>3. 이전 설치 관리자를 사용 하 여 시작 메뉴에서 Microsoft Edge 개발자를 고정 한 경우 목록에서 **사용자 지정 시작 메뉴** 를 클릭 하 고 제거를 클릭 **합니다.**
+>4. 사용자 지정 시작 레이아웃 정책을 사용한 경우에는 [Surface Hub 시작 메뉴의 Microsoft Edge 표시](#display-microsoft-edge-in-the-surface-hub-start-menu)섹션에 설명 된 대로 최신 Edge 경로를 사용 하 여 수정 해야 합니다.
+>5. 이제 MicrosoftEdgeDevUninstaller kg을 프로 비전 할 수 있습니다.
+>6. **모든 앱**에서 Edge 개발자가 제거 되 면 먼저 "MicrosoftEdgeDevInstaller"를 제거한 다음 "MicrosoftEdgeDevUninstaller"을 제거 합니다.
+>7. 이는 Microsoft Edge 개발자를 제거 했습니다. 이제 표준 버전을 설치할 수 있습니다.
 
  
  
@@ -40,7 +41,7 @@ Edge 개발자가 이미 설치 되어 있는 경우 다음 단계를 완료 합
 
 ### 배포 패키지를 사용 하 여 Microsoft Edge 설치
 
-1. PC에서 USB 드라이브의 루트 폴더에 [Microsoft Edge 프로비저닝 패키지](https://aka.ms/HubEdge) (MicrosoftEdgeDevInstaller kg)를 다운로드 합니다.
+1. PC에서 USB 드라이브의 루트 폴더에 [Microsoft Edge 프로비저닝 패키지](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller kg)를 다운로드 합니다.
 2. Surface Hub에 USB 드라이브를 삽입 합니다.
 3. Surface Hub에서 **설정을** 열고 메시지가 표시 되 면 관리자 자격 증명을 입력 합니다.
 4. **Surface Hub** > **장치 관리**로 이동합니다. **프로비저닝 패키지**에서 **프로비저닝 패키지 추가 또는 제거**를 선택합니다.

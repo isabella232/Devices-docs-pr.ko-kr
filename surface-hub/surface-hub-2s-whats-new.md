@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2da6daf2bb32e9209f33d5eb19d76221db28c0ed
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a552434846c14a5f612b3743ea42819999aa8553
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836047"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013418"
 ---
 # IT 관리자를 위한 Surface Hub 2S의 새로운 기능
 
@@ -24,6 +24,7 @@ Surface Hub 2S는 한 장치에서 디지털 화이트 보드, 모임 플랫폼,
 
 |**접근 권한 값**|**요약**|**자세히 알아보기**|
 |:-------|:------|:----|
+|**Windows 10 Pro 또는 Enterprise로 마이그레이션**| Surface Hub 2S는 회의실 환경에서 쉽게 공동 작업을 할 수 있도록 디자인 된 windows 10 팀 (windows 10의 사용자 지정 버전)을 사용 하 여 사전 설치 되어 제공 됩니다. 이제 다른 PC와 마찬가지로 Surface Hub 2S를 사용 하기 위해 Windows 10 Pro 또는 Enterprise를 실행 하는 옵션이 있습니다.| [Surface Hub 2에서 Windows 10 Pro 및 Enterprise 사용 가능성 발표](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107) <br> <br> [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md) |
 |**모바일 장치 관리 및 UEFI 관리 효율성**| MDM (모바일 디바이스 관리) 공급자를 사용 하 여 설정 및 정책을 관리 합니다. <br> <br> Surface Enterprise 관리 모드 (SEMM)와 완벽 하 게 통합 하 여 하드웨어 구성 요소와 펌웨어를 관리할 수 있습니다. | [Microsoft Intune을 사용 하 여 Surface Hub 2S 관리](surface-hub-2s-manage-intune.md) <br> <br> [Surface Enterprise 관리 모드](https://docs.microsoft.com/surface/surface-enterprise-management-mode) |
 |**클라우드 및 온-프레미스 공존**| 온-프레미스, 하이브리드 또는 온라인을 지원 합니다. | [Microsoft Surface Hub 2S에 대한 사용자 환경 준비](surface-hub-2s-prepare-environment.md) |
 |**다시 설정 및 복구**| 클라우드 또는 USB 드라이브에서 복원 합니다. | [Surface Hub 2S 복구 및 초기화](surface-hub-2s-recover-reset.md) |
@@ -53,7 +54,7 @@ Surface Hub 2S의 새로운 기능에 대 한 자세한 내용은 다음을 참�
 |**가로 세로 비율**| 16:9 | 16:9 | 3:2 |
 |**저장 공간**| SSD 128 GB | SSD 128 GB | SSD 128 GB |
 |**RAM**| 8GB RAM | 8GB RAM | 8GB RAM |
-|**처리자**| 4 세대 인텔® 코어 i5 | 4 세대 Intel 코어 i7 | 쿼드 코어 8 세대 인텔 코어 i5 프로세서 |
+|**프로세서**| 4 세대 인텔® 코어 i5 | 4 세대 Intel 코어 i7 | 쿼드 코어 8 세대 인텔 코어 i5 프로세서 |
 |**그래픽**| Intel HD 4600 | NVIDIA Quadro K2200 | Intel UHD 그래픽 620 |
 |**네트워크**| Wi-fi (802.11 a/b/g/n/ac) <br> Ethernet 1Gbps <br> 블루투스 4.0 저 에너지 <br> Miracast 사용 | Wi-fi (802.11 a/b/g/n/ac) <br> Ethernet 1Gbps <br> 블루투스 4.0 저 에너지 <br> Miracast 사용 | Wi-fi 5 (IEEE 802.11 a/b/g/n/ac) <br> Ethernet 1Gbps <br> 블루투스 무선 4.1 기술 <br> Miracast 디스플레이 |
 |**포트**| (1) USB 3.0 (아래쪽) + (1) USB 3.0 (측 액세스)  <br> (2) USB 2.0 <br> DisplayPort 영상 출력 <br> 3.5 mm 스테레오 출력 <br> 시스템 수준 컨트롤에 대 한 RJ11 커넥터 <br> <br> DisplayPort 영상 입력 <br> HDMI 영상 입력 <br> VGA 영상 입력 <br> 3.5 mm 스테레오 입력 <br> (1) USB 2.0 type B Touchback 출력 | (1) USB 3.0 (아래쪽) + (1) USB 3.0 (측 액세스) <br> (4) USB 2.0 <br> DisplayPort 영상 출력 <br> 3.5 mm 스테레오 출력 <br> 시스템 수준 컨트롤에 대 한 RJ11 커넥터 <br> <br> DisplayPort 영상 입력 <br> HDMI 영상 입력 <br> VGA 영상 입력 <br> 3.5 mm 스테레오 입력 <br> (1) USB 2.0 type B Touchback 출력 | (1) USB-A <br> 미니 DisplayPort 영상 출력 <br> HDMI 영상 입력 <br> DisplayPort 입력이 포함 된 USB-C <br> (4) USB-C (디스플레이) <br> RJ45 기가 비트 이더넷 |
