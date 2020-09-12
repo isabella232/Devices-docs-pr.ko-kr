@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: cbc2644d37f77b583d73ef7aeab5a96b1db4b11c
-  ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
+  ms.openlocfilehash: 6c4f039194bd9425ad00bb7cf2b4ac32ccdad6b5
+  ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/12/2020
-  ms.locfileid: "10926290"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "11009596"
 highlightedContent:
   items:
   - title: Surface 장치 설명서
@@ -29,45 +29,79 @@ highlightedContent:
   - title: Surface 듀오 문서
     itemType: learn
     url: https://docs.microsoft.com/surface-duo/index
-additionalContent:
-  sections:
-  - title: Surface 리소스
-    summary: Microsoft Surface 장치에 대한 리소스를 찾아보세요.
-    items:
-    - title: Surface 개요
-      links:
-      - text: 비즈니스용 Surface Pro 2
-        url: https://www.microsoft.com/surface/business/surface-go-2
-      - text: 비즈니스용 Surface Book 3
-        url: https://www.microsoft.com/surface/business/surface-book-3
-      - text: 모든 Surface 패밀리 제품 탐색
-        url: https://www.microsoft.com/surface/business
-    - title: Surface 커뮤니티
-      links:
-      - text: Surface IT 전문가 블로그
-        url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
-      - text: Surface 장치 기술 커뮤니티
-        url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-    - title: Surface 도움말
-      links:
-      - text: Surface 지원 문의
-        url: contact-surface-support.md
-  - title: Surface Hub 리소스
-    summary: Microsoft Surface Hub에 대한 리소스를 찾아보세요.
-    items:
-    - title: Surface Hub 개요
-      links:
-      - text: Surface Hub 2S의 새로운 기능은 무엇인가요?
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
-      - text: Surface Hub 2S 기술 사양
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
-      - text: 운영 체제 필수 항목
-        url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
-    - title: Surface Hub 커뮤니티
-      links:
-      - text: Surface Hub 기술 커뮤니티
-        url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
-    - title: Surface Hub 도움말
-      links:
-      - text: Surface Hub 지원 문의
-        url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+conceptualContent:
+  title: Surface 장치
+  summary: Microsoft Surface 장치에 대한 리소스를 찾아보세요.
+  items:
+  - title: Surface 개요
+    links:
+    - url: https://www.microsoft.com/surface/business/surface-go-2
+      itemType: concept
+      text: 비즈니스용 Surface Pro 2
+    - url: https://www.microsoft.com/surface/business/surface-book-3
+      itemType: concept
+      text: 비즈니스용 Surface Book 3
+    - url: https://www.microsoft.com/surface/business
+      itemType: concept
+      text: 모든 Surface 패밀리 제품 탐색
+  - title: Surface Hub 개요
+    links:
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
+      itemType: concept
+      text: Surface Hub 2S의 새로운 기능은 무엇인가요?
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
+      itemType: concept
+      text: Surface Hub 2S 기술 사양
+    - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+      itemType: concept
+      text: 운영 체제 필수 항목
+  - title: Surface Duo 개요
+    links:
+    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-manage
+      itemType: concept
+      text: Surface Duo 관리 개요
+    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+      itemType: concept
+      text: Surface Duo 보안 개요
+    - url: https://www.microsoft.com/surface/business/surface-duo
+      itemType: concept
+      text: Surface Duo 기술 스펙
+  - title: Surface 커뮤니티
+    links:
+    - url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+      itemType: reference
+      text: Surface IT 전문가 블로그
+    - url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+      itemType: reference
+      text: Surface 장치 기술 커뮤니티
+  - title: Surface Hub 커뮤니티
+    links:
+    - url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+      itemType: reference
+      text: Surface Hub 기술 커뮤니티
+  - title: Surface Duo 커뮤니티
+    links:
+    - url: https://aka.ms/SurfaceDuoITBlog
+      itemType: reference
+      text: Surface Duo IT 전문가 블로그
+  - title: Surface 도움말
+    links:
+    - url: contact-surface-support.md
+      itemType: learn
+      text: Surface 지원 문의
+  - title: Surface Hub 도움말
+    links:
+    - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+      itemType: learn
+      text: Surface Hub 지원 문의
+  - title: Surface Duo 도움말
+    links:
+    - url: https://docs.microsoft.com/en-us/surface/contact-surface-support
+      itemType: learn
+      text: Surface Duo 지원 연락처
+    - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
+      itemType: learn
+      text: Surface Duo SDK 다운로드
+    - url: https://www.microsoft.com/download/details.aspx?id=100847
+      itemType: learn
+      text: Surface Duo 에뮬레이터 다운로드
