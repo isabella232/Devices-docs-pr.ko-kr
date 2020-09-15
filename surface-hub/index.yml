@@ -14,17 +14,19 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 16e4f74623e3dfdcd2aafd43a80950612f0029c7
-  ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+  ms.openlocfilehash: 97f710f427c6183cb34dadb07f6aa9f6637464ed
+  ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/01/2020
-  ms.locfileid: "10986320"
+  ms.lasthandoff: 09/11/2020
+  ms.locfileid: "11013428"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Hub 2에서 Windows 10 Pro 및 Enterprise 사용 가능성 발표
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
     - text: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
       url: surface-hub-2s-migrate-os.md
     - text: Windows 10 Team 2020 업데이트 Preview 빌드 설치
