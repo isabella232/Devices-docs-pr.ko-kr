@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 32d8fded8c325766f7ab6bbc750ba7fe13e01d70
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0e136bd0a69db7a4c4e5cea7d2c065727dcc8fcc
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834391"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016444"
 ---
 # Microsoft Surface 배포 가속기
 
@@ -32,13 +32,42 @@ SDA (microsoft Surface Deployment Accelerator)는 무료 Microsoft 배포 도구
 
 결과 이미지는 Microsoft Office 또는 Surface UWP 응용 프로그램과 같이 사전 설치 된 응용 프로그램 없이도 완전 복구 (BMR) 이미지의 구성과 일치 합니다.
 
+## 요구 사항
+
+1. USB 엄지 드라이브의 크기는 16gb 이상입니다. USB 드라이브의 포맷이 표시 됩니다.
+2. Windows 10 Pro 또는 Windows 10 Enterprise를 사용 하는 .iso 파일 미디어 만들기 도구를 사용 하 여 Windows 10을 다운로드 하 고 .iso 파일을 만들 수 있습니다. 자세한 내용은 [Windows 10 다운로드](https://www.microsoft.com/software-download/windows10)를 참조 하세요.
+
+## SDA를 실행 하는 방법
+
 **SDA를 실행 하려면 다음을 수행 합니다.**
 
 1. GitHub에서 [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) 으로 이동 합니다. 
-2. **복제 또는 다운로드** 를 선택 하 고 Readme 파일을 검토 합니다.
-3. 추가 정보에 명시 된 환경에 적합 한 변수를 사용 하 여 스크립트를 편집 하 고 테스트 환경에서 실행 하기 전에 검토 합니다. 
+2. [추가 정보](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) 문서를 검토 합니다.
+3. [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) 페이지에서 **코드** 단추를 클릭 한 다음 **ZIP 다운로드** 를 선택 하 여 파일을 컴퓨터에 로컬로 저장 합니다.
+4. .Zip 파일을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.
+5. **일반** 탭에서 **차단 해제** 확인란을 선택 하 고 **확인**을 클릭 합니다.
+6. 하드 드라이브의 위치 (예: C:\SDA)에 .zip 파일의 압축을 풉니다.
+7. 관리자 권한 Windows PowerShell 프롬프트를 열고 현재 세션에 대 한 ExecutionPolicy를 무제한으로 설정 합니다.
 
-   ![Surface Deployment Accelerator 도구 실행](images/surface-deployment-accelerator.png)
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+    ```
+8. 사용자 환경에 대 한 매개 변수를 지정 하는 SDA 스크립트를 실행 합니다. 예를 들어 다음 명령을 실행 하면 Surface Hub 2에 Windows 10을 설치 하는 데 사용할 수 있는 부팅 가능 USB 드라이브가 만들어집니다.
+
+    ```powershell
+    .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+    ```
+
+   ![Surface Deployment Accelerator 도구 실행](images/sda1.png)
+
+    스크립트를 실행 하는 데 약 45 분이 필요 하지만 사용 가능한 CPU 및 디스크 리소스에 따라 시간이 더 걸릴 수 있습니다. 
+
+    Windows 이미지를 만든 후 스크립트는 USB 드라이브의 드라이브 문자를 확인 하 라는 메시지를 표시 합니다. 그런 다음 USB 드라이브는 부팅 가능으로 구성 되 고 화면 장치에 대 한 사용자 지정 Windows 10 이미지의 설치를 위해 복사 된 파일을 사용 하도록 설정 됩니다.
+
+9. Windows 10을 설치할 장치에 USB 드라이브를 삽입 하 고 다시 부팅 하 여 Windows 10 설치를 시작 합니다. BIOS에서 USB 부팅을 사용 하도록 설정 해야 하며, 보안 부팅을 일시적으로 사용 하지 않도록 설정할 수 있습니다.
+
+> [!IMPORTANT]
+> USB 드라이브에서 부팅 하는 즉시 Windows 10 설치를 시작 합니다. USB를 삽입 하 고 다시 시작 하기 전에 장치가 준비 되었는지 확인 합니다. 
 
 ## 관련 링크
 

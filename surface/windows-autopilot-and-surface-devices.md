@@ -13,16 +13,31 @@ ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: ea5920649a4a29841b102de73c88187440968910
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 9/14/2020
+ms.openlocfilehash: d2a948d236ffa286192937cc5ca71099b6eeeafb
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834620"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016427"
 ---
 # Windows Autopilot 및 Surface 디바이스
 
 Windows Autopilot는 Windows 10의 클라우드 기반 배포 기술입니다. Windows Autopilot를 사용 하 여 상자를 바로 사용할 수 있는 0-터치식 프로세스에서 장치를 원격으로 배포 하 고 구성 합니다.
+
+일반적으로 IT 전문가는 나중에 완벽 하 게 작동 하는 OS가 이미 설치 된 장치에 배포 되는 이미지를 만들고 사용자 지정 하는 데 많은 시간을 할애 하 고 있습니다. Windows Autopilot는 Windows 장치를 설정 하 고 구성 하는 기술 모음을 사용 하 여 0으로의 자동 배포 접근 방식을 도입 했습니다. 이렇게 하면 IT 부서가 관리할 인프라와 간단 하 고 간편한 프로세스를 사용 하 여 이미지를 구성/사용자 지정할 수 있습니다. 사용자의 관점에서 보면 몇 가지 간단한 단계만 거치면 생산성 상태의 화면을 얻을 수 있습니다. 사실, 최종 사용자는 네트워크에 연결 하 고 해당 자격 증명을 확인 하는 것만이 유일한 조작 사항입니다. 그 다음에는 모든 것이 완벽 하 게 자동화 되었습니다.
+
+Windows Autopilot에서는 다음을 수행할 수 있습니다.
+
+- Azure AD (Active Directory)에 디바이스를 자동으로 연결 합니다.
+- Microsoft Intune과 같은 MDM 서비스에 장치를 자동으로 등록 합니다 (Azure AD Premium 구독 필요).
+- 관리자 계정 생성을 제한하십시오. Autopilot는 Windows에 로그인 하는 첫 번째 사용자를 표준 사용자로 입력 하는 유일한 방법입니다.
+- 장치 프로필을 기반으로 구성 그룹에 디바이스를 만들고 자동 할당 합니다.
+- 조직의 요구 사항에 맞게 OOBE (Box Experience) 콘텐츠 및 브랜딩을 사용자 지정 합니다.
+- Intune을 사용 하 여 전체 장치 구성을 사용 합니다.
+- 장치를 원격으로 다시 설정 하거나 다시 시작 합니다.
+
+## 작동 방식
 
 Windows Autopilot에서 등록 된 디바이스는 *하드웨어 해시*라고 하는 고유한 장치 서명을 통해 처음 시작 될 때 인터넷을 통해 식별 됩니다. Azure AD (azure Active Directory) 및 모바일 장치 관리와 같은 최신 관리 솔루션을 사용 하 여 자동으로 등록 하 고 구성 합니다.
 
@@ -47,6 +62,10 @@ Microsoft는 Autopilot 등록을 위해 모든 화면을 자동으로 확인 하
 > [!NOTE]
 > 고객이 파트너를 사용 하 여 디바이스를 반환 하는 경우 파트너는 deregistering 및 Windows Autopilot에 등록 하는 장치를 포함 하 여 exchange 프로세스를 관리 해야 합니다.
 
+## Microsoft 지원 등록
+
+고객 및 Microsoft Csp (클라우드 솔루션 공급자)는 Microsoft 지원에 요청을 제출 하 여 Surface 디바이스를 등록 하는 옵션을 제공 합니다. 자세한 내용은 [Windows 용 표면 등록 지원 Autopilot](surface-autopilot-registration-support.md)을 참조 하세요.
+
 ## Windows Autopilot에 대해 사용 하도록 설정 된 Surface 파트너
 
 Surface 파트너 선택은 Windows Autopilot에서 구매할 때 사용자에 게 Surface 디바이스를 등록할 수 있습니다. 또한 등록 된 디바이스를 사용자에 게 직접 제공할 수 있습니다. 장치는 Windows Autopilot, Azure AD 및 모바일 장치 관리를 사용 하 여 0 터치 프로세스를 통해 완전히 구성할 수 있습니다.
@@ -68,3 +87,4 @@ Windows Autopilot으로 설정 되는 Surface 파트너는 다음과 같습니�
 Windows Autopilot에 대 한 자세한 내용은 다음을 참조 하세요.
 - [Windows Autopilot 개요](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot)
 - [Windows Autopilot 요구 사항](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements)
+- [Windows Autopilot에 대 한 Surface Registration 지원](surface-autopilot-registration-support.md)
