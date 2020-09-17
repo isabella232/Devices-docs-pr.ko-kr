@@ -30,6 +30,7 @@
 
 ### [Surface 장치 배포](deploy.md)
 ### [Windows Autopilot 및 Surface 디바이스](windows-autopilot-and-surface-devices.md)
+### [Windows Autopilot용 Surface 등록 지원](surface-autopilot-registration-support.md)
 ### [가상 데스크톱 Windows Virtual Desktop](windows-virtual-desktop-surface.md)
 ### [Surface Pro X 배포, 관리 및 서비스](surface-pro-arm-app-management.md)
 ### [Surface Pro X 앱 호환성](surface-pro-arm-app-performance.md)

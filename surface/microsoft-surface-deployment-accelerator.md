@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 0e136bd0a69db7a4c4e5cea7d2c065727dcc8fcc
-ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
+ms.openlocfilehash: 3ede7311289dc4bc720735c0142ff3a46fbb69e7
+ms.sourcegitcommit: 582c5a79881c58c4f1aa66cfcab46db966ca9f24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/16/2020
-ms.locfileid: "11016444"
+ms.locfileid: "11016559"
 ---
 # Microsoft Surface 배포 가속기
 
@@ -36,6 +36,9 @@ SDA (microsoft Surface Deployment Accelerator)는 무료 Microsoft 배포 도구
 
 1. USB 엄지 드라이브의 크기는 16gb 이상입니다. USB 드라이브의 포맷이 표시 됩니다.
 2. Windows 10 Pro 또는 Windows 10 Enterprise를 사용 하는 .iso 파일 미디어 만들기 도구를 사용 하 여 Windows 10을 다운로드 하 고 .iso 파일을 만들 수 있습니다. 자세한 내용은 [Windows 10 다운로드](https://www.microsoft.com/software-download/windows10)를 참조 하세요.
+3. Windows 10 버전 2004 이상을 실행 하는 장치가 인터넷에 액세스 합니다.
+
+요구 사항에 대 한 자세한 내용은 추가 정보 문서의 [필수 구성 요소](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#prerequisites) 섹션을 참조 하세요.
 
 ## SDA를 실행 하는 방법
 
@@ -52,17 +55,20 @@ SDA (microsoft Surface Deployment Accelerator)는 무료 Microsoft 배포 도구
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
     ```
-8. 사용자 환경에 대 한 매개 변수를 지정 하는 SDA 스크립트를 실행 합니다. 예를 들어 다음 명령을 실행 하면 Surface Hub 2에 Windows 10을 설치 하는 데 사용할 수 있는 부팅 가능 USB 드라이브가 만들어집니다.
+8. 사용자 환경에 대 한 매개 변수를 지정 하는 SDA 스크립트를 실행 합니다. 이 스크립트를 사용 하 여 다양 한 Surface 장치에 Windows 10을 설치 하기 위한 이미지를 만들 수 있습니다. 지원 되는 디바이스의 전체 목록은 SDA README 문서의 [장치 매개 변수 설명을](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) 참조 하세요. 
+
+    예를 들어 다음 명령어는 [Surface Hub 2에 Windows 10을 설치](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os)하는 데 사용할 수 있는 부팅 가능 USB 드라이브를 만듭니다.
 
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
     ```
+    예제 스크립트 출력은 다음과 같습니다.
 
    ![Surface Deployment Accelerator 도구 실행](images/sda1.png)
 
     스크립트를 실행 하는 데 약 45 분이 필요 하지만 사용 가능한 CPU 및 디스크 리소스에 따라 시간이 더 걸릴 수 있습니다. 
 
-    Windows 이미지를 만든 후 스크립트는 USB 드라이브의 드라이브 문자를 확인 하 라는 메시지를 표시 합니다. 그런 다음 USB 드라이브는 부팅 가능으로 구성 되 고 화면 장치에 대 한 사용자 지정 Windows 10 이미지의 설치를 위해 복사 된 파일을 사용 하도록 설정 됩니다.
+    Windows 이미지를 만든 후 스크립트는 USB 드라이브의 드라이브 문자를 삽입 하 고 확인 하 라는 메시지를 표시 합니다. 그런 다음 USB 드라이브는 부팅 가능으로 구성 되 고 화면 장치에 대 한 사용자 지정 Windows 10 이미지의 설치를 위해 복사 된 파일을 사용 하도록 설정 됩니다.
 
 9. Windows 10을 설치할 장치에 USB 드라이브를 삽입 하 고 다시 부팅 하 여 Windows 10 설치를 시작 합니다. BIOS에서 USB 부팅을 사용 하도록 설정 해야 하며, 보안 부팅을 일시적으로 사용 하지 않도록 설정할 수 있습니다.
 
@@ -72,5 +78,4 @@ SDA (microsoft Surface Deployment Accelerator)는 무료 Microsoft 배포 도구
 ## 관련 링크
 
  - [GitHub에서 릴리스된 소스 이미지 배포 도구 열기](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
-
  - [Windows ADK 다운로드 및 설치](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
