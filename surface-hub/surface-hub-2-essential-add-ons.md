@@ -12,15 +12,15 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
-ms.date: 09/16/2020
+ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d908c937c331e36f6b82f4c3c5ee213abf8a0176
-ms.sourcegitcommit: 2ac88d30b7d104d86b3bec657941457c916a116c
+ms.openlocfilehash: 24998848f16803585bc414d50e2099745943dcc7
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11027008"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030425"
 ---
 # Surface Hub 2의 Windows 10 Pro 및 Enterprise 용 필수 추가 기능
 
@@ -54,6 +54,7 @@ Windows Hello를 사용 하 여 로그인 하도록 지문 판독기를 구성 �
 | **시스템 요구 사항**          | Windows 10 Pro, Windows 10 Enterprise.                                                                                               |
 | **Windows 인증**       | Windows10                                                                                                                           |
 | **거짓 수락 율 (FAR)** | 1/1.5 백만. FAR는 무단 사용자의 액세스 시도를 잘못 허용 하는 생체 인식 보안 시스템의 확률을 보여 줍니다. |
+| **거짓 거부 율 (FRR)** | 4.9%. FRR은 생체 인식 보안 시스템의 허용 된 사용자의 액세스 시도를 잘못 거부 하는 확률을 보여 줍니다. |
 
 
 > [!NOTE]
