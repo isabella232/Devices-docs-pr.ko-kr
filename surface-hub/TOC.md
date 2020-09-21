@@ -37,6 +37,7 @@
 ## 관리
 ### [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md)
 ### [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성](surface-hub-2-post-install.md)
+### [Surface Hub 2에서 Windows 10 Pro 및 Enterprise의 필수 추가 기능](surface-hub-2-essential-add-ons.md)
 ### [Windows 10 Team 2020 업데이트 Preview 빌드 설치](surface-hub-install-2020preview.md)  
 ### [알려진 문제-Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
 ### [Surface Hub에 새 Microsoft Edge 설치 및 구성](surface-hub-install-chromium-edge.md)        

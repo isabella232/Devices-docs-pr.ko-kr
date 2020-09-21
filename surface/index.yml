@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: 6c4f039194bd9425ad00bb7cf2b4ac32ccdad6b5
-  ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+  ms.openlocfilehash: 52dbcea31c861adb664937bbda299004ed32ff29
+  ms.sourcegitcommit: 52b5fff937f730272d97a7ef79265f0dc99eb0f1
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/10/2020
-  ms.locfileid: "11009596"
+  ms.lasthandoff: 09/18/2020
+  ms.locfileid: "11027510"
 highlightedContent:
   items:
   - title: Surface 장치 설명서
@@ -57,7 +57,7 @@ conceptualContent:
       text: 운영 체제 필수 항목
   - title: Surface Duo 개요
     links:
-    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-manage
+    - url: https://docs.microsoft.com/surface-duo/surface-duo-manage
       itemType: concept
       text: Surface Duo 관리 개요
     - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
@@ -96,7 +96,7 @@ conceptualContent:
       text: Surface Hub 지원 문의
   - title: Surface Duo 도움말
     links:
-    - url: https://docs.microsoft.com/en-us/surface/contact-surface-support
+    - url: https://docs.microsoft.com/en-us/surface-duo/contact-surface-duo-support
       itemType: learn
       text: Surface Duo 지원 연락처
     - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
