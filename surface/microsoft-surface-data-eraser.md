@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/11/2020
-ms.openlocfilehash: da3624d5eb271e999334b4859cfb6123eeabfa46
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 09/18/2020
+ms.openlocfilehash: dc1a9b4480f37af6d74699a2e693ef8d5318da76
+ms.sourcegitcommit: 8bd03770279d5e53446436781226ffd51eeec916
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834444"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "11029232"
 ---
 # Microsoft Surface 데이터 지우개
 
@@ -34,26 +34,13 @@ Microsoft Surface 데이터 지우개 도구를 사용하여 Surface 디바이�
 
 호환되는 Surface 장치는 다음과 같습니다.
 
-* Surface Book 3
-* Surface Go 2
-* Surface Pro 7
-* Surface Pro X
-* Surface 노트북 3
-* Surface Pro 6
-* Surface Laptop 2
-* Surface Go
-* Surface Book 2
-* Surface Pro LTE Advanced(모델 1807)
-* Surface Pro(모델 1796)
-* Surface 노트북
-* Surface Studio
-* Surface Studio 2
-* Surface Book
-* Surface Pro 4
-* Surface 3 LTE
-* Surface 3
-* Surface Pro 3
-* Surface Pro 2
+- Surface Book (모든 버전)
+- Surface Go (모든 버전)
+- Surface Pro X (모든 에디션)
+- Surface 노트북 (모든 에디션)
+- Surface Studio (모든 버전)
+- Surface Pro 2 이상
+- Surface Hub 2의 Windows 10 Pro 및 Enterprise
 
 Microsoft Surface 데이터 지우개가 도움이 되는 몇 가지 시나리오는 다음과 같습니다.
 
@@ -172,6 +159,17 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들고 나면 다음 절�
 
 Microsoft Surface 데이터 지우개는 Microsoft에서 정기적으로 업데이트됩니다. 각각의 새 버전에 제공된 변경 사항에 대한 정보는 다음을 참조하세요.
 
+### 3.33.139
+*릴리스 날짜: 2020 년 9 월 9 일*
+
+이 버전의 Surface Data 지우개에는 버그 수정 사항이 포함 되어 있으며 다음에 대 한 지원이 추가 되었습니다. 
+
+- 새로운 제품 릴리스로 업데이트 해야 하는 필요성을 줄이기 위해 아키텍처 다시 디자인
+- 새 도구 업데이트에 사용할 수 있는 알림
+- 원격 분석 추가
+- Surface Hub 2의 Windows 10 Pro 및 Enterprise
+
+
 ### 3.30.139
 *릴리스 날짜: 11 년 5 월 2020*
 
@@ -234,7 +232,7 @@ Microsoft Surface 데이터 지우개는 Microsoft에서 정기적으로 업데�
 
 ### 버전 3.2.45.0
 
-이 버전의 Microsoft Surface 데이터 지우개에는 다음에 대한 지원이 추가되었습니다.
+이 버전의 Microsoft Surface 데이터 지우개에서는 다음에 대한 지원이 추가되었습니다.
 
 - Surface Book 2
 

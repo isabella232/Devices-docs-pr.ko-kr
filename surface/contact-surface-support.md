@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Microsoft Surface 및 Surface Hub 제품에 대 한 지원 정보
-ms.openlocfilehash: 52be75fdec27e1ccf4d68be36afab19c77db540a
-ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
+ms.openlocfilehash: f423bdcc5bc4890861614e6213e9281b22925b42
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "10926300"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030415"
 ---
 # Surface 지원
 
@@ -39,7 +39,7 @@ Toolkit을 실행 한 후에도 문제가 지속 되는 경우 아래 탭을 사
 > [!NOTE]
 > Microsoft 계정 또는 Azure Active Directory 계정을 사용 하 여 온라인 제출 포털에 로그인 해야 할 것입니다.  
 
-비즈니스 고객: [서비스 요청을 제출](https://support.microsoft.com/supportforbusiness/productselection?sapid=d383b26c-f150-6220-8f1b-e8aa325d9727)합니다. 
+비즈니스 고객: [서비스 요청을 제출](https://support.microsoft.com/supportforbusiness/productselection)합니다. 
 
 Microsoft 프리미어 고객: [서비스 허브에서 서비스 요청을 제출](https://serviceshub.microsoft.com/support/contactsupport)합니다. 
 
