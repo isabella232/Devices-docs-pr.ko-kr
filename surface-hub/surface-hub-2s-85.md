@@ -1,5 +1,5 @@
 ---
-title: Surface Hub 2S 85-인치
+title: Surface Hub 2S 85인치
 description: 이 문서에서는 Surface Hub 2S 85-인치를 소개 합니다.
 keywords: Surface Hub 2S 85, 기술 스펙
 ms.prod: surface-hub
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 09/25/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 40c16aa783e0880a3d28178ed936a68d7dc49c1a
-ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
+ms.openlocfilehash: 149e3498b2d976b5ab090db1726d56eb2357ffc5
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11072832"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078738"
 ---
 # Surface Hub 2S 85 "개요 & 기술 스펙
 
@@ -35,7 +35,7 @@ ms.locfileid: "11072832"
 
 | 구성 요소    | 설명                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 차원의        | 44.5 "x 62.8" x 3.4 "<br>(1130mm x 1595mm x 85.6 mm)                                                                                                                                                                                                        |
+| 차원의        | 44.5 "x 77.1" x 3.4 "<br>(1130mm x 1959mm x 85.6 mm)                                                                                                                                                                                                        |
 | 무게            | 185 lb. (84kg)                                                                                                                                                                                                                                            |
 | 해상도        | 3840 x 2160                                                                                                                                                                                                                                               |
 | 표시           | PixelSense™ 표시, 16:9 가로 세로 비율, 10 비트 색, 30.5 mm 테두리 너비, 반사 방지, IPS LCD, 20 개의 동시 터치 점이 있는 셀 내 터치                                                                                                           |

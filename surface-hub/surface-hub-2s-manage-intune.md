@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 389db218d06f9f8d3f510e711b03487daf4e06f9
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934868"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078748"
 ---
 # Intune으로 Surface Hub 2S 관리하기
 
@@ -26,10 +26,13 @@ Surface Hub 2S에서는 IT 관리자가 MDM(모바일 장치 관리) 공급자�
 
 ### 수동 등록
 
-1. Surface Hub 2S에서 로컬 관리자로 로그인하고 앱 **설정**을 엽니다. **Surface Hub** > **장치 관리**를 선택한 다음 **+** 를 선택하여 추가합니다.
-2. 인증 후 장치는 자동으로 Intune에 등록됩니다.
+1. Surface Hub 2S에서 **설정** 앱을 열고 로컬 관리자로 로그인 합니다. **Surface Hub** > **장치 관리**를 선택한 다음 **+** 를 선택하여 추가합니다.
+2. Intune에서 사용할 계정으로 로그인 하 라는 메시지가 표시 됩니다. 인증 후 장치는 자동으로 Intune에 등록됩니다.
 
    ![Intune으로 Surface Hub 2S 등록하기](images/sh2-set-intune1.png)<br>
+   
+> [!NOTE]
+> 인증에 사용 되는 계정은 Intune 등록 계정이 며 Intune에 대해 사용이 허가 되어야 합니다.
 
 ### 자동 등록 - Azure Active Directory 연결
 
