@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: cf585626be4638539cc55ef78090dff706fbf755
-  ms.sourcegitcommit: 3766d1dd398d72e8478e5f08b6b208c6a8c25458
+  ms.openlocfilehash: 8fec6b0fdd34c196ba2e5cfcb229c16b8e340fe6
+  ms.sourcegitcommit: a71724a00e0e9626fa2e26c26fe3b30d8a99238a
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/24/2020
-  ms.locfileid: "11077891"
+  ms.lasthandoff: 09/28/2020
+  ms.locfileid: "11080647"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
@@ -27,7 +27,7 @@ landingContent:
     links:
     - text: Surface Hub 2S는 현재의 하이브리드 작업 영역에서 디지털 및 물리적 영역 간의 격차를 메꾸어줍니다.
       url: https://blogs.windows.com/devices/2020/09/22/surface-hub-2s-bridges-digital-and-physical-divide-in-todays-hybrid-workspaces/
-    - text: Surface Hub 2S 85인치
+    - text: Surface Hub 2S 85인치 개요 및 기술 사양
       url: surface-hub-2s-85.md
     - text: Surface Hub 2에서 Windows 10 Pro 및 Enterprise 사용 가능성 발표
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
