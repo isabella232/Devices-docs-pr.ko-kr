@@ -5,7 +5,7 @@
 ## 개요
 ### [IT 관리자를 위한 Surface Hub 2S의 새로운 기능](surface-hub-2s-whats-new.md)
 ### [Surface Hub 2S 50인치 기술 사양](surface-hub-2s-techspecs.md) 
-### [Surface Hub 2S 85인치](surface-hub-2s-85.md)
+### [Surface Hub 2S 85인치 기술 사양](surface-hub-2s-85.md)
 ### [운영 체제 필수 항목(Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
 ### [Surface Hub 2S 밝기, 볼륨 및 입력 조정](surface-hub-2s-onscreen-display.md)
 ### [Surface Hub에서 Microsoft Whiteboard 사용](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
