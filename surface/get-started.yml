@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Surface 장치 설명서
-summary: 클라우드를 통해 함께 연결된 Surface, Windows, Office의 기능을 활용하세요.
+title: Surface devices documentation
+summary: Harness the power of Surface, Windows, and Office connected together through the cloud.
 metadata:
-  title: Surface 장치 설명서
-  description: Microsoft Surface 장치 시작
+  title: Surface devices documentation
+  description: Get started with Microsoft Surface devices
   ms.service: product-insights
   ms.topic: landing-page
   manager: laurawi
@@ -11,112 +11,112 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 6d3d6f4c3e9ed468f91cccf68ac3532afa3d2266
-  ms.sourcegitcommit: 3b1bc3682d0dee24149ec26cdc78d3148b8d7808
+  ms.openlocfilehash: 1a54d40faf9c3738bd07595b57a1c2d5a86373b4
+  ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/24/2020
-  ms.locfileid: "11077743"
+  ms.lasthandoff: 10/01/2020
+  ms.locfileid: "11093101"
 landingContent:
-- title: Surface 장치
+- title: Surface devices
   linkLists:
-  - linkListType: overview
+  - linkListType: whats-new
     links:
-    - text: 비즈니스용 Surface Pro 2
-      url: https://www.microsoft.com/surface/business/surface-go-2
-    - text: 비즈니스용 Surface Book 3
-      url: https://www.microsoft.com/surface/business/surface-book-3
-    - text: 모든 Surface 패밀리 제품 탐색
+    - text: Surface Laptop Go  for Business
+      url: https://www.microsoft.com/surface/business/surface-laptop-go
+    - text: Surface Pro X for Business
+      url: https://www.microsoft.com/surface/business/surface-pro-x
+    - text: Explore all Surface family products
       url: https://www.microsoft.com/surface/business
-- title: 시작
+- title: Get started
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Book 3 GPU 기술 개요
+    - text: Surface Book 3 GPU technical overview
       url: surface-book-gpu-overview.md
-    - text: Surface Book 3 Quadro RTX 3000 기술 개요
+    - text: Surface Book 3 Quadro RTX 3000 technical overview
       url: surface-book-quadro.md
-    - text: Surface Dock 2의 새로운 기능
+    - text: What’s new in Surface Dock 2
       url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: Surface & AutoPilot을 사용 하는 0 터치 배포
+    - text: Zero Touch Deployment with Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: 원격 환경에서 ARM의 Surface Pro X 및 Windows
+    - text: Surface Pro X and Windows on ARM in a remote world
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface Security – Microsoft의 최신 끝점 보호에 대 한 칩
+    - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
       url: https://youtu.be/uadAecDbqf4
-- title: Surface 장치 배포
+- title: Deploy Surface devices
   linkLists:
   - linkListType: deploy
     links:
-    - text: Autopilot 및 Surface 디바이스
+    - text: Autopilot and Surface devices
       url: windows-autopilot-and-surface-devices.md
-    - text: Windows Autopilot용 Surface 등록 지원
+    - text: Surface Registration Support for Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: 가상 데스크톱 Windows Virtual Desktop
+    - text: Windows Virtual Desktop on Surface
       url: windows-virtual-desktop-surface.md
-- title: Surface 장치 관리
+- title: Manage Surface devices
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
+    - text: Manage and deploy Surface driver and firmware updates
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface 장치의 모범 사례 전원 설정
+    - text: Best practice power settings for Surface devices
       url: maintain-optimal-power-settings-on-Surface-devices.md
-    - text: Surface 장치에 대한 Wi-Fi 연결 최적화
+    - text: Optimize Wi-Fi connectivity for Surface devices
       url: surface-wireless-connect.md
-- title: 보안 지침 탐색
+- title: Explore security guidance
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Surface Enterprise 관리 모드를 사용 하는 보안 Surface Dock 2 포트 (SEMM)
+    - text: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
       url: secure-surface-dock-ports-semm.md
-    - text: Surface UEFI 설정의 Intune 관리
+    - text: Intune management of Surface UEFI settings
       url: surface-manage-dfci-guide.md
-    - text: Surface 데이터 지우개 도구
+    - text: Surface Data Eraser tool
       url: microsoft-surface-data-eraser.md
-- title: Surface 도구 살펴보기
+- title: Discover Surface tools
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 비즈니스용 Surface 진단 도구 키트
+    - text: Surface Diagnostic Toolkit for Business
       url: surface-diagnostic-toolkit-for-business-intro.md
-    - text: SEMM 및 UEFI
+    - text: SEMM and UEFI
       url: surface-enterprise-management-mode.md
-    - text: Surface Deployment Accelerator 도구
+    - text: Surface Deployment Accelerator tool
       url: microsoft-surface-deployment-accelerator.md
-- title: 문제 해결
+- title: Troubleshoot
   linkLists:
   - linkListType: learn
     links:
-    - text: 주요 지원 솔루션
+    - text: Top support solutions
       url: support-solutions-surface.md
-    - text: 호환되는 Surface 장치에서의 SSD 제거에 대한 모범 사례
+    - text: Best practices for SSD removal in compatible Surface devices
       url: surface-ssd-removal-guide.md
-    - text: Surface IT 전문가 블로그
+    - text: Surface IT Pro Blog
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
-    - text: Surface repair 또는 service을 수행 하는 동안 데이터 보호
+    - text: Protecting your data during Surface repair or service
       url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: Surface Dock 및 도킹 스테이션 문제 해결
+    - text: Troubleshoot Surface Dock and docking stations
       url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
-- title: Surface 커뮤니티에 참가
+- title: Participate in Surface Community
   linkLists:
   - linkListType: learn
     links:
-    - text: Surface IT 전문가 블로그
+    - text: Surface IT Pro blog
       url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
     - text: Surface 장치 기술 커뮤니티
       url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
     - text: Microsoft Mechanics Surface 비디오
       url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-- title: 도움이 필요하세요?
+- title: Need help?
   linkLists:
   - linkListType: learn
     links:
-    - text: Surface 지원 문의
+    - text: Contact Surface Support
       url: contact-surface-support.md
-    - text: Surface for Business 무상 수리 및 확장 서비스 플랜
+    - text: Surface for Business warranty and extended service plans
       url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
