@@ -4,7 +4,8 @@
 
 ## 개요
 
-### [Surface Dock 2의 새로운 기능](surface-dock-whats-new.md)
+### [Microsoft Surface를 사용하여 ROI 최대화](forrester-tei-study.md)
+### [Surface Dock의 새로운 기능](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU 기술 개요](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 기술 개요](surface-book-quadro.md)
 ### [비즈니스용 Surface Book 3](https://www.microsoft.com/surface/business/surface-book-3)
