@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 10/01/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: d1e7aa41f8219f0ae6ccd81a36fa0fc142dd1c3c
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 758cde12ea79e42630dad55b06eb50d0ab9dda12
+ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835580"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "11093131"
 ---
 # Surface Pro X 배포, 관리 및 서비스
 
@@ -92,9 +92,8 @@ Surface Pro X는 Windows 업데이트를 사용하여 가정 사용자와 소규
 - 네이티브 ARM64 및 Microsoft Store UWP 앱은 배터리 사용 시간을 최적화하면서 ARM 기반 프로세서의 최대 기본 속도를 활용하는 탁월한 사용자 환경을 제공합니다.
 - ARM 기반 프로세서에서 실행되는 Windows 10 PC용으로 설계된 드라이버를 사용하는 앱입니다.
 
-### 지원되지 않음
-
-- x64 앱은 ARM 기반 프로세서의 Windows 10 PC에서 실행되지 않습니다.
+> [!NOTE]
+> Windows 참가자 프로그램을 통해 미리 보기에서 64 비트 에뮬레이션을 사용하면 Surface Pro X에서 64 비트(x64) 앱을 실행할 수 있습니다.
 
 Surface Pro X에서 앱을 실행하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
