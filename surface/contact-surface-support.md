@@ -1,5 +1,5 @@
 ---
-title: Surface 지원 문의
+title: Contact Surface Support
 ms.author: v-todmc
 author: greg-lindsay
 manager: laurawi
@@ -18,47 +18,47 @@ ms.custom:
 - CI 118876
 - CSSTroubleshoot
 ms.reviewer: mablaik
-description: Microsoft Surface 및 Surface Hub 제품에 대 한 지원 정보
-ms.openlocfilehash: f423bdcc5bc4890861614e6213e9281b22925b42
-ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
+description: Support information for Microsoft Surface and Surface Hub products.
+ms.openlocfilehash: 37554183b4839b5e6825a8ac680336b12e213219
+ms.sourcegitcommit: edc92b4be50e6a86f4b942bf71339d97aaf3c5ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "11030415"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "11094915"
 ---
-# Surface 지원
+# Surface Support
 
-### 문의처 전에 다음을 수행 합니다.  
+### Before you contact us:  
 
-[비즈니스를 위한 Surface 진단 도구 키트](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business) (sdt)를 실행 합니다. SDT는 IT 관리자가 표면 장치에서 하드웨어, 소프트웨어 및 펌웨어 문제를 빠르게 조사, 문제 해결 및 해결할 수 있도록 합니다. 장치 상태 정보 활용 및 문제 해결에 대 한 지침을 얻고, 다양 한 진단 테스트 및 소프트웨어 복구를 실행할 수 있습니다. 
+Run the [Surface Diagnostic Toolkit for Business](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business) (SDT). The SDT enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices. You can run a range of diagnostic tests and software repairs in addition to obtaining device health insights and guidance for resolving issues. 
 
-Toolkit을 실행 한 후에도 문제가 지속 되는 경우 아래 탭을 사용 하 여 지원 옵션을 선택 합니다.
+If you are still having a problem after running the toolkit, use the tabs below to select a support option.
 
-## [온라인 지원](#tab/online)
+## [Online support](#tab/online)
 
 > [!NOTE]
-> Microsoft 계정 또는 Azure Active Directory 계정을 사용 하 여 온라인 제출 포털에 로그인 해야 할 것입니다.  
+> You will be required to log into the online submission portal using your Microsoft Account or Azure Active Directory Account.  
 
-비즈니스 고객: [서비스 요청을 제출](https://support.microsoft.com/supportforbusiness/productselection)합니다. 
+For business customers: [Submit your service request](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727). 
 
-Microsoft 프리미어 고객: [서비스 허브에서 서비스 요청을 제출](https://serviceshub.microsoft.com/support/contactsupport)합니다. 
+For Microsoft Premier customers: [Submit your service request on Services Hub](https://serviceshub.microsoft.com/support/contactsupport). 
 
  
-## [전화 지원](#tab/phone)
+## [Phone support](#tab/phone)
 
-[귀하의 서비스 요청을 시작 하기 위해 전화를 겁니다](https://support.microsoft.com/help/4051701/global-customer-service-phone-numbers). 전화를 걸 때 장치의 일련 번호를 준비 합니다. 
+[Call us to start your service request](https://support.microsoft.com/help/4051701/global-customer-service-phone-numbers). Have your device’s serial number ready when you call. 
 
-## [매장 내 지원](#tab/instore)
+## [In-store support](#tab/instore)
 
-## 중국, 인도
+## China, India
 
-문제 해결을 위해 Surface In 센터에서 약속을 만듭니다.
+Make an appointment at a Surface Walk-In Center to help resolve your issue:
 
-1. [Surface Go In 센터 연락처 정보](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) 페이지로 이동 합니다. 
-2. 사용자의 위치를 선택 하 여 가장 가까운 안내 중심을 찾습니다.  
-3. 내 안내 센터를 선택 하 고 연락처에 게 연락 하 여 약속을 예약 합니다.
+1. Go to the [Surface Walk-In Center Contact Information](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) page. 
+2. Select your location to find the Walk-In Center nearest you.  
+3. Choose your Walk-In Center and contact them to schedule an appointment.
 
 
 ---
 
-그래도 문제가 해결되지 않을 경우 [Microsoft 커뮤니티](https://answers.microsoft.com/)를 참조 하세요.
+Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).
