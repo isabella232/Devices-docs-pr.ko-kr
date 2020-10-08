@@ -5,6 +5,7 @@
 ## 개요
 
 ### [Microsoft Surface를 사용하여 ROI 최대화](forrester-tei-study.md)
+### [교육용 Microsoft Surface의 총체적인 경제성 영향](forrester-tei-edu-study.md)
 ### [Surface Dock의 새로운 기능](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU 기술 개요](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 기술 개요](surface-book-quadro.md)
