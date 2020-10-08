@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 8/7/2020
+ms.date: 10/7/2020
 ms.reviewer: johnk
 manager: laurawi
 ms.audience: itpro
@@ -19,17 +19,17 @@ appliesto:
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: 66860af06f4fad8f19ca26702350f19cc85ffef1
-ms.sourcegitcommit: bad416f04c6877f2200f134a69146bb633155f22
+ms.openlocfilehash: 00109e4e1bb3873fc2914b2044f58e6fa3b6c211
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "10919227"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104810"
 ---
 # 호환 가능한 Surface 장치에서 SSD 제거에 대 한 모범 사례
 
 > [!IMPORTANT]
-> 이 문서는 엔터프라이즈 조직의 정식 IT 기술자만 사용 하기 위한 것입니다. 이 문서에서는 이동식 SSDs를 사용 하는 Surface 장치에서 SSDs를 제거 하 고 바꿀 때 자격 있는 IT 기술 지원에 대해 권장 되는 모범 사례를 설명 합니다. 
+> 이 문서는 엔터프라이즈 조직의 정식 IT 기술자만 사용 하기 위한 것입니다. 이 문서에서는 Surface 노트북 3 또는 Surface Pro X 에서만 SSDs를 제거 하 고 바꿀 수 있도록 정식 IT 기술자의 권장 모범 사례에 대해 설명 합니다. 
 
 > [!WARNING]
 > 장치 열기 및 장치 구성 요소 교체는 감전, 장치 손상, 화재, 개인 부상이 위험 및 기타 위험성을 제공할 수 있습니다.  이러한 활동을 수행할 때는 항상 주의를 기울여야 합니다. [엔터프라이즈에 대 한 Rssd 제거 가이드](https://www.microsoft.com/download/100440)에서 식별 된 보안 예방 조치 및 절차를 따릅니다. "RSSD 제거 가이드" 엔터프라이즈에 대해 지정 된 안전 예방 조치 및 절차를 따를 수 없는 경우에는 전문가의 지원을 받는 것이 좋습니다.

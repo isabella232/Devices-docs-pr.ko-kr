@@ -7,7 +7,7 @@ ms.date: 5/27/2020
 audience: Admin
 ms.topic: article
 ms.prod: surface
-localization_priority: Normal
+localization_priority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Microsoft Surface 및 Surface Hub 제품에 대 한 지원 정보
-ms.openlocfilehash: 37554183b4839b5e6825a8ac680336b12e213219
-ms.sourcegitcommit: edc92b4be50e6a86f4b942bf71339d97aaf3c5ab
+ms.openlocfilehash: fa86756c122814e7f90351782fc8f6f34227ae42
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "11094915"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105259"
 ---
 # Surface 지원
 
@@ -39,6 +39,8 @@ Toolkit을 실행 한 후에도 문제가 지속 되는 경우 아래 탭을 사
 > [!NOTE]
 > Microsoft 계정 또는 Azure Active Directory 계정을 사용 하 여 온라인 제출 포털에 로그인 해야 할 것입니다.  
 
+[보증 및 서비스 청구 양식을](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx)사용 하 여 보증 및 서비스 요청을 신속 하 게 신청 하세요. 양식을 사용 하는 방법에 대 한 자세한 내용은 [품질 보증 및 서비스 청구 양식 지침](warranty-and-service-claim-form.md) 을 참조 하 여 사례 제출에 첨부 하세요.
+
 비즈니스 고객: [서비스 요청을 제출](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727)합니다. 
 
 Microsoft 프리미어 고객: [서비스 허브에서 서비스 요청을 제출](https://serviceshub.microsoft.com/support/contactsupport)합니다. 
@@ -52,11 +54,11 @@ Microsoft 프리미어 고객: [서비스 허브에서 서비스 요청을 제�
 
 ## 중국, 인도
 
-문제 해결을 위해 Surface In 센터에서 약속을 만듭니다.
+문제를 해결 하는 데 도움이 되도록 Surface Walk-In Center에서 약속을 만듭니다.
 
-1. [Surface Go In 센터 연락처 정보](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) 페이지로 이동 합니다. 
-2. 사용자의 위치를 선택 하 여 가장 가까운 안내 중심을 찾습니다.  
-3. 내 안내 센터를 선택 하 고 연락처에 게 연락 하 여 약속을 예약 합니다.
+1. [Surface Walk-In 센터 연락처 정보](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) 페이지로 이동 합니다. 
+2. 위치를 선택 하 여 가장 가까운 Walk-In 센터를 찾습니다.  
+3. Walk-In 센터를 선택 하 고 연락처에 게 연락 하 여 약속을 예약 합니다.
 
 
 ---

@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/29/2020
+ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 0c6a52d1023377f51ae6a63879e54b86db16cb9a
-ms.sourcegitcommit: 35f64110ce8e0c0b019b02023d746f648f554c1c
+ms.openlocfilehash: 0a74a082d1afe48c938fcc4780407d56cfdd121e
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "11088632"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105279"
 ---
 # Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 
@@ -87,7 +87,7 @@ Surface Hub를 Windows 10 Team에서 Windows 10 데스크톱으로 마이그레�
 
 별도의 PC에서 다음을 수행 합니다.
 
-- Microsoft [SURFACE UEFI 구성자](https://www.microsoft.com/download/details.aspx?id=46703) 를 서피스 도구에서 다운로드 합니다. Surface UEFI Configurator는 Surface Hub 2S에서 실행할 수 없으며, Windows 10 팀이 설치 되어 있습니다.
+- [IT에 대 한 표면 도구 페이지](https://www.microsoft.com/download/details.aspx?id=46703)에서 다운로드 단추를 선택 하 고 Surface UEFI 구성자를 선택 하 여 다운로드 합니다. MSI 파일을 만들고 별도의 PC에 설치 합니다. Windows 10 Team edition이 설치 된 동안 Surface Hub 2S에서 Surface UEFI 구성자 도구를 실행할 수 없습니다.
 
 - [Surface Hub 2 드라이버 및 펌웨어 Windows Installer를 다운로드 합니다. MSI 파일](https://www.microsoft.com/download/details.aspx?id=101974) 을 설치 하 여 새 운영 체제를 설치할 수 있습니다.
 
@@ -107,6 +107,7 @@ UEFI 설정을 적용할 수 있으려면 Surface UEFI 구성자 도구를 사�
 ### SEMM 패키지 만들기
 
 1. 이전에 다운로드 한 **SURFACE UEFI 구성자** 도구를 별도의 PC에 설치 합니다. 
+
 2. **SURFACE UEFI 구성자** 를 열고 **시작**을 선택 합니다.
 
    ![Surface UEFI 구성자 열기](images/shm-fig2.png)
@@ -137,14 +138,14 @@ UEFI 설정을 적용할 수 있으려면 Surface UEFI 구성자 도구를 사�
    
 9. **UEFI 암호** 를 설정 하 고 **확인**을 선택 합니다.
 
- > [!IMPORTANT]
+   > [!IMPORTANT]
    > Surface Hub 관리를 담당 하는 조직의 IT 관리자가 액세스할 수 있는 안전한 위치에 암호를 저장 합니다. 암호가 손실 되 면 복구 프로세스가 없는 것입니다. 
 
    ![UEFI 암호 입력](images/shm-fig9.png)
 
-10. **Surface Hub 2S** 를 선택 하 고 **다음**을 선택 합니다.
+10. **Surface Hub 2S**를 선택 하 고 **다음**을 선택 합니다.
 
-   ![Surface Hub 2S 선택](images/shm-fig10.png)
+    ![Surface Hub 2S 선택](images/shm-fig10.png)
    
 11. **다음**을 선택합니다.
 
@@ -159,7 +160,7 @@ UEFI 설정을 적용할 수 있으려면 Surface UEFI 구성자 도구를 사�
     ![On으로 OS 마이그레이션 사용 설정](images/shm-fig12.png)
 
 > [!NOTE]
-> SEMM 패키지를 적용 한 후에는 모든 UEFI 설정이 장치에서 UEFI 메뉴에 회색으로 표시 (잠김)로 표시 됩니다. 이 값에는 PXE 부팅에 대 한 IPv6 같은 다른 설정의 기본값이 포함 됩니다. UEFI 설정을 수정 하려면 다른 SEMM 패키지를 적용 하거나 h m m m a m m m m에서 장치를 등록 해제 해야 합니다.
+> SEMM 패키지를 적용 한 후에는 모든 UEFI 설정이 장치에서 UEFI 메뉴에 회색으로 표시 (잠김)로 표시 됩니다. 이 값에는 PXE 부팅에 대 한 IPv6 같은 다른 설정의 기본값이 포함 됩니다. 마이그레이션을 완료 한 후 UEFI 설정을 수정 하려면 다른 SEMM 패키지를 적용 하거나 h m m m m m에서 장치를 등록 해제 해야 합니다. 다른 SEMM 패키지를 적용 하 여 UEFI 설정을 수정 하는 경우, UEFI 구성자 도구를 사용 하 여 새 SEMM 패키지를 빌드할 때 원래 인증서를 사용 해야 합니다. 
 
 #### USB 드라이브에 SEMM 패키지 저장
 
@@ -213,10 +214,12 @@ UEFI 설정을 적용할 수 있으려면 Surface UEFI 구성자 도구를 사�
 6. Windows 10 Pro 및 Enterprise 용 SEMM 패키지 파일과 드라이버 및 펌웨어를 Surface Hub 2 ()에 복사 합니다. MSI 파일)을 Windows 10 이미지를 포함 하는 USB 플래시 드라이브 (**Bootme**)의 루트로 부팅 ME USB 드라이브에는 다음이 포함 됩니다.
 
     - Windows 10 부팅 가능 이미지
+    
     - SEMM 패키지 파일 (USB 드라이브의 루트에 복사 됨)
-        - DfciUpdate. dfi
-        - SEMM 지문이 있는 텍스트 파일입니다. (이 예에서는 SurfaceUEFI_2020Aug25_1058.txt. 자동 생성 날짜 타임 스탬프는 Surface UEFI Configurator를 사용 하 여 파일을 만든 날짜에 해당 합니다.
-    - Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)의 Windows 10 Pro 및 Enterprise 용 드라이버 및 펌웨어
+    
+      - DfciUpdate. dfi
+      - SEMM 지문이 있는 텍스트 파일입니다. (이 예에서는 SurfaceUEFI_2020Aug25_1058.txt. 자동 생성 날짜 타임 스탬프는 Surface UEFI Configurator를 사용 하 여 파일을 만든 날짜에 해당 합니다.
+      - Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)의 Windows 10 Pro 및 Enterprise 용 드라이버 및 펌웨어
 
 ### OS 마이그레이션을 사용 하도록 Surface Hub 2S에서 UEFI 업데이트
 

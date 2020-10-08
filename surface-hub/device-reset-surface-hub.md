@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/31/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: c5cf643d0f4a68344bb098916a909dd66e1dac9b
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1c8d8b6d89ec1a20550b7aa13c82c73a239c3965
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836284"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104820"
 ---
 # Surface Hub 다시 설정 또는 복구
 
@@ -73,7 +73,7 @@ ms.locfileid: "10836284"
 - [Surface Hub가 잠겼습니다.](#recover-a-locked-surface-hub)
 
 >[!IMPORTANT]
->**클라우드로 복구** 프로세스에는 오픈 인터넷 연결이 필요 합니다 (프록시 또는 다른 인증 없음). 이더넷 연결을 권장 합니다.
+>**클라우드로 복구** 프로세스에는 오픈 인터넷 연결을 제공 하는 유선 연결이 필요 합니다 (프록시 또는 기타 인증 메시지 표시 안 함).
 
 ### 잘못된 상태의 Surface Hub 복구
 
@@ -122,7 +122,7 @@ ms.locfileid: "10836284"
    다운로드가 완료 되 면 복구 프로세스가 선택한 옵션에 따라 Surface Hub를 복원 합니다.
    
 
-## 고객 지원 문의
+## 고객 지원
 
 질문이 있거나 도움이 필요한 경우 [지원 요청을 만들](https://support.microsoft.com/supportforbusiness/productselection)수 있습니다.
 
