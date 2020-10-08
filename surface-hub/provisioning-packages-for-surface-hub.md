@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/16/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 9158bec3d2285e5e8d4f9f56e582ff2320a34024
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: ecbeca9f0910f1fa1ff2721bcf1b745195552ca2
+ms.sourcegitcommit: f74253629aaf073b35b1af69439f76e63392c5aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934878"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "11103802"
 ---
 # 프로비저닝 패키지 만들기(Surface Hub)
 
@@ -87,19 +87,19 @@ Windows 10을 실행하는 PC에서 프로비저닝 패키지를 만들고 해�
 
 3. 프로젝트 이름을 지정하고 **다음**을 클릭합니다.
 
-### 설정 구성
+### Configure settings
 
 <table>
-<tr><td style="width:45%" valign="top"><img src="images/one.png" alt="step one"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>인증서를 사용하여 디바이스를 프로비전하려면 <strong>인증서 추가</strong>를 클릭합니다. 인증서 이름을 입력하고 사용할 인증서를 찾아서 선택합니다.</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
-<tr><td style="width:45%" valign="top"><img src="images/two.png" alt="step two"/>  <img src="images/proxy.png" alt="configure proxy settings"/></br></br>프록시 설정에서 <strong>예</strong> 또는 <strong>아니오</strong>를 선택합니다. Surface Hub 기본 구성은 자동으로 프록시 설정을 검색하도록 설정되어 있습니다. 이를 원하지 않는 경우 <strong>아니오</strong>를 선택해야 합니다. 단, 기존에 프록시 서버가 요구되었다가 프록시 서버를 요구하지 않도록 변경된 인프라의 경우 프로비저닝 패키지를 사용하여 <strong>예s</strong>를 선택하고 <strong>설정 자동 검색</strong>을 선택하여 Surface Hub 장치를 기본 설정으로 되돌릴 수 있습니다. </br></br><strong>예</strong>를 선택하면 자동으로 프록시 설정을 검색하거나 초기 설정 스크립트에 URL 또는 고정 프록시 서버 주소를 입력해 수동으로 설정을 구성할 수 있습니다. 또한 로컬 주소에 프록시 서버를 사용할지 여부를 선택하고 제외(Surface Hub에서 프록시 서버 없이 직접 연결해야 하는 주소)를 입력할 수 있습니다.  </td><td><img src="images/proxy-details.png" alt="configure proxy settings"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹을 지정할 수 있으며 전역 관리자가 설정 앱을 사용할 수 있도록 Azure Active Directory에 등록하거나 장치에 로컬 관리자 계정을 만들 수 있습니다.</br></br>Active Directory에 장치를 등록하려면 권한이 가장 낮은 사용자 계정의 자격 증명을 입력하여 장치를 도메인에 추가하고 Surface Hub에서 관리자 자격 증명을 보유할 보안 그룹을 지정합니다. Active Directory에 장치를 등록한 프로비저닝 패키지를 초기화된 Surface Hub에 적용하는 경우, 동일한 도메인 계정을 사용하려면 해당 계정이 도메인 관리자로 등록되어 있거나 최초로 Surface Hub을 설정할 때 사용했던 계정이어야 합니다. 그렇지 않은 경우 프로비저닝 패키지에 다른 도메인의 계정을 사용해야 합니다.</br></br>Windows 구성 디자이너 마법사를 사용하여 대량 Azure AD 등록을 구성하려면 먼저 <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">조직에서 Azure AD 가입을 설정</a>합니다. Azure AD 테넌트의 <strong>사용자당 최대 장치 수</strong>는 마법사에서 얻은 대량 토큰을 사용할 수 있는 횟수를 결정합니다. Azure AD에 디바이스를 등록하려면 해당 옵션을 선택하고 마법사를 사용하여 가져올 대량 토큰의 이름을 입력합니다. 토큰의 만료 날짜를 설정합니다(토큰을 가져온 날로부터 최대 30일). <strong>대량 토큰 가져오기</strong>를 클릭합니다. <strong>S에 로그인&#39;허용 창에서 장치를 </strong> Azure AD에 참가 시킬 수 있는 권한이 있는 계정을 입력 한 다음 암호를 입력 합니다. <strong>수락</strong>을 클릭하여 Windows 구성 디자이너에 필요한 권한을 부여합니다.</br></br>로컬 관리자 계정을 만들려면 해당 옵션을 선택하고 사용자 이름 및 암호를 입력합니다. </br></br><strong>중요:</strong> 프로비전 패키지에서 로컬 계정을 생성하는 경우 42일마다 <strong>설정</strong> 앱을 사용하여 암호를 변경해야 합니다. 기간 내에 암호를 변경하지 않는 경우 계정이 잠겨 로그인하지 못하게 될 수 있습니다.  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>MDM 등록 설정에서 <strong>예</strong> 또는 <strong>아니오</strong>를 선택합니다. </br></br><strong>예</strong>를 선택한 경우 장치 등록에 사용할 수 있는 승인된 서비스 계정과 암호 또는 인증서 손도장을 제공해야 하며, 인증 유형 또한 지정해야 합니다. 또한 MDM 제공자가 요구하는 경우 검색 서비스, 등록 서비스, 정책 서비스의 URL을 함께 입력해야 합니다. <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">MDM을 사용한 Surface Hub 관리에 대해 자세히 알아보세요.</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>단일 프로비저닝 패키지로 다수의 UWP(유니버설 Windows 플랫폼)를 설치할 수 있습니다. 설정에 대한 도움말은 <a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">앱을 사용하여 PC 프로비전</a>을 참조하세요. </br></br><strong>중요: </strong> 마법사 인터페이스를 통해 클래식 Win32 앱을 선택할 수 있지만 Surface Hub에 적용 되는 프로비저닝 패키지에는 UWP 앱만 포함 해야 합니다. 클래식 Win32 앱을 포함하면 프로비저닝을 수행할 수 없습니다. </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>이 단계에서는&#39;t 설정을 구성할 수 없습니다. 장치 계정 목록을 포함된 구성 파일을 비롯한 지침을 제공하빈다. 구성 파일은 열 머리글을 포함하지 않아야 합니다. 프로비저닝 패키지를 Surface Hub에 적용할 때 Surface Hub 구성 파일이 USB 드라이브에 포함된 경우, 파일에서 장치에 사용할 계정과 식별 이름을 선택할 수 있습니다. 예시는 <a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">샘플 구성 파일</a>을 확인하세요.</br></br><strong>중요: </strong> 구성 파일은 OOBE (최신 설치 환경) 중에만 적용할 수 있으며 windows 10, 버전 1703에서 릴리스된 Windows 구성 디자이너를 사용 하 여 만든 프로비저닝 패키지만 사용할 수 있습니다.  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
-<tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish"/></br></br>프로비전 패키지를 보호하기 위한 암호를 설정할 수 있습니다. 디바이스에 프로비전 패키지를 적용할 때 이 암호를 입력해야 합니다.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/one.png" alt="step one"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>To provision the device with a certificate, click <strong>Add a certificate</strong>. Enter a name for the certificate, and then browse to and select the certificate to be used.</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
+<tr><td style="width:45%" valign="top"><img src="images/two.png" alt="step two"/>  <img src="images/proxy.png" alt="configure proxy settings"/></br></br>Toggle <strong>Yes</strong> or <strong>No</strong> for proxy settings. Surface Hub 기본 구성은 자동으로 프록시 설정을 검색하도록 설정되어 있습니다. 이를 원하지 않는 경우 <strong>아니오</strong>를 선택해야 합니다. 단, 기존에 프록시 서버가 요구되었다가 프록시 서버를 요구하지 않도록 변경된 인프라의 경우 프로비저닝 패키지를 사용하여 <strong>예s</strong>를 선택하고 <strong>설정 자동 검색</strong>을 선택하여 Surface Hub 장치를 기본 설정으로 되돌릴 수 있습니다. </br></br><strong>예</strong>를 선택하면 자동으로 프록시 설정을 검색하거나 초기 설정 스크립트에 URL 또는 고정 프록시 서버 주소를 입력해 수동으로 설정을 구성할 수 있습니다. 또한 로컬 주소에 프록시 서버를 사용할지 여부를 선택하고 제외(Surface Hub에서 프록시 서버 없이 직접 연결해야 하는 주소)를 입력할 수 있습니다.  </td><td><img src="images/proxy-details.png" alt="configure proxy settings"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹을 지정할 수 있으며 전역 관리자가 설정 앱을 사용할 수 있도록 Azure Active Directory에 등록하거나 장치에 로컬 관리자 계정을 만들 수 있습니다.</br></br>Active Directory에 장치를 등록하려면 권한이 가장 낮은 사용자 계정의 자격 증명을 입력하여 장치를 도메인에 추가하고 Surface Hub에서 관리자 자격 증명을 보유할 보안 그룹을 지정합니다. Active Directory에 장치를 등록한 프로비저닝 패키지를 초기화된 Surface Hub에 적용하는 경우, 동일한 도메인 계정을 사용하려면 해당 계정이 도메인 관리자로 등록되어 있거나 최초로 Surface Hub을 설정할 때 사용했던 계정이어야 합니다. Otherwise, a different domain account must be used in the provisioning package.</br></br>Before you use a Windows Configuration Designer wizard to configure bulk Azure AD enrollment, <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">set up Azure AD join in your organization</a>. Azure AD 테넌트의 <strong>사용자당 최대 장치 수</strong>는 마법사에서 얻은 대량 토큰을 사용할 수 있는 횟수를 결정합니다. Azure AD에 디바이스를 등록하려면 해당 옵션을 선택하고 마법사를 사용하여 가져올 대량 토큰의 이름을 입력합니다. Set an expiration date for the token (maximum is 30 days from the date you get the token). Click <strong>Get bulk token</strong>. In the <strong>Let&#39;s get you signed in</strong> window, enter an account that has permissions to join a device to Azure AD, and then the password. Click <strong>Accept</strong> to give Windows Configuration Designer the necessary permissions.</br></br>To create a local administrator account, select that option and enter a user name and password. </br></br><strong>Important:</strong> If you create a local account in the provisioning package, you must change the password using the <strong>Settings</strong> app every 42 days. If the password is not changed during that period, the account might be locked out and unable to sign in.  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>Toggle <strong>Yes</strong> or <strong>No</strong> for enrollment in MDM. </br></br><strong>예</strong>를 선택한 경우 장치 등록에 사용할 수 있는 승인된 서비스 계정과 암호 또는 인증서 손도장을 제공해야 하며, 인증 유형 또한 지정해야 합니다. If required by your MDM provider, also enter the URLs for the discovery service, enrollment service, and policy service. <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">Learn more about managing Surface Hub with MDM.</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. For help with the settings, see <a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">Provision PCs with apps</a>. </br></br><strong>Important:</strong> Although the wizard interface allows you to select a Classic Win32 app, only include UWP apps in a provisioning package that will be applied to Surface Hub. If you include a Classic Win32 app, provisioning will fail. </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>You don&#39;t configure any settings in this step. It provides instructions for including a configuration file that contains a list of device accounts. 구성 파일은 열 머리글을 포함하지 않아야 합니다. 프로비저닝 패키지를 Surface Hub에 적용할 때 Surface Hub 구성 파일이 USB 드라이브에 포함된 경우, 파일에서 장치에 사용할 계정과 식별 이름을 선택할 수 있습니다. See <a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">Sample configuration file</a> for an example.</br></br><strong>Important:</strong> The configuration file can only be applied during the out-of-box setup experience (OOBE) and can only be used with provisioning packages created using the Windows Configuration Designer released with Windows 10, version 1703.  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
+<tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish"/></br></br>You can set a password to protect your provisioning package. You must enter this password when you apply the provisioning package to a device.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
 </table>
 
-작업을 마쳤으면 **만들기**를 클릭합니다. 몇 초 정도 걸립니다. 패키지가 빌드되면 패키지가 저장된 위치가 페이지 맨 위에 하이퍼링크로 표시됩니다.
+After you're done, click **Create**. 몇 초 정도 걸립니다. 패키지가 빌드되면 패키지가 저장된 위치가 페이지 맨 위에 하이퍼링크로 표시됩니다.
 
 ## 샘플 구성 파일
 
@@ -154,15 +154,15 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
 
 2. **Advanced provisioning**(고급 프로비전)을 클릭합니다.
    
-3. 프로젝트 이름을 지정하고 **다음**을 클릭합니다.
+3. Name your project and click **Next**.
 
-4. **Windows 10 팀에 공통**을 선택 하 고 **다음**을 클릭 한 다음 **마침을**클릭 합니다.
+4. Select **Common to Windows 10 Team**, click **Next**, and then click **Finish**.
 
-    ![ICD 새 프로젝트](images/icd-new-project.png)
+    ![ICD new project](images/icd-new-project.png)
 
-5. 프로젝트의 **사용 가능한 사용자 지정**에서 **일반 팀 설정을**선택 합니다.
+5. In the project, under **Available customizations**, select **Common Team settings**.
 
-    ![ICD 공통 설정](images/icd-common-settings.png)
+    ![ICD common settings](images/icd-common-settings.png)
 
 
 ### 패키지에 인증서 추가
@@ -189,9 +189,9 @@ UWP 앱을 프로비저닝 패키지에 추가하기 전에 앱 패키지(.appx 
 
 1. **사용 가능한 사용자 지정** 창에서 **런타임 설정** > **UniversalAppInstall** > **DeviceContextApp**으로 이동합니다.
 
-2. 앱의 **PackageFamilyName**을 입력하고 **추가**를 클릭합니다. 일관성을 위해 앱의 패키지 패밀리 이름을 사용합니다. 비즈니스용 Microsoft Store에서 앱을 구매한 경우 앱 라이선스에서 패키지 패밀리 이름을 찾을 수 있습니다. 텍스트 편집기를 사용 하 여 라이선스 파일을 열고 \<PFM\> ... 태그 사이의 값을 사용 합니다. \</PFM\>
+2. 앱의 **PackageFamilyName**을 입력하고 **추가**를 클릭합니다. 일관성을 위해 앱의 패키지 패밀리 이름을 사용합니다. If you acquired the app from the Microsoft Store for Business, you can find the package family name in the app license. Open the license file using a text editor, and use the value between the \<PFM\>...\</PFM\> tags.
 
-3. **ApplicationFile**의 경우 **찾아보기**를 클릭하여 대상 앱(\*.appx 또는 \*.appxbundle)을 선택합니다.
+3. For **ApplicationFile**, click **Browse** to find and select the target app (either an \*.appx or \*.appxbundle).
 
 4. **DependencyAppxFiles**의 경우 **찾아보기**를 클릭하여 앱에 대한 종속성을 추가합니다. Surface Hub에는 이러한 종속성의 64비트 버전만 필요합니다.
 
@@ -201,9 +201,9 @@ UWP 앱을 프로비저닝 패키지에 추가하기 전에 앱 패키지(.appx 
 
 2. ICD의 **사용 가능한 사용자 지정** 창에서 **런타임 설정** > **UniversalAppInstall** > **DeviceContextAppLicense**로 이동합니다.
 
-3. **LicenseProductId**를 입력한 후 **추가**를 클릭합니다. 일관성을 위해 앱 라이선스에 있는 앱의 라이선스 ID를 사용합니다. 텍스트 편집기를 사용하여 라이선스 파일을 엽니다. 그런 다음 태그에서 \<License\> **LicenseID** 특성의 값을 사용 합니다.
+3. **LicenseProductId**를 입력한 후 **추가**를 클릭합니다. 일관성을 위해 앱 라이선스에 있는 앱의 라이선스 ID를 사용합니다. Open the license file using a text editor. Then, in the \<License\> tag, use the value in the **LicenseID** attribute.
 
-4. 새 **LicenseProductId** 노드를 선택합니다. **LicenseInstall**의 경우 **찾아보기**를 클릭하여 1단계에서 이름을 바꾼 라이선스 파일을 찾고 선택합니다.
+4. Select the new **LicenseProductId** node. **LicenseInstall**의 경우 **찾아보기**를 클릭하여 1단계에서 이름을 바꾼 라이선스 파일을 찾고 선택합니다.
 
 
 ### 패키지에 정책 추가
@@ -218,11 +218,11 @@ Surface Hub에서는 [정책 구성 서비스 공급자](https://msdn.microsoft.
 
 ### 패키지에 Surface Hub 설정 추가 
 
-[SurfaceHub 구성 서비스 공급자](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)의 설정을 프로비저닝 패키지에 추가할 수 있습니다. 
+You can add settings from the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) to your provisioning package. 
 
-1. **사용 가능한 사용자 지정** 창에서 **런타임 설정** > **WindowsTeamSettings**로 이동합니다.
+1. In the **Available customizations** pane, go to **Runtime settings** > **SurfaceHub**.
 
-2. 사용 가능한 설정 영역 중 하나를 선택합니다.
+2. Select one of the available setting areas.
 
 3. 프로비저닝 패키지에 추가할 설정을 선택하고 설정합니다. 
 
@@ -274,13 +274,13 @@ Surface Hub에서는 [정책 구성 서비스 공급자](https://msdn.microsoft.
 
 ## Surface Hub에 프로비저닝 패키지 적용
 
-Surface Hub에 프로비저닝 패키지를 배포할 수 있는 두 가지 옵션이 있습니다. [첫 번째 실행 마법사](#apply-a-provisioning-package-during-first-run)에서는 인증서를 설치 하는 프로비저닝 패키지를 적용 하거나, 첫 실행 프로그램이 완료 된 후 [설정을](#apply-a-package-using-settings)사용 하 여 설정, 앱, 인증서를 구성 하는 프로비저닝 패키지를 적용할 수 있습니다. 
+There are two options for deploying provisioning packages to a Surface Hub. [During the first run wizard](#apply-a-provisioning-package-during-first-run), you can apply a provisioning package that installs certificates, or after the first-run program is complete, you can apply a provisioning package that configures settings, apps, and certificates by using [Settings](#apply-a-package-using-settings). 
 
 
-### 첫 실행 중에 프로비저닝 패키지 적용
+### Apply a provisioning package during first run
 
 > [!IMPORTANT]
-> 첫 번째 실행 프로그램 중에는 프로비저닝 패키지만 사용 하 여 인증서를 설치할 수 있습니다. **설정** 앱을 사용하여 앱을 설치하고 다른 설정을 적용할 수 있습니다.
+> During the first-run program, you can only use provisioning packages to install certificates. Use the **Settings** app to install apps and apply other settings.
 
 1. 처음으로 Surface Hub를 켜면 첫 실행 프로그램에서 [**안녕하세요 페이지**](first-run-program-surface-hub.md#first-page)를 표시합니다. 계속하기 전에 설정이 제대로 구성되었는지 확인합니다.
 
