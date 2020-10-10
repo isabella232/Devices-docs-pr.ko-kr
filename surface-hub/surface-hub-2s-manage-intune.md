@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: 2fafca4a8f19da72d1584c02cbebe1ce3c03adde
+ms.sourcegitcommit: a16c75f4e81c48e2d0e3ec45430af0939e4feaa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078748"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105944"
 ---
 # Intune으로 Surface Hub 2S 관리하기
 
@@ -92,19 +92,25 @@ Surface Hub 2S에서 최적의 비디오 및 오디오 품질을 보장하려면
 > [!NOTE]
 > 두 표 모두 기본 포트 범위를 보여줍니다. 관리자는 비즈니스용 Skype 및 Teams 제어판에서 포트 범위를 변경할 수 있습니다.
 
-## Microsoft Teams 모드 설정
+## Microsoft 팀 설정
 
-Intune을 사용하여 Microsoft Teams 앱 모드를 설정할 수 있습니다. Surface Hub 2S는 Microsoft Teams와 비즈니스용 Skype를 모두 지원하는 모드 0에서 Microsoft Teams와 함께 설치됩니다. 아래 그림과 같이 모드를 조정할 수 있습니다.
+Intune을 사용 하 여 다양 한 Microsoft 팀 설정을 구성할 수 있습니다.
 
-### 모드:
+### 모드
+
+Surface Hub 2S는 Microsoft Teams와 비즈니스용 Skype를 모두 지원하는 모드 0에서 Microsoft Teams와 함께 설치됩니다. 모드는 아래 설명 된 대로 작동 합니다.
 
 - 모드 0 - 예약된 모임을 위한 Microsoft Teams 기능이 있는 비즈니스용 Skype
 - 모드 1 - 예약된 모임을 위한 비즈니스용 Skype 기능이 있는 Microsoft Teams
 - 모드 2 - Microsoft Teams 전용
 
-모드를 설정하려면 사용자 지정 장치 구성 프로필에 다음 설정을 추가하세요.
+모드를 조정 하려면 [사용자 지정 장치 구성 프로필](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)에 다음 설정을 추가 합니다.
 
 | 이름 | 설명 | OMA-URI | 형식 | 값 |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams 앱 ID**|앱 이름|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|문자열| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams 앱 모드**|Teams 모드|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|정수| 0 또는 1 또는 2|
+
+### 조정 되는 모임 및 근접 참가
+
+팀에서 조정 된 모임 및 근접 조인 기능은 Intune 프로필을 통해 배포 된 [XML 파일을 통해 구성할](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) 수 있습니다.
