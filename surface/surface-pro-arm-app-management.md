@@ -8,26 +8,26 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 758cde12ea79e42630dad55b06eb50d0ab9dda12
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
+ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093131"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105843"
 ---
 # Surface Pro X 배포, 관리 및 서비스
 
 ## 소개
 
-고성능 상용 요구 사항을 처리하도록 제작된 Surface Pro X는 ARM 디바이스에 출시된 가장 강력한 프로세서인 Microsoft SQ1 ARM 칩셋을 통합하여 새로운 지평을 마련했습니다.
+고성능 상용 요구 사항을 처리하도록 제작된 Surface Pro X는 동급에서 가장 강력한 프로세서인 Microsoft SQ1 및 Microsoft SQ1 ARM 칩셋을 통합하여 새로운 지평을 마련했습니다.
 
-3GHz CPU와 2.1 테라플롭 GPU로 구동되는 Surface Pro X는 완전한 Windows 환경을 제공합니다. 13시간의 배터리 사용 시간과 내장된 4G LTE는 금융, 법률 및 의료 분야의 모바일 일선 근로자 및 전문가 또는 연장된 배터리 사용 시간 및 지속적인 연결 기능을 요구하는 모든 역할에 이상적입니다.
+3GHz CPU와 2.1 테라플롭 GPU로 구동되는 Surface Pro X는 완전한 Windows 환경을 제공합니다. 15시간의 배터리 사용 시간이 내장된 기가비트 LTE와 터치, 펜, 태블릿 및 노트북의 다양성으로 금융, 법률 및 의료 분야의 모바일 일선 근로자 및 전문가 또는 연장된 배터리 사용 시간 및 지속적인 연결 기능을 요구하는 모든 역할에 이상적입니다.
 
-Surface Pro X는 Microsoft 365, Intune 및 Windows Autopilot을 중심으로 한 최신 클라우드 기반 환경을 위해 거의 독점적으로 설계되었습니다. 이 문서에서는 어떻게 Surface Pro X를 배포, 관리 및 서비스하는지 설명하고 이를 위한 주요 고려 사항을 간략하게 설명합니다.
+Surface Pro X는 Microsoft 365, Intune 및 Windows Autopilot과 함께 사용될 때 최고의 성능을 발휘하며, 최신 클라우드 기반 환경을 위해 거의 독점적으로 설계되었습니다. 이 문서에서는 어떻게 Surface Pro X를 배포, 관리 및 서비스하는지 설명하고 이를 위한 주요 고려 사항을 간략하게 설명합니다.
 
 ## Surface Pro X 배포
 
@@ -42,7 +42,7 @@ Autopilot 배포에는 몇 가지 장점이 있습니다. Office Pro Plus의 사
 
 ## 이미지 기반 배포 고려 사항
 
-Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager(이전의 System Center Configuration Manager)는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7을 고려하는 동시에 클라우드로 전환할 적절한 시기를 계속 평가해야 합니다.
+Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager(이전의 System Center Configuration Manager)는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7을 고려하는 동시에 최신 배포 솔루션으로 전환할 적절한 시기를 계속 고려해야 합니다. 
 
 ## Surface Pro X 디바이스 관리
 
@@ -68,7 +68,7 @@ Windows Defender는 Windows 10 디바이스의 지원되는 수명 동안 ARM �
 
 ## Surface Pro X 서비스
 
-Surface Pro X는 Windows 10, 버전 1903 이상을 지원합니다. ARM 기반 디바이스로서 최신 드라이버 및 펌웨어를 유지 관리하기 위한 특정 요구 사항이 있습니다. 
+Surface Pro X는 Windows 10 버전 2004와 함께 제공되며 Windows 10 버전 1903 이상을 지원합니다. ARM 기반 디바이스로서 최신 드라이버 및 펌웨어를 유지 관리하기 위한 특정 요구 사항이 있습니다. 
 
 Surface Pro X는 Windows 업데이트를 사용하여 가정 사용자와 소규모 비즈니스 사용자 모두가 드라이버와 펌웨어를 최신 상태로 유지하는 프로세스를 간소화하도록 설계되었습니다. 기본 설정을 사용하여 자동 업데이트를 수신합니다.  확인하려면:
 
@@ -78,7 +78,6 @@ Surface Pro X는 Windows 업데이트를 사용하여 가정 사용자와 소규
 ### 상용 고객을 위한 권장 사항
 
 - 최신 드라이버 및 펌웨어를 유지 관리하기 위해 Windows 업데이트 또는 비즈니스용 Windows 업데이트를 사용합니다. 자세한 내용은 [비즈니스용 Windows 업데이트를 사용하여 업데이트 배포](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)를 참조하세요.
-- 절차에서 Windows Installer .msi 파일을 사용해야 하는 경우 [비즈니스용 Surface 지원](https://support.microsoft.com/help/4037645)에 문의하십시오. 
 - Surface 장치에서 업데이트 배포 및 관리에 대한 자세한 내용은 [ Surface 드라이버 및 펌웨어 업데이트 관리 및 배포 ](manage-surface-driver-and-firmware-updates.md)를 참조하십시오.
 - Windows Server Update Services(WSUS)는 Surface Pro X에 드라이버와 펌웨어를 제공하는 기능을 지원하지 않습니다.
 
@@ -95,6 +94,11 @@ Surface Pro X는 Windows 업데이트를 사용하여 가정 사용자와 소규
 > [!NOTE]
 > Windows 참가자 프로그램을 통해 미리 보기에서 64 비트 에뮬레이션을 사용하면 Surface Pro X에서 64 비트(x64) 앱을 실행할 수 있습니다.
 
+### FastTrack App Assure 
+
+App Assure 프로그램은 LOB, ISV 및 ARM 기반 Windoes 10을 대상으로하는 Microsoft 자사 앱을 사용하는 상용 고객에게 제공됩니다. ARM에서 Windows 10을 사용하여 상업적으로 앱 호환성 문제가 발생하는 경우, Microsoft는 추가 비용없이 문제를 해결하고 앱 수정을 지원하기 위하여 개발자 리소스를 제공합니다. 자세히 알아보려면 aka.ms/AppAssure를 방문하세요.
+
+
 Surface Pro X에서 앱을 실행하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
 - [Windows 10 ARM 기반 PC 지원 FAQ](https://support.microsoft.com/help/4521606)
@@ -109,7 +113,7 @@ Windows Virtual Desktop을 사용하면 모든 위치에서 모든 컴퓨팅 디
 인기 있는 브라우저가 Surface Pro X에서 실행됩니다.
 
 - 기본 제공 Edge, Firefox, Chrome, Internet Explorer 모두 Surface Pro X에서 실행됩니다.
-- 기본 제공 Edge와 Firefox는 기본적으로 실행되므로 ARM 기반 프로세서의 Windows 10 PC에서 향상된 성능을 제공합니다.
+- Chromium 기반 Firefox 및 Microsoft Edge가 기본적으로 실행되므로 ARM 기반 프로세서의 Windows 10 PC에서 향상된 성능을 제공합니다.
 
 ## Microsoft Office 설치 및 사용
 
@@ -122,44 +126,57 @@ Windows Virtual Desktop을 사용하면 모든 위치에서 모든 컴퓨팅 디
 
 특정 타사 VPN이 ARM 기반 프로세서에서 Windows 10 PC를 지원하는지 확인하려면 VPN 공급자에게 문의하십시오.
 
-## 주요 기능 비교
+## 기능 요약
 
-다음 표는 ARM의 Windows 10을 통한 Surface Pro X에서 선별된 주요 기능의 가용성을 Intel 기반 Surface Pro 7과 비교하여 보여줍니다.
-
-| 배포                              | Surface Pro 7 | Surface Pro X | 참고                                                                                                                           |
-| --------------------------------------- | ------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Windows Autopilot                       | 예           | 예           |                                                                                                                                 |
-| 네트워크 부팅 지원(PXE)          | 예           | 아니오           |                                                                                                                                 |
-| Windows 구성 디자이너          | 예           | 아니오            | Surface Pro X에 권장하지 않습니다.                                                                                              |
-| WinPE                                   | 예           | 예           | Surface Pro X에 권장하지 않습니다. Microsoft는 Surface Pro X에서 WinPE를 지원하기 위해 필수 .ISO 및 드라이버를 제공하지 않습니다. |
-| Endpoint Configuration Manager: 운영 체제 배포(OSD) | 예           | 아니오            | Surface Pro X에서 지원되지 않습니다.                                                                                              |
-| MDT                                     | 예           | 아니오            | Surface Pro X에서 지원되지 않습니다.                                                                                              |
+다음 표는 ARM 기반 Windows 10이 설치된 Surface Pro X에서 선별된 주요 기능의 가용성을 보여줍니다.
 
 
-| 관리                                    | Surface Pro 7       | Surface Pro X | 참고                                                                                 |
-| --------------------------------------------- | ------------------- | ------------- | ------------------------------------------------------------------------------------- |
-| Intune                                        | 예                 | 예           | eSIM 프로필이 제공되는 LTE를 관리합니다.                                                        |
-| Windows Autopilot                             | 예                 | 예           |                                                                                       |
-| Azure AD(공동 관리)                      | 예                 | 예           | Surface Pro X를 Azure AD 또는 Active Directory(하이브리드 Azure AD 가입)에 가입시키는 기능. |
-| Endpoint Configuration Manager                                          | 예               | 예           |                                                                                       |
-| AC 복원 시 전원 켜기                      | 예                 | 예           |                                                                                   |
-| 비즈니스용 Surface 진단 도구 키트(SDT) | 예                 | 예           |                                                                                   |
-| Surface 도킹 펌웨어 업데이트                  | 예                 | 아니오           |                                                                                   |
-| 자산 태그 유틸리티                             | 예                 | 예           |                                                                                   |
-| Surface 엔터프라이즈 관리 모드(SEMM)     | 예 | 부분       | 펌웨어 수준에서 Surface Pro X에서 하드웨어를 비활성화할 수 있는 옵션이 없습니다.                 |
-| Surface UEFI 구성기                     | 예 |   아니오            | 하드웨어를 비활성화하는 옵션이 없습니다. 펌웨어 수준에서 Surface Pro X에서.                |
-| Surface UEFI 관리자                          | 예 | 부분       | 펌웨어 수준에서 Surface Pro X에서 하드웨어를 비활성화할 수 있는 옵션이 없습니다.                 |
+**배포**
+
+| 기능                                                           | 예/아니오 | 참고                                                                                                                             |
+| ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Windows Autopilot                                                 | 예 |                                                                                                                                   |
+| 네트워크 부팅 지원(PXE)                                    | 아니오  |                                                                                                                                   |
+| Windows 구성 디자이너                                    | 아니오  | Surface Pro X에 권장하지 않습니다.                                                                                                |
+| WinPE                                                             | 예 | Surface Pro X에 권장하지 않습니다. Microsoft는 Surface Pro X에서 WinPE를 지원하기 위해 필수 .ISO 및 드라이버를 제공하지 않습니다. |
+| Endpoint Configuration Manager: 운영 체제 배포(OSD) | 아니오  | Surface Pro X에서 지원되지 않습니다.                                                                                                   |
+| MDT                                                               | 아니오  | Surface Pro X에서 지원되지 않습니다.                                                                                                   |
+
+ 
+ 
+ **Management**
+ 
+
+| 기능                                       | 예/아니오     | 참고                                                                                 |
+| --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| Intune                                        | 예     | eSIM 프로필이 제공되는 LTE를 관리합니다.                                                        |
+| Windows Autopilot                             | 예     |                                                                                       |
+| Azure AD(공동 관리)                      | 예     | Surface Pro X를 Azure AD 또는 Active Directory(하이브리드 Azure AD 가입)에 가입시키는 기능. |
+| Endpoint Configuration Manager                | 예     |                                                                                       |
+| AC 복원 시 전원 켜기                      | 예     |                                                                                       |
+| 비즈니스용 Surface 진단 도구 키트(SDT) | 예     |                                                                                       |
+| Surface 자산 태그 도구                        | 예     |                                                                                       |
+| Surface 엔터프라이즈 관리 모드(SEMM)     | 부분 | 펌웨어 수준에서 Surface Pro X에서 하드웨어를 비활성화할 수 있는 옵션이 없습니다.                 |
+| Surface UEFI 구성기                     | 아니오      | 하드웨어를 비활성화하는 옵션이 없습니다. 펌웨어 수준에서 Surface Pro X에서.                |
+| Surface UEFI 관리자                          | 부분 | 펌웨어 수준에서 Surface Pro X에서 하드웨어를 비활성화할 수 있는 옵션이 없습니다.                 |
+
+ 
+
+**보안**
+ 
+
+ 기능                                       | 예/아니오     | 참고                                                                                 |
+| --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BitLocker                                     | 예     |                                                       |
+| Windows Defender                              | 예     |                                                                                       |
+| 타사 바이러스 백신에 대한 지원             | 메모 참고| 일부 타사 바이러스 백신 소프트웨어는 ARM 기반 프로세서에서 실행되는 Windows 10 PC에 설치할 수 없습니다. ARM 기반 PC에서의 AV 앱 준비를 위해 타사 바이러스 백신 소프트웨어 공급자와의 협업이 계속되고 있습니다. 바이러스 백신 소프트웨어 공급자에게 문의하여 앱을 사용할 수 있는 시기를 확인하세요. |
+| 보안 부팅               | 예     |                                                                                       |
+| Windows Information Protection                      | 예     |                                                                                       |
+| Surface 데이터 지우개(SDE)     | 예     |                                                                                       |
 
 
-| 보안                          | Surface Pro 7 | Surface Pro X | 참고                                                                                                                                                                                                                                                                                                                                                |
-| --------------------------------- | ------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BitLocker                         | 예           | 예           |                                                                                                                                                                                                                                                                                                                                                      |
-| Windows Defender                  | 예           | 예           |                                                                                                                                                                                                                                                                                                                                                      |
-| 타사 바이러스 백신에 대한 지원 | 예           | 메모 참고      |일부 타사 바이러스 백신 소프트웨어는 ARM 기반 프로세서에서 실행되는 Windows 10 PC에 설치할 수 없습니다. ARM 기반 PC에서의 AV 앱 준비를 위해 타사 바이러스 백신 소프트웨어 공급자와의 협업이 계속되고 있습니다. 바이러스 백신 소프트웨어 공급자에게 문의하여 앱을 사용할 수 있는 시기를 확인하세요. |
-| 조건부 액세스                | 예           | 예           |                                                                                                                                                                                                                                                                                                                                                      |
-| 보안 부팅                       | 예           | 예           |                                                                                                                                                                                                                                                                                                                                                      |
-| Windows Information Protection    | 예           | 예           |                                                                                                                                                                                                                                                                                                                                                      |
-| Surface 데이터 지우개(SDE)         | 예           | 예           |                                                                                                                                                                                                                                                                                                                                                     
+
+
 ## FAQ
 
 ### MDT 또는 Endpoint Configuration Manager로 Surface Pro X를 배포할 수 있습니까?
@@ -172,7 +189,7 @@ Windows Autopilot을 사용하여 Surface Pro X를 배포합니다.
 
 ### BMR을 사용할 수 있나요?
 
-예.
+예, [Surface 복구 이미지 다운로드](https://support.microsoft.com/surfacerecoveryimage)를 참조하세요..
 
 ### Surface Pro X를 관리하려면 Intune이 필요합니까?
 
