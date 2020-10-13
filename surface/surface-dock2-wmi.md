@@ -8,20 +8,20 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 8/05/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2c7e4ac00eea798613335a320b21ce6fcb9f9f2d
-ms.sourcegitcommit: 97e19fdcd074647bedec9efdfd3ce28e900ae2ea
+ms.openlocfilehash: 06933d49e99862fb19d0f6a09c9680a127b755cd
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916510"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114656"
 ---
 # WMI로 Surface Dock 2 관리
 
-WMI (Windows Management Instrumentation) 지원은 IT 관리자가 Surface Dock 2 장치에서 최신 펌웨어, 정책 상태 및 관련 데이터를 원격으로 모니터링 하 고 관리 하는 데 사용할 수 있는 다양 한 진단 정보 집합을 제공 합니다. WMI는 Windows PowerShell, System Center Operations Manager 및 기타 도구와 함께 사용할 수 있습니다. WMI에 대 한 자세한 내용은 [Wmi 작업](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?view=powershell-5.1)을 참조 하세요. 
+WMI (Windows Management Instrumentation) 지원은 IT 관리자가 Surface Dock 2 장치에서 최신 펌웨어, 정책 상태 및 관련 데이터를 원격으로 모니터링 하 고 관리 하는 데 사용할 수 있는 다양 한 진단 정보 집합을 제공 합니다. WMI는 Windows PowerShell, System Center Operations Manager 및 기타 도구와 함께 사용할 수 있습니다. WMI에 대 한 자세한 내용은 [Wmi 작업](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?&preserve-view=true)을 참조 하세요. 
 
 WMI 지원을 사용 하도록 설정 하려면 [Surface Dock 2 드라이버 및 펌웨어로](https://www.microsoft.com/download/details.aspx?id=101317) 이동한 다음 적절 한 패키지를 다운로드 합니다.
 
@@ -31,6 +31,7 @@ WMI 지원을 사용 하도록 설정 하려면 [Surface Dock 2 드라이버 및
 - Surface Book (두 번째 Gen 이상)
 - Surface Go (모든 세대)
 - Surface 노트북 (모든 세대)
+- Surface 랩톱 이동
 
  **SurfaceDock2_WmiInstanceProvider_Win10_17763_&#60;버전 # C1_arm64.msi:** <br>
 
@@ -77,4 +78,4 @@ WMI 지원을 사용 하도록 설정 하려면 [Surface Dock 2 드라이버 및
 - [Secure Surface Dock 2 포트(SEMM 포함)](secure-surface-dock-ports-semm.md)
 - [Surface Dock 2의 새로운 기능](surface-dock-whats-new.md)
 - [장치 관리자 오류 코드](https://docs.microsoft.com/windows-hardware/drivers/install/device-manager-error-messages)
-- [WMI 작업](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?view=powershell-5.1)
+- [WMI 작업](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?&preserve-view=true)

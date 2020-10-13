@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902986"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114666"
 ---
 # 비즈니스용 Surface 진단 도구 키트 배포
 
@@ -46,6 +46,7 @@ Microsoft Surface (비즈니스 관련 진단 도구 키트) (SDT)는 IT 관리�
 
 다음을 포함 하 여 Surface 3 및 이후 장치에서 비즈니스의 SDT가 지원 됩니다.
 
+- Surface 랩톱 이동
 - Surface Book 3
 - Surface Go 2
 - Surface Pro X
@@ -180,6 +181,17 @@ SDT는 .exe 파일 외에도 그림 2와 같이 JSON 파일과 admin.dll 파일 
 
 ## 변경 및 업데이트
 
+### 버전 2.124.139.0
+
+이 버전의 비즈니스용 Surface 진단 도구 키트에는 다음에 대 한 지원이 추가 되었습니다.
+
+- 원활한 통합 지원
+- 모든 테스트 결과 저장
+- 이미지가 사용자 지정 만들어졌는지 확인
+- 장치 관리자에서 경고 포함
+- Dock 펌웨어 버전
+- 드라이브에 저장소 테스트의 잠재적인 오류로 플래그 지정
+- 스토어 링크 제거 
 
 ### 버전 2.121.139
 *릴리스 날짜: 31 2020 년 7 월*<br>

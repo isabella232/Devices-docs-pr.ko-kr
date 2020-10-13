@@ -12,19 +12,19 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 8/07/2020
-ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
-ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+ms.openlocfilehash: 9069903421d6e621dfbc31cd1cfaffb045fa9f19
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "10918938"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114556"
 ---
 # Microsoft Surface Dock 펌웨어 업데이트: IT 관리자를 위한 기술 정보
 
 > [!IMPORTANT]
 > 이 문서에는 IT 관리자를 위한 기술 지침이 포함 되어 있습니다. 가정용 사용자 인 경우 Microsoft 지원 사이트에서 [Surface Dock 펌웨어를 업데이트 하는 방법을](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)참조 하세요   . 지원 사이트의 지침은 아래의 일반적인 설치 단계와 동일 하지만이 문서에는 네트워크의 여러 장치에 대 한 업데이트 모니터링, 확인 및 배포에 대 한 추가 정보가 있습니다.
 
-이 문서에서는 Microsoft Surface Dock 펌웨어 업데이트를 사용 하 여 Surface Dock 펌웨어를 업데이트 하는 방법을 설명 합니다. Surface 디바이스에 설치 되 면 surface 디바이스에 연결 된 모든 표면 도크가 업데이트 됩니다. 
+이 문서에서는 Microsoft Surface Dock 펌웨어 업데이트를 사용 하 여 원래 Surface Dock 1에서 펌웨어를 업데이트 하는 방법을 설명 하 고 Surface Dock 2에는 적용 되지 않습니다. Surface 디바이스에 설치 되 면 surface 디바이스에 연결 된 모든 표면 도크가 업데이트 됩니다. 
 
 이 도구는 이전 Microsoft Surface Dock 업데이트 도구를 대체 합니다. 이전에는이를 위해 Surface 도구의 일부로 다운로드할 수 있습니다. 앞의 도구에는 Surface_Dock_Updater_vx.xx.xxx.x.msi 이름이 지정 되어 있으며 (여기서 x는 버전 번호를 나타냄) 더 이상 다운로드할 수 없으며 사용할 수 없습니다.
 
@@ -109,7 +109,7 @@ Surface Dock 펌웨어 업데이트가 성공적으로 완료 되 면 이러한 
 
 1. Regedit를 열고 다음 레지스트리 경로로 이동 합니다.
 
-    - **HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
 
 2. 현재 디바이스에 있는 펌웨어를 참조 하는 **Component10CurrentFwVersion 및 Component20CurrentFwVersion**레지스트리 키를 찾습니다.
 

@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 06/08/2020
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: de16d76581926a90585b2c6beb2a7bf3b7a695bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 641d023b59426582130dcfb7e0d86c6f3af456e8
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834343"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114696"
 ---
 # Surface Enterprise 관리 모드를 사용 하는 보안 Surface Dock 2 포트 (SEMM)
 
@@ -30,7 +30,7 @@ Surface 엔터프라이즈 관리 모드 (SEMM)를 사용 하면 IT 관리자가
 
 ### 지원되는 디바이스
 
-SEMM이 있는 Surface Dock 2 관리는 Surface Book 3, Surface 노트북 3 및 Surface Pro 7에 연결 된 항구에서 사용할 수 있습니다. 이러한 호환 가능한 서피스 장치를 일반적으로 **호스트 장치**라고 합니다. 패키지는 호스트 디바이스의 **인증** **또는 인증 여부에**따라 호스트 디바이스에 적용 됩니다. 구성 된 설정은 카메라와 같은 다른 기본 제공 주변 기기와 마찬가지로 Surface Dock 2를 관리 하기 위해 호스트 디바이스의 UEFI 계층에 있습니다 (IT 관리자).
+SEMM이 있는 Surface Dock 2 관리는 Surface Book 3, Surface 노트북 3, Surface 노트북 Go, surface pro X에 연결 된 항구에서 사용할 수 있습니다. 이러한 호환 가능한 서피스 장치를 일반적으로 **호스트 장치**라고 합니다. 패키지는 호스트 디바이스의 **인증** **또는 인증 여부에**따라 호스트 디바이스에 적용 됩니다. 구성 된 설정은 카메라와 같은 다른 기본 제공 주변 기기와 마찬가지로 Surface Dock 2를 관리 하기 위해 호스트 디바이스의 UEFI 계층에 있습니다 (IT 관리자).
 
 >[!NOTE]
 >Dock이 호환 되는 다음 장치 중 하나에 연결 된 경우에만 Surface Dock 2 포트를 관리할 수 있습니다: 가이드 3, Surface 랩톱 3 및 Surface Pro 7. UEFI 인증 된 정책 설정을 받지 않는 모든 장치는 본질적으로 인증 되지 않은 장치입니다.

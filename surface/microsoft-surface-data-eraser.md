@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 09/18/2020
-ms.openlocfilehash: dc1a9b4480f37af6d74699a2e693ef8d5318da76
-ms.sourcegitcommit: 8bd03770279d5e53446436781226ffd51eeec916
+ms.date: 10/12/2020
+ms.openlocfilehash: 8b201ce45533c28740a7c6bdfcb56688ada25718
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "11029232"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114706"
 ---
 # Microsoft Surface 데이터 지우개
 
@@ -38,6 +38,7 @@ Microsoft Surface 데이터 지우개 도구를 사용하여 Surface 디바이�
 - Surface Go (모든 버전)
 - Surface Pro X (모든 에디션)
 - Surface 노트북 (모든 에디션)
+- Surface 랩톱 이동
 - Surface Studio (모든 버전)
 - Surface Pro 2 이상
 - Surface Hub 2의 Windows 10 Pro 및 Enterprise

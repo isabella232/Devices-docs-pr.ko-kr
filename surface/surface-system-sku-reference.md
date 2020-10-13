@@ -9,17 +9,17 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/04/2020
+ms.date: 10/12/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
-ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
+ms.openlocfilehash: ec1d53a4bdbcaaf6606dcb0e52fc81de92a2a53b
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "10905675"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114546"
 ---
 # 시스템 SKU 참조
 
@@ -27,7 +27,7 @@ ms.locfileid: "10905675"
 
 시스템 모델 및 시스템 SKU는 Surface 디바이스의 UEFI 계층에 있는 SMBIOS (시스템 관리 BIOS) 표에 저장 된 변수입니다. System SKU 이름을 사용 하 여 Surface Pro 및 Surface Pro와 같은 시스템 모델 이름 (예: LTE Advanced를 사용 하는 장치)을 구분 해야 할 경우
 
-| 장치   | 시스템 모델 | 시스템 SKU       |
+| Device   | 시스템 모델 | 시스템 SKU       |
 | ---------- | ----------- | -------------- |
 | Surface 3 WiFI                                               | Surface 3        | Surface_3                        |
 | &T의 Surface 3 LTE                                           | Surface 3        | Surface_3_US1                    |
@@ -51,9 +51,11 @@ ms.locfileid: "10905675"
 | Surface 노트북 2 상업용                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
 | Surface Pro X                 | Surface Pro X    | Surface_Pro_X_1876         |
+| SQ2 프로세서를 사용 하는 Surface Pro X                | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface 랩탑을 3 13 "Intel | Surface 노트북 3 | Surface_Laptop_3_1867:1868 |
 | Surface 랩탑을 3 15 "Intel | Surface 노트북 3 | Surface_Laptop_3_1872      |
 | Surface 랩탑 3 15 "AMD   | Surface 노트북 3 | Surface_Laptop_3_1873      | 
+| Surface 랩톱 이동  | Surface 랩톱 이동 | Surface_Laptop_Go_1943      | 
 
 ## 예 
 

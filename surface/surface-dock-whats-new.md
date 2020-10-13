@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 19aba3e88afd7b17de5b391d1bfe6eaf77db38e9
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: e96242ab9cef127238bda3ee3ea797c943479798
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093141"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114686"
 ---
 # 서피스 도크의 새로운 기능 
 
@@ -45,6 +45,7 @@ Surface Dock 2는 IT 관리를 단순화 하 여 관리자가 Windows Update를 
   - Surface 노트북 3
   - Surface Book 3
   - Surface Go 2
+  - Surface 랩톱 이동
 
 ## 서피스 도크 2 구성 요소
 
@@ -115,7 +116,7 @@ Surface Dock 2는 IT 관리를 단순화 하 여 관리자가 Windows Update를 
 
 
 
-1. *디바이스는 Surface Enterprise 관리 모드 (SEMM) 또는 장치 펌웨어 제어 인터페이스 (DFCI)를 통해 절전 모드 해제 또는 전원 끄기 상태에서 깨우기에 대해 구성 되어야 합니다. 최대 절전 모드 또는 전원 끄기에서 깨우기는 Surface Pro 7, Surface 랩탑을 3, Surface Pro X, Surface Book 3 및 Surface Go 2에서 지원 됩니다.  일부 기능에는 소프트웨어 라이선스가 필요 합니다. 별도로 판매.*
+1. *장치는 Surface Enterprise 관리 모드 (SEMM) 또는 장치 펌웨어 제어 인터페이스 (DFCI)를 통해 절전 모드 해제 또는 Power-Off 상태에서 종료 되도록 구성 해야 합니다. 최대 절전 모드 또는 Power-Off는 Surface Pro 7, Surface 랩탑 3, Surface Pro X, Surface Book 3에서 지원 됩니다.  일부 기능에는 소프트웨어 라이선스가 필요 합니다. 별도로 판매.*
 
 2. *일부 기능에는 소프트웨어 라이선스가 필요 합니다. 별도로 판매.*
 

@@ -13,13 +13,13 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
-ms.date: 04/24/2020
-ms.openlocfilehash: b13b0a7fa486d2360c5e69ad1578c85a5e46a91d
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: 858b6726f1127e3c439864f8946274ed0ea1edd3
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835663"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114566"
 ---
 # Microsoft 배포 도구 키트를 사용 하 여 Windows 10을 Surface 장치에 배포
 
@@ -29,9 +29,10 @@ ms.locfileid: "10835663"
 - Surface Pro 4 이상
 - Surface Book 이상
 - Surface 노트북 이상
+- Surface 랩톱 이동
 - Surface Go
 - Surface 3
-- Windows 10
+- Windows10
 
 > [!NOTE]
 > MDT는 Surface Pro X에서 지원 되지 않습니다. 자세한 내용은 [Surface Pro X 배포, 관리 및 서비스](surface-pro-arm-app-management.md)를 참조 하세요.

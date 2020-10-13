@@ -12,9 +12,10 @@ appliesto:
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
+- Surface Laptop Go
 ms.custom:
 - CI 121602
-ms.reviewer: johnk@cadencepreferred.com
+ms.reviewer: hachidan
 description: Surface 장치에서 절전 모드 해제 기능을 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 설명 합니다.
 keywords: 업데이트, 배포, 드라이버, wol, wake-on-lan
 ms.prod: w10
@@ -25,12 +26,12 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 272c19baedb295abac08e90012246e453b88f42f
-ms.sourcegitcommit: 6fd7008992503db9ae1f56654aa80110348924d3
+ms.openlocfilehash: dee2a2962cf6b70a1bf11cf597b4d41f4b5568e4
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "10903397"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114576"
 ---
 # Surface 디바이스에 대한 Wake On Power
 
@@ -41,7 +42,9 @@ Wake on 전원 기능은 다음 장치에서 사용할 수 있습니다.
 - Surface Book 3
 - Surface Pro 7
 - Surface 노트북 3
+- Surface 랩톱 이동
 - Surface Pro X 
+
 
 ## 개요 및 전제 조건
 
@@ -58,13 +61,13 @@ Surface UEFI 구성자를 사용 하면 대상 장치에 배포 하기 위해 �
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Surface 장치를 선택 하 고 다음을 선택 합니다.":::
 3.  **시작**을 선택 하 고 **구성 패키지**아래에서 **만들기** 를 선택 합니다.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="구성 패키지 만들기를 선택 합니다.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Surface 장치를 선택 하 고 다음을 선택 합니다.":::
 4.  **인증서 보호**를 선택 하 고 인증서 .pfx 파일을 추가 합니다. 
 5. 암호를 입력 하 고 **다음**을 선택 하 고 필요한 경우 **암호 보호**를 추가 하 고 **다음**을 선택 합니다.
 6.  **대상으로 지정할 표면 유형 선택** 페이지에서 대상 장치를 적절 하 게 선택 합니다. 예를 들어 **Surface Pro 7**을 선택 합니다.
 7.  **고급 기능** 페이지에서 **절전 모드 해제**를 선택 하 고 기능을 설정으로 설정한 후 **다음** **을 선택**합니다.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="전원을 켠 후 절전 모드 해제를 선택 합니다."::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Surface 장치를 선택 하 고 다음을 선택 합니다."::: 
 8.  **성공** 페이지에서 **종료**를 선택 합니다.
 
     > [!NOTE]
@@ -83,10 +86,10 @@ Microsoft 끝점 구성 관리자와 같은 소프트웨어 배포 도구를 사
 
 2.  **경고** 대화 상자에서 필요에 따라 **확인** 또는 BitLocker 사용 안 함을 선택 합니다.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="확인 또는 필요에 따라 BitLocker 사용 안 함을 선택 합니다.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Surface 장치를 선택 하 고 다음을 선택 합니다.":::
 3.  시작 페이지에서 **다음** 을 선택 하 여 패키지를 실행 하 고 새로 구성 된 UEFI 설정을 적용 합니다.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="시작 페이지에서 다음을 선택 합니다.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Surface 장치를 선택 하 고 다음을 선택 합니다.":::
 4.  장치를 다시 시작 합니다. 
 
 이제 Wake on 전원이 구성 되었습니다. 설정을 테스트 하려면 장치를 끄고 전원 케이블을 뽑은 다음 전원을 다시 연결 합니다. 장치가 자동으로 시작 됩니다. 

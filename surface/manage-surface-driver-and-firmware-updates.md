@@ -1,6 +1,6 @@
 ---
 title: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
-description: 이 문서에서는 Surface 장치에 대 한 펌웨어 및 드라이버 업데이트를 관리 하 고 배포 하는 데 사용할 수 있는 옵션을 설명 합니다.
+description: 이 문서에서는 Surface 장치에 대 한 펌웨어 및 드라이버 업데이트를 관리 및 배포 하는 데 사용할 수 있는 옵션에 대해 설명 합니다
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 ms.reviewer: ''
 manager: laurawi
@@ -14,12 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f41974193d62e4c0cbc1e286976105c20534d906
-ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
+ms.date: 10/12/2020
+ms.openlocfilehash: 39022ca631e35f4328d3c353b7b0d1e2ebaee6a7
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "10897066"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114636"
 ---
 # Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
 
@@ -68,7 +69,7 @@ Surface driver 및 펌웨어 업데이트는 Windows Installer (* .msi) 파일�
 
 ## 지원되는 디바이스
 
-다운로드 가능한 .msi 파일은 Surface Pro 2 및 이후 장치에서 사용할 수 있습니다. Surface Pro 7 및 Surface 노트북 3과 같은 최신 Surface 장치에 대 한 .msi 파일에 대 한 정보는 릴리스할 때이 페이지에서 사용할 수 있습니다.
+다운로드 가능한 .msi 파일은 Surface Pro 2 및 이후 장치에서 사용할 수 있습니다 (ARM에서 Windows 10을 실행 하는 Surface Pro X 제외).
 
 ## DFCI를 사용 하 여 펌웨어 관리
 
@@ -85,7 +86,7 @@ Intune ( [공개 미리 보기](https://docs.microsoft.com/intune/configuration/
 
 특정 버전의 Windows 10에는 각각 필요한 누적 드라이버와 Surface 장치에 대 한 펌웨어 업데이트가 모두 포함 된 별도의 .msi 파일이 있습니다. 업데이트 패키지에는 다음 구성 요소 중 일부 또는 모두가 포함 될 수 있습니다.
 
-- Wi-fi 및 LTE
+- Wi-Fi 및 LTE
 - 비디오
 - 고체 드라이브
 - 시스템 집계 모듈 (SAM)
@@ -98,7 +99,7 @@ Intune ( [공개 미리 보기](https://docs.microsoft.com/intune/configuration/
 ### .Msi 파일 다운로드
 
 1. Microsoft 다운로드 센터에서 [화면에 대 한 드라이버 및 펌웨어 다운로드](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware) 를 찾습니다.
-2. Surface model 및 Windows 버전과 일치 하는 .msi 파일 이름을 선택 합니다. .Msi 파일 이름에는 드라이버와 펌웨어를 설치 하는 데 필요한 최소 지원 Windows 빌드 번호가 포함 됩니다. 예를 들어 다음 그림을 참조 하세요. Windows 10 빌드 18362이 있는 Surface Book 2를 업데이트 하려면SurfaceBook2_Win10_18362_19.101.13994.msi를 선택 **합니다.** Windows 10 빌드 16299를 포함 하는 Surface Book 2의 경우 **SurfaceBook2_Win10_16299_1803509_3.msi**를 선택 합니다.
+2. Surface model 및 Windows 버전과 일치 하는 .msi 파일 이름을 선택 합니다. .Msi 파일 이름에는 드라이버와 펌웨어를 설치 하는 데 필요한 최소 지원 Windows 빌드 번호가 포함 됩니다. 예를 들어 다음 그림을 참조 하세요. Windows 10 빌드 18362이 있는 Surface Book 2를 업데이트 하려면SurfaceBook2_Win10_18362_19.101.13994.msi를 선택 ** 합니다.** Windows 10 빌드 16299를 포함 하는 Surface Book 2의 경우 **SurfaceBook2_Win10_16299_1803509_3.msi**를 선택 합니다.
 
     ![그림 1. 화면 업데이트 다운로드](images/fig1-downloads-msi.png)
 

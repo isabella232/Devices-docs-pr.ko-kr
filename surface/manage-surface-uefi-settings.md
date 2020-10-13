@@ -10,18 +10,29 @@ ms.pagetype: devices, surface
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: ''
+ms.reviewer: hachidan
 manager: laurawi
-ms.openlocfilehash: ce857260c3f4b42ae560a7dba51d47d0e20233bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: 218f98b23adcb7bae2af92655d85144c6e5665e6
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835855"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114726"
 ---
 # Surface UEFI 설정 관리
 
 모든 현재 및 향후 세대의 Surface 디바이스는 특별히 이러한 장치용으로 Microsoft에서 엔지니어링 한 고유한 통합 확장 가능 펌웨어 인터페이스 (UEFI)를 사용 합니다. Surface UEFI 설정은 기본 제공 디바이스 및 구성 요소를 사용 하거나 사용 하지 않도록 설정 하 고, UEFI 설정이 변경 되지 않도록 보호 하 고, Surface device boot 설정을 조정할 수 있는 기능을 제공 합니다. 
+
+## 지원 되는 제품
+
+UEFI 관리는 다음에서 지원 됩니다. 
+
+- Surface Pro 4, Surface Pro (다섯 번째 Gen), Surface Pro 6, Surface pro 7, Surface Pro X
+- Surface 노트북 (1 Gen), Surface 노트북 2, Surface 노트북 3, Surface 랩톱 이동
+- Surface Studio (1 번째 Gen), Surface Studio 2
+- Surface Book, Surface Book 2, Surface Book 3
+- 서피스 이동, Surface Go 2
 
 ## 클라우드 기반 관리 지원
 

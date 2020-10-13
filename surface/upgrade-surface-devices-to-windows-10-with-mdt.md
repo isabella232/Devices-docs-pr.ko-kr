@@ -13,35 +13,25 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
-ms.date: 04/24/2020
-ms.openlocfilehash: e1a1d34c4d32c5e6f95c985e335e405c0d9e59e4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: d9bc720c846b2bb158241a55e1759c841f1d7b3a
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835535"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114526"
 ---
 # Microsoft 배포 도구 키트를 사용 하 여 Surface 장치를 Windows 10으로 업그레이드
 
 #### 적용 대상
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- LTE를 사용 하 여 Surface Go
-- Surface Book 2
-- Surface Pro LTE Advanced(모델 1807)
-- Surface Pro(모델 1796)
-- Surface 노트북
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
-- Surface 3 LTE
-- Surface 3
-- Surface Pro 3
-- Surface Pro 2
-- Surface Pro
-- Windows 10
+
+- Surface Book (모든 버전)
+- Surface Go (모든 버전)
+- Surface Pro X (모든 에디션)
+- Surface 노트북 (모든 에디션)
+- Surface 랩톱 이동
+- Surface Studio (모든 버전)
+- Surface Pro 2 이상
 
 Reimaging 장치의 전통적인 배포 방법 외에도 Windows 8.1 또는 Windows 10을 실행 하는 Surface 장치를 업그레이드 하려는 관리자에 게 업그레이드를 배포 하는 옵션이 있습니다. 업그레이드 배포를 수행 하면 사용자, 앱 또는 구성을 제거 하지 않고도 Windows 10을 장치에 적용할 수 있습니다. 배포 된 디바이스의 사용자는 업그레이드 전에 사용 하는 것과 동일한 앱 및 설정이 있는 장치를 계속 사용할 수 있습니다. 
 

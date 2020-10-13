@@ -13,20 +13,20 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 09/01/2020
-ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
-ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
+ms.date: 10/12/2020
+ms.openlocfilehash: 463759d2dd01b9333d10a66c1781055f4a5217ac
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "10993668"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114646"
 ---
 # Microsoft Surface Enterprise 관리 모드
 
 Microsoft Surface Enterprise 관리 모드 (SEMM)는 조직 내에서 펌웨어 설정을 보호 하 고 관리 하는 데 사용할 수 있는 surface UEFI를 사용 하는 Surface 디바이스의 기능입니다. SEMM을 사용 하면 IT 전문가는 UEFI 설정의 구성을 준비 하 고 Surface 장치에 설치할 수 있습니다. SEMM은 UEFI 설정을 구성 하는 기능 외에도 인증서를 사용 하 여 무단 무단 변경 또는 제거 로부터 구성을 보호 합니다. SEMM은 Surface Hub 2S Windows 10 Pro 및 Enterprise로 마이그레이션할 수 있어야 한다는 것입니다.
 
 >[!NOTE]
->SEMM은 Surface UEFI 펌웨어가 있는 디바이스 에서만 사용할 수 있습니다. 이는 Surface Pro 7, Surface Pro X, Surface Hub 2S 및 Surface 랩탑 3 상업용 Sku를 비롯 한 대부분의 다른 표면 장치를 Intel 프로세서와 함께 구성 합니다. 15 "Surface 랩탑 3 SKU (AMD 프로세서 포함)에서 지원 되지 않습니다 (정품 SKU로 서만 제공). 
+>SEMM은 Surface UEFI 펌웨어가 있는 디바이스 에서만 사용할 수 있습니다. 이는 Surface Pro 7, Surface Pro X, Surface Hub 2S, surface 랩탑 3 상업용 Sku, 그리고 Intel 프로세서와 Surface 노트북을 포함 하는 대부분의 다른 표면 장치로 구성 됩니다. 15 "Surface 랩탑 3 SKU (AMD 프로세서 포함)에서 지원 되지 않습니다 (정품 SKU로 서만 제공). 
 
 Surface 디바이스는 SEMM로 구성 되 고 SEMM 인증서로 보호 되는 경우 SEMM로 *등록* 된 것으로 간주 됩니다. SEMM 인증서가 제거 되 고 UEFI 설정의 제어가 장치 사용자에 게 반환 되는 경우 Surface 디바이스는 *unenrolled* 로 간주 됩니다.
 
@@ -174,7 +174,7 @@ SEMM 인증서에 대해 다음 설정을 권장 합니다.
 * **만료 날짜** – 인증서 생성 시 15 개월
 * **키 내보내기 정책** – 내보낼 수 있습니다.
 
-또한 인증서 해지를 활성화 하는 중간 CA (인증 기관)가 SEMM 인 2 계층 PKI (공개 키 인프라) 아키텍처에서 SEMM 인증서를 인증 하는 것이 좋습니다. 2 계층 PKI 구성에 대 한 자세한 내용은 [테스트 랩 가이드: AD CS 2 계층 PKI 계층 구조 배포](https://technet.microsoft.com/library/hh831348)를 참조 하세요.
+또한 인증서 해지를 활성화 하는 중간 CA (인증 기관)가 SEMM 인 2 계층 PKI (공개 키 인프라) 아키텍처에서 SEMM 인증서를 인증 하는 것이 좋습니다. 2 계층 PKI 구성에 대 한 자세한 내용은 [테스트 랩 가이드: PKI 계층 Two-Tier AD CS 배포](https://technet.microsoft.com/library/hh831348)를 참조 하세요.
 
 ### 자체 서명 된 인증서 
 다음 예제 PowerShell 스크립트를 사용 하 여 개념 증명 시나리오에서 사용할 자체 서명 된 인증서를 만들 수 있습니다.
@@ -241,6 +241,18 @@ SEMM 재설정 또는 복구가 작동 하도록 하려면 인증서가 유효 �
 특정 디바이스 유형에 대 한 구성 패키지를 만드는 PowerShell 샘플을 사용 하 여 일련 번호를 독립적으로 설정 패키지를 만들 수도 있습니다. 인증서가 여전히 유효한 경우 PowerShell을 사용 하 여 reset 패키지를 만들어 SEMM을 다시 설정할 수 있습니다.
 
 ## 버전 기록
+
+
+### 버전 2.78.139.0
+
+이 SEMM 버전에는 다음이 포함 됩니다.
+
+- Surface 랩톱 이동 및 Surface Pro X에 대 한 지원
+- 새 버전 출시에 대 한 알림
+- 소유권을 변경 하기 위해 사용자 지정 패키지를 만들 수 있습니다.
+- 버그 수정
+
+
 
 
 ### 버전 2.73.136.0
