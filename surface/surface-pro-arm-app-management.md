@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105843"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114626"
 ---
 # Surface Pro X 배포, 관리 및 서비스
 
@@ -96,8 +96,7 @@ Surface Pro X는 Windows 업데이트를 사용하여 가정 사용자와 소규
 
 ### FastTrack App Assure 
 
-App Assure 프로그램은 LOB, ISV 및 ARM 기반 Windoes 10을 대상으로하는 Microsoft 자사 앱을 사용하는 상용 고객에게 제공됩니다. ARM에서 Windows 10을 사용하여 상업적으로 앱 호환성 문제가 발생하는 경우, Microsoft는 추가 비용없이 문제를 해결하고 앱 수정을 지원하기 위하여 개발자 리소스를 제공합니다. 자세히 알아보려면 aka.ms/AppAssure를 방문하세요.
-
+App Assure 프로그램은 LOB, ISV 및 ARM 기반 Windoes 10을 대상으로하는 Microsoft 자사 앱을 사용하는 상용 고객에게 제공됩니다. 상용 고객이 ARM에서 Windows 10을 사용할 때 앱 호환성 문제가 발생하는 경우, Microsoft는 추가 비용없이 문제를 해결하고 앱 수정을 지원하기 위하여 개발자 리소스를 제공합니다. 자세히 알아보려면 [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)를 방문하세요.
 
 Surface Pro X에서 앱을 실행하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
