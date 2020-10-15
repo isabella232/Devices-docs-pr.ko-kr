@@ -9,18 +9,19 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: ''
+ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: bba99d202d5d0dc5085c454202ae9a95df56109c
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/13/2020
+ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
+ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835524"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "11117854"
 ---
-# Microsoft Endpoint Configuration Manager를 사용 하 여 디바이스 관리 (SEMM)
+# Microsoft Endpoint Configuration Manager를 사용하여 SEMM에서 디바이스 관리
 
 Surface UEFI 장치의 Microsoft Surface Enterprise 관리 모드 (SEMM) 기능을 통해 관리자는 Surface UEFI 설정의 구성을 관리 하 고 보안을 유지할 수 있습니다. 대부분의 조직에서는 Microsoft Surface UEFI 구성자 도구를 사용 하 여 Windows Installer (.msi) 패키지를 만들어이 프로세스를 수행 합니다. 그런 다음 해당 패키지를 클라이언트 화면 장치에 실행 하거나 배포 하 여 디바이스를 SEMM에 등록 하 고 Surface UEFI 설정 구성을 업데이트 합니다.
 
@@ -391,7 +392,7 @@ ShowSettingsOptions.ps1를 실행 하는 컴퓨터에는 Microsoft Surface UEFI 
 
 모든 장치에 대 한 설정 이름 및 Id를 ConfigureSEMM.ps1 스크립트에서 볼 수 있습니다.
 
-특정 장치에 대 한 설정 이름 및 Id를 ConfigureSEMM 스크립트에서 볼 수 있습니다 <device name> . 예를 들어 Surface Pro X에 대 한 설정 이름과 Id는 ConfigureSEMM – ProX.ps1 스크립트에서 찾을 수 있습니다.
+특정 장치에 대 한 설정 이름 및 Id를 ConfigureSEMM 스크립트에서 볼 수 있습니다 <device name> . 
 
 ## SEMM 구성 관리자 스크립트 배포
 
