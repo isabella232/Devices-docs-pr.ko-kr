@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
-ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
+ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
+ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11105361"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "11133183"
 ---
 # Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성
 
@@ -422,11 +422,11 @@ Surface Hub 2는 로컬 저장소에 대 한 128GB SSD를가지고 있으므로 
 
    - 현재 상태 감지는 시스템 트레이에 녹색 아이콘으로 표시 됩니다.
     
-6. 이 PC로의 프로젝션이 연결 앱에서 사용 하도록 설정 되었는지 확인 합니다 (연결 하기 전에 응용 프로그램을 실행할 필요가 없음).
+6. 이 PC로의 예측은 Connect 앱에서 사용 하도록 설정 되어 있는지 확인 합니다. **Project를이 PC 설정으로** 구성한 후에는 적어도 한 번 연결 앱을 실행 합니다. (따라서 Surface Hub에 투영할 수 있도록 연결 앱을 실행할 필요가 없습니다.)
 
 7. 전원 및 절전 설정을 확인 합니다.
 
-    - 화면 보호기: 15 분, (없음), Mystify 또는 Blank로 설정 암호를 요구 하는 확인란이 선택 되어 있는지 확인
+    - 화면 보호기: 15 분, (없음), Mystify 또는 Blank로 설정 암호 요구 확인란을 선택 했는지 확인 합니다.
     - 화면: **2 시간 후에 종료**합니다.
     - PC: **4 시간 후 종료**
     
