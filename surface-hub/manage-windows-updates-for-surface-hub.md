@@ -1,37 +1,36 @@
 ---
 title: Surface Hub에 대한 Windows 업데이트 관리
-description: 유지 관리 창을 설정 하거나 업데이트를 지연 하거나 WSUS (Windows Server Update Services)를 사용 하 여 Microsoft Surface Hub 또는 Surface Hub 2S에서 Windows 업데이트를 관리할 수 있습니다.
+description: Microsoft Surface Hub 또는 Surface Hub 2S 업데이트를 관리 하기 위한 모범 사례에 대해 설명 합니다.
 ms.assetid: A737BD50-2D36-4DE5-A604-55053D549045
 ms.reviewer: ''
 manager: laurawi
-keywords: Windows 업데이트 관리, Surface Hub, WindowsServer Update Services, WSUS
+keywords: Windows 업데이트, Surface Hub, Windows Server Update Services 관리
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
+ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 72214ec9436e6ea106d9e42c957664631ee88a0a
-ms.sourcegitcommit: f74253629aaf073b35b1af69439f76e63392c5aa
+ms.openlocfilehash: d6b95ac565132c4e4f1632c2abaffa13ddb2c54c
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "11103792"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142897"
 ---
 # Surface Hub에 대한 Windows 업데이트 관리
 
-Surface Hub 운영 체제의 새 릴리스는 Windows 10의 릴리스처럼 Windows 업데이트를 통해 게시됩니다. Surface Hub에 설치되는 업데이트와 업데이트가 적용되는 시기를 관리할 수 있는 몇 가지 방법이 있습니다.
-- **비즈니스용 Windows 업데이트** - Windows 10의 새로운 기능인 비즈니스용 Windows 업데이트는 엔터프라이즈가 Windows 업데이트에서 릴리스를 설치하는 시기와 방법을 추가로 제어하고 장치 관리 비용을 줄이도록 고안된 일련의 기능입니다. 이 방법을 사용하면 Surface Hub가 Microsoft Windows 업데이트 서비스에 직접 연결됩니다.
-- **WSUS(WindowsServer Update Services)** - IT 관리자가 Windows 업데이트에서 결정하는 업데이트가 엔터프라이즈의 장치에 적용되는지 알아보고 업데이트에 대한 추가 테스트 및 평가를 수행한 다음 설치하고자 하는 업데이트를 선택할 수 있게 하는 일련의 서비스입니다. 이 방법을 사용하면 Surface Hub는 Windows 업데이트 대신 WSUS에서 업데이트를 받습니다.
+Surface Hub 운영 체제의 새 릴리스는 Windows 10의 릴리스처럼 Windows 업데이트를 통해 게시됩니다. 이 페이지에서는 Surface Hub 장치에 대 한 업데이트를 관리 하는 모범 사례를 설명 합니다. 
 
-비즈니스용 Windows 업데이트 및 WSUS에서 둘 다 업데이트를 받도록 Surface Hub를 구성할 수도 있습니다. 자세한 내용은 [비즈니스용 Windows 업데이트와 Windows 서버 업데이트 서비스 통합](https://technet.microsoft.com/itpro/windows/manage/waas-integrate-wufb#integrate-windows-update-for-business-with-windows-server-update-services)을 참조하세요.
+## 비즈니스용 Windows 업데이트
 
-| 기능 | 비즈니스용 Windows 업데이트 | WSUS(Windows Server Update Services) |
-| ------------ | --------------------------- | ------------------------------------- |
-| 다른 인프라를 추가하지 않아도 Microsoft Windows 업데이트 서비스에서 직접 업데이트를 받습니다.  | 예  | 아니요  |
-| 테스트와 평가를 위해 추가 시간을 제공하기 위해 업데이트를 연기합니다. | 예  | 예  |
-| 업데이트를 배포하여 장치 그룹을 선택합니다. | 예 | 예 |
-| 업데이트를 설치할 유지 관리 기간을 정의합니다. | 예  | 예  |
+비즈니스용 windows 업데이트는 장치 관리 비용을 줄이면서 Windows Update가 릴리스를 설치 하는 방법과 시기를 추가로 제어 하기 위해 디자인 된 기능 집합입니다. 이 방법을 사용하면 Surface Hub가 Microsoft Windows 업데이트 서비스에 직접 연결됩니다.
+
+- 다른 인프라를 추가하지 않아도 Microsoft Windows 업데이트 서비스에서 직접 업데이트를 받습니다. 
+- 테스트와 평가를 위해 추가 시간을 제공하기 위해 업데이트를 연기합니다. 
+- 업데이트를 배포하여 장치 그룹을 선택합니다. 
+- 업데이트를 설치할 유지 관리 기간을 정의합니다. 
 
 > [!TIP]
 > 피어 투 피어 콘텐츠 공유를 사용하여 업데이트 중에 대역폭 문제를 줄입니다. 자세한 내용은 [Windows10 업데이트에 맞게 업데이트 배달 최적화](https://technet.microsoft.com/itpro/windows/manage/waas-optimize-windows-10-updates)를 참조하세요.
@@ -56,6 +55,7 @@ Windows as a Service에 대한 자세한 내용은 [Windows as a Service 개요]
 
 
 ## 비즈니스용 Windows 업데이트 사용
+
 모든 Windows10 장치처럼 Surface Hub에는 장치가 업데이트되는 방식을 제어할 수 있는 **WUfB(비즈니스용 Windows 업데이트)** 가 포함됩니다. 비즈니스용 Windows 업데이트를 통해 장치 관리 비용을 줄이고, 업데이트 배포를 제어하며, 보안 업데이트에 빠르게 액세스할 수 있을 뿐만 아니라 지속적으로 Microsoft에서 제공하는 혁신적인 최신 기능에 액세스할 수 있습니다. 자세한 내용은 [비즈니스용 Windows 업데이트를 사용하여 업데이트 관리](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb)를 참조하세요.
 
 **비즈니스용 Windows 업데이트를 설정하려면**
@@ -67,9 +67,10 @@ Windows as a Service에 대한 자세한 내용은 [Windows as a Service 개요]
 
 
 ### Surface Hub를 배포 링으로 그룹화
+
 배포 링을 통해 업데이트가 Surface Hub에 출시되는 시기를 제어하여 유효성을 검사할 시간을 제공할 수 있습니다. 예를 들어 먼저 작업 장치 풀을 업데이트하여 조직에 더 광범위하게 출시하기 전에 품질을 확인할 수 있습니다. 조직에서 Surface Hub를 관리하는 사용자에 따라 기타 Windows10 장치용으로 빌드한 배포 링에 Surface Hub를 통합하는 것이 좋습니다. 배포 링에 대한 자세한 내용은 [Windows10 업데이트용 배포 링 빌드](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates)를 참조하세요.
 
-이 표에서는 배포 링의 예를 제공합니다.
+배포 링의 예제는 다음 표를 참조 하세요.
 
 | 배포 링 | 링 크기 | 서비스 분기 | 기능 업데이트 지연 | 품질 업데이트 지연(보안 수정, 드라이버 및 기타 업데이트) | 유효성 검사 단계 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -79,10 +80,8 @@ Windows as a Service에 대한 자세한 내용은 [Windows as a Service 개요]
 | 중요 업무용(예: 중역 회의실) | 적음 | 반기 채널 |  릴리스 후 180일(기능 업데이트 최대 지연). | 릴리스 후 30일(품질 업데이트 최대 지연). | 장치 사용 및 사용자 피드백을 모니터링합니다. |
 
 
-
-
-
 ### Surface Hub가 업데이트를 받는 시기 구성
+
 Surface Hub에 대한 배포 링을 확인한 후 각 링에 대한 업데이트 지연 정책을 구성합니다.
 - 기능 업데이트를 연기하려면 각 링에 대한 적절한 [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) 정책을 설정합니다.
 - 품질 업데이트를 연기하려면 각 링에 대한 적절한 [Update/DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) 정책을 설정합니다.
@@ -90,22 +89,9 @@ Surface Hub에 대한 배포 링을 확인한 후 각 링에 대한 업데이트
 > [!NOTE]
 > 업데이트 출시 중에 문제가 발생하면 [Update/PauseFeatureUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates) 및 [Update/PauseQualityUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates)를 사용하여 업데이트를 일시 중지할 수 있습니다.
 
-
-## Windows Server Update Services 사용
-
-Surface Hub를 WSUS(Windows Server Update Services) 서버에 연결하여 업데이트를 관리할 수 있습니다. 업데이트는 WSUS 서버에 구성된 승인 또는 자동 배포 규칙을 통해 제어되므로 새 업그레이드는 사용자가 배포하도록 선택할 때까지 배포되지 않습니다.
-
-**수동으로 Surface Hub를 WSUS 서버에 연결하려면**
-1. Surface Hub에서 **설정**을 엽니다.
-2. 메시지가 표시되면 장치 관리자 자격 증명을 입력합니다.
-3. **업데이트 및 보안** > **Windows 업데이트** > **고급 옵션** > **WSUS 서버 구성**으로 이동합니다.
-4. **WSUS 서버를 사용하여 업데이트 다운로드**를 클릭하고 WSUS 서버의 URL을 입력합니다.
-
-MDM을 사용하여 Surface Hub를 WSUS 서버에 연결하려면 적절한 [Update/UpdateServiceUrl](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_UpdateServiceUrl) 정책을 설정합니다.
-
 **프록시 서버 또는 기타 방법을 사용하여 URL을 차단하는 경우**
 
-WSUS 이외의 방법을 사용하여 특정 URL을 차단하고 업데이트를 방지하는 경우 다음의 Windows 업데이트 신뢰할 수 있는 URL을 “허용 목록”에 추가해야 합니다.
+다음 Windows 업데이트 신뢰할 수 있는 사이트 Url을 "허용 목록"에 추가 합니다.
 - `http(s)://*.update.microsoft.com`
 - `http://download.windowsupdate.com` 
 - `http://windowsupdate.microsoft.com`
@@ -114,7 +100,7 @@ Windows 10 Team 1주년 업데이트를 설치한 다음에는 이들 주소를 
 
 ## 유지 관리 기간
 
-업무 시간 중에 항상 장치를 사용할 수 있도록 Surface Hub는 지정된 유지 관리 기간 동안 관리 기능을 수행합니다. 유지 관리 창에서 Surface Hub는 Windows Update 또는 WSUS를 통해 업데이트를 자동으로 설치 하 고 창이 종료 되기 20 분 전에 장치를 다시 부팅 합니다.
+업무 시간 중에 항상 장치를 사용할 수 있도록 Surface Hub는 지정된 유지 관리 기간 동안 관리 기능을 수행합니다. 유지 관리 창에서 Surface Hub는 Windows Update를 통해 업데이트를 자동으로 설치 하 고 창이 끝날 때까지 20 분 후에 장치를 다시 부팅 합니다.
 
 Surface Hub는 다음 지침에 따라 업데이트를 적용합니다.
 - 다음 유지 관리 기간 동안 업데이트를 설치합니다. 모임이 유지 관리 기간 중에 시작되도록 예약되었거나 Surface Hub 센서에서 장치가 사용되고 있음을 감지할 경우 보류 중인 업데이트가 다음 유지 관리 기간까지 연기됩니다.

@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ad65170b3cc2534fec1b22730c718025026d7bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e070c28d13cd8466bff47022f4508fdb8aa06331
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836228"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142917"
 ---
 # 첫 실행 프로그램(Surface Hub)
 
@@ -71,7 +71,7 @@ ms.locfileid: "10836228"
 ### 발생하는 동작
 
 >[!NOTE]
-> 이 페이지의 설정을 입력한 후에는 디바이스를 초기화하지 않는 한 이 화면으로 돌아올 수 없습니다([디바이스 초기화](device-reset-surface-hub.md) 참조). 계속하기 전에 설정이 제대로 구성되었는지 확인합니다.
+> 이 페이지의 설정을 입력한 후에는 디바이스를 초기화하지 않는 한 이 화면으로 돌아올 수 없습니다([디바이스 초기화](device-reset-surface-hub.md) 참조). 계속하기 전에 설정이 제대로 구성되었는지 확인합니다.
 
  
 
@@ -128,17 +128,17 @@ ms.locfileid: "10836228"
 
 -   제한된 유선 연결 대신 사용할 무선 네트워크를 선택할 수 있습니다.
 -   **이 단계 건너뛰기**를 선택하여 네트워크 연결을 건너뛸 수 있습니다. [자동 설치 페이지](#set-up-for-you)로 이동됩니다.
-    **참고**  이 작업을 건너뛰면 디바이스는 네트워크에 연결 되지 않으며 네트워크 연결이 필요한 경우에는 전자 메일 및 일정 동기화 등의 항목을 포함 하 여 Surface Hub에서 작동 합니다. 설정을 사용 하 여 나중에 무선 네트워크에 연결할 수 있습니다 ( [무선 네트워크 관리](wireless-network-management-for-surface-hub.md)참조).
+    **참고**  건너뛸 경우 디바이스에 네트워크 연결이 없으며 메일 및 일정 동기화 등 네트워크 연결이 필요한 기능은 Surface Hub에서 작동하지 않습니다. 설정을 사용 하 여 나중에 무선 네트워크에 연결할 수 있습니다 ( [무선 네트워크 관리](wireless-network-management-for-surface-hub.md)참조).
 
      
 
 -   네트워크 프록시를 사용하는 방법을 지정할 수 있는 **프록시 설정 입력** 을 선택할 수 있습니다. 다음 화면으로 이동됩니다.
 
-![네트워크 프록시 페이지를 보여 주는 이미지입니다.](images/setupnetworksetup-2.png)
+    ![네트워크 프록시 페이지를 보여 주는 이미지입니다.](images/setupnetworksetup-2.png)
 
-이전 화면에서 **프록시 설정 입력** 을 클릭한 경우에 표시되는 화면입니다.
+    이전 화면에서 **프록시 설정 입력** 을 클릭한 경우에 표시되는 화면입니다.
 
-![프록시 서버 설정 세부 정보를 보여 주는 이미지입니다.](images/setupnetworksetup-4.png)
+    ![프록시 서버 설정 세부 정보를 보여 주는 이미지입니다.](images/setupnetworksetup-4.png)
 
 ### 세부 정보
 
@@ -371,9 +371,10 @@ Surface Hub를 Azure AD(Azure Active Directory)에 가입하는 경우 이 **다
 Azure AD에 가입하면 다음 두 가지 주요 이점이 있습니다.
 
 1.  조직의 일부 직원이 관리자로 디바이스에 액세스할 수 있으며, 설정 앱을 시작하고 디바이스를 구성할 수 있습니다. 관리자 권한이 있는 사용자는 Azure AD 구독에서 정의됩니다.
+
 2.  Azure AD가 MDM(모바일 디바이스 관리) 솔루션에 연결된 경우 정책 및 구성을 적용할 수 있도록 디바이스가 해당 MDM 솔루션에 등록됩니다.
 
-![Surface Hub를 Azure Active Directory에 연결할 때의 메시지를 보여 주는 이미지입니다.](images/setupjoiningazuread-1.png)
+    ![Surface Hub를 Azure Active Directory에 연결할 때의 메시지를 보여 주는 이미지입니다.](images/setupjoiningazuread-1.png)
 
 ### 세부 정보
 
@@ -451,7 +452,7 @@ Azure AD(Azure Active Directory) 또는 AD(Active Directory)를 사용하여 Sur
 
 최신 기능과 수정 사항을 가져오려면 앞의 첫 실행 단계를 모두 완료하는 즉시 Surface Hub를 업데이트해야 합니다.
 
-1.  디바이스가 Windows 업데이트 서버 또는 WSUS(WindowsServer Update Services)에 액세스할 수 있는지 확인합니다. WSUS를 구성하려면 [WSUS 사용](manage-windows-updates-for-surface-hub.md#use-windows-server-update-services)을 참조하세요.
+1.  장치에 Windows 업데이트 서버에 대 한 액세스 권한이 있는지 확인 합니다. 
 2.  설정을 열고 **업데이트 및 보안**, **Windows 업데이트**, **업데이트 확인**을 차례로 클릭합니다.
 3.  업데이트를 사용할 수 있으면 다운로드됩니다. 다운로드가 완료된 후 **지금 업데이트** 단추를 클릭하여 업데이트를 설치합니다.
 4.  업데이트가 설치된 후 화면의 지시를 따릅니다. 디바이스를 다시 시작해야 할 수도 있습니다.

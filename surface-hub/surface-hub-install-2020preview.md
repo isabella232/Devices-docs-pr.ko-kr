@@ -9,20 +9,23 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/13/2020
+ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 51d6b9169b0074eb474ddc89b6fe9b43a921bb07
-ms.sourcegitcommit: feb81137d009d9b7c743aabd7d02615e89842200
+ms.openlocfilehash: 6d370db0232ae1f93d1ba6b8ff15b5ff2cfa9f10
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "10929771"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142907"
 ---
 # Windows 10 Team 2020 업데이트 Preview 빌드 설치 
 
-Surface hub 운영 체제, **windows 10 Team 2020 업데이트**의 최신 업데이트는 [windows 참가자 프로그램](https://insider.windows.com)에서 surface hub 50-인치 및 surface hub 2S 55-인치 장치에 대 한 추가 비용 없이 제공 됩니다. Surface Hub 84 인치 모델은 Windows 10 Team 2020 업데이트의 최종 릴리스에서 지원 됩니다.
+[Windows 참가자 프로그램](https://insider.windows.com)에서 추가 비용 없이 Surface Hub 운영 체제, **windows 10 Team 2020 업데이트 미리 보기**의 preview 빌드를 사용할 수 있습니다. 
 
-Windows 10 Team 2020 업데이트는 Windows 10의 최신 기능과 함께 장치 배포 및 관리 효율성을 대폭 개선 합니다. 새로운 기능에 대해 자세히 알아보려면 다음 블로그 게시물을 참조 하세요. [공개 미리 보기에 대 한 새 Surface HUB OS 업데이트를 해제 했습니다.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) 알려진 문제점은 아래의 "알려진 문제" 섹션을 참조 하세요.
+> [!NOTE] 
+> Windows 10 팀 2020 업데이트의 최종 공용 릴리스를 지금 사용할 수 있습니다. 자세히 알아보려면 [Windows 10 Team 2020 업데이트](surface-hub-2020-update.md)를 참조 하세요.
+
+Windows 10 Team 2020 업데이트는 Windows 10의 최신 기능과 함께 장치 배포 및 관리 효율성을 대폭 개선 합니다. 새로운 기능에 대해 자세히 알아보려면 다음 블로그 게시물을 참조 하세요. [공개 미리 보기에 대 한 새 Surface HUB OS 업데이트를 해제 했습니다.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) 알려진 문제는 알려진 문제점을 참조 하세요 [. Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
  
 ## 필수 구성 요소
 
