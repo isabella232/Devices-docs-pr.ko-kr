@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 3e376a740aa16333cbbabc812b0c0193ab90d585
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: 68eee89ac1b93501c73eccd3e5f9eecf514a8132
+ms.sourcegitcommit: b4cfb718274fd632661f9112e9fd086a2ad45640
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142948"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "11143643"
 ---
 # Windows 10 Team 2020 업데이트 설치 
 
@@ -48,7 +48,7 @@ Windows 10 Team 2020 업데이트는 Windows 10의 최신 기능과 함께 장�
  
 ## 시작하기 전에
 
-Windows 10 team 2020 업데이트를 설치 하기 전에 장치와 연결 된 BitLocker 키를 저장 해야 합니다.
+Windows 10 team 2020 업데이트를 설치 하기 전에 장치와 연결 된 BitLocker 키를 저장 해야 합니다. 자세한 내용은 [Windows 10 Team 2020 업데이트의 새로운 기능](surface-hub-2020-update-whats-new.md) 을 참조 하세요.
 
 **BitLocker 키를 수동으로 저장 하려면**
 
