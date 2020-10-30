@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/13/2020
-ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
-ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
+ms.date: 10/28/2020
+ms.openlocfilehash: 2d31f520d8c4da54f47b2b89b58b43e2cb983f1a
+ms.sourcegitcommit: 7f5b97275fe301ef700f9c77954a1054e2e8d046
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "11117854"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "11145619"
 ---
 # Microsoft Endpoint Configuration Manager를 사용하여 SEMM에서 디바이스 관리
 
@@ -388,11 +388,6 @@ Surface uefi 설정 또는 Surface UEFI 설정에 대 한 사용 권한을 구�
 
 ShowSettingsOptions.ps1를 실행 하는 컴퓨터에는 Microsoft Surface UEFI 관리자가 설치 되어 있어야 하지만, 스크립트에는 Surface device가 필요 하지 않습니다.
 
-장치에 대 한 최신 설정 이름과 Id를 보는 가장 좋은 방법은 ConfigureSEMM.ps1 스크립트 또는 <device name> [IT 다운로드에 대 한 Surface Tools](https://www.microsoft.com/download/details.aspx?id=46703)SEMM_Powershell.zip에서 ConfigureSEMM. ps1을 사용 하는 것입니다.
-
-모든 장치에 대 한 설정 이름 및 Id를 ConfigureSEMM.ps1 스크립트에서 볼 수 있습니다.
-
-특정 장치에 대 한 설정 이름 및 Id를 ConfigureSEMM 스크립트에서 볼 수 있습니다 <device name> . 
 
 ## SEMM 구성 관리자 스크립트 배포
 
