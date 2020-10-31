@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 8b113d16f2053fe0904518b2643f1bafeaebdf64
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902976"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145943"
 ---
 # 비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
 
@@ -26,7 +26,7 @@ ms.locfileid: "10902976"
 SDT를 성공적으로 실행 하면 보고 된 문제가 하드웨어 또는 사용자 오류로 인해 발생 했는지 신속 하 게 확인할 수 있습니다. SDT의 지원 되는 Surface 디바이스 목록은 [비즈니스용 배포 Surface 진단 툴킷](surface-diagnostic-toolkit-business.md)을 참조 하세요.
 
 
-1. 사용자가 소프트웨어 배포 지점이 나 네트워크 공유에서 [SDT 패키지](surface-diagnostic-toolkit-business.md#create-custom-sdt) 를 설치 하도록 지시할 수 있습니다. 설치 된 후에는 일련의 테스트를 통해 사용자를 안내할 준비가 된 것입니다. 
+1. 소프트웨어 배포 지점이 나 네트워크 공유에서 사용자에 게 [SDT 패키지](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)를 설치 하도록 안내 합니다. 설치 된 후에는 일련의 테스트를 통해 사용자를 안내할 준비가 된 것입니다. 
 
 2. 사용자가 문제에 대 한 설명을 입력할 수 있는 홈 페이지에서 시작 하 고 그림 1과 같이 **계속**을 클릭 합니다.
 
@@ -49,7 +49,7 @@ SDT를 성공적으로 실행 하면 보고 된 문제가 하드웨어 또는 �
     디스플레이 및 소리   | 밝기, 정지 또는 데드 픽셀, 스피커, 마이크 작동을 확인 합니다.
     포트 및 액세서리   | 액세서리, 화면 연결, USB 작동을 확인 합니다.
     Connectivity |  Bluetooth, 무선 및 LTE 연결 확인
-    Security    | 보안 관련 문제를 확인 합니다.
+    보안    | 보안 관련 문제를 확인 합니다.
     터치   | 터치 관련 문제 확인
     키보드 및 터치 |    통합 키보드 연결을 확인 하 고 덮개를 입력 합니다.
     센서 | 장치에서 다른 센서의 기능을 검사 합니다.
@@ -63,7 +63,7 @@ SDT를 성공적으로 실행 하면 보고 된 문제가 하드웨어 또는 �
 6. 문제가 해결 되지 않았거나 알 수 없는 경우 **에** 는 문의처를 선택 하 여 지원 티켓을 제출 하 여 **도움을 받으세요.**
  
  ![지원 티켓 제출 ](images/sdt4.png)
- *그림 3b. 지원 티켓 제출*
+ *그림 3B. 지원 티켓 제출*
 
 <span id="multiple" />
 

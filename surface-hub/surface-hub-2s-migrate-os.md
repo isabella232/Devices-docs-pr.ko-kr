@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96aec50335ab08e9d524c5ae1a595695c1de46d4
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: 12742cc887ba495f8f7cbded8bd84dc4fd63b6f6
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134396"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145973"
 ---
 # Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 
@@ -167,6 +167,9 @@ UEFI 설정을 적용할 수 있으려면 Surface UEFI 구성자 도구를 사�
 1. PC에 USB 드라이브를 연결 합니다. **Hub 2S** 를 선택 하 고 **다음**을 선택 합니다.
 
    ![USB 선택](images/shm-fig13.png)
+
+> [!WARNING]
+> SEMM 패키지를 만들 때 USB 드라이브의 모든 기존 데이터가 지워집니다. SEMM 패키지를 작성 하기 전에 저장할 USB 드라이브에서 파일을 제거 합니다.
    
 2. **빌드**를 선택 합니다.
 

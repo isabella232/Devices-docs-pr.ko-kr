@@ -12,12 +12,12 @@ ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 97d0a3d76cf9286ca946e08be9f605084084b2ba
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114666"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145963"
 ---
 # 비즈니스용 Surface 진단 도구 키트 배포
 
@@ -25,7 +25,7 @@ Microsoft Surface (비즈니스 관련 진단 도구 키트) (SDT)는 IT 관리�
 
 특히, 비즈니스의 SDT에서는 다음을 수행할 수 있습니다.
 
-- [패키지를 사용자 지정 합니다.](#create-custom-sdt)
+- [패키지를 사용자 지정 합니다.](#preparing-the-sdt-package-for-distribution)
 - [명령을 사용 하 여 앱을 실행 합니다.](surface-diagnostic-toolkit-command-line.md)
 - [여러 하드웨어 테스트를 실행 하 여 문제를 해결 하세요.](surface-diagnostic-toolkit-desktop-mode.md#multiple)
 - [문제 분석을 위한 로그를 생성 합니다.](surface-diagnostic-toolkit-desktop-mode.md#logs)
@@ -123,8 +123,6 @@ SDT는 .exe 파일 외에도 그림 2와 같이 JSON 파일과 admin.dll 파일 
 ![파일 탐색기에 설치 된 SDT의 파일 목록](images/sdt-2.png)
 
 *그림 2. SDT에서 설치 된 파일*
-
-<span id="create-custom-sdt" />
 
 ## 배포를 위해 SDT 패키지 준비
 
