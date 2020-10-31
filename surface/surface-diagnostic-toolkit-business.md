@@ -12,12 +12,12 @@ ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 97d0a3d76cf9286ca946e08be9f605084084b2ba
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114666"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145963"
 ---
 # <span data-ttu-id="8559d-103">비즈니스용 Surface 진단 도구 키트 배포</span><span class="sxs-lookup"><span data-stu-id="8559d-103">Deploy Surface Diagnostic Toolkit for Business</span></span>
 
@@ -25,7 +25,7 @@ ms.locfileid: "11114666"
 
 <span data-ttu-id="8559d-106">특히, 비즈니스의 SDT에서는 다음을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8559d-106">Specifically, SDT for Business enables you to:</span></span>
 
-- [<span data-ttu-id="8559d-107">패키지를 사용자 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8559d-107">Customize the package.</span></span>](#create-custom-sdt)
+- [<span data-ttu-id="8559d-107">패키지를 사용자 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8559d-107">Customize the package.</span></span>](#preparing-the-sdt-package-for-distribution)
 - [<span data-ttu-id="8559d-108">명령을 사용 하 여 앱을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8559d-108">Run the app using commands.</span></span>](surface-diagnostic-toolkit-command-line.md)
 - [<span data-ttu-id="8559d-109">여러 하드웨어 테스트를 실행 하 여 문제를 해결 하세요.</span><span class="sxs-lookup"><span data-stu-id="8559d-109">Run multiple hardware tests to troubleshoot issues.</span></span>](surface-diagnostic-toolkit-desktop-mode.md#multiple)
 - [<span data-ttu-id="8559d-110">문제 분석을 위한 로그를 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="8559d-110">Generate logs for analyzing issues.</span></span>](surface-diagnostic-toolkit-desktop-mode.md#logs)
@@ -123,8 +123,6 @@ ms.locfileid: "11114666"
 ![파일 탐색기에 설치 된 SDT의 파일 목록](images/sdt-2.png)
 
 *<span data-ttu-id="8559d-191">그림 2.</span><span class="sxs-lookup"><span data-stu-id="8559d-191">Figure 2.</span></span> <span data-ttu-id="8559d-192">SDT에서 설치 된 파일</span><span class="sxs-lookup"><span data-stu-id="8559d-192">Files installed by SDT</span></span>*
-
-<span id="create-custom-sdt" />
 
 ## <span data-ttu-id="8559d-193">배포를 위해 SDT 패키지 준비</span><span class="sxs-lookup"><span data-stu-id="8559d-193">Preparing the SDT package for distribution</span></span>
 
