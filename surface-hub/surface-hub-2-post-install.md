@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/21/2020
+ms.date: 11/03/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: b86776b56e892c34ea8b5abbc55d5c48723a5f9e
+ms.sourcegitcommit: 3ca1d1bc77452acca914d0af03e252ee260ebf1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134406"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "11154130"
 ---
 # Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성
 
@@ -34,7 +34,7 @@ Windows 10 Pro 또는 Enterprise로 마이그레이션하는 설치 프로세스
 
 1. 장치에서 로컬 관리자 권한이 있는 계정으로 로그인 합니다.  
 
-    - Azure AD 참가 디바이스에서 Azure AD 조인을 수행 하는 사용자가 로컬 관리자 그룹에 자동으로 추가 됩니다. Azure AD 전역 관리자 및 Azure AD 장치 관리자는 [로컬 관리자 이기도](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin)합니다. 
+    - Azure AD 참가 디바이스에서 Azure AD 조인을 수행 하는 사용자가 로컬 관리자 그룹에 자동으로 추가 됩니다. Azure AD 전역 관리자 및 Azure AD 장치 관리자는 <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank"> 로컬 관리자 이기도 </a> 합니다. 
     
     - 명령 프롬프트에서 **net localgroup 관리자** 를 입력 하 여 로컬 관리자 권한이 있는 계정을 나열할 수 있습니다.
     
@@ -83,17 +83,17 @@ Windows 10 Pro 또는 Enterprise로 마이그레이션하는 설치 프로세스
 
 장치를 기본 Windows 장치로 사용 하는 경우 키보드와 마우스를 연결 하 고, 입력 하거나 전체 작업을 수행 하는 데 자주 사용 합니다.
 
-Surface Hub 장치가 PC 근처에 있는 경우 [경계 없이 마우스](https://aka.ms/mm) 를 사용 하 여 surface HUB와 PC 간에 매끄럽게 이동할 수 있습니다. 자세한 내용은 [경계 없이 마우스를 사용 하 여 중고품의 Microsoft 다운로드](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/)를 참조 하세요.
+Surface Hub 장치가 PC 근처에 있는 경우 <a href="https://aka.ms/mm" target="_blank"> 경계 없이 마우스 </a> 를 사용 하 여 surface HUB와 PC 간에 매끄럽게 이동할 수 있습니다. 자세한 내용은 <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> 경계 없이 마우스를 사용 하 여 중고품의 Microsoft 다운로드를 참조 하세요. </a>
 
 ## 비즈니스용 OneDrive
 
-[비즈니스용 OneDrive](https://docs.microsoft.com/onedrive/onedrive) 를 사용 하 여 모든 작업 디바이스 간에 도구, 로그, 기타 파일을 쉽게 공유할 수 있습니다.
+<a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank">비즈니스용 OneDrive를 사용 </a> 하 여 모든 작업 디바이스 간에 도구, 로그, 기타 파일을 쉽게 공유할 수 있습니다.
 
 - OneDrive를 사용 하면 랩톱, Surface Hub 데스크톱, Intune으로 관리 되는 모바일 장치 간에 작업 파일을 공유할 수 있습니다. 모든 장치에서 파일을 편집할 수 있으며, 모든 네트워크 연결 장치가 변경 내용으로 업데이트 됩니다.
 
 - Surface hub 데스크톱 장치에서 OneDrive를 구성 하는 경우 Surface Hub SSD (128GB)의 크기를 고려 하 여 기본 구성이 파일을 온라인 상태로 유지 하 고 파일을 사용 하는 동안 다운로드 하도록 설정 해야 합니다.
 
-필요할 때만 파일을 다운로드 하도록 OneDrive를 구성 하려면 **필요 시 파일** 설정을 사용 하는 **동안 공간을 절약 하 고 파일을 다운로드**하도록 설정 합니다. 자세한 내용은 [Windows에서 파일 주문형 상태 쿼리 및 설정을](https://docs.microsoft.com/onedrive/files-on-demand-windows)참조 하세요.
+필요할 때만 파일을 다운로드 하도록 OneDrive를 구성 하려면 **필요 시 파일** 설정을 사용 하는 **동안 공간을 절약 하 고 파일을 다운로드**하도록 설정 합니다. 자세한 내용은 <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> Windows에서 파일 주문형 상태 쿼리 및 설정을 참조 하세요 </a> .
 
 ![OneDrive 설정](images/onedrive.png)
 
@@ -122,7 +122,7 @@ OneDrive 동기화 앱을 사용 하 여 내부 회사 파일을 로컬 드라�
     
     3. **공간 확보**를 선택 합니다.
     
-    4. 상태 열에 파일 및 폴더 상태가 표시 됩니다. 자세한 내용은 [OneDrive 동기화 클라이언트를 사용 하 여 SharePoint 파일 동기화](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd)를 참조 하세요.
+    4. 상태 열에 파일 및 폴더 상태가 표시 됩니다. 자세한 내용은 <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> OneDrive 동기화 클라이언트를 사용 하 여 SharePoint 파일 동기화를 참조 하세요 </a> .
     
 6. 팀 채널 파일은 버전 기록을 비롯 하 여 동일한 모든 SharePoint 문서 기능을 사용 하 여 SharePoint 사이트에 저장 되며 로컬 데스크톱 장치와 동기화 됩니다. 팀 채널 파일을 동기화 하려면:
 
@@ -164,13 +164,13 @@ OneDrive 동기화 앱을 사용 하 여 내부 회사 파일을 로컬 드라�
 
 디바이스의 위쪽 또는 양쪽에 카메라를 탑재할 수 있습니다. 카메라를 사용 하는 경우, 카트 대신 데스크탑이 스탠드에 있거나 허브에 가까운 위치에 있는 경우 카메라 각도를 최적화할 수 있는 한 눈에 카메라를 마운트합니다. 카메라가 자동으로 회전 하지 않으므로 수동으로 카메라를 회전 하려면 2mm 16 진수 키를 사용 해야 합니다. 
 
-카메라를 직접 탑재 하 고 카메라를 수동으로 회전 하는 방법에 대 한 자세한 내용은 [Surface Hub 2S 카메라 렌즈 방향을](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation)참조 하세요.
+카메라를 직접 탑재 하 고 카메라를 수동으로 회전 하는 방법에 대 한 자세한 내용은 <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2S 카메라 렌즈 방향을 참조 하세요 </a> .
 
 ## Windows Hello 구성
 
 Windows 10 Enterprise를 실행 하는 Surface Hub 2S는 Win32 데스크톱 응용 프로그램의 전체 제품군과 생체 인식 Windows Hello 옵션을 사용할 수 있습니다. Surface Hub 2 지문 인식기 액세서리는 장치의 USB-C 포트에 연결 될 수 있습니다. 
 
-Surface Hub 2 지문 인식기를 주문 하거나 기술 사양을 보려면 [Surface hub 2에서 Windows 10 Pro 및 Enterprise의 필수 추가](surface-hub-2-essential-add-ons.md)기능을 참조 하세요. 
+Surface Hub 2 지문 인식기를 주문 하거나 기술 사양을 보려면 Windows 10 Pro 및 Surface Hub 2에서 엔터프라이즈의 surface-hub-2-essential-add-ons.md "target =" _blank ">필수 추가 기능을 참조 </a> 하세요. 
 
 지문 판독기를 삽입 한 후에 **Start**는  >  **설정**시작  >  **계정**  >  **로그인 옵션**  >  **Windows Hello 지문을** 선택 하 여 지문을 등록 합니다.
 
@@ -246,7 +246,7 @@ Microsoft 화이트 보드를 설치 하려면 다음을 수행 합니다.
 
 ### Microsoft Office
 
-1. [Office 포털](https://portal.office.com/account#installs) 을 열고 원하는 응용 프로그램을 설치 합니다.
+1. <a href="https://portal.office.com/account#installs" target="_blank">Office 포털을 열고 </a> 원하는 응용 프로그램을 설치 합니다.
 
 2. 원하는 Office 응용 프로그램을 작업 표시줄에 고정 합니다.
 
@@ -258,7 +258,7 @@ Microsoft 화이트 보드를 설치 하려면 다음을 수행 합니다.
 
 ### Microsoft Teams
 
-1. [Microsoft 팀](https://teams.microsoft.com/downloads)을 다운로드 하 고 설치 합니다.
+1. Microsoft 팀을 다운로드 하 고 설치 <a href="https://teams.microsoft.com/downloads" target="_blank"> </a> 합니다.
 
 2. 응용 프로그램 자동 시작에 대 한 설정을 구성 합니다 (선택 사항).
 
@@ -305,20 +305,20 @@ Microsoft 화이트 보드를 설치 하려면 다음을 수행 합니다.
 
 **휴대폰** 앱은 Windows 10에 기본적으로 설치 되어 있습니다. 표시 되지 않는 경우 Windows 스토어에서 설치할 수도 있습니다.
 
-앱을 설정 하는 방법에 대 한 자세한 내용은 [Windows 10에서 휴대폰을 설정 하 고 PC와 휴대폰 간에 데이터를 동기화 하는 방법을](https://www.windowscentral.com/how-set-your-phone-windows-10)참조 하세요. 또한 [Windows 10의 휴대폰 앱에 대 한 일반적인 문제를 해결 하는 방법을](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10)알아봅니다.
+앱을 설정 하는 방법에 대 한 자세한 내용은 <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> Windows 10에서 휴대폰을 설정 하 고 PC와 휴대폰 간에 데이터를 동기화 하는 방법을 참조 하세요 </a> . 또한 <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> Windows 10의 휴대폰 앱에 대 한 일반적인 문제를 해결 하는 방법을 알아봅니다 </a> .
 
 ### 수퍼 팬시 영역
 
-**수퍼 팬시 영역은** 사용자가 화면 공간을 최대화 하도록 창을 정렬 하는 데 도움이 됩니다. 이제 GitHub의 [PowerToys](https://github.com/microsoft/PowerToys/releases) 에 포함 되어 있습니다.
+**수퍼 팬시 영역은** 사용자가 화면 공간을 최대화 하도록 창을 정렬 하는 데 도움이 됩니다. 이제 <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> GitHub의 PowerToys에 포함 되어 있습니다 </a> .
 
 ### Edge Chromium 브라우저
 
-새 [Edge Chromium 브라우저](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL)를 다운로드 하 여 설치 합니다.
+새 Edge Chromium 브라우저를 다운로드 하 여 설치 <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> </a> 합니다.
 
 
 ### Surface Hub 하드웨어 진단 도구
 
-Microsoft Store에서 무료로 제공 되는 [Surface Hub 하드웨어 진단 도구](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) 이 도구는 Surface Hub가 가장 적절 하 게 진행 되 고 있는지 확인 하는 데 도움이 되도록 설계 되었습니다. 이 앱에는 펌웨어가 최신 상태 이며 올바르게 구성 되었는지 확인 하는 테스트가 포함 되어 있습니다. 대화형 테스트를 통해 필수 기능이 예상 대로 작동 하는지 확인할 수 있습니다. 문제가 발생하는 경우, 결과를 저장하고 Surface Hub 지원 팀과 공유할 수 있습니다. 링크를 클릭 하 여 Microsoft Store에서 설치 하 고 작업 표시줄에 응용 프로그램을 고정 합니다.
+<a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> </a> Microsoft Store에서 무료로 제공 되는 Surface Hub 하드웨어 진단 도구 이 도구는 Surface Hub가 가장 적절 하 게 진행 되 고 있는지 확인 하는 데 도움이 되도록 설계 되었습니다. 이 앱에는 펌웨어가 최신 상태 이며 올바르게 구성 되었는지 확인 하는 테스트가 포함 되어 있습니다. 대화형 테스트를 통해 필수 기능이 예상 대로 작동 하는지 확인할 수 있습니다. 문제가 발생하는 경우, 결과를 저장하고 Surface Hub 지원 팀과 공유할 수 있습니다. 링크를 클릭 하 여 Microsoft Store에서 설치 하 고 작업 표시줄에 응용 프로그램을 고정 합니다.
 
 ## 추가 설정
 
@@ -454,4 +454,4 @@ Surface Hub 2는 로컬 저장소에 대 한 128GB SSD를가지고 있으므로 
 
 ## 관련 항목
 
-[Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md)
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션</a>
