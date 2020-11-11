@@ -13,12 +13,12 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 9460b4a5e8b44cbf4b6af57d01aab3b09afb49de
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 6a5c53c3e161bd4c49069a0665896762ce587618
+ms.sourcegitcommit: e9190a6fe68b8a7cd9b024aea4be9f885f0de388
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834751"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "11163183"
 ---
 # Surface Pro 3의 고급 UEFI 보안 기능
 
@@ -54,7 +54,7 @@ Surface 디바이스에 v3.11.760.0 UEFI 업데이트를 설치하고 나면 이
 | WiFi           | Surface 디바이스에서 기본 제공 Wi-Fi 송수신 디바이스를 사용하거나 사용하지 않도록 설정합니다. 이 옵션을 통해 Bluetooth도 사용하지 않도록 설정됩니다.                                                                              | **사용**, 사용 안 함                       |
 | Bluetooth      | Surface 디바이스에서 기본 제공 Bluetooth 송수신 디바이스를 사용하거나 사용하지 않도록 설정합니다.                                                                                                        | **사용**, 사용 안 함                       |
 
- 
+ 
 
 ## 추가 보안 설정 자동화
 
@@ -69,12 +69,13 @@ Surface 디바이스에 v3.11.760.0 UEFI 업데이트를 설치하고 나면 이
 
 **샘플 스크립트**
 
->**참고**:&nbsp;&nbsp;아래 샘플 스크립트에서 사용되는 UEFI 암호는 일반 텍스트로 표시됩니다. 보호되는 위치에 스크립트를 저장하고 제어된 환경에서 스크립트를 실행하는 것이 좋습니다.
+> [!NOTE]
+> 아래 샘플 스크립트에서 사용되는 UEFI 암호는 일반 텍스트로 표시됩니다. 보호되는 위치에 스크립트를 저장하고 제어된 환경에서 스크립트를 실행하는 것이 좋습니다.
 
 
 구성 가능한 옵션을 모두 표시합니다.
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -99,7 +100,7 @@ foreach ($uefiOption in $uefiOptions)
 
 UEFI 암호를 설정 또는 변경합니다.
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -115,7 +116,7 @@ $Password.ProposedValue = "12345"
 
 제안된 변경의 상태를 확인합니다.
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -141,7 +142,7 @@ if ($details.Count -gt 0)
 
 UEFI를 기본값으로 되돌립니다.
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -166,11 +167,4 @@ foreach ($uefiOption in $uefiOptions)
 -   03 - 제안되었으나 인식되지 않게 설정된 값 있음
 -   0F - 잠금 해제 암호가 현재 설정된 암호화 일치하지 않음
 
- 
-
- 
-
-
-
-
-
+ 
