@@ -80,6 +80,7 @@
 #### [비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용](surface-diagnostic-toolkit-desktop-mode.md)
 #### [명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행](surface-diagnostic-toolkit-command-line.md)
 ### [최종 사용자를 위한 도움말](https://support.microsoft.com/products/surface-devices)
+### [Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기](surface-driver-firmware-lifecycle-support.md)
 
 ## 무상 수리 및 확장 서비스 플랜
 ### [Surface for Business 무상 수리 및 확장 서비스 플랜](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
