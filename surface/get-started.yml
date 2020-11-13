@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 01c1cc2ea75e79825c80cc6f02970a755ae35b75
-  ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+  ms.openlocfilehash: c356595e058c45cc95631d2ebd12ee2e5cc75c1d
+  ms.sourcegitcommit: b1c630dcf12530cf7034478bfe66ad3bb11b59c9
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/23/2020
-  ms.locfileid: "11134386"
+  ms.lasthandoff: 11/12/2020
+  ms.locfileid: "11166650"
 landingContent:
 - title: Surface 장치
   linkLists:
@@ -76,12 +76,8 @@ landingContent:
       url: surface-diagnostic-toolkit-business.md
     - text: 주요 지원 솔루션
       url: support-solutions-surface.md
-    - text: 호환되는 Surface 장치에서의 SSD 제거에 대한 모범 사례
-      url: surface-ssd-removal-guide.md
-    - text: Surface repair 또는 service을 수행 하는 동안 데이터 보호
-      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: Surface Dock 및 도킹 스테이션 문제 해결
-      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+    - text: Windows 기반 장치용 Surface driver 및 펌웨어 수명 주기
+      url: surface-driver-firmware-lifecycle-support.md
 - title: 보안 지침 탐색
   linkLists:
   - linkListType: how-to-guide
