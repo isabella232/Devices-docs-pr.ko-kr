@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f608e18d04a0d6c48ad2990715b400c95b6d8c12
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: ab43155ee5e2973c5c45fc9ce8dd1395e3ca8bc5
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078728"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174748"
 ---
 # Surface Hub 업데이트 기록
 
@@ -27,7 +27,17 @@ Windows 10은 정기 소프트웨어 업데이트를 통해 자동으로 개선 
 
 현재 및 과거 릴리스의 관련 항목에 대 한 "[Surface Hub 중요 정보](https://support.microsoft.com/products/surface-devices/surface-hub)" 페이지를 참조 하세요. 주의 해야 할 수 있습니다.
 
-## Windows 10 팀 작성자 업데이트 1703
+## Windows 10 Team 2020 업데이트 (20H2)
+
+<details>
+<summary>Surface Hub에 대 한 Windows 10 팀 2020 업데이트-일반 릴리스 정보 (OS 빌드 19042.572)</summary>
+
+Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 이미 명시 되어 있지 않은 Surface Hub에 대 한 주요 업데이트는 "[windows 10 Team 2020 업데이트의 새로운 기능](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)" 페이지에 명시 되어 있습니다.
+
+지역, 배포 방법, 장치 유형에 따라 업데이트를 제공 하는 방법에 대 한 자세한 내용은 "[Windows 10 팀 2020 업데이트 설치](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)" 페이지를 참조 하세요.
+</details>
+
+## Windows 10 팀 작성자 업데이트 (1703)
 
 <details>
 <summary>2020 년 9 월 1 일-Surface Hub 2S 업데이트</summary>
@@ -169,7 +179,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 
 Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4018124/windows-10-update-history)에 미리 요약 되어 있지 않음:
 
-* 일부 사용자가 "내 모임 및 파일"에 로그인 할 수 없게 하는 문제를 해결 합니다.
+* 일부 사용자가 "내 모임 및 파일"로 Signing-In 하지 못하게 하는 문제를 해결 합니다.
 
 디바이스 기능 및 서비스를 사용 하거나 사용 하지 않도록 설정 하려면 [Surface Hub 관리 가이드](https://docs.microsoft.com/surface-hub/) 를 참조 하세요.
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
@@ -322,7 +332,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 <summary>2017 년 8 월 1 일-KB4032188 * 기반 팀 업데이트 (OS 빌드 15063.498)</summary>
 
 * 비즈니스용 Skype 
-  * 다시 시도 하거나 시스템을 다시 부팅 해야 하는 비즈니스용 Skype 로그인 문제를 해결 합니다.
+  * 다시 시도 하거나 시스템을 다시 부팅 해야 하는 비즈니스용 Skype Sign-In 문제를 해결 합니다.
   * 비즈니스용 Skype 모임 시간이 잘못 표시 되는 것을 해결 합니다.
   * 비즈니스 허브 비즈니스용 Skype 안정성을 개선 하기 위한 해결 방법입니다.
 
@@ -416,7 +426,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 * 안정성 및 성능 수정
   * 몇 가지 다시 설정 및 복구 문제 해결 됨
   * 클라이언트 인증서를 활용할 때 해결 된 Surface Hub Exchange 인증 문제
-  * Wi-fi 네트워크 연결 및 자격 증명 안정성 향상
+  * 향상 된 Wi-Fi 네트워크 연결 및 자격 증명 안정성
   * 비디오 재생 중 해결 된 Miracast 오디오 팝 및 동기화 문제
   * 자동 연결 동작을 사용 하지 않도록 설정 된 내용
 
@@ -424,7 +434,7 @@ Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수
 
 </details>
 
-## Windows 10 팀 기념일 업데이트 1607
+## Windows 10 팀 기념일 업데이트 (1607)
 
 <details>
 <summary>3 월 14th 2017 — KB4013429 * 기반 팀 업데이트 (OS 빌드 14393.953)</summary>
@@ -546,7 +556,7 @@ Surface Hub에 대 한 Windows 10 팀 (버전 1511)에 대 한이 업데이트�
 * 해결 된 문제 종료 후 서비스 충돌 발생
 * 세션 후 일부 앱 데이터가 제대로 제거 되지 않는 문제 해결
 * NFC 성능을 개선 하기 위해 Broadcom NFC driver 업데이트 됨
-* Miracast 성능을 개선 하기 위해 Marvell Wi-fi 드라이버 업데이트
+* Marvell Wi-Fi 드라이버를 업데이트 하 여 Miracast 성능을 개선 합니다.
 * 84 "Surface Hub 디바이스에서 흐리게 표시 또는 퍼지 콘텐츠를 보여 주는 표시 버그를 해결 하는 업데이트 된 Nvidia 드라이버
 * 다음을 포함 하 여 다양 한 비즈니스용 Skype 문제가 해결 되었습니다. 
   * 모임 중 비즈니스용 Skype의 연결이 끊어질 때 발생 하는 문제

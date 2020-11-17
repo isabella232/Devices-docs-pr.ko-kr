@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d6b95ac565132c4e4f1632c2abaffa13ddb2c54c
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: e5ffefa44560d01135b3ac656d9357f1115110ba
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142897"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174728"
 ---
 # Surface Hub에 대한 Windows 업데이트 관리
 
@@ -120,7 +120,7 @@ Surface Hub는 다음 지침에 따라 업데이트를 적용합니다.
 2.  **업데이트 및 보안** > **Windows 업데이트** > **고급 옵션**으로 이동합니다.
 3.  **유지 관리 시간**에서 **변경**을 선택합니다.
 
-MDM을 사용하여 유지 관리 기간을 변경하려면 [SurfaceHub 구성 서비스 공급자](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)에서 **MOMAgent** 노드를 설정합니다. 자세한 내용은 [MDM 공급자 설정 관리](manage-settings-with-mdm-for-surface-hub.md)를 참조하세요.
+MDM을 사용 하 여 유지 관리 창을 변경 하려면 [SurfaceHub 구성 서비스 공급자](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)에서 **MaintenanceHoursSimple** 노드를 설정 합니다. 자세한 내용은 [MDM 공급자 설정 관리](manage-settings-with-mdm-for-surface-hub.md)를 참조하세요.
 
 
 ## 추가 정보
