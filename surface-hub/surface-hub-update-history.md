@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: ab43155ee5e2973c5c45fc9ce8dd1395e3ca8bc5
-ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
+ms.openlocfilehash: 2aba835da79d40d4ae5f2786f77071ab9e210844
+ms.sourcegitcommit: e2ade2f198e4123c922c6a4fb5ab61e040e38ccb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "11174748"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "11190071"
 ---
 # Surface Hub 업데이트 기록
 
@@ -28,6 +28,28 @@ Windows 10은 정기 소프트웨어 업데이트를 통해 자동으로 개선 
 현재 및 과거 릴리스의 관련 항목에 대 한 "[Surface Hub 중요 정보](https://support.microsoft.com/products/surface-devices/surface-hub)" 페이지를 참조 하세요. 주의 해야 할 수 있습니다.
 
 ## Windows 10 Team 2020 업데이트 (20H2)
+
+<details>
+<summary>2020 년 11 월 24 일, Surface Hub 2S 업데이트</summary>
+
+이 업데이트는 Surface Hub 2S에만 해당 되며 아래에 설명 된 드라이버와 펌웨어 업데이트를 제공 합니다.
+
+* Surface SMC 펌웨어 업데이트-3.91.139.0
+  * 연결 된 대기 신뢰도를 개선 합니다.
+* Surface Touch 펌웨어 업데이트-3.91.139.0
+  * 연결 된 대기 터치 응답을 개선 합니다.
+* Surface USB 오디오 펌웨어 업데이트-3.91.139.0
+* Surface Pen 펌웨어 업데이트-3.91.139.0
+</details>
+
+<details>
+<summary>2020 년 10 월 27 일-Surface Hub 2S 업데이트</summary>
+
+이 업데이트는 Surface Hub 2S에만 해당 되며 아래에 설명 된 드라이버와 펌웨어 업데이트를 제공 합니다.
+
+* Surface System 수집기 펌웨어 업데이트-4.14.139.0
+* Surface UEFI 업데이트-694.3386.768.0
+</details>
 
 <details>
 <summary>Surface Hub에 대 한 Windows 10 팀 2020 업데이트-일반 릴리스 정보 (OS 빌드 19042.572)</summary>
