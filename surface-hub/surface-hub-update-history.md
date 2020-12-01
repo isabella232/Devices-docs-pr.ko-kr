@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 2aba835da79d40d4ae5f2786f77071ab9e210844
-ms.sourcegitcommit: e2ade2f198e4123c922c6a4fb5ab61e040e38ccb
+ms.openlocfilehash: f45a2f202cdf350c6e51bb78a2bf87019a89453a
+ms.sourcegitcommit: 7c00ca47fe81a4f5b3a3317afabb4d028ff21289
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "11190071"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "11192849"
 ---
 # Surface Hub 업데이트 기록
 
@@ -28,6 +28,24 @@ Windows 10은 정기 소프트웨어 업데이트를 통해 자동으로 개선 
 현재 및 과거 릴리스의 관련 항목에 대 한 "[Surface Hub 중요 정보](https://support.microsoft.com/products/surface-devices/surface-hub)" 페이지를 참조 하세요. 주의 해야 할 수 있습니다.
 
 ## Windows 10 Team 2020 업데이트 (20H2)
+
+<details>
+<summary>2020 년 11 월 30 일-KB4586853 * 기반 팀 업데이트 (OS 빌드 19042.662)</summary>
+
+Surface Hub에 대 한이 업데이트에는 품질 개선 사항 및 보안 수정 사항이 포함 되어 있습니다. Surface Hub에 대 한 주요 업데이트, [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 미리 요약 되어 있지 않음:
+
+* 추가 옵션을 제공 하는 개인 정보 설정 페이지로 업데이트 합니다.
+* 종료 세션 정리가 Edge Chromium 관련 된 모든 데이터를 완전히 제거 하는지 확인 하는 Fix.
+* 이미 시작한 모임이 시작/시작 화면에 표시 되지 않는 문제를 해결 합니다.
+* En-us 이외의 로케일에 대 한 클라우드 복구와 관련 된 문제를 해결 합니다.
+* 비즈니스용 Skype
+  * 방향 오디오 성능을 향상 합니다.
+  * 비즈니스용 Skype 통화 중 펜을 사용 하는 경우 "펜 탭이 들립니다."가 줄어듭니다.
+* Windows 참가자 프로그램에 등록할 때 안정성이 향상 됩니다.
+* Windows Team shell의 안정성을 개선 합니다.
+
+디바이스 기능 및 서비스를 사용 하거나 사용 하지 않도록 설정 하려면 [Surface Hub 관리 가이드](https://docs.microsoft.com/surface-hub/) 를 참조 하세요. *[KB4586853](https://support.microsoft.com/help/4586853)
+</details>
 
 <details>
 <summary>2020 년 11 월 24 일, Surface Hub 2S 업데이트</summary>
