@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/12/2020
+ms.date: 12/2/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: e96242ab9cef127238bda3ee3ea797c943479798
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: b93813498dc19bc7fff95f651fca77ca2c677746
+ms.sourcegitcommit: 071ca4874e807bb61a22b38a04f53802478d8391
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114686"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "11194845"
 ---
 # 서피스 도크의 새로운 기능 
 
