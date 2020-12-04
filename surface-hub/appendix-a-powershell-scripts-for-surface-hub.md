@@ -12,20 +12,20 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/10/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: ebae05d4d1fe67d690c19e003b2755c4720af265
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 92b42139020db13251fa6c5f8439d7084a61a132
+ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836612"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11195383"
 ---
 # Surface Hub용 PowerShell
 
 Microsoft Surface Hub를 설정 및 관리하는 데 도움이 되는 PowerShell 스크립트입니다.
 
 -   [Surface Hub 관리자용 PowerShell 스크립트](#scripts-for-admins)
-    -   [온-프레미스 계정 만들기](#create-on-premises-ps-scripts)
-    -   [Office 365를 사용하여 디바이스 계정 만들기](#create-os356-ps-scripts)
+    -   [프레미스 계정 만들기](#create-on-premises-ps-scripts)
+    -   [Office 365를 사용하여 장치 계정 만들기](#create-os356-ps-scripts)
     -   [계정 확인 스크립트](#acct-verification-ps-scripts)
     -   [비즈니스용 Skype 사용(EnableSfb.ps1)](#enable-sfb-ps-scripts)
 -   [유용한 cmdlet](#useful-cmdlets)
@@ -33,6 +33,9 @@ Microsoft Surface Hub를 설정 및 관리하는 데 도움이 되는 PowerShell
     -   [ActiveSync에 장치 ID 허용](#whitelisting-device-ids-cmdlet)
     -   [모임 요청 자동 수락 및 거부](#auto-accept-meetings-cmdlet)
     -   [외부 모임 요청 수락](#accept-ext-meetings-cmdlet)
+    
+ > [!NOTE]
+ > Exchange [Online PowerShell V2의 최신 Auth](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387) 및 무인 스크립트 참조
 
 ## 필수 구성 요소
 
@@ -183,7 +186,7 @@ Microsoft Surface Hub를 설정 및 관리하는 데 도움이 되는 PowerShell
 
 계정 생성 스크립트는 기존 계정을 수정할 수 없지만 기존 계정을 올바르게 구성하기 위해 실행해야 하는 cmdlet의 이해를 돕는 데 사용할 수 있습니다.
 
-### <a href="" id="create-on-premises-ps-scripts"></a>온-프레미스 계정 만들기
+### <a href="" id="create-on-premises-ps-scripts"></a>프레미스 계정 만들기
 
 [온-프레미스 배포](on-premises-deployment-surface-hub-device-accounts.md)에 설명된 대로 계정을 만듭니다.
 
@@ -1668,7 +1671,7 @@ Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 장치 계정이 외부 모임 요청(동일한 테넌트/도메인에 없는 계정의 모임 요청)을 수락하려면 외부 모임 요청 처리를 허용하도록 장치 계정을 설정해야 합니다. 설정하고 나면 장치 계정이 로컬 계정뿐만 아니라 외부 계정의 모임 요청도 자동으로 승인하거나 거부합니다.
 
 > [!Note]
-> **AutomateProcessing** 특성이 **autoaccept**로 설정 되어 있지 않으면이 설정이 적용 되지 않습니다.
+> **AutomateProcessing** 특성이 **AutoAccept로**설정되어 있지 않은 경우 이 설정을 적용하면 아무 효과가 없습니다.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
