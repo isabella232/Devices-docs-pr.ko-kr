@@ -9,25 +9,27 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/08/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7035d4c89e2ef5937d0480cf2d77db2e7e829488
-ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
+ms.openlocfilehash: 043c7ed49dafab7e0f3d042f5b98d527ffe0610f
+ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "11203540"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237218"
 ---
 # Windows 10 Team 2020 업데이트 설치 
 
 Windows **10 버전 20H2를**기반으로 하는 새로운 Surface Hub 운영 체제인 Windows 10 Team 2020 Update를 이제 모든 Surface Hub 2S 디바이스에서 사용할 수 있습니다.  
+
+- 참조: [알려진 문제: Windows 10 Team 2020 업데이트](surface-hub-2020-update.md)
 
 ## 배포
 
 다음 방법 중 하나를 사용하여 Windows 2020 Update를 얻을 수 있습니다.
 
 - **비즈니스용 Windows 업데이트.**
-- **BMR(Bare metal recovery) 이미지.** 디바이스를 Azure Active Directory에 가입하거나 장치가 인터넷에서 업데이트를 수신하도록 허용하지 않는 고객에게 권장되는 옵션입니다. 시작하려면 [Surface에 대한 복구 이미지 다운로드를 참조합니다.](https://support.microsoft.com/surfacerecoveryimage)
+- **BMR(Bare Metal Recovery) 이미지.** 디바이스를 Azure Active Directory에 가입하거나 장치가 인터넷에서 업데이트를 수신하도록 허용하지 않는 고객에게 권장되는 옵션입니다. 시작하려면 [Surface에 대한 복구 이미지 다운로드를 참조합니다.](https://support.microsoft.com/surfacerecoveryimage)
 - **Windows 업데이트.** 가용성은 다음 표에 설명된 지역/국가에 따라 다릅니다.
 
 | 단계 | 국가/지역                         | 시작          |
@@ -48,7 +50,7 @@ Surface Hub 2S 디바이스에 대해 처음 출시된 Windows 10 Team 2020 업�
  
 ## 새로운 것
 
-Windows 10 Team 2020 업데이트는 최신 Windows 10 기능과 함께 장치 배포 및 관리성을 주요 개선합니다. 자세한 내용은 [Windows 10 Team 2020 업데이트의 새로운 내용을 참조합니다.](surface-hub-2020-update-whats-new.md)
+Windows 10 Team 2020 업데이트는 최신 Windows 10 기능과 함께 장치 배포 및 관리성에 대한 주요 개선 기능을 제공합니다. 자세한 내용은 [Windows 10 Team 2020 업데이트의 새로운 내용을 참조합니다.](surface-hub-2020-update-whats-new.md)
  
 ## 시작하기 전에
 
@@ -58,11 +60,12 @@ Windows 10 team 2020 업데이트를 설치하기 전에 장치와 연결된 Bit
 
 1. Surface Hub에 USB 드라이브를 삽입합니다.
 2. Surface Hub에서 설정을 **열고** 메시지가 표시될 때 관리자 자격 증명을 입력합니다.
-3. 보안 **복구를 &**  >  **Recovery**이동합니다.
+3. 보안 **복구를 &**  >  **** 이동합니다.
 4. **BitLocker에서**저장을 **선택합니다.** BitLocker 키는 USB 드라이브의 텍스트 파일에 저장됩니다.
 
 자세한 내용은 [BitLocker 키 저장을 참조합니다.](save-bitlocker-key-surface-hub.md)
 
 ## 자세히 알아보기
 
+- [알려진 문제: Windows 10 Team 2020 업데이트](surface-hub-2020-update.md)
 - [Surface Hub Windows 10 Team 2020 업데이트의 중요 업데이트](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)

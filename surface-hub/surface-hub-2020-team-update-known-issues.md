@@ -9,20 +9,21 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/04/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 87eb7d193b5afb1f1b2ea6e2dc1c17143d7ef3ef
-ms.sourcegitcommit: f007f40f4b4fb49280fe6073bd857c9d7624a9cc
+ms.openlocfilehash: c17d9b41bf4abc74319b16932074343edbe988d1
+ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "11218879"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237228"
 ---
 # 알려진 문제: Windows 10 Team 2020 업데이트 
 
 이 문서에서는 Surface Hub의 현재 운영 체제인 Windows 10 Team 2020 Update에 대한 알려진 문제를 나열합니다.
 
 Surface Hub가 최신 업데이트를 수신하는지 확인하려면 관리자 **** 계정으로 로그인하고 모든 앱 설정 업데이트 및 보안 Windows 업데이트를 선택한 다음  >  ****  >  ****  >  **** 모든 업데이트를 설치합니다.
+
 
 
 
@@ -36,5 +37,5 @@ Surface Hub가 최신 업데이트를 수신하는지 확인하려면 관리자 
 | 허브 2S 장치는 WSUS를 사용하여 드라이버 업데이트를 받을 수 없습니다.                                             | Surface Hub 2S는 Windows 업데이트 및 비즈니스용 Windows 업데이트를 지원하여 드라이버를 배포합니다. WSUS(Windows Server Update Services)를 통한 배포는 지원되지 않습니다.                                                                                                                                                                                                                                                                      | WSUS를 사용하는 경우 비즈니스용 Windows 업데이트로 마이그레이션합니다.<br> <br>**자세한 정보:** [비즈니스용 Windows 업데이트란?](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)                                                                                                                                                                                                                                                                                                                            |
 | Microsoft Whiteboard가 Microsoft Store에서 업데이트되지 않습니다.                                               | Windows 10 Team 2020 Update로 업그레이드한 후 Microsoft Whiteboard 앱은 Microsoft Store를 통해 업데이트되지 않습니다.                                                                                                                                                                                                                                                                                                                       | 화이트보드 앱을 제거하고 Microsoft Store 또는 MDM 공급자에서 다시 설치합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 휴대폰을 사용하여 Surface Hub에 로그인할 때 Azure Active Directory 가입 장치에 대한 Single Sign-On 실패 | IT 관리자가 암호 없는 인증을 사용하여 [](surface-hub-2s-phone-authenticate.md) Surface Hub에 로그인하도록 테넌트를 구성한 경우 장치가 AAD에 가입된 경우 사용자는 휴대폰과 같은 모바일 장치를 사용하여 로그인할 수 없습니다.                                                                                                       | Surface Hub에 수동으로 로그인합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Action Center에는 선택할 수 없는 설정 링크가 있습니다. | 이 링크는 Windows 10 Team에 나타나지 말아야 하며 혼동을 일으킬 수 있습니다.                                                                                                       | 이 기능은 2020 업데이트 이전과 동일합니다. 시작 메뉴의 앱 섹션을 사용하여 설정 앱을 시작해야 합니다.                                                                                                                                                                                                                                                                                                                                                                                                                           |
-
+| Action Center에는 선택할 수 없는 설정 링크가 있습니다. | 이 링크는 Windows 10 Team에 나타나지 말아야 하며 혼동을 일으킬 수 있습니다.   | 이 기능은 2020 업데이트 이전과 동일합니다. 시작 메뉴의 앱 섹션을 사용하여 설정 앱을 시작해야 합니다.    |
+| 2S용 Windows 10 Team 2020용 2020년 11월 24일 업데이트로 업데이트한 후 일련 번호에 대한 모든 0s를 보고하는 허브 2S 장치. | Surface Hub 2S Windows 10 Team 2020 업데이트의 11월 24일 업데이트로 업그레이드하거나 Windows 10 Team 2020 복구 이미지를 설치한 후 일부 장치는 일련 번호에 대한 모든 0을 보고합니다. 이렇게 하면 장치가 MDM 공급자에 등록되지 않습니다.  | Windows 10 Team 2020용 2020년 11월 24일 업데이트를 사용하여 장치를 업데이트하기 전에 장치가 Windows 10 Team Creators Update용 2020년 9월 1일 업데이트를 설치한지 확인합니다. 자세한 정보: [Surface Hub 업데이트 기록.](surface-hub-update-history.md) **참고:** SMC 펌웨어 업데이트 **3.91.139.0으로** 이동하기 전에 디바이스에 Surface SMC 펌웨어 업데이트 **1.177.139.0이 필요합니다.** 이렇게 하면 일련 번호가 0으로 설정되지 않습니다. |
