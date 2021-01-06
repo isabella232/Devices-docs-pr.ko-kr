@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 043c7ed49dafab7e0f3d042f5b98d527ffe0610f
-ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
+ms.openlocfilehash: b3f1f0884273728abc8b4f6e8662190dacdaf2b2
+ms.sourcegitcommit: 8c75e57dc32eaf7c11cb9badea74809fd3877ffc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "11237218"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "11253967"
 ---
 # Windows 10 Team 2020 업데이트 설치 
 
@@ -39,14 +39,17 @@ Windows **10 버전 20H2를**기반으로 하는 새로운 Surface Hub 운영 �
 | 3     | 미국, 독일                            | TBD |
 | 4     | 전역                                 | TBD  |
 
-## Windows 10 Team Edition v1703을 통해 Surface Hub 2S 서비스 
+## Windows 10 Team Edition 버전 1703으로 Surface Hub 서비스 
 
-모든 지역의 고객은 Surface Hub 2S의 초기화 및 복구에 설명된 비즈니스용 Windows 업데이트 또는 BMR(Bare Metal Recovery) 이미지를 사용하여 [Surface Hub 2S](surface-hub-2s-recover-reset.md)장치를 계속 업데이트할 수 있습니다. Windows 10 Team Edition 버전 1703에 대한 전체 서비스 지원은 2021년 3월 16일까지 계속될 예정입니다.
+Windows 10 Team Edition 버전 1703에 대한 전체 서비스 지원은 2021년 3월 16일까지 계속될 예정입니다.
 
+### 2S 장치 
 
-## V1 장치 지원 
+모든 지역의 고객은 Surface Hub 2S의 초기화 및 복구에 설명된 비즈니스용 Windows 업데이트 또는 BMR(Bare Metal Recovery) 이미지를 사용하여 Surface [Hub 2S 장치를 2020](surface-hub-2s-recover-reset.md)업데이트로 계속 업데이트할 수 있습니다.
 
-Surface Hub 2S 디바이스에 대해 처음 출시된 Windows 10 Team 2020 업데이트는 Surface Hub v1 디바이스에 곧 제공될 예정입니다. 자세한 내용은 [Surface IT Pro 블로그를 참조하세요.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)
+### V1 장치 
+
+이제 모든 지역의 고객은 Surface Hub 복구 도구를 사용하여 Surface Hub v1 장치를 2020 업데이트로 [업데이트할 수 있습니다.](surface-hub-recovery-tool.md) 이러한 장치를 Windows 10 Team 2020 업데이트로 업데이트하는 다른 방법이 곧 제공될 예정입니다. 자세한 내용은 [Surface IT Pro 블로그를 참조하세요.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update/ba-p/2000144)
  
 ## 새로운 것
 
@@ -54,7 +57,7 @@ Windows 10 Team 2020 업데이트는 최신 Windows 10 기능과 함께 장치 �
  
 ## 시작하기 전에
 
-Windows 10 team 2020 업데이트를 설치하기 전에 장치와 연결된 BitLocker 키를 저장해야 합니다. 
+Windows 10 Team 2020 업데이트를 설치하기 전에 장치와 연결된 BitLocker 키를 저장해야 합니다. 
 
 **BitLocker 키를 수동으로 저장하려면**
 
