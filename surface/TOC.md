@@ -4,18 +4,17 @@
 
 ## 개요
 
+### [비즈니스용 Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus)
+### [비즈니스용 Surface Pro 2](https://www.microsoft.com/surface/business/surface-go-2)
+### [비즈니스용 Surface Pro 2](https://www.microsoft.com/surface/business/surface-pro-x)
+### [비즈니스용 Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3)
+### [비즈니스용 Surface Studio 2](https://www.microsoft.com/surface/business/surface-studio-2)
+### [비즈니스용 Surface Book 3](https://www.microsoft.com/surface/business/surface-book-3)
 ### [Microsoft Surface를 사용하여 ROI 최대화](forrester-tei-study.md)
 ### [교육용 Microsoft Surface의 총체적인 경제성 영향](forrester-tei-edu-study.md)
 ### [Surface Dock의 새로운 기능](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU 기술 개요](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 기술 개요](surface-book-quadro.md)
-### [비즈니스용 Surface Book 3](https://www.microsoft.com/surface/business/surface-book-3)
-### [비즈니스용 Surface Pro 2](https://www.microsoft.com/surface/business/surface-go-2)
-### [비즈니스용 Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7)
-### [비즈니스용 Surface Pro X](https://www.microsoft.com/surface/business/surface-pro-x)
-### [비즈니스용 Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3)
-### [비즈니스용 Surface Studio 2](https://www.microsoft.com/surface/business/surface-studio-2)
-
 ### [LTE Advanced로 어디에서나 안전하게 작업하는 이동성](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
 
 ## 요금제
