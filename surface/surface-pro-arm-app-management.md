@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/12/2020
+ms.date: 1/15/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 30f7cd7d861b6497cd536aeb0ea348b6946a2674
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114626"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271362"
 ---
 # Surface Pro X 배포, 관리 및 서비스
 
@@ -42,7 +42,7 @@ Autopilot 배포에는 몇 가지 장점이 있습니다. Office Pro Plus의 사
 
 ## 이미지 기반 배포 고려 사항
 
-Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager(이전의 System Center Configuration Manager)는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7을 고려하는 동시에 최신 배포 솔루션으로 전환할 적절한 시기를 계속 고려해야 합니다. 
+Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager(이전의 System Center Configuration Manager)는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7+을 고려하는 동시에 최신 배포 솔루션으로 전환할 적절한 시기를 계속 고려해야 합니다. 
 
 ## Surface Pro X 디바이스 관리
 
@@ -180,7 +180,7 @@ Windows Virtual Desktop을 사용하면 모든 위치에서 모든 컴퓨팅 디
 
 ### MDT 또는 Endpoint Configuration Manager로 Surface Pro X를 배포할 수 있습니까?
 
-Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포를 사용하는 고객은 Surface Pro 7을 고려하는 동시에 계속해서 클라우드로 전환할 적절한 시기를 평가해야 합니다.
+MDT(Microsoft 배포 도구 키트) 및 Microsoft Endpoint Configuration Manager는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7+을 고려하는 동시에 클라우드로 전환할 적절한 시기를 계속 평가해야 합니다.
 
 ### Surface Pro X를 배포하는 방법은 무엇입니까?
 
