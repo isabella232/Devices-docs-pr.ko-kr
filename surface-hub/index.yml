@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: b950d8e0a15609312ba552df2be084257a5cd4ad
-  ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+  ms.openlocfilehash: fb4d07fb216a283a2a6d7b576e06cdfe7dc74a47
+  ms.sourcegitcommit: 880980b64bb394423280acbcb1653012a4de5642
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/16/2021
-  ms.locfileid: "11271552"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "11297071"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
@@ -63,24 +63,36 @@ landingContent:
       url: https://www.youtube.com/watch?v=CH2seLS5Wb0
     - text: Microsoft Surface Hub 2S IT 프로 깊게 알아보기
       url: https://youtu.be/fFiL60JztGk
+- title: 배포
+  linkLists:
   - linkListType: deploy
     links:
+    - url: https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings
+      text: Microsoft Teams 룸 및 Surface Hub를 통해 조정된 모임 설정
     - url: surface-hub-2s-adoption-kit.md
       text: Surface Hub 2S 채택 및 교육
-    - url: surface-hub-2s-deploy-checklist.md
-      text: Surface Hub 2S 배포 체크리스트
     - url: surface-hub-2s-account.md
       text: 장치 계정 만들기
+- title: 관리
+  linkLists:
+  - linkListType: learn
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
+      text: Surface Hub에서 Microsoft Teams 설정 관리
+    - url: surface-hub-2s-manage-intune.md
+      text: Intune으로 Surface Hub 2S 관리하기
+    - url: local-management-surface-hub-settings.md
+      text: 로컬 설정 관리
 - title: 보안
   linkLists:
   - linkListType: learn
     links:
     - url: surface-hub-security.md
       text: Surface Hub 보안 개요
-    - url: surface-hub-2s-manage-intune.md
-      text: Intune으로 관리
-    - url: local-management-surface-hub-settings.md
-      text: 로컬 설정 관리
+    - url: surface-hub-2s-phone-authenticate.md
+      text: Surface Hub에서 암호 없는 로그인 구성
+    - url: surface-hub-2s-secure-with-uefi-semm.md
+      text: SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리
 - title: 문제 해결
   linkLists:
   - linkListType: learn
