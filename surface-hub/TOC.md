@@ -16,6 +16,7 @@
 #### [Surface Hub 2S 사이트 계획](surface-hub-2s-site-planning.md)
 #### [Surface Hub 2S 빠른 시작](surface-hub-2s-quick-start.md)
 #### [Surface Hub 2S 설치 및 탑재](surface-hub-2s-install-mount.md)
+#### [Surface Hub 2S 85 이동 및 처리](hub-move.md)
 #### [Surface Hub 2S 85 설치 및 탑재](surface-hub-2s-85-install-mount.md)
 #### [Surface Hub 2S의 벽걸이 사용자 지정](surface-hub-2s-custom-install.md)
 #### [설치 워크시트](setup-worksheet-surface-hub.md)
