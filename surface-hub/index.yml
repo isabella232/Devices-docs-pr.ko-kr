@@ -14,21 +14,21 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: fb4d07fb216a283a2a6d7b576e06cdfe7dc74a47
-  ms.sourcegitcommit: 880980b64bb394423280acbcb1653012a4de5642
+  ms.openlocfilehash: b4161e3e041b8c6838ad7a498bb0c50784485fea
+  ms.sourcegitcommit: 9bf5c4367b471f77949482390fddf8ff137f60b5
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/22/2021
-  ms.locfileid: "11297071"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "11297901"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Windows 10 Team 출시 업데이트
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
     - text: Surface Hub 2S 85"설치 및 마운트(준비 가이드)
       url: surface-hub-2s-85-install-mount.md
-    - text: Windows 10 Team 2020 업데이트 설치
-      url: surface-hub-2020-update.md
     - text: Windows 10 Team 2020 업데이트의 새로운 기능
       url: surface-hub-2020-update-whats-new.md
     - text: Surface Hub 2S는 현재의 하이브리드 작업 영역에서 디지털 및 물리적 영역 간의 격차를 메꾸어줍니다.
