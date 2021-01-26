@@ -12,17 +12,17 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/15/2021
-ms.openlocfilehash: d8d47db3bd6f69783670b285a797337373e02d72
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.date: 01/25/2021
+ms.openlocfilehash: af9eac171dea5d29ce9776766a2c5842bea9eb8c
+ms.sourcegitcommit: 1b12ea363785697ddc705b0a0cc7bb35cad6b327
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271432"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "11300699"
 ---
 # Surface UEFI 설정 관리
 
-모든 현재 및 미래의 Surface 디바이스는 Microsoft에서 이러한 장치를 위해 특별히 설계된 고유한 UEFI(Unified Extensible Firmware Interface)를 사용합니다. Surface UEFI 설정은 기본 제공 장치 및 구성 요소를 활성화 또는 비활성화하고, UEFI 설정이 변경되지 않도록 보호하고, Surface 디바이스 부팅 설정을 조정하는 기능을 제공합니다. 
+ Surface PC 장치는 Microsoft에서 이러한 디바이스를 위해 특별히 설계된 고유한 UEFI(Unified Extensible Firmware Interface)를 활용하도록 디자인되었습니다. Surface UEFI 설정은 기본 제공 장치 및 구성 요소를 활성화 또는 비활성화하고, UEFI 설정이 변경되지 않도록 보호하고, Surface 디바이스 부팅 설정을 조정하는 기능을 제공합니다. 
 
 ## 지원되는 제품
 
@@ -32,7 +32,7 @@ UEFI 관리는 다음에서 지원됩니다.
 - Surface 노트북(1세대), Surface 노트북 2, Surface 노트북 3, Surface 노트북 이동
 - Surface Studio(1세대), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2
+- Surface Go, Surface Go 2[ <sup> 1 </sup> ](#references)
 
 ## 클라우드 기반 관리 지원
 
@@ -80,7 +80,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 *그림 2. Surface UEFI 보안 설정 구성*
 
-보안 페이지에서는 암호를 설정하여 UEFI 설정을 보호할 수 있습니다. Surface 디바이스를 UEFI로 부팅할 때 이 암호를 입력해야 합니다. 그림 3과 같이 암호에는 다음 문자가 포함될 수 있습니다. 
+보안 페이지에서는 암호를 설정하여 UEFI 설정을 보호할 수 있습니다. Surface 디바이스를 UEFI로 부팅할 때 이 암호를 입력해야 합니다. 암호에는 다음 문자가 포함될 수 있습니다(그림 3에 표시). 
 
 - 대문자: A-Z 
 
@@ -102,7 +102,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 *그림 4. 보안 부팅 구성*
 
-장치에 따라 TPM이 활성화 또는 비활성화되어 있는지 여부도 볼 수 있습니다. **TPM** 사용 설정이 없는 경우 그림 5와 같이 Windows에서 tpm.msc를 열고 상태를 검사합니다. TPM은 BitLocker로 디바이스 데이터에 대한 암호화를 인증하는 데 사용됩니다. 자세한 내용은 [BitLocker 개요를 참조하세요.](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 
+장치에 따라 TPM이 활성화 또는 비활성화되어 있는지 여부도 볼 수 있습니다. **TPM** 사용 설정이 없는 경우 그림 5와 같이 Windows에서 tpm.msc를 열어 상태를 검사합니다. TPM은 BitLocker로 디바이스 데이터에 대한 암호화를 인증하는 데 사용됩니다. 자세한 내용은 [BitLocker 개요를 참조하세요.](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 
 
 ![TPM 콘솔](images/manage-surface-uefi-fig5-a.png "TPM console")
 
@@ -216,7 +216,7 @@ Surface 디바이스 펌웨어를 업데이트할 때 Windows 업데이트나 �
 *그림 18. Surface TCON 펌웨어 업데이트에 밝은 회색 진행률 표시줄이 표시됩니다.*
 
 
-![밝은 자주색 진행률 표시줄이 있는 Surface TPM 펌웨어](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
+![밝은 보라색 진행률 표시줄이 있는 Surface TPM 펌웨어](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *그림 19. Surface TPM 펌웨어 업데이트에 자주색 진행률 표시줄이 표시됩니다.*
 
@@ -227,6 +227,10 @@ Surface 디바이스 펌웨어를 업데이트할 때 Windows 업데이트나 �
 ![보안 부팅이 사용하지 않도록 설정되었음을 나타내는 Surface 부팅 화면](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *그림 20. Surface UEFI 설정에서 보안 부팅이 사용하지 않도록 설정되었음을 나타내는 Surface 부팅 화면*
+
+## 참조
+
+1. Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. 
 
 ## 관련 항목
 
