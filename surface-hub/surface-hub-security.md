@@ -9,18 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/27/2020
+ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: f6022c4fd16cd8afbbea892e73ad831f12b10eaa
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: 446166618161fc54a77bab94b2d61ad85359a082
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934858"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304851"
 ---
 # Surface Hub 보안 개요
 
-Surface Hub는 Windows 10 Team 운영 체제를 실행 하는 사용자 지정 플랫폼 펌웨어를 사용 하 여 잠겨진 컴퓨팅 기기를 제공 합니다. 결과로 생성되는 장치는 기존에 사용하는 "단일 사용" 보안 키오스크, “필요한 것만 실행” 철학을 취하여 현대적인 해석을 전달합니다. 다양한 공동 작업 사용자 환경을 지원하도록 만들어진 Surface Hub는 지속적으로 진화하는 보안 위협으로부터 보호됩니다.
+Surface Hub는 Windows 10 Team 운영 체제를 실행하는 사용자 지정 플랫폼 펌웨어를 통해 잠긴 어플라이언스와 같은 환경을 제공합니다. 결과로 생성되는 장치는 기존에 사용하는 "단일 사용" 보안 키오스크, “필요한 것만 실행” 철학을 취하여 현대적인 해석을 전달합니다. 다양한 공동 작업 사용자 환경을 지원하도록 만들어진 Surface Hub는 지속적으로 진화하는 보안 위협으로부터 보호됩니다.
 
 Windows 10을 기반으로 하는 Surface Hub는 IT 관리자가 BitLocker, TPM(신뢰할 수 있는 플랫폼 모듈 2.0) 및 Windows Defender(Microsoft Defender라고도 함)를 포함한 클라우드 기반 보안을 통해 데이터 보호를 강화할 수 있도록 하는 엔터프라이즈급 최신 보안 기능을 제공합니다.
 
@@ -28,7 +28,7 @@ Windows 10을 기반으로 하는 Surface Hub는 IT 관리자가 BitLocker, TPM(
 
 보안 프로토콜은 Surface Hub가 켜진 직후에 시작됩니다. 펌웨어 수준에서부터 Surface Hub는 여러 보안 검사에 대응하여 운영 체제와 해당 구성 요소만 로드합니다. Surface Hub는 부분적 오류가 발생했을 때 시스템 전체를 보호하기 위해 독립적인 방어 하위 구성 요소를 계층화하는 심층 방어라는 전략을 사용합니다. 이 산업 관행은 잠재적인 일방적인 악용과 하위 구성 요소의 취약성을 완화하는 데 매우 효과적이라고 입증되었습니다.
 
-최신 통합 확장 가능 펌웨어 인터페이스 (UEFI)는 내부 저장소에서 인증 된 Windows 10 Team 운영 체제만 부팅 하도록 Microsoft에서 정적으로 안전 하 게 구성 되었습니다.  Surface Hub에서 실행되는 모든 코드 줄은 실행하기 전에 서명을 확인합니다. 운영 체제의 일부로 또는 Microsoft Store를 통해 설치된 Microsoft에서 서명한 응용 프로그램만 Surface Hub에서 실행할 수 있습니다. 이러한 요구 사항을 충족하지 않는 코드 또는 앱은 차단됩니다.
+최신 UEFI(Unified Extensible Firmware Interface)는 Microsoft가 내부 저장소에서 인증된 Windows 10 Team 운영 체제만 부팅하도록 정적이고 안전하게 구성합니다.  Surface Hub에서 실행되는 모든 코드 줄은 실행하기 전에 서명을 확인합니다. 운영 체제의 일부로 또는 Microsoft Store를 통해 설치된 Microsoft에서 서명한 응용 프로그램만 Surface Hub에서 실행할 수 있습니다. 이러한 요구 사항을 충족하지 않는 코드 또는 앱은 차단됩니다.
 
 Surface Hub 보안 시스템은 다음을 포함합니다.
 

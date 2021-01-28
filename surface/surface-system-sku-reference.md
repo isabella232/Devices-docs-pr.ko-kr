@@ -1,7 +1,7 @@
 ---
-title: 시스템 SKU 참조(Surface)
-description: 시스템 모델 및 시스템 SKU 이름 참조를 참조합니다.
-keywords: uefi, 구성, 펌웨어, 보안, semm
+title: Surface 시스템 SKU 참조
+description: 모든 Surface 디바이스에 대한 시스템 모델 및 시스템 SKU 이름 참조를 참조합니다.
+keywords: uefi, 구성, 펌웨어, 보안, semm, Autopilot
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices, security
@@ -9,25 +9,25 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 01/27/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 2140faf346229842bffc4f9348041f4667b94686
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.openlocfilehash: 0fe13750e7e8c8188b52726c114a6b3668434d39
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271372"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304831"
 ---
-# 시스템 SKU 참조
+# Surface 시스템 SKU 참조
 
-이 문서에서는 PowerShell 또는 WMI를 사용하여 특정 장치의 컴퓨터 상태를 빠르게 확인하는 데 사용할 수 있는 시스템 모델 및 시스템 SKU 이름에 대한 참조를 제공합니다.
+이 문서에서는 Windows Autopilot에 Surface 디바이스를 등록하거나 PowerShell 또는 WMI를 사용하여 특정 장치의 컴퓨터 상태를 확인하는 등 다양한 IT 작업에 사용할 수 있는 참조를 제공합니다.
 
 시스템 모델 및 시스템 SKU는 Surface 디바이스의 UEFI 계층에 있는 SMBIOS(시스템 관리 BIOS) 테이블에 저장되는 변수입니다. Surface Pro 및 Surface Pro with LTE Advanced와 같이 시스템 모델 이름이 동일한 디바이스를 차별화해야 할 때마다 시스템 SKU 이름을 사용 합니다.
 
-| 장치   | 시스템 모델 | System SKU       |
+| Device   | 시스템 모델 | System SKU       |
 | ---------- | ----------- | -------------- |
 | Surface 3 WiFI                                               | Surface 3        | Surface_3                        |
 | Surface 3 LTE AT&T                                           | Surface 3        | Surface_3_US1                    |
@@ -81,3 +81,8 @@ MDT(Microsoft Deployment Toolkit) 또는 Microsoft Endpoint Configuration Manage
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
  ``` 
+
+## 자세히 알아보기
+
+- [WMI 참조](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [Windows Autopilot용 Surface 등록 지원](surface-autopilot-registration-support.md)
