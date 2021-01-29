@@ -14,17 +14,19 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: b4161e3e041b8c6838ad7a498bb0c50784485fea
-  ms.sourcegitcommit: 9bf5c4367b471f77949482390fddf8ff137f60b5
+  ms.openlocfilehash: 655b10e575d1a7057e829c0312b586c2980462f4
+  ms.sourcegitcommit: 046623bfcc01a2daa3eacd229a6c5e70365d25b6
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "11297901"
+  ms.lasthandoff: 01/29/2021
+  ms.locfileid: "11306088"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Hub 2S용으로 인증된 Microsoft Teams 오디오 및 비디오 액세서리
+      url: surface-hub-2s-certifications.md
     - text: Windows 10 Team 출시 업데이트
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
     - text: Surface Hub 2S 85"설치 및 마운트(준비 가이드)
