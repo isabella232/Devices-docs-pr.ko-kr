@@ -36,6 +36,7 @@
 ### [Intune을 사용하여 Surface Hub 2S에 앱 배포](surface-hub-2s-deploy-apps-intune.md)
 ### [PowerShell을 사용하여 Surface Hub 2S 온-프레미스 계정 만들기](surface-hub-2s-onprem-powershell.md)
 ### [Surface Hub Teams 앱](hub-teams-app.md)
+### [Surface Hub 2S용 Teams 인증 액세서리](surface-hub-2s-certifications.md)
 
 ## 관리
 ### [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md)
