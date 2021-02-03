@@ -1,6 +1,6 @@
 ---
-title: Surface Hub용 PowerShell(Surface Hub)
-description: Microsoft Surface Hub를 설정 및 관리하는 데 도움이 되는 PowerShell 스크립트입니다.
+title: Surface Hub용 PowerShell(v1)
+description: 이 페이지에는 원래 Surface Hub(v1)를 위한 PowerShell 스크립트가 포함되어 있습니다.
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: ''
 manager: laurawi
@@ -10,18 +10,19 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 01/10/2018
+ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b42139020db13251fa6c5f8439d7084a61a132
-ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
+ms.openlocfilehash: c0fa06153dc5597827f2973ecc9f728e35d79e85
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "11195383"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312004"
 ---
-# Surface Hub용 PowerShell
+# Surface Hub용 PowerShell(v1)
 
-Microsoft Surface Hub를 설정 및 관리하는 데 도움이 되는 PowerShell 스크립트입니다.
+> [!NOTE]
+ >이 페이지에는 원래 Surface Hub(v1)를 위한 PowerShell 스크립트가 포함되어 있습니다. Surface Hub 2S에 대한 최신 계정 만들기 스크립트는 Surface Hub 2S 장치 계정 [만들기를 참조하세요.](surface-hub-2s-account.md)
 
 -   [Surface Hub 관리자용 PowerShell 스크립트](#scripts-for-admins)
     -   [프레미스 계정 만들기](#create-on-premises-ps-scripts)
@@ -30,7 +31,7 @@ Microsoft Surface Hub를 설정 및 관리하는 데 도움이 되는 PowerShell
     -   [비즈니스용 Skype 사용(EnableSfb.ps1)](#enable-sfb-ps-scripts)
 -   [유용한 cmdlet](#useful-cmdlets)
     -   [Surface Hub 호환 Exchange ActiveSync 정책 만들기](#create-compatible-as-policy)
-    -   [ActiveSync에 장치 ID 허용](#whitelisting-device-ids-cmdlet)
+    -   [ActiveSync에 장치 ID 허용](#allowing-device-ids-for-activesync)
     -   [모임 요청 자동 수락 및 거부](#auto-accept-meetings-cmdlet)
     -   [외부 모임 요청 수락](#accept-ext-meetings-cmdlet)
     
@@ -993,7 +994,7 @@ else
 
 ## <a href="" id="acct-verification-ps-scripts"></a>계정 확인 스크립트
 
-이 스크립트는 어떤 방법으로 만들었든 관계없이 Surface Hub에서 이전에 만든 장치 계정의 유효성을 검사합니다. 이 스크립트는 기본적으로 성공/실패합니다. 테스트 중 하나에서 오류가 발생하면 자세한 오류 메시지가 표시되지만 모든 테스트에 성공하면 최종 결과로 요약 보고서가 작성됩니다. 예를 들어 다음과 같이 표시될 수 있습니다.
+이 스크립트는 어떤 방법을 사용했든 상관없이 Surface Hub 및 Surface Hub 2S에서 이전에 만든 디바이스 계정의 유효성을 검사합니다. 이 스크립트는 기본적으로 성공/실패합니다. 테스트 중 하나에서 오류가 발생하면 자세한 오류 메시지가 표시되지만 모든 테스트에 성공하면 최종 결과로 요약 보고서가 작성됩니다. 예를 들어 다음과 같이 표시될 수 있습니다.
 
 ``` syntax
 15 tests executed
@@ -1642,7 +1643,7 @@ Set-CASMailbox $strRoomUpn -ActiveSyncMailboxPolicy $strPolicy
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### <a href="" id="whitelisting-device-ids-cmdlet"></a>ActiveSync에 장치 ID 허용
+### ActiveSync에 장치 ID 허용
 
 계정 `$strRoomUpn`을 허용하려면 다음 명령을 실행합니다.
 

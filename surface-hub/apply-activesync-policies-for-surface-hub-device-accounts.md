@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 06/20/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 6e93069c2d90bdc4c2f505bc28ba0ec1a4f08076
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: b5f828ee6757c150b1287e8210c81592e970b74a
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835799"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311964"
 ---
 # 디바이스 계정에 ActiveSync 정책 적용(Surface Hub)
 
@@ -26,22 +26,20 @@ Microsoft Surface Hub의 디바이스 계정은 ActiveSync를 사용하여 메�
 
 이러한 기능이 작동하려면 조직에 대한 ActiveSync 정책을 다음과 같이 구성해야 합니다.
 
--   Surface Hub의 디바이스 계정이 사용하는 리소스 사서함의 동기화를 차단하는 전역 정책이 있으면 안 됩니다. 이러한 차단 정책이 있는 경우 Surface Hub를 허용 된 장치로 추가 해야 합니다.
+-   Surface Hub의 디바이스 계정이 사용하는 리소스 사서함의 동기화를 차단하는 전역 정책이 있으면 안 됩니다. 이러한 차단 정책이 있는 경우 Surface Hub를 허용된 장치로 추가해야 합니다.
 -   **PasswordEnabled** 설정이 False로 설정된 모바일 디바이스 사서함 정책을 설정해야 합니다. 기타 모바일 디바이스 사서함 정책 설정은 Surface Hub와 호환되지 않습니다.
 
 ## DeviceID 허용
 
-
-조직에 Surface Hub에서 프로비전된 디바이스 계정의 동기화를 차단하는 전역 정책이 있을 수 있습니다. 이 속성을 구성하려면 [ActiveSync에 디바이스 ID 허용](appendix-a-powershell-scripts-for-surface-hub.md#whitelisting-device-ids-cmdlet)을 참조하세요.
+조직에 Surface Hub에서 프로비전된 디바이스 계정의 동기화를 차단하는 전역 정책이 있을 수 있습니다. 이 속성을 구성하려면 [ActiveSync에 디바이스 ID 허용](appendix-a-powershell-scripts-for-surface-hub.md#allowing-device-ids-for-activesync)을 참조하세요.
 
 ## PasswordEnabled 설정
 
-
 디바이스 계정에 **PasswordEnabled** 특성이 False 또는 0으로 설정된 ActiveSync 정책이 있어야 합니다. 이 속성을 구성하려면 [Microsoft Surface Hub 호환 Exchange ActiveSync 정책 만들기](appendix-a-powershell-scripts-for-surface-hub.md#create-compatible-as-policy)를 참조하세요.
 
- 
+ 
 
- 
+ 
 
 
 

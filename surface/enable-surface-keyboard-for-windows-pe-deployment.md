@@ -13,24 +13,29 @@ ms.reviewer: scottmca
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
+ms.date: 02/02/2021
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
 - Surface Laptop 3
-ms.openlocfilehash: d7ae6fc434f77cad86e73f111243968493de4ff2
-ms.sourcegitcommit: e6224f81f8efb6ac862afec0e60e3ddb182e9e6f
+ms.openlocfilehash: fb51dd3785882e74c90d8b2717e4cc499d492d6f
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "11247310"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312064"
 ---
 # MDT 배포 중에 Surface 노트북 키보드를 사용하도록 설정하는 방법
 
-이 문서에서는 MDT(Microsoft Deployment Toolkit 사용하는 배포 방식에 대해 설명합니다. 이 정보를 다른 배포 방법에 적용할 수도 있습니다. 대부분의 Surface 디바이스 유형에서는 LTI(라이트 터치 설치) 중에 키보드가 작동해야 합니다. 그러나 Surface 노트북을 사용하려면 몇 가지 추가 드라이버가 필요합니다. Surface Laptop(1세대) 및 Surface Laptop 2 장치의 경우 LTI의 Windows PE(Windows 사전 설치 환경) 단계에서 사용할 키보드 드라이버를 지정할 수 있는 폴더 구조 및 선택 프로필을 준비해야 합니다. 이 폴더 구조에 대한 자세한 내용은 [MDT를 사용하여 Windows 10 이미지 배포: 5단계:](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository)드라이버 리포지토리 준비를 참조하세요.
+이 문서에서는 MDT(Microsoft Deployment Toolkit)를 사용하는 배포 방법을 설명합니다. 이 정보를 다른 배포 방법에 적용할 수도 있습니다. 대부분의 Surface 디바이스 유형에서는 LTI(라이트 터치 설치) 중에 키보드가 작동해야 합니다. 그러나 Surface 노트북을 사용하려면 몇 가지 추가 드라이버가 필요합니다. Surface Laptop(1세대) 및 Surface Laptop 2 장치의 경우 LTI의 Windows PE(Windows 사전 설치 환경) 단계에서 사용할 키보드 드라이버를 지정할 수 있는 폴더 구조 및 선택 프로필을 준비해야 합니다. 이 폴더 구조에 대한 자세한 내용은 [MDT를 사용하여 Windows 10 이미지 배포: 5단계:](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository)드라이버 리포지토리 준비를 참조하세요.
 
+> [!TIP]    
+> 동일한 Windows PE 부팅 인스턴스에서 Surface Laptop 2 및 Surface Laptop 3용 키보드 드라이버를 사용하는 경우 키보드 또는 터치 패드가 Windows PE에서 작동하지 않는 경우 펌웨어를 수동으로 다시 설정해야 할 수 있습니다.
+>
+> - 전원 단추를 30초 동안 누르고 있습니다. PSU(전원 공급 장치)에 연결되어 있는 경우 전원 단추를 누르고 PSU 코드 끝에 불이 잠시 꺼질 때까지 전원 단추를 누르고 다시 니다.
 
 > [!IMPORTANT]
-> Windows 10 S 모드가 사전 설치된 Surface 노트북에 Windows 10 이미지를 배포하는 경우, 사전 설치한 Windows 10 S 모드로 Surface 디바이스에 Windows를 배포할 때의 문제인 KB [4032347을](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)참조합니다.
+> Windows 10 S 모드가 사전 설치된 Surface 노트북에 Windows 10 이미지를 배포하는 경우 사전 설치한 Windows 10 S 모드로 Surface 디바이스에 Windows를 배포할 때의 문제인 KB [4032347을](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)참조합니다.
 
 선택 프로필에 키보드 드라이버를 추가하려면 다음 단계를 수행합니다.
 
@@ -50,78 +55,8 @@ ms.locfileid: "11247310"
    ![Deployment Workbench에서 WindowsPEX64 폴더의 위치를 표시하는 이미지](./images/surface-laptop-keyboard-1.png)
 
 4. **WindowsPEX64** 폴더를 마우스 오른쪽 단추로 클릭하고 드라이버 **가져오기를 선택합니다.**
+
 5. 드라이버 가져오기 마법사의 지침에 따라 드라이버 폴더를 WindowsPEX64 폴더로 가져올 수 있습니다.  
-
-> [!NOTE]
->  다운로드한 MSI 패키지를 확인하여 형식 및 디렉터리 구조를 확인합니다.  디렉터리 구조는 MSI가 릴리스된 때에 따라 SurfacePlatformInstaller(이전 MSI 파일) 또는 SurfaceUpdate(새 MSI 파일)로 시작됩니다. 
-
-Surface 노트북(1세대)을 지원하기 위해 다음 폴더를 가져오십시오.
-
- - SurfacePlatformInstaller\Drivers\System\GPIO
- - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
- - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
- - SurfacePlatformInstaller\Drivers\System\PreciseTouch
-
-또는 "SurfaceUpdate"로 시작되는 새로운 MSI 파일의 경우 다음을 사용 합니다.
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\SurfaceHidMiniDriver
-- SurfaceUpdate\SurfaceSerialHubDriver
-- SurfaceUpdate\Itouch
-
-Surface Laptop 2를 지원하기 위해 다음 폴더를 가져오십시오.
-
- - SurfacePlatformInstaller\Drivers\System\GPIO
- - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
- - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
- - SurfacePlatformInstaller\Drivers\System\I2C
- - SurfacePlatformInstaller\Drivers\System\SPI
- - SurfacePlatformInstaller\Drivers\System\UART
- - SurfacePlatformInstaller\Drivers\System\PreciseTouch
-
-또는 "SurfaceUpdate"로 시작되는 새로운 MSI 파일의 경우 다음을 사용 합니다.
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\IclSerialIOI2C
-- SurfaceUpdate\IclSerialIOSPI
-- SurfaceUpdate\IclSerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\Itouch
-
- 
-Intel 프로세서를 통해 Surface Laptop 3을 지원하기 위해 다음 폴더를 가져오십시오.
-
-- SurfaceUpdate\IclSerialIOGPIO
-- SurfaceUpdate\IclSerialIOI2C
-- SurfaceUpdate\IclSerialIOSPI
-- SurfaceUpdate\IclSerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\SurfaceHotPlug
-- SurfaceUpdate\Itouch
-
-다음 폴더를 가져오면 Surface Laptop 3의 PE에서 전체 키보드, 트랙 패드 및 터치 기능을 사용할 수 있습니다.
-
-- IclSerialIOGPIO
-- IclSerialIOI2C
-- IclSerialIOSPI
-- IclSerialIOUART
-- itouch
-- IclChipset
-- IclChipsetLPSS
-- IclChipsetNorthpeak
-- ManagementEngine
-- SurfaceAcpiNotify
-- SurfaceBattery
-- SurfaceDockIntegration
-- SurfaceHidMini
-- SurfaceHotPlug
-- SurfaceIntegration
-- SurfaceSerialHub
-- SurfaceService
-- SurfaceStorageFwUpdate
-
 
     > [!NOTE]
     >  다운로드한 MSI 패키지를 확인하여 형식 및 디렉터리 구조를 확인합니다.  디렉터리 구조는 MSI가 릴리스된 때에 따라 SurfacePlatformInstaller(이전 MSI 파일) 또는 SurfaceUpdate(새 MSI 파일)로 시작됩니다. 
@@ -133,7 +68,7 @@ Intel 프로세서를 통해 Surface Laptop 3을 지원하기 위해 다음 폴�
      - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
      - SurfacePlatformInstaller\Drivers\System\PreciseTouch
 
-    또는 "SurfaceUpdate"로 시작되는 새로운 MSI 파일의 경우 다음을 사용 합니다.
+    또는 "SurfaceUpdate"로 시작되는 새 MSI 파일의 경우 다음을 사용 합니다.
 
     - SurfaceUpdate\SerialIOGPIO
     - SurfaceUpdate\SurfaceHidMiniDriver
@@ -150,22 +85,92 @@ Intel 프로세서를 통해 Surface Laptop 3을 지원하기 위해 다음 폴�
      - SurfacePlatformInstaller\Drivers\System\UART
      - SurfacePlatformInstaller\Drivers\System\PreciseTouch
 
-    또는 "SurfaceUpdate"로 시작되는 새로운 MSI 파일의 경우 다음을 사용 합니다.
+    또는 "SurfaceUpdate"로 시작되는 새 MSI 파일의 경우 다음을 사용 합니다.
 
     - SurfaceUpdate\SerialIOGPIO
-    - SurfaceUpdate\IclSerialIOI2C
-    - SurfaceUpdate\IclSerialIOSPI
-    - SurfaceUpdate\IclSerialIOUART
+    - SurfaceUpdate\serialioi2c
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
     - SurfaceUpdate\SurfaceHidMini
     - SurfaceUpdate\SurfaceSerialHub
     - SurfaceUpdate\Itouch
 
+     
     Intel 프로세서를 통해 Surface Laptop 3을 지원하기 위해 다음 폴더를 가져오십시오.
 
-    - SurfaceUpdate\IclSerialIOGPIO
-    - SurfaceUpdate\IclSerialIOI2C
-    - SurfaceUpdate\IclSerialIOSPI
-    - SurfaceUpdate\IclSerialIOUART
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SerialIOI2C
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
+    - SurfaceUpdate\SurfaceHidMini
+    - SurfaceUpdate\SurfaceSerialHub
+    - SurfaceUpdate\SurfaceHotPlug
+    - SurfaceUpdate\Itouch
+
+    다음 폴더를 가져오면 Surface Laptop 3의 PE에서 전체 키보드, 트랙 패드 및 터치 기능을 사용할 수 있습니다.
+
+    - SerialIOGPIO
+    - SerialIOI2C
+    - SerialIOSPI
+    - SerialIOUART
+    - itouch
+    - 칩셋
+    - ChipsetLPSS
+    - ChipsetNorthpeak
+    - ManagementEngine
+    - SurfaceAcpiNotify
+    - SurfaceBattery
+    - SurfaceDockIntegration
+    - SurfaceHidMini
+    - SurfaceHotPlug
+    - SurfaceIntegration
+    - SurfaceSerialHub
+    - SurfaceService
+    - SurfaceStorageFwUpdate
+
+     > [!NOTE]
+     >  다운로드한 MSI 패키지를 확인하여 형식 및 디렉터리 구조를 확인합니다.  디렉터리 구조는 MSI가 릴리스된 때에 따라 SurfacePlatformInstaller(이전 MSI 파일) 또는 SurfaceUpdate(새 MSI 파일)로 시작됩니다. 
+
+     Surface 노트북(1세대)을 지원하기 위해 다음 폴더를 가져오십시오.
+
+    - SurfacePlatformInstaller\Drivers\System\GPIO
+    - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
+    - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+    - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+
+    또는 "SurfaceUpdate"로 시작되는 새 MSI 파일의 경우 다음을 사용 합니다.
+
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SurfaceHidMiniDriver
+    - SurfaceUpdate\SurfaceSerialHubDriver
+    - SurfaceUpdate\Itouch
+
+    Surface Laptop 2를 지원하기 위해 다음 폴더를 가져오십시오.
+
+    - SurfacePlatformInstaller\Drivers\System\GPIO
+    - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
+    - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+    - SurfacePlatformInstaller\Drivers\System\I2C
+    - SurfacePlatformInstaller\Drivers\System\SPI
+    - SurfacePlatformInstaller\Drivers\System\UART
+    - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+
+    또는 "SurfaceUpdate"로 시작되는 새 MSI 파일의 경우 다음을 사용 합니다.
+
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SerialIOI2C
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
+    - SurfaceUpdate\SurfaceHidMini
+    - SurfaceUpdate\SurfaceSerialHub
+    - SurfaceUpdate\Itouch
+
+    Intel 프로세서가 있는 Surface Laptop 3을 지원하기 위해 다음 폴더를 가져와야 합니다.
+
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SerialIOI2C
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
     - SurfaceUpdate\SurfaceHidMini
     - SurfaceUpdate\SurfaceSerialHub
     - SurfaceUpdate\SurfaceHotPlug

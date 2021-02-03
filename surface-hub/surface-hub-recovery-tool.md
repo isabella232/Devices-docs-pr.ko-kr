@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2018
+ms.date: 12/18/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: a9ebab6848efa706609a39b0eb99fa42df2156bf
-ms.sourcegitcommit: ce7ad475b776a78ba215e77111ea5371afeb4f28
+ms.openlocfilehash: 9df9de731ac5c8f8acb393db3d4b16e9d1c98a9e
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "11237351"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312034"
 ---
 # Surface Hub 복구 도구 사용
 

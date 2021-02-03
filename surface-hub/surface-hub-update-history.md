@@ -9,16 +9,16 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: ad4de8a154e1169eb0beb08685a3c6a75056b94d
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271085"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311994"
 ---
 # Surface Hub 업데이트 기록
 
-Windows 10은 서비스로 설계되어 주기적인 소프트웨어 업데이트를 통해 자동으로 개선됩니다. 멋진 소식은 일반적으로 최신 Windows 10 업데이트를 다운로드하기 위해 아무 작업을 할 필요가 없습니다. 업데이트가 제공된 경우 다운로드하여 설치하게 됩니다.
+Windows 10은 서비스로 설계되어 주기적인 소프트웨어 업데이트를 통해 자동으로 개선됩니다. 멋진 소식은 일반적으로 최신 Windows 10 업데이트를 다운로드하기 위해 아무 것도 할 필요가 없습니다. 다운로드하여 사용할 수 있는 경우 설치하게 됩니다.
 
 대부분의 Windows 업데이트는 24/7을 계속 진행하기 위해 성능 및 보안 개선에 중점을 두어 있습니다.
 
@@ -28,6 +28,15 @@ Windows 10 업데이트에 있는 내용에 대해 자세히 알고 싶기 때�
 주의가 필요할 수 있는 현재 및 과거 릴리스에 대한 관련 항목은["Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)중요 정보" 페이지를 참조하세요.
 
 ## Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2021년 1월 15일 — Surface Hub 2S에 대한 업데이트</summary>
+
+이 업데이트는 Surface Hub 2S와 관련이 있으며 아래에 설명된 드라이버 및 펌웨어 업데이트를 제공합니다.
+
+* Surface SMC 펌웨어 업데이트 - 3.93.139.0
+* Surface UEFI 업데이트 - 694.3473.768.0
+</details>
 
 <details>
 <summary>2020년 12월 11일 — Surface Hub 2S에 대한 업데이트</summary>
@@ -43,7 +52,7 @@ Windows 10 업데이트에 있는 내용에 대해 자세히 알고 싶기 때�
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
-* 개인 정보 설정 페이지로 업데이트하여 추가 옵션을 제공합니다.
+* 추가 옵션을 제공하려면 개인 정보 설정 페이지로 업데이트합니다.
 * 세션 종료 정리가 Edge Chromium과 관련된 모든 데이터를 완전히 제거하도록 하는 수정입니다.
 * 이미 시작된 모임이 시작/시작 화면에 표시되지 않는 문제를 해결합니다.
 * en-US가 아닌 로 로컬에 대한 클라우드 복구 문제를 해결합니다.
@@ -81,7 +90,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 <details>
 <summary>Surface Hub용 Windows 10 Team 2020 업데이트 — 일반 릴리스 정보(OS 빌드 19042.572)</summary>
 
-Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트는["Windows 10 Team 2020 업데이트의](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)새로운" 페이지에 기록됩니다.
+Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트는["Windows 10 Team 2020 업데이트의 새로운"페이지에](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)기록됩니다.
 
 지역, 배포 방법 및 장치 유형별로 업데이트 가용성에 대한 자세한 내용은["Windows 10 Team 2020 업데이트](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)설치" 페이지를 참조하세요.
 </details>
@@ -89,7 +98,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 ## Windows 10 Team 크리에이터스 업데이트(1703)
 
 <details>
-<summary>2020년 9월 1일 — Surface Hub 2S에 대한 업데이트</summary>
+<summary>2020년 9월 1일 - Surface Hub 2S 업데이트</summary>
 
 이 업데이트는 Surface Hub 2S와 관련이 있으며 아래에 설명된 드라이버 및 펌웨어 업데이트를 제공합니다.
 
@@ -276,7 +285,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 </details>
 
 <details>
-<summary>2018년 4월 17일 — KB4093117* 기반 팀용 업데이트(OS 빌드 15063.1058)</summary>
+<summary>2018년 4월 17일 — KB4093117* 기반 팀 업데이트(OS 빌드 15063.1058)</summary>
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
@@ -322,7 +331,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
-* 비즈니스용 Skype 통화 중에 카메라 비디오 깜박임(밝게 또는 깜박임)을 해결합니다.
+* 비즈니스용 Skype 통화 중에 카메라 비디오 깜박임(밝기 또는 깜박임)을 해결합니다.
 * 알림 센터 SSD ID 문제를 해결합니다.
 
 디바이스 기능 및 서비스를 활성화/사용 안 하게 설정하려면 [Surface Hub](https://docs.microsoft.com/surface-hub/) 관리 가이드를 참조하세요.
@@ -334,12 +343,12 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
-* 고객이 MDM 정책을 사용하여 802.1x 유선 네트워크 인증을 사용하도록 허용하는 기능 업데이트입니다.
+* 고객이 MDM 정책을 사용하여 802.1x 유선 네트워크 인증을 사용하도록 설정할 수 있도록 하는 기능 업데이트입니다.
 * 사용자가 파일을 열 때 원하는 응용 프로그램을 동적으로 선택할 수 있도록 하는 기능 업데이트입니다.
 * 세션 종료 정리가 사용자 계정과 장치 간의 모든 연결을 완전히 제거하도록 하는 수정입니다.
 * Miracast 연결 시간뿐만 아니라 정리 시간을 개선하는 성능 수정입니다.
 * 애드 호크 모임 중에 간편한 인증 사용률을 소개합니다.
-* 서비스 구성 요소가 디바이스 전체에 구성된 프록시와 동일한 프록시를 사용하도록 하는 수정입니다.
+* 서비스 구성 요소가 장치 전체에 구성된 프록시를 사용하도록 하는 수정입니다.
 * 장치에서 전송하는 원격 분석의 보안을 줄이고 보다 철저하게 보안을 유지하여 대역폭 사용률을 줄입니다.
 * 모임이 끝날 때 사용자가 Microsoft에 피드백을 제공할 수 있는 기능을 사용할 수 있도록 합니다.
 
@@ -368,8 +377,8 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
-* 보안
-  * 장치가 절전 모드 해제될 때 Bitlocker 문제를 해결합니다.
+* Security
+  * 장치가 절전 모드 해제 시 Bitlocker 문제를 해결합니다.
 * 일반 사항
   * 장치 상태 원격 분석의 빈도/양을 줄이면 시스템 성능이 향상됩니다.
   * 장치가 시스템 로그를 수집하지 못하게 하는 문제를 해결합니다.
@@ -382,7 +391,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 
 * 비즈니스용 Skype 
   * 비즈니스용 Skype Sign-In 다시 시작하거나 시스템을 다시 시작해야 하는 문제를 해결합니다.
-  * 비즈니스용 Skype 모임 시간이 잘못 표시되는 문제를 해결합니다.
+  * 비즈니스용 Skype 모임 시간이 잘못 표시되는 것을 해결합니다.
   * Surface Hub 비즈니스용 Skype의 안정성을 개선하는 수정
 
 *[KB4032188](https://support.microsoft.com/help/4032188)
@@ -393,7 +402,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
-* 수동으로 다시 시작해야 하는 84인치 Surface Hub의 절전 작동이 필요한 NVIDIA 드라이버 충돌을 해결합니다.
+* 전원을 끄기 위해 84인치 Surface Hub를 절전화해야 할 수 있는 NVIDIA 드라이버 충돌을 해결하여 수동으로 다시 시작해야 합니다.
 * 일부 앱이 84인치 Surface Hub에서 실행되지 못하는 문제를 해결했습니다.
 
 *[KB4022716](https://support.microsoft.com/help/4022716)
@@ -412,7 +421,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 </details>
 
 <details>
-<summary>2017년 5월 24일 — KB4021573*(OS 빌드 15063.328) 기반 팀용 업데이트</summary>
+<summary>2017년 5월 24일 — KB4021573* 기반 팀 업데이트(OS 빌드 15063.328)</summary>
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
@@ -428,7 +437,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
 * 일반 사항
-  * 절전/절전 모드 해제 주기 문제 해결
+  * 절전 모드/절전 모드 해제 주기 문제 해결
   * 여러 재설정 및 복구 문제 해결
   * 업데이트 기록 탭 문제 해결
   * Miracast 서비스 시작 문제 해결
@@ -452,7 +461,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 * 내 개인 콘텐츠 액세스*
   * 시작 또는 시작에서 개인 Single Sign-On
   * 모임에 참가하고 시작 메뉴에서 직접 세션 종료
-  * 시작에서 직접 비즈니스용 OneDrive를 통해 개인 파일에 액세스
+  * 비즈니스용 OneDrive를 통해 시작에서 직접 개인 파일에 액세스
   * 미리 채워진 참석자 로그인
   * "Authenticator" 앱을 통해 간소화된 인증 흐름**
 * 배포 & 관리 
@@ -460,7 +469,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
   * 클라우드 기반 장치 복구 서비스
   * 엔터프라이즈 클라이언트 인증서 지원
   * 향상된 프록시 자격 증명 지원
-  * Skype QoS(서비스 품질) 구성 지원 추가 및 /개선
+  * Skype QoS(서비스 품질) 구성 지원 추가 및/개선
   * 설정에서 기본 장치 볼륨을 설정하는 기능을 추가했습니다.
   * Surface Hub 설정에 대한 향상된 MDM [지원](https://docs.microsoft.com/surface-hub/remote-surface-hub-management)
 * 향상된 보안 
@@ -537,7 +546,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 * 일반 사항
   * 화면 키보드가 가끔 나타나지 않는 시나리오를 해결합니다.
   * 예약된 모임을 열 때 가끔 발생하는 화이트보드 응용 프로그램 교대조를 해결합니다.
-  * 장치가 다시 설정된 후 관리자가 로컬 관리자 암호를 변경하지 못하게 하는 문제를 해결합니다.
+  * 장치가 재설정된 후 관리자가 로컬 관리자 암호를 변경하지 못하게 하는 문제를 해결합니다.
   * 장치 초기화 중에 상태 표시줄 추적의 BIOS 변경 문제 해결
   * 전원 문제를 해결하기 위한 UEFI 업데이트
 
@@ -554,7 +563,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
   * Surface Hub용 비즈니스용 Skype에서 VBSS(비디오 기반 화면 공유) 지원 사용 가능
   * 5분 유휴 시간 문제 후 연결 끊기 해결
   * Skype 허브-허브 화면 공유 실패 해결
-  * Skype 비디오에 대한 향상된 기능:
+  * Skype 비디오의 향상된 기능:
     * 여러 비디오 발표자와의 모임 중에 비디오 손실
     * 통화 중 비디오 자르기
     * 다른 참가자에 대해 표시되지 않는 발신 전화 비디오
@@ -580,7 +589,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
   * 지원되는 장치에서 Miracast를 통한 1080p 이상의 무선 투영 지원 사용
   * 시작 시 "인터넷에 연결되지 않습니다." 및 "약속이 최신이 아 않을 수 있습니다." 거짓 알림이 확인되었습니다.
   * 화면 키보드의 안정성 향상
-  * Windows ICD(이미징 & 구성 디자이너) 및 OMS(Operations Management Suite)에서 향상된 Surface Hub 모니터링 솔루션을 사용하여 Surface Hub 프로비저닝 패키지를 만들기 위한 추가 지원
+  * OMS(Operations Management Suite)에서 Windows ICD(이미징 & 구성 디자이너) 및 향상된 Surface Hub 모니터링 솔루션을 사용하여 Surface Hub 프로비저닝 패키지를 만들기 위한 추가 지원
 
 *[KB3194496](https://support.microsoft.com/help/3194496)
 </details>
@@ -600,19 +609,19 @@ Surface Hub에 대한 Windows 10 Team(버전 1511)에 대한 이 업데이트에
 
 이 업데이트에는 품질 향상 및 보안 수정이 포함되어 있습니다. 이 업데이트에는 새로운 운영 체제 기능이 도입되지 않습니다. Surface Hub 관련 주요 변경 내용(Windows [10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 포함되지 않은 변경 내용)에는 다음이 포함됩니다.
 
-* Windows 시스템 충돌을 일으키는 문제를 해결했습니다.
+* Windows 시스템 크래시를 유발하는 해결된 문제
 * 반복적인 Edge 크래시가 발생하게 하는 문제를 해결했습니다.
 * 사전 종료 서비스 충돌을 일으키는 문제를 해결했습니다.
 * 세션 후 일부 앱 데이터가 제대로 제거되지 않는 문제를 해결했습니다.
 * NFC 성능을 개선하기 위해 Broadcom NFC 드라이버 업데이트
 * Miracast Wi-Fi 업데이트되었습니다.
 * 84인치 Surface Hub 디바이스에서 희미하거나 퍼지가 있는 콘텐츠를 표시하는 디스플레이 버그를 수정하기 위해 Nvidia 드라이버가 업데이트되었습니다.
-* 다음을 비롯한 다양한 비즈니스용 Skype 문제를 해결했습니다. 
+* 다음을 비롯한 다양한 비즈니스용 Skype 문제가 해결되었습니다. 
   * 모임 중에 비즈니스용 Skype의 연결을 끊게 하는 문제
   * 모임 이끌이가 페더화 구성에 있는 경우 사용자가 모임에 참가할 수 없는 문제
   * 비즈니스용 Skype 응용 프로그램 공유 사용
   * Skype 응용 프로그램 충돌을 일으키는 문제
-* 장치 재설정이 완료되기 전에 중단될 경우 OS가 손상될 수 있는 경우를 사용자에게 알리는 "설정"에 프롬프트가 추가되었습니다.
+* "설정"에 장치 재설정이 완료되기 전에 중단된 경우 OS가 손상될 수 있는 경우를 알리는 메시지가 추가되었습니다.
 
 *[KB3172985](https://support.microsoft.com/help/3172985)
 </details>
@@ -628,7 +637,7 @@ Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 
 </details>
 
 <details>
-<summary>2016년 5월 10일 — KB3156421* 기반 팀용 업데이트(OS 빌드 10586.318)</summary>
+<summary>2016년 5월 10일 — KB3156421*(OS 빌드 10586.318) 기반 팀용 업데이트</summary>
 
 Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. 이 업데이트에는 새로운 운영 체제 기능이 도입되지 않습니다. [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
 
