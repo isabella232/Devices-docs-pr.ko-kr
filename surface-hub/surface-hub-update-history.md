@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: b26351fa822f1c3bc8933578902ea304581f5e6f
+ms.sourcegitcommit: 040dffc996fa5be0d93103b5093748c8d919679e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311994"
+ms.locfileid: "11312714"
 ---
 # Surface Hub 업데이트 기록
 
@@ -28,6 +28,20 @@ Windows 10 업데이트에 있는 내용에 대해 자세히 알고 싶기 때�
 주의가 필요할 수 있는 현재 및 과거 릴리스에 대한 관련 항목은["Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)중요 정보" 페이지를 참조하세요.
 
 ## Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2021년 2월 2일 — KB4598291* 기반 팀용 업데이트(OS 빌드 19042.789)</summary>
+
+Surface Hub에 대한 이 업데이트에는 품질 개선 및 보안 수정이 포함되어 있습니다. [Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)업데이트 기록에 아직 설명되지 않은 Surface Hub의 주요 업데이트에는 다음이 포함됩니다.
+
+* 장치 계정의 UPN이 SMTP와 같지 않은 경우 Exchange와의 일정 동기화가 작동할 수 있는 수정입니다.
+* 관리자가 Exchange와 일정을 동기화하는 동안 최신 인증을 사용하지 않도록 설정할 수 있는 기능을 추가합니다.
+* "장치 계정 자격 증명 사용" 기능을 사용하도록 설정한 후 Surface Hub 사용자에게 프록시 자격 증명을 입력하라는 메시지가 없는지 확인합니다.
+* 인증을 요구하는 프록시를 사용 중이면 Windows 업데이트 및 스토어 업데이트 확인이 완료되지 않는 문제를 해결합니다.
+* 유선 인제스트 시나리오 중에 Connect 앱의 안정성을 향상시킵니다.
+
+디바이스 기능 및 서비스를 활성화/사용 안 하게 설정하려면 [Surface Hub](https://docs.microsoft.com/surface-hub/) 관리 가이드를 참조하세요. *[KB4598291](https://support.microsoft.com/help/4598291)
+</details>
 
 <details>
 <summary>2021년 1월 15일 — Surface Hub 2S에 대한 업데이트</summary>
