@@ -49,7 +49,7 @@
 ### [Microsoft Intune을 사용하여 Surface Hub 2S 관리](surface-hub-2s-manage-intune.md)
 ### [Surface Hub 2S 설정에 대한 로컬 관리](local-management-surface-hub-settings.md)
 ### [디바이스 계정 암호 순환 관리](surface-hub-2s-manage-passwords.md)
-### [Windows업데이트 관리](manage-windows-updates-for-surface-hub.md)
+### [Windows 업데이트 관리](manage-windows-updates-for-surface-hub.md)
 ### [기존 무선 네트워크 또는 LAN의 Miracast](miracast-over-infrastructure.md)
 ### [BitLocker 키 저장](save-bitlocker-key-surface-hub.md)
 ### [Microsoft Exchange 속성](exchange-properties-for-surface-hub-device-accounts.md)
@@ -70,12 +70,12 @@
 ### [서비스에 대한 Surface Hub 2S를 압축하고 배송하는 방법](surface-hub-2s-pack-components.md)
 ### [변경 기록](surface-hub-2s-change-history.md)
 
-# Surface Hub
+# Surface Hub (v1)
 ## 개요
 ### [Surface Hub에 대한 Windows 10, 버전 1703의 새로운 기능](surfacehub-whats-new-1703.md)
 ### [운영 체제 필수 항목(Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
-### [55" Microsoft Surface Hub 기술 정보](surface-hub-technical-55.md)
-### [84" Microsoft Surface Hub 기술 정보](surface-hub-technical-84.md)
+### [55" Microsoft Surface Hub 기술 정보(v1)](surface-hub-technical-55.md)
+### [84" Microsoft Surface Hub 기술 정보(v1)](surface-hub-technical-84.md)
 ### [Surface Hub에서 Microsoft Whiteboard 사용](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
 
 ## 계획
