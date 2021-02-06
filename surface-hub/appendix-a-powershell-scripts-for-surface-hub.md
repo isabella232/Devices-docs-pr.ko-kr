@@ -12,12 +12,14 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: c0fa06153dc5597827f2973ecc9f728e35d79e85
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+appliesto:
+- Surface Hub
+ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11312004"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314431"
 ---
 # <span data-ttu-id="2f204-104">Surface Hub용 PowerShell(v1)</span><span class="sxs-lookup"><span data-stu-id="2f204-104">PowerShell for Surface Hub (v1)</span></span>
 
