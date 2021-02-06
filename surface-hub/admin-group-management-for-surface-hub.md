@@ -12,12 +12,15 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 36c6010307603b36b8798a09aed26f8b337b2c1b
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c76ac577c1560020bf865a25d4a812343089013a
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311954"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314441"
 ---
 # Surface Hub에 대한 관리자 그룹 관리
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Surface Hub에 대한 환경 준비
+title: Microsoft Surface Hub에 대한 환경 준비(v1)
 description: 이 섹션에서는 Microsoft Surface Hub의 모든 기능을 사용할 수 있도록 환경을 준비하는 데 필요한 단계를 간략히 설명합니다.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: ''
@@ -12,14 +12,16 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 12/04/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ee406df6d3022f04a80f4ce253bd76f6473f1c8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+appliesto:
+- Surface Hub
+ms.openlocfilehash: 95b575e5213e3e11685b342cb2a7b77eb3e868a0
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836647"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314401"
 ---
-# Microsoft Surface Hub에 대한 환경 준비
+# Microsoft Surface Hub에 대한 환경 준비(v1)
 
 
 이 섹션에는 설정 종속성 및 설정 프로세스에 대한 개요가 포함되어 있습니다. 이 섹션의 정보를 검토하면 사용자 환경을 준비하고 Surface Hub를 설정하는 데 필요한 정보를 수집할 수 있습니다.
@@ -33,7 +35,7 @@ ms.locfileid: "10836647"
 | Active Directory 또는 Azure AD(Azure Active Directory) | <p>Surface Hub는 Active Directory 또는 Azure AD 계정(**디바이스 계정**이라고 함)을 사용하여 비즈니스용 Skype와 Exchange 서비스에 액세스합니다. Surface Hub는 디바이스 계정 자격 증명의 유효성을 검사하고 디바이스 계정의 표시 이름, 별칭, Exchange 서버, SIP(Session Initiation Protocol) 주소 등의 정보에 액세스하기 위해 Active Directory 도메인 컨트롤러 또는 Azure AD 테넌트에 연결할 수 있어야 합니다.</p>또한 권한 부여된 사용자 그룹이 Surface Hub에 대한 설정을 구성할 수 있도록 Surface Hub를 도메인에 가입시키거나 Azure AD에 연결할 수 있습니다. |
 | Exchange(Exchange 2013 이상 또는 Exchange Online) 및 Exchange ActiveSync | <p>Exchange를 통해 메일 및 일정 기능을 사용할 수 있으며, 디바이스 사용자가 Surface Hub에 모임 요청을 보내 원터치 모임 참가를 사용하도록 설정할 수도 있습니다.</p>ActiveSync는 디바이스 계정의 일정 및 메일을 Surface Hub에 동기화하는 데 사용됩니다. 디바이스가 ActiveSync를 사용할 수 없는 경우 시작 화면에 모임이 표시되지 않으며, 모임 참가 및 화이트보드를 메일로 보내기를 사용할 수 없습니다. |
 | 비즈니스용 Skype(Lync Server 2013 이상 또는 비즈니스용 Skype Online)  | 비즈니스용 Skype는 화상 통화, 인스턴트 메시징, 화면 공유 등의 다양한 회의 기능에 사용됩니다.|
-| MDM (모바일 디바이스 관리) 솔루션 (Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 지원 되는 타사 MDM 공급자) | 원격으로 설정을 적용하고 앱을 설치하며 한 번에 여러 디바이스에 설정을 적용하고 앱을 설치하려면 MDM 솔루션을 설정하고 해당 솔루션에 디바이스를 등록해야 합니다. 자세한 정보는 [MDM 공급자 설정 관리](manage-settings-with-mdm-for-surface-hub.md)를 참조하세요. |
+| MDM(모바일 장치 관리) 솔루션(Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 지원되는 타사 MDM 공급자) | 원격으로 설정을 적용하고 앱을 설치하며 한 번에 여러 디바이스에 설정을 적용하고 앱을 설치하려면 MDM 솔루션을 설정하고 해당 솔루션에 디바이스를 등록해야 합니다. 자세한 정보는 [MDM 공급자 설정 관리](manage-settings-with-mdm-for-surface-hub.md)를 참조하세요. |
 | Microsoft Operations Management Suite(OMS)   | OMS는 Surface Hub 디바이스의 상태를 모니터링하는 데 사용됩니다. 자세한 정보는 [Surface Hub 모니터링](monitor-surface-hub.md)을 참조하세요. |
 | 네트워크 및 인터넷 액세스   | 제대로 작동하려면 Surface Hub가 유선 또는 무선 네트워크에 액세스할 수 있어야 합니다. 전반적으로 유선 연결을 사용하는 것이 좋습니다. 802.1X 인증은 유선 및 무선 연결에서 모두 지원됩니다.</br></br></br>**802.1X 인증:** Windows 10 버전 1703에서 유무선 연결에 대한 802.1X 인증은 Surface Hub에서 기본적으로 활성화됩니다. 조직에서 802.1X 인증을 사용하지 않는 경우 필요한 구성은 없으며 Surface Hub는 계속해서 정상적으로 작동합니다. 802.1X 인증을 사용하는 경우 Surface Hub에 인증서가 설치되어 있는지 확인해야 합니다. MDM에서 [ClientCertificateInstall CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/clientcertificateinstall-csp)를 사용하여 Surface Hub에 인증서를 제공하거나 [프로비저닝 패키지를 만들고](provisioning-packages-for-surface-hub.md) 첫 번째 실행 시 또는 설정 앱을 통해 설치할 수 있습니다. Surface Hub에 인증서를 적용하면 802.1X 인증이 자동으로 작동되기 시작합니다.</br>**참고:** Surface Hub에서 802.1X 유선 인증 사용에 대한 자세한 내용은 [802.1x 유선 인증 사용](enable-8021x-wired-authentication.md)을 참조하십시오.</br></br>**동적 IP:** 고정 IP를 사용하도록 Surface Hub를 구성할 수 없습니다. DHCP를 사용하여 IP 주소를 할당해야 합니다.</br></br>**프록시 서버:** 토폴로지에서 인터넷 서비스에 연결하기 위해 프록시 서버에 연결해야 하는 경우 첫 번째 실행 중이나 설정에서 구성할 수 있습니다. 프록시 자격 증명은 Surface Hub 세션 전반에 걸쳐 저장되며 한 번만 설정하면 됩니다. |
 
@@ -42,10 +44,10 @@ ms.locfileid: "10836647"
 - HTTP: 80
 - NTP: 123
 
-비즈니스용 Skype와 함께 Surface Hub를 사용 하는 경우에는 추가 포트를 열어야 합니다. 아래 지침을 따르세요.
-- 비즈니스용 Skype Online을 사용 하는 경우 [Office 365 Ip url 및 ip 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US)를 참조 하세요.
-- 비즈니스용 Skype 서버를 사용 하는 경우 비즈니스용 [Skype server: 포트 및 내부 서버용 프로토콜](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols)을 참조 하세요. 
-- 비즈니스용 Skype Online 및 비즈니스용 Skype Server를 사용 하는 경우 [Office 365 Ip url 및 ip 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) 및 [비즈니스용 Skype server: 포트 및 내부 서버용 프로토콜에 대해](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)문서화 된 모든 포트가 열려 있어야 합니다.
+비즈니스용 Skype와 함께 Surface Hub를 사용하는 경우 추가 포트를 열 필요가 있습니다. 아래 지침을 따르세요.
+- 비즈니스용 Skype Online을 사용하는 경우 [Office 365 IP URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US)및 IP 주소 범위를 참조하세요.
+- 비즈니스용 Skype 서버를 사용하는 경우 비즈니스용 Skype 서버: 내부 서버에 대한 포트 및 [프로토콜을 참조하세요.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols) 
+- 비즈니스용 Skype Online 및 비즈니스용 Skype 서버의 하이브리드를 사용하는 경우 Office [365 IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) URL 및 IP 주소 범위 및 비즈니스용 [Skype 서버:](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)내부 서버의 포트 및 프로토콜에서 문서화된 모든 포트를 열 수 있습니다.
 
 Microsoft는 Surface Hub 환경을 향상시키기 위해 진단 데이터를 수집합니다. 허용 목록에 이러한 사이트 추가:
 - 진단 데이터 클라이언트 끝점: `https://vortex.data.microsoft.com/`

@@ -1,5 +1,5 @@
 ---
-title: UI(Surface Hub)를 사용하여 디바이스 계정 만들기
+title: UI를 사용하여 디바이스 계정 만들기(Surface Hub v1)
 description: 그래픽 사용자 인터페이스를 사용하려는 경우 Office 365 UI 또는 Exchange 관리 센터를 사용하여 Microsoft Surface Hub에 대한 디바이스 계정을 만들 수 있습니다.
 ms.assetid: D11BCDC4-DABA-4B9A-9ECB-58E02CC8218C
 ms.reviewer: ''
@@ -12,22 +12,24 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: e1f82f084103d4eef942e812c5e4f0e8bf425def
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836743"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314471"
 ---
-# UI(Surface Hub)를 사용하여 디바이스 계정 만들기
+# UI를 사용하여 디바이스 계정 만들기(Surface Hub v1)
 
+ > [!NOTE]
+ >이 페이지에는 원래 Surface Hub(v1)에 대한 정보가 포함되어 있습니다. Surface Hub 2S의 경우 [Surface Hub 2S 디바이스 계정 만들기를 참조하세요.](surface-hub-2s-account.md)
 
 그래픽 사용자 인터페이스를 사용하려는 경우 [Office 365 UI](#create-device-acct-o365) 또는 [Exchange 관리 센터](#create-device-acct-eac)를 사용하여 Microsoft Surface Hub에 대한 디바이스 계정을 만들 수 있습니다.
 
 ## <a href="" id="create-device-acct-o365"></a>Office 365를 사용하여 디바이스 계정 만들기
 
 
-1.  [Microsoft 365 관리 센터에서 계정을 만듭니다](#create-device-acct-o365-admin-ctr).
+1.  [Microsoft 365 관리 센터에서 계정을 만드시다.](#create-device-acct-o365-admin-ctr)
 2.  [Microsoft Exchange 관리 센터에서 모바일 디바이스 사서함(ActiveSync) 정책 만들기](#create-device-acct-o365-mbx-policy)
 3.  [PowerShell을 사용하여 디바이스 계정 만들기 완료](#create-device-acct-o365-complete-acct).
 4.  [PowerShell을 사용하여 계정의 Exchange 속성 구성](#create-device-acct-o365-configure-exch-prop)
@@ -35,14 +37,14 @@ ms.locfileid: "10836743"
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>관리 센터에서 계정 만들기
 
-1.  방문 하 여 Office 365에 로그인https://portal.office.com
-2.  Office 365 테넌트에 대한 관리자 자격 증명을 제공합니다. 이렇게 하면 Microsoft 365 관리 센터로 이동 합니다.
+1.  방문하여 Office 365에 로그인 https://portal.office.com
+2.  Office 365 테넌트에 대한 관리자 자격 증명을 제공합니다. 이렇게 하면 Microsoft 365 관리 센터로 진행됩니다.
 
     ![Microsoft 365 관리 센터.](images/setupdeviceaccto365-02.png)
 
-3. 관리 센터에서 왼쪽 패널의 **리소스로** 이동한 다음 **채팅방 & 기기**를 클릭 합니다.
+3. 관리 센터에서 왼쪽 패널의 **리소스로** 이동한 다음 장비가 있는 회의실을 **& 클릭합니다.**
 
-    ![관리 센터의 채팅방 & 장비 옵션](images/room-equipment.png)
+    ![관리 & 회의실 및 장비 옵션](images/room-equipment.png)
 
 4. **추가**를 클릭하여 새 회의실 계정을 만듭니다. 계정에 대한 표시 이름 및 이메일 주소를 입력한 다음 **추가**를 클릭합니다.
 
@@ -54,9 +56,9 @@ ms.locfileid: "10836743"
 
 ### <a href="" id="create-device-acct-o365-mbx-policy"></a>Exchange 관리 센터에서 모바일 디바이스 사서함(ActiveSync) 정책 만들기
 
-1.  관리 센터의 왼쪽 패널에서 **관리자**를 클릭 한 다음 **Exchange**를 클릭 합니다.
+1.  관리 센터의 왼쪽 패널에서 **ADMIN을**클릭한 다음 **Exchange를 클릭합니다.**
 
-    ![exchange 활성 사용자를 보여 주는 관리 센터](images/setupdeviceaccto365-08.png)
+    ![exchange 활성 사용자를 표시하는 관리 센터](images/setupdeviceaccto365-08.png)
 
 2.  이렇게 하면 Surface Hub에 대한 사서함 설정을 만들고 설정할 수 있는 Exchange 관리 센터로 이동하는 다른 탭이 브라우저에서 열립니다.
 
@@ -82,11 +84,11 @@ ms.locfileid: "10836743"
 
 이러한 PowerShell 스크립트에서 사용되는 cmdlet을 실행하려면 관리자 PowerShell 콘솔에 대해 다음을 설치해야 합니다.
 
--   [IT 전문가를 위한 Microsoft Online Services 로그인 도우미 RTW](https://www.microsoft.com/download/details.aspx?id=41950)
+-   [Microsoft Online Services Sign-In IT 전문가용 도우미 RTW](https://www.microsoft.com/download/details.aspx?id=41950)
 -   [Windows PowerShell용 Microsoft Azure Active Directory 모듈](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [비즈니스용 Skype Online, Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)
 
-Powershell에 다음 모듈을 설치 합니다.
+Powershell에서 다음 모듈 설치
 ``` syntax
     install-module AzureAD
     Install-module MsOnline
@@ -170,7 +172,7 @@ Powershell에 다음 모듈을 설치 합니다.
 
     ![PowerShell cmdlet을 보여 주는 이미지](images/setupdeviceaccto365-23.png)
 
-2. 다음 cmdlet을 실행 합니다.
+2. 다음 cmdlet을 실행합니다.
 
     ```powershell
     Set-CASMailbox $strEmail  -ActiveSyncMailboxPolicy "SurfaceHubDeviceMobilePolicy"
@@ -197,10 +199,10 @@ Powershell에 다음 모듈을 설치 합니다.
 
 비즈니스용 Skype를 사용하도록 설정하려면 사용자 환경이 다음 필수 조건을 충족해야 합니다.
 
--   O365 계획에 비즈니스용 Skype Online 독립 실행형 요금제 2 이상이 있어야 합니다. 계획이 회의 기능을 지원해야 합니다.
--   Surface Hub 용 전화 통신 서비스 공급자를 사용 하 여 엔터프라이즈 음성 (PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online 독립 실행형 요금제 3이 필요 합니다.
+-   You'll need to have Skype for Business Online Standalone Plan 2 or higher in your O365 plan. 계획이 회의 기능을 지원해야 합니다.
+-   Surface Hub에 Enterprise Voice 서비스 공급자를 사용하여 PSTN 전화 통신(PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online 독립 실행형 계획 3이 필요합니다.
 -   테넌트 사용자에게 Exchange 사서함이 있어야 합니다.
--   Surface Hub 계정에는 비즈니스용 Skype Online 독립 실행형 요금제 2 또는 비즈니스용 Skype Online 독립 실행형 요금제 3 라이선스가 필요 하지만, Exchange Online 라이선스는 필요 하지 않습니다.
+-   Surface Hub 계정에는 비즈니스용 Skype Online 독립 실행형 계획 2 또는 비즈니스용 Skype Online 독립 실행형 계획 3 라이선스가 필요하지만 Exchange Online 라이선스는 필요하지 않습니다.
 
 1.  먼저 PC에서 원격 PowerShell 세션을 만듭니다.
 
@@ -225,7 +227,7 @@ Powershell에 다음 모듈을 설치 합니다.
 ## <a href="" id="create-device-acct-eac"></a>Exchange 관리 센터를 사용하여 디바이스 계정 만들기
 
 >[!NOTE]
->이 메서드는 온-프레미스 Active Directory에서 동기화 하는 경우에만 작동 합니다.
+>이 메서드는 On-프레미스 Active Directory에서 동기화하는 경우만 사용할 수 있습니다.
 
 Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습니다.
 
@@ -248,7 +250,7 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
 ### <a href="" id="create-device-acct-exch-mbx-policy"></a>Exchange 관리 센터에서 모바일 디바이스 사서함 정책 만들기
 
 >[!NOTE]
->만든 계정에 정책을 만들고 할당 하 고 Exchange 2010를 사용 하는 경우 EMC (Exchange 관리 콘솔)을 사용 하는 경우 정책 만들기 및 정책 할당과 관련 된 해당 정보를 찾습니다.
+>만든 계정에 정책을 만들고 할당하고 Exchange 2010을 사용하려면 EMC(Exchange 관리 콘솔)를 사용할 때 정책 만들기 및 정책 할당과 관련한 해당 정보를 찾아야 합니다.
 
  
 
@@ -314,7 +316,7 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
 
     올바른 메일 주소가 표시됩니다.
 
-2.  계정을 채팅방 사서함으로 변환 해야 하므로 다음을 실행 합니다.
+2.  계정을 방 사서함으로 변환해야 하여 다음을 실행합니다.
 
     ``` syntax
     Set-Mailbox $strEmail -Type Room
@@ -357,12 +359,12 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
 
 비즈니스용 Skype를 사용하도록 설정하려면 사용자 환경이 다음 필수 조건을 충족해야 합니다.
 
--   O365 계획에 비즈니스용 Skype Online 독립 실행형 요금제 2 이상이 있어야 합니다. 계획이 회의 기능을 지원해야 합니다.
--   Surface Hub 용 전화 통신 서비스 공급자를 사용 하 여 엔터프라이즈 음성 (PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online 독립 실행형 요금제 3이 필요 합니다.
--   테넌트 사용자에게 Exchange 사서함이 있어야 합니다.
--   Surface Hub 계정에는 비즈니스용 Skype Online 독립 실행형 요금제 2 또는 비즈니스용 Skype Online 독립 실행형 요금제 3 라이선스가 필요 하지만, Exchange Online 라이선스는 필요 하지 않습니다.
+- You'll need to have Skype for Business Online Standalone Plan 2 or higher in your O365 plan. 계획이 회의 기능을 지원해야 합니다.
+- Surface Hub에 Enterprise Voice 서비스 공급자를 사용하여 PSTN 전화 통신(PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online 독립 실행형 계획 3이 필요합니다.
+- 테넌트 사용자에게 Exchange 사서함이 있어야 합니다.
+- Surface Hub 계정에는 비즈니스용 Skype Online 독립 실행형 계획 2 또는 비즈니스용 Skype Online 독립 실행형 계획 3 라이선스가 필요하지만 Exchange Online 라이선스는 필요하지 않습니다.
 
-1.  먼저 PC에서 원격 PowerShell 세션을 만듭니다.
+1. 먼저 PC에서 원격 PowerShell 세션을 만듭니다.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -374,19 +376,12 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
 
 사용자 환경의 `RegistrarPool` 매개 변수에 사용할 값이 확실하지 않은 경우 다음 cmdlet을 사용하여 기존 비즈니스용 Skype 사용자에서 값을 가져올 수 있습니다.
 
-    ```PowerShell
+ ```PowerShell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
-    ```
-    
+ ```
+
 3. 비즈니스용 Skype 서버에 Surface Hub 계정을 사용하도록 설정하려면 다음 cmdlet을 실행합니다.
 
    ```PowerShell
    Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-
-    
-
-
-
-
-
