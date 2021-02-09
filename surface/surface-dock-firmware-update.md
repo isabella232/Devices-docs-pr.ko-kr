@@ -1,6 +1,6 @@
 ---
-title: Microsoft Surface Dock 펌웨어 업데이트-IT 관리자를 위한 기술 정보
-description: 이 문서에서는 Microsoft Surface Dock 펌웨어 업데이트를 사용 하 여 Surface Dock 펌웨어를 업데이트 하는 방법을 설명 합니다. Surface 디바이스에 설치 되 면 surface 디바이스에 연결 된 모든 표면 도크가 업데이트 됩니다.
+title: Microsoft Surface Dock 1 펌웨어 업데이트
+description: 이 문서에서는 Microsoft Surface Dock 펌웨어 업데이트를 사용하여 원래 Surface Dock 1에 펌웨어를 설치하고 관리하는 방법을 설명합니다. Surface 디바이스에 설치하면 Surface 디바이스에 연결된 Surface Dock 1 디바이스가 업데이트됩니다.
 ms.localizationpriority: medium
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -11,191 +11,205 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/07/2020
-ms.openlocfilehash: 9069903421d6e621dfbc31cd1cfaffb045fa9f19
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.date: 2/08/2021
+ms.openlocfilehash: a0acaaf0676c3f4403a2b233297781579ca1f4ae
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114556"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319212"
 ---
-# Microsoft Surface Dock 펌웨어 업데이트: IT 관리자를 위한 기술 정보
+# Microsoft Surface Dock 펌웨어 업데이트
 
 > [!IMPORTANT]
-> 이 문서에는 IT 관리자를 위한 기술 지침이 포함 되어 있습니다. 가정용 사용자 인 경우 Microsoft 지원 사이트에서 [Surface Dock 펌웨어를 업데이트 하는 방법을](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)참조 하세요   . 지원 사이트의 지침은 아래의 일반적인 설치 단계와 동일 하지만이 문서에는 네트워크의 여러 장치에 대 한 업데이트 모니터링, 확인 및 배포에 대 한 추가 정보가 있습니다.
+> 이 문서에는 IT 관리자를 위한 기술 지침이 포함되어 있습니다. 가정적 사용자인 경우 Microsoft 지원 사이트에서 [Surface Dock 펌웨어를](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)업데이트하는   방법을 참조하세요. 지원 사이트의 지침은 아래 일반 설치 단계와 동일하지만 이 문서에는 네트워크의 여러 장치에 업데이트를 모니터링, 확인 및 배포하기 위한 추가 정보가 있습니다.
 
-이 문서에서는 Microsoft Surface Dock 펌웨어 업데이트를 사용 하 여 원래 Surface Dock 1에서 펌웨어를 업데이트 하는 방법을 설명 하 고 Surface Dock 2에는 적용 되지 않습니다. Surface 디바이스에 설치 되 면 surface 디바이스에 연결 된 모든 표면 도크가 업데이트 됩니다. 
+이 문서에서는 Microsoft Surface Dock 펌웨어 업데이트를 사용하여 원래 Surface Dock 1에 펌웨어를 설치하고 관리하는 방법을 설명합니다. Surface 디바이스에 설치하면 Surface 디바이스에 연결된 Surface Dock 1 디바이스가 업데이트됩니다.
 
-이 도구는 이전 Microsoft Surface Dock 업데이트 도구를 대체 합니다. 이전에는이를 위해 Surface 도구의 일부로 다운로드할 수 있습니다. 앞의 도구에는 Surface_Dock_Updater_vx.xx.xxx.x.msi 이름이 지정 되어 있으며 (여기서 x는 버전 번호를 나타냄) 더 이상 다운로드할 수 없으며 사용할 수 없습니다.
+> [!NOTE]
+> 이 문서는 Windows 업데이트 또는 Microsoft Endpoint Configuration Manager 또는 기타 MSI 배포 도구를 사용하여 자동으로 업데이트를 받는 Surface Dock 2에는 적용되지 않습니다. 자세한 내용은 Surface Dock의 새로운 내용을 [참조합니다.](surface-dock-whats-new.md)
+
+이 도구는 이전에 IT용 Surface Tools의 일부로 다운로드할 수 있는 이전 Microsoft Surface Dock Updater 도구를 능가합니다. 이전 도구의 이름이 Surface_Dock_Updater_vx.xx.xxx.x.msi(여기서 x는 버전 번호를 나타임)로 이름이 지정되어 있으며 더 이상 다운로드할 수 없습니다.
 
 ## Surface Dock 펌웨어 업데이트 설치
 
-이 섹션에서는 펌웨어 업데이트를 수동으로 설치 하는 방법에 대해 설명 합니다.
+이 섹션에서는 펌웨어 업데이트를 수동으로 설치하는 방법을 설명합니다.
 
 > [!NOTE]
-> Microsoft는 Surface Dock 펌웨어 업데이트의 새 버전을 정기적으로 릴리스 합니다. MSI 파일이 자동으로 업데이트 되지 않습니다. MSI를 Surface 디바이스에 배포한 경우 펌웨어의 새 버전이 릴리스되면 새 버전을 배포 해야 합니다.
+> Microsoft는 주기적으로 새로운 버전의 Surface Dock 펌웨어 업데이트를 릴리스합니다. MSI 파일이 자체 업데이트되지 않습니다. Surface 디바이스에 MSI를 배포한 경우 새 버전의 펌웨어가 릴리스된 경우 새 버전을 배포해야 합니다.
 
-1. [Microsoft Surface Dock 펌웨어 업데이트](https://www.microsoft.com/download/details.aspx?id=46703)를 다운로드 하 여 설치 합니다.
-    - 업데이트에는 Windows 10 버전 1803 이상을 실행 하는 Surface 장치가 필요 합니다.
-    - MSI 파일을 설치 하면 Surface를 다시 시작 하 라는 메시지가 표시 될 수 있습니다. 그러나 업데이트를 수행 하는 데는 다시 시작이 필요 하지 않습니다.
+1. [Microsoft Surface Dock 펌웨어 업데이트를 다운로드하여 설치합니다.](https://www.microsoft.com/download/details.aspx?id=46703)
+    - 업데이트에는 Windows 10 버전 1803 이상을 실행하는 Surface 디바이스가 필요합니다.
+    - MSI 파일을 설치하면 Surface를 다시 시작하라는 메시지가 표시될 수 있습니다. 그러나 업데이트를 수행하는 데는 다시 시작할 필요는 없습니다.
 
-2. Surface Dock에서 Surface device의 연결을 끊고 ~ 5 초간 기다린 다음 다시 연결 합니다. Surface Dock 펌웨어 업데이트는 백그라운드에서 자동으로 도크를 업데이트 합니다. 이 프로세스는 완료 하는 데 몇 분 정도 소요 될 수 있으며 중단 된 경우에도 계속 됩니다. 
+2. Surface Dock에서 Surface 디바이스를 분리하고 ~5초간 기다렸다가 다시 연결합니다. Surface Dock 펌웨어 업데이트는 백그라운드에서 도킹을 자동으로 업데이트합니다. 프로세스가 완료되는 데 몇 분 정도 걸릴 수 있으며 중단된 경우에도 계속됩니다. 
 
 ## Surface Dock 펌웨어 업데이트 모니터링
 
-이 섹션은 선택 사항이 며 펌웨어 업데이트 설치를 모니터링 하는 방법에 대 한 개요를 제공 합니다. 
+이 섹션은 선택 사항이며 펌웨어 업데이트 설치를 모니터링하는 방법에 대한 개요를 제공합니다. 
 
-업데이트를 모니터링 하려면 다음을 수행 합니다.
+업데이트를 모니터링합니다.
 
-1. 이벤트 뷰어를 열고 **Windows 로그 > 응용 프로그램**으로 이동한 다음 오른쪽 창의 **작업** 에서 **현재 로그 필터링**을 클릭 하 고 **이벤트 원본**옆에 **SurfaceDockFwUpdate** 를 입력 한 다음 **확인**을 클릭 합니다.
+1. 이벤트 뷰어를 열고 **Windows Logs > 응용**프로그램으로 이동한 다음 오른쪽 **** 창의 작업 아래에서 현재 로그 필터링을 **** 클릭하고 이벤트 원본 옆에 **SurfaceDockFwUpdate를** 입력한 후 **확인을**클릭합니다. ****
 
-2. 관리자 권한 명령 프롬프트에서 다음 명령을 입력 합니다.
+2. 상승된 명령 프롬프트에 다음 명령을 입력합니다.
 
-    ```cmd
+    ```console
     Reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters"
     ```
-3. 이 문서의 [다음 섹션](#install-the-surface-dock-firmware-update) 에 설명 된 대로 업데이트를 설치 합니다.
-4. 다음 텍스트를 포함 하는 이벤트 2007에 업데이트 **완료 됨 펌웨어가 업데이트 되었습니다. hr = 0 Driverementry EventCode = 2007**. 
-    - 업데이트가 실패 하면 이벤트 ID 2007이 **정보가**아닌 **오류** 이벤트로 표시 됩니다. 또한 Windows 레지스트리에 보고 된 버전은 최신 상태가 아닙니다.
-5. 업데이트가 완료 되 면 최신 버전의 도구에 해당 하는 업데이트 된 DWORD 값이 Windows 레지스트리에 표시 됩니다. 자세한 내용은이 문서의 [버전 참조](#versions-reference) 섹션을 참조 하세요. 예를 들어 다음과 같은 가치를 제공해야 합니다.
-    - Component10CurrentFwVersion 0x04ac3970 (78395760)
-    - Component20CurrentFwVersion 0x04915a70 (76634736)
+3. 이 문서의 다음 섹션에 설명된 [바와 같이 업데이트를](#install-the-surface-dock-firmware-update) 설치합니다.
+
+4. 다음 텍스트가 있는 이벤트 2007은 성공적인 업데이트가 **완료되었습니다. hr=0 DriverTelementry EventCode = 2007.** 
+
+   업데이트가 성공하지 못하면 이벤트 ID 2007이 정보 대신 **오류** 이벤트로 **표시됩니다.** 또한 Windows 레지스트리에 보고된 버전은 최신 버전이 아니게 됩니다.
+   
+5. 업데이트가 완료되면 업데이트된 DWORD 값이 현재 버전의 도구에 해당하는 Windows 레지스트리에 표시됩니다. 자세한 [내용은](#versions-reference) 이 문서의 버전 참조 섹션을 참조하세요. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+
+    - Component10CurrentFwVersion 0x04ac3970(78395760)
+    - Component20CurrentFwVersion 0x04915a70(76634736)
 
 >[!TIP]
->이벤트 텍스트에서 "SurfaceDockFwUpdate에서 이벤트 ID xxxx에 대 한 설명을 찾을 수 없음"이 표시 되는 경우이는 예상 되는 것으로, 무시할 수 있습니다.
+>이벤트 텍스트에서 "원본 SurfaceDockFwUpdate의 이벤트 ID xxxx에 대한 설명을 찾을 수 없습니다."가 표시될 경우 이 설명은 무시해도 됩니다.
 
-또한이 문서의 다음 섹션을 참조 하세요. 
-  - [펌웨어 업데이트가 완료 되었는지 확인 하는 방법](#how-to-verify-completion-of-the-firmware-update)
+또한 이 문서의 다음 섹션을 참조하세요. 
+  - [펌웨어 업데이트 완료를 확인하는 방법](#how-to-verify-completion-of-the-firmware-update)
   - [이벤트 로깅](#event-logging)
   - [문제 해결 팁](#troubleshooting-tips)
   - [버전 참조](#versions-reference)
 
 ## 네트워크 배포
 
-Windows Installer 명령 (Msiexec.exe)을 사용 하 여 네트워크를 통해 여러 장치에 Surface Dock 펌웨어 업데이트를 배포할 수 있습니다. Microsoft 끝점 구성 관리자 또는 기타 배포 도구를 사용 하는 경우 설치가 자동으로 수행 되도록 다음 구문을 입력 합니다.
+Windows Installer 명령(Msiexec.exe)을 사용하여 네트워크에서 여러 디바이스에 Surface Dock 펌웨어 업데이트를 배포할 수 있습니다. Microsoft Endpoint Configuration Manager 또는 기타 배포 도구를 사용할 때 다음 구문을 입력하여 설치가 자동으로 진행되도록 합니다.
 
-- **Msiexec.exe/i \<path to msi file\> /quiet/norestart** 
+- **Msiexec.exe /i \<path to msi file\> /quiet /norestart** 
 
-  예를 들어 다음과 같은 가치를 제공해야 합니다.
-  ```
-  msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
-  ```
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
-  > [!NOTE]
-  > 로그 파일은 기본적으로 생성 되지 않습니다. 로그 파일을 만들기 위해서는 "/l*v [path]"를 추가 해야 합니다. 예: Msiexec.exe/i \<path to msi file\> /l*v%windir%\logs\ SurfaceDockFWI "
+```console
+msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
+```
 
-  자세한 내용은 명령줄 [옵션](https://docs.microsoft.com/windows/win32/msi/command-line-options) 설명서를 참조 하세요.
+> [!NOTE]
+> 로그 파일은 기본적으로 만들어지지 않습니다. 로그 파일을 만들하려면 "/l*v [path]"를 추가해야 합니다. 예: Msiexec.exe /i \<path to msi file\> /l*v %windir%\logs\ SurfaceDockFWI.log"
+
+자세한 내용은 명령줄 옵션 [설명서를 참조하십시오.](https://docs.microsoft.com/windows/win32/msi/command-line-options)
 
 > [!IMPORTANT]
-> 다른 방법을 사용 하 여 화면 도크를 업데이트 된 상태로 유지 하려는 경우에는 [Surface Dock 업데이트](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) 에 대 한 자세한 내용을 참조 하세요.
+> 다른 방법을 사용하여 Surface Dock를 업데이트된 것으로 유지하려는 경우 자세한 내용은 [Surface Dock](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) 업데이트를 참조합니다.
 
 ## Intune 배포
 
-Intune을 사용 하 여 Surface Dock 펌웨어 업데이트를 디바이스에 배포할 수 있습니다. 먼저, 다음 설명서의 설명에 따라 MSI 파일을 intunewin 형식으로 변환 해야 합니다. [Intune 독립 실행형-Win32 앱 관리](https://docs.microsoft.com/intune/apps/apps-win32-app-management)
+Intune을 사용하여 디바이스에 Surface Dock 펌웨어 업데이트를 배포할 수 있습니다. 먼저 다음 설명서에 설명된 바와 같이 MSI 파일을 .intunewin 형식으로 변환해야 [합니다. Intune 독립 실행형 - Win32 앱 관리.](https://docs.microsoft.com/intune/apps/apps-win32-app-management)
 
 다음 명령을 사용 합니다.
-  - **msiexec/i \<path to msi file\> /quiet/q**
+  - **msiexec /i \<path to msi file\> /quiet /q**
 
-## 펌웨어 업데이트가 완료 되었는지 확인 하는 방법
+## 펌웨어 업데이트 완료를 확인하는 방법
 
-서피스 도크 펌웨어는 다음 두 가지 구성 요소로 구성 됩니다.
+Surface Dock 펌웨어는 다음 두 구성 요소로 구성됩니다.
 
-- **Component10:** 마이크로 장치 컨트롤러 단위 (MCU) 펌웨어
-- **Component20:** 디스플레이 포트 (DP) 펌웨어.
+- **Component10:** MCU(마이크로 컨트롤러 단위) 펌웨어
+- **Component20:** 디스플레이 포트(DP) 펌웨어.
 
-Surface Dock 펌웨어 업데이트가 성공적으로 완료 되 면 이러한 펌웨어 구성 요소에 대 한 새 레지스트리 키 값이 생성 됩니다.
+Surface Dock 펌웨어 업데이트가 성공적으로 완료되어 이러한 펌웨어 구성 요소에 대한 새 레지스트리 키 값이 표시됩니다.
 
-**업데이트를 확인 하려면 다음을 수행 합니다.**
+**업데이트를 확인:**
 
-1. Regedit를 열고 다음 레지스트리 경로로 이동 합니다.
+1. Regedit를 열고 다음 레지스트리 경로로 이동합니다.
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
 
-2. 현재 디바이스에 있는 펌웨어를 참조 하는 **Component10CurrentFwVersion 및 Component20CurrentFwVersion**레지스트리 키를 찾습니다.
+2. 레지스트리 키를 확인합니다. **Component10CurrentFwVersion and Component20CurrentFwVersion**- 현재 장치에 있는 펌웨어를 참조합니다.
 
    ![Surface Dock 펌웨어 업데이트 설치 프로세스](images/regeditDock.png)
 
-3. 새 레지스트리 키 값이이 문서 뒷부분의 버전 참조에 나열 된 업데이트 된 레지스트리 키 값과 일치 하는지 확인 합니다. 값이 일치 하는 경우 펌웨어가 성공적으로 업데이트 된 것입니다.
+3. 새 레지스트리 키 값이 이 문서 끝부분의 버전 참조에 나열된 업데이트된 레지스트리 키 값과 일치하는지 확인해야 합니다. 값이 일치하면 펌웨어가 성공적으로 업데이트되었습니다.
 
-4. 확인할 수 없는 경우 다음 섹션에서 이벤트 로깅 및 문제 해결 팁을 검토 하세요.
+4. 확인할 수 없는 경우 다음 섹션의 이벤트 로깅 및 문제 해결 팁을 검토합니다.
 
 ## 이벤트 로깅
 
-**표 1. Surface Dock 펌웨어 업데이트에 대 한 로그 파일**
+**표 1. Surface Dock 펌웨어 업데이트 로그 파일**
 
 | Log                              | 위치                               | 참고                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Surface Dock 펌웨어 업데이트 로그 | 경로를 지정 해야 합니다 (참고 참조). | 이전 버전의이 도구는 응용 프로그램 및 서비스 Logs\Microsoft Surface Dock 업데이트에 이벤트를 기록 했습니다.                                                                                                  |
-| Windows 장치 설치 로그       | %windir%\inf\setupapi.dev.log           | 장치 설치 로그 사용에 대 한 자세한 내용은 [SetupAPI 로깅](https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) 설명서를 참조 하세요. |
+| Surface Dock 펌웨어 업데이트 로그 | 경로를 지정해야 합니다(참고 참조). | 이 도구의 이전 버전에서는 응용 프로그램 및 서비스 로그\Microsoft Surface Dock Updater에 이벤트를 기록합니다.                                                                                                  |
+| Windows 장치 설치 로그       | %windir%\inf\setupapi.dev.log           | 장치 설치 로그 사용에 대한 자세한 내용은 [SetupAPI 로깅 설명서를 참조하십시오.](https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) |
 
 
-**표 2. Surface Dock 펌웨어 업데이트에 대 한 이벤트 로그 Id**<br>
-이벤트는 응용 프로그램 이벤트 로그에 기록 됩니다.  참고: 이전 버전의이 도구는 응용 프로그램 및 서비스 Logs\Microsoft Surface Dock 업데이트에 이벤트를 기록 했습니다.
+**표 2. Surface Dock 펌웨어 업데이트에 대한 이벤트 로그 ID**<br>
+이벤트는 응용 프로그램 이벤트 로그에 기록됩니다.  참고: 이 도구의 이전 버전은 응용 프로그램 및 서비스 로그\Microsoft Surface Dock Updater에 이벤트를 기록합니다.
 
 | 이벤트 ID | 이벤트 유형                                                           |
 | -------- | -------------------------------------------------------------------- |
-| 2001     | Dock 펌웨어 업데이트가 시작 되었습니다.                                    |
-| 2002     | Dock 펌웨어 업데이트는 연결이 최신으로 알려져 있으므로 건너뛰었습니다. |
-| 2003     | Dock 펌웨어 업데이트에서 펌웨어 버전을 가져오지 못했습니다.                 |
-| 2004     | 펌웨어 버전을 쿼리 하는 중입니다.                                       |
-| 2005     | 도킹 펌웨어에서 업데이트를 시작 하지 못했습니다.                                |
-| 2006     | 제공/페이로드 쌍을 보내지 못했습니다.                                  |
-| 2007     | 펌웨어 업데이트가 완료 되었습니다.                                            |
-| 2008     | 원격 분석을 시작 합니다.                                                |
-| 2011     | Dock 원격 분석 종료.                                                  |
+| 2001     | Dock 펌웨어 업데이트가 시작되었습니다.                                    |
+| 2002     | Dock 펌웨어 업데이트는 도킹이 최신 버전으로 알려져 있기 때문에 건너뜁니다. |
+| 2003     | Dock 펌웨어 업데이트가 펌웨어 버전을 다운로드하지 못했습니다.                 |
+| 2004     | 펌웨어 버전 쿼리                                       |
+| 2005     | Dock 펌웨어가 업데이트를 시작하지 못했습니다.                                |
+| 2006     | 제품/페이로드 쌍을 보내지 못했습니다.                                  |
+| 2007     | 펌웨어 업데이트가 완료되었습니다.                                            |
+| 2008     | BEGIN dock 원격 분석.                                                |
+| 2011     | 끝 도크 원격 분석.                                                  |
 
 ## 문제 해결 팁
 
-- 화면 도크를 재설정 하기 위해 AC 전원에서 Surface dock의 전원을 완전히 끊습니다.
-- Surface Dock을 제외한 모든 주변 장치를 분리 합니다.
-- 현재 Surface Dock 펌웨어 업데이트를 제거 하 고 최신 버전을 설치 합니다.
-- Surface Dock의 연결이 해제 되었는지 확인 한 다음 도크의 이더넷 포트에서 LED를 통해 모니터 한 대로 업데이트가 완료 될 때까지 충분히 기다립니다. 전원에서 Surface Dock을 분리 하기 전에 LED가 깜박임을 멈출 때까지 기다립니다.
-- 화면 도크를 다른 장치에 연결 하 여 도크를 업데이트할 수 있는지 확인 합니다.
+- AC 전원에서 Surface Dock의 전원을 완전히 분리하여 Surface Dock를 초기화합니다.
+- Surface Dock를 제외한 모든 주변 장치를 분리합니다.
+- 현재 Surface Dock 펌웨어 업데이트를 제거한 다음 최신 버전을 설치합니다.
+- Surface Dock가 분리되어 있는지 확인한 다음 도크의 이더넷 포트에 있는 LED를 통해 모니터링되는 업데이트가 완료될 수 있도록 충분한 시간을 허용합니다. LED가 깜박이지 않는 동안 기다렸다가 Surface Dock의 전원을 끄면 됩니다.
+- Surface Dock를 다른 장치에 연결하여 Dock를 업데이트할 수 있는지 확인합니다.
 
 ## 버전 참조
 
 >[!NOTE]
->**Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (예: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 인 설치 파일은 기본적으로 C:\Program Files\SurfaceUpdate.에 설치 되 고 다음과 같은 이름 지정 형식으로 릴리스됩니다.
+>설치 파일은 다음 이름 지정 ** 형식으로 ** 릴리스됩니다.Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI(예: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 기본적으로 C:\Program Files\SurfaceUpdate로 설치됩니다.
 
 ### 버전 1.53.139.0
-*릴리스 날짜: 2020 년 8 월 4 일*
+*릴리스 날짜: 2020년 8월 4일*
 
-이 버전의 Surface Dock 펌웨어 업데이트에는 다음에 대 한 버그 수정 및 지원이 포함 됩니다.
-- Surface Pro X를 사용 하 여 Surface Dock 1을 업데이트 합니다. 
+이 버전의 Surface Dock 펌웨어 업데이트에는 버그 수정 및 다음에 대한 지원이 포함되어 있습니다.
+- Surface Pro X를 사용하여 Surface Dock 1 업데이트 
    > [!NOTE]
-   > Surface Pro X를 실행 하는 경우을 다운로드 합니다. ARM64 빌드. 다른 모든 장치에는 AMD64 빌드를 사용 합니다. 
+   > Surface Pro X를 실행하는 경우 . ARM64 빌드. 다른 모든 디바이스의 경우 AMD64 빌드를 사용 합니다. 
+
+#### 레지스트리 키 값
+
+펌웨어 업데이트 상태를 나타내는 레지스트리 값은 이 도구의 이전 버전에서 변경되지 않습니다. 
+
+- Component10CurrentFwVersion이 **4ac3970으로 업데이트되었습니다.**
+- Component20CurrentFwVersion이 **4a1d570으로 업데이트되었습니다.**
  
-
-
 ### 버전 1.42.139 
-*릴리스 날짜: 18 2019 년 9 월*
+*릴리스 날짜: 2019년 9월 18일*
 
-이 버전은 Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI에 포함 되어 있으며, 백그라운드에서 펌웨어를 업데이트 합니다. 
-**업데이트 된 레지스트리 키 값:**<br>
+이 버전은 Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI 펌웨어를 백그라운드에서 업데이트합니다. 
 
-- Component10CurrentFwVersion가 **4ac3970**으로 업데이트 되었습니다.
-- Component20CurrentFwVersion가 **4a1d570**로 업데이트 되었습니다.
+#### 레지스트리 키 값 업데이트
 
-Surface Pro 7 및 Surface 노트북 3에 대 한 지원을 추가 합니다.
+- Component10CurrentFwVersion이 **4ac3970으로 업데이트되었습니다.**
+- Component20CurrentFwVersion이 **4a1d570으로 업데이트되었습니다.**
+
+Surface Pro 7 및 Surface Laptop 3에 대한 지원이 추가됩니다.
 
 ## 레거시 버전
 
 ### 버전 2.23.139.0
-*릴리스 날짜: 2018 년 10 월 11 일*
+*릴리스 날짜: 2018년 10월 10일*
 
 이 버전의 Surface Dock Update는 다음에 대한 지원을 추가합니다.
 
-- Surface Pro 6에 대 한 지원 추가
-- Surface 노트북 2에 대 한 지원 추가
+- Surface Pro 6에 대한 지원 추가
+- Surface Laptop 2에 대한 지원 추가
 
 
 ### 버전 2.22.139.0
-*릴리스 날짜: 26 7 월 2018*
+*릴리스 날짜: 2018년 7월 26일*
 
 이 버전의 Surface Dock Update는 다음에 대한 지원을 추가합니다.
 
 - 업데이트 안정성 향상
-- Surface Go에 대 한 지원 추가
+- Surface Go에 대한 지원 추가
 
 ### 버전 2.12.136.0
 *릴리스 날짜: 2018년 1월 29일*

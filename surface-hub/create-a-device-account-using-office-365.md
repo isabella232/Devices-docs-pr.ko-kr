@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: dd19e2fd2417acd29e71c7555e94ee849fbc1bec
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314471"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11318012"
 ---
 # UI를 사용하여 디바이스 계정 만들기(Surface Hub v1)
 
@@ -37,18 +37,22 @@ ms.locfileid: "11314471"
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>관리 센터에서 계정 만들기
 
-1.  방문하여 Office 365에 로그인 https://portal.office.com
+1.  방문하여 Office 365에 [https://portal.office.com](https://portal.office.com) 로그인합니다.
+
 2.  Office 365 테넌트에 대한 관리자 자격 증명을 제공합니다. 이렇게 하면 Microsoft 365 관리 센터로 진행됩니다.
 
-    ![Microsoft 365 관리 센터.](images/setupdeviceaccto365-02.png)
+    > [!div class="mx-imgBorder"]
+    > ![Microsoft 365 관리 센터.](images/setupdeviceaccto365-02.png)
 
-3. 관리 센터에서 왼쪽 패널의 **리소스로** 이동한 다음 장비가 있는 회의실을 **& 클릭합니다.**
+3. 관리 센터에서 왼쪽 패널의 **리소스로** 이동한 다음 회의실 및 장비 **& 클릭합니다.**
 
-    ![관리 & 회의실 및 장비 옵션](images/room-equipment.png)
+    > [!div class="mx-imgBorder"]
+    > ![관리 & 회의실 및 장비 옵션](images/room-equipment.png)
 
 4. **추가**를 클릭하여 새 회의실 계정을 만듭니다. 계정에 대한 표시 이름 및 이메일 주소를 입력한 다음 **추가**를 클릭합니다.
 
-    ![새 회의실 계정 창 만들기](images/room-add.png)
+    > [!div class="mx-imgBorder"]
+    > ![새 회의실 계정 창 만들기](images/room-add.png)
 
 5. 활성 사용자 목록에서 방금 만든 회의실 계정을 선택합니다. 오른쪽 패널에서 계정 속성과 여러 개의 선택적 동작을 확인할 수 있습니다. Surface Hub 로그인 과정에서 암호를 변경할 수 없기 때문에 **암호 재설정**을 클릭하여 암호를 변경하고 **이 사용자가 처음 로그인할 때 암호를 변경하도록 설정**을 선택 해제합니다.
 
@@ -58,15 +62,18 @@ ms.locfileid: "11314471"
 
 1.  관리 센터의 왼쪽 패널에서 **ADMIN을**클릭한 다음 **Exchange를 클릭합니다.**
 
-    ![exchange 활성 사용자를 표시하는 관리 센터](images/setupdeviceaccto365-08.png)
+    > [!div class="mx-imgBorder"]
+    > ![exchange 활성 사용자를 표시하는 관리 센터](images/setupdeviceaccto365-08.png)
 
 2.  이렇게 하면 Surface Hub에 대한 사서함 설정을 만들고 설정할 수 있는 Exchange 관리 센터로 이동하는 다른 탭이 브라우저에서 열립니다.
 
-    ![Exchange 관리 센터](images/setupdeviceaccto365-09.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange 관리 센터](images/setupdeviceaccto365-09.png)
 
 3.  모바일 디바이스 사서함 정책을 만들려면 왼쪽 패널에서 **모바일**을 클릭한 다음 **모바일 디바이스 사서함 정책**을 클릭합니다. Surface Hub에는 암호를 요구하지 않는 모바일 디바이스 사서함 정책을 가진 계정이 필요하므로 이 요구 사항에 맞는 기존 정책이 이미 있는 경우 해당 정책을 계정에 적용할 수 있습니다. 그렇지 않으면 다음 단계에 따라 Surface Hub 디바이스 계정에만 사용할 새 정책을 만듭니다.
 
-    ![Exchange 관리 센터 - 모바일 디바이스 사서함 정책 만들기](images/setupdeviceaccto365-10.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange 관리 센터 - 모바일 디바이스 사서함 정책 만들기](images/setupdeviceaccto365-10.png)
 
 4.  새 Surface Hub 모바일 디바이스 사서함 정책을 만들려면 새 정책을 추가할 정책 목록 위에 있는 컨트롤에서 **+** 단추를 클릭합니다. 이름에는 이 정책을 다른 디바이스 계정과 구분하는 데 도움이 되는 이름을 입력합니다(예: *SurfaceHubDeviceMobilePolicy*). 정책에서 디바이스의 암호 할당을 요구하지 않도록 **암호 필요**를 선택 취소된 상태로 유지하고 **저장**을 클릭합니다.
 
@@ -74,7 +81,8 @@ ms.locfileid: "11314471"
 
 5.  새 모바일 디바이스 사서함 정책을 만든 후 **Exchange 관리 센터**로 돌아가면 새 정책이 표시됩니다.
 
-    ![Exchange 관리 센터의 새 모바일 디바이스 사서함 정책을 보여 주는 이미지](images/setupdeviceaccto365-12.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange 관리 센터의 새 모바일 디바이스 사서함 정책을 보여 주는 이미지](images/setupdeviceaccto365-12.png)
 
 
 
@@ -88,17 +96,19 @@ ms.locfileid: "11314471"
 -   [Windows PowerShell용 Microsoft Azure Active Directory 모듈](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [비즈니스용 Skype Online, Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)
 
-Powershell에서 다음 모듈 설치
-``` syntax
-    install-module AzureAD
-    Install-module MsOnline
+PowerShell에서 다음 모듈을 설치합니다.
+
+```powershell
+install-module AzureAD
+Install-module MsOnline
 ```
 
 ### 온라인 서비스에 연결
 
 1.  관리자 권한으로 Windows PowerShell을 실행합니다.
 
-    ![Windows PowerShell을 시작하고 관리자 권한으로 실행하는 방법을 보여 주는 이미지](images/setupdeviceaccto365-17.png)
+    > [!div class="mx-imgBorder"]
+    > ![Windows PowerShell을 시작하고 관리자 권한으로 실행하는 방법을 보여 주는 이미지](images/setupdeviceaccto365-17.png)
 
 2.  자격 증명 개체를 만들고 비즈니스용 Skype Online에 연결하는 새 세션을 만든 다음 전역 테넌트 관리자 계정을 제공하고 **확인**을 클릭합니다.
 
@@ -106,7 +116,7 @@ Powershell에서 다음 모듈 설치
 
 3.  Microsoft Online Services에 연결하려면 다음을 실행합니다.
 
-    ``` syntax
+    ```powershell
     Connect-MsolService -Credential $Cred
     ```
 
@@ -114,7 +124,7 @@ Powershell에서 다음 모듈 설치
 
 4.  비즈니스용 Skype Online Services에 연결하려면 다음을 실행합니다.
 
-    ``` syntax
+    ```powershell
     $sfbsession = New-CsOnlineSession -Credential $cred
     ```
 
@@ -122,7 +132,7 @@ Powershell에서 다음 모듈 설치
 
 5.  마지막으로, Exchange Online Services에 연결하려면 다음을 실행합니다.
 
-    ``` syntax
+    ```powershell
     $exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $cred -Authentication "Basic" –AllowRedirection
     ```
 
@@ -130,7 +140,7 @@ Powershell에서 다음 모듈 설치
 
 6.  이제 방금 만든 비즈니스용 Skype Online 세션과 Exchange Online 세션을 가져와야 합니다. 그러면 로컬에서 사용할 수 있도록 Exchange 및 Skype 명령을 가져옵니다.
 
-    ``` syntax
+    ```powershell
     Import-PSSession $exchangesession -AllowClobber -WarningAction SilentlyContinue
     Import-PSSession $sfbsession -AllowClobber -WarningAction SilentlyContinue
     ```
@@ -180,7 +190,7 @@ Powershell에서 다음 모듈 설치
 
 4.  디바이스 계정에서 다양한 Exchange 속성을 설정하여 모임 환경을 개선할 수 있습니다. [Exchange 속성](exchange-properties-for-surface-hub-device-accounts.md) 섹션에서 설정해야 하는 속성을 확인할 수 있습니다.
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
@@ -189,7 +199,7 @@ Powershell에서 다음 모듈 설치
 
 5.  암호가 만료되지 않도록 하려는 경우 PowerShell cmdlet을 통해서도 설정할 수 있습니다. 자세한 내용은 [암호 관리](password-management-for-surface-hub-device-accounts.md)를 참조하세요.
 
-    ``` syntax
+    ```powershell
     Set-MsolUser -UserPrincipalName $strEmail -PasswordNeverExpires $True
     ```
 
@@ -214,13 +224,13 @@ Powershell에서 다음 모듈 설치
 
 2.  비즈니스용 Skype 서버에 Surface Hub 계정을 사용하도록 설정하려면 다음 cmdlet을 실행합니다.
 
-    ```PowerShell
+    ```powershell
     Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
     ```
 
-    사용자 환경의 `RegistrarPool` 매개 변수에 사용할 값이 확실하지 않은 경우 다음 cmdlet을 사용하여 기존 비즈니스용 Skype 사용자에서 값을 가져올 수 있습니다.
+     사용자 환경의 `RegistrarPool` 매개 변수에 사용할 값이 확실하지 않은 경우 다음 cmdlet을 사용하여 기존 비즈니스용 Skype 사용자에서 값을 가져올 수 있습니다.
 
-    ```PowerShell
+    ```powershell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
     ```
 
@@ -298,19 +308,19 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
 
 1.  계정의 메일 주소를 입력하고 해당 값을 가진 변수를 만들어야 합니다.
 
-    ``` syntax
+    ```powershell
     $mailbox = (Get-Mailbox <your device account’s alias>)
     ```
 
     사서함에서 가져온 값을 저장하려면
 
-    ``` syntax
+    ```powershell
     $strEmail = $mailbox.WindowsEmailAddress
     ```
 
     다음을 실행하여 값을 인쇄합니다.
 
-    ``` syntax
+    ```powershell
     $strEmail
     ```
 
@@ -318,38 +328,38 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
 
 2.  계정을 방 사서함으로 변환해야 하여 다음을 실행합니다.
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -Type Room
     ```
 
 3.  Surface Hub에서 디바이스 계정을 인증하려면 디바이스가 계정을 사용하여 ActiveSync를 통해 모임 정보를 가져오고 비즈니스용 Skype에 로그인할 수 있도록 회의실 사서함 계정을 사용하도록 설정하고 암호를 설정해야 합니다.
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -RoomMailboxPassword (ConvertTo-SecureString  -String "<your password>" -AsPlainText -Force) -EnableRoomMailboxAccount $true
     ```
 
 4.  디바이스 계정에서 다양한 Exchange 속성을 설정하여 모임 환경을 개선할 수 있습니다. [Exchange 속성](exchange-properties-for-surface-hub-device-accounts.md) 섹션에서 설정해야 하는 속성을 확인할 수 있습니다.
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
 
 5.  이제 AD에서 몇 가지 속성을 설정해야 합니다. 이렇게 하려면 계정 별칭이 필요합니다("@" 앞에 오는 UPN의 일부).
 
-    ``` syntax
+    ```powershell
     $strAlias = “<your device account’s alias>”
     ```
 
 6.  먼저 AD에서 사용자를 사용하도록 설정해야 Surface Hub에서 인증할 수 있습니다. 다음을 실행합니다.
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -Enabled $True
     ```
 
 7.  암호가 만료되지 않도록 하려는 경우 PowerShell cmdlet을 통해서도 설정할 수 있습니다. 자세한 내용은 [암호 관리](password-management-for-surface-hub-device-accounts.md)를 참조하세요.
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -PasswordNeverExpires $True
     ```
 
@@ -372,13 +382,13 @@ Exchange 관리 센터를 사용하여 디바이스 계정을 만들 수 있습�
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Surface Hub 계정 등록자 풀 검색
+2. Surface Hub 계정 등록자 풀을 검색합니다.
 
-사용자 환경의 `RegistrarPool` 매개 변수에 사용할 값이 확실하지 않은 경우 다음 cmdlet을 사용하여 기존 비즈니스용 Skype 사용자에서 값을 가져올 수 있습니다.
+   사용자 환경의 `RegistrarPool` 매개 변수에 사용할 값이 확실하지 않은 경우 다음 cmdlet을 사용하여 기존 비즈니스용 Skype 사용자에서 값을 가져올 수 있습니다.
 
- ```PowerShell
-    Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
- ```
+   ```PowerShell
+   Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
+   ```
 
 3. 비즈니스용 Skype 서버에 Surface Hub 계정을 사용하도록 설정하려면 다음 cmdlet을 실행합니다.
 

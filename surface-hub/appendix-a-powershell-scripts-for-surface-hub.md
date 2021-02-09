@@ -14,12 +14,12 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314431"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11317982"
 ---
 # Surface Hub용 PowerShell(v1)
 
@@ -68,11 +68,11 @@ ms.locfileid: "11314431"
 
 계정 생성 스크립트는 다음을 수행합니다.
 
--   관리자 자격 증명 요청
--   도메인/테넌트에 장치 계정 만들기
--   Surface Hub 호환 ActiveSync 정책 만들기 또는 장치 계정에 할당
+-   관리자 자격 증명을 요청합니다.
+-   도메인/테넌트에서 디바이스 계정을 생성합니다.
+-   Surface Hub 호환 ActiveSync 정책을 만들거나 디바이스 계정에 할당합니다.
 -   Exchange 및 비즈니스용 Skype에서 만든 계정의 다양한 특성 설정
--   만든 계정에 라이선스 및 사용 권한 할당
+-   만든 계정에 라이선스 및 사용 권한을 할당합니다.
 
 스크립트에서 설정되는 특성은 다음과 같습니다.
 
@@ -551,7 +551,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Office 365를 사용하여 장치 계정 만들기
 
-[Office 365를 사용하여 장치 계정 만들기](create-a-device-account-using-office-365.md)에 설명된 대로 계정을 만듭니다.
+[Office 365를](create-a-device-account-using-office-365.md)사용하여 장치 계정 만들기에 설명된 계정을 만듭니다.
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -998,7 +998,7 @@ else
 
 이 스크립트는 어떤 방법을 사용했든 상관없이 Surface Hub 및 Surface Hub 2S에서 이전에 만든 디바이스 계정의 유효성을 검사합니다. 이 스크립트는 기본적으로 성공/실패합니다. 테스트 중 하나에서 오류가 발생하면 자세한 오류 메시지가 표시되지만 모든 테스트에 성공하면 최종 결과로 요약 보고서가 작성됩니다. 예를 들어 다음과 같이 표시될 수 있습니다.
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings

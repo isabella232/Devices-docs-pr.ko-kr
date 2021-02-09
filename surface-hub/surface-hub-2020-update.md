@@ -11,37 +11,40 @@ audience: Admin
 ms.topic: article
 ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: c89063765462a76ae48d17e1480bbff29f48ebdc
-ms.sourcegitcommit: 8bca7edea5401dfc97614e18a058a023aa9497c4
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: 291a2eda0c1fa6e5e2fd2240861c8570d00054df
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "11254207"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319182"
 ---
 # Windows 10 Team 2020 업데이트 설치 
 
-Windows **10 버전 20H2를**기반으로 하는 새로운 Surface Hub 운영 체제인 Windows 10 Team 2020 Update를 이제 모든 Surface Hub 2S 디바이스에서 사용할 수 있습니다.  
+Windows 10 버전 20H2를 기반으로 하는 새로운 Surface Hub 운영 체제인 **Windows 10 Team 2020 Update를**Surface Hub 2S 및 원래 Surface Hub(v1)에서 사용할 수 있습니다. 
 
-- 참조: [알려진 문제: Windows 10 Team 2020 업데이트](surface-hub-2020-update.md)
+- 참조: [알려진 문제: Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
 
 ## 배포
 
 다음 방법 중 하나를 사용하여 Windows 2020 Update를 얻을 수 있습니다.
 
 - **비즈니스용 Windows 업데이트.**
-- **BMR(Bare Metal Recovery) 이미지.** 디바이스를 Azure Active Directory에 가입하거나 장치가 인터넷에서 업데이트를 수신하도록 허용하지 않는 고객에게 권장되는 옵션입니다. 시작하려면 [Surface에 대한 복구 이미지 다운로드를 참조합니다.](https://support.microsoft.com/surfacerecoveryimage)
+- **BMR(Bare Metal Recovery) 이미지.** 장치를 Azure Active Directory에 가입하거나 디바이스가 인터넷에서 업데이트를 수신하도록 허용하지 않는 고객에게 권장되는 옵션입니다. 시작하려면 [Surface에 대한 복구 이미지 다운로드를 참조합니다.](https://support.microsoft.com/surfacerecoveryimage)
 - **Windows 업데이트.** 가용성은 다음 표에 설명된 지역/국가에 따라 다릅니다.
 
 | 단계 | 국가/지역                         | 시작          |
 | ----- | -------------------------------------- | ----------------- |
-| 1     | NZ, 오스트레일리아, 캐나다, 벨기에, 멕시코 | 2020년 10월 27일  |
-| 2     | 영국, 일본, 스위스, 이탈리아          | 2020년 11월 10일 |
-| 3     | 미국, 독일                            | TBD |
-| 4     | 전역                                 | TBD  |
+| 1     | NZ, 오스트레일리아, 캐나다, 벨기에, 멕시코 | 2020년 10월  |
+| 2     | 영국, 일본, 스위스, 이탈리아          | 2020년 11월 |
+| 3     | 미국, 독일                            | 2021년 2월 말 |
+| 4     | 전역                                 | 2021년 2월 말 |
 
 ## Windows 10 Team Edition 버전 1703으로 Surface Hub 서비스 
 
-Windows 10 Team Edition 버전 1703에 대한 전체 서비스 지원은 2021년 3월 16일까지 계속될 예정입니다.
+[Windows 10 Team Edition 버전 1703에](https://support.microsoft.com/topic/november-12-2019-kb4525245-os-build-15063-2172-dfc81b85-11a6-54ef-4370-11408193419f) 대한 전체 서비스 지원은 2021년 3월 16일까지 계속될 예정입니다.
 
 ### 2S 장치 
 
@@ -49,7 +52,7 @@ Windows 10 Team Edition 버전 1703에 대한 전체 서비스 지원은 2021년
 
 ### V1 장치 
 
-이제 모든 지역의 고객은 Surface Hub 복구 도구를 사용하여 Surface Hub v1 장치를 2020 업데이트로 [업데이트할 수 있습니다.](surface-hub-recovery-tool.md) 이러한 장치를 Windows 10 Team 2020 업데이트로 업데이트하는 다른 방법이 곧 제공될 예정입니다. 자세한 내용은 [Surface IT Pro 블로그를 참조하세요.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update/ba-p/2000144)
+이제 모든 지역의 고객은 Surface Hub 복구 도구를 사용하여 Surface Hub v1 장치를 2020 업데이트로 [업데이트할 수 있습니다.](surface-hub-recovery-tool.md) 이러한 장치를 Windows 10 Team 2020 업데이트로 업데이트하는 다른 방법은 곧 제공될 예정입니다. 자세한 내용은 [Surface IT Pro 블로그를 참조하세요.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
  
 ## 새로운 것
 
@@ -70,5 +73,5 @@ Windows 10 Team 2020 업데이트를 설치하기 전에 장치와 연결된 Bit
 
 ## 자세히 알아보기
 
-- [알려진 문제: Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
-- [Surface Hub Windows 10 Team 2020 업데이트의 중요 업데이트](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)
+- [Windows 10 Team 2020 업데이트의 새로운 기능](surface-hub-2020-update-whats-new.md)
+- [Windows 10 Team 출시 업데이트](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
