@@ -1,0 +1,29 @@
+- name: Surface Duo
+  href: index.yml
+  items:
+    - name: 개요
+      items:
+        - name: Surface Duo 관리 개요
+          href: surface-duo-manage.md
+        - name: Surface Duo 보안 개요
+          href: surface-duo-secure.md
+        - name: Surface Duo 기술 스펙
+          href: 'https://www.microsoft.com/surface/business/surface-duo'
+    - name: 보안
+      items:
+        - name: Android Enterprise 보안 구성 프레임워크
+          href: 'https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework'
+    - name: 관리
+      items:
+        - name: Surface Duo의 작업 프로필 구성
+          href: surface-duo-config-work-profile.md
+        - name: Surface Duo용 Microsoft Launcher 구성
+          href: surface-duo-launcher-config.md
+    - name: 지원
+      items:
+        - name: Surface Duo 지원 연락처
+          href: contact-surface-duo-support.md
+        - name: 보증 서비스
+          href: surface-lifecycle-android-devices.md
+        - name: Android 기반 장치용 Surface 수명 주기
+          href: 'https://www.microsoft.com/surface/business/warranty-service-offerings-and-support'
