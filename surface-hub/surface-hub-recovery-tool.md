@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2020
+ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 9df9de731ac5c8f8acb393db3d4b16e9d1c98a9e
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11312034"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327342"
 ---
 # Surface Hub 복구 도구 사용
 
@@ -34,7 +34,7 @@ ms.locfileid: "11312034"
 
 ### Mandatory
 
-- 64비트 버전의 Windows 10 버전 1607 이상을 실행하는 호스트 PC
+- 64비트 버전의 Windows 10 버전 1607 이상을 실행하는 호스트 PC.
 - 인터넷 액세스
 - USB 2.0 이상 포트 열기
 - USB-SATA 케이블
@@ -53,9 +53,12 @@ ms.locfileid: "11312034"
 
 ## Surface Hub 복구 도구 다운로드
 
-Surface Hub 복구 도구는 [IT용 Surface Hub 도구의](https://www.microsoft.com/download/details.aspx?id=52210) 파일 이름 아래에서 다운로드할 수 **SurfaceHub_Recovery_v2.0.139.0.msi. **
+Surface Hub 복구 도구는 [IT용 Surface Hub 도구의](https://www.microsoft.com/download/details.aspx?id=52210) 파일 이름 아래에서 다운로드할 수 **SurfaceHub_Recovery_v2.7.139.0.msi. **
 
-다운로드를 시작하려면 **다운로드를**클릭하고 **목록에서**SurfaceHub_Recovery_v2.0.139.0.msi선택하고 다음을 **클릭합니다.** 팝업에서 다음 중 하나를 선택하십시오.
+> [!IMPORTANT]
+> 2021년 2월 11일 릴리스된 이 버전은 더 이상 기능이 없는 이전 빌드를 대체합니다. 이 도구를 이전에 다운로드한 경우 현재 버전을 삭제하고 사용하세요.
+
+다운로드를 시작하려면 **다운로드를**클릭하고 **목록에서**SurfaceHub_Recovery_v2.7.139.0.msi선택하고 다음을 **클릭합니다.** 팝업에서 다음 중 하나를 선택하십시오.
 
 - **실행을** 클릭하여 설치를 즉시 시작합니다.
 - 나중에 **설치할** 수 있도록 저장을 클릭하여 컴퓨터에 다운로드를 복사합니다.
@@ -105,14 +108,26 @@ Surface Hub 복구 도구는 [IT용 Surface Hub 도구의](https://www.microsoft
 --- | ---
 도구가 SSD 이미지에 실패 | 팩터리 제공 SSD와 테스트된 케이블 중 하나를 사용하고 있는지 확인
 다시imaging 프로세스가 중단/고정된 것으로 표시 | SSD에 영향을 주지 않는 Surface Hub 복구 도구를 닫았다가 다시 시작하는 것이 안전합니다.
-도구에서 드라이브를 인식하지 못합니다. | Surface Hub SSD가 "LITEON L CH-128V2S USB 장치Lite-On 드라이브로 열에 있는지 확인합니다.  드라이브가 다른 명명된 장치로 인식되는 경우 현재 케이블이 호환되지 않습니다. 위에 나열된 다른 케이블 또는 테스트된 케이블 중 하나를 시도합니다.
-오류: -2147024809 | 디스크 관리자를 열고 Surface Hub 드라이브에서 파티션을 제거합니다.  드라이브 연결을 끊고 호스트 컴퓨터로 다시 연결합니다. 이미징 도구를 다시 시작합니다.
+도구에서 드라이브를 인식하지 못합니다. | Surface Hub SSD가 "LITEON L CH-128V2S USB Lite-On" 드라이브로 열에 있는지 확인합니다.  드라이브가 다른 명명된 장치로 인식되는 경우 현재 케이블이 호환되지 않습니다. 위에 나열된 다른 케이블 또는 테스트된 케이블 중 하나를 시도합니다.
+오류: -2147024809 | 디스크 관리자를 열고 Surface Hub 드라이브에서 파티션을 제거합니다.  드라이브를 분리하고 호스트 컴퓨터와 다시 연결합니다. 이미징 도구를 다시 시작합니다.
 
 이 도구가 드라이브를 다시 이미징하지 못하면 Surface Hub 지원에 [문의하세요.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
 ## 버전 기록
 
+
+### 버전 v2.7.139.0
+
+*릴리스 날짜: 2021년 2월 11일*<br>
+이 버전의 Surface Hub 복구 도구는 다음에 대한 지원을 추가합니다.
+
+- 보안 업데이트
+
+
 ### 버전 v2.0.139.0
+
+> [!IMPORTANT]
+> 이 버전은 더 이상 작동하지 않습니다. 위에 나열된 현재 버전을 다운로드하십시오. 
 
 *릴리스 날짜: 2020년 12월 18일*<br>
 이 버전의 Surface Hub 복구 도구는 다음에 대한 지원을 추가합니다.
