@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6b5dac9f418207293e3b9b386d59fd26762feb72
-ms.sourcegitcommit: 4b1cfcac090910a3ea634929942063eb51fc54f9
+ms.openlocfilehash: 3b3b5ed47e3a34369c6890aac051436db1f42347
+ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "11206302"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "11328212"
 ---
 # Intune으로 Surface Hub 2S 관리하기
 
@@ -40,13 +40,13 @@ Surface Hub 2S에서는 IT 관리자가 MDM(모바일 장치 관리) 공급자�
 
 ## Intune을 사용하여 Windows 10 Team 설정 관리
 
-1. Microsoft **Endpoint Manager에 로그인하고** **장치 구성**  >  **프로필 만들기**  >  **프로필을 선택합니다.** 
+1. Microsoft **Endpoint Manager에 로그인하고** **장치**구성  >  **프로필 만들기**  >  **프로필을 선택합니다.** 
 2. 플랫폼에서 **Windows 10 이상**장치 ****  >  **제한(Windows 10 Team)을** 선택한 다음 만들기를 **선택합니다.** 
 3. 이제 Surface Hub 및 Surface Hub 2S에 대한 미리 설정한 장치 제한 설정을 찾아 선택할 수 있습니다.
 
  ![Surface Hub 2S에 대한 장치 제한을 설정합니다.](images/sh2-set-intune3.png) <br>
 
-이러한 설정은 앱 및 환경, Azure 운영 인사이트, 유지 관리, 세션 및 무선 투영 범주에 걸쳐 있습니다.  
+이러한 설정은 앱 및 환경, Azure 운영 정보, 유지 관리, 세션 및 무선 투영 범주에 걸쳐 있습니다.  
 
 ## 지원되는 CSP(구성 서비스 공급자)
 
@@ -73,22 +73,29 @@ Surface Hub 2S에서 최적의 비디오 및 오디오 품질을 보장하려면
 |**오디오 DSCP**| 오디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | 정수 | 46 |
 |**비디오 포트**| 비디오 포트 범위 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DestinationPortMatchCondition | 문자열  | 3480 |
 |**비디오 DSCP**| 비디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction | 정수 | 34 |
+|**공유 포트**| 포트 범위 공유 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DestinationPortMatchCondition | 문자열  | 3481 |
+|**DSCP 공유**| 포트 표시 공유 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction | 정수 | 18 |
 |**P2P 오디오 포트**| 오디오 포트 범위 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DestinationPortMatchCondition | 문자열  | 50000-50019 |
 |**P2P 오디오 DSCP**| 오디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction | 정수 | 46 |
 |**P2P 비디오 포트**| 비디오 포트 범위 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DestinationPortMatchCondition | 문자열  | 50020-50039 |
 |**P2P 비디오 DSCP**| 비디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction | 정수 | 34 |
+|**P2P 공유 포트**| 포트 범위 공유 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DestinationPortMatchCondition | 문자열  | 50040-50059 |
+|**P2P 공유 DSCP**| 포트 표시 공유 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction | 정수 | 18 |
 
 
 ### 비즈니스용 Skype QoS 설정
 
-| 이름               | 설명         | OMA-URI                                                                  | 형식    | 값                          |
-| ------------------ | ------------------- | ------------------------------------------------------------------------ | ------- | ------------------------------ |
-| 오디오 포트        | 오디오 포트 범위    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition  | 문자열  | 50000-50019                    |
-| 오디오 DSCP         | 오디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                | 정수 | 46                             |
-| 오디오 미디어 원본 | Skype 앱 이름      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition | 문자열  | Microsoft.PPISkype.Windows.exe |
-| 비디오 포트        | 비디오 포트 범위    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition  | 문자열  | 50020-50039                    |
-| 비디오 DSCP         | 비디오 포트 표시 | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                | 정수 | 34                             |
-| 비디오 미디어 원본 | Skype 앱 이름      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition | 문자열  | Microsoft.PPISkype.Windows.exe |
+| 이름                 | 설명           | OMA-URI                                                                    | 형식    | 값                          |
+| -------------------- | --------------------- | -------------------------------------------------------------------------- | ------- | ------------------------------ |
+| 오디오 포트          | 오디오 포트 범위      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition    | 문자열  | 50000-50019                    |
+| 오디오 DSCP           | 오디오 포트 표시   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                  | 정수 | 46                             |
+| 오디오 미디어 원본   | Skype 앱 이름        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition   | 문자열  | Microsoft.PPISkype.Windows.exe |
+| 비디오 포트          | 비디오 포트 범위      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition    | 문자열  | 50020-50039                    |
+| 비디오 DSCP           | 비디오 포트 표시   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                  | 정수 | 34                             |
+| 비디오 미디어 원본   | Skype 앱 이름        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition   | 문자열  | Microsoft.PPISkype.Windows.exe |
+| 포트 공유        | 포트 범위 공유    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/SourcePortMatchCondition  | 문자열  | 50040-50059                    |
+| DSCP 공유         | 포트 표시 공유 | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/DSCPAction                | 정수 | 18                             |
+| 미디어 원본 공유 | Skype 앱 이름        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/AppPathNameMatchCondition | 문자열  | Microsoft.PPISkype.Windows.exe |
 
 > [!NOTE]
 > 두 표 모두 기본 포트 범위를 보여줍니다. 관리자는 비즈니스용 Skype 및 Teams 제어판에서 포트 범위를 변경할 수 있습니다.
@@ -114,4 +121,4 @@ Surface Hub 2S는 Microsoft Teams와 비즈니스용 Skype를 모두 지원하�
 
 ### 조정된 모임 및 근접 참가
 
-Teams 협정 모임 및 근접 참가 기능은 Intune 프로필을 통해 배포된 [XML](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) 파일을 통해 구성할 수 있습니다.
+Teams 조정된 모임 및 근접 참가 기능은 Intune 프로필을 통해 배포된 [XML](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) 파일을 통해 구성할 수 있습니다.
