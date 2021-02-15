@@ -37,7 +37,7 @@
 ### [Surface Pro X 앱 호환성](surface-pro-arm-app-performance.md)
 ### [Surface 드라이버 및 펌웨어 업데이트 관리 및 배포](manage-surface-driver-and-firmware-updates.md)
 ### [Surface 배포 가속기](microsoft-surface-deployment-accelerator.md)
-### [MDT를 사용하여 Surface 디바이스로 Windows10 배포](deploy-windows-10-to-surface-devices-with-mdt.md)
+### [MDT를 사용하여 Surface 디바이스로 Windows 10 배포](deploy-windows-10-to-surface-devices-with-mdt.md)
 ### [MDT 배포 중 Surface Laptop 키보드 사용](enable-surface-keyboard-for-windows-pe-deployment.md)
 ### [MDT를 사용하여 Windows 10으로 Surface 장치 업그레이드](upgrade-surface-devices-to-windows-10-with-mdt.md)
 ### [Surface 배포용 OOBE 사용자 지정](customize-the-oobe-for-surface-deployments.md)
@@ -81,8 +81,8 @@
 ### [최종 사용자를 위한 도움말](https://support.microsoft.com/products/surface-devices)
 ### [Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기](surface-driver-firmware-lifecycle-support.md)
 
-## 무상 수리 및 확장 서비스 플랜
-### [Surface for Business 무상 수리 및 확장 서비스 플랜](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+## 보증 및 보호 계획
+### [비즈니스용 Surface 보증 및 보호 계획](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [사용 약관](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
 ### [장치 무상 수리 상태 확인](https://mybusinessservice.surface.com/)
 ### [서비스를 위해 Surface를 보낼 때 데이터 보호](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
