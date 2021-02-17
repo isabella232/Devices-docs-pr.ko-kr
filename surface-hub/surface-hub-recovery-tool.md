@@ -12,16 +12,16 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
-ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
+ms.openlocfilehash: 0cc444eab51e9c3cc0bf2f9c2f0c36ac491906b1
+ms.sourcegitcommit: 7b09b4bc757c5385c4f5560713cb03448afde9ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "11327342"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "11339369"
 ---
 # Surface Hub 복구 도구 사용
 
-[Microsoft Surface Hub 복구 도구를](https://www.microsoft.com/download/details.aspx?id=52210) 사용하면 지원을 호출하거나 SSD를 교체하지 않고 Windows 10 데스크톱 장치를 사용하여 Surface Hub SSD(Solid State Drive)를 다시 이미지로 만듭니다. 이 도구를 사용하면 알 수 없는 관리자 암호, 부팅 오류, 클라우드 복구를 완료할 수 없는 SSD 또는 이전 버전의 운영 체제가 있는 장치의 경우 SSD를 다시 설치합니다. 이 도구는 물리적으로 손상된 SSD를 수정하지 않습니다.
+[Microsoft Surface Hub 복구 도구를](https://www.microsoft.com/download/details.aspx?id=52210) 사용하면 지원을 호출하거나 SSD를 교체하지 않고 Windows 10 데스크톱 장치를 사용하여 Surface Hub SSD(Solid State Drive)를 다시 이미지로 만듭니다. 이 도구를 사용하면 알 수 없는 관리자 암호, 부팅 오류, 클라우드 복구를 완료할 수 없는 SSD 또는 이전 버전의 운영 체제가 있는 장치의 경우 SSD를 다시 이미상화할 수 있습니다. 이 도구는 물리적으로 손상된 SSD를 수정하지 않습니다.
 
 복구 도구를 사용하여 Surface Hub SSD를 다시 이미지화하려면 Surface Hub에서 SSD를 제거하고 드라이브를 USB-SATA 케이블에 연결한 다음 복구 도구가 설치된 데스크톱 PC에 케이블을 연결해야 합니다. Surface Hub에서 기존 드라이브를 제거하는 방법에 대한 자세한 내용은 [Surface Hub SSD 교체를 참조하세요.](surface-hub-ssd-replacement.md)
 
@@ -39,7 +39,7 @@ ms.locfileid: "11327342"
 - USB 2.0 이상 포트 열기
 - USB-SATA 케이블
 - 호스트 컴퓨터의 10GB의 사용성 있는 디스크 공간
-- Surface Hub 또는 지원 서비스에서 대체로 제공하는 SSD와 함께 제공되는 SSD입니다. Microsoft에서 제공하지 않는 SSD는 지원되지 않습니다.
+- Surface Hub 또는 지원 서비스에서 대체 제품으로 제공하는 SSD와 함께 제공되는 SSD입니다. Microsoft에서 제공하지 않는 SSD는 지원되지 않습니다.
 
 ### 권장 사항
 
@@ -56,12 +56,12 @@ ms.locfileid: "11327342"
 Surface Hub 복구 도구는 [IT용 Surface Hub 도구의](https://www.microsoft.com/download/details.aspx?id=52210) 파일 이름 아래에서 다운로드할 수 **SurfaceHub_Recovery_v2.7.139.0.msi. **
 
 > [!IMPORTANT]
-> 2021년 2월 11일 릴리스된 이 버전은 더 이상 기능이 없는 이전 빌드를 대체합니다. 이 도구를 이전에 다운로드한 경우 현재 버전을 삭제하고 사용하세요.
+> 2021년 2월 11일 릴리스된 이 버전은 더 이상 기능이 없는 이전 빌드를 대체합니다. 이 도구를 이전에 다운로드한 경우 이 도구를 제거하고 현재 버전을 설치하세요.
 
 다운로드를 시작하려면 **다운로드를**클릭하고 **목록에서**SurfaceHub_Recovery_v2.7.139.0.msi선택하고 다음을 **클릭합니다.** 팝업에서 다음 중 하나를 선택하십시오.
 
 - **실행을** 클릭하여 설치를 즉시 시작합니다.
-- 나중에 **설치할** 수 있도록 저장을 클릭하여 컴퓨터에 다운로드를 복사합니다.
+- 나중에 **설치할** 수 있도록 저장을 클릭하여 다운로드를 컴퓨터에 복사합니다.
 
 호스트 PC에 Surface Hub 복구 도구를 설치합니다.
 
@@ -90,7 +90,7 @@ Surface Hub 복구 도구는 [IT용 Surface Hub 도구의](https://www.microsoft
 
 
 
-5. 다운로드가 완료되면 이 도구는 SSD 드라이브를 연결합니다. 도구가 연결된 드라이브를 찾을 수 없는 경우 사용되는 케이블이 SSD의 이름을 Windows에 보고하지 않을 가능성이 있습니다.  이미징 도구는 드라이브 이름을 "LITEON L CH-128V2S USB Device"로 찾아야 계속할 수 있습니다.  Surface Hub에서 기존 드라이브를 제거하는 방법에 대한 자세한 내용은 [Surface Hub SSD 교체를 참조하세요.](surface-hub-ssd-replacement.md)
+5. 다운로드가 완료되면 이 도구는 SSD 드라이브를 연결합니다. 도구가 연결된 드라이브를 찾을 수 없는 경우 사용되고 있는 케이블이 SSD의 이름을 Windows에 보고하지 않을 가능성이 있습니다.  이미징 도구는 드라이브 이름을 "LITEON L CH-128V2S USB Device"로 찾아야 계속할 수 있습니다.  Surface Hub에서 기존 드라이브를 제거하는 방법에 대한 자세한 내용은 [Surface Hub SSD 교체를 참조하세요.](surface-hub-ssd-replacement.md)
 
     ![SSD 연결](images/shrt-drive.png)
 
