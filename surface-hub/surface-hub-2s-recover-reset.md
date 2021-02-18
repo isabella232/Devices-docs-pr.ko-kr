@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 88f5d912f7505aecaa5bd7ba659acab2d6c4fa1a
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
+ms.openlocfilehash: 64ceee291d3d3e067f581707d9431fa92398c785
+ms.sourcegitcommit: ecb4909c091e69b7bdb1faacfc8c34b480dc884b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304811"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "11342978"
 ---
 # Surface Hub 2S 초기화 및 복구
 
@@ -27,11 +27,11 @@ Surface Hub 2S에 문제가 발생하면 장치를 공장 설정으로 초기화
 ## 장치 초기화
 
    > [!IMPORTANT]
-   > 디바이스를 초기화하기 전에 BitLocker 키를 사용할 수 있도록 합니다. 나중에 요청이 표시되기 전에 이 키를 사용할 수 있도록 합니다. 자세한 내용은 [BitLocker 키 저장을 참조합니다.](save-bitlocker-key-surface-hub.md)
+   > 디바이스를 초기화하기 전에 BitLocker 키를 사용할 수 있도록 하세요. 나중에 다시 묻는 메시지가 표시되기도 합니다. 자세한 내용은 [BitLocker 키 저장을 참조합니다.](save-bitlocker-key-surface-hub.md)
 
 1. 디바이스를 초기화하려면 **시작을 선택합니다.**
 
-2. 이 장치 **초기화 준비 완료 창이** 나타나면 재설정을 **선택합니다.** 
+2. 이 장치 **창을 초기화할** 준비가 되면 초기화를 **선택합니다.** 
   
    > [!IMPORTANT]
    > 허브가 복구 파티션에 다시 시작하면 BitLocker 키를 입력하라는 메시지가 표시됩니다. 이 프롬프트를 건너뛰면 재설정이 실패합니다. BitLocker 키를 입력하면 허브가 복구 파티션에서 운영 체제를 다시 설치합니다. 완료하는 데 최대 1시간이 걸릴 수 있습니다.
@@ -57,11 +57,25 @@ Surface Hub 2S를 사용하여 복구 이미지를 사용하여 디바이스를 
 
 1. 별도의 PC에서 [Surface 복구](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) 웹 사이트에서 .zip 파일 복구 이미지를 다운로드한 다음 다음 지침으로 돌아오세요. 
 
-1. 다운로드한 파일의 파일을 USB 드라이브의 루트에 언스파이프합니다.  
+1. 작업 표시줄의 검색 상자에서 **** 복구 드라이브를 **** 입력한 다음 결과에서 복구 드라이브 또는 복구 드라이브 **만들기를** 선택합니다. 관리자 암호를 입력하거나 선택을 확인해야 할 수 있습니다.
 
-1. Usb 드라이브를 Surface Hub 2S의 USB-C 또는 USB-A 포트에 연결합니다.
+1. 사용자 계정 **컨트롤 상자에서** 예를 **선택합니다.**
 
-1. 디바이스를 끄는 경우:
+1. 시스템 파일을 복구 **** 드라이브에 백업 확인란의 선택을 취소하고 다음을 **선택합니다.**
+
+1. USB 드라이브를 선택하고 다음 > **선택합니다.**  일부 유틸리티는 복구 드라이브에 복사해야 하여 몇 분 정도 걸릴 수 있습니다.
+
+1. 복구 드라이브가 준비되면 마친 **다음을 선택합니다.**
+
+1. 이전에 다운로드한 복구 이미지 .zip 파일을 두 번 클릭하여 열 수 있습니다.
+
+1. 복구 이미지 폴더에서 모든 파일을 선택하고 USB 드라이브의 루트에 복사한 다음 대상의 파일을 바꾸기 선택을 **선택합니다.**
+
+1. 파일 복사가 완료되면 작업 표시줄에서 하드웨어 제거 및 미디어 제거 아이콘을 선택하고 USB 드라이브를 제거합니다. ****
+
+1. USB 드라이브를 Surface Hub 2S의 USB-C 또는 USB-A 포트에 연결합니다.
+
+1. 허브를 끄고 USB 드라이브에서 부팅하기 위해 다음 단계를 수행합니다.
 
    1. 볼륨 아래로 단추를 누를 때 전원 단추를 누릅니다.
    1. Windows 로고가 표시될 때까지 두 단추를 계속 누릅니다.
@@ -78,4 +92,4 @@ Surface Hub 2S를 사용하여 복구 이미지를 사용하여 디바이스를 
 
 ## 고객 지원
 
-질문이나 도움이 필요한 경우 지원 요청을 [만들 수 있습니다.](https://support.microsoft.com/supportforbusiness/productselection)
+질문이나 도움이 필요한 경우 지원 [요청을 만들 수 있습니다.](https://support.microsoft.com/supportforbusiness/productselection)
