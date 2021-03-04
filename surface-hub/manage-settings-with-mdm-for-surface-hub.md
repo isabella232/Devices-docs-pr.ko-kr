@@ -10,35 +10,35 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/07/2018
+ms.date: 03/03/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 2bee8b58b7978923c6e60e43f9e10a85dc4bec06
-ms.sourcegitcommit: 17170c03206d190851b5f8e794fcc83ebbed7b5f
+ms.openlocfilehash: d09a95d25b4f4ae86d64acd7d7f16f004f991ce3
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "11103904"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387499"
 ---
-# MDM 공급자 설정 관리(Surface Hub)
+# <a name="manage-settings-with-an-mdm-provider-surface-hub"></a>MDM 공급자 설정 관리(Surface Hub)
 
 Surface Hub 및 기타 Windows10 디바이스에서는 IT 관리자가 MDM(모바일 디바이스 관리) 공급자를 사용하여 설정 및 정책을 관리할 수 있습니다. 기본 제공 관리 구성 요소는 관리 서버와 통신하므로 디바이스에 추가 클라이언트를 설치할 필요가 없습니다. 자세한 내용은 [Windows10 Mobile 디바이스 관리](https://msdn.microsoft.com/library/windows/hardware/dn914769.aspx)를 참조하세요.
 
-Surface Hub는 Microsoft의 자사 MDM 공급자로 확인 되었습니다.
+Surface Hub는 Microsoft의 첫 번째 MDM 공급자를 통해 유효성이 검사됩니다.
 - Microsoft Intune 독립 실행형
-- Microsoft Endpoint Configuration Manager를 사용 하는 온-프레미스 MDM
+- Microsoft Endpoint Configuration Manager를 통해 사내 MDM
 
 MDM 프로토콜을 사용하여 Windows 10과 통신할 수 있는 타사 MDM 공급자를 통해 Surface Hub를 관리할 수도 있습니다.
 
-## <a href="" id="enroll-into-mdm"></a>MDM에 Surface Hub 등록
-대량, 수동 또는 자동 등록을 사용 하 여 Surface Hub를 등록할 수 있습니다.
+## <a name="enroll-a-surface-hub-into-mdm"></a><a href="" id="enroll-into-mdm"></a>MDM에 Surface Hub 등록
+대량, 수동 또는 자동 등록을 사용하여 Surface Hub를 등록할 수 있습니다.
 
-### 대량 등록
+### <a name="bulk-enrollment"></a>대량 등록
 **대량 등록을 구성하려면**
 - Surface Hub는 MDM에 대한 대량 등록을 위해 [프로비저닝 CSP](https://msdn.microsoft.com/library/windows/hardware/mt203665.aspx)를 지원합니다. 자세한 내용은 [Windows10 대량 등록](https://msdn.microsoft.com/library/windows/hardware/mt613115.aspx)을 참조하세요.<br>
 - 또는 -
-- 온-프레미스 Microsoft Endpoint Configuration Manager 인프라가 있는 경우 [Microsoft 끝점 구성 관리자에서 온-프레미스 모바일 장치 관리를 사용 하 여 디바이스를 대량으로 등록 하는 방법을](https://docs.microsoft.com/configmgr/mdm/deploy-use/bulk-enroll-devices-on-premises-mdm)참조 하세요.
+- Microsoft Endpoint Configuration Manager 인프라가 있는 경우 [Microsoft Endpoint Configuration Manager에서 On-premises Mobile Device Management를](https://docs.microsoft.com/configmgr/mdm/deploy-use/bulk-enroll-devices-on-premises-mdm)사용하여 디바이스를 대량 등록하는 방법을 참조하세요.
 
-### 수동 등록
+### <a name="manual-enrollment"></a>수동 등록
 **수동 등록을 구성하려면**
 1. Surface Hub에서 **설정**을 엽니다.
 2. 메시지가 표시되면 디바이스 관리자 자격 증명을 입력합니다.
@@ -46,21 +46,21 @@ MDM 프로토콜을 사용하여 Windows 10과 통신할 수 있는 타사 MDM �
 4. **장치 관리**에서 **+ 장치 관리**를 선택합니다.
 5. 대화 상자의 지침에 따라 MDM 공급자에 연결합니다.
 
-### Azure Active Directory join을 통한 자동 등록
+### <a name="automatic-enrollment-via-azure-active-directory-join"></a>Azure Active Directory 가입을 통한 자동 등록
 
-Surface Hub는 이제 디바이스를 Azure Active Directory에 가입 하 여 Intune에 자동으로 등록 하는 기능을 지원 합니다. 
+Surface Hub는 이제 디바이스를 Azure Active Directory에 가입하여 Intune에 자동으로 등록하는 기능을 지원합니다. 
 
-첫 번째 단계는 자동 MDM 등록을 설정 하는 것입니다. [Windows 10 자동 등록 사용](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)을 참조 하세요.
+첫 번째 단계는 자동 MDM 등록을 설정하는 단계입니다. [Windows 10 자동 등록 사용 을 참조합니다.](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)
 
-그런 다음 처음 실행 하는 동안 장치를 설정 하는 경우 Azure Active Directory에 참가 하는 옵션을 선택 하 고 [이 장치에 대 한 관리자 설정 페이지](https://docs.microsoft.com/surface-hub/first-run-program-surface-hub#set-up-admins-for-this-device-page) 를 참조 하세요.
+그런 다음 첫 실행 중에 디바이스를 설정할 때 Azure Active Directory에 가입하는 옵션을 선택합니다. 이 디바이스에 대한 관리자 설정 [페이지를 참조하세요.](https://docs.microsoft.com/surface-hub/first-run-program-surface-hub#set-up-admins-for-this-device-page)
 
-## MDM으로 Surface Hub 설정 관리
+## <a name="manage-surface-hub-settings-with-mdm"></a>MDM으로 Surface Hub 설정 관리
 
-MDM을 사용하여 일부 [Surface Hub CSP 설정](#supported-surface-hub-csp-settings) 및 일부 [Windows10 설정](#supported-windows-10-settings)을 관리할 수 있습니다. 사용하는 MDM 공급자에 따라 기본 제공 사용자 인터페이스를 사용하거나 사용자 지정 SyncML을 배포하여 이러한 설정을 구성할 수 있습니다. Microsoft Intune 및 Microsoft Endpoint Configuration Manager는 Surface Hub에 대 한 정책 템플릿을 만드는 데 도움이 되는 기본 제공 환경을 제공 합니다. MDM 공급자가 제공하는 설명서를 참조하여 SyncML을 만들고 배포하는 방법을 알아봅니다.
+MDM을 사용하여 일부 [Surface Hub CSP 설정](#supported-surface-hub-csp-settings) 및 일부 [Windows10 설정](#supported-windows-10-settings)을 관리할 수 있습니다. 사용하는 MDM 공급자에 따라 기본 제공 사용자 인터페이스를 사용하거나 사용자 지정 SyncML을 배포하여 이러한 설정을 구성할 수 있습니다. Microsoft Intune 및 Microsoft Endpoint Configuration Manager는 Surface Hub에 대한 정책 템플릿을 만드는 데 도움이 되는 기본 제공 환경을 제공합니다. MDM 공급자가 제공하는 설명서를 참조하여 SyncML을 만들고 배포하는 방법을 알아봅니다.
 
-### 지원되는 Surface Hub CSP 설정
+### <a name="supported-surface-hub-csp-settings"></a>지원되는 Surface Hub CSP 설정
 
-MDM을 사용하여 다음 표의 Surface Hub 설정을 구성할 수 있습니다. 이 표에서는 해당 설정이 Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 SyncML에서 지원 되는지 확인 합니다.
+MDM을 사용하여 다음 표의 Surface Hub 설정을 구성할 수 있습니다. 이 표에서는 Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 SyncML에서 설정이 지원되는지 식별합니다.
 
 자세한 내용은 [SurfaceHub 구성 서비스 공급자](https://msdn.microsoft.com/library/windows/hardware/mt608323)를 참조하세요. 
 
@@ -74,7 +74,7 @@ MDM을 사용하여 다음 표의 Surface Hub 설정을 구성할 수 있습니�
 |                 무선 프로젝션에 사용할 Miracast 채널                  |                                               InBoxApps/WirelessProjection/Channel                                               |                       예                        | 예.<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 |              Operations Management Suite 작업 영역에 연결               |                                         MOMAgent/WorkspaceID <br> MOMAgent/WorkspaceKey                                          |                       예                        | 예.<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 |                         시작 화면 배경 이미지                          |                                             InBoxApps/Welcome/CurrentBackgroundPath                                              |                       예                        | 예.<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
-|               시작 화면에 표시되는 모임 정보                |                                               InBoxApps/Welcome/MeetingInfoOption                                                |                       예                        | 예.<br> [사용자 지정 설정을 사용 합니다.] (#example-surface-hub-설정-microsoft-끝점-구성-관리자 |             예             |
+|               시작 화면에 표시되는 모임 정보                |                                               InBoxApps/Welcome/MeetingInfoOption                                                |                       예                        | 예.<br> [사용자 지정 설정 사용.] (#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager |             예             |
 |                      무선 프로젝션의 이름                       |                                                     Properties/FriendlyName                                                      | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 |                   장치 계정                                                 | DeviceAccount/*`<name_of_policy>`* <br> [SurfaceHub CSP](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)를 참조하세요. |                        아니요                        |                       아니오                        |             예             |
 |                               Skype 도메인 지정                               |                                              InBoxApps/SkypeForBusiness/DomainName                                               |                    예 </br>                     | 예.<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
@@ -92,13 +92,13 @@ MDM을 사용하여 다음 표의 Surface Hub 설정을 구성할 수 있습니�
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-### 지원되는 Windows 10 설정
+### <a name="supported-windows-10-settings"></a>지원되는 Windows 10 설정
 
 Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많은 설정이 있습니다. 이러한 설정은 [구성 서비스 공급자 참조](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference)에서 정의됩니다. 
 
-다음 표에는 Surface Hub에서 유효성이 검사된 Windows10 설정의 정보가 포함됩니다. 보안, 브라우저, Windows 업데이트, Windows Defender, 원격 다시 시작, 인증서 및 로그 영역에 대한 설정이 포함된 표가 있습니다. 각 테이블은 Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 SyncML에서 설정이 지원 되는지 여부를 식별 합니다.
+다음 표에는 Surface Hub에서 유효성이 검사된 Windows10 설정의 정보가 포함됩니다. 보안, 브라우저, Windows 업데이트, Windows Defender, 원격 다시 시작, 인증서 및 로그 영역에 대한 설정이 포함된 표가 있습니다. 각 테이블은 Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 SyncML에서 설정이 지원되는지 식별합니다.
 
-#### 보안 설정
+#### <a name="security-settings"></a>보안 설정
 
 |      설정       |                                            세부 정보                                             |                                                                          CSP 참조                                                                           |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |--------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
@@ -111,7 +111,7 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다. 
 
-#### 브라우저 설정
+#### <a name="browser-settings"></a>브라우저 설정
 
 |                          설정                          |                                                                        세부 정보                                                                        |                                                                             CSP 참조                                                                              |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
@@ -121,13 +121,13 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 |                    Do Not Track 허용                     |                                                          Do Not Track 헤더를 사용하도록 설정하는 데 사용합니다.                                                          |                          [브라우저/AllowDoNotTrack](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowDoNotTrack)                          | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 |                       팝업 허용                       |                                                         팝업 브라우저 창을 차단하는 데 사용합니다.                                                          |                              [Browser/AllowPopups](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowPopups)                              | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 |                 검색 제안 허용                  |                                                  주소 표시줄에서 검색 제안을 차단하는 데 사용합니다.                                                  |       [브라우저/AllowSearchSuggestionsinAddressBar](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowSearchSuggestionsinAddressBar)       | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
-|                     Windows Defender SmartScreen 허용                     |                                                       Windows Defender SmartScreen을 켜려면이 기능을 사용 하도록 설정 하세요.                                                       |                         [브라우저/AllowSmartScreen](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowSmartScreen)                         | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
-| 웹 사이트에 대 한 Windows Defender SmartScreen 경고 무시 방지 |     추가 보안을 위해 사용자가 Windows Defender SmartScreen 경고를 무시 하 고 잠재적으로 악의적인 웹 사이트에 액세스 하지 못하도록 차단 하는 데 사용 합니다.     |         [Browser/PreventSmartScreenPromptOverride](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_PreventSmartScreenPromptOverride)         | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
-|  파일에 대 한 Windows Defender SmartScreen 경고 무시 방지   | 추가 보안을 위해 사용자가 Windows Defender SmartScreen 경고를 무시 하는 것을 중지 하 고 Microsoft Edge에서 확인 되지 않은 파일을 다운로드 하는 것을 차단 합니다. | [Browser/PreventSmartScreenPromptOverrideForFiles](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_PreventSmartScreenPromptOverrideForFiles) | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
+|                     SmartScreen Windows Defender 허용                     |                                                       SmartScreen을 사용하도록 설정한 Windows Defender 설정합니다.                                                       |                         [브라우저/AllowSmartScreen](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowSmartScreen)                         | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
+| 웹 사이트에 Windows Defender SmartScreen 경고 무시 방지 |     추가 보안을 위해 사용자가 SmartScreen 경고를 무시하지 못하게 Windows Defender 잠재적인 악성 웹 사이트에 액세스하지 못하게 차단하는 데 사용합니다.     |         [Browser/PreventSmartScreenPromptOverride](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_PreventSmartScreenPromptOverride)         | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
+|  파일에 대한 SmartScreen Windows Defender 무시하지 않도록 방지   | 보안을 강화하려면 사용자가 SmartScreen 경고를 무시하지 Windows Defender Microsoft Edge에서 미확인 파일을 다운로드하지 못하게 차단하는 데 사용됩니다. | [Browser/PreventSmartScreenPromptOverrideForFiles](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_PreventSmartScreenPromptOverrideForFiles) | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### Windows 업데이트 설정
+#### <a name="windows-update-settings"></a>Windows 업데이트 설정
 
 |                      설정                      |                                                                                                           세부 정보                                                                                                            |                                                                    CSP 참조                                                                    |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
@@ -141,37 +141,37 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### Windows Defender 설정
+#### <a name="windows-defender-settings"></a>Windows Defender 설정
 
 |      설정      |                                              세부 정보                                               |                                                     CSP 참조                                                      |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |-------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
 | Defender policies(Defender 정책) |            예약된 검사 시간을 포함하여 다양한 Defender 설정을 구성하는 데 사용합니다.            | Defender/*`<name of policy>`* <br> [정책 CSP](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx)를 참조하세요. | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
-|  Defender 상태  | Defender 스캔을 시작 하 고, 보안 인텔리전스 업데이트를 실행 하 고, 감지 된 모든 위협을 쿼리 하는 데 사용 합니다. |                   [Defender CSP](https://msdn.microsoft.com/library/windows/hardware/mt187856.aspx)                    |                       예                        |                       예                       |             예             |
+|  Defender 상태  | Defender 검색을 시작하고, 보안 인텔리전스 업데이트를 강제 적용하고, 감지된 위협을 쿼리하는 데 사용합니다. |                   [Defender CSP](https://msdn.microsoft.com/library/windows/hardware/mt187856.aspx)                    |                       예                        |                       예                       |             예             |
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### 원격 다시 시작
+#### <a name="remote-reboot"></a>원격 다시 시작
 
 |                       설정                        |                                                          세부 정보                                                          |                                                             CSP 참조                                                             |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-|            Reboot the device immediately(즉시 디바이스 다시 시작)             | OMS와 함께 지원 비용을 최소화하는 데 사용합니다. [Microsoft Surface Hub 모니터링](monitor-surface-hub.md)을 참조하세요. |        ./Vendor/MSFT/Reboot/RebootNow <br> [CSP 재부팅](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)을 참조하세요.        |                       예                        |                       아니오                        |             예             |
+|            Reboot the device immediately(즉시 디바이스 다시 시작)             | Azure 모니터와 함께 사용하여 지원 비용을 최소화합니다. [Microsoft Surface Hub 모니터링을 참조하세요.](monitor-surface-hub.md) |        ./Vendor/MSFT/Reboot/RebootNow <br> [CSP 재부팅](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)을 참조하세요.        |                       예                        |                       아니오                        |             예             |
 |    Reboot the device at a scheduled date and time(예약된 날짜 및 시간에 디바이스 다시 시작)    |                                                        위의 내용을 참조하세요.                                                         |     ./Vendor/MSFT/Reboot/Schedule/Single <br> [다시 시작 CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)를 참조하세요.     | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 | 매일 예약된 날짜 및 시간에 장치 다시 시작 |                                                        위의 내용을 참조하세요.                                                         | ./Vendor/MSFT/Reboot/Schedule/DailyRecurrent <br> [다시 시작 CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)를 참조하세요. | 예 <br> [사용자 지정 정책을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-intune) | 예<br> [사용자 지정 설정을 사용합니다.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             예             |
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### 인증서 설치
+#### <a name="install-certificates"></a>인증서 설치
 
 |             설정             |                           세부 정보                            |                                           CSP 참조                                            |                                                         지원 여부:<br>Intune                                                          |                                                                  지원 여부:<br>Configuration Manager                                                                  | 지원 여부:<br>SyncML\*? |
 |---------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Install trusted CA certificates(신뢰할 수 있는 CA 인증서 설치) | 신뢰할 수 있는 루트 및 중간 CA 인증서를 배포하는 데 사용합니다. | [RootCATrustedCertificates CSP](https://msdn.microsoft.com/library/windows/hardware/dn904970.aspx) | 예. <br> [Intune 인증서 프로필 구성](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles)을 참조하세요. | 예. <br> [Microsoft Endpoint Configuration Manager에서 인증서 프로필을 만드는 방법을](https://docs.microsoft.com/configmgr/protect/deploy-use/create-certificate-profiles)참조 하세요. |             예             |
+| Install trusted CA certificates(신뢰할 수 있는 CA 인증서 설치) | 신뢰할 수 있는 루트 및 중간 CA 인증서를 배포하는 데 사용합니다. | [RootCATrustedCertificates CSP](https://msdn.microsoft.com/library/windows/hardware/dn904970.aspx) | 예. <br> [Intune 인증서 프로필 구성](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles)을 참조하세요. | 예. <br> [Microsoft Endpoint Configuration Manager에서](https://docs.microsoft.com/configmgr/protect/deploy-use/create-certificate-profiles)인증서 프로필을 만드는 방법을 참조하세요. |             예             |
 
 <!--
 | Install client certificates  | Use to deploy Personal Information Exchange (.pfx, .p12) certificates. | [ClientCertificateInstall CSP](https://msdn.microsoft.com/library/windows/hardware/dn920023.aspx) | Yes. <br> See [How to Create and Deploy PFX Certificate Profiles in Intune Standalone](https://blogs.technet.microsoft.com/karanrustagi/2016/03/16/want-to-push-a-certificate-to-device-but-cant-use-ndes-continue-reading/). | Yes. <br> See [How to create PFX certificate profiles in Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/protect/deploy-use/create-pfx-certificate-profiles). | Yes |
 -->
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### 로그 수집
+#### <a name="collect-logs"></a>로그 수집
 
 |     설정      |                      세부 정보                       |                                     CSP 참조                                      | 지원 여부:<br>Intune | 지원 여부:<br>Configuration Manager | 지원 여부:<br>SyncML\*? |
 |------------------|----------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------|------------------------------------------|-----------------------------|
@@ -181,7 +181,7 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 | Collect security auditing logs | Use to remotely collect security auditing logs from Surface Hub. | SecurityAuditing node in [Reporting CSP](https://msdn.microsoft.com/library/windows/hardware/mt608321.aspx) | No | No | Yes |-->
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### 네트워크 QoS(서비스 품질) 정책 설정
+#### <a name="set-network-quality-of-service-qos-policy"></a>네트워크 QoS(서비스 품질) 정책 설정
 
 |        설정         |                                                            세부 정보                                                             |                                                    CSP 참조                                                     |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
@@ -189,7 +189,7 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### 네트워크 프록시 설정
+#### <a name="set-network-proxy"></a>네트워크 프록시 설정
 
 |      설정      |                               세부 정보                               |                                                CSP 참조                                                 |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |-------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
@@ -197,7 +197,7 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 
 \*Windows 구성 디자이너 프로비전 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-#### 시작 메뉴 구성
+#### <a name="configure-start-menu"></a>시작 메뉴 구성
 
 |       설정        |                                                                       세부 정보                                                                        |                                                        CSP 참조                                                         |            지원 여부:<br>Intune             |    지원 여부:<br>Configuration Manager     | 지원 여부:<br>SyncML\*? |
 |----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
@@ -205,8 +205,8 @@ Surface Hub 관련 설정과 함께 모든 Windows10 장치에 공통적인 많�
 
 \*Windows 구성 디자이너 프로비저닝 패키지를 통해 SyncML에서 지원되는 설정을 구성할 수도 있습니다.
 
-### 설정에 대한 OMA URI 생성 
-Intune에서 설정의 OMA URI를 사용 하거나 Microsoft 끝점 구성 관리자에서 사용자 지정 설정을 만들어야 합니다.
+### <a name="generate-oma-uris-for-settings"></a>설정에 대한 OMA URI 생성 
+설정의 OMA URI를 사용하여 Intune에서 사용자 지정 정책을 만들거나 Microsoft Endpoint Configuration Manager에서 사용자 지정 설정을 만들어야 합니다.
 
 **CSP 설명서의 설정에 대한 OMA URI를 생성하려면**
 1. CSP 설명서에서 CSP의 루트 노드를 확인합니다. 일반적으로 다음과 같이 표시됩니다. `./Vendor/MSFT/<name of CSP>` <br>
@@ -222,17 +222,17 @@ Intune에서 설정의 OMA URI를 사용 하거나 Microsoft 끝점 구성 관�
 - bool(부울)
 
 
-## 예: Microsoft Intune을 사용하여 Surface Hub 설정 관리
+## <a name="example-manage-surface-hub-settings-with-microsoft-intune"></a>예: Microsoft Intune을 사용하여 Surface Hub 설정 관리
 
 Microsoft Intune을 사용하여 Surface Hub 설정을 관리할 수 있습니다. 사용자 지정 설정은 [Microsoft Intune에서 사용자 지정 디바이스 설정을 구성하는 방법](https://docs.microsoft.com/intune/custom-settings-configure)의 지침을 따르세요. **플랫폼**에서 **Windows 10 이상**을 선택하고 **프로필 유형**에서 **디바이스 제한(Windows 10 Team)** 을 선택합니다.
 
 
 
-## 예: Microsoft Endpoint Configuration Manager를 사용 하 여 Surface Hub 설정 관리
-Configuration Manager는 Surface Hub를 포함 하 여 Configuration Manager 클라이언트가 관리 하지 않아도 되는 최신 장치 관리를 지원 합니다. 이미 Configuration Manager를 사용 하 여 조직의 다른 디바이스를 관리 하는 경우 Surface Hub를 관리 하는 단일 위치로 구성 관리자 콘솔을 계속 사용할 수 있습니다.
+## <a name="example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager"></a>예: Microsoft Endpoint Configuration Manager를 사용하여 Surface Hub 설정 관리
+Configuration Manager는 Surface Hub를 포함하여 Configuration Manager 클라이언트에서 관리할 필요가 없는 최신 디바이스 관리를 지원합니다. 이미 Configuration Manager를 사용하여 조직의 다른 디바이스를 관리하는 경우 Surface Hub를 관리하기 위한 단일 위치로 Configuration Manager 콘솔을 계속 사용할 수 있습니다.
 
 > [!NOTE]
-> 이러한 지침은 현재 구성 관리자 분기를 기준으로 합니다.
+> 이러한 지침은 Configuration Manager의 현재 분기를 기반으로 합니다.
 
 **Surface Hub 설정에 대한 구성 항목을 만들려면**
 
@@ -267,9 +267,9 @@ Configuration Manager는 Surface Hub를 포함 하 여 Configuration Manager 클
 18. 작업을 마쳤으면 **설정 찾아보기** 대화 상자에서 **닫기**를 클릭합니다.
 19. 마법사를 완료합니다. <br> **자산 및 호환성** 작업 영역의 **구성 항목** 노드에서 새 구성 항목을 볼 수 있습니다.
 
-자세한 내용은 [Microsoft Endpoint Configuration Manager 클라이언트 없이 관리 되는 windows 8.1 및 windows 10 장치에 대 한 구성 항목 만들기](https://docs.microsoft.com/configmgr/compliance/deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client)를 참조 하세요.
+자세한 내용은 Microsoft Endpoint Configuration Manager 클라이언트 없이 관리되는 [Windows 8.1 및 Windows 10](https://docs.microsoft.com/configmgr/compliance/deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client)장치에 대한 구성 항목 만들기를 참조하세요.
 
-## 관련 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Surface Hub 관리](manage-surface-hub.md)
 

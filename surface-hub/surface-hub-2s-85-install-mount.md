@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/01/2020
+ms.date: 03/02/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 28278827aeba20f46d5fd79b7a1de6c54bfce1e8
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385256"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387490"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Surface Hub 2S 85 설치 및 탑재"
 
@@ -24,7 +24,11 @@ ms.locfileid: "11385256"
 
 ## <a name="unboxing-video"></a>언박싱 비디오
 
-이제 Surface Hub 2S 85"를 이동 및 설치하기 위한 비디오 방법과 함께 사용할 수 있습니다. 시작하기 전에 Microsoft [Surface Hub 2S 85" 언박싱 및 설정 을 검토하세요.](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV)  
+- 시작하기 전에 Microsoft Surface Hub 2S 85" Unboxing 및 Set Up video를 검토하세요.
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+
+- 이 비디오의 중국어 버전은 아래 [부록 B에서 사용할 수](#appendix-b-unboxing-video) 있습니다. 
 
 ## <a name="follow-all-safety-precautions"></a>모든 안전 예방조치 준수 
 
@@ -37,7 +41,7 @@ ms.locfileid: "11385256"
 >- 트립어드바이저를 방지하기 위해 어셈블리 영역을 압축 재료의 지우기 영역에 두어야 합니다.
 
 > [!IMPORTANT]
->계속하기 전에 아래 부록에 나열된 추가 [안전 정보를 검토하세요.](#appendix)
+>계속하기 전에 아래 부록 [A에 나열된 추가 안전 정보를 검토하세요.](#appendix-a-additional-safety-information)
 
 ## <a name="1-remove-outer-packaging-materials"></a>1. 외장 패키징 재료 제거
 
@@ -151,9 +155,7 @@ Surface Hub 2S 85"는 600 x 600 VESA 탑재 패턴을 사용 합니다. 다음 �
 
 안쪽 패키징 스트랩 재료의 추가 집합은 오른쪽 아래 뒷면에 연결된 키트에서 찾을 수 있습니다.
 
-## <a name="appendix"></a>부록 
-
-### <a name="additional-safety-information"></a>추가 안전 정보
+## <a name="appendix-a-additional-safety-information"></a>부록 A: 추가 안전 정보
 
 > [!WARNING]
 > **heavy object/ergonomic lifting**<br>
@@ -203,6 +205,14 @@ Surface Hub 2S 85"는 600 x 600 VESA 탑재 패턴을 사용 합니다. 다음 �
 > [!WARNING]
 >  **적절한 설치**<br>
 부적절한 장치 설치와 관련된 위험을 방지하려면 작업을 시작하기 전에 설치 명령을 읽고 이해한 사람이 설치를 수행해야 합니다. 필요한 장비나 전문 지식이 없는 경우 또는 탑재 표면이 제대로 지원되지 않는 경우 전문 설치 관리자에게 문의하세요.
+
+
+## <a name="appendix-b-unboxing-video"></a>부록 B: 언박싱 비디오
+
+
+### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" 언박싱 및 비디오 설정(중국어)
+
+> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
 
 ## <a name="more-information"></a>추가 정보
