@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 9be85d412a96351e8cb92013eb6ca0afe9b7c304
-  ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+  ms.openlocfilehash: 0aa7a76d8b010991b7c3dbc7c4c12f35f3715acb
+  ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/03/2021
-  ms.locfileid: "11385136"
+  ms.lasthandoff: 03/15/2021
+  ms.locfileid: "11408803"
 landingContent:
 - title: Surface Hub 2S 준비
   linkLists:
@@ -27,8 +27,8 @@ landingContent:
     links:
     - text: Surface Hub Windows 10 Team 2020 업데이트 - 2월 상태
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
-    - text: 2020년 Surface Hub v1용 업데이트(Windows Update를 통해 사용 가능)
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/2020-update-for-surface-hub-v1-available-via-windows-update/ba-p/2118370
+    - text: Surface Hub Windows 10 팀 2020 업데이트 - 허브 v1 상태
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-hub-v1-status/ba-p/2118371
     - text: Surface Hub 2S 85"설치 및 마운트(준비 가이드)
       url: surface-hub-2s-85-install-mount.md
     - text: Windows 10 Team 2020 업데이트의 새로운 기능
@@ -103,6 +103,8 @@ landingContent:
       text: 서비스 및 보증
     - url: surface-hub-2s-recover-reset.md
       text: Surface Hub 2S 복구 및 초기화
+    - url: device-reset-surface-hub.md
+      text: 클라우드에서 Surface Hub v1 복구
     - url: support-solutions-surface-hub.md
       text: Surface Hub 지원 솔루션
     - text: Surface Hub 업데이트 기록
