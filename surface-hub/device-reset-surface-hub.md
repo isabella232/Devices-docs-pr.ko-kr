@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b6797a83936b919aa43a7ae9fc8ae4dd720223a
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 8d9a4f995abda4e005e8136ace62e10fb564c9b8
+ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406646"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "11408813"
 ---
 # <a name="reset-or-recover-a-surface-hub"></a>Surface Hub 초기화 또는 복구
 
@@ -37,7 +37,7 @@ ms.locfileid: "11406646"
 
 다음과 같은 이유로 Surface Hub를 초기화해야 할 수 있습니다.
 
-- 새 모임 공간에 대해 장치를 다시 비우고 다시 구성하려는 경우
+- 새 모임 공간에 대해 장치를 다시 구성하고 있습니다.
 - 로컬에서 디바이스를 관리하는 방법을 변경하려고 합니다.
 - 장치 계정 또는 관리자 계정의 사용자 이름 또는 암호가 손실된 경우
 - 업데이트를 설치하면 장치의 성능이 저하됩니다.
@@ -49,18 +49,21 @@ ms.locfileid: "11406646"
 
 1. Surface Hub에서 **설정**을 엽니다.
 
-   ![Surface Hub에 대한 설정 앱을 보여 주는 이미지입니다.](images/sh-settings.png)
+   > [!div class="mx-imgBorder"]
+   > ![Surface Hub에 대한 설정 앱을 보여 주는 이미지입니다.](images/sh-settings.png)
 
 2. 보안 **및 & 업데이트를 선택합니다.**
 
-   ![Surface Hub용 설정 & 보안 그룹 업데이트 표시 이미지.](images/sh-settings-update-security.png)
+   > [!div class="mx-imgBorder"]
+   > ![Surface Hub용 설정 & 보안 그룹 업데이트 표시 이미지.](images/sh-settings-update-security.png)
 
 3. **복구를**선택하고 장치 **초기화에서** **시작을 선택합니다.**
 
    > [!IMPORTANT]
    > 디바이스를 초기화하기 전에 BitLocker 키를 사용할 수 있도록 하세요. 나중에 다시하라는 메시지가 표시됩니다. 자세한 내용은 [BitLocker 키 저장을 참조합니다.](save-bitlocker-key-surface-hub.md) 허브가 복구 파티션으로 다시 시작하면 BitLocker 키를 입력하라는 메시지가 표시됩니다. 이 프롬프트를 건너뛰면 재설정이 실패합니다.
    
-   ![Surface Hub용 설정 앱의 디바이스 초기화 옵션을 보여 주는 이미지입니다.](images/sh-settings-reset-device.png)
+   > [!div class="mx-imgBorder"]
+   > ![Surface Hub용 설정 앱의 디바이스 초기화 옵션을 보여 주는 이미지입니다.](images/sh-settings-reset-device.png)
 
    초기화 프로세스가 완료되면 Surface Hub가 첫 번째 실행 [프로그램을 다시](first-run-program-surface-hub.md) 시작합니다. 초기화 프로세스에서 문제가 발생하면 Surface Hub를 다시 기존 운영 체제 이미지로 롤백한 다음 시작 화면을 표시합니다.
 
@@ -86,7 +89,8 @@ ms.locfileid: "11406646"
 
 2. 클라우드에서 **복구에서**지금 다시 **시작을 선택합니다.**
 
-   ![클라우드에서 복구](images/recover-from-the-cloud.png)
+   > [!div class="mx-imgBorder"]
+   > ![클라우드에서 복구](images/recover-from-the-cloud.png)
 
 ### <a name="recover-a-locked-surface-hub"></a>잠긴 Surface Hub 복구
 
@@ -99,26 +103,31 @@ ms.locfileid: "11406646"
 3. 전원 스위치를 사용하여 Surface Hub를 다시 켜십시오. 디바이스가 시작하고 Surface Hub 로고 화면을 표시합니다. Surface Hub 로고 아래에 회전하는 점이 표시하면 전원 스위치를 사용하여 Surface Hub를 다시 끄십시오.  
 
 4. 3단계를 세 번 반복하거나 Surface Hub에 "자동 복구 준비" 메시지가 표시될 때까지 반복합니다. 이 메시지를 표시하면 Surface Hub에 Windows RE 화면이 표시됩니다.
-
  
-5. 초기화 **를 선택하여 Windows를 다시 설치합니다.** 
-![다시 설치로 재설정](images/recover-from-cloud.png)
+5. **다시 설정**을 선택합니다. 
 
-8. 클라우드 **다운로드를 선택합니다.** 
+6. BitLocker 키를 입력하라는 메시지가 표시될 경우 다음 중 하나를 합니다.
+   - Surface Hub에서 BitLocker가 보호하는 정보를 보존하기 위해 BitLocker 키를 입력합니다.
+   - 보호된 정보를 삭제하려면 이 드라이브 건너뛰기를 선택합니다.
+
+7. 클라우드 **다운로드를 선택합니다.** 
 
    ![클라우드 다운로드](images/recover-cloud-download.png)
 
->[!IMPORTANT]
->다운로드할 수 **없습니다.를**나타내는 오류 메시지가 표시되면 **취소를** 선택하고 다시 시도하십시오.
+   >[!IMPORTANT]
+   >다운로드할 수 **없습니다.를**나타내는 오류 메시지가 표시되면 취소를 선택한 **다음** **다시** 설정을 다시 선택합니다.
 
-9. 드라이브 **완전 정리를 선택합니다.**  
-![ 복구 및 완전히 정리된 드라이브](images/recover-fully-clean-drive.png)
+8. 드라이브 **완전 정리를 선택합니다.**
+ 
+   ![복구 및 완전히 정리된 드라이브](images/recover-fully-clean-drive.png)
 
-10. 이 장치를 초기화할 준비가 **되나요?를 묻는 질문이 표시됩니다.** **다시 설정**을 선택합니다. 
-![복구 및 재설정 확인](images/recover-confirm-reset.png)
+9. 이 장치를 초기화할 준비가 **되나요?를 묻는 질문이 표시됩니다.** **다시 설정**을 선택합니다. 
+   
+   ![복구 및 재설정 확인](images/recover-confirm-reset.png)
 
-11. 다운로드가 시작되면 복구 프로세스가 이 장치 **초기화 를 나타냅니다.** 
-![진행 중으로 표시된 복구](images/recover-in-progress.png)
+10. 다운로드가 시작되면 복구 프로세스가 이 장치 **초기화 를 나타냅니다.**
+
+    ![진행 중으로 표시된 복구](images/recover-in-progress.png)
 
 ## <a name="contact-support"></a>고객 지원
 
