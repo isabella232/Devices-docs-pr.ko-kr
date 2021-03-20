@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/09/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: ddfa9369c03296d9a7792ee0b28bf3b91163b9c7
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 903307112433d794052a4a4e9694f3e793d248c8
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406601"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442116"
 ---
 # <a name="known-issues-windows-10-team-2020-update"></a>알려진 문제: Windows 10 Team 2020 업데이트 
 
@@ -37,4 +37,3 @@ Surface Hub가 최신 업데이트를 수신하는지 확인하려면 관리자 
 | 휴대폰을 사용하여 Surface Hub에 로그인할 때 Azure Active Directory 가입 장치에 대한 Single Sign-On 실패 | IT 관리자가 암호 없는 인증을 사용하여 [](surface-hub-2s-phone-authenticate.md) Surface Hub에 로그인하도록 테넌트를 구성한 경우 장치가 AAD에 가입된 경우 사용자는 휴대폰과 같은 모바일 장치를 사용하여 로그인할 수 없습니다.                                                                                                       | Surface Hub에 수동으로 로그인합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Edge 레거시 브라우저 웹 메모를 사용하는 경우 전자 메일을 통해 공유할 수 없습니다. | 웹 메모를 만들고 공유 흐름을 통해 메모를 전자 메일로 보내면 "보내기" 단추가 나타나지 않습니다. 따라서 전자 메일을 통해 메모를 공유할 수 없습니다. | 2020 업데이트가 설치된 Surface Hub는 새 Microsoft Edge 브라우저로 업그레이드할 수 있으며, 전자 메일을 통해 메모를 공유하면 이 브라우저에서 작동합니다.<br> <br>**자세한 내용은 :** [Surface Hub에 새 Microsoft Edge 설치](surface-hub-install-chromium-edge.md) |
 | Action Center에는 선택할 수 없는 설정 링크가 있습니다. | 이 링크는 Windows 10 Team에 나타나지 말아야 하며 혼동을 일으킬 수 있습니다.   | 기능은 2020 업데이트 이전과 동일합니다. 시작 메뉴의 앱 섹션을 사용하여 설정 앱을 실행해야 합니다.    |
-| 2S용 Windows 10 Team 2020용 2020년 11월 24일 업데이트로 업데이트한 후 일련 번호에 대한 모든 0을 보고하는 허브 2S 장치. | Windows 10 Team 2020용 Surface Hub 2S 11월 24일 업데이트를 설치하거나 Windows 10 Team 2020 복구 이미지(BMR)를 설치한 후 일부 장치는 일련 번호에 대한 0을 모두 보고합니다. 이렇게 하면 장치가 MDM 공급자에 등록되지 않습니다.  | 이 문제는 장치에 Surface SMC 펌웨어 업데이트 **1.177.139.0(9월** 1일의 일부)이 없는 경우 발생했습니다. SMC 펌웨어 업데이트 **3.91.139.0(원래** Windows 10 Team 2020 BMR 또는 Windows 10 Team 2020용 2020년 11월 24일 업데이트의 일부에 포함)으로 이동하기 전에 Windows 10 Team 크리에이터스 업데이트용 2020 업데이트 이제 Surface SMC 펌웨어 업데이트 **3.93.139.0이** 현재 Windows 10 Team 2020 BMR에 포함되어 Windows 업데이트를 통해 Surface Hub 2S 장치에 제공되어 이 문제가 더 이상 실행될 수 없습니다. 펌웨어 업데이트가 설치되면 이미 영향을 을 디바이스에 새 일련 번호가 생성됩니다. 설치를 완료하려면 업데이트를 설치한 후 장치를 두 번 다시 시작해야 합니다. **자세한 정보:** [Surface Hub 업데이트 기록](surface-hub-update-history.md). |
