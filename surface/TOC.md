@@ -84,5 +84,6 @@
 ## 보증 및 보호 계획
 ### [비즈니스용 Surface 보증 및 보호 계획](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [사용 약관](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [다음 영업일 대체](surface-next-business-day-replacement.md)
 ### [장치 무상 수리 상태 확인](https://mybusinessservice.surface.com/)
 ### [서비스를 위해 Surface를 보낼 때 데이터 보호](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)

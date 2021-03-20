@@ -22,7 +22,7 @@
 #### [설치 워크시트](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S 포트 및 키패드 개요](surface-hub-2s-port-keypad-overview.md)
 #### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
-### [Microsoft Surface Hub 2S에 대한 사용자 환경 준비](surface-hub-2s-prepare-environment.md)
+### [Microsoft Surface Hub를 위한 사용자 환경 준비](prepare-your-environment-for-surface-hub.md)
 
 
 ## 배포
