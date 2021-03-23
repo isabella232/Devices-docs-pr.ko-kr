@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 3/19/2021
-ms.openlocfilehash: 1fbbf899876d154469d48fa75a179196697205c1
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 9c3302616de97cf60b7d750948fed653456a7cba
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442170"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442892"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a>Surface Configuration Manager에 대한 Wake On LAN
 
@@ -44,7 +44,7 @@ IT 관리자는 대상 컴퓨터의 MAC 주소가 포함된 LAN 요청(매직 �
 Microsoft Endpoint Configuration Manager 및 타사 Microsoft Store 앱과 같은 많은 관리 솔루션은 WOL에 대한 기본 제공 지원을 제공합니다. 디바이스는 연결된 대기 모드(절전) 모드에 있으며 AC 전원에 연결되어야 합니다. Endpoint Configuration Manager를 통해 디바이스를 깨우는 방법을 알아보는 자세한 내용은 [Configure Wake on LAN - Configuration Manager을 참조합니다.](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
 
 
-## <a name="to-check-wol-is-enabled-on-your-device"></a>장치에서 WOL이 사용하도록 설정되어 있는지 확인하려면
+### <a name="to-check-wol-is-enabled-on-your-device"></a>장치에서 WOL이 사용하도록 설정되어 있는지 확인하려면
 
 1. 이더넷 연결 장치에서 네트워크 어댑터를 선택한 다음 속성을 **선택합니다.**
 

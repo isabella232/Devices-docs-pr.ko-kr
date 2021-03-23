@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/02/2020
+ms.date: 03/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387490"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442912"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Surface Hub 2S 85 설치 및 탑재"
 
@@ -27,8 +27,6 @@ ms.locfileid: "11387490"
 - 시작하기 전에 Microsoft Surface Hub 2S 85" Unboxing 및 Set Up video를 검토하세요.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
-
-- 이 비디오의 중국어 버전은 아래 [부록 B에서 사용할 수](#appendix-b-unboxing-video) 있습니다. 
 
 ## <a name="follow-all-safety-precautions"></a>모든 안전 예방조치 준수 
 
@@ -205,15 +203,6 @@ Surface Hub 2S 85"는 600 x 600 VESA 탑재 패턴을 사용 합니다. 다음 �
 > [!WARNING]
 >  **적절한 설치**<br>
 부적절한 장치 설치와 관련된 위험을 방지하려면 작업을 시작하기 전에 설치 명령을 읽고 이해한 사람이 설치를 수행해야 합니다. 필요한 장비나 전문 지식이 없는 경우 또는 탑재 표면이 제대로 지원되지 않는 경우 전문 설치 관리자에게 문의하세요.
-
-
-## <a name="appendix-b-unboxing-video"></a>부록 B: 언박싱 비디오
-
-
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" 언박싱 및 비디오 설정(중국어)
-
-> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
-
 
 ## <a name="more-information"></a>추가 정보
 

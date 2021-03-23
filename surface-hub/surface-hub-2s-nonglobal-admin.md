@@ -1,7 +1,7 @@
 ---
-title: Surface Hub 2S에서 비전역 관리자 계정 구성
-description: 이 문서에서는 Surface Hub 2S를 관리하도록 전역이 아닌 관리자 계정을 구성하는 방법을 설명합니다.
-keywords: Surface Hub 2S
+title: Surface Hub에서 전역이 아닌 관리자 계정 구성
+description: 이 문서에서는 Surface Hub 및 Surface Hub 2S를 관리하도록 전역이 아닌 관리자 계정을 구성하는 방법을 설명합니다.
+keywords: Surface Hub, Surface Hub v1, Surface Hub 2S
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,30 +9,31 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/07/2020
+ms.date: 03/22/2021
 ms.localizationpriority: Medium
 appliesto:
-- Surface Hub 2S 2020 Update
-ms.openlocfilehash: e16e4f8bd4b2b253233fa9790987287cf17966c7
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: ceac8fc1b0e168b206d937197ef404990b8e40ae
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385176"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442902"
 ---
-# <a name="configure-non-global-admin-accounts-on-surface-hub-2s"></a>Surface Hub 2S에서 비전역 관리자 계정 구성
+# <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Surface Hub에서 전역이 아닌 관리자 계정 구성
 
-Surface Hub 2S를 Azure AD 도메인에 가입할 때 Surface Hub 2S에서 설정 앱 관리 권한을 제한하는 전역이 아닌 관리자 계정을 구성할 수 있습니다. 이렇게 하면 Surface Hub 2S에 대한 관리자 권한의 범위만 지정하고 전체 Azure AD 도메인에서 잠재적으로 원치 않는 관리자 액세스를 방지할 수 있습니다. 시작하기 전에 Surface Hub 2S가 Azure AD에 가입해야 합니다. 그렇지 않은 경우 Surface Hub 2S를 초기화하고 Azure AD에 가입하는 옵션을 선택하여 OOBE(첫 실행형) 설치 프로그램을 완료해야 합니다.
+Surface Hub v1 또는 Surface Hub 2S를 Azure AD 도메인에 가입할 때 Surface Hub에서 설정 앱 관리 권한을 제한하는 전역이 아닌 관리자 계정을 구성할 수 있습니다. 이렇게 하면 Surface Hub에 대한 관리자 권한의 범위를 지정하고 전체 Azure AD 도메인에서 잠재적으로 원치 않는 관리자 액세스를 방지할 수 있습니다. 시작하기 전에 Surface Hub가 Azure AD에 가입해야 합니다. 그렇지 않은 경우 Surface Hub를 초기화하고 Azure AD에 가입하는 옵션을 선택하여 OOBE(첫 실행형) 설치 프로그램을 완료해야 합니다.
 
 ## <a name="summary"></a>요약 
 
 전역이 아닌 관리자 계정을 만드는 프로세스는 다음 단계로 진행됩니다. 
 
-1. Microsoft Intune에서 Surface Hub 2S를 관리하기 위해 지정된 관리자가 포함된 보안 그룹을 만드십시오.
+1. Microsoft Intune에서 Surface Hub를 관리하기 위해 지정된 관리자가 포함된 보안 그룹을 생성합니다.
 2. PowerShell을 사용하여 Azure AD 그룹 SID를 얻습니다.
 3. Azure AD 그룹 SID를 포함하는 XML 파일을 생성합니다.
-4. 전역 관리자가 아닌 보안 그룹에서 관리할 Surface Hub 2S 장치를 포함하는 보안 그룹을 만드십시오.
-5. Surface Hub 2S 장치를 포함하는 보안 그룹을 대상으로 하는 사용자 지정 구성 프로필을 만드십시오. 
+4. 전역이 아닌 관리자 보안 그룹에서 관리할 Surface Hub 장치를 포함하는 보안 그룹을 만드십시오.
+5. Surface Hub 장치를 포함하는 보안 그룹을 대상으로 하는 사용자 지정 구성 프로필을 만드십시오. 
 
 
 ## <a name="create-azure-ad-security-groups"></a>Azure AD 보안 그룹 만들기
@@ -46,9 +47,9 @@ Surface Hub 2S를 Azure AD 도메인에 가입할 때 Surface Hub 2S에서 설�
 
      ![허브 관리자용 보안 그룹 만들기](images/sh-create-sec-group.png)
 
-3. 그룹을 열고 구성원을 **선택한** **** 다음 구성원 추가를 선택하여 Surface Hub 2S에서 전역 관리자가 아닌 관리자로 지정하고자 하는 관리자 계정을 입력합니다. Intune에서 그룹을 만드는 데 대한 자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조합니다.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
+3. 그룹을 열고 **** 구성원 을 **** 선택한 다음 구성원 추가를 선택하여 Surface Hub에서 전역 관리자가 아닌 관리자로 지정하고자 하는 관리자 계정을 입력합니다. Intune에서 그룹을 만드는 데 대한 자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조합니다.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
 
-### <a name="create-security-group-for-surface-hub-2s-devices"></a>Surface Hub 2S 장치에 대한 보안 그룹 만들기
+### <a name="create-security-group-for-surface-hub-devices"></a>Surface Hub 장치에 대한 보안 그룹 만들기
 
 1. 이전 절차를 반복하여 허브 장치에 대해 별도의 보안 그룹을 만들 수 있습니다. 예를 들어 **Surface Hub 장치입니다.** 
 
@@ -119,12 +120,12 @@ Surface Hub 2S를 Azure AD 도메인에 가입할 때 Surface Hub 2S에서 설�
      ![로컬 관리자 xml 구성 파일 업로드](images/sh-local-admin-config.png)
 
 7. **저장**을 클릭합니다.
-8. 그룹 **선택을 클릭하여** 앞서 [](#create-security-group-for-surface-hub-2s-devices) 만든 보안 그룹(Surface Hub 장치)을**선택합니다.** **다음**을 클릭합니다.
+8. 그룹 **선택을 클릭하여** 앞서 [](#create-security-group-for-surface-hub-devices) 만든 보안 그룹(Surface Hub 장치)을**선택합니다.** **다음**을 클릭합니다.
 9. 적용 가능성 규칙에서 원하는 경우 규칙을 추가합니다. 그렇지 않으면 **다음을 선택하고** 만들기를 **선택합니다.**
 
 OMA-URI 문자열을 사용하는 사용자 지정 구성 프로필에 대한 자세한 내용은 [Intune에서 Windows 10 장치에](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)대한 사용자 지정 설정 사용을 참조하세요.
 
 
-## <a name="non-global-admins-managing-surface-hub-2s"></a>Surface Hub 2S를 관리하는 비 전역 관리자
+## <a name="non-global-admins-managing-surface-hub"></a>Surface Hub를 관리하는 전역이 아닌 관리자
 
-**이제 Surface Hub 로컬** 관리자 보안 그룹의 구성원이 Surface Hub 2S의 설정 앱에 로그인하고 설정을 관리할 수 있습니다.
+**이제 Surface Hub 로컬** 관리자 보안 그룹의 구성원이 Surface Hub의 설정 앱에 로그인하고 설정을 관리할 수 있습니다.
