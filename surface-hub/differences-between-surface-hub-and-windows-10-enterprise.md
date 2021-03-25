@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: f3ffcc46912fba3313e4489f5713b6ffcacf2d8a
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 9c76f9405146c5cda4afe6b46ce7e1cce0062682
+ms.sourcegitcommit: 88ce9e77afdc3d09984edc05286cd0f1eb054223
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387478"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "11448302"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>운영 체제 필수 항목(Surface Hub)
 
@@ -71,26 +71,26 @@ Surface Hub는 회의실 등의 공용 공간에서 사용하도록 설계되었
 몇 가지 예외를 제외하고 Surface Hub의 기본 UWP(유니버설 Windows 플랫폼) 앱은 Windows 10 PC에서도 사용할 수 있습니다.
 
 Surface Hub에 미리 설치된 UWP 앱:
+
 - 알람 및 시계
 - 계산기
 - 연결
 - Excel Mobile
 - 피드백 허브
-- 파일 탐색기*
+- 파일 탐색기
 - 시작
 - 지도
 - Microsoft Edge
 - Microsoft Power BI
+- Microsoft Teams
+- Microsoft Whiteboard
 - OneDrive
 - 사진
 - PowerPoint Mobile
-- 설정*
-- 비즈니스용 Skype*
+- 설정
 - 스토어
-- 화이트보드*
+- 팁
 - Word Mobile
-
-*별표(&ast;)가 있는 앱은 Surface Hub에 고유한 앱입니다.*
 
 *이러한 차이가 영향을 줄 수 있는 조직 정책:* <br> Windows 10 Enterprise용 지침에 따라 Surface Hub의 기본 앱에 대한 기능 및 네트워크 요구 사항을 확인합니다.
 
@@ -106,11 +106,11 @@ Surface Hub에 미리 설치된 UWP 앱:
 
 Surface Hub에서 구현하는 Windows 10 보안 기능은 다음과 같습니다.
 - [UEFI 보안 부팅](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
-- [Device Guard를 사용하는 UMCI(사용자 모드 코드 무결성)](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
+- [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
 - [AppLocker를 사용하는 응용 프로그램 제한 정책](https://technet.microsoft.com/itpro/windows/keep-secure/applocker-overview)
 - [BitLocker 드라이브 암호화](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-overview)
 - [TPM(신뢰할 수 있는 플랫폼 모듈)](https://technet.microsoft.com/itpro/windows/keep-secure/trusted-platform-module-overview)
-- [Windows Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
+- [Microsoft Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
 - 설정 앱 액세스를 위한 [UAC(사용자 계정 컨트롤)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview)
 
 추가 보안을 제공하는 Surface Hub 기능은 다음과 같습니다.
@@ -121,6 +121,8 @@ Surface Hub에서 구현하는 Windows 10 보안 기능은 다음과 같습니�
 - 고급 플러그 앤 플레이 드라이버를 다운로드할 수 없음
 
 *이러한 차이가 영향을 줄 수 있는 조직 정책:* <br> Surface Hub에 대한 보안 평가를 수행하는 경우 이러한 기능을 고려하세요.
+
+자세한 내용은 [Surface Hub 보안 개요를 참조하세요.](surface-hub-security.md)
 
 ## <a name="management"></a>관리
 
