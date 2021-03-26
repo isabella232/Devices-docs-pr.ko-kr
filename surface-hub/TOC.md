@@ -4,7 +4,6 @@
 
 ## 개요
 ### [Windows 10 Team 2020 업데이트의 새로운 기능](surface-hub-2020-update-whats-new.md)
-### [IT 관리자를 위한 Surface Hub 2S의 새로운 기능](surface-hub-2s-whats-new.md)
 ### [Surface Hub 2S 50" 기술 사양](surface-hub-2s-techspecs.md) 
 ### [Surface Hub 2S 85" 기술 사양](surface-hub-2s-85.md)
 ### [운영 체제 필수 항목(Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
