@@ -45,7 +45,7 @@
 ### [알려진 문제 - Windows 10 Team 2020 업데이트](surface-hub-2020-team-update-known-issues.md)
 ### [Surface Hub에서 전역이 아닌 관리자 계정 구성](surface-hub-2s-nonglobal-admin.md)
 ### [Surface Hub에 새 Microsoft Edge 설치 및 구성](surface-hub-install-chromium-edge.md)        
-### [Microsoft Intune을 사용하여 Surface Hub 2S 관리](surface-hub-2s-manage-intune.md)
+### [MDM 공급자를 사용하여 Surface Hub 관리](manage-settings-with-mdm-for-surface-hub.md)
 ### [Surface Hub 2S 설정에 대한 로컬 관리](local-management-surface-hub-settings.md)
 ### [디바이스 계정 암호 순환 관리](password-management-for-surface-hub-device-accounts.md)
 ### [Windows 업데이트 관리](manage-windows-updates-for-surface-hub.md)

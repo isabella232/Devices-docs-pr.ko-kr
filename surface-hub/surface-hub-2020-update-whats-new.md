@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96452885e19adc9784bb8d14be8ac6f2f86e883d
-ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.openlocfilehash: 14e08cf099ac441f7b2b3b76366406868ac6c056
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "11442872"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470426"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Windows 10 Team 2020 업데이트의 새로운 기능
 
@@ -25,9 +25,18 @@ Windows 10 Team 2020 Update는 최신 Windows 10 기능과 함께 장치 배포 
 ##  <a name="deployment-and-manageability"></a>배포 및 관리 가능성
 
 - **클라우드 장치 계정에 대한 최신 인증**. Surface Hub는 Exchange에 연결할 수 있도록 EWS(Exchange 웹 서비스) 및 ADAL(Active Directory 인증 라이브러리) 기반 인증을 지원하므로 고객은 기본 인증을 더 사용하지 않습니다. 자세한 내용은 [Surface Hub의 최신 인증을 참조합니다.](https://docs.microsoft.com/surface-hub/surface-hub-modern-auth)
-- **20개 이상의 신규 및 업데이트된 MDM(모바일**장치 관리) 정책 .      이러한 정책을 통해 IT 관리자는 Microsoft Store의 앱 업데이트, 인프라를 통해 Miracast와 같은 무선 투영 설정, 네트워크 설정(예: 서비스 품질 및 802.1x 유선 인증) 및 새로운 개인 정보/GDPR 관련 설정을 비롯한 여러 장치 설정을 더 개선할 수 있습니다. 자세한 내용은 다음을 참조합니다. 
-- [Microsoft Intune으로 Surface Hub를 관리합니다.](surface-hub-2s-manage-intune.md)
-- [Microsoft Surface Hub에서 지원되는 정책 CSP](https://docs.microsoft.com//windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- MDM(모바일 장치 관리) 정책 설정이 **20개 이상 새로 추가 및 업데이트되었습니다.**  이러한 정책 설정을 통해 IT 관리자는 Microsoft Store의 앱 업데이트, 인프라를 통해 Miracast와 같은 무선 투영 설정, 네트워크 설정(예: 서비스 품질 및 802.1x 유선 인증) 및 새로운 개인 정보/GDPR 관련 설정을 비롯한 여러 장치 설정을 더 개선할 수 있습니다. 새 CSP(구성 서비스 공급자)에는 다음이 포함됩니다. 
+
+  - [Accounts CSP](https://docs.microsoft.com/windows/client-management/mdm/accounts-csp) 
+  - [Firewall-CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) 
+  - [RemoteWipe CSP](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp) 
+  - [Wifi-CSP](https://docs.microsoft.com/windows/client-management/mdm/wifi-csp) 
+  - [Wirednetwork-CSP](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) 
+
+자세한 내용은 다음을 참조합니다. 
+- [Microsoft Surface Hub에서 지원되는 CSP](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [MDM 공급자를 사용하여 Surface Hub 관리](manage-settings-with-mdm-for-surface-hub.md)
+
 
 ##  <a name="azure-active-directory-joined-devices"></a>Azure Active Directory 가입 장치
 

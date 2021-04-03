@@ -14,17 +14,17 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
-ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
+ms.openlocfilehash: bf130c2707de4507a76f0c0d6f711af3082a7647
+ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "11317982"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "11474755"
 ---
-# Surface Hub용 PowerShell(v1)
+# <a name="powershell-for-surface-hub-v1"></a>Surface Hub용 PowerShell(v1)
 
 > [!NOTE]
- >이 페이지에는 원래 Surface Hub(v1)를 위한 PowerShell 스크립트가 포함되어 있습니다. Surface Hub 2S에 대한 최신 계정 만들기 스크립트는 Surface Hub 2S 장치 계정 [만들기를 참조하세요.](surface-hub-2s-account.md)
+ >이 페이지에는 원래 Surface Hub(v1)를 위한 PowerShell 스크립트가 포함되어 있습니다. Surface Hub 2S에 대한 최신 계정 만들기 스크립트는 장치 계정 만들기 및 [테스트를 참조하세요.](create-and-test-a-device-account-surface-hub.md)
 
 -   [Surface Hub 관리자용 PowerShell 스크립트](#scripts-for-admins)
     -   [프레미스 계정 만들기](#create-on-premises-ps-scripts)
@@ -40,7 +40,7 @@ ms.locfileid: "11317982"
  > [!NOTE]
  > Exchange [Online PowerShell V2의 최신 Auth](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387) 및 무인 스크립트 참조
 
-## 필수 구성 요소
+## <a name="prerequisites"></a>필수 구성 요소
 
 이러한 PowerShell 스크립트를 성공적으로 실행하려면 다음과 같은 필수 구성 요소를 설치해야 합니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "11317982"
 - [Windows PowerShell용 Microsoft Azure Active Directory 모듈(64비트 버전)](https://www.powershellgallery.com/packages/MSOnline/1.1.183.17)
 - [비즈니스용 Skype Online을 위한 Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)
 
-## <a href="" id="scripts-for-admins"></a>Surface Hub 관리자용 PowerShell 스크립트
+## <a name="powershell-scripts-for-surface-hub-administrators"></a><a href="" id="scripts-for-admins"></a>Surface Hub 관리자용 PowerShell 스크립트
 
 스크립트란 무엇인가요?
 
@@ -64,7 +64,7 @@ ms.locfileid: "11317982"
 > [!NOTE]
 > 새 계정을 만드는지 또는 기존 계정을 수정하는지에 관계없이 유효성 검사 스크립트는 디바이스 계정이 올바르게 구성되었는지 확인합니다. Surface Hub에 장치 계정을 추가하기 전에 항상 유효성 검사 스크립트를 실행해야 합니다.
 
-## 스크립트 실행
+## <a name="running-the-scripts"></a>스크립트 실행
 
 계정 생성 스크립트는 다음을 수행합니다.
 
@@ -183,15 +183,14 @@ ms.locfileid: "11317982"
 </tbody>
 </table>
 
-## 계정 생성 스크립트
+## <a name="account-creation-scripts"></a>계정 생성 스크립트
 
 이러한 스크립트는 장치 계정을 만듭니다. [계정 확인 스크립트](#acct-verification-ps-scripts)를 사용하여 올바르게 실행되었는지 확인할 수 있습니다.
 
 계정 생성 스크립트는 기존 계정을 수정할 수 없지만 기존 계정을 올바르게 구성하기 위해 실행해야 하는 cmdlet의 이해를 돕는 데 사용할 수 있습니다.
 
-### <a href="" id="create-on-premises-ps-scripts"></a>프레미스 계정 만들기
+### <a name="create-an-on-premises-account"></a><a href="" id="create-on-premises-ps-scripts"></a>프레미스 계정 만들기
 
-[온-프레미스 배포](on-premises-deployment-surface-hub-device-accounts.md)에 설명된 대로 계정을 만듭니다.
 
 ```PowerShell
 # SHAccountCreateOnPrem.ps1
@@ -549,9 +548,9 @@ else
 }
 ```
 
-### <a href="" id="create-os356-ps-scripts"></a>Office 365를 사용하여 장치 계정 만들기
+### <a name="create-a-device-account-using-office-365"></a><a href="" id="create-os356-ps-scripts"></a>Office 365를 사용하여 디바이스 계정 만들기
 
-[Office 365를](create-a-device-account-using-office-365.md)사용하여 장치 계정 만들기에 설명된 계정을 만듭니다.
+Create a device [account using Office 365에](create-and-test-a-device-account-surface-hub.md)설명된 계정을 만듭니다.
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -994,9 +993,9 @@ else
 }
 ```
 
-## <a href="" id="acct-verification-ps-scripts"></a>계정 확인 스크립트
+## <a name="account-verification-script"></a><a href="" id="acct-verification-ps-scripts"></a>계정 확인 스크립트
 
-이 스크립트는 어떤 방법을 사용했든 상관없이 Surface Hub 및 Surface Hub 2S에서 이전에 만든 디바이스 계정의 유효성을 검사합니다. 이 스크립트는 기본적으로 성공/실패합니다. 테스트 중 하나에서 오류가 발생하면 자세한 오류 메시지가 표시되지만 모든 테스트에 성공하면 최종 결과로 요약 보고서가 작성됩니다. 예를 들어 다음과 같이 표시될 수 있습니다.
+이 스크립트는 Surface Hub 및 Surface Hub 2S에서 이전에 만든 디바이스 계정의 유효성을 검사합니다. 이 스크립트는 기본적으로 성공/실패합니다. 테스트 중 하나에서 오류가 발생하면 자세한 오류 메시지가 표시되지만 모든 테스트에 성공하면 최종 결과로 요약 보고서가 작성됩니다. 예를 들어 다음과 같이 표시될 수 있습니다.
 
 ```console
 15 tests executed
@@ -1445,7 +1444,7 @@ Write-Host -ForegroundColor Green $Global:iTotalPasses "passes "
 Cleanup
 ```
 
-## <a href="" id="enable-sfb-ps-scripts"></a>비즈니스용 Skype 사용
+## <a name="enable-skype-for-business"></a><a href="" id="enable-sfb-ps-scripts"></a>비즈니스용 Skype 사용
 
 이 스크립트는 장치 계정에서 비즈니스용 Skype를 사용하도록 설정합니다. 이전에 계정을 만드는 동안 비즈니스용 Skype를 사용하도록 설정하지 않은 경우에만 사용합니다.
 
@@ -1605,9 +1604,9 @@ PrintSuccess "Successfully enabled $strRoomUri as a Skype for Business meeting r
 Cleanup
 ```
 
-## 유용한 cmdlet
+## <a name="useful-cmdlets"></a>유용한 cmdlet
 
-### <a href="" id="create-compatible-as-policy"></a>Surface Hub 호환 ActiveSync 정책 만들기
+### <a name="creating-a-surface-hub-compatible-activesync-policy"></a><a href="" id="create-compatible-as-policy"></a>Surface Hub 호환 ActiveSync 정책 만들기
 
 Surface Hub에서 Exchange 서비스를 사용하려면 호환되는 ActiveSync 정책으로 구성된 장치 계정이 장치에 프로비전되어 있어야 합니다. 이 정책에는 다음과 같은 요구 사항이 있습니다.
 
@@ -1645,7 +1644,7 @@ Set-CASMailbox $strRoomUpn -ActiveSyncMailboxPolicy $strPolicy
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### ActiveSync에 장치 ID 허용
+### <a name="allowing-device-ids-for-activesync"></a>ActiveSync에 장치 ID 허용
 
 계정 `$strRoomUpn`을 허용하려면 다음 명령을 실행합니다.
 
@@ -1661,7 +1660,7 @@ Get-ActiveSyncDevice -Mailbox $strRoomUpn
 
 이렇게 하면 `DeviceId` 속성을 포함하여 계정이 프로비전된 모든 장치에 대한 장치 정보가 검색됩니다.
 
-### <a href="" id="auto-accept-meetings-cmdlet"></a>모임 요청 자동 수락 및 거부
+### <a name="auto-accepting-and-declining-meeting-requests"></a><a href="" id="auto-accept-meetings-cmdlet"></a>모임 요청 자동 수락 및 거부
 
 장치 계정이 가용성에 따라 모임 요청을 자동으로 승인하거나 거부하려면 **AutomateProcessing** 특성을 **AutoAccept**로 설정해야 합니다. 겹치는 모임을 방지하기 위해 권장됩니다.
 
@@ -1669,12 +1668,12 @@ Get-ActiveSyncDevice -Mailbox $strRoomUpn
 Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 ```
 
-### <a href="" id="accept-ext-meetings-cmdlet"></a>외부 모임 요청 수락
+### <a name="accepting-external-meeting-requests"></a><a href="" id="accept-ext-meetings-cmdlet"></a>외부 모임 요청 수락
 
 장치 계정이 외부 모임 요청(동일한 테넌트/도메인에 없는 계정의 모임 요청)을 수락하려면 외부 모임 요청 처리를 허용하도록 장치 계정을 설정해야 합니다. 설정하고 나면 장치 계정이 로컬 계정뿐만 아니라 외부 계정의 모임 요청도 자동으로 승인하거나 거부합니다.
 
 > [!Note]
-> **AutomateProcessing** 특성이 **AutoAccept로**설정되어 있지 않은 경우 이 설정을 적용하면 아무 효과가 없습니다.
+> **AutomateProcessing** 특성이 **AutoAccept로**설정되어 있지 않은 경우 이 설정을 적용하면 효과가 없습니다.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true

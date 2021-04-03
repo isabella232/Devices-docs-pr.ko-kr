@@ -1,6 +1,6 @@
 ---
 title: 비즈니스용 Surface 진단 도구 키트를 사용한 일반적인 Surface 문제 해결
-description: 이 페이지에서는 상업용 환경에서 사용 하기 위한 비즈니스를 위한 Surface 진단 도구 키트에 대해 소개 합니다.
+description: 이 페이지에서는 상업적 환경에서 사용할 수 있도록 Toolkit Surface Diagnostic Toolkit 소개합니다.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -9,40 +9,40 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: cottmca
 manager: laurawi
+ms.date: 04/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: a1a7d6fa2cb8bad676f0a65a933a4596ef918e7a
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: d5b593100f6c361ebd122ecdc4c9738624dd7272
+ms.sourcegitcommit: 879e80200aea26f6705c887fa392db5db35b99ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834263"
+ms.lasthandoff: 04/03/2021
+ms.locfileid: "11475082"
 ---
-# 비즈니스용 Surface 진단 도구 키트를 사용한 일반적인 Surface 문제 해결
+# <a name="fix-common-surface-problems-using-the-surface-diagnostic-toolkit-for-business"></a>비즈니스용 Surface 진단 도구 키트를 사용한 일반적인 Surface 문제 해결
 
-표면이 제대로 작동 하지 않는 경우 비즈니스용 Microsoft Surface 진단 도구 키트를 통해 사용자 또는 관리자가 문제를 찾고 해결할 수 있습니다.
-
-> [!NOTE]
-> 비즈니스용 Surface 진단 도구 키트는 상업용 장치를 위해 작성 되었습니다. 장치가 개인 디바이스이 고 회사 또는 학교에서 관리 하지 않는 경우에는 대신 [Surface 진단 도구 키트](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) 를 실행 합니다.
-
-## 비즈니스를 위한 Surface 진단 도구 키트 실행
-
-진단 도구를 실행 하기 전에 최신 Windows 업데이트가 설치 되어 있는지 확인 합니다. 추가 정보를 보려면 [Surface 및 Windows 10 업데이트 설치](https://support.microsoft.com/en-us/help/4023505/surface-install-surface-and-windows-updates) 로 이동 하세요. 이 방법으로 문제가 해결 되지 않으면 진단 도구를 실행 해야 합니다.
+Surface가 제대로 작동하지 않는 경우 비즈니스용 Microsoft Surface 진단 Toolkit 문제를 찾고 해결하는 데 도움이 될 수 있습니다.
 
 > [!NOTE]
-> 비즈니스를 위한 Surface 진단 도구 키트는 Windows 10을 실행 하는 Surface 디바이스 에서만 작동 합니다. Surface Pro, Surface Pro 2 또는 S 모드에서 구성한 Surface 장치에서는 작동 하지 않습니다.
+> 비즈니스용 Surface Toolkit 장치는 상업용 디바이스를 위해 제작되었습니다. 디바이스가 개인 장치로 회사 또는 학교에서 관리되지 않는 경우 [Surface Diagnostic Toolkit](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) 실행합니다.
 
-**비즈니스를 위한 Surface 진단 도구 키트를 실행 하려면:**
+## <a name="run-the-surface-diagnostic-toolkit-for-business"></a>비즈니스용 Surface 진단 Toolkit 실행
 
-1. 비즈니스를 위한 Surface 진단 도구 키트를 다운로드 합니다. 이렇게 하려면 [ **IT 다운로드에 대 한 surface Tools** 페이지](https://www.microsoft.com/download/details.aspx?id=46703)에서 **다운로드**를 선택 하 고 제공 된 목록에서 **비즈니스용 Surface 진단 도구 키트** 를 선택한 후 **다음**을 선택 합니다.
-2. 실행을 선택 하 고 화면의 지침을 따릅니다. 전체에 대 한 자세한 내용은 [비즈니스 용 Surface 진단 도구 키트 배포](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business)를 참조 하세요.
+진단 도구를 실행하기 전에 최신 Windows 업데이트가 있는지 확인합니다. 자세한 내용은 [Surface 및 Windows 10 업데이트 설치로](https://support.microsoft.com/en-us/help/4023505/surface-install-surface-and-windows-updates) 이동하세요. 그래도 문제가 해결되지 않는 경우 진단 도구를 실행해야 합니다.
 
-진단 및 복구 시간은 15 분 이지만 인터넷 연결 속도와 필요한 업데이트 또는 복구 횟수에 따라 1 시간 이상 걸릴 수 있습니다. 
+> [!NOTE]
+> 비즈니스용 Surface Toolkit Windows 10을 실행하는 Surface 디바이스에서만 작동합니다. S 모드로 구성된 Surface Pro, Surface Pro 2 또는 Surface 디바이스에서는 작동하지 않습니다.
 
-## 여전히 도움이 필요한 경우
+**비즈니스용 Surface 진단 Toolkit 실행:**
 
-비즈니스를 위한 Surface 진단 도구 키트에서 문제가 해결 되지 않은 경우 다음을 수행할 수도 있습니다.
+1. 비즈니스용 Surface 진단 Toolkit 다운로드합니다. 이렇게하려면 Surface Tools [ **for IT download(IT용 Surface 도구** 다운로드)](https://www.microsoft.com/download/details.aspx?id=46703)페이지로 이동하여 다운로드를 선택하고 제공된 목록에서 Surface Diagnostic Toolkit for Business(비즈니스용 Surface 진단 서비스)를 선택하고 **Next(다음)를** **선택합니다.** ****
+2. 실행을 선택하고 화면의 지침을 따릅니다. 자세한 내용은 [Deploy Surface Diagnostic Toolkit for Business를 참조합니다.](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business)
 
-- 매장 내 약속 만들기: 로컬 Microsoft 스토어에서 문제를 해결 하거나 대체 화면을 제공할 수 있습니다. [가까운 Microsoft 상점을 찾습니다](https://www.microsoft.com/store/locations/find-a-store?WT.mc_id=MSC_Solutions_en_us_scheduleappt).
-- 고객 지원팀에 문의: 문제 해결 방법에 대 한 자세한 내용은 [저희에 게 문의](https://support.microsoft.com/en-us/help/4037645/contact-surface-warranty-and-software-support-for-business)하세요.
-- Surface 서비스를 받으세요. Surface 제품에 서비스가 필요한 경우 [온라인으로 요청](https://mybusinessservice.surface.com/)하세요. 
+진단 및 복구 시간은 평균 15분이지만 인터넷 연결 속도 및 필요한 업데이트 또는 복구 수에 따라 1시간 이상 걸릴 수 있습니다. 
+
+## <a name="if-you-still-need-help"></a>여전히 도움이 필요한 경우
+
+비즈니스용 Surface 진단 Toolkit 해결하지 않은 경우 다음을 할 수 있습니다.
+
+- 고객 지원에 문의: 문제를 해결하는 방법에 대해 누군가에게 문의하려면 으로 [문의해 주시기 바랍니다.](https://support.microsoft.com/en-us/help/4037645/contact-surface-warranty-and-software-support-for-business)
+- Surface 서비스 제공: Surface 제품이 서비스를 필요로 하는 경우 온라인으로 [요청하세요.](https://mybusinessservice.surface.com/) 
