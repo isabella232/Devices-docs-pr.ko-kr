@@ -10,20 +10,20 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: c5b6a083d543649eab899d2fea36327d08f8bc29
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834516"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576848"
 ---
-# Surface Hub 시작 메뉴 구성
+# <a name="configure-surface-hub-start-menu"></a>Surface Hub 시작 메뉴 구성
 
 [2018년 1월 17일 Windows 10 업데이트](https://support.microsoft.com/help/4057144)(빌드 15063.877)를 통해 Surface Hub 디바이스에서 시작 메뉴를 사용자 지정할 수 있습니다. 모바일 디바이스 관리(MDM)를 사용하여 사용자 지정 시작 메뉴 레이아웃을 적용할 수 있습니다.
 
 Surface Hub에 사용자 지정 시작 메뉴 레이아웃을 적용할 때 사용자는 시작 메뉴에서 앱을 고정, 고정 해제 또는 제거할 수 없습니다. 
 
-## Surface Hub에 사용자 지정 시작 메뉴를 적용하는 방법
+## <a name="how-to-apply-a-customized-start-menu-to-surface-hub"></a>Surface Hub에 사용자 지정 시작 메뉴를 적용하는 방법
 
 사용자 지정 시작 메뉴는 시작 화면 레이아웃 XML 파일에 정의되어 있습니다. 시작 화면 레이아웃 XML 파일을 만들기 위한 두 가지 옵션이 있습니다.
 
@@ -41,19 +41,23 @@ Surface Hub에 사용자 지정 시작 메뉴 레이아웃을 적용할 때 사�
 시작 화면 레이아웃 XML에 시작 메뉴를 정의할 때 [레이아웃에 적용할 MDM 정책 만들기](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)를 수행합니다.
 
 <span id="differences" />
-## Surface Hub와 바탕 화면 시작 메뉴 간의 차이
+
+## <a name="differences-between-surface-hub-and-desktop-start-menu"></a>Surface Hub와 바탕 화면 시작 메뉴 간의 차이
 
 Surface Hub를 위한 시작 메뉴 사용자 지정과 Windows 10 바탕 화면 간에는 몇 가지 중요한 차이가 있습니다.
 
-- **Desktopapplicationtile** ( https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) Windows 데스크톱 응용 프로그램 (Win32)은 Surface Hub에서 지원 되지 않으므로 시작 레이아웃 XML에서 사용할 수 없습니다.
+- 데스크톱 응용 프로그램(Win32)이 지원되지 Windows 시작 화면 레이아웃 XML에서 **DesktopApplicationTile()을** 사용할 https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) Surface Hub.
 - 시작 화면 레이아웃 XML을 사용하여 Surface Hub를 위한 작업 표시줄이나 시작 화면을 구성할 수 없습니다.  
+- 시작 화면 레이아웃 정책은 사용자가 아닌 디바이스에만 할당해야 합니다.
+- 정책에 사용할 OMA-URI 설정은 `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub는 최대 6개 열(6개의 1x1 타일)을 지원하지만, Surface Hub가 열 6과 7이 아닌 0 ~ 5 열에만 타일을 표시하는 경우라 하더라도 **반드시** `GroupCellWidth=8`을 정의해야 합니다.
 - Surface Hub는 최대 6개 행(6개 1x1 타일)을 지원하며,
 - `SecondaryTile`이들은 링크에 사용됩니다. Microsoft Edge에서 링크를 엽니다.
 
 
 <span id="default" />
-## 예제: 기본 Surface Hub 시작 화면 레이아웃
+
+## <a name="example-default-surface-hub-start-layout"></a>예제: 기본 Surface Hub 시작 화면 레이아웃
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -110,9 +114,10 @@ Surface Hub를 위한 시작 메뉴 사용자 지정과 Windows 10 바탕 화면
 ```
 
 <span id="edge" />
-## 예제: Microsoft Edge 링크가 포함된 시작 화면 레이아웃
 
-이 예제는 웹 사이트에 대한 링크와 .pdf 파일에 대한 링크를 보여줍니다. Microsoft Edge 용 보조 타일은 150 x 150 픽셀 아이콘을 사용 합니다.
+## <a name="example-start-layout-that-includes-a-microsoft-edge-link"></a>예제: Microsoft Edge 링크가 포함된 시작 화면 레이아웃
+
+이 예제는 웹 사이트에 대한 링크와 .pdf 파일에 대한 링크를 보여줍니다. 150 x Microsoft Edge 아이콘을 사용하는 기본 타일입니다.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -186,4 +191,4 @@ Surface Hub를 위한 시작 메뉴 사용자 지정과 Windows 10 바탕 화면
 ```
 
 >[!NOTE]
->`ForegroundText` `ForegroundText` 값이 어둡게 변경 되지 않는 경우에는 기본값을 value로 지정 하지 않는 한 해당 값을 XML에 포함할 필요가 없습니다.
+>기본값은 밝습니다. 값을 어둡게 변경하지 않는 한 `ForegroundText` `ForegroundText` XML에 포함할 필요가 없습니다.

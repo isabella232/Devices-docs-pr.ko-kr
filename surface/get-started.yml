@@ -11,20 +11,22 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9360df030e5a562dfeb3ad471c228408122c3471
-  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
+  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "11328182"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "11576828"
 landingContent:
 - title: Surface 장치
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Laptop 4 + for Business
+      url: https://www.microsoft.com/surface/business/surface-laptop-4
     - text: 비즈니스용 Surface Pro 7+
       url: https://www.microsoft.com/surface/business/surface-pro-7-plus
-    - text: 비즈니스용 Surface 노트북 이동
+    - text: Surface Laptop 비즈니스용 이동
       url: https://www.microsoft.com/surface/business/surface-laptop-go
     - text: 비즈니스용 Surface Pro X
       url: https://www.microsoft.com/surface/business/surface-pro-x
@@ -34,21 +36,21 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: 비즈니스용 Surface Pro 7+의 새로운
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
+    - text: Surface Laptop 4 프로세서 기술 개요
+      url: surface-laptop-processors.md
+    - text: Surface Headphones 2+ 기술 개요
+      url: surface-headphones.md
     - text: 가상 데스크톱 Windows Virtual Desktop
       url: windows-virtual-desktop-surface.md
-    - text: Surface Dock 2의 새로운
-      url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: AutoPilot을 통해 Surface & 배포
+    - text: Surface 및 AutoPilot을 & 제로 터치 배포
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: 원격 세계에서 ARM Surface Pro X 및 Windows
+    - text: Surface Pro 원격 Windows ARM X 및 X
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface 보안 – Microsoft의 칩에서 클라우드 최신 끝점 보호로
+    - text: Surface Security – 칩에서 클라우드로의 최신 Endpoint Protection Microsoft의 클라우드 보안
       url: https://youtu.be/uadAecDbqf4
 - title: Surface 장치 배포
   linkLists:
@@ -64,12 +66,12 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Surface Enterprise 관리 모드
+      url: surface-enterprise-management-mode.md
     - text: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface UEFI 설정의 Intune 관리
+    - text: Surface 디바이스에서 DFCI 관리
       url: surface-manage-dfci-guide.md
-    - text: Surface Pro X 배포, 관리 및 서비스
-      url: surface-pro-arm-app-management.md
 - title: 문제 해결
   linkLists:
   - linkListType: learn
@@ -86,7 +88,7 @@ landingContent:
     links:
     - text: Surface 디바이스의 DMA 보호
       url: dma-protect.md
-    - text: Surface ENTERPRISE Management Mode(SEMM)를 통해 Surface Dock 2 포트 보호
+    - text: Surface 및 SEMM(Secure Surface Dock 2) 관리 모드를 Enterprise Surface Dock 2 포트
       url: secure-surface-dock-ports-semm.md
     - text: Surface 데이터 지우개 도구
       url: microsoft-surface-data-eraser.md
