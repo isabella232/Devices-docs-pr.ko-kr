@@ -14,10 +14,10 @@
 ### [Surface Hub 2S 사이트 준비 가이드](surface-hub-2s-site-readiness-guide.md) 
 #### [Surface Hub 2S 사이트 계획](surface-hub-2s-site-planning.md)
 #### [Surface Hub 2S 빠른 시작](surface-hub-2s-quick-start.md)
-#### [Surface Hub 2S 설치 및 탑재](surface-hub-2s-install-mount.md)
+#### [Surface Hub 2S 50" 설치 및 탑재](surface-hub-2s-install-mount.md)
 #### [Surface Hub 2S 85” 이동 및 처리](hub-move.md)
 #### [Surface Hub 2S 85” 설치 및 탑재](surface-hub-2s-85-install-mount.md)
-#### [Surface Hub 2S의 벽걸이 사용자 지정](surface-hub-2s-custom-install.md)
+#### [Surface Hub 2S 50"의 벽걸이 사용자 지정](surface-hub-2s-custom-install.md)
 #### [설치 워크시트](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S 포트 및 키패드 개요](surface-hub-2s-port-keypad-overview.md)
 #### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
@@ -29,7 +29,6 @@
 ### [Surface Hub 2S 채택 비디오](surface-hub-2s-adoption-videos.md)
 ### [처음으로 Surface Hub 2S 설치](surface-hub-2s-setup.md)
 ### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
-### [Surface Hub 2S 배포 체크리스트](surface-hub-2s-deploy-checklist.md)
 ### [디바이스 계정 만들기 및 테스트](create-and-test-a-device-account-surface-hub.md)
 ### [Surface Hub 2S용 프로비전 패키지 만들기](surface-hub-2s-deploy.md)
 ### [Intune을 사용하여 Surface Hub 2S에 앱 배포](surface-hub-2s-deploy-apps-intune.md)
@@ -85,8 +84,10 @@
 ## 배포
 ### [디바이스 계정 만들기 및 테스트](create-and-test-a-device-account-surface-hub.md)
 #### [온라인 배포](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+
 #### [온-프레미스 배포(단일 포리스트)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
-#### [온-프레미스 배포(다중 포리스트)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
+
+#### [온-프레미스 배포(다중 포리스트)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
 #### [하이브리드 배포](hybrid-deployment-surface-hub-device-accounts.md)
 #### [Microsoft Exchange 속성](exchange-properties-for-surface-hub-device-accounts.md)
 #### [장치 계정에 ActiveSync 정책 적용](apply-activesync-policies-for-surface-hub-device-accounts.md)
@@ -135,7 +136,7 @@
 ### [Surface Hub에 대한 주요 지원 솔루션](support-solutions-surface-hub.md)
 ### [Microsoft Surface Hub 문제 해결](troubleshoot-surface-hub.md)
 ### [Surface Hub 업데이트 기록](surface-hub-update-history.md)
-### [Microsoft Surface Hub에 대한 알려진 문제 및 추가 정보](known-issues-and-additional-info-about-surface-hub.md)
+### [알려진 문제: Windows 10 Team OS](surface-hub-2020-team-update-known-issues.md)
 ### [Surface Hub에서 BitLocker에 대한 클라우드 복구를 사용하는 방법](use-cloud-recovery-for-bitlocker-on-surfacehub.md)
 ### [Surface Hub 하드웨어 진단 도구를 사용하여 디바이스 계정 테스트](use-surface-hub-diagnostic-test-device-account.md)
 ### [Surface Hub에서 Miracast 문제 해결](miracast-troubleshooting.md)
