@@ -4,10 +4,11 @@
 
 ## 개요
 
+### [비즈니스용 Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
+### [Surface Laptop 4 프로세서 기술 개요](surface-laptop-processors.md)
 ### [비즈니스용 Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus)
 ### [비즈니스용 Surface Pro 2](https://www.microsoft.com/surface/business/surface-go-2)
 ### [비즈니스용 Surface Pro 2](https://www.microsoft.com/surface/business/surface-pro-x)
-### [비즈니스용 Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3)
 ### [비즈니스용 Surface Studio 2](https://www.microsoft.com/surface/business/surface-studio-2)
 ### [비즈니스용 Surface Book 3](https://www.microsoft.com/surface/business/surface-book-3)
 ### [Microsoft Surface를 사용하여 ROI 최대화](forrester-tei-study.md)
@@ -16,8 +17,10 @@
 ### [Surface Book 3 GPU 기술 개요](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 기술 개요](surface-book-quadro.md)
 ### [LTE Advanced로 어디에서나 안전하게 작업하는 이동성](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
+### [Surface Headphones 2+ 기술 개요](surface-headphones.md)
 
-## 요금제
+
+## 계획
 
 ### [Windows 10 장기 서비스 채널과의 Surface 장치 호환성](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Surface 장치에 대한 장기 서비스 분기](ltsb-for-surface.md)

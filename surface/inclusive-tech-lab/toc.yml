@@ -1,0 +1,93 @@
+items:
+  - name: 포괄 기술 랩
+    href: index.md
+    items:
+      - name: 장애를 위해 디자인할 함수 이해
+        href: understanding-function-to-design-for-disabilities.md
+        items:
+          - name: 접근성에 대한 장벽이 공동으로 발생할 수 있습니다.
+            href: barriers-to-accessibility-can-co-occur.md
+          - name: 인식이란 무엇인가요?
+            href: cognition.md
+            items:
+              - name: 주의
+                href: cognition-attention.md
+              - name: 메모리
+                href: cognition-memory.md
+              - name: 판단
+                href: cognition-judgment.md
+              - name: 처리(속도)
+                href: cognition-processing-speed.md
+              - name: 처리(이해)
+                href: cognition-processing-comprehension.md
+          - name: 이동성이란 무엇인가요?
+            href: mobility.md
+            items:
+              - name: 파악
+                href: mobility-grasp.md
+              - name: 미세한 모터 기술
+                href: mobility-fine-motor-skills.md
+              - name: 조정
+                href: mobility-coordination.md
+              - name: 제어(자발적 움직임과 비자발적 움직임)
+                href: mobility-control.md
+              - name: 속도
+                href: mobility-speed.md
+              - name: 근긴장
+                href: mobility-muscle-tone.md
+              - name: 지구력
+                href: mobility-endurance.md
+              - name: 자세
+                href: mobility-posture.md
+          - name: 시각이란 무엇인가요?
+            href: vision.md
+            items:
+              - name: 시각 장애(무시)
+                href: vision-blindness-sightlessness.md
+              - name: 저시력(부분적으로 시야)
+                href: vision-low-vision-partially-sighted.md
+              - name: 감소된 시력
+                href: vision-decreased-acuity.md
+              - name: 시각적 필드 손실
+                href: vision-visual-field-loss.md
+              - name: 색맹
+                href: vision-color-blindness.md
+              - name: 광선혐기증(광과민성 정도)
+                href: vision-photophobia-light-sensitivity.md
+          - name: 청력이란 무엇인가요?
+            href: hearing.md
+            items:
+              - name: 청력 손실(경미한)
+                href: hearing-mild.md
+              - name: 청력 손실(보통/심각)
+                href: hearing-moderate-severe.md
+              - name: 청력 손실(심오한)
+                href: hearing-profound.md
+              - name: 청력 손실(비대칭)
+                href: hearing-asymmetrical.md
+          - name: '목소리, 음성 및 통신이란 무엇인가요?'
+            href: voice-speech-communication.md
+            items:
+              - name: 실어증(수용적)
+                href: voice-speech-communication-aphasia-receptive.md
+              - name: 실어증(표현적)
+                href: voice-speech-communication-aphasia-expressive.md
+              - name: 음성 품질
+                href: voice-speech-communication-speech-quality.md
+              - name: 소셜 참여
+                href: voice-speech-communication-social-participation.md
+              - name: 비언어
+                href: voice-speech-communication-non-verbal.md
+          - name: 감각과 지각이란 무엇인가요?
+            href: sensation-perception.md
+            items:
+              - name: 전정의
+                href: sensation-perception-vestibular.md
+              - name: 만성 통증
+                href: sensation-perception-chronic-pain.md
+              - name: 스킨 무결성
+                href: sensation-perception-skin-integrity.md
+              - name: 감각(과민성 및 감수성 저하)
+                href: sensation-perception-sensation.md
+              - name: 자기 수용
+                href: sensation-perception-proprioception.md
