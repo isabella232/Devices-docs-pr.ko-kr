@@ -3,7 +3,7 @@ title: 다음 영업일 대체 정보 및 적용 범위
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/18/2021
+ms.date: 05/23/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -14,12 +14,12 @@ appliesto:
 - Surface Hub
 ms.reviewer: irenewhite
 description: 다음 영업일 교체 정보 및 적용 범위입니다.
-ms.openlocfilehash: 387286698a1f82066bf1631682e2ceb749c0a6ab
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 2708890c864582cf638c48474f85ddc01ef36576
+ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577088"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "11585929"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>다음 영업일 대체 정보 및 적용 범위
 
@@ -46,6 +46,7 @@ ms.locfileid: "11577088"
 - [핀란드](#finland)
 - [프랑스](#france)
 - [독일](#germany)
+- [홍콩](#hong-kong)
 - [아일랜드](#ireland)
 - [이탈리아](#italy)
 - [일본](#japan)
@@ -81,6 +82,7 @@ ms.locfileid: "11577088"
 #### <a name="czech-republic"></a>체코
 
 - 마감 시간: 12:00 CET(UTC+1)
+- [다음 영업일 범위](https://download.microsoft.com/download/9/2/6/926014cb-38b2-4270-b841-d3dc56f6e341/NBD%20Coverage%20-%20Czech%20Republic%20Post%20Codes%20042821.xlsx)
 
 #### <a name="denmark"></a>덴마크 
 
@@ -95,10 +97,16 @@ ms.locfileid: "11577088"
 #### <a name="france"></a>프랑스
 
 - 마감 시간: 12:00 CET(UTC+1)
+- [다음 영업일 범위](https://download.microsoft.com/download/7/b/0/7b0fa1bb-4c75-474a-83be-6d55e0fa719f/NBD%20Coverage%20-%20France%20Postal%20Codes%20042821.xlsx)
 
 #### <a name="germany"></a>독일
 
 - 마감 시간: 12:00 CET(UTC+1)
+- [다음 영업일 범위](https://download.microsoft.com/download/d/4/f/d4f6c11f-ada2-4400-b502-2e722644427b/NBD%20Coverage%20-%20Germany%20Post%20Codes%20042821.xlsx)
+
+#### <a name="hong-kong"></a>홍콩
+
+- 마감 시간:16:00 HKT(UTC+8) 
 
 #### <a name="ireland"></a>아일랜드
 
@@ -113,40 +121,7 @@ ms.locfileid: "11577088"
 #### <a name="japan"></a>일본
 
 - 마감 시간: 15:30 JST(UTC+9)
-- [다음 영업일 범위](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
-
-**일본에서 사용 가능한 지역** 
-
-- 아오모리
-- 이와테
-- 미야기
-- 아키타
-- 야마가타
-- 후쿠시마
-- 이바라키
-- 사이타마
-- 치바
-- 도쿄
-- 가나가와
-- 니가타
-- 도야마
-- 이시카와
-- 후쿠이
-- 야마나시
-- 나가노
-- 기후
-- 시즈오카
-- 아이치
-- 미에
-- 시가
-- 교토
-- 오사카
-- 효고
-- 나라
-- 와카야마
-- 돗토리
-- 히로시마
-- 야마구치
+- [다음 영업일 범위](https://download.microsoft.com/download/c/7/8/c781a035-19f7-4563-9dd9-e8c5f3713342/NBD%20Coverage%20-%20Japan%20Post%20Codes%20060121.xlsx)
 
 #### <a name="norway"></a>노르웨이
 
@@ -156,7 +131,8 @@ ms.locfileid: "11577088"
 #### <a name="poland"></a>폴란드
 
 - 마감 시간: 12:00 CET(UTC+1)
-
+- [다음 영업일 범위](https://download.microsoft.com/download/f/e/8/fe8b9b43-5f72-4cf1-971d-78dd46f8ea1c/NBD%20Coverage%20-%20Poland%20Post%20Codes%20042821.xlsx
+)
 
 #### <a name="portugal"></a>포르투갈
 
@@ -185,6 +161,7 @@ ms.locfileid: "11577088"
 #### <a name="the-netherlands"></a>네덜란드
 
 - 마감 시간: 12:00 CET(UTC+1)
+- [다음 영업일 범위](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
 
 #### <a name="united-states"></a>미국 
 

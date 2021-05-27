@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 03359a7d8ea028a8094c064c1fcb82cc9a53fe6a
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: cdb6dbdb49b34857f7b30feebb39f7a5c36e883c
+ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576768"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "11585959"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Surface Hub에서 전역이 아닌 관리자 계정 구성
 
@@ -47,7 +47,7 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 
      ![허브 관리자용 보안 그룹 만들기](images/sh-create-sec-group.png)
 
-3. 그룹을 열고 **** 구성원 을 **** 선택한 다음 구성원 추가를 선택하여 전역 관리자가 아닌 관리자로 지정하고자 하는 관리자 계정을 Surface Hub. Intune에서 그룹을 만드는 데 대한 자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조합니다.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
+3. 그룹을 열고 **** 구성원 을 **** 선택한 다음 구성원 추가를 선택하여 전역 관리자가 아닌 관리자로 지정하고자 하는 관리자 계정을 Surface Hub. Intune에서 그룹을 만드는 데 대한 자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조합니다.](/mem/intune/fundamentals/groups-add)
 
 ### <a name="create-security-group-for-surface-hub-devices"></a>장치용 보안 Surface Hub 만들기
 
@@ -57,8 +57,8 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 
 ## <a name="obtain-azure-ad-group-sid-using-powershell"></a>PowerShell을 사용하여 Azure AD 그룹 SID 얻기
 
-1. 관리자 권한(관리자 권한으로 실행)을 사용하여 PowerShell을 시작하고 시스템이 PowerShell 스크립트를 실행하도록 구성되어 있는지 확인**** 자세한 내용은 실행 정책 [정보를 참조합니다.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?) 
-2. [모듈 Azure PowerShell 설치합니다.](https://docs.microsoft.com/powershell/azure/install-az-ps)
+1. 관리자 권한(관리자 권한으로 실행)을 사용하여 PowerShell을 시작하고 시스템이 PowerShell 스크립트를 실행하도록 구성되어 있는지 확인**** 자세한 내용은 실행 정책 [정보를 참조합니다.](/powershell/module/microsoft.powershell.core/about/about_execution_policies?) 
+2. [모듈 Azure PowerShell 설치합니다.](/powershell/azure/install-az-ps)
 3. Azure AD 테넌트에 로그인합니다.
 
     ```powershell
@@ -106,6 +106,9 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 
 2. 자리 보기 SID(S-1-12-1로 시작)를 **Azure AD 그룹 SID로** 바꾸고 파일을 XML로 저장합니다. 예를 들어 **aad-local-admin.xml. ** 
 
+      > [!NOTE]
+      > 그룹은 SID를 통해 지정해야 하지만 Azure 사용자를 직접 추가하는 경우 다음 형식으로 UPN(사용자 계정 이름)을 지정하여 추가할 수 있습니다. `<member name = "AzureAD\user@contoso.com" />`
+
 ## <a name="create-custom-configuration-profile"></a>사용자 지정 구성 프로필 만들기
 
 1. 다음 Endpoint Manager 장치 **구성**  >  **프로필**  >  **프로필 만들기 를 선택합니다.** 
@@ -125,7 +128,7 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 8. 그룹 **선택을 클릭하여** 앞서 [](#create-security-group-for-surface-hub-devices) 만든 보안 그룹(장치)을**Surface Hub 선택합니다.** **다음**을 클릭합니다.
 9. 적용 가능성 규칙에서 원하는 경우 규칙을 추가합니다. 그렇지 않으면 **다음을 선택하고** 만들기를 **선택합니다.**
 
-OMA-URI 문자열을 사용하는 사용자 지정 구성 프로필에 대한 자세한 내용은 [Intune에서](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)Windows 10 사용자 지정 설정 사용을 참조하세요.
+OMA-URI 문자열을 사용하는 사용자 지정 구성 프로필에 대한 자세한 내용은 [Intune에서](/mem/intune/configuration/custom-settings-windows-10)Windows 10 사용자 지정 설정 사용을 참조하세요.
 
 
 ## <a name="non-global-admins-managing-surface-hub"></a>전역 관리자를 관리하지 Surface Hub
