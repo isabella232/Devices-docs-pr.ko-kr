@@ -28,20 +28,20 @@ ms.locfileid: "10836412"
 
 <span data-ttu-id="3bcce-109">Surface Hub를 사용할 때 경험하는 일반적인 문제에 대한 최고의 Microsoft 지원 해결 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="3bcce-109">These are the top Microsoft Support solutions for common issues experienced when using Surface Hub.</span></span>
 
-## <span data-ttu-id="3bcce-110">설정 및 설치 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-110">Setup and install issues</span></span>
+## <a name="setup-and-install-issues"></a><span data-ttu-id="3bcce-110">설정 및 설치 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-110">Setup and install issues</span></span>
 
 - [<span data-ttu-id="3bcce-111">설치 문제 해결</span><span class="sxs-lookup"><span data-stu-id="3bcce-111">Setup troubleshooting</span></span>](troubleshoot-surface-hub.md#setup-troubleshooting)
 - [<span data-ttu-id="3bcce-112">Exchange ActiveSync 오류</span><span class="sxs-lookup"><span data-stu-id="3bcce-112">Exchange ActiveSync errors</span></span>](troubleshoot-surface-hub.md#exchange-activesync-errors)
 
-## <span data-ttu-id="3bcce-113">Miracast 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-113">Miracast issues</span></span>
+## <a name="miracast-issues"></a><span data-ttu-id="3bcce-113">Miracast 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-113">Miracast issues</span></span>
 
 - [<span data-ttu-id="3bcce-114">Surface Hub에서 Miracast 문제 해결</span><span class="sxs-lookup"><span data-stu-id="3bcce-114">Troubleshoot Miracast on Surface Hub</span></span>](miracast-troubleshooting.md)
  
-## <span data-ttu-id="3bcce-115">업데이트 다운로드 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-115">Download updates issues</span></span>
+## <a name="download-updates-issues"></a><span data-ttu-id="3bcce-115">업데이트 다운로드 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-115">Download updates issues</span></span>
 
 - [<span data-ttu-id="3bcce-116">Surface Hub는 Windows 업데이트에서 업데이트를 다운로드할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3bcce-116">Surface Hub can't download updates from Windows Update</span></span>](https://support.microsoft.com/help/3191418/surface-hub-can-t-download-updates-from-windows-update)
 
-## <span data-ttu-id="3bcce-117">앱 연결 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-117">Connect app issues</span></span>
+## <a name="connect-app-issues"></a><span data-ttu-id="3bcce-117">앱 연결 문제</span><span class="sxs-lookup"><span data-stu-id="3bcce-117">Connect app issues</span></span>
 
 - [<span data-ttu-id="3bcce-118">Surface Hub에서 앱 연결이 예기치 않게 종료됨</span><span class="sxs-lookup"><span data-stu-id="3bcce-118">The Connect app in Surface Hub exits unexpectedly</span></span>](https://support.microsoft.com/help/3157417/the-connect-app-in-surface-hub-exits-unexpectedly)
 

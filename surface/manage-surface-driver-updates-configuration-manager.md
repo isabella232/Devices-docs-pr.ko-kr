@@ -23,11 +23,11 @@ ms.locfileid: "10897076"
 ---
 # <span data-ttu-id="58616-104">Configuration Manager에서 구성 관리자 관리</span><span class="sxs-lookup"><span data-stu-id="58616-104">Manage Surface driver updates in Configuration Manager</span></span>
 
-## <span data-ttu-id="58616-105">요약</span><span class="sxs-lookup"><span data-stu-id="58616-105">Summary</span></span>
+## <a name="summary"></a><span data-ttu-id="58616-105">요약</span><span class="sxs-lookup"><span data-stu-id="58616-105">Summary</span></span>
 
 <span data-ttu-id="58616-106">[Microsoft System Center Configuration Manager 버전 1710](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates)에서 시작 하 여 Configuration manager 클라이언트를 통해 microsoft Surface 펌웨어와 드라이버 업데이트를 직접 동기화 하 고 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58616-106">Starting in [Microsoft System Center Configuration Manager version 1710](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates), you can synchronize and deploy Microsoft Surface firmware and driver updates directly through the Configuration Manager client.</span></span> <span data-ttu-id="58616-107">프로세스는 정기 업데이트 배포와 유사 합니다.</span><span class="sxs-lookup"><span data-stu-id="58616-107">The process resembles deploying regular updates.</span></span> <span data-ttu-id="58616-108">그러나 화면 드라이버 업데이트를 카탈로그로 가져오려면 몇 가지 추가 구성이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="58616-108">However, some additional configurations are required to get the Surface driver updates into your catalog.</span></span>
 
-## <span data-ttu-id="58616-109">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="58616-109">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="58616-109">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="58616-109">Prerequisites</span></span>
 
 <span data-ttu-id="58616-110">화면 드라이버 업데이트를 관리 하려면 다음 필수 구성 요소를 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="58616-110">To manage Surface driver updates, the following prerequisites must be met:</span></span>
 
@@ -37,7 +37,7 @@ ms.locfileid: "10897076"
 > [!NOTE]
 > <span data-ttu-id="58616-114">환경이 전제 조건을 충족 하지 않는 경우 [FAQ](#frequently-asked-questions-faq) 섹션에서 화면 드라이버 및 펌웨어 업데이트를 배포 하는 [대체 방법을](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager#1) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58616-114">If your environment doesn’t meet the prerequisites, refer to the [alternative methods](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager#1) to deploy Surface driver and firmware updates in the [FAQ](#frequently-asked-questions-faq) section.</span></span>
 
-## <span data-ttu-id="58616-115">유용한 로그 파일</span><span class="sxs-lookup"><span data-stu-id="58616-115">Useful log files</span></span>
+## <a name="useful-log-files"></a><span data-ttu-id="58616-115">유용한 로그 파일</span><span class="sxs-lookup"><span data-stu-id="58616-115">Useful log files</span></span>
 
 <span data-ttu-id="58616-116">다음 로그는 화면 드라이버 업데이트를 관리 하는 경우 특히 유용 합니다.</span><span class="sxs-lookup"><span data-stu-id="58616-116">The following logs are especially useful when you manage Surface driver updates.</span></span>
 
@@ -49,7 +49,7 @@ ms.locfileid: "10897076"
 <span data-ttu-id="58616-123">이러한 로그는 SUP를 관리 하는 사이트 서버 (사이트 서버에 직접 설치 된 경우 SUP)에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58616-123">These logs are located on the site server that manages the SUP, or on the SUP itself if it's installed directly on a site server.</span></span>
 <span data-ttu-id="58616-124">Configuration Manager 로그의 전체 목록은 [System Center Configuration manager에서 로그 파일](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58616-124">For a complete list of Configuration Manager logs, see [Log files in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).</span></span>
 
-## <span data-ttu-id="58616-125">화면 드라이버 업데이트 관리 사용</span><span class="sxs-lookup"><span data-stu-id="58616-125">Enabling Surface driver updates management</span></span>
+## <a name="enabling-surface-driver-updates-management"></a><span data-ttu-id="58616-125">화면 드라이버 업데이트 관리 사용</span><span class="sxs-lookup"><span data-stu-id="58616-125">Enabling Surface driver updates management</span></span>
 
 <span data-ttu-id="58616-126">Configuration Manager에서 화면 드라이버 업데이트 관리를 사용 하도록 설정 하려면 다음 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="58616-126">To enable Surface driver updates management in Configuration Manager, follow these steps:</span></span>
 
@@ -83,7 +83,7 @@ ms.locfileid: "10897076"
    > [!NOTE]
    > <span data-ttu-id="58616-148">대부분의 Surface 드라이버는 여러 Windows 10 제품 그룹에 속합니다.</span><span class="sxs-lookup"><span data-stu-id="58616-148">Most Surface drivers belong to multiple Windows 10 product groups.</span></span> <span data-ttu-id="58616-149">여기에 나열 된 모든 제품을 선택 해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58616-149">You may not have to select all the products that are listed here.</span></span> <span data-ttu-id="58616-150">업데이트 카탈로그를 채우는 제품의 수를 줄이려면 동기화를 위해 환경에 필요한 제품만 선택 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="58616-150">To help reduce the number of products that populate your Update Catalog, we recommend that you select only the products that are required by your environment for synchronization.</span></span>
 
-## <span data-ttu-id="58616-151">구성 확인</span><span class="sxs-lookup"><span data-stu-id="58616-151">Verifying the configuration</span></span>
+## <a name="verifying-the-configuration"></a><span data-ttu-id="58616-151">구성 확인</span><span class="sxs-lookup"><span data-stu-id="58616-151">Verifying the configuration</span></span>
 
 <span data-ttu-id="58616-152">SUP가 올바르게 구성 되어 있는지 확인 하려면 다음 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="58616-152">To verify that the SUP is configured correctly, follow these steps:</span></span>
 
@@ -123,7 +123,7 @@ ms.locfileid: "10897076"
 
    ![모든 소프트웨어 업데이트 검색 결과](images/manage-surface-driver-updates-4.png)
 
-## <span data-ttu-id="58616-163">수동 동기화</span><span class="sxs-lookup"><span data-stu-id="58616-163">Manual synchronization</span></span>
+## <a name="manual-synchronization"></a><span data-ttu-id="58616-163">수동 동기화</span><span class="sxs-lookup"><span data-stu-id="58616-163">Manual synchronization</span></span>
 
 <span data-ttu-id="58616-164">다음 동기화가 끝날 때까지 기다리지 않으려는 경우 다음 단계에 따라 동기화를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="58616-164">If you don't want to wait until the next synchronization, follow these steps to start a synchronization:</span></span>
 
@@ -150,13 +150,13 @@ ms.locfileid: "10897076"
    Synchronizing update 74102899-0a49-48cf-97e6-05bde18a27ff - Microsoft driver update for Surface UEFI
    ```
 
-## <span data-ttu-id="58616-169">Surface 펌웨어와 드라이버 업데이트 배포</span><span class="sxs-lookup"><span data-stu-id="58616-169">Deploying Surface firmware and driver updates</span></span>
+## <a name="deploying-surface-firmware-and-driver-updates"></a><span data-ttu-id="58616-169">Surface 펌웨어와 드라이버 업데이트 배포</span><span class="sxs-lookup"><span data-stu-id="58616-169">Deploying Surface firmware and driver updates</span></span>
 
 <span data-ttu-id="58616-170">다른 업데이트를 배포 하는 것과 동일한 방식으로 Surface 펌웨어와 드라이버 업데이트를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58616-170">You can deploy Surface firmware and driver updates in the same manner as you deploy other updates.</span></span>
 
 <span data-ttu-id="58616-171">배포에 대 한 자세한 내용은 [System Center 2012 구성 관리자 – Part7: 소프트웨어 업데이트 (배포)](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58616-171">For more information about deployment, see [System Center 2012 Configuration Manager–Part7: Software Updates (Deploy)](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/).</span></span>
 
-## <span data-ttu-id="58616-172">질문과 대답(FAQ)</span><span class="sxs-lookup"><span data-stu-id="58616-172">Frequently asked questions (FAQ)</span></span>
+## <a name="frequently-asked-questions-faq"></a><span data-ttu-id="58616-172">질문과 대답(FAQ)</span><span class="sxs-lookup"><span data-stu-id="58616-172">Frequently asked questions (FAQ)</span></span>
 
 **<span data-ttu-id="58616-173">이 문서의 단계를 수행한 후에도 Surface 드라이버도 동기화 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="58616-173">After I follow the steps in this article, my Surface drivers are still not synchronized.</span></span> <span data-ttu-id="58616-174">왜 그럴까요?</span><span class="sxs-lookup"><span data-stu-id="58616-174">Why?</span></span>**
 
@@ -176,7 +176,7 @@ ms.locfileid: "10897076"
 
 <span data-ttu-id="58616-193">대체 채널을 통해 Surface driver 및 펌웨어 업데이트를 배포 하는 방법에 대 한 자세한 내용은 [surface driver 및 펌웨어 업데이트 관리](manage-surface-driver-and-firmware-updates.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58616-193">For information about how to deploy Surface driver and firmware updates through alternative channels, see [Manage Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).</span></span> <span data-ttu-id="58616-194">.Msi 또는 .exe 파일을 다운로드 한 다음 기존 소프트웨어 배포 채널을 통해 배포 하려는 경우에는 [구성 관리자를 사용 하 여 Surface 펌웨어를 업데이트 상태로 유지](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58616-194">If you want to download the .msi or .exe file, and then deploy through traditional software deployment channels, see [Keeping Surface Firmware Updated with Configuration Manager](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).</span></span>
 
-## <span data-ttu-id="58616-195">추가 정보</span><span class="sxs-lookup"><span data-stu-id="58616-195">Additional Information</span></span>
+## <a name="additional-information"></a><span data-ttu-id="58616-195">추가 정보</span><span class="sxs-lookup"><span data-stu-id="58616-195">Additional Information</span></span>
 
 <span data-ttu-id="58616-196">Surface driver 및 펌웨어 업데이트에 대 한 자세한 내용은 다음 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58616-196">For more information about Surface driver and firmware updates, see the following articles:</span></span>
 

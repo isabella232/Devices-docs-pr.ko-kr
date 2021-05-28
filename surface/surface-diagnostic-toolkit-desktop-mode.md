@@ -72,7 +72,7 @@ ms.locfileid: "11145943"
 
 <span id="multiple" />
 
-## <span data-ttu-id="ef66a-141">여러 하드웨어 테스트를 실행 하 여 문제 해결</span><span class="sxs-lookup"><span data-stu-id="ef66a-141">Running multiple hardware tests to troubleshoot issues</span></span>
+## <a name="running-multiple-hardware-tests-to-troubleshoot-issues"></a><span data-ttu-id="ef66a-141">여러 하드웨어 테스트를 실행 하 여 문제 해결</span><span class="sxs-lookup"><span data-stu-id="ef66a-141">Running multiple hardware tests to troubleshoot issues</span></span>
 
 <span data-ttu-id="ef66a-142">SDT는 일련의 테스트를 실행 하는 대화형 도구로 디자인 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-142">SDT is designed as an interactive tool that runs a series of tests.</span></span> <span data-ttu-id="ef66a-143">각 테스트에 대해 SDT는 테스트의 특성을 요약 하는 지침과 테스트 성공에 대 한 사용자의 기대 또는 검색을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-143">For each test, SDT provides instructions summarizing  the nature of the test and what users should expect or look for in order for the test to be successful.</span></span> <span data-ttu-id="ef66a-144">예를 들어 디스플레이 밝기가 제대로 작동 하 고 있는지 진단 하려면 그림 4에 표시 된 대로 SDT는 0에서 시작 하 여 사용자에 게 해당 밝기가 올바르게 작동 **Yes** 하는지 확인 **No** 하도록 요청 하 여 밝기를 100%로 늘립니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-144">For example, to diagnose if the display brightness is working properly, SDT starts at zero and increases the brightness to 100 percent, asking users to confirm – by answering **Yes** or **No** -- that brightness is functioning as expected, as shown in figure 4.</span></span> 
 
@@ -87,7 +87,7 @@ ms.locfileid: "11145943"
 3. <span data-ttu-id="ef66a-149">사용자에 게 적절 하 게 나머지 테스트를 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-149">Guide users through remaining tests as appropriate.</span></span> <span data-ttu-id="ef66a-150">완료 되 면, SDT가 해상도 가이드와 함께 하드웨어 문제의 가능한 원인을 포함 하 여 보고서에 대 한 고급 요약을 자동으로 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-150">When finished, SDT automatically provides a high-level summary of the report, including the possible causes of any hardware issues along with guidance for resolution.</span></span>
 
 
-### <span data-ttu-id="ef66a-151">응용 프로그램 복구</span><span class="sxs-lookup"><span data-stu-id="ef66a-151">Repairing applications</span></span>
+### <a name="repairing-applications"></a><span data-ttu-id="ef66a-151">응용 프로그램 복구</span><span class="sxs-lookup"><span data-stu-id="ef66a-151">Repairing applications</span></span>
 
 <span data-ttu-id="ef66a-152">SDT는 그림 5와 같이 문제를 일으킬 수 있는 응용 프로그램을 진단 하 고 복구할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-152">SDT enables you to diagnose and repair applications that may be causing issues, as shown in figure 5.</span></span>
 
@@ -96,7 +96,7 @@ ms.locfileid: "11145943"
 *Figure 5. Running repairs*</span></span>
 <span id="logs" />
 
-### <span data-ttu-id="ef66a-154">문제 분석을 위한 로그 생성</span><span class="sxs-lookup"><span data-stu-id="ef66a-154">Generating logs for analyzing issues</span></span> 
+### <a name="generating-logs-for-analyzing-issues"></a><span data-ttu-id="ef66a-154">문제 분석을 위한 로그 생성</span><span class="sxs-lookup"><span data-stu-id="ef66a-154">Generating logs for analyzing issues</span></span> 
 
 <span data-ttu-id="ef66a-155">SDT는 그림 6과 같이 응용 프로그램, 드라이버, 하드웨어 및 운영 체제 문제에 걸친 광범위 한 로그 가능 진단 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-155">SDT provides extensive log-enabled diagnosis support across applications, drivers, hardware, and operating system issues, as shown in figure 6.</span></span>
 
@@ -106,11 +106,11 @@ ms.locfileid: "11145943"
 
 <span id="detailed-report" />
 
-### <span data-ttu-id="ef66a-157">디바이스와 최적 구성 비교 및 자세한 보고서 생성</span><span class="sxs-lookup"><span data-stu-id="ef66a-157">Generating detailed report comparing device vs. optimal configuration</span></span>
+### <a name="generating-detailed-report-comparing-device-vs.-optimal-configuration"></a><span data-ttu-id="ef66a-157">디바이스와 최적 구성 비교 및 자세한 보고서 생성</span><span class="sxs-lookup"><span data-stu-id="ef66a-157">Generating detailed report comparing device vs. optimal configuration</span></span>
 
 <span data-ttu-id="ef66a-158">SDT는 로그를 기반으로 하 여 기본 위치에 저장할 수 있는 소프트웨어 및 펌웨어 기반 문제에 대 한 보고서를 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef66a-158">Based on the logs, SDT generates a report for software- and firmware-based issues that you can save to a preferred location.</span></span>
 
-## <span data-ttu-id="ef66a-159">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ef66a-159">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ef66a-159">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ef66a-159">Related topics</span></span>
 
 - [<span data-ttu-id="ef66a-160">명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행</span><span class="sxs-lookup"><span data-stu-id="ef66a-160">Run Surface Diagnostic Toolkit for Business using commands</span></span>](surface-diagnostic-toolkit-command-line.md)
 

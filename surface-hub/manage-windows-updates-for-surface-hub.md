@@ -23,7 +23,7 @@ ms.locfileid: "11174728"
 
 <span data-ttu-id="97e9b-105">Surface Hub 운영 체제의 새 릴리스는 Windows 10의 릴리스처럼 Windows 업데이트를 통해 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-105">New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10.</span></span> <span data-ttu-id="97e9b-106">이 페이지에서는 Surface Hub 장치에 대 한 업데이트를 관리 하는 모범 사례를 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-106">This page explains best practices for managing updates for Surface Hub devices.</span></span> 
 
-## <span data-ttu-id="97e9b-107">비즈니스용 Windows 업데이트</span><span class="sxs-lookup"><span data-stu-id="97e9b-107">Windows Update for Business</span></span>
+## <a name="windows-update-for-business"></a><span data-ttu-id="97e9b-107">비즈니스용 Windows 업데이트</span><span class="sxs-lookup"><span data-stu-id="97e9b-107">Windows Update for Business</span></span>
 
 <span data-ttu-id="97e9b-108">비즈니스용 windows 업데이트는 장치 관리 비용을 줄이면서 Windows Update가 릴리스를 설치 하는 방법과 시기를 추가로 제어 하기 위해 디자인 된 기능 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-108">Windows Update for Business is a set of features designed to provide enterprises additional control over how and when Windows Update installs releases, while reducing device management costs.</span></span> <span data-ttu-id="97e9b-109">이 방법을 사용하면 Surface Hub가 Microsoft Windows 업데이트 서비스에 직접 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-109">Using this method, Surface Hubs are directly connected to Microsoft’s Windows Update service.</span></span>
 
@@ -39,7 +39,7 @@ ms.locfileid: "11174728"
 > <span data-ttu-id="97e9b-116">Surface Hub는 현재 업데이트 롤백을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-116">Surface Hub does not currently support rolling back updates.</span></span>
 
 
-## <span data-ttu-id="97e9b-117">Surface Hub 서비스 모델</span><span class="sxs-lookup"><span data-stu-id="97e9b-117">Surface Hub servicing model</span></span>
+## <a name="surface-hub-servicing-model"></a><span data-ttu-id="97e9b-117">Surface Hub 서비스 모델</span><span class="sxs-lookup"><span data-stu-id="97e9b-117">Surface Hub servicing model</span></span>
 
 <span data-ttu-id="97e9b-118">Surface Hub는 [WaaS(Windows as a Service)](https://docs.microsoft.com/windows/deployment/update/waas-overview)라는 Windows10 서비스 모델을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-118">Surface Hub uses the Windows 10 servicing model, referred to as [Windows as a Service (WaaS)](https://docs.microsoft.com/windows/deployment/update/waas-overview).</span></span> <span data-ttu-id="97e9b-119">일반적으로 새로운 기능은 몇 년마다 릴리스되는 새 Windows 버전에만 추가되었습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-119">Traditionally, new features were added only in new versions of Windows that were released every few years.</span></span> <span data-ttu-id="97e9b-120">각각의 새 버전을 조직에 배포하려면 오래 걸리고 비용이 많이 드는 프로세스가 필요했습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-120">Each new version required lengthy and expensive processes to deploy in an organization.</span></span> <span data-ttu-id="97e9b-121">따라서 최종 사용자와 조직은 보통 새로운 혁신의 이점을 누리지 못합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-121">As a result, end users and organizations don't frequently enjoy the benefits of new innovation.</span></span> <span data-ttu-id="97e9b-122">Windows as a Service의 목표는 높은 수준의 품질을 유지하면서 새 기능을 계속 제공하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-122">The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.</span></span>
 
@@ -54,7 +54,7 @@ ms.locfileid: "11174728"
 <span data-ttu-id="97e9b-135">Windows as a Service에 대한 자세한 내용은 [Windows as a Service 개요](https://technet.microsoft.com/itpro/windows/manage/waas-overview)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="97e9b-135">For more information on Windows as a Service, see [Overview of Windows as a service](https://technet.microsoft.com/itpro/windows/manage/waas-overview).</span></span>
 
 
-## <span data-ttu-id="97e9b-136">비즈니스용 Windows 업데이트 사용</span><span class="sxs-lookup"><span data-stu-id="97e9b-136">Use Windows Update for Business</span></span>
+## <a name="use-windows-update-for-business"></a><span data-ttu-id="97e9b-136">비즈니스용 Windows 업데이트 사용</span><span class="sxs-lookup"><span data-stu-id="97e9b-136">Use Windows Update for Business</span></span>
 
 <span data-ttu-id="97e9b-137">모든 Windows10 장치처럼 Surface Hub에는 장치가 업데이트되는 방식을 제어할 수 있는 **WUfB(비즈니스용 Windows 업데이트)** 가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-137">Surface Hubs, like all Windows 10 devices, include **Windows Update for Business (WUfB)** to enable you to control how your devices are being updated.</span></span> <span data-ttu-id="97e9b-138">비즈니스용 Windows 업데이트를 통해 장치 관리 비용을 줄이고, 업데이트 배포를 제어하며, 보안 업데이트에 빠르게 액세스할 수 있을 뿐만 아니라 지속적으로 Microsoft에서 제공하는 혁신적인 최신 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-138">Windows Update for Business helps reduce device management costs, provide controls over update deployment, offer quicker access to security updates, as well as provide access to the latest innovations from Microsoft on an ongoing basis.</span></span> <span data-ttu-id="97e9b-139">자세한 내용은 [비즈니스용 Windows 업데이트를 사용하여 업데이트 관리](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="97e9b-139">For more information, see [Manage updates using Windows Update for Business](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb).</span></span>
 
@@ -66,7 +66,7 @@ ms.locfileid: "11174728"
 > <span data-ttu-id="97e9b-143">Microsoft Intune, Microsoft Endpoint Configuration Manager 또는 지원 되는 타사 MDM 공급자를 사용 하 여 WUfB를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-143">You can use Microsoft Intune, Microsoft Endpoint Configuration Manager, or a supported third-party MDM provider to set up WUfB.</span></span> [<span data-ttu-id="97e9b-144">연습: Microsoft Intune을 사용하여 비즈니스용 Windows 업데이트 구성.</span><span class="sxs-lookup"><span data-stu-id="97e9b-144">Walkthrough: use Microsoft Intune to configure Windows Update for Business.</span></span>](https://docs.microsoft.com/windows/deployment/update/waas-wufb-intune)
 
 
-### <span data-ttu-id="97e9b-145">Surface Hub를 배포 링으로 그룹화</span><span class="sxs-lookup"><span data-stu-id="97e9b-145">Group Surface Hub into deployment rings</span></span>
+### <a name="group-surface-hub-into-deployment-rings"></a><span data-ttu-id="97e9b-145">Surface Hub를 배포 링으로 그룹화</span><span class="sxs-lookup"><span data-stu-id="97e9b-145">Group Surface Hub into deployment rings</span></span>
 
 <span data-ttu-id="97e9b-146">배포 링을 통해 업데이트가 Surface Hub에 출시되는 시기를 제어하여 유효성을 검사할 시간을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-146">Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them.</span></span> <span data-ttu-id="97e9b-147">예를 들어 먼저 작업 장치 풀을 업데이트하여 조직에 더 광범위하게 출시하기 전에 품질을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-147">For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization.</span></span> <span data-ttu-id="97e9b-148">조직에서 Surface Hub를 관리하는 사용자에 따라 기타 Windows10 장치용으로 빌드한 배포 링에 Surface Hub를 통합하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-148">Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 devices.</span></span> <span data-ttu-id="97e9b-149">배포 링에 대한 자세한 내용은 [Windows10 업데이트용 배포 링 빌드](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="97e9b-149">For more information about deployment rings, see [Build deployment rings for Windows 10 updates](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates).</span></span>
 
@@ -80,7 +80,7 @@ ms.locfileid: "11174728"
 | <span data-ttu-id="97e9b-178">중요 업무용(예: 중역 회의실)</span><span class="sxs-lookup"><span data-stu-id="97e9b-178">Mission critical (e.g. devices in executive boardrooms)</span></span> | <span data-ttu-id="97e9b-179">적음</span><span class="sxs-lookup"><span data-stu-id="97e9b-179">Small</span></span> | <span data-ttu-id="97e9b-180">반기 채널</span><span class="sxs-lookup"><span data-stu-id="97e9b-180">Semi-annual channel</span></span> |  <span data-ttu-id="97e9b-181">릴리스 후 180일(기능 업데이트 최대 지연).</span><span class="sxs-lookup"><span data-stu-id="97e9b-181">180 days after release (maximum deferral for feature updates).</span></span> | <span data-ttu-id="97e9b-182">릴리스 후 30일(품질 업데이트 최대 지연).</span><span class="sxs-lookup"><span data-stu-id="97e9b-182">30 days after release (maximum deferral for quality updates).</span></span> | <span data-ttu-id="97e9b-183">장치 사용 및 사용자 피드백을 모니터링합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-183">Monitor device usage and user feedback.</span></span> |
 
 
-### <span data-ttu-id="97e9b-184">Surface Hub가 업데이트를 받는 시기 구성</span><span class="sxs-lookup"><span data-stu-id="97e9b-184">Configure when Surface Hub receives updates</span></span>
+### <a name="configure-when-surface-hub-receives-updates"></a><span data-ttu-id="97e9b-184">Surface Hub가 업데이트를 받는 시기 구성</span><span class="sxs-lookup"><span data-stu-id="97e9b-184">Configure when Surface Hub receives updates</span></span>
 
 <span data-ttu-id="97e9b-185">Surface Hub에 대한 배포 링을 확인한 후 각 링에 대한 업데이트 지연 정책을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-185">Once you've determined deployment rings for your Surface Hubs, configure update deferral policies for each ring:</span></span>
 - <span data-ttu-id="97e9b-186">기능 업데이트를 연기하려면 각 링에 대한 적절한 [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) 정책을 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-186">To defer feature updates, set an appropriate [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) policy for each ring.</span></span>
@@ -98,7 +98,7 @@ ms.locfileid: "11174728"
 
 <span data-ttu-id="97e9b-191">Windows 10 Team 1주년 업데이트를 설치한 다음에는 이들 주소를 제거하여 Surface Hub를 이전 상태로 되돌릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-191">Once the Windows 10 Team Anniversary Update is installed, you can remove these addresses to return your Surface Hub to its previous state.</span></span>
 
-## <span data-ttu-id="97e9b-192">유지 관리 기간</span><span class="sxs-lookup"><span data-stu-id="97e9b-192">Maintenance window</span></span>
+## <a name="maintenance-window"></a><span data-ttu-id="97e9b-192">유지 관리 기간</span><span class="sxs-lookup"><span data-stu-id="97e9b-192">Maintenance window</span></span>
 
 <span data-ttu-id="97e9b-193">업무 시간 중에 항상 장치를 사용할 수 있도록 Surface Hub는 지정된 유지 관리 기간 동안 관리 기능을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-193">To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window.</span></span> <span data-ttu-id="97e9b-194">유지 관리 창에서 Surface Hub는 Windows Update를 통해 업데이트를 자동으로 설치 하 고 창이 끝날 때까지 20 분 후에 장치를 다시 부팅 합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-194">During the maintenance window, the Surface Hub automatically installs updates through Windows Update and reboots the device 20 minutes before the end of the window.</span></span>
 
@@ -123,12 +123,12 @@ ms.locfileid: "11174728"
 <span data-ttu-id="97e9b-211">MDM을 사용 하 여 유지 관리 창을 변경 하려면 [SurfaceHub 구성 서비스 공급자](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)에서 **MaintenanceHoursSimple** 노드를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="97e9b-211">To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx).</span></span> <span data-ttu-id="97e9b-212">자세한 내용은 [MDM 공급자 설정 관리](manage-settings-with-mdm-for-surface-hub.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="97e9b-212">See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.</span></span>
 
 
-## <span data-ttu-id="97e9b-213">추가 정보</span><span class="sxs-lookup"><span data-stu-id="97e9b-213">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="97e9b-213">추가 정보</span><span class="sxs-lookup"><span data-stu-id="97e9b-213">More information</span></span>
 
 - [<span data-ttu-id="97e9b-214">블로그 게시물: Surface Hub에 대 한 서비스, Flighting, 업데이트 관리 (Intune 사용)</span><span class="sxs-lookup"><span data-stu-id="97e9b-214">Blog post: Servicing, Flighting, and Managing updates for Surface Hub (With Intune, of course!)</span></span>](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
 
 
-## <span data-ttu-id="97e9b-215">관련 항목</span><span class="sxs-lookup"><span data-stu-id="97e9b-215">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="97e9b-215">관련 항목</span><span class="sxs-lookup"><span data-stu-id="97e9b-215">Related topics</span></span>
 
 [<span data-ttu-id="97e9b-216">Microsoft Surface Hub 관리</span><span class="sxs-lookup"><span data-stu-id="97e9b-216">Manage Microsoft Surface Hub</span></span>](manage-surface-hub.md)
 

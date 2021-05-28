@@ -23,7 +23,7 @@ ms.locfileid: "11271402"
 
 <span data-ttu-id="5e291-105">Surface 디바이스는 모바일 장치 에너지 소비의 최신 발전을 활용하여 워크로드에 최적화된 간소화된 환경을 제공하도록 디자인되었습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-105">Surface devices are designed to take advantage of the latest advances in mobile device energy consumption to deliver a streamlined experience optimized across workloads.</span></span> <span data-ttu-id="5e291-106">수행하는 작업에 따라 Surface는 전원이 개별 하드웨어 구성 요소로 흐르는 방법을 동적으로 미세하게 설정하고, 들어오는 전자 메일 또는 네트워크 트래픽과 같은 백그라운드 작업을 처리하기 위해 시스템 구성 요소를 잠시 깨우고 저전력 유휴 상태(S0ix)로 돌아올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-106">Depending on what you’re doing, Surface dynamically fine tunes how power flows to individual hardware components, momentarily waking up system components to handle background tasks -- such as an incoming email or network traffic -- before returning to a low power idle state (S0ix).</span></span>
 
-## <span data-ttu-id="5e291-107">IT 관리자를 위한 권장 사항 요약</span><span class="sxs-lookup"><span data-stu-id="5e291-107">Summary of recommendations for IT administrators</span></span>
+## <a name="summary-of-recommendations-for-it-administrators"></a><span data-ttu-id="5e291-107">IT 관리자를 위한 권장 사항 요약</span><span class="sxs-lookup"><span data-stu-id="5e291-107">Summary of recommendations for IT administrators</span></span>
 
 <span data-ttu-id="5e291-108">조직 전체에서 Surface 디바이스가 Surface 전원 최적화 기능을 완전히 사용할 수 있도록 보장하기 위해 다음을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-108">To ensure Surface devices across your organization fully benefit from Surface power optimization features:</span></span>
 
@@ -36,18 +36,18 @@ ms.locfileid: "11271402"
 
 - <span data-ttu-id="5e291-117">기존 전원 관리 정책 설정에서 Surface 디바이스를 제외합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-117">Exclude Surface devices from any existing power management policy settings.</span></span> 
 
-## <span data-ttu-id="5e291-118">Background</span><span class="sxs-lookup"><span data-stu-id="5e291-118">Background</span></span>
+## <a name="background"></a><span data-ttu-id="5e291-118">Background</span><span class="sxs-lookup"><span data-stu-id="5e291-118">Background</span></span>
 
 <span data-ttu-id="5e291-119">Surface에서 전원 관리를 구현하는 방식은 일련의 절전 상태 동안 점차적으로 전원을 줄이면서 꺼지는 이전 OS 표준과 크게 다릅니다. 예를 들어 S1, S2, S3 등에서 순환합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-119">The way Surface implements power management differs significantly from the earlier OS standard that gradually reduces and turns off power via a series of sleep states; for example, cycling through S1, S2, S3, and so on.</span></span>
 
 <span data-ttu-id="5e291-120">대신 Surface는 레거시 절전 모드 및 에너지 소비 기능을 최신 대기 기능 및 동적 미세 조정으로 대체하는 사용자 지정 전원 프로필로 이미지가 작성되었습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-120">Instead, Surface is imaged with a custom power profile that replaces legacy sleep and energy consumption functionality with modern standby features and dynamic fine tuning.</span></span> <span data-ttu-id="5e291-121">이 사용자 지정 전원 프로필은 Surface Serial Hub 드라이버 및 SAM(시스템 집계 모듈)을 통해 구현됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-121">This custom power profile is implemented via the Surface Serial Hub Driver and the system aggregator module (SAM).</span></span> <span data-ttu-id="5e291-122">SAM 칩은 알고리즘을 사용하여 최적의 전원 요구 사항을 계산하는 Surface 디바이스 전원 정책 소유자로 기능합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-122">The SAM chip functions as the Surface device power-policy owner, using algorithms to calculate optimal power requirements.</span></span> <span data-ttu-id="5e291-123">Windows 전원 관리자와 함께 작동하여 하드웨어 구성 요소가 작동하는 데 필요한 정확한 양의 전원만 할당하거나 스로틀합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-123">It works in conjunction with Windows power manager to allocate or throttle only the exact amount of power required for hardware components to function.</span></span> <span data-ttu-id="5e291-124">이 문서는 Surface Pro 7+, Surface Laptop Go, Surface Pro 7, Surface Pro X 및 Surface Laptop 3을 포함하여 현재 지원되는 모든 Surface 디바이스에 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-124">This article applies to all currently supported Surface devices including Surface Pro 7+, Surface Laptop Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3.</span></span>
 
-## <span data-ttu-id="5e291-125">Surface에서 사용자 지정 전원 프로필 활용</span><span class="sxs-lookup"><span data-stu-id="5e291-125">Utilizing the custom power profile in Surface</span></span>
+## <a name="utilizing-the-custom-power-profile-in-surface"></a><span data-ttu-id="5e291-125">Surface에서 사용자 지정 전원 프로필 활용</span><span class="sxs-lookup"><span data-stu-id="5e291-125">Utilizing the custom power profile in Surface</span></span>
 
 <span data-ttu-id="5e291-126">Surface 디바이스의 전원 옵션으로 이동하면 사용 가능한 하나의 전원 플랜이 있는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-126">If you go into the power options on a surface device, you'll see that there's a single power plan available.</span></span> <span data-ttu-id="5e291-127">사용자 지정 전원 프로필입니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-127">This is the custom power profile.</span></span> <span data-ttu-id="5e291-128">고급 전원 설정으로 이동하면 Windows 10을 실행하는 일반 PC에 비해 훨씬 더 작은 전원 옵션 하위 집합이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-128">And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10.</span></span> <span data-ttu-id="5e291-129">일반 디바이스와 달리 Surface에는 이러한 전원 옵션을 관리하는 펌웨어 및 사용자 지정 구성 요소가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-129">Unlike generic devices, Surface has firmware and custom components to manage these power options.</span></span>
 
 
-## <span data-ttu-id="5e291-130">최신 대기</span><span class="sxs-lookup"><span data-stu-id="5e291-130">Modern Standby</span></span>
+## <a name="modern-standby"></a><span data-ttu-id="5e291-130">최신 대기</span><span class="sxs-lookup"><span data-stu-id="5e291-130">Modern Standby</span></span>
 
 <span data-ttu-id="5e291-131">알고리즘에 포함된 사용자 지정 전원 프로필을 사용하면 일반적인 스마트폰의 인스턴트 설정/인스턴트 해제 기능에 대해 낮은 전원 상태를 유지 관리하여 Surface에 대한 최신 대기 상태를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-131">The algorithmically embedded custom power profile enables modern standby connectivity for Surface by maintaining a low power state for instant on/instant off functionality typical of smartphones.</span></span> <span data-ttu-id="5e291-132">DRIPS(심층 런타임 유휴 플랫폼 상태)라고도 하는 S0ix는 Surface 디바이스의 기본 전원 모드입니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-132">S0ix, also known as Deepest Runtime Idle Platform State (DRIPS), is the default power mode for Surface devices.</span></span> <span data-ttu-id="5e291-133">최신 대기 모드에는 두 가지 모드가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-133">Modern standby has two modes:</span></span>
 
@@ -57,7 +57,7 @@ ms.locfileid: "11271402"
 
 <span data-ttu-id="5e291-138">최신 대기에 대한 자세한 내용은 Microsoft 하드웨어 개발자 센터를 [참조합니다.](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)</span><span class="sxs-lookup"><span data-stu-id="5e291-138">To learn more about modern standby, refer to the [Microsoft Hardware Dev Center](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources).</span></span>
 
-## <span data-ttu-id="5e291-139">Surface에서 전원 관리 환경을 간소화하는 방법</span><span class="sxs-lookup"><span data-stu-id="5e291-139">How Surface streamlines the power management experience</span></span> 
+## <a name="how-surface-streamlines-the-power-management-experience"></a><span data-ttu-id="5e291-139">Surface에서 전원 관리 환경을 간소화하는 방법</span><span class="sxs-lookup"><span data-stu-id="5e291-139">How Surface streamlines the power management experience</span></span> 
 
 <span data-ttu-id="5e291-140">Surface는 사용자가 전원 관리 환경을 최적화할 수 있도록 설계된 다음 기능을 통합합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-140">Surface integrates the following features designed to help users optimize the power management experience:</span></span>
 
@@ -67,11 +67,11 @@ ms.locfileid: "11271402"
 
 - [<span data-ttu-id="5e291-143">Windows 성능 전원 슬라이더</span><span class="sxs-lookup"><span data-stu-id="5e291-143">Windows performance power slider</span></span>](#windows-performance-power-slider)
 
-### <span data-ttu-id="5e291-144">단수 전원 계획</span><span class="sxs-lookup"><span data-stu-id="5e291-144">Singular power plan</span></span>
+### <a name="singular-power-plan"></a><span data-ttu-id="5e291-144">단수 전원 계획</span><span class="sxs-lookup"><span data-stu-id="5e291-144">Singular power plan</span></span>
 
 <span data-ttu-id="5e291-145">Surface는 사용자 지정 전원 계획을 만들거나 전원 설정을 수동으로 구성할 필요가 없어 간소화된 전원 관리 환경을 위해 디자인됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-145">Surface is designed for a streamlined power management experience that eliminates the need to create custom power plans or manually configure power settings.</span></span> <span data-ttu-id="5e291-146">Microsoft는 표준 Windows 빌드의 여러 전원 계획을 대체하는 단일 전원 계획(균형 조정)을 제공하여 사용자 환경을 간소화합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-146">Microsoft streamlines the user experience by delivering a single power plan (balanced) that replaces the multiple power plans from standard Windows builds.</span></span>
 
-### <span data-ttu-id="5e291-147">간소화된 전원 설정 사용자 인터페이스</span><span class="sxs-lookup"><span data-stu-id="5e291-147">Simplified power settings user interface</span></span>
+### <a name="simplified-power-settings-user-interface"></a><span data-ttu-id="5e291-147">간소화된 전원 설정 사용자 인터페이스</span><span class="sxs-lookup"><span data-stu-id="5e291-147">Simplified power settings user interface</span></span>
 
 <span data-ttu-id="5e291-148">Surface는 모범 사례 전원 설정 권장 사항과 어코드된 간소화된 UI를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-148">Surface provides a simplified UI in accord with best practice power setting recommendations.</span></span> <span data-ttu-id="5e291-149">일반적으로 기본 사용자 인터페이스에 표시되는 설정만 조정하고 고급 전원 설정 또는 그룹 정책 설정을 구성하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-149">In general, it's recommended to only adjust settings visible in the default user interface and avoid configuring advanced power settings or Group Policy settings.</span></span> <span data-ttu-id="5e291-150">최대 밝기 수준을 피하면서 기본 화면 및 절전 시간 제한을 사용하는 것이 사용자가 배터리 사용 시간을 연장하는 가장 효과적인 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-150">Using the default screen and sleep timeouts while avoiding maximum brightness levels are the most effective ways for users to maintain extended battery life.</span></span>
 
@@ -79,7 +79,7 @@ ms.locfileid: "11271402"
 
 <span data-ttu-id="5e291-153">그림 1.</span><span class="sxs-lookup"><span data-stu-id="5e291-153">Figure 1.</span></span> <span data-ttu-id="5e291-154">전원 및 절전 설정 간소화</span><span class="sxs-lookup"><span data-stu-id="5e291-154">Simplified power and sleep settings</span></span>
 
-### <span data-ttu-id="5e291-155">Windows 성능 전원 슬라이더</span><span class="sxs-lookup"><span data-stu-id="5e291-155">Windows performance power slider</span></span>
+### <a name="windows-performance-power-slider"></a><span data-ttu-id="5e291-155">Windows 성능 전원 슬라이더</span><span class="sxs-lookup"><span data-stu-id="5e291-155">Windows performance power slider</span></span>
 
 <span data-ttu-id="5e291-156">Windows 10 빌드 1709 이상을 실행하는 Surface 디바이스에는 필요한 경우 배터리 사용의 우선 순위를 지정하거나 원할 경우 성능을 선호할 수 있는 전원 슬라이더가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-156">Surface devices running Windows 10 build 1709 and later include a power slider allowing you to prioritize battery life when needed or favor performance if desired.</span></span> <span data-ttu-id="5e291-157">배터리 아이콘을 클릭하여 작업 표시줄에서 전원 슬라이더에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-157">You can access the power slider from the taskbar by clicking on the battery icon.</span></span> <span data-ttu-id="5e291-158">배터리 사용 시간이 길어지거나(배터리 절약 모드) 성능을 향상하기 위해 왼쪽으로 미끄러지거나 오른쪽으로 밀어 갑니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-158">Slide left for longer battery life (battery saver mode) or slide right for faster performance.</span></span>
 
@@ -114,7 +114,7 @@ ms.locfileid: "11271402"
 
 -   [<span data-ttu-id="5e291-193">배터리 절약</span><span class="sxs-lookup"><span data-stu-id="5e291-193">Battery saver.</span></span>](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
 
-## <span data-ttu-id="5e291-194">배터리 사용 기간 연장을 위한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="5e291-194">Best practices for extended battery life</span></span>
+## <a name="best-practices-for-extended-battery-life"></a><span data-ttu-id="5e291-194">배터리 사용 기간 연장을 위한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="5e291-194">Best practices for extended battery life</span></span>
 
 
 | <span data-ttu-id="5e291-195">모범 사례</span><span class="sxs-lookup"><span data-stu-id="5e291-195">Best practice</span></span> | <span data-ttu-id="5e291-196">이동:</span><span class="sxs-lookup"><span data-stu-id="5e291-196">Go to</span></span> | <span data-ttu-id="5e291-197">다음 단계</span><span class="sxs-lookup"><span data-stu-id="5e291-197">Next steps</span></span> |
@@ -128,7 +128,7 @@ ms.locfileid: "11271402"
 | <span data-ttu-id="5e291-217">앱 사용 현황 확인</span><span class="sxs-lookup"><span data-stu-id="5e291-217">Check app usage</span></span> | <span data-ttu-id="5e291-218">앱</span><span class="sxs-lookup"><span data-stu-id="5e291-218">Your apps</span></span> | <span data-ttu-id="5e291-219">앱을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-219">Close apps.</span></span>|
 | <span data-ttu-id="5e291-220">전원 코드에 손상이 없는지 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-220">Check your power cord for any damage.</span></span>| <span data-ttu-id="5e291-221">전원 코드</span><span class="sxs-lookup"><span data-stu-id="5e291-221">Your power cord</span></span> | <span data-ttu-id="5e291-222">전원 코드가 손상된 경우 교체합니다.</span><span class="sxs-lookup"><span data-stu-id="5e291-222">Replace power cord if worn or damaged.</span></span>|
 
-## <span data-ttu-id="5e291-223">자세히 알아보기</span><span class="sxs-lookup"><span data-stu-id="5e291-223">Learn more</span></span> 
+## <a name="learn-more"></a><span data-ttu-id="5e291-223">자세히 알아보기</span><span class="sxs-lookup"><span data-stu-id="5e291-223">Learn more</span></span> 
 
 - [<span data-ttu-id="5e291-224">최신 대기</span><span class="sxs-lookup"><span data-stu-id="5e291-224">Modern   standby</span></span>](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 

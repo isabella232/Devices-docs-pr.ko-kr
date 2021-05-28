@@ -31,12 +31,12 @@ ms.locfileid: "10834892"
 
 
 
-## <span data-ttu-id="9146a-113">설치 문제 해결</span><span class="sxs-lookup"><span data-stu-id="9146a-113">Setup troubleshooting</span></span>
+## <a name="setup-troubleshooting"></a><span data-ttu-id="9146a-113">설치 문제 해결</span><span class="sxs-lookup"><span data-stu-id="9146a-113">Setup troubleshooting</span></span>
 
 
 <span data-ttu-id="9146a-114">이 섹션에는 Microsoft Surface Hub를 설치할 때 발생할 수 문제를 해결하는 데 도움이 되는 원인 및 가능한 수정 사항이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9146a-114">This section lists causes, and possible fixes to help troubleshoot issues you might find when you set up your Microsoft Surface Hub.</span></span>
 
-### <span data-ttu-id="9146a-115">디바이스 내</span><span class="sxs-lookup"><span data-stu-id="9146a-115">On-device</span></span>
+### <a name="on-device"></a><span data-ttu-id="9146a-115">디바이스 내</span><span class="sxs-lookup"><span data-stu-id="9146a-115">On-device</span></span>
 
 <span data-ttu-id="9146a-116">첫 실행 프로그램을 완료한 후 Surface Hub의 문제에 대한 가능한 수정 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="9146a-116">Possible fixes for issues on the Surface Hub after you've completed the first-run program.</span></span>
 
@@ -143,7 +143,7 @@ ms.locfileid: "10834892"
 </table>
  
 
-### <span data-ttu-id="9146a-150">첫 실행</span><span class="sxs-lookup"><span data-stu-id="9146a-150">First run</span></span>
+### <a name="first-run"></a><span data-ttu-id="9146a-150">첫 실행</span><span class="sxs-lookup"><span data-stu-id="9146a-150">First run</span></span>
 
 <span data-ttu-id="9146a-151">Surface Hub 첫 실행 프로그램과 관련된 문제에 대한 가능한 수정 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="9146a-151">Possible fixes for issues with Surface Hub first-run program.</span></span>
 
@@ -212,7 +212,7 @@ ms.locfileid: "10834892"
 
  
 
-### <span data-ttu-id="9146a-178">디바이스 계정 페이지, 기존 계정 설정과 관련된 문제</span><span class="sxs-lookup"><span data-stu-id="9146a-178">Device account page, issues for existing account settings</span></span>
+### <a name="device-account-page,-issues-for-existing-account-settings"></a><span data-ttu-id="9146a-178">디바이스 계정 페이지, 기존 계정 설정과 관련된 문제</span><span class="sxs-lookup"><span data-stu-id="9146a-178">Device account page, issues for existing account settings</span></span>
 
 <table>
 <tr>
@@ -372,7 +372,7 @@ ms.locfileid: "10834892"
 
  
 
-### <span data-ttu-id="9146a-227">첫 실행, Exchange 서버 페이지</span><span class="sxs-lookup"><span data-stu-id="9146a-227">First run, Exchange server page</span></span>
+### <a name="first-run,-exchange-server-page"></a><span data-ttu-id="9146a-227">첫 실행, Exchange 서버 페이지</span><span class="sxs-lookup"><span data-stu-id="9146a-227">First run, Exchange server page</span></span>
 
 <table>
 <colgroup>
@@ -431,7 +431,7 @@ ms.locfileid: "10834892"
 
  
 
-## <span data-ttu-id="9146a-243">Exchange ActiveSync 오류</span><span class="sxs-lookup"><span data-stu-id="9146a-243">Exchange ActiveSync errors</span></span>
+## <a name="exchange-activesync-errors"></a><span data-ttu-id="9146a-243">Exchange ActiveSync 오류</span><span class="sxs-lookup"><span data-stu-id="9146a-243">Exchange ActiveSync errors</span></span>
 
 
 <span data-ttu-id="9146a-244">이 섹션에는 상태 코드, 매핑, 사용자 메시지 및 관리자가 Exchange ActiveSync 오류를 해결하기 위해 수행할 수 있는 작업이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9146a-244">This section lists status codes, mapping, user messages, and actions an admin can take to solve Exchange ActiveSync errors.</span></span>
@@ -607,13 +607,13 @@ ms.locfileid: "10834892"
 </tbody>
 </table>
 
-## <span data-ttu-id="9146a-372">고객 지원 문의</span><span class="sxs-lookup"><span data-stu-id="9146a-372">Contact Support</span></span>
+## <a name="contact-support"></a><span data-ttu-id="9146a-372">고객 지원 문의</span><span class="sxs-lookup"><span data-stu-id="9146a-372">Contact Support</span></span>
 
 <span data-ttu-id="9146a-373">질문이 있거나 도움이 필요한 경우 [지원 요청을 만들](https://support.microsoft.com/supportforbusiness/productselection)수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9146a-373">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>
 
 
  
-## <span data-ttu-id="9146a-374">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="9146a-374">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="9146a-374">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="9146a-374">Related content</span></span>
 
 - [<span data-ttu-id="9146a-375">Miracast의 Surface Hub 연결 문제 해결</span><span class="sxs-lookup"><span data-stu-id="9146a-375">Troubleshooting Miracast connection to the Surface Hub</span></span>](https://docs.microsoft.com/surface-hub/miracast-troubleshooting)
  

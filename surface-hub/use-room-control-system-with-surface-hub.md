@@ -26,7 +26,7 @@ ms.locfileid: "10834847"
 
 <span data-ttu-id="96afc-106">Surface Hub와 함께 회의실 제어 시스템을 사용하려면 일반적으로 Surface Hub의 맨 아래에 있는 RJ11 직렬 포트를 통해 회의실 제어 하드웨어를 Surface Hub에 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-106">Using a room control system with your Surface Hub involves connecting room control hardware to the Surface Hub, usually through the RJ11 serial port on the bottom of the Surface Hub.</span></span>
 
-## <span data-ttu-id="96afc-107">터미널 설정</span><span class="sxs-lookup"><span data-stu-id="96afc-107">Terminal settings</span></span>
+## <a name="terminal-settings"></a><span data-ttu-id="96afc-107">터미널 설정</span><span class="sxs-lookup"><span data-stu-id="96afc-107">Terminal settings</span></span>
 
 <span data-ttu-id="96afc-108">회의실 제어 시스템 제어판에 연결하기 위해 Surface Hub에서 터미널 설정을 구성할 필요는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-108">To connect to a room control system control panel, you don't need to configure any terminal settings on the Surface Hub.</span></span> <span data-ttu-id="96afc-109">PC 또는 노트북을 Surface Hub에 연결하고 Surface Hub에서 연속 명령을 보내려는 경우 Tera Term이나 PuTTY와 같은 터미널 에뮬레이터 프로그램을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-109">If you want to connect a PC or laptop to your Surface Hub and send serial commands from the Surface Hub, you can use a terminal emulator program like Tera Term or PuTTY.</span></span> 
 
@@ -40,7 +40,7 @@ ms.locfileid: "10834847"
 | <span data-ttu-id="96afc-122">줄 바꿈</span><span class="sxs-lookup"><span data-stu-id="96afc-122">Line feed</span></span> | <span data-ttu-id="96afc-123">모든 캐리지 리턴</span><span class="sxs-lookup"><span data-stu-id="96afc-123">every carriage return</span></span> |
  
 
-## <span data-ttu-id="96afc-124">연결 다이어그램</span><span class="sxs-lookup"><span data-stu-id="96afc-124">Wiring diagram</span></span>
+## <a name="wiring-diagram"></a><span data-ttu-id="96afc-124">연결 다이어그램</span><span class="sxs-lookup"><span data-stu-id="96afc-124">Wiring diagram</span></span>
 
 <span data-ttu-id="96afc-125">표준 RJ-11(6P6C) 커넥터를 사용하여 Surface Hub 직렬 포트를 회의실 제어 시스템에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-125">You can use a standard RJ-11 (6P6C) connector to connect the Surface Hub serial port to a room control system.</span></span> <span data-ttu-id="96afc-126">이것은 권장 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-126">This is the recommended method.</span></span> <span data-ttu-id="96afc-127">RJ-11 4선 케이블을 사용할 수도 있지만 이 방법은 권장되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-127">You can also use an RJ-11 4-conductor cable, but we do not recommend this method.</span></span>
 
@@ -48,7 +48,7 @@ ms.locfileid: "10834847"
 
 ![연결 다이어그램을 보여 주는 이미지](images/room-control-wiring-diagram.png)
 
-## <span data-ttu-id="96afc-130">명령 집합</span><span class="sxs-lookup"><span data-stu-id="96afc-130">Command sets</span></span>
+## <a name="command-sets"></a><span data-ttu-id="96afc-130">명령 집합</span><span class="sxs-lookup"><span data-stu-id="96afc-130">Command sets</span></span>
 
 <span data-ttu-id="96afc-131">회의실 제어 시스템은 일반적인 회의실 시나리오를 명령에 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-131">Room control systems use common meeting-room scenarios for commands.</span></span> <span data-ttu-id="96afc-132">명령은 회의실 제어 시스템에서 시작되어 직렬 연결을 통해 Surface Hub로 전달됩니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-132">Commands originate from the room control system, and are communicated over a serial connection to a Surface Hub.</span></span> <span data-ttu-id="96afc-133">명령은 ASCII 기반이며, Surface Hub에서 상태 변경 시기를 승인합니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-133">Commands are ASCII based, and the Surface Hub will acknowledge when state changes occur.</span></span>
 
@@ -62,7 +62,7 @@ ms.locfileid: "10834847"
 | <span data-ttu-id="96afc-142">?</span><span class="sxs-lookup"><span data-stu-id="96afc-142">?</span></span> | <span data-ttu-id="96afc-143">현재 값 쿼리</span><span class="sxs-lookup"><span data-stu-id="96afc-143">Queries for a current value</span></span> |
  
 
-## <span data-ttu-id="96afc-144">전원</span><span class="sxs-lookup"><span data-stu-id="96afc-144">Power</span></span>
+## <a name="power"></a><span data-ttu-id="96afc-144">전원</span><span class="sxs-lookup"><span data-stu-id="96afc-144">Power</span></span>
 
 <span data-ttu-id="96afc-145">Surface Hub는 다음 전원 상태 중 하나일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-145">Surface Hub can be in one of these power states.</span></span>
 
@@ -91,7 +91,7 @@ ms.locfileid: "10834847"
 
 
 
-## <span data-ttu-id="96afc-187">밝기</span><span class="sxs-lookup"><span data-stu-id="96afc-187">Brightness</span></span>
+## <a name="brightness"></a><span data-ttu-id="96afc-187">밝기</span><span class="sxs-lookup"><span data-stu-id="96afc-187">Brightness</span></span>
 
 <span data-ttu-id="96afc-188">현재 밝기 수준은 0에서 100 사이의 범위입니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-188">The current brightness level is a range from 0 to 100.</span></span>
 
@@ -102,7 +102,7 @@ ms.locfileid: "10834847"
 | <span data-ttu-id="96afc-193">Brightness+</span><span class="sxs-lookup"><span data-stu-id="96afc-193">Brightness+</span></span> | <span data-ttu-id="96afc-194">SMC(시스템 관리 컨트롤러)가 밝기 높이기 명령을 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-194">System management controller (SMC) sends the brightness up command.</span></span></br></br><span data-ttu-id="96afc-195">회의실 제어 시스템의 PC 서비스가 SMC에 새 밝기 수준을 알립니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-195">PC service on the room control system notifies SMC of new brightness level.</span></span> |  <span data-ttu-id="96afc-196">Brightness = 51</span><span class="sxs-lookup"><span data-stu-id="96afc-196">Brightness = 51</span></span> |
 | <span data-ttu-id="96afc-197">Brightness-</span><span class="sxs-lookup"><span data-stu-id="96afc-197">Brightness-</span></span> |  <span data-ttu-id="96afc-198">SMC가 밝기 낮추기 명령을 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-198">SMC sends the brightness down command.</span></span></br></br><span data-ttu-id="96afc-199">PC 서비스가 SMC에 새 밝기 수준을 알립니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-199">PC service notifies SMC of new brightness level.</span></span> | <span data-ttu-id="96afc-200">Brightness = 50</span><span class="sxs-lookup"><span data-stu-id="96afc-200">Brightness = 50</span></span> |
 
-## <span data-ttu-id="96afc-201">볼륨</span><span class="sxs-lookup"><span data-stu-id="96afc-201">Volume</span></span>
+## <a name="volume"></a><span data-ttu-id="96afc-201">볼륨</span><span class="sxs-lookup"><span data-stu-id="96afc-201">Volume</span></span>
 
 <span data-ttu-id="96afc-202">현재 볼륨 수준은 0에서 100 사이의 범위입니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-202">The current volume level is a range from 0 to 100.</span></span>
 
@@ -119,7 +119,7 @@ ms.locfileid: "10834847"
 
  
 
-## <span data-ttu-id="96afc-217">오디오 음소거</span><span class="sxs-lookup"><span data-stu-id="96afc-217">Mute for audio</span></span>
+## <a name="mute-for-audio"></a><span data-ttu-id="96afc-217">오디오 음소거</span><span class="sxs-lookup"><span data-stu-id="96afc-217">Mute for audio</span></span>
 
 <span data-ttu-id="96afc-218">오디오가 음소거될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-218">Audio can be muted.</span></span>
 
@@ -130,7 +130,7 @@ ms.locfileid: "10834847"
 
  
 
-## <span data-ttu-id="96afc-226">비디오 원본</span><span class="sxs-lookup"><span data-stu-id="96afc-226">Video source</span></span>
+## <a name="video-source"></a><span data-ttu-id="96afc-226">비디오 원본</span><span class="sxs-lookup"><span data-stu-id="96afc-226">Video source</span></span>
 
 <span data-ttu-id="96afc-227">여러 디스플레이 소스를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-227">Several display sources can be used.</span></span>
 
@@ -153,7 +153,7 @@ ms.locfileid: "10834847"
 | <span data-ttu-id="96afc-250">Source-</span><span class="sxs-lookup"><span data-stu-id="96afc-250">Source-</span></span> | <span data-ttu-id="96afc-251">SMC가 이전 활성 입력 소스로 순환합니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-251">SMC cycles to the previous active input source.</span></span></br></br><span data-ttu-id="96afc-252">PC 서비스가 SMC에 현재 입력 소스를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-252">PC service notifies SMC of the current input source.</span></span> |  <span data-ttu-id="96afc-253">Source=&lt;#&gt;</span><span class="sxs-lookup"><span data-stu-id="96afc-253">Source=&lt;#&gt;</span></span> |
 | <span data-ttu-id="96afc-254">원본?</span><span class="sxs-lookup"><span data-stu-id="96afc-254">Source?</span></span> |  <span data-ttu-id="96afc-255">SMC가 PC 서비스에서 활성 입력 소스를 쿼리합니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-255">SMC queries PC service for the active input source.</span></span></br></br><span data-ttu-id="96afc-256">PC 서비스가 SMC에 현재 입력 소스를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-256">PC service notifies SMC of the current in;put source.</span></span> | <span data-ttu-id="96afc-257">Source=&lt;#&gt;</span><span class="sxs-lookup"><span data-stu-id="96afc-257">Source=&lt;#&gt;</span></span> |
 
-## <span data-ttu-id="96afc-258">오류</span><span class="sxs-lookup"><span data-stu-id="96afc-258">Errors</span></span>
+## <a name="errors"></a><span data-ttu-id="96afc-258">오류</span><span class="sxs-lookup"><span data-stu-id="96afc-258">Errors</span></span>
 
 <span data-ttu-id="96afc-259">이 표에 있는 형식에 따라 오류가 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="96afc-259">Errors are returned following the format in this table.</span></span>
 
@@ -167,7 +167,7 @@ ms.locfileid: "10834847"
 
  
 
-## <span data-ttu-id="96afc-274">관련 항목</span><span class="sxs-lookup"><span data-stu-id="96afc-274">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="96afc-274">관련 항목</span><span class="sxs-lookup"><span data-stu-id="96afc-274">Related topics</span></span>
 
 
 [<span data-ttu-id="96afc-275">Microsoft Surface Hub 관리</span><span class="sxs-lookup"><span data-stu-id="96afc-275">Manage Microsoft Surface Hub</span></span>](manage-surface-hub.md)

@@ -28,7 +28,7 @@ ms.locfileid: "10836949"
 
 <span data-ttu-id="fcc7e-114">Surface Hub에서 Miracast 관련 문제는 일반적으로 [연결](#connect-issues) 및 [성능](#performance-issues)의 두 가지 유형의 문제가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-114">There are generally two types of issues with Miracast to Surface Hub: [connection](#connect-issues) and [performance](#performance-issues).</span></span> <span data-ttu-id="fcc7e-115">두 경우 모두 Surface Hub 위치에 무선 네트워크 활동에 대 한 일반적인 그림을 가져오는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-115">In either case, it is a good idea to get a general picture of wireless network activity in the Surface Hub's location.</span></span> <span data-ttu-id="fcc7e-116">네트워크 검색 도구를 실행하여 환경에서 사용 가능한 네트워크 및 채널 사용을 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-116">Running a network scanning tool will show you the available networks and channel usage in the environment.</span></span>
 
-## <span data-ttu-id="fcc7e-117">연결 문제</span><span class="sxs-lookup"><span data-stu-id="fcc7e-117">Connect issues</span></span>
+## <a name="connect-issues"></a><span data-ttu-id="fcc7e-117">연결 문제</span><span class="sxs-lookup"><span data-stu-id="fcc7e-117">Connect issues</span></span>
 
 <span data-ttu-id="fcc7e-118">Wi Fi 및 Miracast 모두 Surface Hub의 설정에서 활성화되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-118">Ensure both Wi-Fi and Miracast are both enabled in Settings on Surface Hub.</span></span> 
 
@@ -38,11 +38,11 @@ ms.locfileid: "10836949"
 
 <span data-ttu-id="fcc7e-126">연결 문제는 연결하는 장치에서 문제가 발생했기 때문일 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-126">It is also possible that the connect issue can be the result of a problem on the connecting device.</span></span> <span data-ttu-id="fcc7e-127">프로젝팅 디바이스에서 Windows를 실행 중인 경우 전체 Miracast 지원을 위해 Windows 8.1 이상이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-127">If the projecting device is running Windows, it should be Windows 8.1 or newer for full Miracast support.</span></span> <span data-ttu-id="fcc7e-128">다시 말하자면 문제 해결을 위해 모든 Wi-Fi 네트워크에서 프로젝팅 장치를 분리합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-128">Again, for troubleshooting, disconnect the projecting device from any Wi-Fi networks.</span></span> <span data-ttu-id="fcc7e-129">이렇게 하면 Surface Hub의 액세스 지점 채널과 Miracast 채널 사이의 모든 채널 전환이 제거됩니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-129">This will eliminate any channel switching between the access point channel and the Miracast channel set on Surface Hub.</span></span> <span data-ttu-id="fcc7e-130">또한 일부 그룹 정책 및 방화벽 설정이 Wi-Fi 네트워크에 연결될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-130">Also, some Group Policy and firewall settings may be tied to a Wi-Fi network.</span></span>
 
-### <span data-ttu-id="fcc7e-131">드라이버 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-131">Check drivers</span></span>
+### <a name="check-drivers"></a><span data-ttu-id="fcc7e-131">드라이버 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-131">Check drivers</span></span>
 
 <span data-ttu-id="fcc7e-132">프로젝팅 디바이스에 최신 드라이버 및 업데이트가 설치되었는지 확인하는 것 또한 좋은 생각입니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-132">It is also a good idea to ensure the latest drivers and updates are installed on the projecting device.</span></span> <span data-ttu-id="fcc7e-133">장치 관리자에서 Wi-Fi 어댑터와 비디오 어댑터를 열어 업데이트된 드라이버 버전을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-133">In Device Manager, open the Wi-Fi adapter and video adapter and check for an updated driver version.</span></span> <span data-ttu-id="fcc7e-134">이전 Wi-Fi 드라이버의 경우 Surface Pro 3 및 Surface Pro 4에 대해 [핫픽스 3120232](https://support.microsoft.com/help/3120232/poor-wireless-performance-on-5-ghz-connections-on-surface-pro-3-and-surface-3)가 적극 권장됩니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-134">[Hotfix 3120232](https://support.microsoft.com/help/3120232/poor-wireless-performance-on-5-ghz-connections-on-surface-pro-3-and-surface-3) is highly recommended for Surface Pro 3 and Surface Pro 4 if they are on an older Wi-Fi driver.</span></span> 
 
-### <span data-ttu-id="fcc7e-135">Miracast 지원 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-135">Check for Miracast support</span></span>
+### <a name="check-for-miracast-support"></a><span data-ttu-id="fcc7e-135">Miracast 지원 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-135">Check for Miracast support</span></span>
 
 <span data-ttu-id="fcc7e-136">그런 다음 디바이스에서 Miracast를 사용할 수 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-136">Next, ensure Miracast is supported on the device.</span></span> 
 
@@ -50,14 +50,14 @@ ms.locfileid: "10836949"
 2. <span data-ttu-id="fcc7e-138">"모든 정보 저장"을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-138">Click "Save all information".</span></span> 
 3. <span data-ttu-id="fcc7e-139">저장된 dxdiag.txt를 열고 **Miracast**를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-139">Open the saved dxdiag.txt and find **Miracast**.</span></span> <span data-ttu-id="fcc7e-140">**사용 가능(HDCP)** 이 나타나야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-140">It should say **Available, with HDCP**.</span></span> 
     
-### <span data-ttu-id="fcc7e-141">방화벽 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-141">Check firewall</span></span>
+### <a name="check-firewall"></a><span data-ttu-id="fcc7e-141">방화벽 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-141">Check firewall</span></span>
     
 <span data-ttu-id="fcc7e-142">Windows 방화벽은 Miracast 트래픽을 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-142">The Windows firewall can block Miracast traffic.</span></span> <span data-ttu-id="fcc7e-143">가장 단순한 테스트 방법은 방화벽을 해제하고 프로젝션을 테스트하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-143">The simplest test is to disable the firewall and test projection.</span></span> <span data-ttu-id="fcc7e-144">방화벽이 해제된 상태에서 Miracast가 작동하는 경우 다음에 대해 예외를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-144">If Miracast works with the firewall disabled, add an exception for</span></span>
 
     C:\Windows\System32\WUDFHost.exe
     Allow In/Out connections for TCP and UDP, Ports: All.
 
-### <span data-ttu-id="fcc7e-145">그룹 정책 설정 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-145">Check Group Policy settings</span></span>
+### <a name="check-group-policy-settings"></a><span data-ttu-id="fcc7e-145">그룹 정책 설정 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-145">Check Group Policy settings</span></span>
 
 <span data-ttu-id="fcc7e-146">도메인 가입 장치에서는 그룹 정책이 Miracast를 차단할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-146">On domain-joined devices, Group Policy can also block Miracast.</span></span> 
 
@@ -66,11 +66,11 @@ ms.locfileid: "10836949"
 3. <span data-ttu-id="fcc7e-151">무선 정책에 대한 설정을 두 번 클릭하면 대화 상자가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-151">Double click the setting for wireless policies and a dialog box will appear.</span></span> 
 4. <span data-ttu-id="fcc7e-152">**네트워크 사용 권한** 탭을 열고 **모든 사용자에게 모든 사용자 프로필 만들기 허용**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-152">Open the **Network Permissions** tab and select **Allow everyone to create all user profiles**.</span></span>
 
-### <span data-ttu-id="fcc7e-153">이벤트 로그 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-153">Check event logs</span></span>
+### <a name="check-event-logs"></a><span data-ttu-id="fcc7e-153">이벤트 로그 확인</span><span class="sxs-lookup"><span data-stu-id="fcc7e-153">Check event logs</span></span>
 
 <span data-ttu-id="fcc7e-154">마지막으로 확인할 사항은 이벤트 로그입니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-154">The last place to check is in the Event logs.</span></span> <span data-ttu-id="fcc7e-155">Miracast 이벤트는 **Wlanautoconfig**에 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-155">Miracast events will be logged to **Wlanautoconfig**.</span></span> <span data-ttu-id="fcc7e-156">이는 Surface Hub와 프로젝팅 디바이스에서 동일합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-156">This is true on both Surface Hub and the projecting device.</span></span> <span data-ttu-id="fcc7e-157">Surface Hub 로그를 내보내는 경우 Surface Hub의 Wlanautoconfig을 **WindowsEventLog** 폴더에서 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-157">If you export Surface Hub logs, you can view Surface Hub's Wlanautoconfig in the **WindowsEventLog** folder.</span></span> <span data-ttu-id="fcc7e-158">이벤트 로그의 오류는 연결이 실패한 위치에 대한 몇 가지 추가 세부 정보를 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-158">Errors in the event log can provide some additional details on where the connection fails.</span></span>
 
-## <span data-ttu-id="fcc7e-159">성능 문제</span><span class="sxs-lookup"><span data-stu-id="fcc7e-159">Performance issues</span></span>
+## <a name="performance-issues"></a><span data-ttu-id="fcc7e-159">성능 문제</span><span class="sxs-lookup"><span data-stu-id="fcc7e-159">Performance issues</span></span>
 
 <span data-ttu-id="fcc7e-160">무선 프로젝션이 연결된 후에 성능 문제가 대기 시간을 야기할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-160">After wireless projection is connected, it is possible to see performance issues causing latency.</span></span> <span data-ttu-id="fcc7e-161">이는 일반적으로 전반적인 채널 포화 또는 채널 전환을 야기하는 상황 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-161">This is generally a result of overall channel saturation or a situation that causes channel switching.</span></span> 
 
@@ -84,6 +84,6 @@ ms.locfileid: "10836949"
 
 <span data-ttu-id="fcc7e-174">환경에 여러 개의 Wi-Fi 네트워크 또는 액세스 지점이 있는 경우 일부 채널 전환은 불가피합니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-174">If there are multiple Wi-Fi networks or access points in the environment, some channel switching is unavoidable.</span></span> <span data-ttu-id="fcc7e-175">모든 Wi-Fi 드라이버를 최신 상태로 유지하는 것이 이를 해결하는 가장 좋은 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-175">This is best addressed by ensuring all Wi-Fi drivers are up to date.</span></span>
 
-## <span data-ttu-id="fcc7e-176">고객 지원 문의</span><span class="sxs-lookup"><span data-stu-id="fcc7e-176">Contact Support</span></span>
+## <a name="contact-support"></a><span data-ttu-id="fcc7e-176">고객 지원 문의</span><span class="sxs-lookup"><span data-stu-id="fcc7e-176">Contact Support</span></span>
 
 <span data-ttu-id="fcc7e-177">질문이 있거나 도움이 필요한 경우 [지원 요청을 만들](https://support.microsoft.com/supportforbusiness/productselection)수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcc7e-177">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>
