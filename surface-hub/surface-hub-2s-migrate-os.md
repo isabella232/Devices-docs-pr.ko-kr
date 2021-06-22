@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/14/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 5e2eaa88fe0e5677c78cb5a7d49802ed71d4b902
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 472dc41bd73ace90cccdeb4e52884401c2f9d6d7
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576748"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613857"
 ---
 # <a name="migrate-to-windows-10-pro-or-enterprise-on-surface-hub-2"></a>Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 
@@ -28,11 +28,11 @@ Surface Hub 2S는 설치된 Windows 10 Team 함께 제공합니다. 이 사용�
 > 이 마이그레이션 프로세스를 수행하려면 이 문서에 설명된 특정 절차를 따라야 합니다. 계속하기 전에 [솔루션](#solution-components) 구성 요소 및 마이그레이션 및 설치 [워크플로 를 읽어 보십시오.](#migration-and-installation-workflow-summary)
 
 > [!NOTE]
-> 설치 Windows 10 Pro Enterprise 기존 라이선스와는 별개인 새 라이선스가 Windows 10 Team 합니다.
+> Windows 10 Pro Enterprise 또는 Surface Hub 2S에 설치하는 경우 장치에 제공된 기존 Windows 10 Team 라이선스와는 다른 새 라이선스가 필요합니다.
 
 별도의 PC와 다운로드 가능한 Windows 10 Team *Surface UEFI 구성* 도구를 사용하여 마이그레이션을 시작할 수 있습니다. 이 도구는 2S에 적용하는 새 UEFI 설정이 포함된 패키지를 Surface Hub 만듭니다.  
 
-Surface UEFI 구성기는 Surface UEFI 관리 모드(SEMM)Enterprise 인터페이스로 작동합니다. 회사 환경의 Surface 디바이스에서 펌웨어 설정을 중앙에서 관리합니다. 자세한 내용은 Microsoft Surface Enterprise [관리 모드를 참조하세요.](https://docs.microsoft.com/surface/surface-enterprise-management-mode)
+Surface UEFI 구성기는 Surface UEFI 관리 모드(SEMM)Enterprise 인터페이스로 작동합니다. 회사 환경의 Surface 디바이스에서 펌웨어 설정을 중앙에서 관리합니다. 자세한 내용은 Microsoft Surface Enterprise [관리 모드를 참조하세요.](/surface/surface-enterprise-management-mode)
  
 ## <a name="solution-components"></a>솔루션 구성 요소
 
@@ -79,7 +79,7 @@ Surface Hub 데스크톱으로 Windows 10 Team Windows 10 UEFI 버전 *694.2938.
 1. 2S Surface Hub 관리자로 **로그인합니다.**
 
     >[!Note]
-    > 사용자 이름 또는 관리자 암호를 모르는 경우 장치를 초기화해야 합니다. 자세한 내용은 [Reset and recovery for Surface Hub 2S을 참조하십시오.](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset)
+    > 사용자 이름 또는 관리자 암호를 모르는 경우 장치를 초기화해야 합니다. 자세한 내용은 [Reset and recovery for Surface Hub 2S을 참조하십시오.](/surface-hub/surface-hub-2s-recover-reset)
 
 1. 모든 앱 **업데이트 및**설정 및 보안 Windows 로  >  ****  >  ****  >  **이동하고**모든 업데이트를 설치합니다.
 1. 디바이스를 다시 시작합니다.
@@ -111,9 +111,9 @@ Surface UEFI 구성기 전에 사용되지 않은 경우 인증서를 준비해�
 
 - 중소기업 및 기타 기업은 파트너 공급자로부터 인증서를 받을 수 있는 경우가 종종 있습니다. 이 옵션은 IT 전문 지식이 부족하거나 전담 IT 보안 팀이 없는 조직에 권장됩니다.
 
-- 또는 PowerShell 스크립트를 사용하여 자체 서명된 인증서를 생성할 수 있습니다. 자세한 내용은 Surface Enterprise 관리 모드 인증서 요구 [사항을 참조하세요.](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements) 또는 PowerShell을 사용하여 자체 인증서를 만들 수 있습니다. 자세한 내용은 자체 서명된 인증서 [설명서를 참조하세요.](https://docs.microsoft.com/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate)
+- 또는 PowerShell 스크립트를 사용하여 자체 서명된 인증서를 생성할 수 있습니다. 자세한 내용은 Surface Enterprise 관리 모드 인증서 요구 [사항을 참조하세요.](/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements) 또는 PowerShell을 사용하여 자체 인증서를 만들 수 있습니다. 자세한 내용은 자체 서명된 인증서 [설명서를 참조하세요.](/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate)
 
-Surface UEFI 구성기에서 만드는 SEMM 패키지는 인증서로 보호해야 합니다. 인증서는 UEFI 설정을 적용하기 전에 구성 파일의 서명을 확인합니다. 자세한 내용은 [SEMM 설명서를 참조하십시오.](https://docs.microsoft.com/surface/surface-enterprise-management-mode)
+Surface UEFI 구성기에서 만드는 SEMM 패키지는 인증서로 보호해야 합니다. 인증서는 UEFI 설정을 적용하기 전에 구성 파일의 서명을 확인합니다. 자세한 내용은 [SEMM 설명서를 참조하십시오.](/surface/surface-enterprise-management-mode)
  
 ### <a name="create-a-semm-package"></a>SEMM 패키지 만들기
 
@@ -176,11 +176,11 @@ SEMM에 장치를 등록하면 장치를 관리하는 방법에 영향을 미치
 
 #### <a name="if-you-work-with-partners"></a>파트너와 함께 작업하는 경우
 
-회사에서 Surface Hub 2 마이그레이션을 Windows 10 Pro 또는 Enterprise 경우 파트너가 SEMM 인증서, SEMM 패키지 및 UEFI 암호를 전송하게 할 수 있습니다. 또는 허브를 마이그레이션한 후 SEMM에서 바로 해당 허브의 인가를 즉시 해지할 수 있습니다. 이 단계를 통해 UEFI의 로컬 관리 및 디바이스를 다른 사용자로 전송할 수 있습니다. 그러나 마이그레이션 후 구성할 수 있는 UEFI 암호를 사용하는 것이 좋습니다. 자세한 내용은 [Surface UEFI 설정 관리를 참조하세요.](https://docs.microsoft.com/surface/manage-surface-uefi-settings) 
+회사에서 Surface Hub 2 마이그레이션을 Windows 10 Pro 또는 Enterprise 경우 파트너가 SEMM 인증서, SEMM 패키지 및 UEFI 암호를 전송하게 할 수 있습니다. 또는 허브를 마이그레이션한 후 SEMM에서 바로 해당 허브의 인가를 즉시 해지할 수 있습니다. 이 단계를 통해 UEFI의 로컬 관리 및 디바이스를 다른 사용자로 전송할 수 있습니다. 그러나 마이그레이션 후 구성할 수 있는 UEFI 암호를 사용하는 것이 좋습니다. 자세한 내용은 [Surface UEFI 설정 관리를 참조하세요.](/surface/manage-surface-uefi-settings) 
 
 #### <a name="to-roll-back-to-windows-10-team"></a>롤백을 Windows 10 Team
 
-이 문서 의 2부에서 설명한 [](#to-roll-back-to-windows-10-team)Windows 10 Team 후 장치를 마이그레이션 후 장치로 복원하려는 경우 먼저 SEMM에서 허브를 인가하는 것이 좋습니다. 자세한 내용은 SEMM에서 Surface 디바이스의 사용 안 [을 참조합니다.](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm)
+이 문서 의 2부에서 설명한 [](#to-roll-back-to-windows-10-team)Windows 10 Team 후 장치를 마이그레이션 후 장치로 복원하려는 경우 먼저 SEMM에서 허브를 인가하는 것이 좋습니다. 자세한 내용은 SEMM에서 Surface 디바이스의 사용 안 [을 참조합니다.](/surface/unenroll-surface-devices-from-semm)
 
 #### <a name="save-the-semm-package-to-a-usb-drive"></a>USB 드라이브에 SEMM 패키지 저장
 
@@ -208,9 +208,9 @@ SEMM에 장치를 등록하면 장치를 관리하는 방법에 영향을 미치
 
 - 현재 이미징 솔루션입니다.
 
-- [Surface 배포 가속기.](https://docs.microsoft.com/surface/microsoft-surface-deployment-accelerator) 이 도구를 사용하여 부팅 가능한 Windows 10 만들 수 있습니다. 이미지에는 모든 현재 업데이트, Windows 10, Microsoft Office 및 필수 드라이버 및 펌웨어가 포함되어 있습니다.
+- [Surface 배포 가속기.](/surface/microsoft-surface-deployment-accelerator) 이 도구를 사용하여 부팅 가능한 Windows 10 만들 수 있습니다. 이미지에는 모든 현재 업데이트, Windows 10, Microsoft Office 및 필수 드라이버 및 펌웨어가 포함되어 있습니다.
 
-- 또는 이미지가 포함된 USB Windows 10 Pro Enterprise 드라이브입니다. 그런 다음 [2에서](https://www.microsoft.com/download/details.aspx?id=101974) Windows 10 Pro 및 Enterprise 드라이버 및 펌웨어를 Surface Hub 설치합니다.
+- 또는 이미지가 포함된 USB Windows 10 Pro Enterprise 드라이브입니다. 이 옵션은 OOBE(첫 Wi-Fi(첫 실행 경험) 설정 후에만 사용할 수 있습니다. 설치가 완료되면 디바이스에 설치 및 Surface Hub [2개](https://www.microsoft.com/download/details.aspx?id=101974) 드라이버 및 펌웨어를 Windows 10 Pro Enterprise 설치합니다.
  
 다음 단계에서는 설치 미디어에서 USB 플래시 드라이브를 만든 다음 Windows 10 Pro 및 Enterprise OS용 SEMM 패키지 파일과 드라이버 및 펌웨어를 Surface Hub 2 MSI 파일에 추가합니다. 다른 배포 방법을 사용하는 경우 이 문서의 OS 마이그레이션을 사용하도록 설정하려면 Surface Hub [2S의 UEFI](#update-uefi-on-surface-hub-2s-to-enable-os-migration) 업데이트 섹션으로 이동하십시오.
 
@@ -311,7 +311,7 @@ Surface Hub 2S를 개인 생산성 장치로 구성하려면 Windows 10 Pro 또�
 장치를 2016으로 복원하려면 Windows 10 Team [2S에](surface-hub-2s-recover-reset.md)대한 초기화 및 Surface Hub 참조하세요.
 
 > [!NOTE]
-> 다시 롤백하기 Windows 10 Team 먼저 SEMM에서 Surface Hub 것이 좋습니다. 자세한 내용은 SEMM에서 Surface 디바이스의 사용 안 [을 참조합니다.](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm)
+> 다시 롤백하기 Windows 10 Team 먼저 SEMM에서 Surface Hub 것이 좋습니다. 자세한 내용은 SEMM에서 Surface 디바이스의 사용 안 [을 참조합니다.](/surface/unenroll-surface-devices-from-semm)
 
 ## <a name="version-history"></a>버전 기록
 
