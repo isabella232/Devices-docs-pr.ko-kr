@@ -3,7 +3,7 @@ title: 다음 영업일 대체 정보 및 적용 범위
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/23/2021
+ms.date: 06/17/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -11,15 +11,14 @@ localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
-- Surface Hub
 ms.reviewer: irenewhite
 description: 다음 영업일 교체 정보 및 적용 범위입니다.
-ms.openlocfilehash: 2708890c864582cf638c48474f85ddc01ef36576
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 4488d2f1cc8a3e6c240710d59f3465d05abae12b
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585929"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613847"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>다음 영업일 대체 정보 및 적용 범위
 
@@ -58,6 +57,7 @@ ms.locfileid: "11585929"
 - [스웨덴](#sweden)
 - [스위스](#switzerland)
 - [네덜란드](#the-netherlands)
+- [영국](#united-kingdom)
 - [미국](#united-states)
 
 
@@ -107,6 +107,7 @@ ms.locfileid: "11585929"
 #### <a name="hong-kong"></a>홍콩
 
 - 마감 시간:16:00 HKT(UTC+8) 
+- NBD 검사는 홍콩의 모든 우편 번호에서 사용할 수 있습니다.
 
 #### <a name="ireland"></a>아일랜드
 
@@ -142,11 +143,12 @@ ms.locfileid: "11585929"
 #### <a name="singapore"></a>싱가포르
 
 - 마감 시간: 13:00 SGT(UTC+8)
+- NBD 검사는 이 국가의 모든 우편 번호에서 사용할 수 있습니다.
 
 #### <a name="spain"></a>스페인
 
 - 마감 시간: 12:00 CET(UTC+1)
-- [다음 영업일 범위](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+- [다음 영업일 범위](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage-%20Spain%20Post%20Codes%20030321.xlsx)
 
 #### <a name="sweden"></a>스웨덴
 
@@ -162,6 +164,10 @@ ms.locfileid: "11585929"
 
 - 마감 시간: 12:00 CET(UTC+1)
 - [다음 영업일 범위](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
+
+### <a name="united-kingdom"></a>영국
+
+- 마감 시간: 12:00 CET(UTC+1)
 
 #### <a name="united-states"></a>미국 
 

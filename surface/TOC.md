@@ -24,7 +24,6 @@
 
 ### [Windows 10 장기 서비스 채널과의 Surface 장치 호환성](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Surface 장치에 대한 장기 서비스 분기](ltsb-for-surface.md)
-### [Surface Configuration Manager에 대한 Wake On LAN](wake-on-lan-for-surface-devices.md)
 ### [Surface 및 엔드포인트 Configuration Manager에 대한 고려 사항](considerations-for-surface-and-system-center-configuration-manager.md)
 ### [비즈니스용 Microsoft Store로 Surface 앱 배포](deploy-surface-app-with-windows-store-for-business.md)
 ### [Surface 장치에서 PEAP, EAP-FAST 및 Cisco LEAP 사용](enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md)
@@ -57,10 +56,13 @@
 ### [배터리 제한 설정](battery-limit.md)
 ### [Surface 밝기 제어](microsoft-surface-brightness-control.md)
 ### [Surface 자산 태그](assettag.md)
+### [Surface Configuration Manager에 대한 Wake On LAN](wake-on-lan-for-surface-devices.md)
+### [Surface Dock 2를 사용한 Wake On LAN](wake-on-lan-surface-dock2.md)
 ### [Surface 디바이스에 대한 Wake On Power](wake-on-power-for-surface.md)
 
 ## 보안
 
+### [Surface 보안 개요](surface-security.md)
 ### [Surface UEFI 설정의 Intune 관리](surface-manage-dfci-guide.md)
 ### [Surface UEFI 설정 관리](manage-surface-uefi-settings.md)
 ### [Surface Pro 3의 고급 UEFI 보안 기능](advanced-uefi-security-features-for-surface-pro-3.md)
@@ -73,7 +75,6 @@
 ### [Surface DMA 보호](dma-protect.md)
 
 ## 문제 해결
-### [Surface 지원 문의](contact-surface-support.md)
 ### [Surface 장치에 대한 주요 지원 솔루션](support-solutions-surface.md)
 ### [호환되는 Surface 장치에서의 SSD 제거에 대한 모범 사례](surface-ssd-removal-guide.md)
 ### [Surface IT 전문가 블로그](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
@@ -83,10 +84,12 @@
 #### [명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행](surface-diagnostic-toolkit-command-line.md)
 ### [최종 사용자를 위한 도움말](https://support.microsoft.com/products/surface-devices)
 ### [Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기](surface-driver-firmware-lifecycle-support.md)
+### [Surface 지원 문의](contact-surface-support.md)
 
-## 보증 및 보호 계획
+## 보증 및 서비스 
 ### [비즈니스용 Surface 보증 및 보호 계획](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [사용 약관](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [Surface 셀프 서비스 보증 및 서비스](self-serve-warranty-service.md)
 ### [다음 영업일 대체](surface-next-business-day-replacement.md)
 ### [장치 무상 수리 상태 확인](https://mybusinessservice.surface.com/)
 ### [서비스를 위해 Surface를 보낼 때 데이터 보호](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
