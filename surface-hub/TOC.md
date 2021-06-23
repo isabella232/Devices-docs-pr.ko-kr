@@ -30,7 +30,7 @@
 ### [처음으로 Surface Hub 2S 설치](surface-hub-2s-setup.md)
 ### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
 ### [디바이스 계정 만들기 및 테스트](create-and-test-a-device-account-surface-hub.md)
-### [Surface Hub 2S용 프로비전 패키지 만들기](surface-hub-2s-deploy.md)
+### [Surface Hub용 프로비전 패키지 만들기](provisioning-packages-for-surface-hub.md)
 ### [Intune을 사용하여 Surface Hub 2S에 앱 배포](surface-hub-2s-deploy-apps-intune.md)
 ### [PowerShell을 사용하여 Surface Hub 2S 온-프레미스 계정 만들기](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
 ### [Surface Hub Teams 앱](hub-teams-app.md)
