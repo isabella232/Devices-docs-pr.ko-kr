@@ -1,5 +1,5 @@
 ---
-title: Surface Dock 2를 통해 LAN 절전 모드 해제
+title: Surface Dock 2를 사용한 Wake On LAN
 description: Surface Dock 2는 관리자가 원격으로 디바이스를 절전 모드로 해제하고 관리 작업을 자동으로 수행할 수 있도록 WOL(Wake on LAN)을 가장 잘 지원합니다.
 keywords: 업데이트, 배포, 드라이버, wol, wake-on-lan
 ms.prod: w10
@@ -13,15 +13,15 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/03/2021
-ms.openlocfilehash: 74b36b60cb58ecb9042b73b8cdba7271d0af8c80
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.date: 7/02/2021
+ms.openlocfilehash: 4a74efb8af776e9805ad3148ea656f0a65d5d09c
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614121"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643854"
 ---
-# <a name="wake-on-lan-with-surface-dock-2"></a>Surface Dock 2를 통해 LAN 절전 모드 해제
+# <a name="wake-on-lan-with-surface-dock-2"></a>Surface Dock 2를 사용한 Wake On LAN
 
 장치를 최신으로 유지하려면 IT 관리자가 사용하지 않을 때(일반적으로 야간 유지 관리 기간 동안) 장치를 관리할 수 있습니다. Surface Dock 2는 WOL(Wake on LAN)을 가장 잘 지원하여 관리자가 원격으로 디바이스를 절전 모드로 해제하고 장치 또는 기타 타사 솔루션을 사용하여 Microsoft Endpoint Manager 작업을 자동으로 수행할 수 있도록 합니다.
 
@@ -48,7 +48,7 @@ Surface Dock 2는 다음과 같은 전원 상태의 장치에 대해 WOL 지원�
 
 - 연결된 대기 상태
 - 최대전력(S4 전원 상태)
-- 최대전력(S5 "꺼진" 전원 상태)
+- 종료(S5 "소프트오프" 전원 상태)
 
 전원 상태에 대한 자세한 내용은 [시스템 전원 상태 를 참조합니다.](/windows/win32/power/system-power-states)
 

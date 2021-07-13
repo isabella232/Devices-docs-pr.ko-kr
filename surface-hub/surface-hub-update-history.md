@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f1790da48425b645d7e25342cfd4c1b0cde44661
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: b03b1a60ebc75e6af37c979082bf7c4a2eca4937
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576738"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643844"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
@@ -29,6 +29,19 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 주의가 필요할[수 있는](https://support.microsoft.com/products/surface-devices/surface-hub)현재 및 Surface Hub 관련 항목은 " Surface Hub 중요한 정보" 페이지를 참조하세요.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2021년 6월 10일 — Surface Hub 업데이트</summary>
+
+이 업데이트는 Surface Hub 2S와 관련이 있으며 아래에 설명된 드라이버 및 펌웨어 업데이트를 제공합니다.
+
+* Surface UEFI 업데이트 - 694.3751.768.0
+  * 중요한 보안 취약성을 해결하고 시스템 안정성을 향상시킵니다.
+* Surface ME 펌웨어 업데이트 - 11.8.86.3877
+  * 중요한 보안 취약성을 해결하고 시스템 안정성을 향상시킵니다.
+* Intel(R) 관리 엔진 인터페이스 드라이버 - 2102.100.0.1044
+  * 중요한 보안 취약성을 해결하고 시스템 안정성을 향상시킵니다.
+</details>
 
 <details>
 <summary>2021년 4월 13일 - KB5001330* 기반 팀 업데이트(OS 빌드 19042.928)</summary>
@@ -46,11 +59,11 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 이 업데이트는 Surface Hub 2S와 관련이 있으며 아래에 설명된 드라이버 및 펌웨어 업데이트를 제공합니다.
 
 * Intel(R) Bluetooth 드라이버 - 22.30.0.4
-  * 보안 업데이트를 해결하고 시스템 안정성을 향상시킵니다.
+  * 시스템 보안 및 안정성을 향상시킵니다.
 * Intel(R) 그래픽 드라이버 - 27.20.100.8682
-  * 보안 업데이트를 해결하고 시스템 안정성을 향상시킵니다.
+  * 시스템 보안 및 안정성을 향상시킵니다.
 * Intel(R) Wi-Fi 드라이버 - 22.30.0.11
-  * 보안 업데이트를 해결하고 시스템 안정성을 향상시킵니다.
+  * 시스템 보안 및 안정성을 향상시킵니다.
 </details>
 
 <details>
@@ -64,7 +77,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 인증을 요구하는 프록시를 Windows 업데이트 및 스토어 업데이트 확인이 완료되지 않는 문제를 해결합니다.
 * 유선으로 커넥트 동안 앱의 안정성을 향상시킵니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB4598291](https://support.microsoft.com/help/4598291)
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB4598291](https://support.microsoft.com/help/4598291)
 </details>
 
 <details>
@@ -100,7 +113,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 내부자 프로그램에 등록할 때 안정성을 Windows 향상시킵니다.
 * 팀 셸의 안정성을 Windows 향상시킵니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB4586853](https://support.microsoft.com/help/4586853)
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB4586853](https://support.microsoft.com/help/4586853)
 </details>
 
 <details>
@@ -128,9 +141,9 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 <details>
 <summary>Windows 10 Team 2020 Update for Surface Hub — General Release notes (OS Build 19042.572)</summary>
 
-이 업데이트는 Surface Hub 개선 및 보안 수정을 포함합니다. Surface Hub 업데이트 기록에 아직 설명되지 [](https://support.microsoft.com/help/4581839/windows-10-update-history)않은 Windows 10 업데이트에 대한 주요 업데이트는 " Windows 10 Team[2020 Update "의](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)새로운 소식 페이지에 기록되어 있습니다.
+이 업데이트는 Surface Hub 개선 및 보안 수정을 포함합니다. Surface Hub 업데이트 기록에 아직 설명되지 [](https://support.microsoft.com/help/4581839/windows-10-update-history)않은 Windows 10 업데이트에 대한 주요 업데이트는 " Windows 10 Team[2020 Update "의](/surface-hub/surface-hub-2020-update-whats-new)새로운 소식 페이지에 기록되어 있습니다.
 
-지역, 배포 방법 및 장치 유형별로 업데이트 가용성에 대한 자세한 내용은 "Windows 10 Team[2020](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)업데이트 설치" 페이지를 참조하세요.
+지역, 배포 방법 및 장치 유형별로 업데이트 가용성에 대한 자세한 내용은 "Windows 10 Team[2020](/surface-hub/surface-hub-2020-update)업데이트 설치" 페이지를 참조하세요.
 </details>
 
 ## <a name="windows-10-team-creators-update-1703"></a>Windows 10 Team 크리에이터스 업데이트(1703)
@@ -188,7 +201,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 통화 중 다른 참가자가 허브 2S를 잘 들을 수 없는 비즈니스용 Skype 해결합니다.
 * 일부 아랍어, Hebrew 및 기타 RTL 언어 사용 시나리오의 안정성을 Surface Hub.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4537765](https://support.microsoft.com/help/4537765)
 </details>
 
@@ -199,7 +212,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 
 * 2S의 로그 컬렉션에 Microsoft Surface Hub 해결합니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4534296](https://support.microsoft.com/help/4534296)
 </details>
 
@@ -215,7 +228,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
  * 일부 내부 웹 Microsoft Edge 검색할 때 발생하는 문제를 해결했습니다.
  * 전체 화면 모드로 비즈니스용 Skype 때 발생하는 문제를 해결했습니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -227,7 +240,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
  * 허브 2S의 비디오 아웃이 기본적으로 "중복" 모드로 설정되어 있도록 합니다.
  * 일부 아랍어 사용 시나리오의 안정성을 Surface Hub.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4503289](https://support.microsoft.com/help/4503289)
  </details>
 
@@ -241,7 +254,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 허브 2S에서 하드웨어 진단 앱의 안정성을 개선하기 위한 수정입니다. 
 * 허브 2S에서 첫 실행 설치 환경의 일관성을 개선하기 위해 수정합니다. 
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -255,7 +268,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * TLS 1.2에 대한 지원을 비즈니스용 Skype.
 * Skype 서버에 TLS 1.0 또는 TLS 1.1을 사용하지 않도록 설정한 경우 Skype 클라이언트의 SIP 연결 실패를 해결합니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4499162](https://support.microsoft.com/help/4499162)
 </details>
 
@@ -266,7 +279,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 
 * 디바이스에 연결된 일부 USB 장치에서 비디오 및 오디오 동기화 문제를 Surface Hub.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4493436](https://support.microsoft.com/help/4493436)
 </details>
 
@@ -277,7 +290,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 
 * 일부 사용자가 "내 모임 및 파일"에 Signing-In 문제를 해결합니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
 </details>
 
@@ -293,7 +306,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 허브가 엔터프라이즈 프록시 환경에서 실수로 "인터넷 연결 없음"을 보고하는 문제를 해결합니다.
 * 고객이 새 화이트보드 환경으로 작업할 수 있는 기능을 구현했습니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4462939](https://support.microsoft.com/help/4462939)
 </details>
 
@@ -307,7 +320,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 관리자가 허브에 대해 인스턴트 메시징 및 전자 메일 서비스를 사용하지 않도록 설정하는 데 사용
 * 앱에 대한 추가 버그 수정 및 안정성 Surface Hub 비즈니스용 Skype 개선
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4343889](https://support.microsoft.com/help/4343889)
 </details>
 
@@ -318,7 +331,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 
 * EMEA의 GDPR 요구 사항 지원에 대한 원격 분석 변경
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4284830](https://support.microsoft.com/help/KB4284830)
 </details>
 
@@ -336,7 +349,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 채널 Miracast 149-165에 Surface Hub 지정된 경우 문제 해결
   * 지역 정부 규정으로 인해 유럽, 일본 또는 이스라엘에서 채널 149~165를 계속 사용할 수 없습니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4093117](https://support.microsoft.com/help/4093117)
 </details>
 
@@ -348,7 +361,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * MDM 설정이 올바르게 적용되지 않는 문제를 해결했습니다.
 * 향상된 정리 프로세스
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4077528](https://support.microsoft.com/help/4077528)
 </details>
 
@@ -360,7 +373,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * MDM을 통해 시작 메뉴 타일 레이아웃을 관리하는 기능을 추가합니다.
 * 암호 순환 구성의 MDM 버그 수정
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4057144](https://support.microsoft.com/help/4057144)
 </details>
 
@@ -372,7 +385,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 통화 중 카메라 비디오 깜박임(깜빡임 또는 깜박임)비즈니스용 Skype 해결합니다.
 * 알림 센터 SSD ID 문제 해결
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4053580](https://support.microsoft.com/help/4053580)
 </details>
 
@@ -390,7 +403,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 디바이스에서 전송하는 원격 분석의 보안을 줄이고 더욱 철저하게 보호하여 대역폭 사용률을 줄입니다.
 * 모임이 끝날 때 사용자가 Microsoft에 피드백을 제공할 수 있는 기능을 사용할 수 있습니다.
 
-장치 기능 [및 서비스를 Surface Hub/사용](https://docs.microsoft.com/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4048954](https://support.microsoft.com/help/4048954)
 </details>
 
@@ -492,13 +505,13 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 
 * 큰 화면 환경 발전 
   * 시작 및 시작에서 모임 캐롤링 개선
-  * 모임에 참가하고 시작 메뉴에서 직접 세션 종료
+  * 모임에 참가하고 모임에서 직접 세션을 시작 메뉴
   * 앱은 세션 중에 더 많은 화면을 활용할 수 있습니다.
   * 간소화된 Skype 컨트롤
   * 피드백을 제공하기 위한 개선된 메커니즘
 * 내 개인 콘텐츠 액세스*
   * 시작 또는 시작의 개인 Single Sign-On
-  * 모임에 참가하고 시작 메뉴에서 직접 세션 종료
+  * 모임에 참가하고 모임에서 직접 세션을 시작 메뉴
   * 시작에서 직접 비즈니스용 OneDrive 개인 파일에 액세스
   * 미리 채워진 참석자 로그인
   * "Authenticator 앱으로 간소화된 인증 흐름**
@@ -509,9 +522,9 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
   * 향상된 프록시 자격 증명 지원
   * QoS(Skype 서비스 품질) 구성 지원이 추가 및/개선되었습니다.
   * 장치에서 기본 장치 볼륨을 설정하는 설정
-  * 사용자 설정에 대한 MDM Surface Hub [향상](https://docs.microsoft.com/surface-hub/remote-surface-hub-management)
+  * 사용자 설정에 대한 MDM Surface Hub [향상](/surface-hub/remote-surface-hub-management)
 * 향상된 보안 
-  * USB 드라이브를 다른 드라이브로만 제한하는 BitLocker 추가되었습니다.
+  * USB 드라이브를 BitLocker로만 제한하는 기능을 추가했습니다.
   * MDM을 통해 USB 포트를 사용하지 않도록 설정하는 기능을 추가했습니다.
   * 시간 제한 시 "세션 다시 시작" 기능을 사용하지 않도록 설정하는 기능이 추가되었습니다.
   * 유선 802.1x 지원 추가

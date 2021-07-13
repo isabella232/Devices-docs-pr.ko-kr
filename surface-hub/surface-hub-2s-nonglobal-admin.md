@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: cdb6dbdb49b34857f7b30feebb39f7a5c36e883c
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 11170f6c202faef7aa3dddcb8aa8c6fa84bea80f
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585959"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643864"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Surface Hub에서 전역이 아닌 관리자 계정 구성
 
@@ -95,14 +95,14 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 
     ```xml
       <groupmembership>   
-      <accessgroup desc = "Administrators">        
+      <accessgroup desc = "S-1-5-32-544">        
       <member name = "Administrator" />        
       <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
       </accessgroup>
       </groupmembership>
       ```
       > [!IMPORTANT]
-      > XML 파일에서 기본 Administrator 구성원을 제거하지 않습니다.
+      > 관리자 계정의 지역화된 [이름을 사용해야 할 수 있습니다.](https://social.technet.microsoft.com/wiki/contents/articles/13813.localized-names-for-administrator-account-in-windows.aspx) XML 파일에서 기본 Administrator 구성원을 제거하지 않습니다.
 
 2. 자리 보기 SID(S-1-12-1로 시작)를 **Azure AD 그룹 SID로** 바꾸고 파일을 XML로 저장합니다. 예를 들어 **aad-local-admin.xml. ** 
 
