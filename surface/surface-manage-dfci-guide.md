@@ -1,5 +1,5 @@
 ---
-title: Surface UEFI 설정의 Intune 관리
+title: Surface 디바이스에서 DFCI 관리
 description: 이 문서에서는 대상 Surface 디바이스의 펌웨어 설정을 Microsoft Intune DFCI 환경을 구성하는 방법을 설명합니다.
 ms.localizationpriority: medium
 ms.prod: w10
@@ -20,18 +20,18 @@ appliesto:
 - Surface Book 3
 - Surface Laptop Go
 - Surface Laptop 4
-ms.openlocfilehash: b74aeab45dd2354550f0dff712af5b37b853111c
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 871bead0ae5f73c546b8dbe219d71b819d3a865e
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576518"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676452"
 ---
-# <a name="intune-management-of-surface-uefi-settings"></a>Surface UEFI 설정의 Intune 관리
+# <a name="manage-dfci-on-surface-devices"></a>Surface 디바이스에서 DFCI 관리
 
 ## <a name="introduction"></a>소개
 
-클라우드에서 장치를 관리하는 기능을 통해 수명 주기 전반에 걸쳐 IT 배포 및 프로비저닝이 크게 간소화되었습니다. 디바이스 펌웨어 구성 인터페이스(DFCI) 프로필을 Microsoft Intune Surface UEFI 관리는 최신 관리 스택을 UEFI 하드웨어 수준으로 확장합니다. [](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows) DFCI는 제로 터치 프로비전을 지원하고, BIOS 암호를 제거하고, 부팅 옵션 및 기본 제공 주변 장치를 비롯한 보안 설정을 제어하며, 향후 고급 보안 시나리오를 위한 초안을 마련합니다. 자주 묻는 질문에 대한 답변은 [Ignite 2019: Intune에서 Surface UEFI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)설정의 원격 관리 발표를 참조하세요.
+클라우드에서 장치를 관리하는 기능을 통해 수명 주기 전반에 걸쳐 IT 배포 및 프로비저닝이 크게 간소화되었습니다. 디바이스 펌웨어 구성 인터페이스(DFCI) 프로필을 Microsoft Intune Surface UEFI 관리는 최신 관리 스택을 UEFI 하드웨어 수준으로 확장합니다. [](/intune/configuration/device-firmware-configuration-interface-windows) DFCI는 제로 터치 프로비전을 지원하고, BIOS 암호를 제거하고, 부팅 옵션 및 기본 제공 주변 장치를 비롯한 보안 설정을 제어하며, 향후 고급 보안 시나리오를 위한 초안을 마련합니다. 자주 묻는 질문에 대한 답변은 [Ignite 2019: Intune에서 Surface UEFI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)설정의 원격 관리 발표를 참조하세요.
 
 ### <a name="background"></a>Background
 
@@ -68,11 +68,11 @@ DFCI는 다음 장치에서 지원됩니다.
 
 - 디바이스는 [CSP(Windows](https://partner.microsoft.com/membership/cloud-solution-provider) OEM 배포자)Microsoft 클라우드 솔루션 공급자 Autopilot에 등록해야 합니다.
 
-- Surface에 대해 DFCI를 구성하기 전에 Azure AD(Microsoft Intune [](https://docs.microsoft.com/intune/) 및 Azure Active Directory)의 Autopilot 구성 요구 사항을 잘 알고 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) 합니다.
+- Surface에 대해 DFCI를 구성하기 전에 Azure AD(Microsoft Intune [](/intune/) 및 Azure Active Directory)의 Autopilot 구성 요구 사항을 잘 알고 [Azure Active Directory](/azure/active-directory/) 합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Azure AD 보안 그룹에 대상 Surface 장치를 추가합니다. 보안 그룹을 만들고 관리하는 데 대한 자세한 내용은 [Intune 설명서 를 참조하십시오.](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups)
+Azure AD 보안 그룹에 대상 Surface 장치를 추가합니다. 보안 그룹을 만들고 관리하는 데 대한 자세한 내용은 [Intune 설명서 를 참조하십시오.](/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups)
 
 ## <a name="configure-dfci-management-for-surface-devices"></a>Surface 디바이스에 대한 DFCI 관리 구성
 
@@ -85,7 +85,7 @@ DFCI 정책 설정을 구성하기 전에 먼저 DFCI 프로필을 만들어 대
 1. 테넌트에 로그인하여 devicemanagement.microsoft.com.
 2. Microsoft Endpoint Manager 관리 센터에서 장치 **>** 구성 프로필을 선택하고 > 프로필을 만들고 이름을 입력합니다. 예를 들어 **DFCI 구성 정책과 같습니다.**
 3. 플랫폼 **Windows 10 이상을** 선택합니다.
-4. 프로필 유형 드롭다운 목록에서 **** 장치 펌웨어 구성 인터페이스를 선택하여 사용 가능한 모든 정책 설정이 포함된 DFCI 블레이드를 니다. DFCI 설정에 대한 자세한 내용은 이 페이지의 표 1 또는 Intune 설명서를 [참고하십시오.](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows) DFCI 프로필을 편집하여 초기 설치 프로세스 또는 이후 단계에서 DFCI 설정을 구성할 수 있습니다.
+4. 프로필 유형 드롭다운 목록에서 **** 장치 펌웨어 구성 인터페이스를 선택하여 사용 가능한 모든 정책 설정이 포함된 DFCI 블레이드를 니다. DFCI 설정에 대한 자세한 내용은 이 페이지의 표 1 또는 Intune 설명서를 [참고하십시오.](/intune/configuration/device-firmware-configuration-interface-windows) DFCI 프로필을 편집하여 초기 설치 프로세스 또는 이후 단계에서 DFCI 설정을 구성할 수 있습니다.
 
     ![DFCI 프로필 만들기](images/df1.png)
 
@@ -114,7 +114,7 @@ DFCI 정책 설정을 구성하기 전에 먼저 DFCI 프로필을 만들어 대
 
 사용자가 로그인하기 전에 OOBE 중에 DFCI 구성을 적용하려면 등록 상태를 구성해야 합니다.
 
-자세한 내용은 등록 상태 설정 [페이지를 참조하세요.](https://docs.microsoft.com/intune/enrollment/windows-enrollment-status)
+자세한 내용은 등록 상태 설정 [페이지를 참조하세요.](/intune/enrollment/windows-enrollment-status)
 
 
 ## <a name="configure-dfci-settings-on-surface-devices"></a>Surface 디바이스에서 DFCI 설정 구성
@@ -148,7 +148,7 @@ DFCI에는 하드웨어 수준에서 장치를 잠가 추가 수준의 보안을
 > [!NOTE]
 >  Intune의 DFCI에는 현재 Surface 장치에 적용되지 않는 두 가지 설정, 즉 (1) CPU 및 IO 가상화와 (2) 네트워크 어댑터에서 부팅을 사용하지 않도록 설정
  
-Intune은 관리 권한을 위임하기 위한 범위 태그와 장치 유형을 관리하는 적용성 규칙을 제공합니다. 모든 DFCI 설정에 대한 정책 관리 지원 및 전체 세부 정보에 대한 자세한 내용은 Microsoft Intune [참조하십시오.](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)
+Intune은 관리 권한을 위임하기 위한 범위 태그와 장치 유형을 관리하는 적용성 규칙을 제공합니다. 모든 DFCI 설정에 대한 정책 관리 지원 및 전체 세부 정보에 대한 자세한 내용은 Microsoft Intune [참조하십시오.](/intune/configuration/device-firmware-configuration-interface-windows)
 
 ## <a name="register-devices-in-autopilot"></a>Autopilot에서 장치 등록
 
@@ -160,7 +160,7 @@ Intune 정책 설정은 일반적으로 거의 즉시 적용되지만 설정이 
 
 - Endpoint Manager Devicemanagement.microsoft.com **Autopilot** Devices에서 장치 등록 > 장치 등록 > Windows 장치로 이동한 > Windows 동기화를 **선택합니다.**
 
- 자세한 내용은 수동으로 Windows [동기화를 참조하세요.](https://docs.microsoft.com/intune-user-help/sync-your-device-manually-windows)
+ 자세한 내용은 수동으로 Windows [동기화를 참조하세요.](/intune-user-help/sync-your-device-manually-windows)
 
 > [!NOTE]
 > UEFI에서 직접 설정을 조정할 때 장치가 표준 로그인으로 완전히 다시 Windows 합니다.
@@ -190,7 +190,7 @@ DFCI 프로필을 만들면 구성된 모든 설정이 프로필 관리 범위 �
 **DFCI 관리를 제거하고 장치를 공장 새 상태로 되 되 관리하려면:**
 
 1. Intune에서 디바이스를 사용 중지합니다.
-    1. In Endpoint Manager at devicemanagement.microsoft.com, choose **Groups > All Devices**. 사용 중지할 장치를 선택한 다음 사용 **중지/지우기를 선택합니다.** 자세한 내용은 장치 초기화, 사용 중지 또는 수동으로 장치 초기화 를 사용하여 장치 [제거를 참조하세요.](https://docs.microsoft.com/intune/remote-actions/devices-wipe) 
+    1. In Endpoint Manager at devicemanagement.microsoft.com, choose **Groups > All Devices**. 사용 중지할 장치를 선택한 다음 사용 **중지/지우기를 선택합니다.** 자세한 내용은 장치 초기화, 사용 중지 또는 수동으로 장치 초기화 를 사용하여 장치 [제거를 참조하세요.](/intune/remote-actions/devices-wipe) 
 2. Intune에서 Autopilot 등록을 삭제합니다.
     1.  장치 **등록 또는 > Windows 등록을 > 을 선택하세요.**
     2. Autopilot Windows 아래에서 삭제할 장치를 선택한 다음 삭제를 **선택하십시오.**
@@ -203,4 +203,4 @@ Intune을 사용하여 장치를 관리하지만 DFCI 관리 없이 장치를 Au
 - [Ignite 2019: Intune에서 Surface UEFI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333) 설정의 원격 관리 발표 
  [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
 - [Windows Autopilot 및 Surface 디바이스](windows-autopilot-and-surface-devices.md) 
-- [Windows 디바이스에서 DFCI 프로필을 Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)
+- [Windows 디바이스에서 DFCI 프로필을 Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)

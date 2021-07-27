@@ -14,16 +14,16 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: c7a882859339ff3d7feeb685c62672bc57c301ec
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576528"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676688"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>앱 및 교육을 비즈니스용 Microsoft Store Surface 앱 배포
 
-**적용 대상:**
+**적용 대상**
 
 - Surface Laptop 4
 - Surface Pro 7+
@@ -47,17 +47,7 @@ ms.locfileid: "11576528"
 - Surface Pro 3
 
 
-Surface 앱은 다음을 Microsoft Store Surface 관련 설정 및 옵션을 제어할 수 있는 간단한 앱입니다. 
-
-* Surface 디바이스에서 Windows 단추를 사용하거나 사용하지 않도록 설정 
-
-* Surface 펜의 감도 조정 
-
-* Surface 펜 단추 동작을 사용자 지정 
-
-* Surface 오디오의 향상된 기능을 사용하거나 사용하지 않도록 설정 
-
-* 장치에 대한 설명서 및 정보를 빠르게 지원
+Surface 앱은 일련 번호Microsoft Store Surface 모델 이름, UEFI 버전 및 관련 드라이버를 비롯한 장치 정보에 빠르게 액세스할 수 있는 다양한 Surface 관련 설정 및 옵션을 제어할 수 있는 경량 앱 앱입니다.  
 
 Windows 사용하는 고객은 자동 업데이트의 일부로 Surface 앱을 받게 됩니다. 그러나 조직에서 Surface 디바이스에 배포할 이미지를 준비하는 경우 각 개별 디바이스의 사용자에게 앱 또는 디바이스에서 앱을 다운로드하여 설치하도록 요구하는 대신 이미징 및 배포 프로세스에 Surface 앱(이전의 Surface Hub)을 포함할 Microsoft Store 비즈니스용 Microsoft Store. 
 
@@ -66,7 +56,7 @@ Windows 사용하는 고객은 자동 업데이트의 일부로 Surface 앱을 �
 
 ## <a name="surface-app-overview"></a>Surface 앱 개요
 
-Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P) 사용자는 Microsoft Store 다운로드하여 설치할 수 있지만 조직에서 비즈니스용 Microsoft Store 대신 앱을 사용하는 경우 스토어의 인벤토리에 추가하고 앱을 Windows 배포 프로세스의 일부로 포함해야 합니다. 이러한 프로세스는 이 문서 전체에서 설명됩니다. 자세한 내용은 비즈니스용 Microsoft Store TechCenter의 [비즈니스용 Microsoft Store](https://docs.microsoft.com/microsoft-store/) Windows 참조하세요. 
+Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P) 사용자는 Microsoft Store 다운로드하여 설치할 수 있지만 조직에서 비즈니스용 Microsoft Store 대신 앱을 사용하는 경우 스토어의 인벤토리에 추가하고 앱을 Windows 배포 프로세스의 일부로 포함해야 합니다. 이러한 프로세스는 이 문서 전체에서 설명됩니다. 자세한 내용은 비즈니스용 Microsoft Store 을 [비즈니스용 Microsoft Store.](/microsoft-store/) 
 
 ## <a name="add-surface-app-to-a-microsoft-store-for-business-account"></a>Surface 계정에 Surface 비즈니스용 Microsoft Store 추가 
 
@@ -74,19 +64,17 @@ Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://w
 
 1. 아직 수행하지 않은 경우 계정을 [비즈니스용 Microsoft Store.](https://www.microsoft.com/business-store) 
 
-2. 포털에 로그온합니다. 
+2. 포털에 로그인합니다. 
 
-3. 오프라인 라이선싱 사용: 그림 **1에 표시된**>**** 스토어 설정 관리를 클릭한 다음 스토어에서 쇼핑하는 사용자에 대해 오프라인 라이선스 앱 표시 확인란을 선택합니다. 앱 라이선싱 비즈니스용 Microsoft Store 대한 자세한 내용은 비즈니스용 Microsoft Store 및 교육의 앱을 [참조하세요.](https://docs.microsoft.com/microsoft-store/)
+3. 오프라인 라이선싱 **** 사용: 그림 1과 설정 스토어에서 쇼핑하는 사용자에 대해 오프라인 사용이 허가된 앱 표시  >  **** 확인란을 선택합니다. **** 앱 라이선싱 비즈니스용 Microsoft Store 대한 자세한 내용은 비즈니스용 Microsoft Store 및 교육의 앱을 [참조하세요.](/microsoft-store/)
 
    > [!div class="mx-imgBorder"]
    > ![오프라인 라이선스 앱 표시 확인란](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *그림 1. 오프라인으로 사용할 수 있도록 앱 사용*
 
-4. 다음 절차에 따라 비즈니스용 Microsoft Store 계정에 Surface 앱을 추가합니다.
+4. Surface 앱을 앱 계정에 비즈니스용 Microsoft Store 추가합니다.
 
-    * 쇼핑 **메뉴를** 클릭합니다.
-    
-    * 검색 상자에 **Surface 앱 을**입력한 다음 검색 아이콘을 클릭합니다.
+    * **스토어에서 Surface 앱 검색** 
     
     * Surface 앱이 검색 결과에 표시된 후 앱 아이콘을 클릭합니다.
     
@@ -229,4 +217,4 @@ Surface 앱의 종속성으로 프레임워크를 구성하기 위해 다음 프
 
 3. 단일 **응용 프로그램 설치를** 선택하고 설치할 응용 프로그램으로 **Surface 앱을** **지정합니다.**
 
-앱 배포에 앱을 Windows 자세한 내용은 [Deploy Windows 10 with the Microsoft Deployment Toolkit.](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit)
+앱 배포에 앱을 Windows 대한 자세한 내용은 MDT를 사용하여 배포 [준비를 참조하세요.](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt)

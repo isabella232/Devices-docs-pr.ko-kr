@@ -19,12 +19,12 @@ appliesto:
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
-ms.openlocfilehash: c02837b0cfda72c6f2a447b99ff4c94a027bb29c
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 1ee3376a24d3e83cc66c8a220a1f7afa195840d0
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613867"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676722"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>MDT 배포 Surface Laptop 키보드를 사용하도록 설정하는 방법
 
@@ -36,7 +36,7 @@ ms.locfileid: "11613867"
 > - 전원 단추를 30초간 누르고 있습니다. PSU(전원 공급 장치)에 연결되어 있는 경우 전원 단추를 누르고 PSU 코드 끝에 조명이 잠시 꺼지기 전에 전원 단추를 누릅니다.
 
 > [!IMPORTANT]
-> S 모드가 Surface Laptop Surface Laptop 있는 Windows 10 이미지를 배포하는 경우 사전 설치한 Windows 10 Windows 10 S 모드로 Surface 디바이스에 Windows 배포할 때의 문제인 KB [4032347을 참조합니다.](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)
+> S 모드가 Surface Laptop Surface Laptop 있는 Surface Laptop Windows 10 이미지를 배포하는 경우 KB 4032347, S 모드로 미리 설치한 Windows Surface 장치에 Windows 10 배포할 [때의](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)문제를 참조합니다. Windows 10
 
 ## <a name="add-keyboard-drivers-to-the-selection-profile"></a>선택 프로필에 키보드 드라이버 추가
 
@@ -95,4 +95,4 @@ ms.locfileid: "11613867"
 
     ![Deployment Workbench의 Surface Laptop 폴더에 있는 일반 Surface Laptop(1세대) 드라이버를 보여 주는 이미지](./images/surface-laptop-keyboard-5.png)
 
-새 선택 프로필 및 관련 설정을 사용하기 위해 MDT 배포 공유를 구성한 후 MDT를 사용하여 Windows 10 이미지 [배포: 6단계:](/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence)배포 작업 순서 만들기에 설명된 배포 프로세스를 계속합니다.
+새 선택 프로필 및 관련 설정을 사용하기 위해 MDT 배포 공유를 구성한 후 MDT를 사용하여 Windows 10 이미지 [배포: 6단계:](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence)배포 작업 순서 만들기에 설명된 배포 프로세스를 계속합니다.

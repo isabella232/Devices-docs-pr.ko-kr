@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 50c7c9109d98448f10afcf3105974c8bee9515af
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 52b988315951132284c7016752a6817dadbf74c6
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11578207"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676622"
 ---
 # <a name="surface-laptop-4-processors-tech-overview"></a>Surface Laptop 4 프로세서 기술 개요
 
@@ -31,7 +31,7 @@ SKU 선택은 고객 우선 순위에 따라 결정됩니다.
 - 다중 스레드 앱 성능과 더 긴 배터리 사용 시간이 최우선이면 SURFACE LAPTOP 4(AMD Ryzen Surface Edition 프로세서가 있는 경우)를 선택할 수 있습니다.
 - 더 빠른 단일 스레드 성능이 메모리 및 저장소를 위한 옵션과 함께 더 중요한 경우 Intel Surface Laptop 4와 Intel 11세대 코어 프로세서를 함께 사용할 수 있는 것이 좋습니다.
 
-자세한 내용은 비즈니스용 [Surface Laptop 4를 참조합니다.](https://www.microsoft.com/surface/business/surface-laptop-4)
+자세한 내용은 [를](https://www.microsoft.com/surface/business/surface-laptop-4)비즈니스용Surface Laptop 4.
 
 ## <a name="processor-tech-specs"></a>프로세서 기술 사양
 
@@ -85,7 +85,7 @@ Surface Laptop Intel 프로세서에 대한 일반적인 정보는 다음을 참
 | 기본 TDP/TDP    | 15W               | 15W               |
 | 최대 임시            | 105C              | 105 C             |
 
-Surface Laptop AMD 프로세서에 대한 일반적인 정보는 [AMD Ryzen을 참조하세요.](https://www.amd.com/processors/ryzen)
+Surface Laptop 4의 AMD 프로세서에 대한 일반적인 내용은 Microsoft Surface Laptop [4 Powered by AMD Ryzen Mobile Processors을 참조하세요.](https://www.amd.com/processors/ryzen-surface-edition)
 
 ## <a name="surface-laptop-4-skus"></a>Surface Laptop 4 SKUS
 
@@ -104,4 +104,4 @@ Surface Laptop AMD 프로세서에 대한 일반적인 정보는 [AMD Ryzen을 �
 
 ## <a name="learn-more"></a>자세히 알아보기
 
-- [Surface Laptop 4 for Business](https://www.microsoft.com/surface/business/surface-laptop-4)
+- [비즈니스용 Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)

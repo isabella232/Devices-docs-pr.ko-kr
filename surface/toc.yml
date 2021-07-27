@@ -1,0 +1,178 @@
+- name: Surface
+  href: index.yml
+  expanded: true
+  items:
+    - name: Surface 장치 설명서
+      href: get-started.yml
+    - name: 개요
+      items:
+        - name: 기술 개요
+          items:
+            - name: Surface 보안 개요
+              href: surface-security.md
+            - name: 가상 데스크톱 Windows Virtual Desktop
+              href: windows-virtual-desktop-surface.md
+            - name: Surface Laptop 4 프로세서 기술 개요
+              href: surface-laptop-processors.md
+            - name: Surface Book 3 GPU 기술 개요
+              href: surface-book-GPU-overview.md
+            - name: Surface Book 3 Quadro RTX 3000 기술 개요
+              href: surface-book-quadro.md
+            - name: Surface Headphones 2+ 기술 개요
+              href: surface-headphones.md
+        - name: Surface 장치 주문
+          items:
+            - name: 비즈니스용 Surface Laptop 4
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+            - name: 비즈니스용 Surface Pro 7+
+              href: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
+            - name: 비즈니스용 Surface Pro 2
+              href: 'https://www.microsoft.com/surface/business/surface-go-2'
+            - name: 비즈니스용 Surface Pro 2
+              href: 'https://www.microsoft.com/surface/business/surface-pro-x'
+            - name: 비즈니스용 Surface Studio 2
+              href: 'https://www.microsoft.com/surface/business/surface-studio-2'
+            - name: 비즈니스용 Surface Book 3
+              href: 'https://www.microsoft.com/surface/business/surface-book-3'
+    - name: 계획
+      items:
+        - name: Windows 10 장기 서비스 채널과의 Surface 장치 호환성
+          href: surface-device-compatibility-with-windows-10-ltsc.md
+        - name: Surface 장치에 대한 장기 서비스 분기
+          href: ltsb-for-surface.md
+        - name: 이더넷 어댑터 및 Surface 배포
+          href: ethernet-adapters-and-surface-device-deployment.md
+        - name: Surface 시스템 SKU 참조
+          href: surface-system-sku-reference.md
+    - name: 배포 및 관리
+      items:
+        - name: Windows Autopilot
+          items:
+            - name: Windows Autopilot 및 Surface 디바이스
+              href: windows-autopilot-and-surface-devices.md
+            - name: Windows Autopilot용 Surface 등록 지원
+              href: surface-autopilot-registration-support.md
+            - name: Surface 시스템 SKU 참조
+              href: surface-system-sku-reference.md
+        - name: 배포 자동화
+          items:
+            - name: Surface 배포 가속기
+              href: microsoft-surface-deployment-accelerator.md
+            - name: MDT를 사용하여 Surface 디바이스로 Windows 10 배포
+              href: deploy-windows-10-to-surface-devices-with-mdt.md
+            - name: MDT 배포 중 Surface Laptop 키보드 사용
+              href: enable-surface-keyboard-for-windows-pe-deployment.md
+            - name: MDT를 사용하여 Windows 10으로 Surface 장치 업그레이드
+              href: upgrade-surface-devices-to-windows-10-with-mdt.md
+            - name: Surface 배포용 OOBE 사용자 지정
+              href: customize-the-oobe-for-surface-deployments.md
+            - name: 비즈니스용 Microsoft Store로 Surface 앱 배포
+              href: deploy-surface-app-with-windows-store-for-business.md
+        - name: Surface 도구
+          items:
+            - name: Surface Enterprise 관리 모드
+              href: surface-enterprise-management-mode.md
+              items:
+                - name: SEMM을 사용하여 Surface 장치 등록 및 구성
+                  href: enroll-and-configure-surface-devices-with-semm.md
+                - name: SEMM에서 Surface 디바이스 등록 취소
+                  href: unenroll-surface-devices-from-semm.md
+                - name: Microsoft Endpoint Configuration Manager를 사용하여 SEMM에서 디바이스 관리
+                  href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
+            - name: 비즈니스용 Surface 진단 도구 키트를 사용한 일반적인 Surface 문제 해결
+              href: surface-diagnostic-toolkit-for-business-intro.md
+              items:
+                - name: 비즈니스용 Surface 진단 도구 키트 배포
+                  href: surface-diagnostic-toolkit-business.md
+                - name: 비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
+                  href: surface-diagnostic-toolkit-desktop-mode.md
+                - name: 명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행
+                  href: surface-diagnostic-toolkit-command-line.md
+            - name: Surface Data Eraser
+              href: microsoft-surface-data-eraser.md
+            - name: 배터리 제한 설정
+              href: battery-limit.md
+            - name: Surface 밝기 제어
+              href: microsoft-surface-brightness-control.md
+            - name: Surface 자산 태그
+              href: assettag.md
+            - name: 'Surface 장치에서 PEAP, EAP-FAST 및 Cisco LEAP 사용'
+              href: enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md
+            - name: Surface Dock 1 펌웨어 업데이트
+              href: surface-dock-firmware-update.md
+        - name: 업데이트 관리
+          items:
+            - name: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
+              href: manage-surface-driver-and-firmware-updates.md
+            - name: Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기
+              href: surface-driver-firmware-lifecycle-support.md
+            - name: Configuration Manager에서 구성 관리자 관리
+              href: manage-surface-driver-updates-configuration-manager.md
+        - name: UEFI 관리(펌웨어)
+          items:
+            - name: Surface UEFI 설정 관리
+              href: manage-surface-uefi-settings.md
+            - name: Surface 장치에서 DFCI 관리
+              href: surface-manage-dfci-guide.md
+            - name: Surface Pro 3의 고급 UEFI 보안 기능
+              href: advanced-uefi-security-features-for-surface-pro-3.md
+        - name: Surface 도크
+          items:
+            - name: Surface Dock 2의 새로운 기능
+              href: surface-dock-whats-new.md
+            - name: WMI로 Surface Dock 2 관리
+              href: surface-dock2-wmi.md
+            - name: Secure Surface Dock 2 포트(SEMM 포함)
+              href: secure-surface-dock-ports-semm.md
+            - name: Surface Dock 1 펌웨어 업데이트
+              href: surface-dock-firmware-update.md
+        - name: 원격 절전 모드 해제 장치
+          items:
+            - name: Surface Configuration Manager에 대한 Wake On LAN
+              href: wake-on-lan-for-surface-devices.md
+            - name: Surface Dock 2를 사용한 Wake On LAN
+              href: wake-on-lan-surface-dock2.md
+            - name: Surface 디바이스에 대한 Wake On Power
+              href: wake-on-power-for-surface.md
+        - name: 모범 사례
+          items:
+            - name: Surface 장치에 대한 Wi-Fi 연결 최적화
+              href: surface-wireless-connect.md
+            - name: Surface 장치의 모범 사례 전원 설정
+              href: maintain-optimal-power-settings-on-Surface-devices.md
+            - name: Surface DMA 보호
+              href: dma-protect.md
+            - name: 호환되는 Surface 장치에서의 SSD 제거에 대한 모범 사례
+              href: surface-ssd-removal-guide.md
+            - name: Surface 및 엔드포인트 Configuration Manager에 대한 고려 사항
+              href: considerations-for-surface-and-system-center-configuration-manager.md
+        - name: ARM 장치
+          items:
+            - name: 'Surface Pro X 배포, 관리 및 서비스'
+              href: surface-pro-arm-app-management.md
+            - name: Surface Pro X 앱 호환성
+              href: surface-pro-arm-app-performance.md
+    - name: 문제 해결
+      items:
+        - name: Surface 장치에 대한 주요 지원 솔루션
+          href: support-solutions-surface.md
+        - name: Surface IT 전문가 블로그
+          href: 'https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro'
+        - name: 최종 사용자를 위한 도움말
+          href: 'https://support.microsoft.com/products/surface-devices'
+        - name: Surface 지원 문의
+          href: contact-surface-support.md
+    - name: 보증 및 서비스
+      items:
+        - name: 비즈니스용 Surface 보증 및 보호 계획
+          href: 'https://www.microsoft.com/surface/business/warranty-service-offerings-and-support'
+        - name: 사용 약관
+          href: 'https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device'
+        - name: Surface 셀프 서비스 보증 및 서비스
+          href: self-serve-warranty-service.md
+        - name: 다음 영업일 대체
+          href: surface-next-business-day-replacement.md
+        - name: 장치 무상 수리 상태 확인
+          href: 'https://mybusinessservice.surface.com/'
+        - name: 서비스를 위해 Surface를 보낼 때 데이터 보호
+          href: 'https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service'

@@ -10,19 +10,19 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/28/2021
+ms.date: 07/20/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 087826a7a0cba7a47accc0d3d66714289f2ae9d2
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: bb5c08454d6c148c5e07b80ee0b4452e5b768a87
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613993"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676712"
 ---
-# <a name="create-provisioning-packages-for-surface-hub"></a>사용자용 프로비저닝 패키지 Surface Hub
+# <a name="create-provisioning-packages-for-surface-hub"></a>Surface Hub용 프로비전 패키지 만들기
 
 프로비저닝 패키지를 사용하면 주요 기능 배포를 자동화하여 조직의 모든 Surface Hub에서 일관된 환경을 제공할 수 있습니다.  별도의 Windows WCD(구성 디자이너)를 사용하여 다음 작업을 완료할 수 있습니다.
 
@@ -113,7 +113,8 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 
 **구성 파일을 Surface Hub:**
 
-1. 파일 Microsoft Excel(또는 기타 .csv 편집기)를 열고 .csv 파일로 SurfaceHubConfiguration.csv
+1. Microsoft Excel(또는 기타 .csv 편집기)를 열고 .csv 파일을 _SurfaceHubConfiguration.csv. _
+
 2. 디바이스 계정 및 이름 목록을 다음 형식으로 입력합니다.
 
     ```
@@ -123,7 +124,7 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
     > [!NOTE]
     > 구성 파일은 열 머리글을 포함하지 않아야 합니다. 사용자 지정에 적용된 프로비저닝 패키지에 Surface Hub 파일에서 디바이스의 계정 및 이름을 선택할 수 있습니다. 새 .csv 만들하려면 UPN 주소 형식(rainier@contoso.com) 또는 하한 수준 로그온 이름 형식(contoso\rainier)을 사용하세요.
 
-- rainier@contoso.com,password,Rainier Surface Hub
+    rainier@contoso.com,password,Rainier Surface Hub
 
 3. 파일을 프로젝트 폴더에 저장하고 프로비저닝 패키지를 사용하여 USB 키에 복사합니다.
 
@@ -143,15 +144,19 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 > [!TIP]
 > 마법사를 사용하여 일반 설정이 포함된 패키지를 만든 후 기타 설정을 추가하려면 고급 편집기로 전환합니다.<br><br> ![고급 편집기로 전환](images/icd-simple-edit.png)
 
-1. 이전 섹션에서 계속하는 경우 **** 고급 편집기로 전환을 선택하고 그렇지 않으면 구성 디자이너에서 Windows 고급 프로비전을 **선택합니다.** ****<br>
-  ![고급 프로비저닝 사용](images/sh-prov-adv.png)
+1. 이전 섹션에서 계속하는 경우 **** 고급 편집기로 전환을 선택하고 그렇지 않으면 구성 디자이너에서 Windows 고급 프로비전을 **선택합니다.** ****
+
+   ![고급 프로비저닝 사용](images/sh-prov-adv.png)
 
 2. 프로젝트 이름을 지정하고 다음 을 **선택합니다.**
-3. 일반을 **선택하여 Windows 10 Team**를 **** 선택하고 마친 을 **선택합니다.**<br>
-     ![WCD 새 프로젝트](images/icd-new-project.png)
 
-4. 프로젝트의 사용 **가능한 사용자 지정에서**공통 팀 **설정을 선택합니다.**<br>
-     ![WCD 일반 설정](images/icd-common-settings.png)
+3. 일반을 **선택하여 Windows 10 Team**를 **** 선택하고 마친 을 **선택합니다.**
+
+   ![WCD 새 프로젝트](images/icd-new-project.png)
+
+4. 프로젝트의 사용 **가능한 사용자 지정에서**공통 팀 **설정을 선택합니다.**
+
+   :::image type="content" alt-text="WCD 일반 설정입니다." source="images/icd-common-settings.png":::
 
 ### <a name="add-a-certificate-to-your-package"></a>패키지에 인증서 추가
 
@@ -178,8 +183,11 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 **UWP 앱을 추가하는 경우:**
 
 1. **사용 가능한 사용자 지정** 창에서 **런타임 설정** > **UniversalAppInstall** > **DeviceContextApp**으로 이동합니다.
+
 2. 앱에 **대한 PackageFamilyName을** 입력한 다음 추가 를 **선택합니다.** 일관성을 위해 앱의 패키지 패밀리 이름을 사용합니다. 비즈니스용 Microsoft Store에서 앱을 구매한 경우 앱 라이선스에서 패키지 패밀리 이름을 찾을 수 있습니다. 텍스트 편집기를 사용하여 라이선스 파일을 열고 PFM 태그 사이의 값을 사용 합니다.
+
 3. **ApplicationFile의**경우 **찾아보기를** 선택하여 대상 앱( .appx 또는 .appxbundle)을 선택합니다.
+
 4. **DependencyAppxFiles의**경우 **찾아보기를** 선택하여 앱에 대한 종속을 찾아 추가합니다. Surface Hub에는 이러한 종속성의 64비트 버전만 필요합니다.
 
 앱에서 앱을 구입한 비즈니스용 Microsoft Store 프로비저닝 패키지에 앱 라이선스를 추가해야 합니다.
@@ -187,8 +195,11 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 **앱 라이선스를 추가하는 경우:**
 
 1. 앱 라이선스의 복사본을 만들고 **.ms-windows-store-license** 확장명을 사용하도록 이름을 바꿉니다. 예를 들어 "example.xml"의 이름을 "example.ms-windows-store-license"로 변경합니다.
+
 2. 구성 Windows 사용 가능한 사용자 **** 지정 런타임 설정  >  ****  >  **UniversalAppInstall**  >  **DeviceContextAppLicense 로 이동합니다.**
+
 3. **LicenseProductId를 입력한** 다음 추가를 **선택합니다.** 일관성을 위해 앱 라이선스에 있는 앱의 라이선스 ID를 사용합니다. 텍스트 편집기를 사용하여 라이선스 파일을 엽니다. 그런 다음 **License** 태그에서 **LicenseID** 특성의 값을 사용 합니다.
+
 4. 새 **LicenseProductId** 노드를 선택합니다. **LicenseInstall의**경우 **** 찾아보기를 선택하여 이름 변경된 라이선스 파일(example.ms-windows-store-license)을 선택합니다.
 
 ### <a name="add-a-policy-to-your-package"></a>패키지에 정책 추가
@@ -200,8 +211,7 @@ Surface Hub에서는 [정책 구성 서비스 공급자](/windows/client-managem
 1. 사용 가능한 사용자 지정 ****  >  **런타임 설정 정책으로**  >  **이동합니다.**
 2. 정책 설정을 적절하게 관리하고 구성할 구성 요소를 선택합니다. 예를 들어 직원이 2013에서 InPrivate 웹 사이트 브라우징을 사용하지 못하도록 Surface Hub **허용을** 선택한 다음 사용 안 을 **선택합니다.**  
 
-    > [!div class="mx-imgBorder"]
-    > ![정책 설정 구성](images/sh-prov-policies.png)
+   :::image type="content" alt-text="정책 설정을 구성합니다." source="images/sh-prov-policies.png" lightbox="images/sh-prov-policies.png":::
 
 ### <a name="add-surface-hub-settings-to-your-package"></a>패키지에 Surface Hub 설정 추가
 
@@ -217,14 +227,16 @@ Surface Hub에서는 [정책 구성 서비스 공급자](/windows/client-managem
 프로비저닝 패키지를 빌드할 때 프로젝트 파일 및 프로비저닝 패키지(.ppkg) 파일에 중요한 정보를 포함할 수 있습니다. .ppkg 파일을 암호화하는 옵션이 있지만 프로젝트 파일은 암호화되지 않습니다.  프로젝트 파일을 안전한 위치에 저장하거나 더 이상 필요하지 않는 경우 삭제합니다.
 
 1. 구성 **Windows**  >  **내보내기 프로비저닝**  >  **패키지 를 열기**
+
 2. **** **소유자를 IT 관리자로 변경합니다.**  
+
 3. **패키지 버전**에 대한 값을 설정하고 **다음**을 선택합니다.
 
-> [!TIP]
-> 소유자를 IT 관리자로 설정하면 패키지 설정이 적절한 "우선 순위 속성"을 유지 관리하고 다른 프로비저닝 Surface Hub 이후에 다른 소스에서 적용되는 경우 해당 속성에 계속 적용됩니다.
+   > [!TIP]
+   > 소유자를 IT 관리자로 설정하면 패키지 설정이 적절한 "우선 순위 속성"을 유지 관리하고 다른 프로비저닝 Surface Hub 이후에 다른 소스에서 적용되는 경우 해당 속성에 계속 적용됩니다.
 
-> [!TIP]
-> 기존 패키지를 수정하고 버전 번호를 변경하여 이전에 적용된 패키지를 업데이트할 수 있습니다.
+   > [!TIP]
+   > 기존 패키지를 수정하고 버전 번호를 변경하여 이전에 적용된 패키지를 업데이트할 수 있습니다.
 
 4. 선택 사항: 패키지를 암호화하고 패키지 서명을 사용하도록 선택할 수 있습니다.
 
@@ -235,26 +247,36 @@ Surface Hub에서는 [정책 구성 서비스 공급자](/windows/client-managem
     > 프로비저닝 패키지에 신뢰할 수 있는 프로비저닝 인증서를 포함하는 것이 좋습니다. 패키지를 장치에 적용하면 인증서가 시스템 저장소에 추가되어 후속 패키지가 자동으로 적용될 수 있습니다.
 
 5. **다음을** 선택하여 출력 위치를 지정합니다. 기본적으로 Windows 구성 디자이너는 프로젝트 폴더를 출력 위치로 사용합니다. 또는 **찾아보기를** 선택하여 기본 출력 위치를 변경합니다. **다음**을 선택합니다.
+
 6. **빌드를** 선택하여 패키지 빌드를 시작합니다. 프로젝트 정보가 빌드 페이지에 표시됩니다.
+
 7. 빌드가 실패하면 프로젝트 폴더에 대한 링크가 있는 오류 메시지가 나타납니다. 로그를 검토하여 오류를 진단하고 패키지를 다시 작성해 하세요.
+
 8. 빌드가 성공하면 프로비저닝 패키지, 출력 디렉터리 및 프로젝트 디렉터리의 이름이 표시됩니다. **마쳤습니다를** 선택하여 마법사를 닫고 사용자 지정 페이지로 돌아갈 수 있습니다.
+
 9. 패키지의  **위치로**  이동하려면 출력 위치를 선택합니다. .ppkg를 빈 USB 플래시 드라이브에 복사합니다.
 
 ## <a name="apply-a-provisioning-package-to-surface-hub"></a>Surface Hub에 프로비저닝 패키지 적용
 
-Surface Hub에 프로비저닝 패키지를 배포할 수 있는 두 가지 옵션이 있습니다. 첫 [실행](#apply-a-provisioning-package-during-first-run)마법사 에서 인증서를 설치하는 프로비저닝 패키지를 적용할 수 있습니다. 또는 첫 실행 프로그램이 완료된 후 를 사용하여 설정, 앱 및 인증서를 구성하는 프로비저닝 [패키지를 적용할 설정.](#apply-a-provisioning-package-using-settings-app)
+프로비저닝 패키지를 배포하는 방법에는 다음 두 가지가 Surface Hub.
+
+- [설치를 처음 실행합니다.](#apply-a-provisioning-package-during-first-run) 프로비저닝 패키지를 적용하여 Wi-Fi, 프록시 설정, 장치 계정 세부 정보, Azure AD 조인 및 관련 설정을 비롯한 여러 옵션을 사용자 지정할 수 있습니다.  
+- [설정 앱입니다.](#apply-a-provisioning-package-using-settings-app) 설치 프로그램을 처음 실행한 후 앱 앱을 통해 프로비저닝 패키지를 설정 있습니다. 
 
 ### <a name="apply-a-provisioning-package-during-first-run"></a>첫 실행 중에 프로비저닝 패키지 적용
 
-> [!IMPORTANT]
-> 첫 실행 프로그램에서는 프로비저닝 패키지를 사용하여 인증서를 설치할 수만 있습니다. **설정** 앱을 사용하여 앱을 설치하고 다른 설정을 적용할 수 있습니다.
-
 1. 처음 Surface Hub 프로그램을 켜면 처음 실행 프로그램에 안녕 페이지가 [**표시됩니다.**](first-run-program-surface-hub.md) 계속하기 전에 설정이 제대로 구성되었는지 확인합니다.
+
 2. .ppkg 파일이 포함된 USB 플래시 드라이브를 Surface Hub에 넣습니다. 패키지가 드라이브의 루트 디렉터리에 있으면 첫 실행 프로그램이 이를 인식하고 디바이스를 설정할지 묻는 메시지를 표시합니다. **설정**을 선택합니다.
+
 3. 다음 화면에서 프로비전 소스를 선택하라는 메시지가 표시됩니다. **이동식 미디어** 탭을 선택하고 **다음**을 탭합니다.
+
 4. 적용할 프로비저닝 패키지(*.ppkg)를 선택하고 다음 을 **탭합니다.** 첫 실행  중에는 패키지 한 개만 설치할 수 있습니다.
+
 5. 첫 실행 프로그램은 프로비저닝 패키지가 적용될 변경 내용의 요약을 보여 줍니다. **예, 추가**를 선택합니다.
+
 6. 구성 파일이 USB 플래시 드라이브의 루트 디렉터리에 저장된 경우 **구성 선택** 옵션이 표시됩니다. 구성 파일의 첫 장치 계정과 Surface Hub에 적용될 해당 계정의 정보 요약이 함께 표시됩니다.
+
 7. 구성 **선택에서**적용할 장치 이름을 선택하고 다음 을 **선택합니다.**
 
 프로비저닝 패키지의 설정이 장치에 적용되고 OOBE 작업이 완료됩니다. 장치를 다시 시작하면 USB 플래시 드라이브를 제거할 수 있습니다.

@@ -12,14 +12,14 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2036379ce52f3b7824570ab10473568a57f64fb0
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576648"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676412"
 ---
-# <a name="whats-new-in-surface-dock"></a>Surface Dock의 새로운 것
+# <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2의 새로운
 
 차세대 Surface Dock인 Surface Dock 2를 사용하면 외부 모니터와 여러 주변 장치를 연결하여 Surface 디바이스에서 완전히 최신화된 데스크톱 환경을 얻을 수 있습니다. 사무실, 유연한 작업 영역 또는 가정에서 효율성을 극대화하기 위해 제작된 Surface Dock 2에는 전면 USB-C 포트 2개가 포함 된 7개의 포트와 휴대폰 및 액세서리의 빠른 충전 전원이 15와트가 제공됩니다. 
 

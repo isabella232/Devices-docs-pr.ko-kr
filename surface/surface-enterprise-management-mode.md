@@ -14,45 +14,44 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 04/16/2021
-ms.openlocfilehash: 3c7eea524daa3210a329c41536f4c47a2c012bcf
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 08221db2e4a49ccce1b372689b4dc30d8241ad0d
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576588"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676702"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Microsoft Surface Enterprise 관리 모드
 
 Microsoft Surface Enterprise 관리 모드(SEMM)는 Surface UEFI(Unified Extensible Firmware Interface)가 있는 Surface 디바이스의 기능입니다. SEMM을 사용하여 다음을 할 수 있습니다.
 
 - 조직의 펌웨어 설정을 보호하고 관리합니다.
-- UEFI 설정 구성을 준비하고 Surface 디바이스에 설치합니다. 
+- UEFI 설정 구성을 준비하고 Surface 디바이스에 설치합니다.
 
 또한 SEMM은 인증서를 사용하여 무단 변조 또는 제거로부터 구성을 보호합니다. 2S를 Surface Hub 2S를 Windows 10 Pro Windows Enterprise SEMM이 필요합니다.
 
 >[!NOTE]
->SEMM은 Surface UEFI 펌웨어가 있는 디바이스에서만 사용할 수 있습니다. 여기에는 Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 상업용 SKUS(Intel 프로세서 포함Surface Laptop 4개 상업용 SKUS, Surface Laptop Intel 프로세서가 포함된 상업용 SK 3개, Surface Laptop Go 등 대부분의 Surface 장치가 포함됩니다. SEMM은 AMD 프로세서가 있는 15인치 Surface Laptop 3 SKU에서 지원되지 않습니다(일반 정품 SKU로만 사용 가능). 
+>SEMM은 Surface UEFI 펌웨어가 있는 디바이스에서만 사용할 수 있습니다. 여기에는 Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 상업용 SKUS(Intel 프로세서 포함Surface Laptop 4개 상업용 SKUS, Surface Laptop Intel 프로세서가 포함된 상업용 SK 3개, Surface Laptop Go 등 대부분의 Surface 장치가 포함됩니다. SEMM은 AMD 프로세서가 있는 15인치 Surface Laptop 3 SKU에서 지원되지 않습니다(일반 정품 SKU로만 사용 가능).
 
 Surface 디바이스는 SEMM에서 구성하고 SEMM 인증서로 보호되는 경우 ** SEMM에 등록된 것으로 간주됩니다. SEMM 인증서가 제거되고 UEFI 설정 제어가 디바이스 사용자에게 반환되면 Surface 디바이스는 SEMM에서 등록되지 않은 것으로 간주됩니다. **
 
 SEMM을 관리하고 Surface 디바이스를 등록하는 데 사용할 수 있는 두 가지 관리 옵션이 있습니다.
 
-- SEMM 독립 실행형 도구인 Microsoft Surface UEFI 구성기는 이 문서에 설명되어 있습니다. 
+- SEMM 독립 실행형 도구인 Microsoft Surface UEFI 구성기는 이 문서에 설명되어 있습니다.
 
-- 통합 Microsoft Endpoint Configuration Manager. 자세한 내용은 [USE Microsoft Endpoint Configuration Manager to manage devices with SEMM을 참조하세요.](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm)
+- 통합 Microsoft Endpoint Configuration Manager. 자세한 내용은 [USE Microsoft Endpoint Configuration Manager to manage devices with SEMM을 참조하세요.](use-system-center-configuration-manager-to-manage-devices-with-semm.md)
 
 > [!NOTE]
 > SEMM은 UEFI Surface Pro X에서만 지원됩니다. IT용 Surface 도구에서 UEFI [관리자를 다운로드할 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=46703) 자세한 내용은 [X에서 배포, 관리 및 Surface Pro 참조하세요.](surface-pro-arm-app-management.md)
 
-
 ## <a name="microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기
 
-SEMM의 기본 작업 영역은 그림 1에 표시된 Microsoft Surface UEFI Configurator입니다. 
+SEMM의 기본 작업 영역은 그림 1에 표시된 Microsoft Surface UEFI Configurator입니다.
 
 Microsoft Surface UEFI 구성기에서 다음을 할 수 있습니다.
 
 - 설치 Windows 설치 관리자(.msi) 패키지를 만들 수 있습니다.
-- WinPE 이미지를 사용하여 Surface 디바이스에서 SEMM을 등록, 구성 및 등록을 해지합니다. 
+- WinPE 이미지를 사용하여 Surface 디바이스에서 SEMM을 등록, 구성 및 등록을 해지합니다.
 
 이러한 패키지에는 UEFI 설정을 지정하는 구성 파일이 포함되어 있습니다. SEMM 패키지에는 펌웨어에 설치 및 저장되는 인증서도 포함되어 있으며 UEFI 설정이 적용되기 전에 구성 파일의 서명을 확인하는 데 사용됩니다.
 
@@ -69,7 +68,7 @@ Microsoft Surface UEFI 구성기 도구를 세 가지 모드로 사용할 수 �
 - [Surface UEFI 재설정 패키지](#reset-package). 이 모드를 사용하여 SEMM에서 Surface 디바이스의 선택을 끄십시오.
 - [Surface UEFI 복구 요청](#recovery-request). 이 모드를 사용하여 복구 요청에 응답하여 패키지 초기화 작업이 성공하지 않은 경우 SEMM에서 Surface 디바이스를 초기화합니다.
 
-#### <a name="download-microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기 다운로드
+### <a name="download-microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기 다운로드
 
 Microsoft Surface UEFI 구성기는 Microsoft 다운로드 센터의 [Surface Tools for IT(IT용 Surface 도구)](https://www.microsoft.com/download/details.aspx?id=46703) 페이지에서 다운로드할 수 있습니다.
 
@@ -99,14 +98,16 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 [부분
 - 마이크로 SD 카드
 - 전면 카메라
 - 후면 카메라
-- 적외선 카메라(Windows Hello용)
+- 적외선 카메라(Windows Hello)
 - Bluetooth 전용
 - 무선 네트워크 및 Bluetooth
 - LTE(장기 발전)
 
  >[!NOTE]
->UEFI 장치 페이지에서 기본 제공 장치는 장치 또는 회사 환경에 따라 다를 수 있습니다. 예를 들어 UEFI 장치 페이지는 X에서 지원되지 Surface Pro 않습니다. LTE는 LTE가 탑재된 디바이스에만 표시됩니다. 
+>UEFI 장치 페이지에서 기본 제공 장치는 장치 또는 회사 환경에 따라 다를 수 있습니다. 예를 들어 UEFI 장치 페이지는 X에서 지원되지 Surface Pro 않습니다. LTE는 LTE가 탑재된 디바이스에만 표시됩니다.
+
 ### <a name="configure-advanced-settings-with-semm"></a>SEMM을 사용하여 고급 설정 구성
+
 **표 1. 고급 설정**
 
 | 설정                            | 설명                                                                                                                                                                                        |
@@ -119,14 +120,13 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 [부분
 | 자동 전원 공급                      | 자동 전원 사용 부팅 설정을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 자동 전원 사용이 사용하도록 설정됩니다.                                                                                                        |
 | SMT(동시 다중 스레딩) | SMT(동시 다중 스레딩)를 관리하여 하이퍼스레딩을 활성화 또는 비활성화할 수 있습니다. 이 설정을 구성하지 않은 경우 SMT가 사용하도록 설정됩니다.                                                  |
 |배터리 제한 사용| 배터리 제한 기능을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 배터리 제한이 사용하도록 설정됩니다. |
-| 보안                           | Surface UEFI **** 보안 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
+| Security                           | Surface UEFI **** 보안 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
 | 장치                            | Surface UEFI 장치 **페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 장치 페이지가 표시됩니다.                                                                                                                     |
 | Boot                               | Surface UEFI **** 부팅 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 부팅 페이지가 표시됩니다.                                                                                                                                                            |
 | DateTime                           | Surface UEFI **DateTime 페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 DateTime 페이지가 표시됩니다.                                                                                                                |
 | EnableOSMigration                          | 2에서 Surface Hub 2를 마이그레이션할 Windows 10 Team Windows 10 Pro Enterprise. 이 설정을 구성하지 않는 경우 Surface Hub 2 장치가 하나의 OS만 실행할 Windows 10 Team 있습니다. 참고: Windows 10 Team 및 Windows 10 Pro/Enterprise 2에서는 이중 부팅을 사용할 Surface Hub 없습니다.                                                                                                           |
 
-
->[!NOTE]
+>[!TIP]
 >SEMM 구성 패키지를 만들면 그림 3과 같이 성공 페이지에 두 문자가 표시됩니다. ****
 
 ![인증서 지문 표시](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
@@ -139,8 +139,9 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 [부분
 
 *그림 4. SEMM 인증서 지문을 통해 SEMM에 등록 확인*
 
->[!NOTE]
+>[!TIP]
 >인증서 파일(.pfx)에 액세스할 수 있는 관리자는 CertMgr에서 .pfx 파일을 열면 지문을 읽을 수 있습니다. CertMgr을 통해 지문을 볼 수 있습니다.
+>
 >1. .pfx 파일을 선택하고 보류(또는 마우스 오른쪽 단추 클릭)한 다음 **열기 를 선택합니다.**
 >2. 탐색 창에서 폴더를 확장합니다.
 >3. 인증서를 **선택합니다.**
@@ -149,9 +150,9 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 [부분
 >6. 표시 **드롭다운** 메뉴에서 **모두** 또는 속성만 **선택해야** 합니다.
 >7. 지문 **필드를** 선택합니다.
 
-SEMM에 Surface 디바이스를 등록하거나 구성 패키지에서 UEFI 구성을 적용하려면 의도한 Surface .msi 권한으로 .msi 파일을 실행합니다. 응용 프로그램 배포 또는 운영 체제 [](https://technet.microsoft.com/library/mt346023) 배포 기술(Microsoft Endpoint Configuration Manager [또는 Microsoft Deployment Toolkit.](https://technet.microsoft.com/windows/dn475741) SEMM에 장치를 등록할 때 장치에 등록을 확인하려면 물리적으로 있어야 합니다. SEMM에 이미 등록된 장치에 구성을 적용하는 경우 사용자 조작이 필요하지 않습니다.
+SEMM에 Surface 디바이스를 등록하거나 구성 패키지에서 UEFI 구성을 적용하려면 의도한 Surface .msi 권한으로 .msi 파일을 실행합니다. 응용 프로그램 배포 또는 운영 체제 [](/mem/configmgr) 배포 기술(Microsoft Endpoint Configuration Manager [또는 Microsoft Deployment Toolkit.](/mem/configmgr/mdt) SEMM에 장치를 등록할 때 장치에 등록을 확인하려면 물리적으로 있어야 합니다. SEMM에 이미 등록된 장치에 구성을 적용하는 경우 사용자 조작이 필요하지 않습니다.
 
-SEMM에 Surface 디바이스를 등록하거나 SEMM을 사용하여 Surface UEFI 구성을 적용하는 방법에 대한 단계별 단계를 확인하려면 SeMM을 사용하여 Surface 디바이스 등록 및 구성을 [참조하세요.](https://technet.microsoft.com/itpro/surface/enroll-and-configure-surface-devices-with-semm)
+SEMM에 Surface 디바이스를 등록하거나 SEMM을 사용하여 Surface UEFI 구성을 적용하는 방법에 대한 단계별 단계를 확인하려면 SeMM을 사용하여 Surface 디바이스 등록 및 구성을 [참조하세요.](enroll-and-configure-surface-devices-with-semm.md)
 
 ### <a name="reset-package"></a>패키지 초기화
 
@@ -166,7 +167,7 @@ Surface UEFI 재설정 패키지는 SEMM에서 Surface 디바이스를 초기화
 
 *그림 5. Enterprise 페이지에서 SEMM 복구 요청 시작*
 
-surface 디바이스에서 Enterprise **** 관리 페이지에서 프로세스를 사용하여 SEMM을 다시 설정하면 초기화 요청이 제공됩니다. 이 재설정 요청은 USB 드라이브에 파일로 저장하거나 텍스트로 복사하거나 모바일 장치를 사용하여 QR 코드로 읽을 수 있습니다. Microsoft Surface UEFI 구성기 다시 설정 요청 옵션을 사용하여 다시 설정 요청 파일을 로드하거나 요청 텍스트 또는 QR 코드 재설정을 입력합니다. Microsoft Surface UEFI 구성기는 Surface 디바이스에 입력할 수 있는 확인 코드를 생성합니다. Surface 디바이스에 코드를 입력하고 다시 **** 시작을 선택하면 장치가 SEMM에서 인가되지 않습니다. 
+surface 디바이스에서 Enterprise **** 관리 페이지에서 프로세스를 사용하여 SEMM을 다시 설정하면 초기화 요청이 제공됩니다. 이 재설정 요청은 USB 드라이브에 파일로 저장하거나 텍스트로 복사하거나 모바일 장치를 사용하여 QR 코드로 읽을 수 있습니다. Microsoft Surface UEFI 구성기 다시 설정 요청 옵션을 사용하여 다시 설정 요청 파일을 로드하거나 요청 텍스트 또는 QR 코드 재설정을 입력합니다. Microsoft Surface UEFI 구성기는 Surface 디바이스에 입력할 수 있는 확인 코드를 생성합니다. Surface 디바이스에 코드를 입력하고 다시 **** 시작을 선택하면 장치가 SEMM에서 인가되지 않습니다.
 
 >[!NOTE]
 >재설정 요청은 생성된 후 2시간 후에 만료됩니다.
@@ -174,16 +175,19 @@ surface 디바이스에서 Enterprise **** 관리 페이지에서 프로세스�
 SEMM에서 Surface 디바이스를 인가하는 방법에 대한 단계별 실무는 SEMM에서 Surface 장치 인인을 [언인라운드를 참조합니다.](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm)
 
 ## <a name="surface-enterprise-management-mode-certificate-requirements"></a>Surface Enterprise 관리 모드 인증서 요구 사항
+
 Microsoft Surface UEFI 구성기에서 SEMM을 사용하며 UEFI 설정을 적용하려면 구성 파일의 서명을 확인하는 데 인증서가 필요합니다. 이 인증서는 장치가 SEMM에 등록한 후 승인된 인증서로 만든 패키지만 UEFI 설정을 수정하는 데 사용할 수 있도록 합니다.
 
 >[!NOTE]
 >등록된 Surface 디바이스에서 SEMM 또는 Surface UEFI 설정을 수정하려면 SEMM 인증서가 필요합니다. SEMM 인증서가 손상되거나 손실된 경우 SEMM을 제거하거나 다시 설정할 수 없습니다. 백업 및 복구를 위한 적절한 솔루션을 사용하여 SEMM 인증서를 적절하게 관리
 
-Microsoft Surface UEFI 구성기 도구를 사용하여 만든 패키지는 인증서로 서명됩니다. 이 인증서는 장치가 SEMM에 등록된 후 승인된 인증서로 만든 패키지만 UEFI 설정을 수정하는 데 사용할 수 있도록 합니다. 
+Microsoft Surface UEFI 구성기 도구를 사용하여 만든 패키지는 인증서로 서명됩니다. 이 인증서는 장치가 SEMM에 등록된 후 승인된 인증서로 만든 패키지만 UEFI 설정을 수정하는 데 사용할 수 있도록 합니다.
+
 ### <a name="recommended-certificate-settings"></a>권장 인증서 설정
+
 SEMM 인증서에 권장되는 설정은 다음과 같습니다.
 
-- **키 알고리즘** - RSA 
+- **키 알고리즘** - RSA
 - **키 길이** – 2048
 - **해시 알고리즘** - SHA-256
 - **유형** - SSL 서버 인증
@@ -192,11 +196,12 @@ SEMM 인증서에 권장되는 설정은 다음과 같습니다.
 - **만료 날짜** - 인증서 생성 후 15개월
 - **키 내보내기 정책** - 내보낼 수 있습니다.
 
-또한 중간 CA(인증 기관)가 SEMM 전용인 2계층 PKI(공개 키 인프라) 아키텍처에서 SEMM 인증서를 인증하여 인증서 해지가 가능한 것이 좋습니다. 2계층 PKI 구성에 대한 자세한 내용은 [Test Lab Guide: Deploying an AD CS Two-Tier PKI Hierarchy를 참조하십시오.](https://technet.microsoft.com/library/hh831348)
+또한 중간 CA(인증 기관)가 SEMM 전용인 2계층 PKI(공개 키 인프라) 아키텍처에서 SEMM 인증서를 인증하여 인증서 해지가 가능한 것이 좋습니다. 2계층 PKI 구성에 대한 자세한 내용은 [Test Lab Guide: Deploying an AD CS Two-Tier PKI Hierarchy를 참조하십시오.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831348(v=ws.11))
 
-### <a name="self-signed-certificate"></a>자체 서명된 인증서 
+### <a name="self-signed-certificate"></a>자체 서명된 인증서
+
 다음 예제 PowerShell 스크립트를 사용하여 개념 증명 시나리오에서 사용할 자체 서명된 인증서를 만들 수 있습니다.
-이 스크립트를 사용 하 고 다음 텍스트를 복사 하는 메모장 파일을 PowerShell 스크립트 (.ps1). 
+이 스크립트를 사용 하 고 다음 텍스트를 복사 하는 메모장 파일을 PowerShell 스크립트 (.ps1).
 
 > [!NOTE]
 > 이 스크립트는 의 암호를 사용하여 인증서를 `12345678` 만듭니다. 이 스크립트로 생성된 인증서는 프로덕션 환경에는 권장되지 않습니다.
@@ -228,13 +233,14 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 >SEMM 및 Microsoft Surface UEFI 구성기에서 사용하려면 개인 키와 암호 보호를 사용하여 인증서를 내보내야 합니다. Microsoft Surface UEFI 구성기에서 SEMM 인증서 파일(.pfx) 및 인증서 암호를 선택하라는 메시지가 표시됩니다.
 
 자체 서명된 인증서를 만들 수 있는 경우:
-1.  C: 드라이브에서 스크립트를 저장할 폴더를 생성합니다. 예: C:\SEMM.
-2.  예제 스크립트를 메모장(또는 해당하는 텍스트 편집기)에 복사한 다음 파일을 PowerShell 스크립트(.ps1) 저장합니다.
-3.  관리자 자격 증명을 사용하여 컴퓨터에 로그인한 다음 관리자 권한 PowerShell 세션을 열 수 있습니다.
-4.  스크립트 실행을 허용하도록 사용 권한이 설정되어 있는지 확인 기본적으로 실행 정책을 수정하지 않으면 스크립트가 실행되지 않습니다. 자세한 내용은 실행 정책 [정보를 참조합니다.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies)
-5.  명령 프롬프트에서 스크립트의 전체 경로를 입력한 다음 Enter 를 **입력합니다.** 이 스크립트는 TempOwner.pfx라는 데모 인증서를 만듭니다.
 
-또는 PowerShell을 사용하여 자체 서명된 인증서를 만들 수 있습니다. 자세한 내용은 [New-SelfSignedCertificate를 참조하세요.](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
+1. C: 드라이브에서 스크립트를 저장할 폴더를 생성합니다. 예: C:\SEMM.
+2. 예제 스크립트를 메모장(또는 해당하는 텍스트 편집기)에 복사한 다음 파일을 PowerShell 스크립트(.ps1) 저장합니다.
+3. 관리자 자격 증명을 사용하여 컴퓨터에 로그인한 다음 관리자 권한 PowerShell 세션을 열 수 있습니다.
+4. 스크립트 실행을 허용하도록 사용 권한이 설정되어 있는지 확인 기본적으로 실행 정책을 수정하지 않으면 스크립트가 실행되지 않습니다. 자세한 내용은 실행 정책 [정보를 참조합니다.](/powershell/module/microsoft.powershell.core/about/about_execution_policies)
+5. 명령 프롬프트에서 스크립트의 전체 경로를 입력한 다음 Enter 를 **입력합니다.** 이 스크립트는 TempOwner.pfx라는 데모 인증서를 만듭니다.
+
+또는 PowerShell을 사용하여 자체 서명된 인증서를 만들 수 있습니다. 자세한 내용은 [New-SelfSignedCertificate를 참조하세요.](/powershell/module/pkiclient/new-selfsignedcertificate)
 
 >[!NOTE]
 >PKI 인프라에서 오프라인 루트를 사용하는 조직의 경우 MICROSOFT Surface UEFI 구성기는 SEMM 인증서를 인증하기 위해 루트 CA에 연결된 환경에서 실행해야 합니다. Microsoft Surface UEFI Configurator에서 생성한 패키지는 파일로 전송할 수 있으므로 USB 스틱과 같은 이동식 저장소를 사용하여 오프라인 네트워크 환경 외부로 전송할 수 있습니다.
@@ -243,20 +249,19 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 
 권장되는 *최소* 길이는 15개월입니다. 15개월 미만으로 만료되는 인증서를 사용할 수도 있습니다. 또는 15개월보다 오래 만료되는 인증서를 사용할 수 있습니다.
 
->[!NOTE] 
->인증서가 만료되면 자동으로 갱신되지 않습니다. 
+>[!NOTE]
+>인증서가 만료되면 자동으로 갱신되지 않습니다.
 
 **만료된 인증서가 SEMM 등록 장치의 기능에 영향을 미치나요?**<br><br>
 아니요. 인증서는 SEMM의 IT 관리자 관리 작업에만 영향을 미치며 만료 시 장치 기능에는 영향을 주지 않습니다.
 
 **SEMM 패키지 및 인증서가 있는 모든 컴퓨터의 SEMM 패키지 및 인증서를 업데이트해야 합니까?**<br><br>
-SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유효해야 하고 만료되지 않은 것입니다. 
+SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유효해야 하고 만료되지 않은 것입니다.
 
 **주문하는 각 표면에 대해 패키지를 대량 재설정할 수 있나요? 환경의 모든 컴퓨터를 다시 설정하는 기능을 구축할 수 있나요?**<br><br>
 특정 장치 유형에 대한 구성 패키지를 만드는 PowerShell 샘플을 사용하여 일련 번호가 독립적인 초기화 패키지를 만들 수도 있습니다. 인증서가 여전히 유효한 경우 PowerShell을 사용하여 SEMM을 다시 설정하는 재설정 패키지를 만들 수 있습니다.
 
 ## <a name="version-history"></a>버전 기록
-
 
 ### <a name="version-2831390"></a>버전 2.83.139.0
 
@@ -265,7 +270,7 @@ SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유�
 - 4 Surface Laptop 지원
 - 7에 대한 동시 다중 스레드 옵션 Surface Pro 지원
 - 더 이상 사용되지 않습니다. SEMM 설정 제거  
-- 향상된 MSI 서명 
+- 향상된 MSI 서명
 
 ### <a name="version-2791390"></a>버전 2.79.139.0
 
@@ -312,7 +317,7 @@ SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유�
 
 이 SEMM 버전에는 다음이 포함됩니다.
 
-- Intel 프로세서가 Surface Pro 7, Surface Pro X 및 Surface Laptop 3 13.5인치 및 15인치 모델이 지원됩니다. 
+- Intel 프로세서가 Surface Pro 7, Surface Pro X 및 Surface Laptop 3 13.5인치 및 15인치 모델이 지원됩니다.
     >[!NOTE]
     >Surface Laptop 3 15인치 AMD 프로세서는 지원되지 않습니다.
 - 절전 모드 해제 기능 지원.

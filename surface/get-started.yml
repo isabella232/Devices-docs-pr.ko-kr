@@ -11,17 +11,19 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 021d30e782bc50e0c89fad6478c8e784234c768d
-  ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+  ms.openlocfilehash: 9367329bcaa7c42a31cc8de5ffcee2e65f4c8437
+  ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/22/2021
-  ms.locfileid: "11613927"
+  ms.lasthandoff: 07/24/2021
+  ms.locfileid: "11676512"
 landingContent:
 - title: Surface 장치
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface를 사용하여 원격 작업 솔루션
+      url: https://www.microsoft.com/surface/business/remote-work-solutions
     - text: Surface Laptop 4 + for Business
       url: https://www.microsoft.com/surface/business/surface-laptop-4
     - text: 비즈니스용 Surface Pro 7+
@@ -102,6 +104,14 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: 배터리 제한 설정
       url: battery-limit.md
+- title: Surface ROI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Microsoft Surface를 사용하여 ROI 최대화
+      url: forrester-tei-study.md
+    - text: 교육용 Microsoft Surface의 총체적인 경제성 영향
+      url: forrester-tei-edu-study.md
 - title: Surface 커뮤니티에 참여
   linkLists:
   - linkListType: learn
