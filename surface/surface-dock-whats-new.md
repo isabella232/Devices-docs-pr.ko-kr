@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: a43566461ab6bbac8045326801617bd6f723316e
+ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676412"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "11708769"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2의 새로운
 
@@ -29,6 +29,7 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
 
 - SURFACE Enterprise 관리 모드(SEMM)를 사용하면 IT 관리자가 Surface Dock 2의 포트를 보호할 수 있습니다. 자세한 내용은 Surface Enterprise [모드로 Surface Dock 2 포트 보호를 참조하세요.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 -  Windows WMI(Management Instrumentation) 지원을 통해 IT 관리자는 Surface Dock 2 장치에서 최신 펌웨어, 정책 상태 및 관련 데이터를 원격으로 모니터링하고 관리할 수 있습니다. 자세한 내용은 [WMI를 사용하여 Surface Dock 2 관리를 참조하세요.](surface-dock2-wmi.md)
+- 소프트웨어 배포 도구를 사용하여 로컬 네트워크에서 업데이트를 중앙 집중화합니다. [Surface Dock 2 펌웨어 및 드라이버를 다운로드합니다.](https://www.microsoft.com/en-us/download/details.aspx?id=101317)
 
 ## <a name="general-system-requirements"></a>일반 시스템 요구 사항
 
@@ -96,7 +97,7 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
 
 | 구성 요소                           | Surface 도크                                                | Surface Dock 2                                                                                      | USB-C 여행 허브 |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
-| Surflink                            | 예                                                         | 예                                                                                                 | 아니요               |
+| Surflink                            | 예                                                         | 예                                                                                                 | 아니오               |
 | USB-A                               | 전면 USB 3.1세대 1개 2개<br>후면 USB 3.1세대 1개 | 후면 USB 3.2세대 2개(7.5W 전원)                                                            | USB 3.1 2세대 1개  |
 | 미니 디스플레이 포트                   | 후면 2개(DP1.2)                                       | 없음                                                                                                | 없음             |
 | USB-C                               | 없음                                                        | 전면 USB 3.2세대 2개<br>(15W 전원)<br>후면 USB 3.2세대 2개(DP1.4a)<br>(7.5W 전원) | USB 3.2세대 2개  |
@@ -110,10 +111,10 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
 | USB 비트 전송률                        | 5Gbps                                                      | 10Gbps                                                                                             | 10Gbps          |
 | 지원 모니터링                     | 2 x 4k @30fps 또는<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> 또는 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
 | 연결된 대기 모드 1에서 절전 모드 해제 <sup></sup> | 예                                                         | 예                                                                                                 |                  |
-| S4/S5 절전 모드에서의 절전 모드 해제  | 아니요                                                          | 예                                                                                                 |          예        |
+| S4/S5 절전 모드에서의 절전 모드 해제  | 아니오                                                          | 예                                                                                                 |          예        |
 | 네트워크 PXE 부팅                    | 예                                                         | 예                                                                                                 |        예          |
-| SEMM 호스트 액세스 제어            | 아니요                                                          | 예                                                                                                 | 아니요               |
-| SEMM 포트 액세스 제어 <sup> 2</sup>          | 아니요                                                          | 예                                                                                                 | 아니요               |
+| SEMM 호스트 액세스 제어            | 아니오                                                          | 예                                                                                                 | 아니오               |
+| SEMM 포트 액세스 제어 <sup> 2</sup>          | 아니오                                                          | 예                                                                                                 | 아니오               |
 | 서비스 지원                   | MSI                                                         | Windows 업데이트 또는 MSI                                                                               |                  |
 
  
