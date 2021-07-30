@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: b03b1a60ebc75e6af37c979082bf7c4a2eca4937
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.openlocfilehash: a611653c557f7df4d8029502f82a09f0000e5756
+ms.sourcegitcommit: 0d1a23988be4da24a8d42b391e1c60e624465fa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643844"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "11710387"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
@@ -29,6 +29,18 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 주의가 필요할[수 있는](https://support.microsoft.com/products/surface-devices/surface-hub)현재 및 Surface Hub 관련 항목은 " Surface Hub 중요한 정보" 페이지를 참조하세요.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2021년 7월 29일 - KB5004296*(OS 빌드 19042.1151) 기반 팀 업데이트</summary>
+
+이 업데이트는 Surface Hub 개선 및 보안 수정을 포함합니다. 업데이트 기록에 Surface Hub 간략하게 설명되지 않은 Windows 10 [업데이트에 대한](https://support.microsoft.com/help/4581839/windows-10-update-history)주요 업데이트는 다음과 같습니다.
+
+* "로그 수집" 기능으로 업데이트하여 csv 형식으로 Windows 진단 데이터를 포함합니다.
+* 세션 종료 정리가 Edge 업데이트와 관련된 모든 데이터를 완전히 Chromium.
+* 앱 앱을 사용할 때 Azure AD에 가입된 Surface Hub를 사용하여 일부 시나리오를 Authenticator 개선합니다.
+
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB5004296](https://support.microsoft.com/help/5004296)
+</details>
 
 <details>
 <summary>2021년 6월 10일 — Surface Hub 업데이트</summary>
@@ -104,7 +116,6 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 이 업데이트는 Surface Hub 개선 및 보안 수정을 포함합니다. 업데이트 기록에 Surface Hub 간략하게 설명되지 않은 Windows 10 [업데이트에 대한](https://support.microsoft.com/help/4581839/windows-10-update-history)주요 업데이트는 다음과 같습니다.
 
 * 추가 옵션을 설정 개인 정보 보호 정책 페이지로 업데이트합니다.
-* 세션 종료 정리가 Edge 업데이트와 관련된 모든 데이터를 완전히 Chromium.
 * 이미 시작된 모임이 시작/시작 화면에 표시되지 않는 문제를 해결합니다.
 * en-US 이 아닌 로직에 대한 클라우드 복구 문제를 해결합니다.
 * 비즈니스용 Skype
@@ -304,7 +315,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
   * 장치가 비즈니스용 Skype 연결될 때 네트워크 연결 문제를 해결합니다.
   * 디렉터리에서 사용자를 비즈니스용 Skype 충돌을 해결합니다.
 * 허브가 엔터프라이즈 프록시 환경에서 실수로 "인터넷 연결 없음"을 보고하는 문제를 해결합니다.
-* 고객이 새 화이트보드 환경으로 작업할 수 있는 기능을 구현했습니다.
+* 고객이 새 화이트보드 환경을 옵트인(opt in)할 수 있는 기능을 구현했습니다.
 
 장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
 *[KB4462939](https://support.microsoft.com/help/4462939)
@@ -398,7 +409,7 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 * 사용자가 파일을 열 때 원하는 응용 프로그램을 동적으로 선택할 수 있도록 하는 기능 업데이트입니다.
 * 세션 종료 정리가 사용자 계정과 장치 간의 모든 연결을 완전히 제거하도록 하는 수정입니다.
 * 정리 시간 및 연결 시간을 Miracast 수정합니다.
-* 애드 호크 모임 중에 간편한 인증 사용률을 소개합니다.
+* Ad-Hoc 모임 중에 간편한 인증 사용률을 소개합니다.
 * 서비스 구성 요소가 장치 전체에 구성된 프록시를 사용하도록 하는 수정입니다.
 * 디바이스에서 전송하는 원격 분석의 보안을 줄이고 더욱 철저하게 보호하여 대역폭 사용률을 줄입니다.
 * 모임이 끝날 때 사용자가 Microsoft에 피드백을 제공할 수 있는 기능을 사용할 수 있습니다.
