@@ -25,7 +25,7 @@ ms.locfileid: "11099887"
 
 Microsoft commissioned Forrester 컨설팅은 총 경제 영향 &trade; (TEI) 연구를 수행 하 고 K-12 학교 배포 표면에 대 한 roi (투자 수익률)를 조사 합니다. 이 연구의 목적은 조직에서 화면에 발생할 수 있는 재정적인 영향을 평가 하는 프레임 워크를 제공 하는 것입니다. 권한을 선택 하는 장치를 사용 하 여 학생의 결과물을 개선 하 고, IT 부서가 overworked, 강사의 시간을 확보 하 고, 장치에 대 한 TCO (총 소유 비용)를 줄여줍니다.
 
-[![TMicrosoft Surface 교육부의 총 경제 영향(./images/download-report.png)](./media/forrester-tei-microsoft-surface-for-education.pdf)
+[![TMicrosoft Surface 교육부의 총 경제 영향](./images/download-report.png)](./media/forrester-tei-microsoft-surface-for-education.pdf)
 
 
 
