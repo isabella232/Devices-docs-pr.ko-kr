@@ -79,11 +79,9 @@
                   href: unenroll-surface-devices-from-semm.md
                 - name: Microsoft Endpoint Configuration Manager를 사용하여 SEMM에서 디바이스 관리
                   href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
-            - name: 비즈니스용 Surface 진단 도구 키트를 사용한 일반적인 Surface 문제 해결
-              href: surface-diagnostic-toolkit-for-business-intro.md
+            - name: 비즈니스용 Surface 진단 도구 키트
+              href: surface-diagnostic-toolkit-business.md
               items:
-                - name: 비즈니스용 Surface 진단 도구 키트 배포
-                  href: surface-diagnostic-toolkit-business.md
                 - name: 비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
                   href: surface-diagnostic-toolkit-desktop-mode.md
                 - name: 명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행
