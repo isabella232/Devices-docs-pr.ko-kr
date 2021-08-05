@@ -12,12 +12,12 @@ ms.date: 1/15/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 83b3db2e9fa3da253c16d208b752bd7b6e6be771
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f0fed17dade345bf3f7dc9619eab7981dcb30cb0
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676422"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721278"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>Surface Pro X 배포, 관리 및 서비스
 
@@ -36,7 +36,7 @@ Surface Pro X는 Microsoft 365, Intune 및 Windows Autopilot과 함께 사용될
 - [Windows Autopilot 및 Surface 디바이스](windows-autopilot-and-surface-devices.md)
 - [Windows Autopilot 개요](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot 배포에는 몇 가지 장점이 있습니다. Office Pro Plus의 사전 설치를 포함하도록 제로 터치 배포를 위해 간소화된 공장 프로비저닝 운영 체제를 사용할 수 있습니다.
+Autopilot 배포에는 다음과 같은 몇 가지 장점이 있습니다. 공장에서 프로비전된 운영 체제를 사용하여 제로 터치 배포를 간소화하고 엔터프라이즈용 Microsoft 365 앱(Office Pro Plus라고도 함)의 사전 설치를 포함할 수 있습니다.
 
 최신 관리, 보안 및 생산성 솔루션을 이미 사용하는 조직은 Surface Pro X의 고유한 성능 기능의 이점을 잘 활용할 수 있는 위치에 있습니다. 현대화된 비즈니스 앱, Microsoft Store(UWP) 앱 또는 원격 데스크톱 솔루션을 사용하는 고객 또한 혜택을 얻을 수 있습니다.
 

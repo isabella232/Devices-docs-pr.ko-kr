@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: e72abd2fbd3289989d64f23bbc06fa72d3c5b1d2
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f704541a2d862550250794308df6201c38b09e15
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676651"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721268"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>Surface 배포용 OOBE 사용자 지정
 
@@ -44,7 +44,7 @@ ms.locfileid: "11676651"
 
 OOBE 중 무선 네트워크 어댑터가 표시되면 **무선 네트워크 연결** 페이지가 나타나 사용자에게 무선 네트워크에 연결하라는 메시지가 표시됩니다. 이 페이지는 MDT 2013과 같은 배포 기술에서 자동으로 숨겨지지 않습니다. 따라서 완벽하게 자동화되도록 배포를 구성한 경우에도 표시됩니다.
 
-이 페이지에서 자동화된 배포가 중지되지 않도록 응답 파일 **HideWirelessSetupInOOBE**에서 추가 설정을 구성하여 페이지를 숨겨야 합니다. **HideWirelessSetupInOOBE** 설정에 대한 추가 정보는 [Windows 무인 설치 참조](/previous-versions/windows/it-pro/windows-8.1-and-8/ff716213(v=win.10))에서 참조할 수 있습니다.
+이 페이지에서 자동화된 배포가 중지되지 않도록 응답 파일 **HideWirelessSetupInOOBE**에서 추가 설정을 구성하여 페이지를 숨겨야 합니다. **HideWirelessSetupInOOBE** 설정에 대한 추가 정보는 [Windows 무인 설치 참조](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oobe-hidewirelesssetupinoobe)에서 참조할 수 있습니다.
 
 ## <a name="scenario-2-surface-pen-pairing-in-oobe"></a>시나리오 2: OOBE에서 Surface 펜 페어링
 

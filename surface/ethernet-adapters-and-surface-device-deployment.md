@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: eacb7bd6b1f2f62b97b02cc871f8980e65ba7c8a
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 0eb0eb1e1d73852a2131c5aa5d6a7731ce78d54f
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676552"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721258"
 ---
 # <a name="ethernet-adapters-and-surface-deployment"></a>이더넷 어댑터 및 Surface 배포
 
@@ -40,6 +40,7 @@ Surface 디바이스를 사용하는 네트워크 부팅에 지원되는 이더�
 - Surface USB-C에서 이더넷 및 USB 3.0 어댑터로
 - Surface USB 3.0에서 기가비트 이더넷 어댑터까지
 - Surface 도크
+- Surface Dock 2
 - Surface 3 도킹 스테이션
 - Surface Pro 3 도킹 스테이션
 - Surface Pro와 Surface Pro 2용 도킹 스테이션

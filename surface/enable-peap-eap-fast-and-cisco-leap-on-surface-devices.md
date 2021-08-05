@@ -13,18 +13,18 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 3cb8af88e0aab78d5c1aa7f30c983d1da81216c0
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: e887a449fb00b76c14de5b8ede51a1ba91a6b4c4
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708749"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721248"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>Surface 디바이스에서 PEAP, EAP-FAST 및 Cisco LEAP 사용
 
 Surface 디바이스에서 PEAP, EAP-FAST 또는 Cisco LEAP 프로토콜을 지원하도록 설정하는 방법에 대해 알아보세요.
 
-엔터프라이즈 네트워크에서 PEAP, EAP-FAST 또는 Cisco LEAP를 사용하는 경우 이러한 세 가지 무선 인증 프로토콜이 기본 제공되는 Surface 디바이스에서 지원되지 않음을 이미 알고 있을 수도 있습니다. 무선 네트워크에 연결하려고 할 때 또는 파일 공유와 내부 사이트와 같이 네트워크 내부 리소스에 대한 액세스 권한을 얻지 못할 때 알 수도 있습니다. 자세한 내용은 [Extensible Authentication Protocol](/previous-versions/windows/it-pro/windows-xp/bb457039(v=technet.10)?)(확장할 수 있는 인증 프로토콜)을 참조하세요.
+엔터프라이즈 네트워크에서 PEAP, EAP-FAST 또는 Cisco LEAP를 사용하는 경우 이러한 세 가지 무선 인증 프로토콜이 기본 제공되는 Surface 디바이스에서 지원되지 않음을 이미 알고 있을 수도 있습니다. 무선 네트워크에 연결하려고 할 때 또는 파일 공유와 내부 사이트와 같이 네트워크 내부 리소스에 대한 액세스 권한을 얻지 못할 때 알 수도 있습니다. 자세한 내용은 [Extensible Authentication Protocol](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)(확장할 수 있는 인증 프로토콜)을 참조하세요.
 
 USB 스틱 또는 파일 공유에서 작은 MSI 패키지를 실행하여 각 프로토콜에 대한 지원을 추가할 수 있습니다. Surface 디바이스에서 EAP 지원을 사용하도록 설정하려는 조직의 경우 MSI 패키지 형식은 MDT(Microsoft Deployment Toolkit) 및 배포와 같은 다양한 관리 및 배포 도구를 Microsoft Endpoint Configuration Manager.
 
