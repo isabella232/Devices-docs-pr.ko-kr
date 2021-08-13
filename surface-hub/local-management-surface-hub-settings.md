@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 2403c57f88b0e14209b77b9f666141694384868d
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
+ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577038"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "11883005"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Surface Hub 설정에 대한 로컬 관리
 
@@ -44,7 +44,7 @@ Surface Hub에는 다른 Windows 장치와 공통된 설정이 많지만 Surface
 | 무선으로 다른 화면에 표시할 때 PIN 필요 | Surface Hub > 프로젝션 | 사용자가 무선으로 다른 화면에 표시하기 전에 PIN을 입력해야 하는지 여부를 선택합니다. |
 | 무선으로 다른 화면에 표시(Miracast) 채널 | Surface Hub > 프로젝션 | Miracast 프로젝션 채널을 설정합니다. |
 | 시작 화면에 표시되는 모임 정보 | Surface Hub > 시작 화면 | 시작 화면에 모임 이끌이, 시간 및 제목을 표시할지 여부를 선택합니다. |
-| 시작 화면 배경 |  Surface Hub > 시작 화면 | 시작 화면의 배경 이미지를 선택합니다. |
+| 시작 화면 배경 |  Surface Hub > 시작 화면 | 사용자 세션 및 시작 화면에서 배경으로 사용할 이미지를 선택 합니다. |
 | 시작 화면에 대한 세션 시간 제한 | Surface Hub > 세션 & 전원 | 동작이 감지되지 않으면 Surface Hub가 시작 화면으로 돌아갈 때까지의 시간을 선택합니다. |
 | 세션 다시 시작 | Surface Hub > 세션 & 전원 | 동작이 감지되지 않으면 사용자가 세션을 다시 시작하도록 허용하거나 세션을 자동으로 정리하도록 선택합니다. |
 | Office 365 모임 및 파일에 대한 액세스 | Surface Hub > 세션 & 전원 | 사용자가 Office 365에 로그인하여 모임 및 파일에 액세스할 수 있는지 여부를 선택합니다. |
