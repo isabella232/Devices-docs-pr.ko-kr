@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9367329bcaa7c42a31cc8de5ffcee2e65f4c8437
-  ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+  ms.openlocfilehash: 88674469b94de346a6a3a2b427f4cff034a3d405
+  ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/24/2021
-  ms.locfileid: "11676512"
+  ms.lasthandoff: 08/17/2021
+  ms.locfileid: "11902677"
 landingContent:
 - title: Surface 장치
   linkLists:
@@ -42,7 +42,7 @@ landingContent:
       url: surface-laptop-processors.md
     - text: Surface Headphones 2+ 기술 개요
       url: surface-headphones.md
-    - text: 가상 데스크톱 Windows Virtual Desktop
+    - text: Surface의 Azure Virtual Desktop
       url: windows-virtual-desktop-surface.md
 - title: Microsoft Ignite
   linkLists:
@@ -72,7 +72,7 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface 디바이스에서 DFCI 관리
+    - text: Surface 장치에서 DFCI 관리
       url: surface-manage-dfci-guide.md
 - title: 문제 해결
   linkLists:
