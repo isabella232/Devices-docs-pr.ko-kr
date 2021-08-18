@@ -10,7 +10,7 @@
           items:
             - name: Surface 보안 개요
               href: surface-security.md
-            - name: 가상 데스크톱 Windows Virtual Desktop
+            - name: Surface의 Azure Virtual Desktop
               href: windows-virtual-desktop-surface.md
             - name: Surface Laptop 4 프로세서 기술 개요
               href: surface-laptop-processors.md
