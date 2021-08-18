@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: b812e3ef406f90ed68a68259ee874102396d0792
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: a073f458761613ab963ca0f1f62cc4c6e3b1a85d
+ms.sourcegitcommit: 3810c4310e9f5b5b9ad7b4584eaede2789ccd946
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613887"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902867"
 ---
 # <a name="setup-worksheet-surface-hub"></a>설치 워크시트(Surface Hub)
 
@@ -42,8 +42,8 @@ ms.locfileid: "11613887"
 | Exchange EWS(웹 서비스)                                       | EWS를 사용하도록 설정 Surface Hub EWS를 사용하여 일정을 동기화합니다.                                                                                                                                                                                                                                                                                                                          |                                                                                                                                       | [Surface Hub의 최신 인증](surface-hub-modern-auth.md)                                                                                                                                                            |
 | 다단계 인증                                        | 디바이스 계정에서 다단계 인증을 사용하지 않도록 설정 사용자가 Surface Hub 없이 Exchange 로그인할 때 다단계 인증과 같은 대화형 프롬프트에 응답할 수 없습니다.                                                                                                                                                                         |                                                                                                                                       |                                                                                                                                                                                                                                                                         |
 | MDM 등록 세부 정보                                            | 장치를 수동으로 MDM에 등록하려면 MDM 공급자 및 등록 URL에 유효한 사용자 자격 증명이 있어야 합니다. 장치가 등록 URL을 자동으로 찾으려고 시도합니다. | manage.microsoft.com | [MDM 공급자를 사용하여 Surface Hub 관리](manage-settings-with-mdm-for-surface-hub.md) |
-| 이름                                                     | 디바이스 이름은 사용자가 Surface Hub에 무선으로 연결하려고 할 때 표시되는 브로드캐스트 이름입니다. 이 이름은 Surface Hub 화면에 명확하게 표시됩니다. 사용자가 연결하려고 할 때 Surface Hub 간에 구분할 수 있도록 인식 가능한 고유한 이름을 선택하는 것이 좋습니다.             | 회의실 15                                                                                                                    | [최초 설치 Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
-| 디바이스 이름                                                       | 디바이스 이름은 도메인 가입에 사용되는 이름이며, 디바이스가 MDM에 등록된 경우 MDM 공급자에 표시되는 ID입니다. 선택한 장치 이름은 Active Directory 도메인의 다른 장치와 이름이 같아야 합니다(디바이스를 도메인에 가입하기로 결정한 경우). 장치가 고유한 이름 없이 도메인에 가입할 수 없습니다.  | confroom15                                                                                                                            | [최초 설치 Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| 이름                                                     | 디바이스 이름은 사용자가 Surface Hub에 무선으로 연결하려고 할 때 표시되는 브로드캐스트 이름입니다. 이 이름은 Surface Hub 화면에 명확하게 표시됩니다. 사용자가 연결하려고 할 때 Surface Hub 간에 구분할 수 있도록 인식 가능한 고유한 이름을 선택하는 것이 좋습니다.             | 회의실 15                                                                                                                    | [최초 설치 Surface Hub](first-run-program-surface-hub.md)                                                                                                                                                                   |
+| 디바이스 이름                                                       | 디바이스 이름은 도메인 가입에 사용되는 이름이며, 디바이스가 MDM에 등록된 경우 MDM 공급자에 표시되는 ID입니다. 선택한 장치 이름은 Active Directory 도메인의 다른 장치와 이름이 같아야 합니다(디바이스를 도메인에 가입하기로 결정한 경우). 장치가 고유한 이름 없이 도메인에 가입할 수 없습니다.  | confroom15                                                                                                                            | [최초 설치 Surface Hub](first-run-program-surface-hub.md)                                                                                                                                                                   |
 | Teams 앱 모드                                                    | - 모드 0 - 비즈니스용 Skype 모임에 대한 Microsoft Teams 기능이 있습니다.<br>- 모드 1 - Microsoft Teams 모임에 비즈니스용 Skype 기능을 사용할 수 있습니다.<br>- 모드 2 - Microsoft Teams 전용                                                                                                                                                         |                                                                                                                                       | [기본 비즈니스 통신 플랫폼 변경](manage-settings-with-mdm-for-surface-hub.md)                                                                            |
 
 ## <a name="device-affiliation"></a>장치 소속

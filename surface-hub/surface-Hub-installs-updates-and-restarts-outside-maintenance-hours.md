@@ -10,12 +10,12 @@ ms.author: v-tea
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 04/15/2021
-ms.openlocfilehash: 7df7857258c1baeedf4ff239eda17c66c93a531c
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 7c023256750ee997ce50d0adcd392207f47a298f
+ms.sourcegitcommit: 3810c4310e9f5b5b9ad7b4584eaede2789ccd946
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577028"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902887"
 ---
 # <a name="surface-hub-may-install-updates-and-restart-outside-maintenance-hours"></a>Surface Hub가 업데이트를 설치하고 유지 관리 시간 외에 다시 시작할 수 있음
 
@@ -37,6 +37,5 @@ ms.locfileid: "11577028"
 업데이트의 가용성을 제어하는 데 사용할 수 있는 한 가지 옵션은 비즈니스용 Windows 것입니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
- 
-- [Surface Hub 업데이트](first-run-program-surface-hub.md#update-the-surface-hub) 
+  
 - [유지 관리 기간](manage-windows-updates-for-surface-hub.md#maintenance-window) 

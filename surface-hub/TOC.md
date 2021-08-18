@@ -27,7 +27,7 @@
 ## 배포
 ### [Surface Hub 2S 채택 및 교육](surface-hub-2s-adoption-kit.md)
 ### [Surface Hub 2S 채택 비디오](surface-hub-2s-adoption-videos.md)
-### [처음으로 Surface Hub 2S 설치](surface-hub-2s-setup.md)
+### [처음으로 Surface Hub 2S 설치](first-run-program-surface-hub.md)
 ### [Surface Hub 2S에 장치 연결](surface-hub-2s-connect.md)
 ### [디바이스 계정 만들기 및 테스트](create-and-test-a-device-account-surface-hub.md)
 ### [Surface Hub용 프로비전 패키지 만들기](provisioning-packages-for-surface-hub.md)
