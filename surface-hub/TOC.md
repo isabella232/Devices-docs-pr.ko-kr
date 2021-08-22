@@ -32,7 +32,9 @@
 ### [디바이스 계정 만들기 및 테스트](create-and-test-a-device-account-surface-hub.md)
 ### [Surface Hub용 프로비전 패키지 만들기](provisioning-packages-for-surface-hub.md)
 ### [Microsoft Surface Hub에 앱 설치](install-apps-on-surface-hub.md)
-### [PowerShell을 사용하여 Surface Hub 2S 온-프레미스 계정 만들기](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [PowerShell을 사용하여 Surface Hub 2S 온-프레미스 계정 만들기](/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [Surface Hub Microsoft Teams 룸](surface-hub-teams-rooms.md)
+### [Surface Hub Microsoft Teams 룸에 대한 네트워킹 및 서비스 품질 구성](surface-hub-teams-rooms-networking.md)
 ### [Surface Hub Teams 앱](hub-teams-app.md)
 ### [Surface Hub 2S용 Teams 인증 액세서리](surface-hub-2s-certifications.md)
 
@@ -83,11 +85,11 @@
 
 ## 배포
 ### [디바이스 계정 만들기 및 테스트](create-and-test-a-device-account-surface-hub.md)
-#### [온라인 배포](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [온라인 배포](/microsoftteams/rooms/with-office-365)
 
-#### [온-프레미스 배포(단일 포리스트)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+#### [온-프레미스 배포(단일 포리스트)](/microsoftteams/rooms/with-skype-for-business-server-2015)
 
-#### [온-프레미스 배포(다중 포리스트)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
+#### [온-프레미스 배포(다중 포리스트)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
 #### [하이브리드 배포](hybrid-deployment-surface-hub-device-accounts.md)
 #### [Microsoft Exchange 속성](exchange-properties-for-surface-hub-device-accounts.md)
 #### [장치 계정에 ActiveSync 정책 적용](apply-activesync-policies-for-surface-hub-device-accounts.md)
