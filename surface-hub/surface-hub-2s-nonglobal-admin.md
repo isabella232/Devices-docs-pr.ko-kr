@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 11170f6c202faef7aa3dddcb8aa8c6fa84bea80f
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.openlocfilehash: a941879d43909a44c18a492d6c4f607cbafbe707
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643864"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911373"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Surface Hub에서 전역이 아닌 관리자 계정 구성
 
@@ -45,7 +45,7 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 1. Microsoft Endpoint Manager 관리 [센터를](https://go.microsoft.com/fwlink/?linkid=2109431)통해 Intune에 로그인하고 그룹 새 그룹 > 선택하고 그룹 ****  >  **** 유형에서 보안을 **선택합니다.** 
 2. 로컬 관리자와 같은 그룹 **** Surface Hub 입력한 다음 만들기를 **선택합니다.** 
 
-     ![허브 관리자용 보안 그룹 만들기](images/sh-create-sec-group.png)
+     ![허브 관리자를 위한 보안 그룹을 만들 수 있습니다.](images/sh-create-sec-group.png)
 
 3. 그룹을 열고 **** 구성원 을 **** 선택한 다음 구성원 추가를 선택하여 전역 관리자가 아닌 관리자로 지정하고자 하는 관리자 계정을 Surface Hub. Intune에서 그룹을 만드는 데 대한 자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조합니다.](/mem/intune/fundamentals/groups-add)
 
@@ -53,7 +53,7 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 
 1. 이전 절차를 반복하여 허브 장치에 대해 별도의 보안 그룹을 만들 수 있습니다. 예를 들어 **Surface Hub.** 
 
-     ![허브 장치에 대한 보안 그룹 만들기](images/sh-create-sec-group-devices.png) 
+     ![허브 장치에 대한 보안 그룹을 만들 수 있습니다.](images/sh-create-sec-group-devices.png) 
 
 ## <a name="obtain-azure-ad-group-sid-using-powershell"></a>PowerShell을 사용하여 Azure AD 그룹 SID 얻기
 
@@ -77,7 +77,7 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
 
 5. Intune에서 앞에서 만든 그룹을 선택하고 다음 그림과 같이 개체 ID를 복사합니다. 
 
-     ![보안 그룹의 개체 ID 복사](images/sh-objectid.png)
+     ![보안 그룹의 개체 ID를 복사합니다.](images/sh-objectid.png)
 
 6. 다음 commandlet을 실행하여 보안 그룹의 SID를 얻게 합니다.
 
@@ -122,7 +122,7 @@ Windows 10 Team 2020 업데이트는 Azure AD 도메인에 가입된 Surface Hub
     ```
 6. 데이터 형식에서 **문자열 XML을 선택하고** 이전 단계에서 만든 XML 파일을 열습니다. 
 
-     ![로컬 관리자 xml 구성 파일 업로드](images/sh-local-admin-config.png)
+     ![로컬 관리자 xml 구성 파일을 업로드합니다.](images/sh-local-admin-config.png)
 
 7. **저장**을 클릭합니다.
 8. 그룹 **선택을 클릭하여** 앞서 [](#create-security-group-for-surface-hub-devices) 만든 보안 그룹(장치)을**Surface Hub 선택합니다.** **다음**을 클릭합니다.

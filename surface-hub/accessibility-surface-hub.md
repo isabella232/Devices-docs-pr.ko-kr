@@ -11,19 +11,19 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 11dc83be7966e49d2ac8a5fb0d1e0642abf025d8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a2520897a0ada7dc0ba23472c2b0f809ccb232d1
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835815"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11910973"
 ---
-# 접근성(Surface Hub)
+# <a name="accessibility-surface-hub"></a>접근성(Surface Hub)
 
 Microsoft Surface Hub에는 Windows 10과 동일한 접근성 옵션이 있습니다.
 
 
-## 기본 접근성 설정
+## <a name="default-accessibility-settings"></a>기본 접근성 설정
 
 IT 관리자는 **설정** 앱에서 전체 접근성 설정 목록을 사용할 수 있습니다. Surface Hub의 기본 접근성 설정은 다음과 같습니다.
 
@@ -41,7 +41,7 @@ IT 관리자는 **설정** 앱에서 전체 접근성 설정 목록을 사용할
 1. 시작 화면을 해제합니다.
 2. 상태 표시줄의 **바로 가기** > **접근성**을 엽니다.
 
-    ![접근성 타일의 스크린샷](images/ease-of-access.png)
+    ![접근성 타일의 스크린샷.](images/ease-of-access.png)
     
 3. 내레이터를 켭니다.
 4. **작업 전환기**를 클릭합니다.
@@ -57,16 +57,16 @@ IT 관리자는 **설정** 앱에서 전체 접근성 설정 목록을 사용할
 - 마우스 키
 
 
-## 모임 중에 접근성 설정 변경
+## <a name="change-accessibility-settings-during-a-meeting"></a>모임 중에 접근성 설정 변경
 
 사용자는 모임 중에 몇 가지 방법으로 접근성 기능 및 앱을 토글할 수 있습니다.
 - [바로 가기 키](https://support.microsoft.com/help/13813/windows-10-microsoft-surface-hub-keyboard-shortcuts)
 - 상태 표시줄의 **바로 가기** > **접근성**
 
-> ![Surface Hub의 바로 가기 센터를 보여 주는 이미지](images/sh-quick-action.png)
+> ![2016의 빠른 실행 센터를 Surface Hub.](images/sh-quick-action.png)
 
 
-## 관련 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Surface Hub 관리](manage-surface-hub.md)
 

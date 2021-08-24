@@ -12,12 +12,12 @@ ms.date: 5/06/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 26a6d49af6010f66ed80d0aba1193ef009c91ff0
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 31ce5192670b8c9051ba499273909fdf31c1062d
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676522"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911963"
 ---
 # <a name="surface-book-3-gpu-tech-overview"></a>Surface Book 3 GPU 기술 개요
 
@@ -77,21 +77,21 @@ NVIDIA GPUS는 게임, 라이브스트림 및 콘텐츠 만들기에 대한 훌�
 |                                                          | **GeForce GTX 1650** | **GeForce GTX 1660 Ti** | **Quadro RTX 3000** |
 | -------------------------------------------------------- | -------------------- | ----------------------- | ------------------- |
 | **NVIDIA CUDA 처리 코어**                         | 1024                 | 1536                    | 1920                |
-| **NVIDIA 텐서 코어**                                  | 아니요                   | 아니요                      | 240                 |
-| **NVIDIA RT Cores**                                      | 아니요                   | 아니요                      | 30                  |
+| **NVIDIA 텐서 코어**                                  | 아니오                   | 아니오                      | 240                 |
+| **NVIDIA RT Cores**                                      | 아니오                   | 아니오                      | 30                  |
 | **GPU 메모리**                                           | 4GB                 | 6GB                    | 6GB                |
 | **메모리 대역폭(GB/초)**                            | 최대 112개            | 최대 288개               | 최대 288개           |
 | **메모리 유형**                                          | GDDR5                | GDDR6                   | GDDR6               |
 | **메모리 인터페이스**                                     | 128비트              | 192비트                 | 192비트             |
 | **부스트 클럭 MHz**                                      | 1245                 | 1425                    | 1305                |
 | **기본 클럭(MHz)**                                     | 1020                 | 1245                    | 765                 |
-| **실시간 광선 추적**                                | 아니요                   | 아니요                      | 예                 |
-| **AI 하드웨어 가속**                             | 아니요                   | 아니요                      | 예                 |
+| **실시간 광선 추적**                                | 아니오                   | 아니오                      | 예                 |
+| **AI 하드웨어 가속**                             | 아니오                   | 아니오                      | 예                 |
 | **하드웨어 인코더**                                     | 예                  | 예                     | 예                 |
 | **게임 준비 드라이버(GRD)**                              | 예 <sup> 1</sup>                                   | 예  <sup> 1</sup>          |예 <sup> 2</sup> 
 | **SD(Studio Driver)**                                   | 예  <sup> 1</sup>            | 예 <sup> 1</sup>                 | 예  <sup> 1</sup>           |
-| **ODE(최적 Enterprise)**                  | 아니요                   | 아니요                      | 예            |
-| **쿼드로 새 기능 드라이버(QNF)**                      | 아니요                   | 아니요                      | 예            |
+| **ODE(최적 Enterprise)**                  | 아니오                   | 아니오                      | 예            |
+| **쿼드로 새 기능 드라이버(QNF)**                      | 아니오                   | 아니오                      | 예            |
 | **Microsoft DirectX 12 API, Vulkan API, Open GL 4.6**    | 예                  | 예                     | 예                 |
 | **HDCP(High bandwidth Digital Content Protection) 2.2** | 예                  | 예                     | 예                 |
 | **NVIDIA GPU 향상**                                     | 예                  | 예                     | 예                 |
@@ -136,7 +136,7 @@ Surface Book 3의 새로운 기능을 사용하면 분리할 수 금고 사용�
 
 2. **추가를** 선택하여 선택한 프로그램의 목록에 새 항목을 만들고 옵션을 선택하여 그래픽 사양을 연 다음 원하는 옵션을 선택합니다.
 
-   ![절전 또는 고성능 GPU 옵션 선택](./images/graphics-settings2.png)
+   ![절전 또는 고성능 GPU 옵션을 선택합니다.](./images/graphics-settings2.png)
 
 3. 각 앱에 사용되는 GPU를 확인하려면 작업 관리자를 **열고 성능을** 선택한 **다음** **GPU 엔진 열을** 니다.
 

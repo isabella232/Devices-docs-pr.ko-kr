@@ -1,6 +1,6 @@
 ---
 title: Surface Hub 2S 85 설치 및 탑재
-description: Surface Hub 2S 85를 설치하고 탑재하는 방법을 배워야 합니다.
+description: 2S 85를 설치하고 탑재하는 Surface Hub 대해 자세히 알아보습니다.
 keywords: 쉼표로 값 구분
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,20 +11,20 @@ audience: Admin
 ms.topic: article
 ms.date: 03/22/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9b7a3e49f3fa05117fa37cbd47695e54ff26e899
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+ms.openlocfilehash: 823c80e812038a0d2f2efaca65d97d1379f03e35
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470496"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911213"
 ---
-# <a name="install-and-mount-surface-hub-2s-85"></a>Surface Hub 2S 85 설치 및 탑재"
+# <a name="install-and-mount-surface-hub-2s-85"></a>2S 85 Surface Hub 설치 및 탑재
 
-이 문서에서는 상업 환경에서 Microsoft Surface Hub 2S 85"를 물리적으로 설치하기 위한 지원 지침을 제공합니다. 
+이 문서에서는 상업적 환경에서 Microsoft Surface Hub 2S 85"를 물리적으로 설치하기 위한 지원 지침을 제공합니다. 
 
 ## <a name="unboxing-video"></a>언박싱 비디오
 
-- 시작하기 전에 Microsoft Surface Hub 2S 85" Unboxing 및 Set Up video를 검토하세요.
+- 시작하기 전에 2S 85" Microsoft Surface Hub 및 설정 비디오를 검토하세요.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
@@ -48,14 +48,14 @@ ms.locfileid: "11470496"
 3. 여섯 개(6) 클립을 끝에서 열고 제거합니다.
 4. LID를 제거한 다음 앞면 및 후면 패널을 들어 올렸다가 제거합니다.
 
- ![외장 패키징 제거](images/hub85mount1a.png) <br>
+ ![외장 패키징을 제거합니다.](images/hub85mount1a.png) <br>
 
 ## <a name="2-remove-black-outer-packaging-foam"></a>2. 검은색 외장 패키징 포장 제거
 
 1. 검정 모서리에 구부러진 조각(4)을 제거합니다.
 2. 검은색 중심 지원 제거
 
- ![검은색 외장 패키징 포장 제거](images/hub85mount2a.png) <br>
+ ![검은색 외장형 패키징을 제거합니다.](images/hub85mount2a.png) <br>
 
 > [!Caution]
 > 허브 2S가 배치될 카트 또는 벽 탑재에 인접할 때까지 흰색 포장, 스트랩 또는 패키징 재료는 제거하지 않습니다.
@@ -68,14 +68,14 @@ ms.locfileid: "11470496"
 2. 잠금 휠 브레이크(4).
 3. 내부 패키징을 팔레트에서 밀어내기
 
- ![팔레트에서 내부 패키징 프레임 제거](images/hub85mount3b.png) <br>
+ ![팔레트에서 내부 패키징 프레임을 제거합니다.](images/hub85mount3b.png) <br>
 
 ## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. 승강기에 맞게 패키징 프레임 회전
 
 1. 승강에 맞게 프레임 회전
 2. 안쪽 프레임의 구부러진 끝을 회전하고 승강으로 밀어넣습니다.
 
- ![승강에 맞게 패키징 프레임 회전](images/hub85mount4a.png) <br>
+ ![승강기에 맞게 패키징 프레임을 회전합니다.](images/hub85mount4a.png) <br>
 
 > [!TIP]
 > 휠 팔레트는 내부 프레임 패키징 공간에 맞게 사용자 지정하며 설치 사이트 배달 프로세스 전체에서 사용할 수 있습니다. 안쪽 목차 끝 조각에는 나일론 스키드 판이 있습니다.
@@ -85,18 +85,18 @@ ms.locfileid: "11470496"
 1. 승강기 밖으로 밀어내기
 2. 잠금 휠 브레이크(x4).
 
- ![승강기에서 제거](images/hub85mount5a.png) <br>
+ ![승강기에서 제거합니다.](images/hub85mount5a.png) <br>
 
 
-## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Surface Hub 85" 뒤로 팔레트
+## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Surface Hub 85인치 뒤로 두기
 
 1. 구부러진 끝을 사용하여 팔레트로 다시 회전합니다.
 2. 휠 브레이크 잠금 해제(x4).
 3. 벽 또는 카트 탑재 위치로 제품을 이동합니다.
 
- ![Surface Hub 85" 뒤로 팔레트](images/hub85mount6a.png) <br>
+ ![85인치 Surface Hub 뒤로 85인치](images/hub85mount6a.png) <br>
 
-## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Surface Hub 85"를 벽 탑재 또는 카트에 두기
+## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. 벽 Surface Hub 카트에 Surface Hub 85인치 두기
 
 1. 벽 탑재 또는 카트 앞에 허브 2S를 다.
 2. 잠금 휠 브레이크(x4).
@@ -108,7 +108,7 @@ ms.locfileid: "11470496"
 8. 세로로 들어서 끝 조각을 제거합니다.
 9. 4인용 노브로 목 끝 조각을 제거합니다.
 
-   ![벽 탑재 또는 카트에 Surface Hub 85" 설치](images/hub85mount7a.png) <br>
+   ![벽 Surface Hub 카트에 85인치 85인치 를 설치합니다.](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
    >  허브 2S 85" 무인으로 두지 않습니다. 장치를 똑바로 세우기 위해 추가 사람이 필요합니다. 끝 조각이 제거되면 벽 탑재 또는 카트 배치가 완료될 때까지 최소 한 1명은 허브 2S와의 접촉을 유지해야 합니다.
@@ -133,20 +133,20 @@ ms.locfileid: "11470496"
  
 
  
-## <a name="mounting-surface-hub-2s-85"></a>Surface Hub 2S 85 탑재 
+## <a name="mounting-surface-hub-2s-85"></a>2S Surface Hub 85" 탑재 
 
-Surface Hub 2S 85"는 600 x 600 VESA 탑재 패턴을 사용 합니다. 다음 그림과 같이 Microsoft는 [Steelcase와](https://www.steelcase.com/products/collaboration/steelcase-roam/) 파트너가 하여 Surface Hub 2S 85" 고유 디자인과 호환되는 탑재 옵션을 만들고 있습니다. 
+Surface Hub 2S 85"는 600 x 600 VESA 탑재 패턴을 사용 합니다. 다음 그림과 같이 Microsoft는 [Steelcase와](https://www.steelcase.com/products/collaboration/steelcase-roam/) 파트너가 되어 Surface Hub 2S 85" 고유 디자인과 호환되는 탑재 옵션을 만들고 있습니다. 
 
-![철강 벽 마운트](images/sh2-steelcasemount.png) <br>
+![철판 벽 마운트](images/sh2-steelcasemount.png) <br>
 
 ### <a name="mounting-dimensions"></a>탑재 차원
 
 다른(철강이 아닌) 탑재 옵션을 사용하는 경우 장치의 뒤에서 계산 엔클로저를 고려할 스스페이스가 필요합니다. Spacers 및 기타 인증된 액세서리는 [Salamander Designs에서 사용할 수 있습니다.](http://www.salamandercommercial.com/surface-hub-2)
 
 
-![탑재를 위한 Surface Hub 85" 차원 세부 정보](images/sh2-85-measure2.png) <br>
+![Surface Hub 85인치 크기 세부 정보입니다.](images/sh2-85-measure2.png) <br>
 
-![탑재를 위한 Surface Hub 85" 크기](images/sh2-85-measure1.png) <br>
+![Surface Hub 85인치 크기로 설치합니다.](images/sh2-85-measure1.png) <br>
 
 
 ## <a name="supplemental-strapping-kit"></a>보완 스트랩 키트

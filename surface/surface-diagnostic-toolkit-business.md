@@ -12,12 +12,12 @@ ms.date: 07/27/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 13480c4b642ff64883c0ee69c73161a51f3f1e96
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 50ea987273c5d9a10bd28e67358ee83e1d8bc295
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708809"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911833"
 ---
 # <a name="surface-diagnostic-toolkit-for-business"></a>비즈니스용 Surface 진단 도구 키트
 
@@ -67,7 +67,7 @@ Surface가 제대로 작동하지 않는 경우 비즈니스용 Microsoft Surfac
     >[!NOTE]
     >설치 마법사가 나타나지 않는 경우 컴퓨터의 관리자 계정에 로그인해야 합니다.
 
-    ![Surface Diagnostic Toolkit 설치 마법사 시작](images/sdt-1.png)
+    ![Surface Diagnostic Toolkit 시작해보아야 합니다.](images/sdt-1.png)
 
     *그림 1. Surface 진단 Toolkit 설정 마법사*
 
@@ -79,7 +79,7 @@ Surface가 제대로 작동하지 않는 경우 비즈니스용 Microsoft Surfac
     >[!NOTE]
     >표준 옵션을 사용하면 관리자 계정을 사용하여 디바이스에 로그인한 경우 Surface 디바이스에서 진단 도구를 직접 실행할 수 있습니다.
 
-     ![설치 옵션: 고급](images/sdt-install.png)
+     ![설치 옵션: 고급.](images/sdt-install.png)
 
 7. 다음을 **클릭한** 다음 설치를 **클릭합니다.**
 
@@ -110,7 +110,7 @@ SDT와 SDT 앱 콘솔이 모두 에 `C:\Program Files\Microsoft\Surface\Microsof
 
 SDT는 .exe 파일 외에 그림 2와 같이 JSON 파일과 admin.dll 파일(modules\admin.dll)을 설치합니다.
 
-![파일 탐색기에서 설치된 SDT 파일 목록](images/sdt-2.png)
+![파일 탐색기에서 설치된 SDT 파일 목록입니다.](images/sdt-2.png)
 
 *그림 2. SDT에서 설치한 파일*
 
@@ -121,7 +121,7 @@ SDT는 .exe 파일 외에 그림 2와 같이 JSON 파일과 admin.dll 파일(mod
 1. 시작 **> 실행을 클릭하고** **Surface를** 입력한 다음 비즈니스용 Surface 진단 Toolkit **클릭합니다.**
 2. 도구가 열리면 그림 3과 같이 **사용자**지정 패키지 만들기를 클릭합니다.
 
-    ![사용자 지정 패키지 만들기 옵션](images/sdt-3.png)
+    ![사용자 지정 패키지 만들기 옵션.](images/sdt-3.png)
 
     *그림 3. 사용자 지정 패키지 만들기*
 
@@ -132,7 +132,7 @@ SDT는 .exe 파일 외에 그림 2와 같이 JSON 파일과 admin.dll 파일(mod
 >[!NOTE]
 >이 설정은 Windows 업데이트 및 소프트웨어 복구와 같은 인터넷 연결이 필요한 테스트 및 복구를 실행하거나 앱 도구 모음의 스마일 또는 눈금 단추를 사용하여 피드백을 제공하는 경우 Microsoft 서버에 자동으로 저장되는 최소 원격 분석에는 영향을 주지 않습니다.
 
-![언어 및 원격 분석 설정 선택](images/sdt-4.png)
+![언어 및 원격 분석 설정을 선택합니다.](images/sdt-4.png)
 
 *그림 4. 언어 및 원격 분석 설정 선택*
 
@@ -140,7 +140,7 @@ SDT는 .exe 파일 외에 그림 2와 같이 JSON 파일과 admin.dll 파일(mod
 
 조직에 적합한 옵션을 선택합니다. 일반적으로 여러 사용자가 있는 조직에서는 그림 5에 표시된 Windows Server Update Services(WSUS)를 통해 업데이트를 받게 됩니다. 로컬 Windows 업데이트 패키지 또는 WSUS를 사용하는 경우 경로를 적절하게 입력합니다.
 
-![업데이트 Windows 선택](images/sdt-5.png)
+![업데이트 Windows 선택합니다.](images/sdt-5.png)
 
 *그림 5. Windows 업데이트 옵션*
 
@@ -148,7 +148,7 @@ SDT는 .exe 파일 외에 그림 2와 같이 JSON 파일과 admin.dll 파일(mod
 
 이렇게 하면 소프트웨어 복구 업데이트를 실행하기 위한 옵션을 선택하거나 제거할 수 있습니다.
 
-![소프트웨어 복구 옵션 선택](images/sdt-6.png)
+![소프트웨어 복구 옵션을 선택합니다.](images/sdt-6.png)
 
 *그림 6. 소프트웨어 복구 옵션*
 
@@ -156,7 +156,7 @@ SDT는 .exe 파일 외에 그림 2와 같이 JSON 파일과 admin.dll 파일(mod
 
 응용 프로그램, 드라이버, 하드웨어 및 운영 체제에서 다양한 로그를 실행하려면 선택할 수 있습니다. 해당 영역을 클릭하고 사용 가능한 로그의 메뉴에서 선택합니다. 그런 다음 사용자가 액세스할 수 있는 소프트웨어 배포 지점 또는 동등한 위치에 패키지를 저장할 수 있습니다.
 
-![로그 옵션 선택](images/sdt-7.png)
+![로그 옵션을 선택합니다.](images/sdt-7.png)
 
 *그림 7. 로그 옵션 및 패키지 저장*
 

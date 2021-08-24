@@ -12,12 +12,12 @@ ms.date: 06/07/2021
 ms.reviewer: louannh
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a6021a58c85ac6ee4c039959dcde9bab632ea1bb
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 57801a7eb663d08a0af28c825c698318f8673d40
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614125"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911993"
 ---
 # <a name="surface-self-serve-warranty-and-service"></a>Surface 셀프 서비스 보증 및 서비스
 
@@ -53,7 +53,7 @@ Surface Self-Serve 보증 및 서비스를 사용하면 Microsoft 365 전역 관
 2. Surface **장치**  >  **복구 지원으로 이동하여** 복구 **요청 만들기를 선택합니다.** (이 복구 옵션이 없는 경우 이 페이지에 액세스할 수 있는 권한이 없습니다.)
 
     > [!div class="mx-imgBorder"]
-    > ![셀프 서비스 복구 요청 시작](images/self-serve-fig1.png)
+    > ![셀프 서비스 복구 요청을 시작 합니다.](images/self-serve-fig1.png)
 
 3. 하나 또는 여러 장치에 대한 복구 요청을 만들 수 있습니다. 한 때 **하나의** 장치 제출 또는 **** 여러 장치 제출을 선택하여 .csv 파일을 사용하여 여러 일련 번호를 업로드하고 다음 을 **선택합니다.**
 
@@ -72,27 +72,25 @@ Surface Self-Serve 보증 및 서비스를 사용하면 Microsoft 365 전역 관
     > - 양식은 주소 정보의 유효성을 자동으로 검사하며, 로컬 우편 시스템에서 주소를 인식하지 못하면 변경하기 위해 수정할 수 있습니다. 전자 메일 주소는 복구 요청에 대한 알림 및 통신을 보내는 데 사용됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![
-      새 주소 추가
-    ](images/self-serve-fig2a.png)
+    > ![새 주소를 추가합니다.](images/self-serve-fig2a.png)
 
 5. 텍스트 블록에 장치 일련 번호를 입력하여 디바이스를 추가합니다. 자세한 내용은 장치 일련 [번호 를 참조하세요.](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface) 일련 번호가 유효한 경우 보증 날짜 및 모델 번호를 포함한 이미지 및 제품 정보가 표시됩니다. 정보가 **올바른 경우** 장치 추가를 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![장치 추가](images/self-serve-fig2.png)
+    > ![디바이스를 추가합니다.](images/self-serve-fig2.png)
 
 6. 1-2단계를 반복하여 요청에 여러 장치(총 20개)를 추가합니다.
 7. 드롭다운 메뉴에서 문제를 가장 잘 설명하는 문제 유형을 선택하고 다음을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![문제 범주 선택](images/self-serve-fig3.png)
+    > ![문제 범주를 선택합니다.](images/self-serve-fig3.png)
 
 8. 주문을 검토합니다. 정보가 올바르지 않은 경우 **뒤로를** 선택해 오류를 수정합니다.
 9. 조건에 동의합니다.
 10. 요청 요약이 올바른 경우 요청 **제출 을 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![셀프 서비스 복구 요청 제출](images/self-serve-fig4.png)
+    > ![셀프 서비스 복구 요청을 제출합니다.](images/self-serve-fig4.png)
 
 홈 페이지가 표시될 때 요약 목록에서 서비스 요청을 보고 확인 전자 메일을 받을 수 있습니다.
 

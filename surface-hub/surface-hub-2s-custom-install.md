@@ -11,14 +11,14 @@ audience: Admin
 ms.topic: article
 ms.date: 04/16/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: f21ed5d667dac89b3903b59811131bf27435ceb1
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 33c99f245cc398aa56d3357a32aa83beaee5e6cc
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576968"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912043"
 ---
-# <a name="customize-wall-mount-of-surface-hub-2s-50"></a>2S 50" Surface Hub 벽 마운트 사용자 지정
+# <a name="customize-wall-mount-of-surface-hub-2s-50"></a>Surface Hub 2S 50"의 벽걸이 사용자 지정
 
 이 문서에서는 2S 50을 실제로 설치하기 위한 Microsoft Surface Hub 제공합니다." 85" 설치에 대한 자세한 내용은 [Install and mount Surface Hub 2S 85" 를 참조하십시오.](surface-hub-2s-85-install-mount.md)
 
@@ -38,11 +38,11 @@ Surface Hub 2S 50" 권장 탑재 측정값:
 
 2. 바닥 수준에서 1767.2mm(69.57인치)를 측정하여 권장되는 위쪽 높이를 설정합니다.
 
-    ![Surface Hub 2S 50인치 벽 탑재 전면 보기](images/sh2-wall-front.png)
+    ![Surface Hub 2S 50인치 벽 탑재 전면 보기입니다.](images/sh2-wall-front.png)
 
 3. 바닥 수준에서 1397mm(55인치)를 측정하여 권장 중심 높이를 설정합니다.
 
-    ![Surface Hub 2S 50인치 벽 탑재 쪽 보기](images/sh2-wall-side.png)
+    ![Surface Hub 2S 50인치 벽 탑재 쪽 보기입니다.](images/sh2-wall-side.png)
 
 
 ## <a name="obstruction-free-mounting"></a>Obstruction free mounting
@@ -56,19 +56,19 @@ Surface Hub 2S 50" 권장 탑재 측정값:
 |**대기 흐름**| 유인원 및 콘센트 에어벤트 영역 차단을 방지합니다. | 그림 2 참조  |
 |**Audio**| 2S 50"의 후면에서 오디오 Surface Hub 차단하지 않도록 합니다. | 그림 2를 참조합니다. |
 
-![그림 1. 2S 50" Surface Hub 영역 유지](images/sh2-keepout-zones.png) <br>
-**_그림 1. 2S 50" Surface Hub_* 영역 유지 _
+![그림 1. 2S 50" Surface Hub 영역은 유지하십시오.](images/sh2-keepout-zones.png) <br>
+***그림 1. 2S 50" Surface Hub 영역 유지***
 
-![그림 2. 열 유인원/콘센트 및 오디오 종료 영역 차단 방지](images/sh2-thermal-audio.png) <br>
-_*_그림 2. 열 유인원/콘센트 및 오디오 종료 영역 차단을 방지합니다._*_
+![그림 2. 열 유인원/콘센트 및 오디오 종료 영역 차단을 방지합니다.](images/sh2-thermal-audio.png) <br>
+***그림 2. 열 유인원/콘센트 및 오디오 종료 영역 차단을 방지합니다.***
 
 I/O 포트가 포함된 이동식 컴퓨팅 어카비언트는 어떠한 방해물이나 방해물도 포함하지 말아야 합니다.
 
 ![그림 3.2S 50"의 밑에 있는 Surface Hub 뷰입니다.](images/sh2-ports.png) <br>
-_*_그림 3.2S 50"의 밑에 있는 Surface Hub 뷰입니다._*_
+***그림 3.2S 50"의 밑에 있는 Surface Hub 뷰입니다.***
 
-![그림 4. 계산 지우기에서 유니폼 제거 ](images/sh2-cartridge.png) <br>
-_*_그림 4. 계산 지우기에서 유니폼 제거_*_
+![그림 4. 계산 지우기에서 Unimped로 제거.](images/sh2-cartridge.png) <br>
+***그림 4. 계산 지우기에서 유니폼 제거***
 
 ## <a name="selecting-a-mounting-system"></a>탑재 시스템 선택
 
@@ -79,19 +79,19 @@ Surface Hub 2S 50"의 뒷면에는 원형 범프(지름 565mm)의 가운데에 M
 
 | 항목 | 설명 | 참고 |
 |:------ |:------------- |:------- |
-|_*강도**| 최소 28개(62lbs)의 장치를 안전하게 지원할 수 있는 탑재만 선택하세요. | 필수 |
+|**강도**| 최소 28개(62lbs)의 장치를 안전하게 지원할 수 있는 탑재만 선택하세요. | 필수 |
 |**강성**| 대화형 펜 및 터치 사용 환경을 능가할 수 있는 유연한 디스플레이 탑재를 피합니다. 대부분의 TV 탑재는 터치 디스플레이를 지원하도록 설계되지 않습니다. | 권장 사항 |
 |**깊이**| 특히 회의실 내의 순환 경로와 함께 장치를 벽에 조밀하게 탑재합니다.| 권장 사항 |
 |**다용도**| 탑재 솔루션이 기존 가로 모드와 잠재적인 세로 모드(향후 가용성에 따라 다를 수 있습니다)에서 보기에서 숨겨져 있도록 합니다. | 권장 사항 |
 
-![그림 5. Surface Hub 2S 50" 탑재 구성](images/sh2-mount-config.png) <br>
-**_그림 5. Surface Hub 2S 50" 탑재 구성_*_
+![그림 5. Surface Hub 2S 50" 탑재 구성을 제공합니다.](images/sh2-mount-config.png) <br>
+***그림 5. Surface Hub 2S 50" 탑재 구성***
 
 
 ## <a name="mounting-methods-compatible-with-surface-hub-2s-50"></a>2S 50" Surface Hub 호환되는 탑재 방법
 
 Surface Hub 2S 50"은 세로 평면에서 10-70도 각도로 탑재할 수 있는 탑재와 호환됩니다. 레일 마운트는 일반적으로 여러 개의 구멍과 슬롯 집합을 가지며, 광범위한 디스플레이에서 호환성을 제공합니다. 벽에 연결된 레일과 디스플레이에 두 개의 탑재를 연결하면 벽에 Surface Hub 2S 50"을 안전하게 설치할 수 있습니다. 호환성을 위해 레일 마운트를 평가할 때 앞에서 나열한 다용도 요구 사항을 충족하는지 확인합니다.
 
-![그림 6. 레일 마운트](images/h2gen-railmount.png)<br>
-_*_그림 6. Surface Hub 2S 50" 레일 마운트_**
+![그림 6. 레일 마운트.](images/h2gen-railmount.png)<br>
+***그림 6. Surface Hub 2S 50" 레일 마운트***
 

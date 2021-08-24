@@ -10,12 +10,12 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
-ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
+ms.openlocfilehash: e07591a25958677fb6efd5411d75f8b8e1549fed
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "11400739"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912023"
 ---
 # <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>Microsoft Authenticator로 Surface Hub 로그인
 
@@ -31,9 +31,9 @@ ms.locfileid: "11400739"
 
 - [Multi-factor Authentication 구성](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings). **모바일 앱을 통한 알림**이 선택되어 있는지 확인합니다. 
 
-    ![Multi-Factor Authentication 옵션](images/mfa-options.png)
+    ![다단계 인증 옵션.](images/mfa-options.png)
 
-- Office, SharePoint 등의 Azure AD 서비스에서 콘텐츠 호스팅을 사용하도록 설정 
+- Azure AD 서비스(예: Office, SharePoint)에서 콘텐츠 호스팅을 사용하도록 설정 
 
 - Surface Hub는 Windows 10 버전 1703 이상을 실행해야 합니다.
 
@@ -70,18 +70,18 @@ ms.locfileid: "11400739"
     >[!NOTE]
     >Surface Hub에서 모임을 예약하는 방법을 모를 경우 [Surface Hub에서 모임 예약](https://support.microsoft.com/help/17325/surfacehub-schedulemeeting)을 참조하세요.
 
-    ![Surface Hub의 로그인 옵션 스크린샷](images/sign-in.png)
+    ![로그인 옵션의 스크린샷입니다Surface Hub.](images/sign-in.png)
 
 2. 모임에 초대된 사람 목록이 표시됩니다. 자신(또는 로그인하려는 사람 - 이 사용자가 모임 전에 디바이스를 설정하는 단계를 거쳤는지 확인하세요)을 선택한 다음 **계속**을 선택합니다.
 
-    ![모임에 참석한 사람 목록의 스크린샷](images/attendees.png)
+    ![모임의 참석자 목록 스크린샷.](images/attendees.png)
 
     Surface Hub에서 코드가 표시됩니다.
 
-    ![로그인 승인에 대한 코드 스크린샷](images/approve-signin.png)
+    ![로그인 승인에 대한 코드 스크린샷.](images/approve-signin.png)
 
 3. 로그인을 승인하려면 Authenticator 앱을 열고 Surface Hub에 표시되는 4자리 코드를 입력하고 **승인**을 선택합니다. PIN을 입력하거나 지문을 사용하여 로그인을 완료하라는 메시지가 표시됩니다. 
 
-    ![Microsoft Authenticator에서 로그인 승인 화면 스크린샷](images/approve-signin2.png)
+    ![로그인 승인 화면의 Microsoft Authenticator.](images/approve-signin2.png)
 
 이제 OneDrive 앱을 통해 모든 파일에 액세스할 수 있습니다.

@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9a98eb9bab9b0be7f225dedf00ee6cfe7944b05e
-ms.sourcegitcommit: 657d0d73a51f0dd35ad60740ed523164a55d2e04
+ms.openlocfilehash: a6b1dcdb3cf0ff8fe2f6485520c6b6301f5d2b2f
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11720932"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912003"
 ---
 # <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Surface 및 SEMM(Secure Surface Dock 2) 관리 모드를 Enterprise Surface Dock 2 포트
 
@@ -106,15 +106,15 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 
 1. Surface **UEFI 구성기 를 실행합니다.**
 
-   ![Surface UEFI 구성기 실행](images/secure-surface-dock-ports-semm-1.png)
+   ![Surface UEFI 구성을 실행합니다.](images/secure-surface-dock-ports-semm-1.png)
 
 1. **Surface Dock를 선택합니다.**
 
-   ![Surface Dock 선택](images/secure-surface-dock-ports-semm-2.png)
+   ![Surface Dock를 선택합니다.](images/secure-surface-dock-ports-semm-2.png)
 
 1. 인증서 **페이지에**  적절한 인증서를 입력합니다. 데모 인증서는 [Surface Tools for IT(IT용 Surface 도구)](https://www.microsoft.com/download/details.aspx?id=46703): 다운로드 인증서를 다운로드하고SEMM_PowerShell.zip참조할 **수CreateSurfaceDock2Certificates.ps1. ** **** 데모 스크립트를 **실행하기 SurfaceDock2_WmiInstanceProvider** 설치해야 합니다.
 
-   ![적절한 인증서 입력](images/secure-surface-dock-ports-semm-3.png)
+   ![적절한 인증서를 입력합니다.](images/secure-surface-dock-ports-semm-3.png)
 
 1. 목록에 적절한 dock RNS를 추가합니다.
 
@@ -146,19 +146,19 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 
 1. 인증된 사용자에 대한 모든 포트를 켜고 인증되지 않은 사용자에 대해 포트를 해제합니다.
 
-   ![인증된 사용자에 대해 포트 사용](images/secure-surface-dock-ports-semm-4.png)
+   ![인증된 사용자에 대해 포트를 사용하도록 설정](images/secure-surface-dock-ports-semm-4.png)
 
 1. 대상 장치에 구성 패키지를 적용한 다음 Surface Dock 2를 연결합니다.
 
 1. **Surface App을** 열고 **Surface Dock를** 선택하여 Surface Dock의 결과 정책 상태를 볼 수 있습니다. 정책 설정이 적용된 경우 Surface App은 포트를 사용할 수 있는 것으로 표시됩니다.
 
-   ![Surface 앱에서 인증된 사용자가 모든 포트를 사용할 수 있는 것으로 표시](images/secure-surface-dock-ports-semm-5.png)
+   ![Surface 앱은 인증된 사용자가 모든 포트를 사용할 수 있는 것으로 표시되어 있습니다.](images/secure-surface-dock-ports-semm-5.png)
 
 1. 이제 정책 설정이 인증되지 않은 사용자에 대한 모든 포트를 해제하는지 확인해야 합니다. 커넥트 Surface Dock 2에서 관리되지 않는 디바이스( 예: 만든 구성 패키지의 관리 범위를 벗어날 수 있는 Surface 디바이스)입니다.
 
 1. **Surface App을 열고** **Surface Dock를 선택합니다.** 결과 정책 상태는 포트가 꺼져 있는 것을 나타냅니다.
 
-   ![비인식 사용자에 대한 포트를 표시하는 Surface 앱 ](images/secure-surface-dock-ports-semm-6.png)
+   ![비인식 사용자에 대한 포트를 표시하는 Surface 앱입니다.](images/secure-surface-dock-ports-semm-6.png)
 
 >[!TIP]
 >장치의 소유권을 유지하지만 모든 사용자가 모든 액세스를 허용하려는 경우 모든 것이 켜져 있는 새 패키지를 만들 수 있습니다. 디바이스의 제한 사항과 소유권을 완전히 제거하려면(관리되지 않는) **** Surface UEFI 구성기에서 재설정을 선택하여 대상 장치에 적용할 패키지를 만드십시오.

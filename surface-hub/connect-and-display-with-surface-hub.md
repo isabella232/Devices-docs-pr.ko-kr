@@ -11,22 +11,22 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/27/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: 2d8d814d5e33a878fab066321a0d7800ae5104c0
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 6985d6a87e14df70d244457dfeddabd673bb2bdc
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836703"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911393"
 ---
-# 다른 장치를 연결하여 Surface Hub에서 표시
+# <a name="connect-other-devices-and-display-with-surface-hub"></a>다른 장치를 연결하여 Surface Hub에서 표시
 
 
 다른 장치를 Microsoft Surface Hub에 연결하여 콘텐츠를 표시할 수 있습니다. 이 항목에서는 유선 연결을 통해 사용할 수 있는 게스트 모드, 대체 PC 모드 및 비디오 출력 기능을 설명하며 [Bluetooth](#bluetooth-accessories)를 사용하여 Surface Hub에 연결할 수 있는 액세서리를 나열합니다.
 
 >[!NOTE]
->Surface Hub는 새 연결을 설정 하거나 기존 연결이 중단 되거나 연결 앱이 닫혀 있을 때까지 선택 하는 비디오 입력을 사용 합니다.
+>Surface Hub 연결, 기존 연결이 중단되거나 앱이 닫히기 전까지 선택한 커넥트 입력을 사용할 수 있습니다.
 
-## 어떤 방법을 선택해야 하나요?
+## <a name="which-method-should-i-choose"></a>어떤 방법을 선택해야 하나요?
 
 외부 장치 및 디스플레이를 Surface Hub에 연결할 때 사용 가능한 몇 가지 옵션이 있습니다. 사용하는 방법은 해당 시나리오와 요구에 따라 달라집니다. 
 
@@ -37,15 +37,15 @@ ms.locfileid: "10836703"
 | 외부 Windows 10 PC에서 Surface Hub의 전원을 공급하고 Surface Hub에 포함된 컴퓨터를 끕니다. 펜과 터치뿐 아니라 카메라, 마이크, 스피커 및 기타 주변 장치도 외부 PC로 전송됩니다. | [대체 PC 모드](#replacement-pc-mode) |
 
 
-## 게스트 모드
+## <a name="guest-mode"></a>게스트 모드
 
 
-게스트 모드는 사용자가 장치의 콘텐츠를 Surface Hub에 표시할 수 있도록 유선 연결을 사용합니다. 원본 장치가 Windows 기반이면 해당 장치는 Touchback 및 Inkback도 제공할 수 있습니다. Surface Hub의 내부 PC는 연결된 장치에서 비디오 및 오디오를 가져와 Surface Hub에 표시합니다. Surface Hub에서 고대역폭 디지털 콘텐츠 보호 (HDCP) 신호를 발견 하면 원본이 검정색 이미지로 표시 됩니다. HDCP 요구 사항을 위반하지 않고 콘텐츠를 표시하려면 Surface Hub의 오른쪽 키패드를 사용하여 외부 소스를 직접 선택합니다.
+게스트 모드는 사용자가 장치의 콘텐츠를 Surface Hub에 표시할 수 있도록 유선 연결을 사용합니다. 원본 장치가 Windows 기반이면 해당 장치는 Touchback 및 Inkback도 제공할 수 있습니다. Surface Hub의 내부 PC는 연결된 장치에서 비디오 및 오디오를 가져와 Surface Hub에 표시합니다. SURFACE HUB HDCP(High-Bandwidth Protection) 신호가 발생하면 원본이 검은색 이미지로 표시됩니다. HDCP 요구 사항을 위반하지 않고 콘텐츠를 표시하려면 Surface Hub의 오른쪽 키패드를 사용하여 외부 소스를 직접 선택합니다.
 
 >[!NOTE]
 >HDCP 원본이 연결된 경우 측면 키패드를 사용하여 소스 입력을 변경합니다.
 
-### 포트
+### <a name="ports"></a>포트
 
 Surface Hub의 다음 포트를 게스트 모드에 사용합니다.
 
@@ -116,7 +116,7 @@ Surface Hub의 다음 포트를 게스트 모드에 사용합니다.
 
  
 
-### 포트 위치
+### <a name="port-locations"></a>포트 위치
 
 다음은 55인치 및 84인치 Surface Hub의 게스트 모드에 사용되는 포트 연결입니다.
 
@@ -128,7 +128,7 @@ Surface Hub의 다음 포트를 게스트 모드에 사용합니다.
 
 84인치 Surface Hub의 유선 포트 연결
 
-### 포트 열거
+### <a name="port-enumeration"></a>포트 열거
 
 유선 연결 USB 포트를 통해 Surface Hub를 게스트 컴퓨터에 연결하면 여러 USB 장치가 검색되고 구성됩니다. 이러한 주변 장치는 Touchback 및 Inkback을 위해 고안되었습니다. 주변 장치는 장치 관리자에서 확인할 수 있습니다. 장치 관리자는 일부 장치에 대해 중복된 이름을 표시합니다.
 
@@ -162,7 +162,7 @@ Surface Hub의 다음 포트를 게스트 모드에 사용합니다.
 
 -   USB 복합 장치
 
-### 게스트 모드 연결
+### <a name="guest-mode-connectivity"></a>게스트 모드 연결
 
 비디오 케이블은 원본 입력에서 사용 가능한 항목에 따라 결정됩니다. Surface Hub의 비디오 입력 옵션은 DisplayPort, HDMI, VGA 등 세 가지입니다. 사용 가능한 해상도는 다음 차트를 참조하세요.
 
@@ -243,20 +243,20 @@ Surface Hub의 다음 포트를 게스트 모드에 사용합니다.
 
 게스트 모드에 사용 중인 컴퓨터가 Touchback 및 Inkback과 호환되지 않으면 USB 케이블이 필요하지 않습니다.
 
-## 대체 PC 모드
+## <a name="replacement-pc-mode"></a>대체 PC 모드
 
 
 대체 PC 모드에서는 Surface Hub에 포함된 컴퓨터가 꺼져 있고 외부 PC가 Surface Hub에 연결되어 있습니다. 대체 PC 포트에 연결하면 화면, 펜 및 터치 기능을 비롯하여 Surface Hub의 주요 주변 장치에 액세스할 수 있습니다. 이는 Surface Hub에서 Windows 팀 환경의 이점을 이용할 수 없지만 자신의 고유한 Windows 컴퓨터를 제공하여 관리하는 데 따른 유연성을 활용할 수 있음을 의미합니다.
 
-### 소프트웨어 요구 사항
+### <a name="software-requirements"></a>소프트웨어 요구 사항
 
 64비트 버전의 Windows 10 Home, Windows 10 Pro 및 Windows 10 Enterprise에서 대체 PC 모드로 Surface Hub를 실행할 수 있습니다. Microsoft 다운로드 센터에서 [Surface Hub 대체 PC 드라이버 패키지](https://www.microsoft.com/download/details.aspx?id=52210)를 다운로드할 수 있습니다. 대체 PC로 사용하려는 모든 컴퓨터에 이러한 드라이버를 설치하는 것이 좋습니다.
 
-### 하드웨어 요구 사항
+### <a name="hardware-requirements"></a>하드웨어 요구 사항
 
 Surface Hub는 다양한 하드웨어와 호환됩니다. 사용할 프로그램을 지원하도록 대체 PC의 프로세서 및 메모리를 확인하고 선택합니다. 대체 PC 하드웨어가 64비트 버전의 Windows 10을 지원해야 합니다.
 
-### 그래픽 어댑터
+### <a name="graphics-adapter"></a>그래픽 어댑터
 
 대체 PC 모드에서는 Surface Hub가 DisplayPort 신호를 생성할 수 있는 모든 그래픽 어댑터를 지원합니다. Surface Hub의 해상도 및 새로 고침 빈도에 부합되는 그래픽 어댑터를 사용하여 환경을 개선할 수 있습니다. 예를 들어 Surface Hub에서 권장되는 최상의 대체 PC 경험은 120Hz 비디오 신호 사용입니다.
 
@@ -295,7 +295,7 @@ Surface Hub는 다양한 하드웨어와 호환됩니다. 사용할 프로그램
 
  
 
-### 포트
+### <a name="ports"></a>포트
 
 55인치 Surface Hub의 대체 PC 포트입니다.
 
@@ -411,7 +411,7 @@ Surface Hub는 다양한 하드웨어와 호환됩니다. 사용할 프로그램
 
  
 
-### 대체 PC 설치 지침
+### <a name="replacement-pc-setup-instructions"></a>대체 PC 설치 지침
 
 **대체 PC 모드를 사용하려면**
 
@@ -445,19 +445,19 @@ Surface Hub를 전환하여 내부 PC를 사용할 수 있습니다.
 3.  전원 케이블 옆에 있는 전원 스위치를 사용하여 Surface Hub를 켭니다.
 
  
-## 비디오 출력
+## <a name="video-out"></a>비디오 출력
  
 Surface Hub에는 Surface Hub의 시각적 콘텐츠를 다른 디스플레이에서 미러링하기 위한 비디오 출력 포트가 포함되어 있습니다.
 
-### 포트
+### <a name="ports"></a>포트
 
 55인치 Surface Hub의 비디오 출력 포트
 
-![비디오 출력 포트 그림](images/video-out-55.png)
+![비디오 출력 포트 그림.](images/video-out-55.png)
 
 84인치 Surface Hub의 비디오 출력 포트
 
-![비디오 출력 포트 그림](images/video-out-84.png)
+![비디오 출력 포트 그림.](images/video-out-84.png)
 
 <table>
 <thead>
@@ -481,12 +481,12 @@ Surface Hub에는 Surface Hub의 시각적 콘텐츠를 다른 디스플레이�
 </tbody>
 </table>
 
-## 케이블
+## <a name="cables"></a>케이블
 
 55인치 및 84인치 Surface Hub 장치는 인증된 DisplayPort 및 HDMI 케이블과 함께 작동하도록 테스트되었습니다.  여러 공급업체에서 Surface Hub와 함께 작동할 수도 있는 더 긴 케이블을 판매하지만 테스트 랩을 통해 인증된 케이블만 Surface Hub와 작동합니다. 예를 들어 DisplayPort 케이블은 최대 3미터로 인증되었지만 많은 공급업체에서 이보다 3배 긴 케이블을 판매합니다. 긴 케이블이 필요한 경우 HDMI를 사용하는 것이 좋습니다.  HDMI는 리피터 사용을 포함하여 장거리 케이블에 대한 경제적인 솔루션을 제공합니다. HDMI 싱크가 감지되는 경우 거의 모든 DisplayPort 소스가 HDMI 신호로 자동 전환됩니다.
 
 
-## Bluetooth 액세서리
+## <a name="bluetooth-accessories"></a>Bluetooth 액세서리
 
 다음 액세서리를 Bluetooth를 사용하여 Surface Hub에 연결할 수 있습니다.
 

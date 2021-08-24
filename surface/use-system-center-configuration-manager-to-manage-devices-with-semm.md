@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 10/28/2020
-ms.openlocfilehash: 9f3db9428e188aa20399d26c066507d76c90ba57
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 3a70f08ded5ad19b8bc2dc8a7e4fe6d85d972c43
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708789"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911623"
 ---
 # <a name="use-microsoft-endpoint-configuration-manager-to-manage-devices-with-semm"></a>Microsoft Endpoint Configuration Manager를 사용하여 SEMM에서 디바이스 관리
 
@@ -80,7 +80,7 @@ Microsoft Surface UEFI 관리자를 제거하는 명령은 다음과 같습니�
 
    * **정보 가져오기** – 응용 프로그램 만들기 마법사가 응용 프로그램 **** .msi 구문 분석하고 응용 프로그램 이름 및 제품 **코드를 읽습니다.** SurfaceUEFIManagerSetup.msi 내용은 그림 1과 같이 콘텐츠 **** 파일 줄에서 유일한 파일로 나열해야 합니다. 계속하려면 **다음을** 선택합니다.
 
-      ![Surface UEFI 관리자 설정의 정보가 자동으로 구문 분석됩니다.](images/config-mgr-semm-fig1.png "Information from Surface UEFI Manager setup is automatically parsed")
+      ![Surface UEFI 관리자 설치의 정보가 자동으로 구문 분석됩니다.](images/config-mgr-semm-fig1.png "Information from Surface UEFI Manager setup is automatically parsed")
 
       *그림 1. Microsoft Surface UEFI 관리자 설치의 정보가 자동으로 구문 분석됩니다.*
 
@@ -438,7 +438,7 @@ CONFIGURATION Manager에 SEMM Configuration Manager 스크립트를 응용 프�
        - 값 필드에 스크립트의 줄 58에 입력한 인증서의 이름을 **입력합니다.**
        - **확인을** 선택하여 검색 규칙 **창을 닫습니다.**
 
-     ![레지스트리 키를 사용하여 SEMM에 등록된 장치 식별](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
+     ![레지스트리 키를 사용하여 SEMM에 등록된 장치를 식별합니다.](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
      
      *그림 3. 레지스트리 키를 사용하여 SEMM에 등록된 장치 식별*
 

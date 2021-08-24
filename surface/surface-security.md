@@ -12,12 +12,12 @@ ms.date: 06/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 67ba96129d69cafaa7a1b24ce3dde98767b676ef
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 193053745628b434c07a63f23a042e95fead32eb
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614131"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911813"
 ---
 # <a name="surface-security-overview"></a>Surface 보안 개요
 
@@ -87,7 +87,7 @@ Surface 디바이스의 신뢰 루트는 서명 및 측정을 확인하여 다�
 그림 2에 표시된 것 처럼 펌웨어의 무결성은 각 단계에서 전원 단추를 눌러 운영 체제를 실행하는지 검사합니다.
 
  > [!div class="mx-imgBorder"]
- > ![그림 1. Surface 디바이스의 보안 부팅 ](images/secboot.png)
+ > ![그림 1. Surface 디바이스에 대한 보안 부팅. ](images/secboot.png)
   *그림 1. Surface 디바이스용 보안 부팅*
 
 | 단계  | 보안 부팅 단계                                                                                                                                                                                                                                      |

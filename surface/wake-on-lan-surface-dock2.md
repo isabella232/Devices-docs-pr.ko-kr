@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 7/30/2021
-ms.openlocfilehash: 935cec6eed15b7831bffafdc2078a9cadf2067e2
-ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
+ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "11710582"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911613"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>Surface Dock 2를 사용한 Wake On LAN
 

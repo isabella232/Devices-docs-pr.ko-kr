@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 manager: laurawi
 audience: itpro
 ms.date: 1/15/2021
-ms.openlocfilehash: 07e4131321387a410e5abd5b7039128942b1b339
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 52e43a1ac14f89f5671b6fad8fc2e1ef49480470
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708799"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911843"
 ---
 # <a name="battery-limit-setting"></a>배터리 제한 설정
 
@@ -36,21 +36,21 @@ ms.locfileid: "11708799"
 
 Surface UEFI 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다( 디바이스를 켜면**Power + Vol Up).** 부팅 **구성 을**선택한 다음 고급 **옵션**에서 배터리 **제한** 모드 사용을 으로 **전환합니다.**  
 
-![배터리 제한 고급 옵션](images/enable-bl.png)
+![배터리 제한 고급 옵션.](images/enable-bl.png)
 
 ## <a name="enabling-battery-limit-on-surface-go-and-surface-go-2"></a>Surface Go 및 Surface Go 2에서 배터리 제한 사용
 
 Surface 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다(디바이스를 켜면**전원 + Vol Up).** 부팅 **구성 을**선택하고 **키오스크**모드에서 슬라이더를 오른쪽으로 이동하여 배터리 제한을 사용으로 **설정합니다.**  
 
-![Surface Go의 키오스크 모드 배터리 제한](images/go-batterylimit.png)
+![Surface Go의 키오스크 모드 배터리 제한.](images/go-batterylimit.png)
 
 ## <a name="enabling-battery-limit-in-surface-uefi-surface-pro-3"></a>Surface UEFI에서 배터리 제한 사용(Surface Pro 3)
 
 Surface UEFI 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다( 디바이스를 켜면**Power + Vol Up).** **키오스크 모드를 선택하고**배터리 제한을 선택한 다음 사용 을 **선택합니다.** ****
 
-![고급 옵션 스크린샷](images/enable-bl-sp3.png)
+![고급 옵션의 스크린샷.](images/enable-bl-sp3.png)
 
-![고급 옵션](images/enable-bl-sp3-2.png)
+![고급 옵션.](images/enable-bl-sp3-2.png)
 
 ## <a name="enabling-battery-limit-using-surface-enterprise-management-mode-semm-or-surface-pro-3-firmware-powershell-scripts"></a>Surface Enterprise 관리 모드(SEMM) 또는 Surface Pro 3 펌웨어 PowerShell 스크립트를 사용하여 배터리 제한 사용
 
@@ -64,7 +64,7 @@ Surface UEFI 배터리 제한은 다음 방법을 통해 구성에도 사용할 
 
 배터리 제한 모드를 구성하려면 SEMM(설정 이상)의 **** 고급 설정 페이지에서 키오스크 Surface Pro 4 설정을 설정하세요. ****
 
-![고급 설정 스크린샷](images/semm-bl.png)
+![고급 설정 스크린샷.](images/semm-bl.png)
 
 ### <a name="using-surface-uefi-manager-powershell-scripts"></a>Surface UEFI 관리자 PowerShell 스크립트 사용
 

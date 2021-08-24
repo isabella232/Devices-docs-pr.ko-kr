@@ -15,67 +15,67 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 3ede7311289dc4bc720735c0142ff3a46fbb69e7
-ms.sourcegitcommit: 582c5a79881c58c4f1aa66cfcab46db966ca9f24
+ms.openlocfilehash: 48f89e8929bdb9d075bea988558fea234da5bbd2
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "11016559"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911423"
 ---
-# Microsoft Surface 배포 가속기
+# <a name="microsoft-surface-deployment-accelerator"></a>Microsoft Surface 배포 가속기
 
-SDA (microsoft Surface Deployment Accelerator)는 무료 Microsoft 배포 도구를 사용 하 여 Microsoft 권장 배포 환경의 작성과 구성을 자동화 합니다.
+Microsoft SDA(Surface 배포 가속기)는 무료 Microsoft 배포 도구를 사용하여 Microsoft 권장 배포 환경의 생성 및 구성을 자동화합니다.
 
-2020 년 4 월에 다시 디자인 됨 기업 환경에서 화면 이미지 배포를 간소화 하 고 자동화 하기 위해 SDA 도구를 사용 하 여 조직의 요구 사항에 맞게 사용자 지정할 수 있는 "팩토리" Windows 이미지를 빌드할 수 있습니다.
+회사 환경에서 Surface 이미지 배포를 간소화하고 자동화하기 위해 2020년 4월에 다시 디자인된 SDA 도구를 사용하면 조직의 요구 사항에 맞게 사용자 지정할 수 있는 "공장과 같은" Windows 이미지를 빌드할 수 있습니다.
 
-오픈 소스, 스크립트 기반 SDA 도구는 Windows 10 용 Windows ADK (평가 및 배포 키트)를 활용 하 여 테스트 또는 프로덕션 환경에서 WIM (Windows 이미지) 만들기를 촉진 합니다. 최신 ADK가 아직 설치 되지 않은 경우, SDA 도구를 실행할 때 다운로드 및 설치 됩니다.
+오픈 소스 스크립트 기반 SDA 도구는 테스트 또는 프로덕션 환경에서 WIM(Windows 이미지)을 만들 수 있는 Windows 10 ADK(Windows Assessment and Deployment Kit)를 활용합니다. 최신 ADK가 설치되어 있지 않은 경우 SDA 도구를 실행하면 다운로드 및 설치됩니다.
 
-결과 이미지는 Microsoft Office 또는 Surface UWP 응용 프로그램과 같이 사전 설치 된 응용 프로그램 없이도 완전 복구 (BMR) 이미지의 구성과 일치 합니다.
+결과 이미지는 미리 설치된 응용 프로그램(예: Microsoft Office 또는 Surface UWP 응용 프로그램 없이 BMR(Bare Metal Recovery) 이미지의 구성과 밀접하게 일치합니다.
 
-## 요구 사항
+## <a name="requirements"></a>요구 사항
 
-1. USB 엄지 드라이브의 크기는 16gb 이상입니다. USB 드라이브의 포맷이 표시 됩니다.
-2. Windows 10 Pro 또는 Windows 10 Enterprise를 사용 하는 .iso 파일 미디어 만들기 도구를 사용 하 여 Windows 10을 다운로드 하 고 .iso 파일을 만들 수 있습니다. 자세한 내용은 [Windows 10 다운로드](https://www.microsoft.com/software-download/windows10)를 참조 하세요.
-3. Windows 10 버전 2004 이상을 실행 하는 장치가 인터넷에 액세스 합니다.
+1. USB 썸 드라이브(16GB 이상) USB 드라이브의 서식이 지정됩니다.
+2. .iso 파일(Windows 10 Pro 또는 Windows 10 Enterprise. 미디어 만들기 도구를 사용하여 파일을 다운로드하고 Windows 10 파일을 만들 수 있습니다. 자세한 내용은 다운로드 를 [Windows 10.](https://www.microsoft.com/software-download/windows10)
+3. 인터넷에 Windows 10 버전 2004 이상을 실행하는 장치입니다.
 
-요구 사항에 대 한 자세한 내용은 추가 정보 문서의 [필수 구성 요소](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#prerequisites) 섹션을 참조 하세요.
+자세한 요구 사항 목록은 README 문서의 [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#prerequisites) 섹션을 참조하십시오.
 
-## SDA를 실행 하는 방법
+## <a name="how-to-run-the-sda"></a>SDA를 실행하는 방법
 
-**SDA를 실행 하려면 다음을 수행 합니다.**
+**SDA를 실행합니다.**
 
-1. GitHub에서 [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) 으로 이동 합니다. 
-2. [추가 정보](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) 문서를 검토 합니다.
-3. [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) 페이지에서 **코드** 단추를 클릭 한 다음 **ZIP 다운로드** 를 선택 하 여 파일을 컴퓨터에 로컬로 저장 합니다.
-4. .Zip 파일을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.
-5. **일반** 탭에서 **차단 해제** 확인란을 선택 하 고 **확인**을 클릭 합니다.
-6. 하드 드라이브의 위치 (예: C:\SDA)에 .zip 파일의 압축을 풉니다.
-7. 관리자 권한 Windows PowerShell 프롬프트를 열고 현재 세션에 대 한 ExecutionPolicy를 무제한으로 설정 합니다.
+1. 에서 [SurfaceDeploymentAccelerator로](https://github.com/microsoft/SurfaceDeploymentAccelerator) GitHub. 
+2. [README 설명서를 검토합니다.](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md)
+3. [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) 페이지에서 코드 단추를 클릭한 다음 **ZIP** 다운로드를 선택하여 컴퓨터에 로컬로 파일을 저장합니다. ****
+4. 파일 .zip 마우스 오른쪽 단추로 클릭한 다음 속성을 **클릭합니다.**
+5. 일반 **탭에서** 차단 해제 **확인란을** 선택한 다음 확인 을 **클릭합니다.**
+6. 하드 .zip 위치로 파일 추출(예: C:\SDA).
+7. 승강된 Windows PowerShell 프롬프트를 열고 현재 세션의 ExecutionPolicy를 무제한으로 설정합니다.
 
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
     ```
-8. 사용자 환경에 대 한 매개 변수를 지정 하는 SDA 스크립트를 실행 합니다. 이 스크립트를 사용 하 여 다양 한 Surface 장치에 Windows 10을 설치 하기 위한 이미지를 만들 수 있습니다. 지원 되는 디바이스의 전체 목록은 SDA README 문서의 [장치 매개 변수 설명을](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) 참조 하세요. 
+8. 환경에 대한 매개 변수를 지정하는 SDA 스크립트를 실행합니다. 이 스크립트를 사용하여 다양한 Surface 디바이스에 Windows 10 이미지를 만들 수 있습니다. 지원되는 장치의 전체 목록은 SDA README 문서의 [Device 매개](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) 변수 설명을 참조하세요. 
 
-    예를 들어 다음 명령어는 [Surface Hub 2에 Windows 10을 설치](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os)하는 데 사용할 수 있는 부팅 가능 USB 드라이브를 만듭니다.
+    예를 들어 다음 명령은 [2에](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os)설치하는 데 사용할 수 있는 부팅 가능한 USB 드라이브를 Windows 10 Surface Hub 있습니다.
 
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
     ```
-    예제 스크립트 출력은 다음과 같습니다.
+    샘플 스크립트 출력은 아래에 있습니다.
 
-   ![Surface Deployment Accelerator 도구 실행](images/sda1.png)
+   ![Surface 배포 가속기 도구를 실행합니다.](images/sda1.png)
 
-    스크립트를 실행 하는 데 약 45 분이 필요 하지만 사용 가능한 CPU 및 디스크 리소스에 따라 시간이 더 걸릴 수 있습니다. 
+    스크립트를 실행하려면 약 45분이 필요하지만 사용 가능한 CPU 및 디스크 리소스에 따라 더 오래 걸릴 수 있습니다. 
 
-    Windows 이미지를 만든 후 스크립트는 USB 드라이브의 드라이브 문자를 삽입 하 고 확인 하 라는 메시지를 표시 합니다. 그런 다음 USB 드라이브는 부팅 가능으로 구성 되 고 화면 장치에 대 한 사용자 지정 Windows 10 이미지의 설치를 위해 복사 된 파일을 사용 하도록 설정 됩니다.
+    스크립트를 Windows USB 드라이브의 드라이브 문자를 삽입하고 확인하게 됩니다. 그런 다음 USB 드라이브의 서식을 지정하고 부팅 가능으로 구성하며, Surface 디바이스에 대한 사용자 지정 Windows 10 이미지를 설치할 수 있도록 복사됩니다.
 
-9. Windows 10을 설치할 장치에 USB 드라이브를 삽입 하 고 다시 부팅 하 여 Windows 10 설치를 시작 합니다. BIOS에서 USB 부팅을 사용 하도록 설정 해야 하며, 보안 부팅을 일시적으로 사용 하지 않도록 설정할 수 있습니다.
+9. USB 드라이브를 설치하려는 장치에 USB 드라이브를 Windows 10 다시 시작하여 설치를 Windows 10. USB 부팅은 BIOS에서 사용하도록 설정해야 합니다. 이 경우 보안 부팅을 일시적으로 사용하지 않도록 설정해야 할 수 있습니다.
 
 > [!IMPORTANT]
-> USB 드라이브에서 부팅 하는 즉시 Windows 10 설치를 시작 합니다. USB를 삽입 하 고 다시 시작 하기 전에 장치가 준비 되었는지 확인 합니다. 
+> USB 드라이브에서 부팅하면 즉시 USB 드라이브 설치가 Windows 10. USB를 삽입하고 다시 시작하기 전에 장치가 준비되어 있는지 확인합니다. 
 
-## 관련 링크
+## <a name="related-links"></a>관련 링크
 
- - [GitHub에서 릴리스된 소스 이미지 배포 도구 열기](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
- - [Windows ADK 다운로드 및 설치](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
+ - [2016년 8월에 릴리스된 오픈 소스 이미지 GitHub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
+ - [ADK 다운로드 Windows 설치](https://docs.microsoft.com/windows-hardware/get-started/adk-install)

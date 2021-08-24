@@ -1,5 +1,5 @@
 ---
-title: Surface 디바이스에서 DFCI 관리
+title: Surface 장치에서 DFCI 관리
 description: 이 문서에서는 대상 Surface 디바이스의 펌웨어 설정을 Microsoft Intune DFCI 환경을 구성하는 방법을 설명합니다.
 ms.localizationpriority: medium
 ms.prod: w10
@@ -20,14 +20,14 @@ appliesto:
 - Surface Book 3
 - Surface Laptop Go
 - Surface Laptop 4
-ms.openlocfilehash: 871bead0ae5f73c546b8dbe219d71b819d3a865e
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: b9b58406bbd256e79aec9065c5e25f618e584a02
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676452"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911973"
 ---
-# <a name="manage-dfci-on-surface-devices"></a>Surface 디바이스에서 DFCI 관리
+# <a name="manage-dfci-on-surface-devices"></a>Surface 장치에서 DFCI 관리
 
 ## <a name="introduction"></a>소개
 
@@ -45,7 +45,7 @@ Surface Windows 10 실행하는 컴퓨터와 마찬가지로 Surface 디바이�
 
  Microsoft Intune 통합된 UEFI 펌웨어 관리 기능을 사용하면 하드웨어를 잠그는 기능이 간소화되고 프로비저닝, 보안에 대한 새로운 기능과 함께 사용하기가 쉬워지며 단일 콘솔에서 모든 업데이트가 간소화되어 이제는 통합되어 [Microsoft Endpoint Manager.](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager) 다음 그림에서는 디바이스(왼쪽)에서 직접 보고 Endpoint Manager 콘솔(오른쪽)에서 UEFI 설정을 보여줍니다.
 
-![디바이스(왼쪽) 및 Endpoint Manager UEFI 설정(오른쪽)](images/uefidfci.png)
+![UEFI 설정은 디바이스(왼쪽) 및 Endpoint Manager 콘솔(오른쪽)에 표시됩니다.](images/uefidfci.png)
 
 중요하게 DFCI는 제로 터치 관리를 가능하게 하여 IT 관리자가 수동으로 상호 작용할 필요가 없습니다. DFCI는 Intune의 장치 Windows 기능을 사용하여 Autopilot을 통해 배포됩니다. 장치 프로필을 사용하면 조직 내의 관리에 등록된 장치에 배포할 수 있는 설정을 추가하고 구성할 수 있습니다. 디바이스가 장치 프로필을 받으면 기능 및 설정이 자동으로 적용됩니다. 일반적인 장치 프로필의 예로는 전자 메일, 장치 제한, VPN, Wi-Fi 및 관리 템플릿이 있습니다. DFCI는 단순히 사내 인프라를 유지 관리하지 않고도 클라우드에서 UEFI 구성 설정을 관리할 수 있는 추가 장치 프로필입니다.  
 
@@ -87,12 +87,12 @@ DFCI 정책 설정을 구성하기 전에 먼저 DFCI 프로필을 만들어 대
 3. 플랫폼 **Windows 10 이상을** 선택합니다.
 4. 프로필 유형 드롭다운 목록에서 **** 장치 펌웨어 구성 인터페이스를 선택하여 사용 가능한 모든 정책 설정이 포함된 DFCI 블레이드를 니다. DFCI 설정에 대한 자세한 내용은 이 페이지의 표 1 또는 Intune 설명서를 [참고하십시오.](/intune/configuration/device-firmware-configuration-interface-windows) DFCI 프로필을 편집하여 초기 설치 프로세스 또는 이후 단계에서 DFCI 설정을 구성할 수 있습니다.
 
-    ![DFCI 프로필 만들기](images/df1.png)
+    ![DFCI 프로필을 생성합니다.](images/df1.png)
 
 5. **확인을 클릭한** 다음 **만들기를 선택합니다.**
 6. 다음 그림과 **** 같이 **할당을** 선택하고 그룹 선택에서 대상 장치가 포함된 Azure AD 보안 그룹을 선택합니다. **저장**을 클릭합니다.
 
-    ![보안 그룹 할당](images/df2a.png)
+    ![보안 그룹을 할당합니다.](images/df2a.png)
 
 ## <a name="create-autopilot-profile"></a>Autopilot 프로필 만들기
 
@@ -105,7 +105,7 @@ DFCI 정책 설정을 구성하기 전에 먼저 DFCI 프로필을 만들어 대
 
 4. 다음 그림과 같이 나머지 기본 설정은 변경되지 않은 것으로 유지하고 **다음을**선택합니다.
 
-    ![Autopilot 프로필 만들기](images/df3b.png)
+    ![Autopilot 프로필을 생성합니다.](images/df3b.png)
 
 5. 할당 페이지에서 포함할 그룹 선택을 **선택하고** Azure AD 보안 그룹을 클릭합니다. **다음**을 선택합니다.
 6. 요약을 수락한 다음 만들기를 **선택합니다.** 이제 Autopilot 프로필이 만들어지며 그룹에 할당됩니다.
@@ -125,7 +125,7 @@ DFCI에는 하드웨어 수준에서 장치를 잠가 추가 수준의 보안을
 
 - Endpoint Manager 에서 devicemanagement.microsoft.com 속성 > Windows > **"DFCI**프로필 이름"> 장치 > 선택합니다> 설정.
 
-    ![DFCI 설정 구성](images/dfciconfig.png)
+    ![DFCI 설정을 구성합니다.](images/dfciconfig.png)
 
 ### <a name="block-user-access-to-uefi-settings"></a>UEFI 설정에 대한 사용자 액세스 차단
 
@@ -172,7 +172,7 @@ Intune 정책 설정은 일반적으로 거의 즉시 적용되지만 설정이 
 1. 볼륨 + 및 전원 단추를 동시에 **** 누르는 **** 데 사용할 수 있는 Surface UEFI를 니다.
 2. 장치를 **선택합니다.** UEFI 메뉴는 다음 그림과 같이 구성된 설정을 반영합니다.
 
-    ![Surface UEFI](images/df3.png)
+    ![Surface UEFI.](images/df3.png)
 
     다음 방법을 참고합니다.
 

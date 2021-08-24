@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 04/15/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: c94cb701fb1b7fcdc0168a795f57a4e497317902
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: fb0948623ec9c12aa818e4829285ea77229bf71d
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585969"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911583"
 ---
 # <a name="update-pen-firmware-on-surface-hub-2s"></a>Surface Hub 2S에서 펜 펌웨어 업데이트
 
@@ -63,7 +63,7 @@ ms.locfileid: "11585969"
 
 2. 이 도구는 펜의 펌웨어 버전을 보고합니다. 
 
-   예:
+   예제:
     - 이전 펌웨어는 468.2727.368입니다.
     - 새 펌웨어는 468.3347.368입니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "11585969"
 
 3. 추가 옵션을PenCfu.exe ** -h를 실행하여** 다음 표에 나열된 사용 가능한 매개 변수를 표시합니다.  
 
-   예: `PenCfu.exe -h`
+   예제: `PenCfu.exe -h`
 
 4. **Ctrl+C를** 입력하여 도구를 안전하게 종료합니다.
 

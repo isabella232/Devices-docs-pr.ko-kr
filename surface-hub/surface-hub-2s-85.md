@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/26/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: b87d7c5bff6f885d69c3f74d6c1e454f47b89c4f
-ms.sourcegitcommit: b7fa6865e8f4209552a8130b861a1edef1b6666d
+ms.openlocfilehash: c5cddde47b2046badf3f6deba5791b7642e044f3
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "11615528"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912033"
 ---
 # <a name="surface-hub-2s-85-overview--tech-specs"></a>Surface Hub 2S 85" 개요 & 기술 사양
 
@@ -26,7 +26,7 @@ ms.locfileid: "11615528"
 - **일관된 Surface Hub 2S 환경.** 2S 50"과 동일한 프리미엄 디자인, 4K 디스플레이 기술, 터치, 펜/잉크, 계산 카메라 및 카메라 Surface Hub 제공합니다.
 - **기존 및 새 A/V 시스템과의 통합** 인증된 Microsoft Teams 장치와 결합하고 Microsoft Teams 룸.
 
-![Surface Hub 2S 85"](images/hub-2s-85.png)
+![Surface Hub 2S 85".](images/hub-2s-85.png)
 
 ## <a name="surface-hub-2s-85-tech-specs"></a>Surface Hub 2S 85" 기술 사양
 

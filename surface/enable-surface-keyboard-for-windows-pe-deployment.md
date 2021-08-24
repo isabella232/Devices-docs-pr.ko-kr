@@ -19,12 +19,12 @@ appliesto:
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
-ms.openlocfilehash: 1ee3376a24d3e83cc66c8a220a1f7afa195840d0
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 96c1a641ae964752afa4f4ea3c2817a026a419ba
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676722"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912013"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>MDT 배포 Surface Laptop 키보드를 사용하도록 설정하는 방법
 
@@ -78,21 +78,21 @@ ms.locfileid: "11676722"
 
 1. 다음 그림과 같이 WindowsPEX64 폴더에 가져온 드라이버가 포함되어 있는지 확인합니다.
 
-   ![Deployment Workbench의 WindowsPEX64 폴더에 새로 가져온 드라이버를 보여 주는 이미지](./images/surface-laptop-keyboard-2.png)
+   ![Deployment Workbench의 WindowsPEX64 폴더에 새로 가져온 드라이버를 보여 주는 이미지입니다.](./images/surface-laptop-keyboard-2.png)
 1. 다음 그림과 같이 WindowsPEX64 폴더를 사용하는 선택 프로필을 구성합니다.
 
-   ![선택 프로필의 일부로 선택된 WindowsPEX64 폴더를 보여 주는 이미지](./images/surface-laptop-keyboard-3.png)
+   ![선택 프로필의 일부로 선택된 WindowsPEX64 폴더를 보여 주는 이미지입니다.](./images/surface-laptop-keyboard-3.png)
 1. 다음과 Windows 선택 프로필을 사용하도록 MDT 배포 공유의 PE 속성을 구성합니다.
     - **플랫폼의**경우 **x64 를 선택합니다.**
     - 선택 **프로필의 경우**새 프로필을 선택합니다.
     - 선택 **프로필의 모든 드라이버 포함을 선택합니다.**
 
-    ![MDT 배포 공유의 Windows PE 속성을 보여 주는 이미지](./images/surface-laptop-keyboard-4.png)
+    ![MDT 배포 공유의 Windows PE 속성을 보여 주는 이미지입니다.](./images/surface-laptop-keyboard-4.png)
 4. 선택 프로필 또는 **DriverGroup001** 변수를 사용하여 나머지 Surface Laptop 드라이버를 구성해야 합니다.
     - Surface Laptop(1세대)의 경우 모델이 **Surface Laptop.** 나머지 Surface Laptop 드라이버는 다음 그림과 같이 \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 폴더에 상주해야 합니다.
     - Surface Laptop 2의 경우 모델이 Surface Laptop **2입니다.** 나머지 Surface Laptop 드라이버는 \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 2 폴더에 배치해야 합니다.
     - Intel Surface Laptop 3의 경우 모델이 Surface Laptop 3입니다. 나머지 Surface Laptop 드라이버는 \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 폴더에 있습니다.
 
-    ![Deployment Workbench의 Surface Laptop 폴더에 있는 일반 Surface Laptop(1세대) 드라이버를 보여 주는 이미지](./images/surface-laptop-keyboard-5.png)
+    ![Deployment Workbench의 Surface Laptop 폴더에 있는 일반 Surface Laptop(1세대) 드라이버를 보여 주는 이미지입니다.](./images/surface-laptop-keyboard-5.png)
 
 새 선택 프로필 및 관련 설정을 사용하기 위해 MDT 배포 공유를 구성한 후 MDT를 사용하여 Windows 10 이미지 [배포: 6단계:](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence)배포 작업 순서 만들기에 설명된 배포 프로세스를 계속합니다.

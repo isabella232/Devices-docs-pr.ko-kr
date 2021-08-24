@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 audience: itpro
 ms.date: 05/17/2021
-ms.openlocfilehash: d96581cd67e9cd4171fbb745aed4e9b34e2f0627
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 292c20c9999d9f226f28daed87069c78b43fd4bf
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576628"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911193"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Microsoft Surface 데이터 지우개
 
@@ -77,12 +77,12 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들려면 먼저 이 문�
 
 3. 그림 1에서와 같이 **Start**(시작)를 클릭하여 4GB 이상의 USB 스틱이 연결되어 있음을 확인합니다.
 
-   ![Microsoft Surface 데이터 지우개 도구 시작](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
+   ![Microsoft Surface 데이터 지우개 도구를 시작하십시오.](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *그림 1. Microsoft Surface 데이터 지우개 도구 시작*
 4. 그림 **** **2와** 같이 아키텍처 선택 페이지에서 대부분의 Surface 디바이스에 x64를, 아키텍처 선택 페이지에서 Surface Pro X용 **ARM64를** 선택합니다. **계속**을 선택합니다.
 
-    ![아키텍처 선택](images/dataeraser-arch.png "Architecture Selection")<br>
+    ![아키텍처 선택.](images/dataeraser-arch.png "Architecture Selection")<br>
        *그림 2. 디바이스 아키텍처 선택*
 
 5. 그림 3에 표시된 USB **Thumb Drive 선택** 페이지에서 원하는 USB 드라이브를 **** 선택한 다음 시작을 클릭하여 USB 만들기 프로세스를 시작합니다. 선택한 드라이브가 포맷되고 이 드라이브의 기존 데이터는 손실됩니다.
@@ -90,7 +90,7 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들려면 먼저 이 문�
    >[!TIP]
    >시작 단추가 사용되지 않도록 설정되어 있으면 이동식 드라이브의 총 용량이 4GB 이상인지 확인하세요.
   
-   ![USB 썸 드라이브(thumb drive) 선택](images/dataeraser-usb-selection.png "USB thumb drive selection")
+   ![USB 썸 드라이브 선택](images/dataeraser-usb-selection.png "USB thumb drive selection")
 
    *그림 3. USB 썸 드라이브(thumb drive) 선택*
 
@@ -98,7 +98,7 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들려면 먼저 이 문�
 
 7. **Congratulations**(축하합니다.) 화면이 표시되면 썸 드라이브(thumb drive)를 꺼내어 제거할 수 있습니다. 이제 이 썸 드라이브(thumb drive)를 Surface 디바이스에 삽입하고, 부팅하여 디바이스에 있는 데이터를 지울 수 있습니다. 그림 **** 4에 표시된 같이 완료를 클릭하여 USB 만들기 프로세스를 완료합니다.
 
-   ![Surface 데이터 지우개 USB 만들기 프로세스](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
+   ![Surface 데이터 지우개 USB 만들기 프로세스입니다.](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
 
    *그림 4. Microsoft Surface 데이터 지우개 USB 만들기 프로세스 완료*
 
@@ -135,7 +135,7 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들고 나면 다음 절�
    >[!CAUTION]
    >Microsoft Surface 데이터 지우개 도구는 장치를 부팅하는 데 필요한 Windows 운영 체제 파일을 비롯하여 안전하고 복구할 수 없는 방식으로 모든 데이터를 삭제합니다. Microsoft Surface 데이터 지우개로 지운 Surface 장치를 부팅하려면 먼저 Windows 운영 체제를 다시 설치해야 합니다. Windows 운영 체제를 제거하지 않고 Surface 장치에서 데이터를 제거하려면 **PC 초기화** 기능을 사용할 수 있습니다. 그러나 이 기능은 포렌식 또는 데이터 복구 기능으로 데이터가 복구되지 않도록 방지합니다. 자세한 내용은 [Windows 10의 복구 옵션](https://support.microsoft.com/help/12415/windows-10-recovery-options)을 참조하세요.
 
-   ![지울 파티션이 표시됨](images/sda-fig5-erase.png "Partition to be erased is displayed")
+   ![지울 파티션이 표시됩니다.](images/sda-fig5-erase.png "Partition to be erased is displayed")
   
    *그림 6. Microsoft Surface 데이터 지우개에 지울 파티션이 표시됨*
 

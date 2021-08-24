@@ -14,12 +14,12 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 463f5670c5e2b7eac9ac7a41b5b2b04da3ebb83e
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676688"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911183"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>앱 및 교육을 비즈니스용 Microsoft Store Surface 앱 배포
 
@@ -81,7 +81,7 @@ Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://w
     * 그림 2에 표시된 같이 **** **선택(온라인** 또는 오프라인 선택)이 표시됩니다.
     
       > [!div class="mx-imgBorder"]
-      > ![오프라인 라이선싱 모드를 선택하고 인벤토리에 앱 추가](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
+      > ![오프라인 라이선싱 모드를 선택하고 인벤토리에 앱을 추가합니다.](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
       *그림 2. 오프라인 라이선싱 모드를 선택하고 인벤토리에 앱 추가*
     
     * 오프라인을 **클릭하여** 오프라인 라이선싱 모드를 선택합니다.
@@ -89,8 +89,8 @@ Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://w
     * 앱 **다운로드를 클릭하여** 앱 인벤토리에 비즈니스용 Microsoft Store 추가합니다. 그림 3과 같이 관리 도구를 사용하여 오프라인 앱을 배포하거나 개인 저장소의 회사의 인벤토리 페이지에서 다운로드할 수 있습니다.를 확인하라는 대화 상자가 표시됩니다.
     
       > [!div class="mx-imgBorder"]
-      > ![오프라인 라이선스 앱의 인정 창 그림 ](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
-       *3. 오프라인 사용이 허가된* 앱의 인정
+      > ![오프라인 사용이 허가된 앱의 인정 창입니다. ](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
+       *그림 3. 오프라인 사용이 허가된* 앱의 인정
       
     * **확인**을 클릭합니다.
 
@@ -106,7 +106,7 @@ Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://w
 4. 그림 4에 **** 표시된 같이 선택한 앱에 대해 사용 가능한 선택에서 원하는 플랫폼 및 아키텍처 옵션을 선택합니다. ****
 
     > [!div class="mx-imgBorder"]
-    > ![AppxBundle 패키지의 예](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
+    > ![AppxBundle 패키지의 예입니다.](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
     *그림 4. 앱에 대한 AppxBundle 패키지 다운로드*
     
 5. 다운로드를 **클릭합니다.** AppxBundle 패키지가 다운로드됩니다. 다운로드한 파일의 경로는 이 문서의 부분에 필요하기 때문에 유의해야 합니다.
@@ -121,7 +121,7 @@ Surface 앱은 에서 무료로 다운로드할 [수 Microsoft Store.](https://w
 그림 5는 Surface 앱에 필요한 프레임워크를 보여줍니다.
 
 > [!div class="mx-imgBorder"]
-> ![Surface 앱에 필요한 프레임워크](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
+> ![Surface 앱에 필요한 프레임워크입니다.](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
 *그림 5. Surface 앱에 필요한 프레임워크*
 
 >[!NOTE]

@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: 1ba8da50472927ff106b7243d89c15995844b191
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: 60ace1e2b9344faeb9f130a56686ffac4643fc37
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11883025"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911323"
 ---
 # <a name="manage-surface-uefi-settings"></a>Surface UEFI 설정 관리
 
@@ -92,19 +92,19 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 암호는 6자 이상이어야 하며 대/소문자를 구분합니다.
 
-![Surface UEFI 설정 보호를 위해 암호 추가](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
+![Surface UEFI 설정을 보호하기 위해 암호를 추가합니다.](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
 *그림 3. Surface UEFI 설정 보호를 위해 암호 추가*
 
 보안 페이지에서 Surface 디바이스에 대한 보안 부팅 구성을 변경할 수도 있습니다. 보안 부팅 기술은 무단 부팅 코드가 Surface 디바이스에서 부팅되는 문제를 방지하여 bootkit 및 루트킷 형식의 맬웨어 감염으로부터 보호합니다. Surface 디바이스에서 타사 운영 체제 또는 부팅 가능한 미디어를 허용하기 위해 보안 부팅을 사용하지 않도록 설정할 수 있습니다. 그림 4에 표시된 같이 타사 인증서에서 작동하도록 보안 부팅을 구성할 수 있습니다. TechNet 라이브러리에서 [보안 부팅](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)에 대해 자세히 알아보세요.
 
-![보안 부팅 구성](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
+![보안 부팅을 구성합니다.](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
 *그림 4. 보안 부팅 구성*
 
 장치에 따라 TPM이 사용 또는 사용되지 않도록 설정되어 있는지 여부도 볼 수 있습니다. **TPM** 사용 설정이 없는 경우 그림 5에 표시된 Windows tpm.msc를 열어 상태를 검사합니다. TPM은 BitLocker로 디바이스 데이터에 대한 암호화를 인증하는 데 사용됩니다. 자세한 내용은 [BitLocker 개요를 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-overview)
 
-![TPM 콘솔](images/manage-surface-uefi-fig5-a.png "TPM console")
+![TPM 콘솔.](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *그림 5. TPM 콘솔*
 
@@ -179,23 +179,23 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 Surface 디바이스 펌웨어를 업데이트할 때 Windows 업데이트나 수동 설치를 사용하여 업데이트가 디바이스에 즉시 적용되지 않고 다음 다시 부팅 주기 동안 적용됩니다. Surface 펌웨어 업데이트 프로세스에 대한 자세한 내용은 Surface 드라이버 및 펌웨어 업데이트 관리 및 [배포에서 찾을 수 있습니다.](manage-surface-driver-and-firmware-updates.md) 펌웨어 업데이트 진행률이 화면에 표시되고 진행률 표시줄은 각 구성 요소의 펌웨어를 나타내는 여러 색으로 구성됩니다. 그림 9-18에는 각 구성 요소의 진행률 표시줄이 나와 있습니다.
 
-![파랑 진행률 표시줄이 표시된 Surface UEFI 펌웨어 업데이트](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
+![파란색 진행률 표시줄이 있는 Surface UEFI 펌웨어 업데이트](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
 *그림 10. 파랑 진행률 표시줄이 표시된 Surface UEFI 펌웨어 업데이트*
 
-![녹색 진행률 표시줄이 표시된 시스템 포함 컨트롤러 펌웨어](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
+![녹색 진행률 표시줄이 있는 시스템 포함 컨트롤러 펌웨어](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
 
 *그림 11. 녹색 진행률 표시줄이 표시된 시스템 포함 컨트롤러 펌웨어*
 
-![주황색 진행률 표시줄이 표시된 SAM 컨트롤러 펌웨어 업데이트](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
+![주황색 진행률 표시줄이 있는 SAM 컨트롤러 펌웨어 업데이트.](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
 
 *그림 12. 주황색 진행률 표시줄이 표시된 SAM 컨트롤러 펌웨어 업데이트*
 
-![빨강 진행률 표시줄이 표시된 Intel 관리 엔진 펌웨어 업데이트](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
+![빨간색 진행률 표시줄이 있는 Intel Management Engine 펌웨어](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
 
 *그림 13. 빨강 진행률 표시줄이 표시된 Intel 관리 엔진 펌웨어 업데이트*
 
-![회색 진행률 표시줄이 표시된 Surface 터치 펌웨어 업데이트](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
+![회색 진행률 표시줄이 있는 Surface 터치 펌웨어](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
 
 *그림 14. 회색 진행률 표시줄이 표시된 Surface 터치 펌웨어 업데이트*
 
@@ -215,14 +215,14 @@ Surface 디바이스 펌웨어를 업데이트할 때 Windows 업데이트나 �
 
 *그림 18. Surface TCON 펌웨어 업데이트에 밝은 회색 진행률 표시줄이 표시됩니다.*
 
-![밝은 자주색 진행률 표시줄이 있는 Surface TPM 펌웨어](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
+![밝은 보라색 진행률 표시줄이 있는 Surface TPM 펌웨어](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *그림 19. Surface TPM 펌웨어 업데이트에 자주색 진행률 표시줄이 표시됩니다.*
 
 >[!NOTE]
 >그림 19에 표시된 같이 보안 부팅이 사용되지 않도록 설정되어 있습니다.를 나타내는 추가 경고 메시지가 표시됩니다.
 
-![보안 부팅이 사용하지 않도록 설정되었음을 나타내는 Surface 부팅 화면](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
+![보안 부팅이 사용하지 않도록 설정되어 있는 경우를 나타내는 Surface 부팅 화면입니다.](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *그림 20. Surface UEFI 설정에서 보안 부팅이 사용하지 않도록 설정되었음을 나타내는 Surface 부팅 화면*
 

@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/14/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 472dc41bd73ace90cccdeb4e52884401c2f9d6d7
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: bdf39a2e664aa9abbd2fbf4790aec0b04c084f64
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613857"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911883"
 ---
 # <a name="migrate-to-windows-10-pro-or-enterprise-on-surface-hub-2"></a>Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
 
@@ -187,7 +187,7 @@ SEMM에 장치를 등록하면 장치를 관리하는 방법에 영향을 미치
 1. 커넥트 USB 드라이브를 PC에 연결합니다.
 1. 허브 **2S를 선택하고**다음 을 **선택합니다.**
 
-   ![허브 2S를 선택할 수 있는 위치를 보여주는 스크린샷](images/shm-fig13.png)
+   ![Screenshot shows where to select Hub 2S.](images/shm-fig13.png)
 
    > [!WARNING]
    > SEMM 패키지를 구축하면 USB 드라이브의 모든 기존 데이터가 삭제됩니다. SEMM 패키지를 빌드하기 전에 USB 드라이브에서 필요한 파일을 제거합니다.

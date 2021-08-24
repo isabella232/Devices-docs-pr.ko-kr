@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/25/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4308ce1ea8ff382dc15706e68d2d706d0fd33f5f
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 384d2d76274121236e76b1b5e45b30505e929c19
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576758"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911809"
 ---
 # <a name="manage-surface-hub-with-an-mdm-provider"></a>MDM 공급자를 사용하여 Surface Hub 관리
 
@@ -65,7 +65,7 @@ Microsoft Intune 및 기타 MDM 공급자는 CSP를 사용하여 구성 프로�
 4. **만들기를**선택하고 이름을 추가한 후 다음을 **선택합니다.**
 6. 이제 앱 및 환경, Azure 운영 Surface Hub, 유지 관리, 세션 및 무선 투영 범주에 대한 미리 설정된 장치 제한 설정을 찾아 선택할 수 있습니다. 다음 그림에 표시된 예제는 4시간의 유지 관리 기간과 화면, 절전 및 세션 다시 시작에 대한 15분의 시간 제한을 지정합니다.
 
-     ![Intune Surface Hub 프로필을 사용하여 설정 구성](images/sh-device-restrictions.png)
+     ![Intune Surface Hub 프로필을 사용하여 사용자 설정을 구성합니다.](images/sh-device-restrictions.png)
 
 프로필을 만들고 관리하는 데 대한 자세한 내용은 에서 정책을 사용하여 장치 기능 [제한을 Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile)
  

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: bb5c08454d6c148c5e07b80ee0b4452e5b768a87
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 9f0f63cb44c54b6350bc478e4fc15455ba94e85f
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676712"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911823"
 ---
 # <a name="create-provisioning-packages-for-surface-hub"></a>Surface Hub용 프로비전 패키지 만들기
 
@@ -43,21 +43,21 @@ ms.locfileid: "11676712"
 ## <a name="use-surface-hub-provisioning-wizard"></a>프로비전 Surface Hub 사용
 
 1. 구성 Windows 열고 장치 **프로비전을 Surface Hub 선택합니다.**<br>
-    ![Surface Hub 프로비저닝 마법사 사용](images/sh-prov-start.png)
+    ![프로비전 Surface Hub 사용](images/sh-prov-start.png)
     
 2. 프로젝트 이름을 지정하고 다음 을 **선택합니다.**
 
 ### <a name="add-certificates"></a>인증서 추가
 
 > [!div class="mx-imgBorder"]
-> ![인증서 추가](images/sh-prov-cert.png)
+> ![인증서를 추가합니다.](images/sh-prov-cert.png)
 
 인증서를 사용하여 장치를 프로비전하려면 인증서 **추가 를 선택합니다.** 인증서 이름을 입력한 다음 사용할 인증서를 선택합니다.  고급 프로비저닝 옵션은 패키지에 인증서 추가 아래의 [섹션을 참조하세요.](#add-a-certificate-to-your-package)
 
 ### <a name="configure-proxy-settings"></a>프록시 설정 구성
 
 > [!div class="mx-imgBorder"]
-> ![프록시 설정 구성](images/sh-prov-proxy.png)
+> ![프록시 설정을 구성합니다.](images/sh-prov-proxy.png)
 
 1. 프록시 설정에서 **예** 또는 **아니오**를 선택합니다. 기본적으로 프록시 Surface Hub 자동으로 검색됩니다. 단, 기존에 프록시 서버가 요구되었다가 프록시 서버를 요구하지 않도록 변경된 인프라의 경우 프로비저닝 패키지를 사용하여 **예s**를 선택하고 **설정 자동 검색**을 선택하여 Surface Hub 장치를 기본 설정으로 되돌릴 수 있습니다.
 2. 예를 전환하는 **** 경우 프록시 설정을 자동으로 검색하도록 선택하거나 다음 중 하나를 입력하여 설정을 수동으로 구성할 수 있습니다.
@@ -72,7 +72,7 @@ ms.locfileid: "11676712"
 ### <a name="set-up-device-admins"></a>장치 관리자 설정
 
  > [!div class="mx-imgBorder"]
- > ![Active Directory, Azure AD에 가입하거나 로컬 관리자 계정 만들기](images/sh2-wcd.png)
+ > ![Active Directory, Azure AD에 가입하거나 로컬 관리자 계정을 만드십시오.](images/sh2-wcd.png)
 
 Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹을 지정할 수 있으며 전역 관리자가 설정 앱을 사용할 수 있도록 Azure Active Directory에 등록하거나 장치에 로컬 관리자 계정을 만들 수 있습니다.
 
@@ -87,7 +87,7 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 ### <a name="enroll-in-third-party-mdm-provider"></a>타사 MDM 공급자에 등록
 
 > [!div class="mx-imgBorder"]
-> ![타사 모바일 장치 관리에 등록](images/sh-prov-mdm.png)
+> ![타사 모바일 장치 관리에 등록합니다.](images/sh-prov-mdm.png)
 
 타사 MDM(모바일 장치 관리) 공급자를 사용하는 경우 이 섹션을 사용하여 MDM을 등록할 수 Surface Hub. Intune에 등록하려면 먼저 이전 섹션에 설명된 바와 같이 Azure AD 가입을 설정하고 다음 Intune 설명서의 지침에 따라 Windows 10 [장치를 등록합니다.](/mem/intune/enrollment/quickstart-setup-auto-enrollment)
 
@@ -100,7 +100,7 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 ### <a name="add-applications"></a>응용 프로그램 추가
 
 > [!div class="mx-imgBorder"]
-> ![응용 프로그램 추가](images/sh-prov-apps.png)
+> ![응용 프로그램을 추가합니다.](images/sh-prov-apps.png)
 
 단일 프로비저닝 패키지로 다수의 UWP(유니버설 Windows 플랫폼)를 설치할 수 있습니다. 자세한 내용은 앱으로 [PC 프로비전을 참조하세요.](/windows/configuration/provisioning-packages/provision-pcs-with-apps)
 
@@ -142,17 +142,17 @@ Active Directory에 장치를 등록하고 설정 앱을 사용할 보안 그룹
 ## <a name="use-advanced-provisioning"></a>고급 프로비전 사용
 
 > [!TIP]
-> 마법사를 사용하여 일반 설정이 포함된 패키지를 만든 후 기타 설정을 추가하려면 고급 편집기로 전환합니다.<br><br> ![고급 편집기로 전환](images/icd-simple-edit.png)
+> 마법사를 사용하여 일반 설정이 포함된 패키지를 만든 후 기타 설정을 추가하려면 고급 편집기로 전환합니다.<br><br> ![고급 편집기로 전환합니다.](images/icd-simple-edit.png)
 
 1. 이전 섹션에서 계속하는 경우 **** 고급 편집기로 전환을 선택하고 그렇지 않으면 구성 디자이너에서 Windows 고급 프로비전을 **선택합니다.** ****
 
-   ![고급 프로비저닝 사용](images/sh-prov-adv.png)
+   ![고급 프로비전을 사용 합니다.](images/sh-prov-adv.png)
 
 2. 프로젝트 이름을 지정하고 다음 을 **선택합니다.**
 
 3. 일반을 **선택하여 Windows 10 Team**를 **** 선택하고 마친 을 **선택합니다.**
 
-   ![WCD 새 프로젝트](images/icd-new-project.png)
+   ![WCD 새 프로젝트입니다.](images/icd-new-project.png)
 
 4. 프로젝트의 사용 **가능한 사용자 지정에서**공통 팀 **설정을 선택합니다.**
 

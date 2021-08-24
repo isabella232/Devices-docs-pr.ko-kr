@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 04/16/2021
-ms.openlocfilehash: 08221db2e4a49ccce1b372689b4dc30d8241ad0d
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 8e30234e72b6533da3d36ca38188c7e199beeeac
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676702"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11910993"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Microsoft Surface Enterprise 관리 모드
 
@@ -58,7 +58,7 @@ Microsoft Surface UEFI 구성기에서 다음을 할 수 있습니다.
 >[!TIP]
 >이제 Surface UEFI 구성기 및 SEMM을 사용하여 Surface Dock 2에서 포트를 관리할 수 있습니다. 자세한 내용은 [SEMM을 통해 Surface Dock 2 포트 보호를 참조합니다.](secure-surface-dock-ports-semm.md)
 
-![Microsoft Surface UEFI 구성기](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
+![Microsoft Surface UEFI 구성기.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
 *그림 1. Microsoft Surface UEFI 구성기*
 
@@ -76,7 +76,7 @@ Microsoft Surface UEFI 구성기는 Microsoft 다운로드 센터의 [Surface To
 
 Surface UEFI 구성 패키지는 Surface 디바이스에서 SEMM을 구현하고 관리하는 기본 메커니즘입니다. 이러한 패키지에는 그림 2에 표시된 구성 파일과 인증서 파일이 포함되어 있습니다. 구성 파일에는 Microsoft Surface UEFI 구성기에서 패키지를 만들 때 지정된 UEFI 설정이 포함되어 있습니다. 구성 패키지가 SEMM에 아직 등록되지 않은 Surface 디바이스에서 처음으로 실행되는 경우 디바이스의 펌웨어에서 인증서 파일을 프로비전하고 SEMM에 장치를 등록합니다. SEMM에 장치를 등록할 때 및 인증서가 저장되고 등록이 완료되기 전에 SEMM 인증서 지문의 마지막 두 자리 숫자를 제공하여 작업을 확인하는 메시지가 표시됩니다. 이 확인을 수행하려면 등록하는 동안 사용자가 실제로 디바이스에 존재해야 합니다.
 
-![인증서를 통해 SEMM 구성 패키지 보안](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
+![인증서를 통해 SEMM 구성 패키지를 보호합니다.](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
 
 *그림 2. 인증서를 통해 SEMM 구성 패키지 보안*
 
@@ -120,7 +120,7 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 [부분
 | 자동 전원 공급                      | 자동 전원 사용 부팅 설정을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 자동 전원 사용이 사용하도록 설정됩니다.                                                                                                        |
 | SMT(동시 다중 스레딩) | SMT(동시 다중 스레딩)를 관리하여 하이퍼스레딩을 활성화 또는 비활성화할 수 있습니다. 이 설정을 구성하지 않은 경우 SMT가 사용하도록 설정됩니다.                                                  |
 |배터리 제한 사용| 배터리 제한 기능을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 배터리 제한이 사용하도록 설정됩니다. |
-| Security                           | Surface UEFI **** 보안 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
+| 보안                           | Surface UEFI **** 보안 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
 | 장치                            | Surface UEFI 장치 **페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 장치 페이지가 표시됩니다.                                                                                                                     |
 | Boot                               | Surface UEFI **** 부팅 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 부팅 페이지가 표시됩니다.                                                                                                                                                            |
 | DateTime                           | Surface UEFI **DateTime 페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 DateTime 페이지가 표시됩니다.                                                                                                                |
@@ -163,7 +163,7 @@ Surface UEFI 재설정 패키지는 SEMM에서 Surface 디바이스를 초기화
 일부 시나리오에서는 Surface UEFI 재설정 패키지를 사용하는 것이 불가능할 수 있습니다. 예를 들어 Surface Windows 사용할 수 없는 경우) 이러한 시나리오에서는 복구 요청 작업을 사용하여 Surface UEFI의 Enterprise 관리 페이지를 통해 SeMM에서 Surface 디바이스의 설치를 해지할 수 있습니다. ****
 
 > [!div class="mx-imgBorder"]
-> ![SEMM 복구 요청 시작](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> ![SEMM 복구 요청을 초기화합니다.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *그림 5. Enterprise 페이지에서 SEMM 복구 요청 시작*
 

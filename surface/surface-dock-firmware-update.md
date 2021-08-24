@@ -12,12 +12,12 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 2/08/2021
-ms.openlocfilehash: 544aa8ab7cb9bb443f368bfbbcecb1fa256d32c5
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708759"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911153"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Surface Dock 1 펌웨어 업데이트
 
@@ -125,7 +125,7 @@ Surface Dock 1 펌웨어 업데이트를 성공적으로 완료하면 이러한 
 
 2. 레지스트리 키 **Component10CurrentFwVersion 및 Component20CurrentFwVersion**를 찾아서 현재 장치에 있는 펌웨어를 참조합니다.
 
-   ![Surface Dock 1 펌웨어 업데이트 설치 프로세스](images/regeditDock.png)
+   ![Surface Dock 1 펌웨어 업데이트 설치 프로세스.](images/regeditDock.png)
 
 3. 새 레지스트리 키 값이 이 문서 끝부분의 버전 참조에 나열된 업데이트된 레지스트리 키 값과 일치하는지 확인해야 합니다. 값이 일치하면 펌웨어가 성공적으로 업데이트되었습니다.
 

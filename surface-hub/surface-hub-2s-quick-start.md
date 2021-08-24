@@ -1,6 +1,6 @@
 ---
 title: Surface Hub 2S 빠른 시작
-description: Surface Hub 2S 사용을 시작 하는 빠른 시작 단계를 확인 하세요.
+description: 2S에서 빠른 시작 단계를 Surface Hub 합니다.
 keywords: 쉼표로 값 구분
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,41 +11,41 @@ audience: Admin
 ms.topic: article
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 0e37518f9187076e01f41d65c5868e315420f5ce
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 36e29d28eab07503d03c2197cf05bbf77a4e1c07
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835335"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911173"
 ---
-# Surface Hub 2S 빠른 시작
+# <a name="surface-hub-2s-quick-start"></a>Surface Hub 2S 빠른 시작
 
-## Surface Hub 2S 압축 풀기
+## <a name="unpack-surface-hub-2s"></a>2S에서 Surface Hub 언팩
 
-1. 상자 양쪽의 핸들을 사용 하 여 설정할 공간으로 이동 합니다.
-2. 열기 전에 앞 및 뒤에 있는 클립 (4)을 제거 하 고 핸들을 사용 하 여 상자 위쪽을 들어올립니다.
-3. Surface Hub 2S의 기본에서 설정 가이드, Surface Hub 2 펜, Surface Hub 2 카메라 및 전원 케이블을 포함 하는 액세서리 상자를 엽니다.
-4. Surface Hub 뒷면에는 장착 하드웨어를 부착 하는 위치를 보여 주는 지침 레이블이 있습니다. 현재 위치에 설치 하 고 레이블을 제거 합니다.
+1. 상자의 각 면에 있는 핸들을 사용하여 상자를 설정할 공간으로 이동할 수 있습니다.
+2. 열기 전에 앞면과 뒤의 클립(4)을 제거한 다음 핸들을 사용하여 상자에서 위쪽을 니다.
+3. Surface Hub 2S의 기본에서 설정 가이드, Surface Hub 2 펜, Surface Hub 2 카메라 및 전원 케이블이 포함된 액세서리 상자를 여세요.
+4. 설치 Surface Hub 하드웨어를 연결할 위치를 보여 주는 사용 안내 레이블이 있습니다. 해당 레이블을 설치하고 레이블을 제거합니다.
 
-[Unboxing 및 설정](https://youtu.be/fCrxdNXvru4)에 대 한 자세한 내용은이 비디오를 참조 하세요.
+언박싱 및 설정에 대한 자세한 내용은 이 [비디오를 참조하세요.](https://youtu.be/fCrxdNXvru4)
 
-## 펜 설치 및 조정
+## <a name="install-and-adjust-pen"></a>펜 설치 및 조정
 
-1. 디바이스의 기본 설정 면에 Surface Hub 2 펜 자석으로를 연결 합니다.
+1. 디바이스 Surface Hub 2 펜을 원하는 쪽에 자기적으로 연결합니다.
 
-![* Surface Hub 2 펜을 사용할 준비가 되었습니다. AAA 배터리를 바꾸려면 위쪽 단추를 끈 다음 표시 된 대로 배터리를 삽입 합니다. 배터리가 부족 하면 표시등이 빨간색으로 켜 집니다. *](images/sh2-pen.png) <br>
+![*Surface Hub 2 펜을 사용할 준비가 완료되었습니다. AAA 배터리를 교체하기 위해 위쪽 단추를 당겨 배터리를 삽입합니다. 배터리가 부족하면 표시등이 빨간색으로 변합니다.*.](images/sh2-pen.png) <br>
 
-2. 펜 압력을 조정 하려면 Surface Hub 2S에서 Surface 앱을 열고 펜을 선택한 다음 슬라이더를 조정 합니다.
+2. 펜 압력을 조정하려면 Surface Hub 2S에서 Surface 앱을 열고 펜을 선택한 다음 슬라이더를 조정합니다.
 
-![* 슬라이더를 조정 하 여 펜 압력 변경 *](images/sh2-pen-pressure.png) <br>
+![*슬라이더를 조정하여 펜 압력 변경 *.](images/sh2-pen-pressure.png) <br>
 
-## 카메라 설치
+## <a name="install-camera"></a>카메라 설치
 
-카메라에서 렌즈 cling을 제거 하 고 Surface Hub 2S 위쪽에 있는 USB-C 포트에 연결 합니다.
+카메라에서 렌즈를 제거하고 2S 2S 상단의 USB-C 포트에 Surface Hub.
 
-## Surface Hub 2S 시작
+## <a name="start-surface-hub-2s"></a>2S Surface Hub 시작
 
-1. 전원 케이블을 장치 후면에 넣고 전원 콘센트에 연결 합니다. 장착 솔루션의 케이블 가이드를 통해 케이블을 실행 하 고 화면 clang를 제거 합니다.
-2. 시작 하려면 오른쪽 하단에 있는 전원 단추를 누릅니다.
+1. 디바이스의 뒷면에 전원 케이블을 삽입하고 전원 콘센트에 연결합니다. 탑재 솔루션의 케이블 가이드를 통해 케이블을 실행하고 화면 clang을 제거합니다.
+2. 먼저 오른쪽 아래에서 전원 단추를 누릅니다.
 
-![* 원본, 볼륨, 전원 단추를 표시 하는 키패드 *](images/sh2-keypad.png) <br>
+![* 원본, 볼륨 및 전원 단추를 표시하는 키패드*.](images/sh2-keypad.png) <br>
