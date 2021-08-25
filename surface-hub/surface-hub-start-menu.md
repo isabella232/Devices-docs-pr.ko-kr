@@ -10,12 +10,12 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: ff08b8ab6e59af77761fb365980af261c47030a9
+ms.sourcegitcommit: 09a47921ec2e565a92ba2baa61e181d218706ad9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576848"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "11921827"
 ---
 # <a name="configure-surface-hub-start-menu"></a>Surface Hub 시작 메뉴 구성
 
@@ -31,14 +31,14 @@ Surface Hub에 사용자 지정 시작 메뉴 레이아웃을 적용할 때 사�
 
     -또는-
 
-- 바탕 화면에서 원하는 시작 메뉴를 구성(Surface Hub에서 사용할 수 있는 앱만 고정)하고 [레이아웃을 내보냅니다](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout#export-the-start-layout).
+- 바탕 화면에서 원하는 시작 메뉴를 구성(Surface Hub에서 사용할 수 있는 앱만 고정)하고 [레이아웃을 내보냅니다](/windows/configuration/customize-and-export-start-layout#export-the-start-layout).
 
 >[!TIP]
 >바탕 화면 시작 메뉴에 대한 웹 링크에서 타일을 추가하려면 Microsoft Edge의 링크로 이동하여 오른쪽 상단의 `...`을 선택하고 **이 페이지를 시작에 고정**을 선택합니다. XML에서 링크가 어떻게 나타나는지에 대한 예제는 [Microsoft Edge 링크를 포함하여 시작 화면 레이아웃](#edge)을 참조하세요.
 
-기본 XML이나 내보낸 레이아웃을 편집하려면 [시작 화면 레이아웃 XML](https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop)을 숙지하세요. [바탕 화면의 시작 레이아웃과 Surface Hub 간에 몇 가지 차이점](#differences)이 있습니다.
+기본 XML이나 내보낸 레이아웃을 편집하려면 [시작 화면 레이아웃 XML](/windows/configuration/start-layout-xml-desktop)을 숙지하세요. [바탕 화면의 시작 레이아웃과 Surface Hub 간에 몇 가지 차이점](#differences)이 있습니다.
 
-시작 화면 레이아웃 XML에 시작 메뉴를 정의할 때 [레이아웃에 적용할 MDM 정책 만들기](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)를 수행합니다.
+시작 화면 레이아웃 XML에 시작 메뉴를 정의할 때 [레이아웃에 적용할 MDM 정책 만들기](/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)를 수행합니다.
 
 <span id="differences" />
 
@@ -46,7 +46,7 @@ Surface Hub에 사용자 지정 시작 메뉴 레이아웃을 적용할 때 사�
 
 Surface Hub를 위한 시작 메뉴 사용자 지정과 Windows 10 바탕 화면 간에는 몇 가지 중요한 차이가 있습니다.
 
-- 데스크톱 응용 프로그램(Win32)이 지원되지 Windows 시작 화면 레이아웃 XML에서 **DesktopApplicationTile()을** 사용할 https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) Surface Hub.
+- 데스크톱 응용 프로그램(Win32)에서 지원되지 Windows 시작 화면 레이아웃 XML에서 **[DesktopApplicationTile을](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** 사용할 Surface Hub.
 - 시작 화면 레이아웃 XML을 사용하여 Surface Hub를 위한 작업 표시줄이나 시작 화면을 구성할 수 없습니다.  
 - 시작 화면 레이아웃 정책은 사용자가 아닌 디바이스에만 할당해야 합니다.
 - 정책에 사용할 OMA-URI 설정은 `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
@@ -66,8 +66,8 @@ Surface Hub를 위한 시작 메뉴 사용자 지정과 Windows 10 바탕 화면
     <StartLayoutCollection>
       <defaultlayout:StartLayout GroupCellWidth="8" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
         <start:Group Name="" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
-        <start:Tile
-            AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+        <start:DesktopApplicationTile
+            DesktopApplicationID="MSEdge"
             Size="2x2"
             Row="0"
             Column="0"/>
@@ -141,8 +141,8 @@ Surface Hub를 위한 시작 메뉴 사용자 지정과 Windows 10 바탕 화면
               Size="2x2"
               Row="0"
               Column="4"/>
-    <start:Tile
-              AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+          <start:DesktopApplicationTile
+              DesktopApplicationID="MSEdge"
               Size="2x2"
               Row="2"
               Column="0"/>
