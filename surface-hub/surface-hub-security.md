@@ -11,24 +11,24 @@ audience: Admin
 ms.topic: article
 ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: 446166618161fc54a77bab94b2d61ad85359a082
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
-ms.translationtype: MT
+ms.openlocfilehash: cd0112f805b60b16c7f32099d5f5e3fde3c821fb
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304851"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911383"
 ---
-# Surface Hub 보안 개요
+# <a name="surface-hub-security-overview"></a>Surface Hub 보안 개요
 
-Surface Hub는 Windows 10 Team 운영 체제를 실행하는 사용자 지정 플랫폼 펌웨어를 통해 잠긴 어플라이언스와 같은 환경을 제공합니다. 결과로 생성되는 장치는 기존에 사용하는 "단일 사용" 보안 키오스크, “필요한 것만 실행” 철학을 취하여 현대적인 해석을 전달합니다. 다양한 공동 작업 사용자 환경을 지원하도록 만들어진 Surface Hub는 지속적으로 진화하는 보안 위협으로부터 보호됩니다.
+Surface Hub Windows 10 Team 운영 체제를 실행하는 사용자 지정 플랫폼 펌웨어를 사용하여 잠긴 어플라이언스와 유사한 환경을 제공합니다. 결과로 생성되는 장치는 기존에 사용하는 "단일 사용" 보안 키오스크, “필요한 것만 실행” 철학을 취하여 현대적인 해석을 전달합니다. 다양한 공동 작업 사용자 환경을 지원하도록 만들어진 Surface Hub는 지속적으로 진화하는 보안 위협으로부터 보호됩니다.
 
 Windows 10을 기반으로 하는 Surface Hub는 IT 관리자가 BitLocker, TPM(신뢰할 수 있는 플랫폼 모듈 2.0) 및 Windows Defender(Microsoft Defender라고도 함)를 포함한 클라우드 기반 보안을 통해 데이터 보호를 강화할 수 있도록 하는 엔터프라이즈급 최신 보안 기능을 제공합니다.
 
-## 보안 심층 방어
+## <a name="defense-in-depth-security"></a>보안 심층 방어
 
 보안 프로토콜은 Surface Hub가 켜진 직후에 시작됩니다. 펌웨어 수준에서부터 Surface Hub는 여러 보안 검사에 대응하여 운영 체제와 해당 구성 요소만 로드합니다. Surface Hub는 부분적 오류가 발생했을 때 시스템 전체를 보호하기 위해 독립적인 방어 하위 구성 요소를 계층화하는 심층 방어라는 전략을 사용합니다. 이 산업 관행은 잠재적인 일방적인 악용과 하위 구성 요소의 취약성을 완화하는 데 매우 효과적이라고 입증되었습니다.
 
-최신 UEFI(Unified Extensible Firmware Interface)는 Microsoft가 내부 저장소에서 인증된 Windows 10 Team 운영 체제만 부팅하도록 정적이고 안전하게 구성합니다.  Surface Hub에서 실행되는 모든 코드 줄은 실행하기 전에 서명을 확인합니다. 운영 체제의 일부로 또는 Microsoft Store를 통해 설치된 Microsoft에서 서명한 응용 프로그램만 Surface Hub에서 실행할 수 있습니다. 이러한 요구 사항을 충족하지 않는 코드 또는 앱은 차단됩니다.
+최신 UEFI(통합 확장 펌웨어 인터페이스)는 내부 저장소에서 인증된 Windows 10 Team 운영 체제만 부팅하도록 Microsoft에서 정적이고 안전하게 구성되었습니다.  Surface Hub에서 실행되는 모든 코드 줄은 실행하기 전에 서명을 확인합니다. 운영 체제의 일부로 또는 Microsoft Store를 통해 설치된 Microsoft에서 서명한 응용 프로그램만 Surface Hub에서 실행할 수 있습니다. 이러한 요구 사항을 충족하지 않는 코드 또는 앱은 차단됩니다.
 
 Surface Hub 보안 시스템은 다음을 포함합니다.
 
@@ -36,17 +36,17 @@ Surface Hub 보안 시스템은 다음을 포함합니다.
 - **운영 체제 방어** 의도하지 않거나 악성 소프트웨어 또는 코드의 실행을 방지합니다.
 - **사용자 인터페이스 방어** 최종 사용자에게 안전한 사용자 인터페이스를 제공하여 명령줄에서 실행 파일을 실행하는 것과 같은 위험할 수 있는 활동에 대한 액세스를 차단합니다.
 
-### 부팅 시 방어
+### <a name="boot-time-defenses"></a>부팅 시 방어
 
 SoC에는 다른 모든 코어와는 분리된 보안 프로세서가 있습니다. Surface Hub를 처음 시작하는 경우에는 다른 모든 항목을 로드하기 전에 보안 프로세서만 시작됩니다.
 
-![보안 프로세서 보호를 보여주는 Hub 시작 부팅 단계](images/hub-sec-1.png)
+![보안 프로세서 보호를 보여주는 Hub 시작 부팅 단계.](images/hub-sec-1.png)
 
-#### 보안 부팅
+#### <a name="secure-boot"></a>보안 부팅
 
 보안 부팅은 드라이버 및 운영 체제를 포함하여 부팅 프로세스의 구성 요소가 유효하고 알려진 서명의 데이터베이스에 대해 검증되었는지 확인하는 데 사용됩니다. Surface Hub에서 먼저 플랫폼 관련 서명의 유효성을 검사한 후에 공인 Windows Team 운영 체제를 로드할 수 있습니다. 이를 통해 정상적인 사용자 환경으로 보이는 악성 코드를 실행하는 복제되거나 수정된 시스템의 공격을 방지할 수 있습니다.  자세한 내용은 [보안 부팅 개요](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)를 참조하세요.
 
-### 운영 체제 방어
+### <a name="operating-system-defenses"></a>운영 체제 방어
 
 운영 체제가 Microsoft와 Surface Hub에서 만든 것으로 확인되면 장치가 부팅 프로세스를 성공적으로 완료하고 실행 코드를 자세히 조사합니다. 운영 체제 보안에 대한 이 접은 방식으로 모든 실행 파일에 대한 코드 서명을 식별하여 제한 사항을 통과하는 기능만 런타임으로 로드하도록 할 수 있습니다. 이 코드 서명 방법을 사용하여 운영 체제에서 작성자를 확인하고, 장치에서 실행되기 전에 코드가 변경되지 않았음을 확인할 수 있습니다.
 
@@ -70,7 +70,7 @@ Surface Hub는 UMCI를 통해 서명되지 않거나 잘못 서명된 코드를 
 
 - [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
-### 사용자 인터페이스 방어
+### <a name="user-interface-defenses"></a>사용자 인터페이스 방어
 
 부팅 시 방어 및 운영 체제 잠금 보호책은 기초 보안을 제공하지만, 사용자 인터페이스는 위험을 더 줄이기 위해 설계된 추가 계층을 제공합니다. 드라이버를 통해 악성 코드가 장치에 도달하는 것을 방지하기 위해 Surface Hub는 PnP(plug and play) 장치용 고급 드라이버를 다운로드하지 않습니다. USB 플래시 드라이브 또는 인증된 Surface Hub 주변 기기(스피커, 마이크, 카메라)와 같은 기본 드라이버를 활용하는 장치는 예상대로 작동하지만, 프린터와 같은 고급 시스템은 제대로 작동하지 않습니다.
 
@@ -80,7 +80,7 @@ Surface Hub는 UMCI를 통해 서명되지 않거나 잘못 서명된 코드를 
 
 - **시작 및 모든 앱** Surface Hub의 시작 및 모든 앱 구성 요소는 Application Control를 통해 차단되는 명령 프롬프트, PowerShell 또는 기타 Windows 구성 요소에 대한 액세스를 노출하지 않습니다. 또한, 일반적으로 Surface Hub에 대한 검색 상자에서 PC에 액세스하는 Windows 실행 기능은 꺼져 있습니다.
 
-## Surface Hub 2S 보안 강화
+## <a name="security-enhancements-in-surface-hub-2s"></a>Surface Hub 2S 보안 강화
 
 Surface Hub와 Surface Hub 2S 모두 같은 운영 체제 소프트웨어를 실행하지만, Surface Hub 2S의 고유한 일부 기능은 IT 관리자가 다음과 같은 작업을 수행할 수 있도록 추가 관리 및 보안 기능을 제공합니다.
 
@@ -88,7 +88,7 @@ Surface Hub와 Surface Hub 2S 모두 같은 운영 체제 소프트웨어를 실
 - 부트 가능한 USB를 사용하여 Hub 복구하기
 - 암호 순환으로 장치 계정 강화하기
 
-### SEMM으로 UEFI 설정 관리하기
+### <a name="manage-uefi-settings-with-semm"></a>SEMM으로 UEFI 설정 관리하기
 
 UEFI는 기본 하드웨어 플랫폼 부분과 운영 체제 간의 인터페이스입니다. Surface Hub에서 사용자 지정 UEFI 구현을 사용하면 이러한 설정을 세밀하게 제어하고, Microsoft 이외의 엔터티가 장치의 UEFI 설정을 변경하거나 이동식 드라이브로 부팅하여 운영 체제를 수정하거나 변경할 수 없습니다.
 
@@ -96,7 +96,7 @@ UEFI는 기본 하드웨어 플랫폼 부분과 운영 체제 간의 인터페�
 
 SEMM(Microsoft Surface Enterprise 관리 모드)를 통해 관리되는 경우 IT 관리자는 조직 전체에서 Hub 장치에 UEFI 설정을 배포할 수 있습니다. 여기에는 기본 제공 하드웨어 구성 요소를 사용하거나 사용하지 않도록 설정하고, 권한이 없는 사용자가 UEFI 설정을 변경하지 못하도록 보호하고, 부팅 설정을 조정하는 기능이 포함됩니다.
 
-![Surface Hub UEFI 설정](images/hub-sec-2.png)
+![Surface Hub UEFI 설정.](images/hub-sec-2.png)
 
 관리자는 다운로드 가능한 [Microsoft Surface UEFI 구성기](https://www.microsoft.com/download/details.aspx?id=46703)를 사용하여 SEMM과 등록된 Surface Hub 2S 장치를 구현할 수 있습니다. 자세한 내용은 [SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리하기](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)를 참조하세요.
 인증서를 사용하여 허가되지 않은 변조 또는 제거로부터 구성을 보호하는 SEMM을 통해 다음 구성 요소를 관리할 수 있습니다.
@@ -116,15 +116,15 @@ SEMM(Microsoft Surface Enterprise 관리 모드)를 통해 관리되는 경우 I
     - 날짜/시간
 
     
-### 부트 가능한 USB를 사용하여 Hub 복구하기
+### <a name="recover-hub-with-bootable-usb"></a>부트 가능한 USB를 사용하여 Hub 복구하기
 
 Surface Hub 2S를 사용하면 관리자는 복구 이미지를 사용하여 20분 이내에 장치를 공장 설정으로 다시 설치할 수 있습니다. 일반적으로 Surface Hub가 더 이상 작동하지 않는 경우에만 이 작업을 수행해야 합니다. 복구는 Bitlocker 키를 분실하거나 더 이상 설정 앱에 대한 관리자 자격 증명을 보유하고 있지 않은 경우에도 유용합니다.
 
-### 암호 순환으로 장치 계정 강화하기
+### <a name="harden-device-account-with-password-rotation"></a>암호 순환으로 장치 계정 강화하기
 
 Surface Hub는 "룸 계정"이라는 장치 계정을 사용하여 Exchange, Microsoft Teams 및 기타 서비스를 인증합니다. 암호 순환을 사용하도록 설정하면 Hub 2S는 자동으로 7일마다 대문자, 소문자, 숫자 및 특수 문자를 조합하여 15~32문자로 구성된 새 암호를 생성합니다. 사용자가 암호를 알고 있는 것이 아니기 때문에 장치 계정 암호 순환은 사용자 오류와 사회 공학적 보안 공격에 관련된 위험을 효과적으로 완화합니다.
 
-## Windows 10 엔터프라이즈급 보안
+## <a name="windows-10-enterprise-grade-security"></a>Windows 10 엔터프라이즈급 보안
 
 Surface Hub는 이 문서에서 다루는 Surface Hub 관련 구성 및 기능 외에도 Windows 10의 표준 보안 기능을 사용합니다. 확인할 수 있습니다.
 
@@ -133,7 +133,7 @@ Surface Hub는 이 문서에서 다루는 Surface Hub 관련 구성 및 기능 �
 - **플러그 앤 플레이 드라이버.** 드라이버를 통해 악성 코드가 장치에 도달하는 것을 방지하기 위해 Surface Hub는 PnP 장치용 고급 드라이버를 다운로드하지 않습니다. 이를 통해 USB 플래시 드라이브와 같은 기본 드라이버를 활용하는 장치는 프린터와 같은 고급 시스템을 차단하면서 예상대로 작동할 수 있습니다.
 - **신뢰할 수 있는 플랫폼 모듈 2.0** Surface Hub에는 암호화 키 및 해시를 생성하고 저장하기 위한 산업 표준 dTPM(개별 신뢰할 수 있는 플랫폼 모듈)이 있습니다. dTPM은 부팅 단계, BitLocker 마스터 키, 암호가 없는 sign-on 키 등을 확인하는 데 사용되는 키를 보호합니다. dTPM은 [FIPS 140-2 수준 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation) 인증, 미국 정부 컴퓨터 보안 표준을 충족하고, 전 세계에서 사용하는 [공통 평가 기준](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria) 인증을 준수합니다.
 
-## Surface Hub에 대한 무선 보안
+## <a name="wireless-security-for-surface-hub"></a>Surface Hub에 대한 무선 보안
 
 Surface Hub는 Wi-Fi Direct/Miracast 기술과 관련된 802.11, WPA2(Wi-Fi Protected Access) 및 WPS(Wireless Protected Setup) 표준을 사용합니다. 디바이스는 WPS만 지원하므로(WPA2 PSK(미리 공유한 키) 또는 WPA2 엔터프라이즈는 지원하지 않음) 기존에 802.11 암호화와 관련된 문제가 설계상 간단해집니다.
 
@@ -143,7 +143,7 @@ Wi-Fi Direct 또는 Wi-Fi "P2P"(피어 투 피어)는 Wi-Fi Alliance가 "애드�
 
 Wi-Fi Direct에 대한 보안은 WPA2가 WPS 표준을 사용하여 제공합니다. 숫자 핀, 물리적 또는 가상 누름 단추 또는 근거리 통신을 사용하는 대역 외 메시지를 사용하여 장치를 인증할 수 있습니다. Surface Hub는 기본적으로 누름 단추와 PIN 메서드를 모두 지원합니다. 자세한 내용은 [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)을 참조하세요.
 
-## 자세히 알아보기
+## <a name="learn-more"></a>자세히 알아보기
 
 - [보안 부팅 개요](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)
 
