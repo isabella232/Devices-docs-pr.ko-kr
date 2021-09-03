@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: a611653c557f7df4d8029502f82a09f0000e5756
-ms.sourcegitcommit: 0d1a23988be4da24a8d42b391e1c60e624465fa4
+ms.openlocfilehash: 40bca71dcc740cf95b79bd9386c5217a1772c9e1
+ms.sourcegitcommit: 1d540913ca2d49ef5b8fa3c6dffe9131a197b270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "11710387"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "11936771"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
@@ -29,6 +29,16 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 주의가 필요할[수 있는](https://support.microsoft.com/products/surface-devices/surface-hub)현재 및 Surface Hub 관련 항목은 " Surface Hub 중요한 정보" 페이지를 참조하세요.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2021년 9월 1일 - KB5005101* 기반 팀 업데이트(OS 빌드 19042.1202)</summary>
+
+이 업데이트는 Surface Hub 개선 및 보안 수정을 포함합니다. Surface Hub 주요 업데이트는 Windows 10 Team [2020 업데이트 1에](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)설명되어 있으며 다음도 포함합니다.
+
+* 일부 장치 계정 설정 시나리오의 안정성을 향상시키는 것은 사서함에 대한 Exchange 향상시킵니다.
+
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB5005101](https://support.microsoft.com/help/5005101)
+</details>
 
 <details>
 <summary>2021년 7월 29일 - KB5004296*(OS 빌드 19042.1151) 기반 팀 업데이트</summary>
