@@ -13,12 +13,12 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: e887a449fb00b76c14de5b8ede51a1ba91a6b4c4
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: 39cd721606a44fed21c2a8cf59baaf806db47959
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721248"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939509"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>Surface 디바이스에서 PEAP, EAP-FAST 및 Cisco LEAP 사용
 
@@ -84,4 +84,5 @@ Install Applications page(응용 프로그램 설치) 페이지에서 이러한 
 
 Configuration Manager를 사용하여 Surface 디바이스를 관리하는 조직의 경우 PEAP, EAP-FAST 또는 Cisco LEAP 지원을 Surface 디바이스에 배포하는 것이 훨씬 더 간단합니다. 소프트웨어 라이브러리에서 각 MSI 파일을 응용 프로그램으로 가져와 Surface 디바이스 컬렉션에 배포를 구성하기만 하면 됩니다.
 
-Configuration Manager를 사용하여 응용 프로그램을 배포하는 방법에 대한 자세한 내용은 Configuration Manager를 사용하여 응용 프로그램 만들기 및 [배포를 참조하세요.](/mem/configmgr/apps/get-started/create-and-deploy-an-application.md)
+Configuration Manager를 사용하여 응용 프로그램을 배포하는 방법에 대한 자세한 내용은 Configuration Manager를 사용하여 응용 프로그램 만들기 및 [배포를 참조하세요.](/mem/configmgr/apps/get-started/create-and-deploy-an-application)
+

@@ -13,28 +13,28 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 6a5c53c3e161bd4c49069a0665896762ce587618
-ms.sourcegitcommit: e9190a6fe68b8a7cd9b024aea4be9f885f0de388
+ms.openlocfilehash: 66992ad10f157518edca2d738e55ec1108b06c4b
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "11163183"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939504"
 ---
-# Surface Pro 3의 고급 UEFI 보안 기능
+# <a name="advanced-uefi-security-features-for-surface-pro-3"></a>Surface Pro 3의 고급 UEFI 보안 기능
 
 
 이 문서에서는 v3.11.760.0 UEFI 업데이트를 설치하고 구성하여 Surface Pro 3 디바이스에 대한 추가 보안 옵션을 사용하도록 설정하는 방법에 대해 설명합니다.
 
 Surface 디바이스 보안에 대해 좀 더 세부적으로 제어할 수 있도록 v3.11.760.0 UEFI 업데이트에서는 사용자가 특정 하드웨어 디바이스를 사용하지 않도록 설정하거나 이 디바이스에서 시작하지 않게 할 수 있는 추가 보안 옵션을 제공합니다. 디바이스에 UEFI 업데이트를 설치하고 나면 스크립트를 실행하여 수동 또는 자동으로 구성할 수 있습니다.
 
-## 수동으로 UEFI 업데이트 설치
+## <a name="manually-install-the-uefi-update"></a>수동으로 UEFI 업데이트 설치
 
 
 Surface 디바이스의 고급 보안 기능을 구성하려면 먼저 v3.11.760.0 UEFI 업데이트를 설치해야 합니다. 이 업데이트는 Windows 업데이트에서 업데이트를 받을 경우 자동으로 설치됩니다. Windows 업데이트를 사용하여 자동으로 업데이트하도록 Windows를 구성하는 방법에 대한 자세한 내용은 [Windows의 자동 업데이트 구성 및 사용 방법](https://support.microsoft.com/kb/306525)을 참조하세요.
 
-Surface Pro 3에서 UEFI를 업데이트하기 위해 Surface Pro 3 펌웨어 및 드라이버 팩의 일부로 Surface UEFI 업데이트를 다운로드하여 설치할 수 있습니다. 이러한 펌웨어 및 드라이버 팩은 Microsoft 다운로드 센터의 [Surface Pro 3 페이지](https://www.microsoft.com/download/details.aspx?id=38826)에서 사용할 수 있습니다. 펌웨어 및 드라이버 팩에 대한 자세한 내용은 [Surface 디바이스의 최신 펌웨어 및 드라이버 다운로드](https://technet.microsoft.com/itpro/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)에서 확인할 수 있습니다. 이러한 펌웨어 및 드라이버 팩은 자체 포함된 Windows Installer(.msi) 및 보관(.zip) 형식으로 모두 사용할 수 있습니다. 이러한 두 가지 형식과, 이 형식을 사용하여 드라이버를 업데이트하는 방법에 대한 자세한 내용은 [Surface 드라이버 및 펌웨어 업데이트 관리](https://technet.microsoft.com/itpro/surface/manage-surface-pro-3-firmware-updates)에서 확인할 수 있습니다.
+Surface Pro 3에서 UEFI를 업데이트하기 위해 Surface Pro 3 펌웨어 및 드라이버 팩의 일부로 Surface UEFI 업데이트를 다운로드하여 설치할 수 있습니다. 이러한 펌웨어 및 드라이버 팩은 Microsoft 다운로드 센터의 [Surface Pro 3 페이지](https://www.microsoft.com/download/details.aspx?id=38826)에서 사용할 수 있습니다. 펌웨어 및 드라이버 팩에 대한 자세한 내용은 Surface용 드라이버 [및 펌웨어 다운로드에서 찾을 수 있습니다.](https://support.microsoft.com/help/4023482) 이러한 펌웨어 및 드라이버 팩은 자체 포함된 Windows Installer(.msi) 및 보관(.zip) 형식으로 모두 사용할 수 있습니다. 이러한 두 형식과 이를 사용하여 드라이버를 업데이트하는 방법에 대한 자세한 내용은 Surface 드라이버 및 펌웨어 업데이트 관리 및 [배포에서 찾을 수 있습니다.](manage-surface-driver-and-firmware-updates.md)
 
-## 수동으로 추가 보안 설정 구성
+## <a name="manually-configure-additional-security-settings"></a>수동으로 추가 보안 설정 구성
 
 
 >[!NOTE]
@@ -56,7 +56,7 @@ Surface 디바이스에 v3.11.760.0 UEFI 업데이트를 설치하고 나면 이
 
  
 
-## 추가 보안 설정 자동화
+## <a name="automate-additional-security-settings"></a>추가 보안 설정 자동화
 
 
 관리자 권한이 있는 IT 전문가로서 Microsoft 다운로드 센터에서 사용할 수 있는 [Surface Pro 3 펌웨어 도구(476 KB)](https://go.microsoft.com/fwlink/p/?LinkID=618038)를 활용하여 UEFI 설정 구성을 자동화할 수 있습니다. 이 도구로 사용자 지정 응용 프로그램 또는 스크립트에서 호출할 수 있는 .NET 어셈블리가 설치됩니다.

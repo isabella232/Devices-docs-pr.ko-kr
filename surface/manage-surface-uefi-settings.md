@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: 60ace1e2b9344faeb9f130a56686ffac4643fc37
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e21febfcbcbf139aea832c51e354759c0a49f896
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911323"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939539"
 ---
 # <a name="manage-surface-uefi-settings"></a>Surface UEFI 설정 관리
 
@@ -96,7 +96,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 *그림 3. Surface UEFI 설정 보호를 위해 암호 추가*
 
-보안 페이지에서 Surface 디바이스에 대한 보안 부팅 구성을 변경할 수도 있습니다. 보안 부팅 기술은 무단 부팅 코드가 Surface 디바이스에서 부팅되는 문제를 방지하여 bootkit 및 루트킷 형식의 맬웨어 감염으로부터 보호합니다. Surface 디바이스에서 타사 운영 체제 또는 부팅 가능한 미디어를 허용하기 위해 보안 부팅을 사용하지 않도록 설정할 수 있습니다. 그림 4에 표시된 같이 타사 인증서에서 작동하도록 보안 부팅을 구성할 수 있습니다. TechNet 라이브러리에서 [보안 부팅](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)에 대해 자세히 알아보세요.
+보안 페이지에서 Surface 디바이스에 대한 보안 부팅 구성을 변경할 수도 있습니다. 보안 부팅 기술은 무단 부팅 코드가 Surface 디바이스에서 부팅되는 문제를 방지하여 bootkit 및 루트킷 형식의 맬웨어 감염으로부터 보호합니다. Surface 디바이스에서 타사 운영 체제 또는 부팅 가능한 미디어를 허용하기 위해 보안 부팅을 사용하지 않도록 설정할 수 있습니다. 그림 4에 표시된 같이 타사 인증서에서 작동하도록 보안 부팅을 구성할 수 있습니다. 자세한 내용은 보안 [부팅을 참조합니다.](/windows-hardware/design/device-experiences/oem-secure-boot)
 
 ![보안 부팅을 구성합니다.](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
