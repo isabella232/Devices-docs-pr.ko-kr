@@ -13,12 +13,12 @@ appliesto:
 - Surface
 ms.reviewer: irenewhite
 description: 다음 영업일 교체 정보 및 적용 범위입니다.
-ms.openlocfilehash: 4488d2f1cc8a3e6c240710d59f3465d05abae12b
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 9f66e16730b070ab75f4b5646cbcf2cf95ba77bf
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613847"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939517"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>다음 영업일 대체 정보 및 적용 범위
 
@@ -107,7 +107,7 @@ ms.locfileid: "11613847"
 #### <a name="hong-kong"></a>홍콩
 
 - 마감 시간:16:00 HKT(UTC+8) 
-- NBD 검사는 홍콩의 모든 우편 번호에서 사용할 수 있습니다.
+- NBD 검사는 홍콩 특별행정구의 모든 우편 번호에서 사용할 수 있습니다.
 
 #### <a name="ireland"></a>아일랜드
 
@@ -148,7 +148,7 @@ ms.locfileid: "11613847"
 #### <a name="spain"></a>스페인
 
 - 마감 시간: 12:00 CET(UTC+1)
-- [다음 영업일 범위](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage-%20Spain%20Post%20Codes%20030321.xlsx)
+- [다음 영업일 범위](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage%20-%20Spain%20Post%20Codes%20030321.xlsx)
 
 #### <a name="sweden"></a>스웨덴
 
