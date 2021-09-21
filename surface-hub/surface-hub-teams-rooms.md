@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 룸 Surface Hub
+title: Surface Hub Microsoft Teams 룸
 description: 이 문서에서는 이 문서에 대한 Microsoft Teams 룸 개요를 Surface Hub.
 keywords: Teams 룸, Surface Hub, Intune, QoS
 ms.prod: surface-hub
@@ -11,16 +11,16 @@ ms.date: 08/20/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 2d8bd08c150c1665365ae21bc87fd3485b8c69a8
-ms.sourcegitcommit: b5e7ea8118b848846cf1fb332ed7bf96c4583d20
+ms.openlocfilehash: 05160bc2c1b77843b8ad832452501d7b065a8bc6
+ms.sourcegitcommit: 38bde856b6091097d25745f6d080edebf72e3e17
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "11909978"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "12030823"
 ---
-# <a name="microsoft-teams-rooms-on-surface-hub"></a>Microsoft Teams 룸 Surface Hub
+# <a name="microsoft-teams-rooms-on-surface-hub"></a>Surface Hub Microsoft Teams 룸
 
-Teams 룸 Surface Hub 9월 23일을 [](hub-teams-app.md) 시작하여 4주간의 전역 출시의 일부로 현재 Surface Hub Teams 앱을 자동으로 대체합니다. 현재 Windows 프로그램을 통해 미리 보기로 사용할 수 있는 새로운 Teams 환경의 데모는 Teams 룸 [에서](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373)Surface Hub.
+Teams 룸 Surface Hub 9월 30일부터 [](hub-teams-app.md) 4주간의 전역 출시의 일부로 현재 Surface Hub Teams 앱을 자동으로 대체합니다. 현재 Windows 프로그램을 통해 미리 보기로 사용할 수 있는 새로운 Teams 환경의 데모는 Teams 룸 [에서](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373)Surface Hub.
 
 ## <a name="whats-new"></a>새로운 기능
 
