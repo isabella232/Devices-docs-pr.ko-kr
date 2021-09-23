@@ -17,7 +17,7 @@ ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "12036979"
+ms.locfileid: "12037082"
 ---
 # <a name="os-choice-for-new-surface-devices"></a>새 Surface 디바이스에 대한 OS 선택
  

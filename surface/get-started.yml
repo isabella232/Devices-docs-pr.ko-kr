@@ -15,8 +15,8 @@ metadata:
   ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/22/2021
-  ms.locfileid: "12034337"
+  ms.lasthandoff: 09/23/2021
+  ms.locfileid: "12037142"
 landingContent:
 - title: Surface 장치
   linkLists:
@@ -24,13 +24,13 @@ landingContent:
     links:
     - text: Surface OS 선택
       url: surface-os-choice.md
-    - text: Surface Pro 8 for Business
+    - text: 비즈니스용 Surface Pro 8
       url: https://www.microsoft.com/surface/business/surface-pro-8
     - text: 비즈니스용 Surface Pro 2
       url: https://www.microsoft.com/surface/business/surface-pro-x
-    - text: Surface Laptop 비즈니스용 Studio
+    - text: 비즈니스용 Surface Laptop Studio
       url: https://www.microsoft.com/surface/business/surface-laptop-studio
-    - text: 비즈니스용 Surface Go 3
+    - text: 비즈니스용 Surface Pro 3
       url: https://www.microsoft.com/surface/business/surface-go-3
     - text: Surface Laptop 비즈니스용 이동
       url: https://www.microsoft.com/surface/business/surface-laptop-go
