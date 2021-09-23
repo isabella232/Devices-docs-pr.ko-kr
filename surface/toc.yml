@@ -22,19 +22,23 @@
               href: surface-headphones.md
         - name: Surface 장치 주문
           items:
-            - name: 비즈니스용 Surface Laptop 4
-              href: 'https://www.microsoft.com/surface/business/surface-laptop-4'
-            - name: 비즈니스용 Surface Pro 7+
-              href: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
-            - name: 비즈니스용 Surface Pro 2
-              href: 'https://www.microsoft.com/surface/business/surface-go-2'
+            - name: Surface OS 선택
+              href: surface-os-choice.md
+            - name: 비즈니스용 Surface Pro 8
+              href: 'https://www.microsoft.com/surface/business/surface-pro-8'
             - name: 비즈니스용 Surface Pro 2
               href: 'https://www.microsoft.com/surface/business/surface-pro-x'
+            - name: 비즈니스용 Surface Laptop Studio
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
+            - name: 비즈니스용 Surface Pro 3
+              href: 'https://www.microsoft.com/surface/business/surface-go-3'
+            - name: 비즈니스용 Surface Laptop 4
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+            - name: 비즈니스용 Surface Laptop Go
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-go'
             - name: 비즈니스용 Surface Studio 2
               href: 'https://www.microsoft.com/surface/business/surface-studio-2'
-            - name: 비즈니스용 Surface Book 3
-              href: 'https://www.microsoft.com/surface/business/surface-book-3'
-    - name: 계획
+    - name: 플랜
       items:
         - name: Windows 10 장기 서비스 채널과의 Surface 장치 호환성
           href: surface-device-compatibility-with-windows-10-ltsc.md
