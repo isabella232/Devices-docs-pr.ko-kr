@@ -11,27 +11,29 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 88674469b94de346a6a3a2b427f4cff034a3d405
-  ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
+  ms.openlocfilehash: 60a0956cf83b466587197ca401dc41b95952be03
+  ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/17/2021
-  ms.locfileid: "11902677"
+  ms.lasthandoff: 09/22/2021
+  ms.locfileid: "12034337"
 landingContent:
 - title: Surface 장치
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface를 사용하여 원격 작업 솔루션
-      url: https://www.microsoft.com/surface/business/remote-work-solutions
-    - text: Surface Laptop 4 + for Business
-      url: https://www.microsoft.com/surface/business/surface-laptop-4
-    - text: 비즈니스용 Surface Pro 7+
-      url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+    - text: Surface OS 선택
+      url: surface-os-choice.md
+    - text: Surface Pro 8 for Business
+      url: https://www.microsoft.com/surface/business/surface-pro-8
+    - text: 비즈니스용 Surface Pro 2
+      url: https://www.microsoft.com/surface/business/surface-pro-x
+    - text: Surface Laptop 비즈니스용 Studio
+      url: https://www.microsoft.com/surface/business/surface-laptop-studio
+    - text: 비즈니스용 Surface Go 3
+      url: https://www.microsoft.com/surface/business/surface-go-3
     - text: Surface Laptop 비즈니스용 이동
       url: https://www.microsoft.com/surface/business/surface-laptop-go
-    - text: 비즈니스용 Surface Pro X
-      url: https://www.microsoft.com/surface/business/surface-pro-x
     - text: 모든 Surface 패밀리 제품 탐색
       url: https://www.microsoft.com/surface/business
 - title: 시작
@@ -44,6 +46,8 @@ landingContent:
       url: surface-headphones.md
     - text: Surface의 Azure Virtual Desktop
       url: windows-virtual-desktop-surface.md
+    - text: Surface를 사용하여 원격 작업 솔루션
+      url: https://www.microsoft.com/surface/business/remote-work-solutions
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
@@ -98,7 +102,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 비즈니스용 Surface 진단 도구 키트 배포
+    - text: 비즈니스용 Surface 진단 도구 키트
       url: surface-diagnostic-toolkit-business.md
     - text: SEMM 및 UEFI
       url: surface-enterprise-management-mode.md
