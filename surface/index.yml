@@ -16,45 +16,45 @@ highlightedContent:
   items:
     - title: Surface 장치 설명서
       itemType: learn
-      url: 'https://docs.microsoft.com/surface/get-started'
+      url: /surface/get-started
     - title: Surface Hub 설명서
       itemType: learn
-      url: 'https://docs.microsoft.com/surface-hub/index'
+      url: /surface-hub/index
     - title: Surface 듀오 문서
       itemType: learn
-      url: 'https://docs.microsoft.com/surface-duo/index'
+      url: /surface-duo/index
 conceptualContent:
   title: Surface 장치
   summary: Microsoft Surface 장치에 대한 리소스를 찾아보세요.
   items:
     - title: Surface 개요
       links:
-        - url: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+        - url: 'https://www.microsoft.com/surface/business/surface-pro-8'
           itemType: concept
-          text: 비즈니스용 Surface Laptop 4
-        - url: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
+          text: 비즈니스용 Surface Pro 8
+        - url: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
           itemType: concept
-          text: 비즈니스용 Surface Pro 7+
+          text: 비즈니스용 Surface Laptop Studio
         - url: 'https://www.microsoft.com/surface/business'
           itemType: concept
-          text: 모든 Surface 패밀리 제품 탐색
+          text: 모든 Surface 제품군 제품 살펴보기
     - title: Surface Hub 개요
       links:
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-85-install-mount'
+        - url: /surface-hub/surface-hub-2s-85-install-mount
           itemType: how-to-guide
           text: Surface Hub 2S 85"설치 및 마운트(준비 가이드)
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new'
+        - url: /microsoftteams/rooms/surface-hub-manage-config
           itemType: concept
-          text: Surface Hub 2S의 새로운 기능은 무엇인가요?
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs'
+          text: Surface Hub에서 Microsoft Teams 설정 관리
+        - url: /surface-hub/surface-hub-2s-techspecs
           itemType: concept
           text: Surface Hub 2S 기술 사양
     - title: Surface Duo 개요
       links:
-        - url: 'https://docs.microsoft.com/surface-duo/surface-duo-manage'
+        - url: /surface-duo/surface-duo-manage
           itemType: concept
           text: Surface Duo 관리 개요
-        - url: 'https://docs.microsoft.com/surface-duo/surface-duo-secure'
+        - url: /surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo 보안 개요
         - url: 'https://www.microsoft.com/surface/business/surface-duo'
@@ -90,10 +90,10 @@ conceptualContent:
           text: Surface Hub 지원 문의
     - title: Surface Duo 도움말
       links:
-        - url: 'https://docs.microsoft.com/en-us/surface-duo/contact-surface-duo-support'
+        - url: /surface-duo/contact-surface-duo-support
           itemType: learn
           text: Surface Duo 지원 연락처
-        - url: 'https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows'
+        - url: /dual-screen/android/get-duo-sdk?tabs=windows
           itemType: learn
           text: Surface Duo SDK 다운로드
         - url: 'https://www.microsoft.com/download/details.aspx?id=100847'
