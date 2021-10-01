@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/04/2021
+ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 193053745628b434c07a63f23a042e95fead32eb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911813"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057648"
 ---
 # <a name="surface-security-overview"></a>Surface 보안 개요
 
@@ -132,7 +132,7 @@ IT 관리자는 모든 디바이스를 물리적으로 터치하지 않고도 Su
 
 ## <a name="references"></a>참조
 
-1. Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 및 Surface Pro X에 사용할 수 있습니다. 
+1. Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+에서 사용할 수 있습니다. Surface Pro X를 Surface Pro. 
 
 ## <a name="learn-more"></a>자세히 알아보기
 

@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 14b4b5ee72ac92618a2906894840a51dd2229d42
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e36e01ec9387779ba4b920e21bf51f1f210cbdde
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911163"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057675"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2의 새로운
 
@@ -97,7 +97,7 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
 
 | 구성 요소                           | Surface 도크                                                | Surface Dock 2                                                                                      | USB-C 여행 허브 |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
-| Surflink                            | 예                                                         | 예                                                                                                 | 아니오               |
+| Surflink                            | 예                                                         | 예                                                                                                 | 아니요               |
 | USB-A                               | 전면 USB 3.1세대 1개 2개<br>후면 USB 3.1세대 1개 | 후면 USB 3.2세대 2개(7.5W 전원)                                                            | USB 3.1 2세대 1개  |
 | 미니 디스플레이 포트                   | 후면 2개(DP1.2)                                       | 없음                                                                                                | 없음             |
 | USB-C                               | 없음                                                        | 전면 USB 3.2세대 2개<br>(15W 전원)<br>후면 USB 3.2세대 2개(DP1.4a)<br>(7.5W 전원) | USB 3.2세대 2개  |
@@ -111,17 +111,17 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
 | USB 비트 전송률                        | 5Gbps                                                      | 10Gbps                                                                                             | 10Gbps          |
 | 지원 모니터링                     | 2 x 4k @30fps 또는<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> 또는 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
 | 연결된 대기 모드 1에서 절전 모드 해제 <sup></sup> | 예                                                         | 예                                                                                                 |                  |
-| S4/S5 절전 모드에서의 절전 모드 해제  | 아니오                                                          | 예                                                                                                 |          예        |
+| S4/S5 절전 모드에서의 절전 모드 해제  | 아니요                                                          | 예                                                                                                 |          예        |
 | 네트워크 PXE 부팅                    | 예                                                         | 예                                                                                                 |        예          |
-| SEMM 호스트 액세스 제어            | 아니오                                                          | 예                                                                                                 | 아니오               |
-| SEMM 포트 액세스 제어 <sup> 2</sup>          | 아니오                                                          | 예                                                                                                 | 아니오               |
+| SEMM 호스트 액세스 제어            | 아니요                                                          | 예                                                                                                 | 아니요               |
+| SEMM 포트 액세스 제어 <sup> 2</sup>          | 아니요                                                          | 예                                                                                                 | 아니요               |
 | 서비스 지원                   | MSI                                                         | Windows 업데이트 또는 MSI                                                                               |                  |
 
  
 
 
 
-1. *최대 절전 모드 또는 최대 절전 모드에서 해제하려면 Surface Enterprise Management Mode(SEMM) 또는 DFCI(장치 펌웨어 제어 인터페이스)를 통해 LAN에서 절전 모드를 Power-Off 합니다. 최대 절전 모드 해제 또는 Power-Off 최대 절전 모드는 Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3 및 Surface Go 2에서 지원됩니다.  일부 기능에 필요한 소프트웨어 라이선스입니다. 별도로 판매됩니다.*
+1. *최대 절전 모드 또는 최대 절전 모드에서 해제하려면 Surface Enterprise Management Mode(SEMM) 또는 DFCI(장치 펌웨어 제어 인터페이스)를 통해 LAN에서 절전 모드를 Power-Off 합니다. 최대 절전 모드 해제 또는 최대 절전 모드는 Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, Surface Go 3 및 Surface Go 2에서 지원됩니다. Power-Off  일부 기능에 필요한 소프트웨어 라이선스입니다. 별도로 판매됩니다.*
 
 2. *일부 기능에 필요한 소프트웨어 라이선스입니다. 별도로 판매됩니다.*
 

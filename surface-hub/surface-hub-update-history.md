@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 40bca71dcc740cf95b79bd9386c5217a1772c9e1
-ms.sourcegitcommit: 1d540913ca2d49ef5b8fa3c6dffe9131a197b270
+ms.openlocfilehash: 57acd34fc83c3f186d3ed4683e6e0f191b9291be
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "11936771"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057665"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
@@ -29,6 +29,24 @@ Windows 10 서비스로 설계되어 주기적인 소프트웨어 업데이트�
 주의가 필요할[수 있는](https://support.microsoft.com/products/surface-devices/surface-hub)현재 및 Surface Hub 관련 항목은 " Surface Hub 중요한 정보" 페이지를 참조하세요.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2021년 9월 30일 - KB5004196, KB5004198 및 KB5004199</summary>
+
+이 업데이트는 Surface Hub 클라이언트, Teams 센터 에이전트 및 Teams 회의실 에이전트를 제공합니다. 주요 기능은 의 Teams [Room에 Surface Hub.](surface-hub-teams-rooms.md)
+ 
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요.
+</details>
+
+<details>
+<summary>2021년 9월 30일 - KB5005611* 기반 팀 업데이트(OS 빌드 19042.1266)</summary>
+
+이 업데이트는 Surface Hub 개선 및 보안 수정을 포함합니다. 업데이트 기록에 Surface Hub 간략하게 설명되지 않은 Windows 10 [업데이트에 대한](https://support.microsoft.com/help/4581839/windows-10-update-history)주요 업데이트는 다음과 같습니다.
+
+* 모임 모드 1(Teams/SfB 사용 가능)을 모드 2 기능(Teams 전용)으로 대체합니다. 두 설정 중 하나를 사용할 수 있지만 두 설정 모두 같은 영향을 미치게 됩니다.
+
+장치 기능 [및 서비스를 Surface Hub/사용](/surface-hub/) 안 하게 설정하려면 관리자 가이드를 참조하세요. *[KB5005611](https://support.microsoft.com/help/5005611)
+</details>
 
 <details>
 <summary>2021년 9월 1일 - KB5005101* 기반 팀 업데이트(OS 빌드 19042.1202)</summary>
