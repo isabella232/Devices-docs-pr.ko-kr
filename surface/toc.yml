@@ -14,12 +14,16 @@
               href: windows-virtual-desktop-surface.md
             - name: Surface Laptop 4 프로세서 기술 개요
               href: surface-laptop-processors.md
-            - name: Surface Book 3 GPU 기술 개요
+            - name: Surface Headphones 2+ 기술 개요
+              href: surface-headphones.md
+        - name: Surface 전문 그래픽
+          items:
+            - name: Surface Laptop Studio 그래픽 개요
+              href: surface-laptop-studio-graphics.md
+            - name: Surface Book 3 기술 개요
               href: surface-book-GPU-overview.md
             - name: Surface Book 3 Quadro RTX 3000 기술 개요
               href: surface-book-quadro.md
-            - name: Surface Headphones 2+ 기술 개요
-              href: surface-headphones.md
         - name: Surface 장치 주문
           items:
             - name: Surface OS 선택
