@@ -12,12 +12,12 @@ ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 80221d49f10f1a2fdc57723d1b6122333e1b192a
-ms.sourcegitcommit: 247e97d3ed856fa9814e95db7e04e5d4054f6bb5
+ms.openlocfilehash: d5c7690cd90427bb7a9a6b2b452e527aa1b608dd
+ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/05/2021
-ms.locfileid: "12067730"
+ms.locfileid: "12068449"
 ---
 # <a name="surface-laptop-studio-graphics-overview"></a>Surface Laptop Studio 그래픽 개요
 
@@ -54,7 +54,7 @@ GeForce RTX 3050 Ti를 사용하면:
 - Blender 또는 Autodesk®와 같은 앱에서 RTX 및 DLSS 가속 덕분에 매우 ® 렌더링. 
 - NVIDIA Reflex를 통해 대기 시간이 매우 짧을 뿐만 아니라 DLSS를 통해 RTX 그래픽과 고성능을 구현한 차세대 게임.
 
-## <a name="nvidia-rtx-a2000-laptop-gpu"></a>NVIDIA RTX A2000 노트북 GPU
+### <a name="nvidia-rtx-a2000-laptop-gpu"></a>NVIDIA RTX A2000 노트북 GPU
 
 NVIDIA RTX A2000은 제조 및 제품 디자인, 미디어 및 엔터테인먼트 모델링, 애니메이션 및 렌더링, 아키텍처, 엔지니어링 및 구성 디자인을 비롯한 까다로운 전문 워크플로를 위한 전문 그래픽 렌더링 및 AI 기능을 제공합니다.
  

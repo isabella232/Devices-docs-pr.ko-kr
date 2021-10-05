@@ -11,12 +11,12 @@ ms.date: 08/20/2021
 ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3cb72801f58424ed8c515e57cbd25799f3a9d709
-ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
+ms.openlocfilehash: a2f382b1120ba071e7dc709f1464ddb1e5118d28
+ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "12057685"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "12068465"
 ---
 # <a name="microsoft-teams-rooms-on-surface-hub"></a>Surface Hub Microsoft Teams 룸
 
@@ -29,7 +29,7 @@ Teams 룸 Surface Hub 9월 30일부터 [](hub-teams-app.md) 4주간의 전역 �
 - Teams 룸 응용 Surface Hub 나란히 실행하거나 최소화된 응용 프로그램을 실행할 수 있습니다.
 - 관리자는 모임에 대한 협정 모임 및 근접 연결과 같은 기능을 구성할 Surface Hub. [XML 파일은](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) 지원되는 새 설정 모델로 마이그레이션됩니다.
 - 새로운 QoS 옵션 및 네트워크 요구 사항. 자세한 내용은 [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub.](surface-hub-teams-rooms-networking.md)
-- 기본값이 아닌 경우 Teams 오디오를 호출할 때 설정 Surface Hub 모임 **** 및 통화에 대한 기본 &  >  ****  >  **수 있습니다.** 모임 모드를 알아보고 MDM 정책을 통해 모임 모드를 구성하는 데 대한 자세한 내용은 MDM 공급자를 사용하여 Surface Hub [관리를 참조하세요.](manage-settings-with-mdm-for-surface-hub.md#changing-default-business-communications-platform)
+- 기본값이 아닌 경우 Teams 오디오를 호출할 때 설정 Surface Hub 모임 **** 및 통화에 대한 기본 &  >  ****  >  **수 있습니다.** 모임 모드를 알아보고 MDM 정책을 통해 모임 모드를 구성하는 데 대한 자세한 내용은 MDM 공급자를 사용하여 Surface Hub [관리를 참조하세요.](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls)
 
 ## <a name="in-meeting-experience"></a>모임 환경
 
