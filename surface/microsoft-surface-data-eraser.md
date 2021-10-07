@@ -1,6 +1,6 @@
 ---
 title: Microsoft Surface 데이터 지우개(Surface)
-description: Microsoft Surface 데이터 지우개 도구를 사용하여 Surface 디바이스에서 데이터를 안전하게 지우는 방법에 대해 알아보세요.
+description: Microsoft Surface 데이터 지우개 도구를 사용하면 Surface 디바이스에서 데이터를 안전하게 지울 수 있습니다.
 ms.assetid: 8DD3F9FE-5458-4467-BE26-E9200341CF10
 ms.reviewer: hachidan
 manager: laurawi
@@ -14,25 +14,26 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/17/2021
-ms.openlocfilehash: 292c20c9999d9f226f28daed87069c78b43fd4bf
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/06/2021
+ms.openlocfilehash: e97bc719fb93b0a0b74c7ca51b68cbc59efa9f4a
+ms.sourcegitcommit: fe54b2bab8b205302438426b86c0aa8269ff82ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911193"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "12081226"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Microsoft Surface 데이터 지우개
 
 Microsoft Surface 데이터 지우개 도구를 사용하여 Surface 디바이스에서 데이터를 안전하게 지우는 방법에 대해 알아보세요.
 
-[Microsoft Surface 데이터 지우개](https://www.microsoft.com/download/details.aspx?id=46703)는 USB 스틱에서 부팅되는 도구로, 이 도구를 사용하면 호환되는 Surface 디바이스의 모든 데이터를 안전하게 지울 수 있습니다. Microsoft Surface 데이터 지우개 USB 스틱을 사용하려면 USB에서 부팅할 수 있기만 하면 됩니다. USB 스틱은 제공되는 마법사인 Microsoft Surface Data Eraser 래퍼를 사용하여 쉽게 만들고, 명령줄이 필요하지 않고 단순한 그래픽 인터페이스로 간편하게 사용할 수 있습니다. Surface에 대한 서비스 프로세스 중 Microsoft에서 사용하는 데이터 지우기 기능과 사례에 대해 자세히 알아보려면 [서비스를 받기 위해 Surface를 발송하는 경우의 데이터 보호](https://www.microsoft.com/surface/support/security-sign-in-and-accounts/data-wiping-policy)를 참조하세요.
+[Microsoft Surface 데이터 지우개](https://www.microsoft.com/download/details.aspx?id=46703)는 USB 스틱에서 부팅되는 도구로, 이 도구를 사용하면 호환되는 Surface 디바이스의 모든 데이터를 안전하게 지울 수 있습니다. Microsoft Surface 데이터 지우개 USB 스틱을 사용하려면 USB에서 부팅할 수 있기만 하면 됩니다. Surface에 대한 서비스 프로세스 중 Microsoft에서 사용하는 데이터 지우기 기능과 사례에 대해 자세히 알아보려면 [서비스를 받기 위해 Surface를 발송하는 경우의 데이터 보호](https://www.microsoft.com/surface/support/security-sign-in-and-accounts/data-wiping-policy)를 참조하세요.
 
 >[!IMPORTANT]
 >Microsoft Surface 데이터 지우개는 [NIST 특별 간행물 800-88 수정 버전 1](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)을 통해 승인된 방식으로 NVMe(NVM Express) 형식의 명령을 사용하여 데이터를 지웁니다.
 
 호환되는 Surface 장치는 다음과 같습니다.
 
+- Surface Laptop Studio
 - Surface Book(모든 버전)
 - Surface Go(모든 버전)
 - Surface Pro X(모든 버전)
@@ -46,67 +47,53 @@ Microsoft Surface 데이터 지우개 도구를 사용하여 Surface 디바이�
 Microsoft Surface 데이터 지우개가 도움이 되는 몇 가지 시나리오는 다음과 같습니다.
 
 - 복구를 위해 보낼 Surface 디바이스를 준비합니다.
-- 제거할 Surface 디바이스를 해제합니다. 회사 또는 조직 사용에서
-- 새 부서에서 또는 새 사용자가 사용할 수 있도록 Surface 디바이스를 다시 제안합니다.
-- 중요한 데이터와 함께 사용되는 디바이스에 대해 다시 이미징을 수행할 때의 표준 사례입니다.
-
->[!NOTE]
->타사 디바이스, Windows RT를 실행하는 Surface 디바이스(Surface, Surface 2 포함) 및 Surface Pro는 Microsoft Surface 데이터 지우개와 호환되지 않습니다.
-
->[!NOTE]
->Microsoft Surface 데이터 지우개를 실행하려면 USB에 부팅 기능이 필요하므로 디바이스가 USB에서 부팅되도록 구성되지 않았거나, 디바이스가 부팅 또는 POST를 수행하지 못할 경우 Microsoft Surface 데이터 지우개 도구는 작동하지 않습니다.
-
->[!NOTE]
->Surface Studio 및 Surface Studio 2의 Surface 데이터 지우개는 디스크 지우개가 발생하기 전에 WinPE로 부팅하는 데 최대 6분이 걸릴 수 있습니다.
+- 회사 또는 조직 사용에서 Surface 디바이스를 해제합니다.
+- 새 사용자를 위해 Surface 디바이스를 다시 제안합니다.
+- 중요한 데이터가 포함된 디바이스를 다시 이리제이트합니다.
 
 ## <a name="how-to-create-a-microsoft-surface-data-eraser-usb-stick"></a>Microsoft Surface 데이터 지우개 USB 스틱을 만드는 방법
 
-Microsoft Surface 데이터 지우개 USB 스틱을 만들려면 먼저 이 문서 시작 부분에 제공된 링크를 사용하여 Microsoft 다운로드 센터에서 Microsoft Surface 데이터 지우개 설치 도구를 설치합니다. USB 스틱을 *만들 경우* Surface 디바이스는 필요하지 않습니다. 설치 파일을 컴퓨터에 다운로드한 후 다음 단계에 따라 Microsoft Surface 데이터 지우개 만들기 도구를 설치하세요.
+만들기 도구를 설치한 후 다음 단계에 따라 Microsoft Surface 데이터 지우개 USB 스틱을 만드세요. 이 단계를 시작하려면 먼저 4GB 이상의 USB 3.0 스틱이 컴퓨터에 연결되어 있어야 합니다.
 
 1. Microsoft DataEraserSetup.msi 다운로드한 설치 파일을 [실행합니다.](https://www.microsoft.com/download/details.aspx?id=46703)
 
-2. 확인란을 선택하여 사용권 계약에 동의한 다음 **Install**(설치)을 클릭합니다.
+2. 그림 **** 1에 표시된 Microsoft Surface 데이터 지우개 USB 만들기 프로세스를 시작하려면 빌드를 선택합니다.
 
-3. **Finish**(마침)를 클릭하여 Microsoft Surface 데이터 지우개 설치 창을 닫습니다.
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig1-build.png" alt-text="그림 1. Microsoft Surface 데이터 지우개 도구 시작":::<br>
+  *그림 1. Microsoft Surface 데이터 지우개 도구 시작*
 
-만들기 도구를 설치한 후 다음 단계에 따라 Microsoft Surface 데이터 지우개 USB 스틱을 만드세요. 이 단계를 시작하려면 먼저 4GB 이상의 USB 3.0 스틱이 컴퓨터에 연결되어 있어야 합니다.
+3. 그림 **** 2와 같이 USB 드라이브가 4GB 이상 연결되어 있는지 계속을 선택합니다.
+   
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="그림 2. 4GB 이상의 USB 드라이브가 연결되어 있는지 확인":::<br>
+   *그림 2. 4GB 이상의 USB 드라이브가 연결되어 있는지 확인*
 
-1. 시작 메뉴 또는 시작 화면에서 Microsoft Surface 데이터 지우개를 시작합니다.
+4. 그림 3과 같이 2021 이상 디바이스의 경우 **x64(2021+** 디바이스에만 해당)를 선택하고, 2020 및 **** 이전 장치의 경우 **x64를,** 아키텍처 선택 페이지에서 Surface Pro X용 **ARM64를** 선택합니다. **계속**을 선택합니다.
 
-2. **Build**(빌드)를 클릭하여 Microsoft Surface 데이터 지우개 USB 만들기 프로세스를 시작합니다.
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="그림 3. 디바이스 아키텍처 선택":::
 
-3. 그림 1에서와 같이 **Start**(시작)를 클릭하여 4GB 이상의 USB 스틱이 연결되어 있음을 확인합니다.
+5. 그림 4에 표시된 USB **Thumb Drive Selection** 페이지에서 원하는 USB 드라이브를 **** 선택한 다음 시작을 선택하여 USB 만들기 프로세스를 시작할 수 있습니다. 선택한 드라이브가 포맷되고 이 드라이브의 기존 데이터는 손실됩니다.
 
-   ![Microsoft Surface 데이터 지우개 도구를 시작하십시오.](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="그림 4. USB 썸 드라이브 선택>":::<br>
+   *그림 4. USB 썸 드라이브(thumb drive) 선택*
 
-   *그림 1. Microsoft Surface 데이터 지우개 도구 시작*
-4. 그림 **** **2와** 같이 아키텍처 선택 페이지에서 대부분의 Surface 디바이스에 x64를, 아키텍처 선택 페이지에서 Surface Pro X용 **ARM64를** 선택합니다. **계속**을 선택합니다.
-
-    ![아키텍처 선택.](images/dataeraser-arch.png "Architecture Selection")<br>
-       *그림 2. 디바이스 아키텍처 선택*
-
-5. 그림 3에 표시된 USB **Thumb Drive 선택** 페이지에서 원하는 USB 드라이브를 **** 선택한 다음 시작을 클릭하여 USB 만들기 프로세스를 시작합니다. 선택한 드라이브가 포맷되고 이 드라이브의 기존 데이터는 손실됩니다.
-
-   >[!TIP]
+  >[!TIP]
    >시작 단추가 사용되지 않도록 설정되어 있으면 이동식 드라이브의 총 용량이 4GB 이상인지 확인하세요.
-  
-   ![USB 썸 드라이브 선택](images/dataeraser-usb-selection.png "USB thumb drive selection")
 
-   *그림 3. USB 썸 드라이브(thumb drive) 선택*
+6. 만들기 프로세스가 완료되면 USB 드라이브가 포맷되고 모든 이진이 USB 드라이브에 복사됩니다. 성공을 **선택합니다.**
 
-6. 만들기 프로세스가 완료되면 USB 드라이브가 포맷되고 모든 이진이 USB 드라이브에 복사됩니다. **Success**(성공)를 클릭합니다.
+7. **Congratulations**(축하합니다.) 화면이 표시되면 썸 드라이브(thumb drive)를 꺼내어 제거할 수 있습니다. 이제 이 썸 드라이브(thumb drive)를 Surface 디바이스에 삽입하고, 부팅하여 디바이스에 있는 데이터를 지울 수 있습니다. 그림 **** 5에 표시된 같이 완료를 선택하여 USB 만들기 프로세스를 완료합니다.
 
-7. **Congratulations**(축하합니다.) 화면이 표시되면 썸 드라이브(thumb drive)를 꺼내어 제거할 수 있습니다. 이제 이 썸 드라이브(thumb drive)를 Surface 디바이스에 삽입하고, 부팅하여 디바이스에 있는 데이터를 지울 수 있습니다. 그림 **** 4에 표시된 같이 완료를 클릭하여 USB 만들기 프로세스를 완료합니다.
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig5-complete.png" alt-text="Microsoft Surface 데이터 지우개 도구 완료":::<br>
+   *그림 5. Microsoft Surface 데이터 지우개 USB 만들기 프로세스 완료*
 
-   ![Surface 데이터 지우개 USB 만들기 프로세스입니다.](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
-
-   *그림 4. Microsoft Surface 데이터 지우개 USB 만들기 프로세스 완료*
-
-8. **X**를 클릭하여 Microsoft Surface 데이터 지우개를 닫습니다.
+8. **X를** 선택하여 Microsoft Surface 데이터 지우개를 닫습니다.
 
 ## <a name="how-to-use-a-microsoft-surface-data-eraser-usb-stick"></a>Microsoft Surface 데이터 지우개 USB 스틱을 사용하는 방법
 
 Microsoft Surface 데이터 지우개 USB 스틱을 만들고 나면 다음 절차에 따라 지원되는 Surface 디바이스를 USB 스틱에서 부팅할 수 있습니다.
+
+>[!NOTE]
+>Surface Studio 및 Surface Studio 2의 Surface 데이터 지우개는 디스크 지우개가 발생하기 전에 WinPE로 부팅하는 데 최대 6분이 걸릴 수 있습니다.
 
 1. 지원되는 Surface 장치에 부팅 가능한 Microsoft Surface 데이터 지우개 USB 스틱을 삽입합니다.
 
@@ -141,7 +128,7 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들고 나면 다음 절�
 
 7. 6단계에서 **Y**를 누르면 데이터 지우기 프로세스의 파괴적인 특성으로 인해 선택을 확인하는 추가 대화 상자가 표시됩니다.
 
-8. **예** 단추를 클릭하여 Surface 디바이스에서 데이터 지우기를 계속 진행합니다.
+8. 예를 **선택하여** Surface 디바이스에서 데이터 지우기를 계속합니다.
 
    >[!TIP]
    >Surface 데이터 지우개 USB 드라이브에서 Surface 데이터 지우개를 실행하면 **SurfaceDataEraserLogs** 폴더에 로그 파일이 생성됩니다.
@@ -149,6 +136,14 @@ Microsoft Surface 데이터 지우개 USB 스틱을 만들고 나면 다음 절�
 ## <a name="changes-and-updates"></a>변경 및 업데이트
 
 Microsoft Surface 데이터 지우개는 Microsoft에서 정기적으로 업데이트됩니다. 각각의 새 버전에 제공된 변경 사항에 대한 정보는 다음을 참조하세요.
+
+### <a name="3421390"></a>3.42.139.0
+
+*릴리스 날짜: 2021년 10월 5일*
+
+이 버전의 Surface 데이터 지우개에는 다음이 포함됩니다.
+
+- 2021에 대한 별도 옵션과 Surface Laptop Studio, Surface Pro 8 및 Surface Go 3을 비롯한 새로운 장치에 대한 지원을 제공합니다.
 
 ### <a name="3391390"></a>3.39.139.0
 
@@ -170,7 +165,7 @@ Microsoft Surface 데이터 지우개는 Microsoft에서 정기적으로 업데�
 
 *릴리스 날짜: 2020년 9월 9일*
 
-이 버전의 Surface 데이터 지우개에는 버그 수정이 포함되어 있으며 다음에 대한 지원이 추가되었습니다. 
+이 버전의 Surface 데이터 지우개에는 버그 수정이 포함되어 있으며 다음에 대한 지원이 추가되었습니다.
 
 - 아키텍처를 다시 디자인하여 새 제품 릴리스로 업데이트할 필요가 없습니다.
 - 새 도구 업데이트에 사용할 수 있는 알림
