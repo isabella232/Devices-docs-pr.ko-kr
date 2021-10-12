@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 01/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2c4e6c5a20bac85429e7e464bbf4d19788be2af7
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 059398152dff86dffe901264fe3503e080df0cf5
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576888"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089340"
 ---
 # <a name="microsoft-teams-certified-audio-and-video-accessories-for-surface-hub-2s"></a>Surface Hub 2S용으로 인증된 Microsoft Teams 오디오 및 비디오 액세서리
 
-Surface Hub 2S 50" [및](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=31) 85인치 모델은 Microsoft Teams 및 공동 작업 공간의 올인원 장치로 2.3미터에 대해 인증되었습니다. Surface Hub 2S 패밀리는 Surface Hub 2S 50" 및 85인치와 함께 사용할 경우 모든 공간을 가장 많이 Microsoft Teams 테스트 및 승인된 Microsoft Teams 인증된 주변 장치를 사용하여 더 큰 방으로 확장할 수 있습니다.
+Surface Hub 2S 50" [및](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) 85인치 모델은 Microsoft Teams 및 공동 작업 공간의 올인원 장치로 2.3미터에 대해 인증되었습니다. Surface Hub 2S 패밀리는 Surface Hub 2S 50" 및 85인치와 함께 사용할 경우 모든 공간을 가장 많이 Microsoft Teams 테스트 및 승인된 Microsoft Teams 인증된 주변 장치를 사용하여 더 큰 방으로 확장할 수 있습니다.
 
 ## <a name="microsoft-teams-certified-audio-accessories"></a>Microsoft Teams 인증된 오디오 액세서리 
 

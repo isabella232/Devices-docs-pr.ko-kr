@@ -1,0 +1,278 @@
+- name: Microsoft Surface Hub
+  href: index.yml
+- name: Surface Hub 2S
+  expanded: true
+  items:
+    - name: 개요
+      items:
+        - name: Windows 10 Team 2020 업데이트의 새로운 기능
+          href: surface-hub-2020-update-whats-new.md
+        - name: Surface Hub 2S 50" 기술 사양
+          href: surface-hub-2s-techspecs.md
+        - name: Surface Hub 2S 85" 기술 사양
+          href: surface-hub-2s-85.md
+        - name: 운영 체제 필수 항목(Surface Hub)
+          href: differences-between-surface-hub-and-windows-10-enterprise.md
+        - name: 'Surface Hub 2S 밝기, 볼륨 및 입력 조정'
+          href: surface-hub-2s-onscreen-display.md
+        - name: Surface Hub에서 Microsoft Whiteboard 사용
+          href: 'https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d'
+        - name: 일반 데이터 개인 정보 보호 규정 및 Surface Hub
+          href: general-data-privacy-regulation-and-surface-hub.md
+    - name: 계획
+      items:
+        - name: Surface Hub 2S 사이트 준비 가이드
+          href: surface-hub-2s-site-readiness-guide.md
+          items:
+            - name: Surface Hub 2S 사이트 계획
+              href: surface-hub-2s-site-planning.md
+            - name: Surface Hub 2S 빠른 시작
+              href: surface-hub-2s-quick-start.md
+            - name: Surface Hub 2S 50" 설치 및 탑재
+              href: surface-hub-2s-install-mount.md
+            - name: Surface Hub 2S 85” 이동 및 처리
+              href: hub-move.md
+            - name: Surface Hub 2S 85” 설치 및 탑재
+              href: surface-hub-2s-85-install-mount.md
+            - name: Surface Hub 2S 50"의 벽걸이 사용자 지정
+              href: surface-hub-2s-custom-install.md
+            - name: 설치 워크시트
+              href: setup-worksheet-surface-hub.md
+            - name: Surface Hub 2S 포트 및 키패드 개요
+              href: surface-hub-2s-port-keypad-overview.md
+        - name: Microsoft Surface Hub를 위한 사용자 환경 준비
+          href: prepare-your-environment-for-surface-hub.md
+    - name: 배포
+      items:
+        - name: Surface Hub 2S 채택 및 교육
+          href: surface-hub-2s-adoption-kit.md
+        - name: Surface Hub 2S 채택 비디오
+          href: surface-hub-2s-adoption-videos.md
+        - name: 처음으로 Surface Hub 2S 설치
+          href: first-run-program-surface-hub.md
+        - name: 관리자 그룹 관리
+          href: admin-group-management-for-surface-hub.md
+        - name: 디바이스 계정 만들기 및 테스트
+          href: create-and-test-a-device-account-surface-hub.md
+          items:
+            - name: Microsoft Exchange 속성
+              href: exchange-properties-for-surface-hub-device-accounts.md
+            - name: 장치 계정에 ActiveSync 정책 적용
+              href: apply-activesync-policies-for-surface-hub-device-accounts.md
+        - name: Surface Hub용 프로비전 패키지 만들기
+          href: provisioning-packages-for-surface-hub.md
+        - name: Windows 10 Pro/Enterprise
+          items:
+            - name: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
+              href: surface-hub-2s-migrate-os.md
+            - name: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성
+              href: surface-hub-2-post-install.md
+            - name: Surface Hub 2에서 Windows 10 Pro 및 Enterprise의 필수 추가 기능
+              href: surface-hub-2-essential-add-ons.md
+        - name: Microsoft Teams
+          items:
+            - name: Surface Hub Microsoft Teams 룸
+              href: surface-hub-teams-rooms.md
+            - name: Surface Hub Microsoft Teams 룸에 대한 네트워킹 및 서비스 품질 구성
+              href: surface-hub-teams-rooms-networking.md
+            - name: Surface Hub Teams 앱
+              href: hub-teams-app.md
+            - name: Surface Hub 2S용 Teams 인증 액세서리
+              href: surface-hub-2s-certifications.md
+    - name: 관리
+      items:
+        - name: Surface Hub 2S에 장치 연결
+          href: surface-hub-2s-connect.md
+        - name: Windows 10 Team 2020 업데이트 설치
+          href: surface-hub-2020-update.md
+        - name: 알려진 문제 - Windows 10 Team 2020 업데이트
+          href: surface-hub-2020-team-update-known-issues.md
+        - name: Surface Hub에서 전역이 아닌 관리자 계정 구성
+          href: surface-hub-2s-nonglobal-admin.md
+        - name: Microsoft Surface Hub에 앱 설치
+          href: install-apps-on-surface-hub.md
+        - name: Surface Hub에 새 Microsoft Edge 설치 및 구성
+          href: surface-hub-install-chromium-edge.md
+        - name: MDM 공급자를 사용하여 Surface Hub 관리
+          href: manage-settings-with-mdm-for-surface-hub.md
+        - name: Surface Hub 시작 메뉴 구성
+          href: surface-hub-start-menu.md
+        - name: Surface Hub 2S 설정에 대한 로컬 관리
+          href: local-management-surface-hub-settings.md
+        - name: 암호 관리
+          href: password-management-for-surface-hub-device-accounts.md
+        - name: Windows 업데이트 관리
+          href: manage-windows-updates-for-surface-hub.md
+        - name: 기존 무선 네트워크 또는 LAN의 Miracast
+          href: miracast-over-infrastructure.md
+        - name: BitLocker 키 저장
+          href: save-bitlocker-key-surface-hub.md
+        - name: Surface Hub 2S에서 펜 펌웨어 업데이트
+          href: surface-hub-2s-pen-firmware.md
+        - name: 접근성 설정 조정
+          href: accessibility-surface-hub.md
+    - name: 보안
+      items:
+        - name: Surface Hub 보안 개요
+          href: surface-hub-security.md
+        - name: SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리
+          href: surface-hub-2s-secure-with-uefi-semm.md
+        - name: Surface Hub의 최신 인증
+          href: surface-hub-modern-auth.md
+        - name: Surface Hub에서 암호 없는 로그인 구성
+          href: surface-hub-2s-phone-authenticate.md
+        - name: Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법
+          href: surface-hub-wifi-direct.md
+    - name: 문제 해결
+      items:
+        - name: Surface Hub 업데이트 기록
+          href: surface-hub-update-history.md
+        - name: Surface Hub 2S 복구 및 초기화
+          href: surface-hub-2s-recover-reset.md
+        - name: Surface Hub에서 Miracast 문제 해결
+          href: miracast-troubleshooting.md
+        - name: 'Surface Hub Miracast 채널 149-165는 유럽, 일본, 이스라엘에서 지원되지 않음'
+          href: surfacehub-miracast-not-supported-europe-japan-israel.md
+        - name: Surface Hub가 업데이트를 설치하고 유지 관리 시간 외에 다시 시작할 수 있음
+          href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
+        - name: 서비스에 대한 Surface Hub 2S를 압축하고 배송하는 방법
+          href: surface-hub-2s-pack-components.md
+- name: Surface Hub (v1)
+  expanded: true
+  items:
+    - name: 개요
+      items:
+        - name: 'Surface Hub에 대한 Windows 10, 버전 1703의 새로운 기능'
+          href: surfacehub-whats-new-1703.md
+        - name: 운영 체제 필수 항목(Surface Hub)
+          href: differences-between-surface-hub-and-windows-10-enterprise.md
+        - name: 55" Microsoft Surface Hub 기술 정보(v1)
+          href: surface-hub-technical-55.md
+        - name: 84" Microsoft Surface Hub 기술 정보(v1)
+          href: surface-hub-technical-84.md
+        - name: Surface Hub에서 Microsoft Whiteboard 사용
+          href: 'https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d'
+        - name: 일반 데이터 개인 정보 보호 규정 및 Surface Hub
+          href: general-data-privacy-regulation-and-surface-hub.md
+    - name: 계획
+      items:
+        - name: Microsoft Surface Hub를 위한 사용자 환경 준비
+          href: prepare-your-environment-for-surface-hub.md
+        - name: Surface Hub 사이트 준비 가이드
+          href: surface-hub-site-readiness-guide.md
+        - name: 물리적으로 Microsoft Surface Hub 설치
+          href: physically-install-your-surface-hub-device.md
+        - name: Surface Hub 준비 상태를 위해 다운로드 가능한 리소스
+          href: surface-hub-downloads.md
+    - name: 배포
+      items:
+        - name: 관리자 그룹 관리
+          href: admin-group-management-for-surface-hub.md
+        - name: 프로비전 패키지 만들기
+          href: provisioning-packages-for-surface-hub.md
+        - name: 디바이스 계정 만들기 및 테스트
+          href: create-and-test-a-device-account-surface-hub.md
+          items:
+            - name: Microsoft Exchange 속성
+              href: exchange-properties-for-surface-hub-device-accounts.md
+            - name: 장치 계정에 ActiveSync 정책 적용
+              href: apply-activesync-policies-for-surface-hub-device-accounts.md
+        - name: Microsoft Surface Hub 설치
+          href: set-up-your-surface-hub.md
+          items:
+            - name: 설치 워크시트
+              href: setup-worksheet-surface-hub.md
+            - name: 첫 실행 프로그램
+              href: first-run-program-surface-hub.md
+    - name: 관리
+      items:
+        - name: Microsoft Surface Hub 관리
+          href: manage-surface-hub.md
+        - name: Surface Hub에 새 Microsoft Edge 설치 및 구성
+          href: surface-hub-install-chromium-edge.md
+        - name: Surface Hub용 PowerShell
+          href: appendix-a-powershell-scripts-for-surface-hub.md
+        - name: 원격 Surface Hub 관리
+          href: remote-surface-hub-management.md
+          items:
+            - name: MDM 공급자를 사용하여 설정 관리
+              href: manage-settings-with-mdm-for-surface-hub.md
+            - name: Surface Hub에서 전역이 아닌 관리자 계정 구성
+              href: surface-hub-2s-nonglobal-admin.md
+            - name: Surface Hub 모니터링
+              href: monitor-surface-hub.md
+            - name: Windows 업데이트
+              href: manage-windows-updates-for-surface-hub.md
+        - name: Surface Hub 설정 관리
+          href: manage-surface-hub-settings.md
+          items:
+            - name: Surface Hub 설정에 대한 로컬 관리
+              href: local-management-surface-hub-settings.md
+            - name: 암호 관리
+              href: password-management-for-surface-hub-device-accounts.md
+            - name: 접근성 설정 조정
+              href: accessibility-surface-hub.md
+            - name: Surface Hub 장치 계정 변경
+              href: change-surface-hub-device-account.md
+            - name: Surface Hub에서 정규화된 도메인 이름 사용
+              href: use-fully-qualified-domain-name-surface-hub.md
+            - name: 무선 네트워크 관리
+              href: wireless-network-management-for-surface-hub.md
+        - name: Surface Hub에서 서비스 품질 구현
+          href: surface-hub-qos.md
+        - name: Surface Hub에 앱 설치
+          href: install-apps-on-surface-hub.md
+        - name: Surface Hub 시작 메뉴 구성
+          href: surface-hub-start-menu.md
+        - name: Microsoft Whiteboard 설정 및 사용
+          href: whiteboard-collaboration.md
+        - name: 세션 종료를 사용하여 Surface Hub 모임 종료
+          href: finishing-your-surface-hub-meeting.md
+        - name: 다른 디바이스를 연결하여 Surface Hub에서 표시
+          href: connect-and-display-with-surface-hub.md
+        - name: 기존 무선 네트워크 또는 LAN의 Miracast
+          href: miracast-over-infrastructure.md
+        - name: 802.1x 유선 인증 사용
+          href: enable-8021x-wired-authentication.md
+        - name: 회의실 제어 시스템 사용
+          href: use-room-control-system-with-surface-hub.md
+    - name: 보안
+      items:
+        - name: Microsoft Authenticator로 Surface Hub 로그인
+          href: surface-hub-authenticator-app.md
+        - name: BitLocker 키 저장
+          href: save-bitlocker-key-surface-hub.md
+        - name: Surface Hub의 최신 인증
+          href: surface-hub-modern-auth.md
+        - name: Surface Hub에서 암호 없는 로그인 구성
+          href: surface-hub-2s-phone-authenticate.md
+        - name: Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법
+          href: surface-hub-wifi-direct.md
+    - name: 문제 해결
+      items:
+        - name: Surface Hub 업데이트 기록
+          href: surface-hub-update-history.md
+        - name: Surface Hub 다시 설정 또는 복구
+          href: device-reset-surface-hub.md
+        - name: Surface Hub 복구 도구 사용
+          href: surface-hub-recovery-tool.md
+        - name: Surface Hub SSD 교체
+          href: surface-hub-ssd-replacement.md
+        - name: Surface Hub에 대한 주요 지원 솔루션
+          href: support-solutions-surface-hub.md
+        - name: Microsoft Surface Hub 문제 해결
+          href: troubleshoot-surface-hub.md
+        - name: '알려진 문제: Windows 10 Team OS'
+          href: surface-hub-2020-team-update-known-issues.md
+        - name: Surface Hub에서 BitLocker에 대한 클라우드 복구를 사용하는 방법
+          href: use-cloud-recovery-for-bitlocker-on-surfacehub.md
+        - name: Surface Hub 하드웨어 진단 도구를 사용하여 디바이스 계정 테스트
+          href: use-surface-hub-diagnostic-test-device-account.md
+        - name: Surface Hub에서 Miracast 문제 해결
+          href: miracast-troubleshooting.md
+        - name: 'Surface Hub Miracast 채널 149-165는 유럽, 일본, 이스라엘에서 지원되지 않음'
+          href: surfacehub-miracast-not-supported-europe-japan-israel.md
+        - name: Surface Hub의 연결 앱이 예기치 않게 종료되는 경우 수행할 작업
+          href: connect-app-in-surface-hub-unexpectedly-exits.md
+        - name: Surface Hub가 업데이트를 설치하고 유지 관리 시간 외에 다시 시작할 수 있음
+          href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md

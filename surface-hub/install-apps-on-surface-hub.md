@@ -13,12 +13,12 @@ ms.topic: article
 ms.date: 07/16/2021
 ms.localizationpriority: medium
 audience: ITPro
-ms.openlocfilehash: a8c11406c7786e379999ff32f482815d6b180b24
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 3c4869f8aadbd849a608b5a35bf0e76ff3e78508
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676662"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089330"
 ---
 # <a name="install-apps-on-your-microsoft-surface-hub"></a>Microsoft Surface Hub에 앱 설치
 
@@ -73,11 +73,11 @@ Microsoft Store에 릴리스된 앱을 평가하려면 Surface Hub의 Microsoft 
 - *인코드된* 라이선스 파일(MDM을 사용하여 앱을 배포하는 경우)
 - 필요한 모든 종속성 파일
 
-자세한 내용은 [오프라인 사용이 허가된 앱 다운로드](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app)를 참조하세요.
+자세한 내용은 [오프라인 사용이 허가된 앱 다운로드](/microsoft-store/distribute-offline-apps#download-an-offline-licensed-app)를 참조하세요.
 
 ### <a name="install-offline-licensed-apps-via-provisioning-package"></a>프로비저닝 패키지를 통해 오프라인 라이선스 앱 설치
 
-프로비저닝 패키지를 사용하여 비즈니스용 Store에서 다운로드한 오프라인 사용이 허가된 앱을 몇몇 Surface Hub에 수동으로 설치할 수 있습니다. Windows ICD(이미징 및 구성 디자이너)를 사용하여 비즈니스용 Store에서 다운로드한 앱 패키지와 *인코드되지 않은* 라이선스 파일이 포함된 프로비저닝 패키지를 만듭니다. 자세한 내용은 [프로비저닝 패키지 만들기](provisioning-packages-for-certificates-surface-hub.md)를 참조하세요.
+프로비저닝 패키지를 사용하여 비즈니스용 Store에서 다운로드한 오프라인 사용이 허가된 앱을 몇몇 Surface Hub에 수동으로 설치할 수 있습니다. Windows ICD(이미징 및 구성 디자이너)를 사용하여 비즈니스용 Store에서 다운로드한 앱 패키지와 *인코드되지 않은* 라이선스 파일이 포함된 프로비저닝 패키지를 만듭니다. 자세한 내용은 에 대한 프로비저닝 패키지 [만들기를 Surface Hub.](provisioning-packages-for-certificates-surface-hub.md)
 
 ### <a name="supported-mdm-provider"></a>지원되는 MDM 공급자
 
@@ -118,7 +118,7 @@ Microsoft Store에 릴리스된 앱을 평가하려면 Surface Hub의 Microsoft 
 
 #### <a name="create-provisioning-package"></a>프로비저닝 패키지 만들기
 
-Visual Studio를 사용하여 테스트 인증서를 사용하여 서명된 UWP 앱에 대한 앱 패키지를 만듭니다. 그런 다음 Windows ICD(이미징 및 구성 디자이너)를 사용하여 앱 패키지가 포함된 프로비저닝 패키지를 만듭니다. 자세한 내용은 [프로비저닝 패키지 만들기](provisioning-packages-for-certificates-surface-hub.md)를 참조하세요.
+Visual Studio를 사용하여 테스트 인증서를 사용하여 서명된 UWP 앱에 대한 앱 패키지를 만듭니다. 그런 다음 Windows ICD(이미징 및 구성 디자이너)를 사용하여 앱 패키지가 포함된 프로비저닝 패키지를 만듭니다. 자세한 내용은 에 대한 프로비저닝 패키지 [만들기를 Surface Hub.](provisioning-packages-for-certificates-surface-hub.md)
 
 ## <a name="submit-apps-to-the-microsoft-store"></a>Microsoft Store에 앱 제출
 

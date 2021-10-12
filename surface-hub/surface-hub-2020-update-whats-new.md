@@ -11,18 +11,18 @@ audience: Admin
 ms.topic: article
 ms.date: 03/25/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 753f0b64eb05e6d18d0ec2e32af8e0566a8c50b5
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: fcd7df80615e406a1dab061b473ef7f3dbd065e1
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676642"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089270"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Windows 10 Team 2020 업데이트의 새로운 기능
 
 Windows 10 Team 2020 업데이트는 장치 배포 및 관리성에 대한 주요 개선 기능과 함께 최신 Windows 10 제공합니다.
 
-##  <a name="deployment-and-manageability"></a>배포 및 관리 가능성
+## <a name="deployment-and-manageability"></a>배포 및 관리 가능성
 
 - **클라우드 장치 계정에 대한 최신 인증**. Surface Hub EWS(Exchange 웹 서비스) 및 ADAL(Active Directory 인증 라이브러리) 기반 인증을 지원하여 Exchange 기본 인증 사용을 더는 사용하지 않습니다. 자세한 내용은 에서 [최신 인증을 Surface Hub.](surface-hub-modern-auth.md)
 - MDM(모바일 장치 관리) 정책 설정이 **20개 이상 새로 추가 및 업데이트되었습니다.**  이러한 정책 설정을 통해 IT 관리자는 Microsoft Store 앱 업데이트, 인프라를 통해 무선으로 Miracast 설정, 서비스 품질 및 802.1x 유선 인증과 같은 네트워크 설정, 새로운 개인 정보/GDPR 관련 설정을 비롯한 여러 장치 설정을 더 개선할 수 있습니다. 새 CSP(구성 서비스 공급자)에는 다음이 포함됩니다. 
@@ -37,13 +37,11 @@ Windows 10 Team 2020 업데이트는 장치 배포 및 관리성에 대한 주�
 - [지원되는 CSP는 Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [MDM 공급자를 사용하여 Surface Hub 관리](manage-settings-with-mdm-for-surface-hub.md)
 
-
-##  <a name="azure-active-directory-joined-devices"></a>Azure Active Directory 가입된 장치
+## <a name="azure-active-directory-joined-devices"></a>Azure Active Directory 가입된 장치
 
 - **Azure AD 가입 장치에 대한 SSO(Single Sign-On)입니다.** 사용자가 자신의 Microsoft 365 자격 증명을 사용하여 "내 모임 및 파일"에 로그인하면 사용자 자격 증명이 앱 간 원활하게 흐르며 브라우저의 Microsoft 365 환경을 포함하게 됩니다.
 - Azure AD 가입 장치에 대한 **CA(조건부 액세스)입니다.** IT 관리자는 회사 보안 및 규정 준수 요구 사항에 따라 장치 정책을 할당하여 Azure AD 가입 Surface Hub에서 조직 리소스에 대한 사용자 액세스를 제어할 수 있습니다.
 - Azure AD 가입 장치에 대한 전역이 아닌 **관리자에 대한 지원**. 고객은 관리자 계층 구조 내에서 보다 세부적인 관리자 집합을 선택하여 관리자를 관리할 Surface Hub. 자세한 내용은 에서 전역이 아닌 관리자 계정 [구성을 Surface Hub.](surface-hub-2s-nonglobal-admin.md)
-
 
 ## <a name="browser-and-pen"></a>브라우저 및 펜
 
@@ -52,7 +50,7 @@ Windows 10 Team 2020 업데이트는 장치 배포 및 관리성에 대한 주�
 
 ## <a name="microsoft-teams"></a>Microsoft Teams  
 
-- **Microsoft Teams 설치됩니다.**        Microsoft Teams MDM을 통해 또는 Surface Hub 앱을 사용하여 직접 구성할 수 있는 새 Surface Hub 디바이스에서 기본 모임, 통화 및 공동 작업 설정 포함되어 있습니다. 자세한 내용은 [Deploy Microsoft Teams.](/MicrosoftTeams/teams-surface-hub)
+- **Microsoft Teams 설치됩니다.**        Microsoft Teams MDM을 통해 또는 Surface Hub 앱을 사용하여 직접 구성할 수 있는 새 Surface Hub 디바이스에서 기본 모임, 통화 및 공동 작업 설정 포함되어 있습니다. 자세한 내용은 Microsoft Teams [배포 개요를 참조하세요.](/microsoftteams/deploy-overview)
 - **를 통해 근접 조인을 Microsoft Teams.**  근접 연결 기능을 사용하면 사용자가 자신의 랩톱/Microsoft Teams 사용하여 가까운 Surface Hub 예약된 통화를 하게 되거나 진행 중 모임을 가까운 가까운 모임으로 원활하게 전환할 수 Surface Hub. Windows 10 Team 2020 업데이트에는 근접 연결 구성을 위한 MDM(모바일 장치 관리) 지원이 추가되었습니다. 자세한 내용은 다음을 참조합니다. 
 
   - [Microsoft Teams 블로그 를 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833) 
@@ -65,9 +63,8 @@ Windows 10 Team 2020 업데이트는 장치 배포 및 관리성에 대한 주�
 - **FIDO2 보안** 키를 사용하는 암호 없는 로그인     FIDO2 보안 키를 사용하여 고객은 사용자 이름과 암호를 입력하지 않고도 Surface Hub 쉽고 빠르게 로그인할 수 있습니다. SSO(Single Sign-On)와 결합된 이 기능은 모임 중에 파일, 앱 및 웹 사이트에 대해 빠르고 원활한 인증을 제공합니다. 자세한 내용은 에서 암호 없는 로그인 [구성을 Surface Hub.](surface-hub-2s-phone-authenticate.md)
 - **를 사용하여 암호 없는 로그인이 Microsoft Authenticator.**  Azure AD를 사용하는 조직의 경우 사용자는 사용자 이름과 Microsoft Authenticator 입력하지 않고도 Microsoft Authenticator 앱을 사용하여 로그인할 수 있습니다. 또한 사용자는 UPN(사용자 계정 이름) 외에 Azure AD에서 기본 설정 전자 메일 별칭을 사용하여 로그인할 수 있습니다. 자세한 내용은 [Sign in to Surface Hub with Microsoft Authenticator.](surface-hub-authenticator-app.md)
 
-
 ## <a name="learn-more"></a>자세히 알아보기
 
-- [Windows 10 Team 출시 업데이트](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
+- [Windows 10 Team 2020 업데이트 1이 모든 Surface Hub에 릴리스되었습니다.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)
 - [Windows 10 Team 2020 업데이트 설치](surface-hub-2020-update.md)  
  

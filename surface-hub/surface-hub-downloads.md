@@ -1,5 +1,5 @@
 ---
-title: Microsoft Surface Hub에 대한 유용한 다운로드
+title: 설치 준비를 위한 Surface Hub 리소스
 description: Microsoft Surface Hub와 관련된 다운로드입니다.
 ms.prod: surface-hub
 ms.sitesec: library
@@ -10,16 +10,16 @@ ms.date: 08/22/2017
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3dc552f10b51d041de36d96f8124d812cb2ff1c4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e108714e5d0c2295c3db033437f130cbe5b3b66f
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835212"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089290"
 ---
-# Microsoft Surface Hub에 대한 유용한 다운로드
+# <a name="downloadable-resources-for-surface-hub-readiness"></a>설치 준비를 위한 Surface Hub 리소스
 
-이 항목에서는 제품 데이터 시트 및 사용자 가이드와 같은 유용한 Surface Hub 문서에 대 한 링크를 제공 합니다.
+이 항목에서는 제품 데이터시트 Surface Hub 사용자 가이드와 같은 유용한 문서에 대한 링크를 제공합니다.
 
 | 링크 | 설명 |
 | --- | --- |
