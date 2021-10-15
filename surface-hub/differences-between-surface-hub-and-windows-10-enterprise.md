@@ -11,12 +11,12 @@ ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 57fd7ea11e19902d2a94c1be998052739875afaf
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
+ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089300"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "12094461"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>운영 체제 필수 항목(Surface Hub)
 
@@ -119,7 +119,7 @@ Surface Hub에서 구현하는 Windows 10 보안 기능은 다음과 같습니�
 - [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [AppLocker를 사용하는 응용 프로그램 제한 정책](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [BitLocker 드라이브 암호화](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [TPM(신뢰할 수 있는 플랫폼 모듈)] (/security/information-protection/tpm/trusted-platform-module-overview
+- [TPM(신뢰할 수 있는 플랫폼 모듈)](/security/information-protection/tpm/trusted-platform-module-overview)
 - [Microsoft Defender 바이러스 백신 Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - 설정 앱 액세스를 위한 [UAC(사용자 계정 컨트롤)](/windows/security/identity-protection/user-account-control/user-account-control-overview)
 
