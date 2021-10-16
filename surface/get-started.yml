@@ -11,17 +11,19 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 60a0956cf83b466587197ca401dc41b95952be03
-  ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
+  ms.openlocfilehash: 1d46bea76ffb0641aeee1c51f88dcbb1ff2d56bf
+  ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/23/2021
-  ms.locfileid: "12037142"
+  ms.lasthandoff: 10/16/2021
+  ms.locfileid: "12096446"
 landingContent:
 - title: Surface 장치
   linkLists:
   - linkListType: whats-new
     links:
+    - text: 어떤 Surface 디바이스를 업그레이드할 수 Windows 11?
+      url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
     - text: Surface OS 선택
       url: surface-os-choice.md
     - text: 비즈니스용 Surface Pro 8
@@ -34,16 +36,16 @@ landingContent:
       url: https://www.microsoft.com/surface/business/surface-go-3
     - text: Surface Laptop 비즈니스용 이동
       url: https://www.microsoft.com/surface/business/surface-laptop-go
-    - text: 모든 Surface 패밀리 제품 탐색
+    - text: 모든 Surface 제품군 제품 살펴보기
       url: https://www.microsoft.com/surface/business
 - title: 시작
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Laptop 4 프로세서 기술 개요
+    - text: Surface Laptop Studio 그래픽 개요
+      url: surface-laptop-studio-graphics.md
+    - text: Surface Laptop 4 프로세서 개요
       url: surface-laptop-processors.md
-    - text: Surface Headphones 2+ 기술 개요
-      url: surface-headphones.md
     - text: Surface의 Azure Virtual Desktop
       url: windows-virtual-desktop-surface.md
     - text: Surface를 사용하여 원격 작업 솔루션
@@ -88,6 +90,8 @@ landingContent:
       url: support-solutions-surface.md
     - text: Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기
       url: surface-driver-firmware-lifecycle-support.md
+    - text: Surface 지원 운영 체제
+      url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
 - title: 보안 지침 탐색
   linkLists:
   - linkListType: how-to-guide

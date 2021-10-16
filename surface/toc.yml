@@ -8,6 +8,8 @@
       items:
         - name: 기술 개요
           items:
+            - name: Surface OS 선택
+              href: surface-os-choice.md
             - name: Surface 보안 개요
               href: surface-security.md
             - name: Surface의 Azure Virtual Desktop
