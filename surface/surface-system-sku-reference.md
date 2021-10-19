@@ -9,17 +9,17 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/02/2021
+ms.date: 10/19/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 71ded9892e9dde8de1976a89214ea946e1bd1da4
-ms.sourcegitcommit: 657d0d73a51f0dd35ad60740ed523164a55d2e04
+ms.openlocfilehash: c90e5b9756896be0ab0df164357f16e0ab317efb
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11720922"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101202"
 ---
 # <a name="surface-system-sku-reference"></a>Surface 시스템 SKU 참조
 
@@ -40,15 +40,19 @@ ms.locfileid: "11720922"
 | Surface Book 2 15인치                                        | Surface Book 2   | Surface_Book_1793                |
 | Surface Book 3 13"                                        | Surface Book 3   | Surface_Book_3_1900                |
 | Surface Book 3 15인치                                        | Surface Book 3   | Surface_Book_3_1899
+| Surface Laptop Studio| Surface Laptop Studio | Surface_Laptop_Studio_1964 |
 | Surface Go LTE Commercial | Surface Go | Surface_Go_1825_Commercial |
 | Surface Go 소비자                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
+| Surface Go 3| Surface Go 3     | Surface_Go_3_1926               |
 | Surface Pro 6 소비자                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | surface 노트북                                               | surface 노트북   | Surface_Laptop                   |
 | Surface Laptop 2 소비자                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
+| Surface Pro 8                                              | Surface Pro 8 | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 LTE                                             | Surface Pro 8 | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro 7+                                               | Surface Pro 7+ | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+ | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
@@ -66,7 +70,7 @@ ms.locfileid: "11720922"
 | Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   |
 | Surface Studio | Surface Studio | Surface_Studio   |
 | Surface Studio 2 | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
-|
+
 
 ## <a name="examples"></a>예
 

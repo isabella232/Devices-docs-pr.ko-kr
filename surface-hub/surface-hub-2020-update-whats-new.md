@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/25/2021
+ms.date: 10/19/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: fcd7df80615e406a1dab061b473ef7f3dbd065e1
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3b9dbf0e4b7412967c3f2c68ddc10a6fccac8907
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089270"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101225"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Windows 10 Team 2020 업데이트의 새로운 기능
 
@@ -45,12 +45,12 @@ Windows 10 Team 2020 업데이트는 장치 배포 및 관리성에 대한 주�
 
 ## <a name="browser-and-pen"></a>브라우저 및 펜
 
-- **새 에 대한 Microsoft Edge.** Microsoft Edge 성능, 보안 및 개인 정보 보호를 위해 다시 구성했습니다. 자세한 내용은 에서 새 앱 설치 [및 Microsoft Edge 구성을 Surface Hub.](surface-hub-install-chromium-edge.md)
+- **새 Microsoft Edge 기본적으로 설치됩니다.** Microsoft Edge 성능, 보안 및 개인 정보 보호를 위해 다시 구성했습니다. 자세한 내용은 Manage [Microsoft Edge on Surface Hub.](surface-hub-install-chromium-edge.md)
 - **2S에서**이중 펜 Surface Hub.   사용자는 두 개의 Surface Hub 2 펜을 사용하여 2S에서 Surface Hub 수 있습니다. 이중 펜식 자동 작성을 사용하도록 설정하는 데 필요한 펌웨어 업데이트는 후속 업데이트와 함께 릴리스됩니다.
 
 ## <a name="microsoft-teams"></a>Microsoft Teams  
 
-- **Microsoft Teams 설치됩니다.**        Microsoft Teams MDM을 통해 또는 Surface Hub 앱을 사용하여 직접 구성할 수 있는 새 Surface Hub 디바이스에서 기본 모임, 통화 및 공동 작업 설정 포함되어 있습니다. 자세한 내용은 Microsoft Teams [배포 개요를 참조하세요.](/microsoftteams/deploy-overview)
+- **Microsoft Teams 설치됩니다.**        Microsoft Teams MDM을 통해 또는 Surface Hub 앱을 사용하여 직접 구성할 수 있는 새 Surface Hub 디바이스에서 기본 모임, 통화 및 공동 작업 설정 포함되어 있습니다. 자세한 내용은[[배포](/MicrosoftTeams/teams-surface-hub)Microsoft Teams.
 - **를 통해 근접 조인을 Microsoft Teams.**  근접 연결 기능을 사용하면 사용자가 자신의 랩톱/Microsoft Teams 사용하여 가까운 Surface Hub 예약된 통화를 하게 되거나 진행 중 모임을 가까운 가까운 모임으로 원활하게 전환할 수 Surface Hub. Windows 10 Team 2020 업데이트에는 근접 연결 구성을 위한 MDM(모바일 장치 관리) 지원이 추가되었습니다. 자세한 내용은 다음을 참조합니다. 
 
   - [Microsoft Teams 블로그 를 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833) 

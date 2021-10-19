@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/15/2021
+ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 680fea05112605aa0c26f63c135cb3bc4208e3ad
-ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
+ms.openlocfilehash: f59441a1df25e455480cfb1b9f2a47a7466ba120
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "11902627"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101188"
 ---
 # <a name="azure-virtual-desktop-on-surface"></a>Surface의 Azure Virtual Desktop
 
@@ -25,7 +25,7 @@ ms.locfileid: "11902627"
 
 Surface의 Azure Virtual Desktop을 사용하면 Surface 디바이스에서 VDI(가상 데스크톱 인프라)를 실행할 수 있습니다. 터치, 펜, Ink 및 생체 인식 인증이 실제 환경과 가상 환경 모두에 걸쳐 있는 가상 데스크톱 환경과 로컬 데스크톱 환경 사이의 선을 흐리게 합니다. 컴퓨팅의 발전에 대한 또 다른 중요 시점을 나타내는 Surface 1의 Azure Virtual Desktop은 Azure 클라우드에서 가상화되는 Microsoft 365 Surface의 고급 보안 보호, 엔터프라이즈 수준의 관리 효율성 및 Surface의 향상된 생산성 도구와 Windows 10 <a href="#1"><sup> </sup></a> 결합합니다. Azure의 고급 폼 팩터와 가상 데스크톱 인프라가 함께 통합되어 조직은 고급 사용자 환경, 이식성, 보안, 비즈니스 연속성 및 최신 관리를 제공할 수 있습니다.
 
-### <a name="azure-virtual-desktop"></a>Azure 가상 데스크톱
+### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
 AVD(Azure Virtual Desktop)는 Azure 클라우드에서 실행되는 포괄적인 데스크톱 및 앱 가상화 서비스입니다. RDS(원격 데스크톱 서비스) 환경에 대한 간소화된 [관리,](https://www.microsoft.com/microsoft-365) 다중 세션 Windows 10, Microsoft 365 앱 최적화를 제공하는 유일한 가상 데스크톱 인프라입니다. AVD를 사용하면 Azure의 데스크톱 및 Windows 신속하게 배포 및 확장하고 기본 제공 보안 및 규정 준수 기능을 사용할 수 있습니다.
 
@@ -136,13 +136,13 @@ Surface는 수명 주기 평가를 수행하여 Microsoft가 이러한 영향을
 
 ## <a name="summary"></a>요약
 
-Surface의 Azure Virtual Desktop은 조직이 사용자, 이해 관계자 및 고객의 다양한 요구를 충족하는 데 더 큰 유연성과 탄력성을 제공합니다. Surface 디바이스에서 Azure Virtual Desktop 솔루션을 실행하면 레거시 장치에 대한 계속된 무관한 이점을 활용할 수 있습니다. Surface Go 2 및 Surface Pro(또는 오프라인)에 연결된 7+폼 팩터와 같은 유연한 폼 팩터를 사용하면 언제 어디서나 생산성을 향상할 수 있습니다. 직원들이 영구적인 시나리오, 요구 시 또는 정시 시나리오에서 작업하는 경우 Surface의 Azure Virtual Desktop은 공공 의료 긴급 또는 기타 예고하지 않은 이벤트로 인한 중단 전반에 걸쳐 생산성을 지속할 수 있는 다양한 기능을 기업에 제공합니다. 회사에서는 기본 제공된 다계층 보안 및 최신 관리 Windows 10 클라우드 기반 서비스의 에코시스템을 활용하여 데스크톱 및 앱을 신속하게 배포하고 Windows 수 있습니다. 간단히 말하면 Surface의 Azure Virtual Desktop은 모든 크기의 조직 및 비즈니스에 매우 필요한 기술을 제공합니다.
+Surface의 Azure Virtual Desktop은 조직이 사용자, 이해 관계자 및 고객의 다양한 요구를 충족하는 데 더 큰 유연성과 탄력성을 제공합니다. Surface 디바이스에서 Azure Virtual Desktop 솔루션을 실행하면 레거시 장치에 대한 계속된 무관한 이점을 활용할 수 있습니다. Surface Go 3 및 Surface Pro 8과 같은 유연한 폼 팩터를 사용하면 언제 어디서나 어디서나 생산성을 향상할 수 있습니다. 직원들이 영구적인 시나리오, 요구 시 또는 정시 시나리오에서 작업하는 경우 Surface의 Azure Virtual Desktop은 공공 의료 긴급 또는 기타 예고하지 않은 이벤트로 인한 중단 전반에 걸쳐 생산성을 지속할 수 있는 다양한 기능을 기업에 제공합니다. 회사에서는 기본 제공된 다계층 보안 및 최신 관리 Windows 10 클라우드 기반 서비스의 에코시스템을 활용하여 데스크톱 및 앱을 신속하게 배포하고 Windows 수 있습니다. 간단히 말하면 Surface의 Azure Virtual Desktop은 모든 크기의 조직 및 비즈니스에 매우 필요한 기술을 제공합니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
 
 자세한 내용은 다음 리소스를 참조하세요.
 
-- [Azure 가상 데스크톱](https://azure.microsoft.com/services/virtual-desktop/)
+- [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/)
 - [비즈니스용 Surface](https://www.microsoft.com/surface/business)
 - [Microsoft Surface를 통해 인력 현대화](https://boards.microsoft.com/public/prism/103849?token=754435c36d)
 - [Surface 기술 콘텐츠 및 솔루션 가이드](https://boards.microsoft.com/public/prism/104362/category/90968?token=09e688ec4a)
@@ -154,6 +154,6 @@ Surface의 Azure Virtual Desktop은 조직이 사용자, 이해 관계자 및 �
 <a id="2">2. 배터리 사용 시간은 설정, 사용 및 기타 요인에 </a> 따라 크게 다릅니다.<br>
 <a id="3">3. </a> 서비스 가용성 및 성능은 서비스 공급자의 네트워크에 따라 달라집니다. 서비스 공급자에게 자세한 내용, 호환성, 가격, SIM 카드 및 정품 인증을 문의하세요. 모든 사양 및 주파수는 surface.com.<br>
 <a id="4">4. </a> Forrester Consulting, "Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface, 2018.<br> 
-<a id="5">5. </a> Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Pro 7+, go Surface Laptop, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 및 Surface Pro X에 사용할 수 있습니다.<br>
+<a id="5">5. </a> Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro X를 Surface Pro.<br>
 <a id="6">6. 이동식 </a> SSD는 Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, Surface Pro 사용할 수 있습니다. <br>
-<a id="7">7. DFCI는 현재 Surface Pro </a> 7+, Surface Laptop Go, Surface Book 4, Surface Laptop 3, Surface Pro 7 및 Surface Pro X에 사용할 수 [](surface-manage-dfci-guide.md) 있습니다. Surface UEFI 설정 관리에 대한 자세한 내용은 자세한 정보를 제공합니다.
+<a id="7">7. </a> DFCI는 현재 Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 및 [Surface Pro.](surface-manage-dfci-guide.md) Surface UEFI 설정 관리에 대한 자세한 내용은 UEFI 설정을 확인합니다.

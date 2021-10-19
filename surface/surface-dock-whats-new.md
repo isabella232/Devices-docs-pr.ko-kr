@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 65bd923cdfceecf51e59a9cf66b5b4eff44a8374
-ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
+ms.openlocfilehash: 9c923b22d3921e71f1be127f2ba31c361b4ad1d7
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "12096466"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101215"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2의 새로운
 
@@ -67,7 +67,9 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
     
 - 이중 4K@60hz. 다음 디바이스에서 최대 2개의 디스플레이를 지원합니다.
 
+  - Surface Laptop Studio
   - Surface Book 3
+  - Surface Pro 8
   - Surface Pro 7
   - Surface Pro 7+
   - Surface Pro X
@@ -82,6 +84,7 @@ Surface Dock 2는 IT 관리를 간소화하도록 설계되어 관리자가 내�
   - Surface Laptop(1세대)
   - Surface Go
   - Surface Go 2
+  - Surface Go 3
   - Surface Book 2
 
 ### <a name="ethernet"></a>Ethernet
