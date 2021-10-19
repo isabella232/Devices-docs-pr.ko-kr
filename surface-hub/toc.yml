@@ -91,7 +91,7 @@
           href: surface-hub-2s-nonglobal-admin.md
         - name: Microsoft Surface Hub에 앱 설치
           href: install-apps-on-surface-hub.md
-        - name: Surface Hub에 새 Microsoft Edge 설치 및 구성
+        - name: Surface Hub에서 Microsoft Edge 관리
           href: surface-hub-install-chromium-edge.md
         - name: MDM 공급자를 사용하여 Surface Hub 관리
           href: manage-settings-with-mdm-for-surface-hub.md
@@ -188,7 +188,7 @@
       items:
         - name: Microsoft Surface Hub 관리
           href: manage-surface-hub.md
-        - name: Surface Hub에 새 Microsoft Edge 설치 및 구성
+        - name: Surface Hub에서 Microsoft Edge 관리
           href: surface-hub-install-chromium-edge.md
         - name: Surface Hub용 PowerShell
           href: appendix-a-powershell-scripts-for-surface-hub.md
