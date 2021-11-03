@@ -12,12 +12,12 @@ ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: f59441a1df25e455480cfb1b9f2a47a7466ba120
-ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
+ms.openlocfilehash: 6ef6c26395528003f4018d07387c3ca3a7d8059a
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "12101188"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154143"
 ---
 # <a name="azure-virtual-desktop-on-surface"></a>Surface의 Azure Virtual Desktop
 
@@ -37,7 +37,7 @@ AVD(Azure Virtual Desktop)는 Azure 클라우드에서 실행되는 포괄적인
 
 Surface 엔지니어링은 키보드와 마우스를 넘어 터치, 음성, Ink 또는 Surface Dial을 통해 디바이스와 상호 작용하는 보다 자연스러운 방법을 상상해 보아서 혁신에 대한 새로운 표준을 설정했습니다. 또한 하드웨어의 칩과 클라우드 Microsoft 365 보안 및 관리 Windows 10 Pro Surface는 연결된 하드웨어, 소프트웨어, 앱 및 서비스를 의도한 방식으로 제공합니다. Windows 7로 돌아가는 Windows 장치에서 AVD를 실행할 수 Windows Microsoft Surface 장치는 다음에 대한 지원을 포함하여 고유한 이점을 제공합니다.
 
-- **** 유연한 폼 팩터( 예: Surface Pro 7+, Surface Go 2, Surface Pro 7 및 Surface Pro X와 같은 2인치 폼 팩터. Surface [Duo를 사용하여](/surface-duo/) AVD에 연결할 수 있습니다.
+- **유연한 폼** 팩터( 예: Surface Pro 8, Surface Go 3 및 Surface Pro X와 같은 2인치 폼 팩터. Surface [Duo를 사용하여](/surface-duo/) AVD에 연결할 수 있습니다.
 - **생산성을** 향상하기 위해 오프라인 및 디바이스 내 액세스를 통해 지속적, 요구 시 및 정시 작업 시나리오를 제공합니다.
 - **Windows 10 보안** 및 관리성 - 어디에서나 생산성을 향상할 수 있는 유연성을 제공합니다.
 
@@ -47,7 +47,7 @@ Microsoft 비즈니스용Surface 패밀리는 기존 랩톱, 올인원 컴퓨터
 
 ### <a name="the-modern-virtual-desktop-endpoint"></a>최신 가상 데스크톱 끝점
 
-Surface Go 2(10.5"), Surface Pro [7+(12인치)](https://www.microsoft.com/surface/business/surface-pro-7-plus) 및 Surface Pro X(13인치)를 비롯한 [Surface](https://www.microsoft.com/surface-go-2) 2인치 디바이스는 사용자에게 최적의 이동성, 다용도, 전원 및 하루 종일 배터리의 최적의 균형을 제공하는 이상적인 클라우드 데스크톱 끝점을 제공합니다. [](https://www.microsoft.com/surface-pro-x/) 태블릿 모드에서 Surface Go 2를 사용하는 사이트 엔지니어부터 도크 및 여러 모니터에 Surface Pro 7을 연결하고 재무 고문에게 제공하는 2인치 디바이스는 최신 작업 공간 정의를 위해 다양한 기능을 제공합니다.
+Surface Go 3(10.5"), Surface Pro [8(12인치)](https://www.microsoft.com/surface/business/surface-pro-8) 및 Surface Pro X(13")를 비롯한 [Surface](https://www.microsoft.com/surface-go-3) 2인치 디바이스는 사용자에게 최적의 이동성, 다용도, 전원 및 하루 종일 배터리의 최적의 균형을 제공하는 이상적인 클라우드 데스크톱 끝점을 제공합니다. [](https://www.microsoft.com/surface-pro-x/) 태블릿 모드에서 Surface Go 3을 사용하는 사이트 엔지니어부터 도크 및 여러 모니터에 Surface Pro 7을 연결하고 재무 고문에게 제공하는 2인치 디바이스는 최신 작업 공간 정의를 위해 다양한 기능을 제공합니다.
 
  기존의 고정 VDI "터미널"과 달리 Surface 디바이스를 사용하면 사용자가 어디서나 작업할 수 있으며, 심각한 날씨부터 공공 의료 긴급에까지 예고하지 않은 이벤트가 진행되는 동안에도 회사가 계속 사용 가능하고 운영할 수 있습니다. 영구적인 요구 시 및 정시 시나리오에 대한 지원을 통해 Surface 디바이스는 기업이 지속적인 운영을 지속하고 중단 이벤트로부터 위험을 완화하는 데 효과적으로 도움을 줄 수 있습니다. Surface 2-in-1 장치에서 생산성을 향상하도록 설계된 기능은 다음과 같습니다.
 
@@ -57,7 +57,7 @@ Surface Go 2(10.5"), Surface Pro [7+(12인치)](https://www.microsoft.com/surfac
 - 향상된 가상 모임을 위한 원장 마이크 및 고성능 스피커
 - 기본 제공, Windows Hello Surface 디바이스에서 표준으로 제공되는 생체 인식 보안.
 - 배터리 사용 시간 <a href="#2"><sup> 2가 </sup></a> 길고 충전 속도가 빠릅니다.
-- 안전한 연결을 위해 Surface Pro X 및 <a href="#3"><sup> Surface Go 2와 같은 최신 장치의 LTE 옵션 </sup></a> 3
+- 안전한 연결을 위해 Surface Pro X 및 <a href="#3"><sup> Surface Go 3과 같은 최신 장치의 LTE 옵션 </sup></a> 3
 - 표준 프린터, 3D 프린터, 카메라, 신용 카드 판독기, 바코드 스캐너 등 다양한 주변 장치를 지원할 수 있습니다. Surface 파트너를 위한 대규모 에코시스템은 라이선스가 부여된 인증된 Surface 액세서리를 제공합니다.
 - 광범위한 장치 리디렉션 지원.
 
@@ -100,7 +100,7 @@ Surface 디바이스는 앱 및 파일에 대한 오프라인 액세스에 대�
 
 GPUS는 AI 컴퓨팅 및 그래픽을 많이 사용하는 워크로드에 이상적입니다. 고객은 고급 원격 시각화, 딥러닝 및 예측 분석과 같은 시나리오를 통해 혁신을 이행할 수 있습니다. 그러나 원격으로 작업해야 하는 전문가나 이동 중에는 다양한 내부 GPU 사용력의 정도가 실제 장치에 연결하여 이동성과 유연성을 제한하는 전문가에게는 이 기능을 사용할 수 없습니다.
 
-이를 해결하기 위해 Azure는 NVIDIA GPU 기능(vGPU)이 있는 N 시리즈 가상 컴퓨터 패밀리를 제공합니다. vGPUS를 사용하여 IT는 여러 가상 컴퓨터의 GPU 성능을 공유하거나 단일 가상 머신에 여러 GPU를 할당하여 까다로운 워크로드에 전원을 공급할 수 있습니다. Surface의 경우 어떤 디바이스를 사용하건 상관없이 Surface Go 2에서 Surface Laptop 4까지 디바이스가 강력한 서버급 그래픽 성능에 액세스할 수 있습니다. Surface 및 vGPUs를 사용하면 펜, 터치, 키보드, 트랙 패드 및 PixelSense 디스플레이를 포함할 수 있으며, 고성능 컴퓨팅 환경에서만 사용할 수 있는 그래픽 기능을 사용할 수 있습니다.
+이를 해결하기 위해 Azure는 NVIDIA GPU 기능(vGPU)이 있는 N 시리즈 가상 컴퓨터 패밀리를 제공합니다. vGPUS를 사용하여 IT는 여러 가상 컴퓨터의 GPU 성능을 공유하거나 단일 가상 머신에 여러 GPU를 할당하여 까다로운 워크로드에 전원을 공급할 수 있습니다. Surface의 경우 어떤 디바이스를 사용하건 상관없이 Surface Go 3에서 Surface Laptop 4까지의 강력한 서버급 그래픽 성능에 액세스할 수 있습니다. Surface 및 vGPUs를 사용하면 펜, 터치, 키보드, 트랙 패드 및 PixelSense 디스플레이를 포함할 수 있으며, 고성능 컴퓨팅 환경에서만 사용할 수 있는 그래픽 기능을 사용할 수 있습니다.
 
 Azure N-series는 Surface 디바이스에서 이러한 기능을 통해 어디로든 원하는 방식으로 작업할 수 있습니다. [Azure N-Series 및 GPU 최적화된 가상 컴퓨터 크기에 대해 자세히 알아보고](/azure/virtual-machines/sizes-gpu)
 
@@ -155,5 +155,5 @@ Surface의 Azure Virtual Desktop은 조직이 사용자, 이해 관계자 및 �
 <a id="3">3. </a> 서비스 가용성 및 성능은 서비스 공급자의 네트워크에 따라 달라집니다. 서비스 공급자에게 자세한 내용, 호환성, 가격, SIM 카드 및 정품 인증을 문의하세요. 모든 사양 및 주파수는 surface.com.<br>
 <a id="4">4. </a> Forrester Consulting, "Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface, 2018.<br> 
 <a id="5">5. </a> Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro X를 Surface Pro.<br>
-<a id="6">6. 이동식 </a> SSD는 Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, Surface Pro 사용할 수 있습니다. <br>
+<a id="6">6. 이동식 SSD는 Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Laptop 4, Surface Laptop 3 및 Surface Pro </a> X에서 사용할 수 있습니다. <br>
 <a id="7">7. </a> DFCI는 현재 Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 및 [Surface Pro.](surface-manage-dfci-guide.md) Surface UEFI 설정 관리에 대한 자세한 내용은 UEFI 설정을 확인합니다.

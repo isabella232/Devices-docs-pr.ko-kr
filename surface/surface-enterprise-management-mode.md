@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 04/16/2021
-ms.openlocfilehash: 8e30234e72b6533da3d36ca38188c7e199beeeac
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/25/2021
+ms.openlocfilehash: 127f9303751417ad4c24442ba0a5e177fc338475
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11910993"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154063"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Microsoft Surface Enterprise 관리 모드
 
@@ -31,7 +31,7 @@ Microsoft Surface Enterprise 관리 모드(SEMM)는 Surface UEFI(Unified Extensi
 또한 SEMM은 인증서를 사용하여 무단 변조 또는 제거로부터 구성을 보호합니다. 2S를 Surface Hub 2S를 Windows 10 Pro Windows Enterprise SEMM이 필요합니다.
 
 >[!NOTE]
->SEMM은 Surface UEFI 펌웨어가 있는 디바이스에서만 사용할 수 있습니다. 여기에는 Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 상업용 SKUS(Intel 프로세서 포함Surface Laptop 4개 상업용 SKUS, Surface Laptop Intel 프로세서가 포함된 상업용 SK 3개, Surface Laptop Go 등 대부분의 Surface 장치가 포함됩니다. SEMM은 AMD 프로세서가 있는 15인치 Surface Laptop 3 SKU에서 지원되지 않습니다(일반 정품 SKU로만 사용 가능).
+>SEMM은 Surface UEFI 펌웨어가 있는 디바이스에서만 사용할 수 있습니다. 여기에는 Surface Pro 8, Surface Pro X, Surface Laptop Studio, Surface Hub 2S, Surface Laptop 4 상업용 SKUS, AMD 프로세서가 Surface Laptop 4개 상업용 SKUS를 비롯한 대부분의 Surface 장치가 포함됩니다. Surface Laptop 3개 상업용 SKUS와 Intel 프로세서를 함께 Surface Laptop. SEMM은 AMD 프로세서가 있는 15인치 Surface Laptop 3 SKU에서 지원되지 않습니다(일반 정품 SKU로만 사용 가능).
 
 Surface 디바이스는 SEMM에서 구성하고 SEMM 인증서로 보호되는 경우 ** SEMM에 등록된 것으로 간주됩니다. SEMM 인증서가 제거되고 UEFI 설정 제어가 디바이스 사용자에게 반환되면 Surface 디바이스는 SEMM에서 등록되지 않은 것으로 간주됩니다. **
 
@@ -40,9 +40,6 @@ SEMM을 관리하고 Surface 디바이스를 등록하는 데 사용할 수 있�
 - SEMM 독립 실행형 도구인 Microsoft Surface UEFI 구성기는 이 문서에 설명되어 있습니다.
 
 - 통합 Microsoft Endpoint Configuration Manager. 자세한 내용은 [USE Microsoft Endpoint Configuration Manager to manage devices with SEMM을 참조하세요.](use-system-center-configuration-manager-to-manage-devices-with-semm.md)
-
-> [!NOTE]
-> SEMM은 UEFI Surface Pro X에서만 지원됩니다. IT용 Surface 도구에서 UEFI [관리자를 다운로드할 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=46703) 자세한 내용은 [X에서 배포, 관리 및 Surface Pro 참조하세요.](surface-pro-arm-app-management.md)
 
 ## <a name="microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기
 
@@ -71,6 +68,9 @@ Microsoft Surface UEFI 구성기 도구를 세 가지 모드로 사용할 수 �
 ### <a name="download-microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기 다운로드
 
 Microsoft Surface UEFI 구성기는 Microsoft 다운로드 센터의 [Surface Tools for IT(IT용 Surface 도구)](https://www.microsoft.com/download/details.aspx?id=46703) 페이지에서 다운로드할 수 있습니다.
+
+- Intel/AMD 장치의 경우 다음을 ** 다운로드합니다SurfaceUEFI_Configurator_v2.94.139.0_x64.msi**
+- 장치 ARM 다운로드: **SurfaceUEFI_Configurator_v2.94.139.0_x86.msi.**
 
 ### <a name="configuration-package"></a>구성 패키지
 
@@ -120,7 +120,7 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 [부분
 | 자동 전원 공급                      | 자동 전원 사용 부팅 설정을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 자동 전원 사용이 사용하도록 설정됩니다.                                                                                                        |
 | SMT(동시 다중 스레딩) | SMT(동시 다중 스레딩)를 관리하여 하이퍼스레딩을 활성화 또는 비활성화할 수 있습니다. 이 설정을 구성하지 않은 경우 SMT가 사용하도록 설정됩니다.                                                  |
 |배터리 제한 사용| 배터리 제한 기능을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 배터리 제한이 사용하도록 설정됩니다. |
-| 보안                           | Surface UEFI **** 보안 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
+| Security                           | Surface UEFI **** 보안 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
 | 장치                            | Surface UEFI 장치 **페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 장치 페이지가 표시됩니다.                                                                                                                     |
 | Boot                               | Surface UEFI **** 부팅 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 부팅 페이지가 표시됩니다.                                                                                                                                                            |
 | DateTime                           | Surface UEFI **DateTime 페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 DateTime 페이지가 표시됩니다.                                                                                                                |
@@ -172,7 +172,7 @@ surface 디바이스에서 Enterprise **** 관리 페이지에서 프로세스�
 >[!NOTE]
 >재설정 요청은 생성된 후 2시간 후에 만료됩니다.
 
-SEMM에서 Surface 디바이스를 인가하는 방법에 대한 단계별 실무는 SEMM에서 Surface 장치 인인을 [언인라운드를 참조합니다.](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm)
+SEMM에서 Surface 디바이스를 인가하는 방법에 대한 단계별 실무는 SEMM에서 Surface 장치 인인을 [언인라운드를 참조합니다.](unenroll-surface-devices-from-semm.md)
 
 ## <a name="surface-enterprise-management-mode-certificate-requirements"></a>Surface Enterprise 관리 모드 인증서 요구 사항
 
@@ -262,6 +262,12 @@ SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유�
 특정 장치 유형에 대한 구성 패키지를 만드는 PowerShell 샘플을 사용하여 일련 번호가 독립적인 초기화 패키지를 만들 수도 있습니다. 인증서가 여전히 유효한 경우 PowerShell을 사용하여 SEMM을 다시 설정하는 재설정 패키지를 만들 수 있습니다.
 
 ## <a name="version-history"></a>버전 기록
+
+### <a name="version-2941390"></a>버전 2.94.139.0
+
+이 SEMM 버전에는 다음이 포함됩니다.
+
+- Surface Laptop Studio, Surface Pro 8 및 Surface Go 3에 대한 지원
 
 ### <a name="version-2831390"></a>버전 2.83.139.0
 

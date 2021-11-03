@@ -11,16 +11,16 @@ ms.date: 08/20/2021
 ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: a2f382b1120ba071e7dc709f1464ddb1e5118d28
-ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
+ms.openlocfilehash: d5586e41a400c8e39c82aabf403db477f8af5c0e
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "12068465"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154163"
 ---
 # <a name="microsoft-teams-rooms-on-surface-hub"></a>Surface Hub Microsoft Teams 룸
 
-Teams 룸 Surface Hub 9월 30일부터 [](hub-teams-app.md) 4주간의 전역 출시의 일부로 현재 Surface Hub Teams 앱을 자동으로 대체합니다. 현재 Windows 프로그램을 통해 미리 보기로 사용할 수 있는 새로운 Teams 환경의 데모는 Teams 룸 [에서](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373)Surface Hub.
+Teams 룸 Surface Hub [KB5004196, KB5004198 및 KB5004199를](surface-hub-update-history.md)설치하면 이전 Surface Hub Teams 앱을 자동으로 대체합니다. [](hub-teams-app.md)
 
 ## <a name="whats-new"></a>새로운 기능
 

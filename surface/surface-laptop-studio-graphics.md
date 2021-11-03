@@ -12,12 +12,12 @@ ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: d5c7690cd90427bb7a9a6b2b452e527aa1b608dd
-ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
+ms.openlocfilehash: 65734833bf396bbc163bff163b70ba3e226fc95a
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "12068449"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12153963"
 ---
 # <a name="surface-laptop-studio-graphics-overview"></a>Surface Laptop Studio 그래픽 개요
 
@@ -33,15 +33,15 @@ Studio 모델에서 중요한 Surface Laptop GPU 구성입니다. Core i5 장치
 
 ### <a name="intel-iris-xe-graphics"></a>Intel Iris™ Xe Graphics
 
-iGPU(통합 GPU) Surface Laptop Studio는 대부분의 모델에서 보조 GPU로 설치되는 Intel Iris™ Xe Graphics는 코어 i5 모델에서 단수 GPU로 기능합니다. 디자이너 및 작성자에게 더 풍부한 게임 환경과 더 빠른 속도를 지원할 수 있습니다. Intel Iris Xe는 고급 그래픽 기능과 AI 향상된 환경을 통해 소비자, 취미 및 온라인 작성자가 Adobe Creative Cloud와 같은 최신 생산성 소프트웨어를 실행하거나 1080p에서 게임 타이틀을 즐길 수 있습니다. 또한 지원되는 디스플레이 수를 3개에서 총 4개로 늘입니다. 이를 통해 고객은 내부 디스플레이와 함께 최대 3개의 외부 디스플레이를 사용할 수 있으며, GPU와 불연산 GPU 모델 모두에 대해 한 번씩 4개의 외부 디스플레이를 사용할 수 있습니다. [[1]](#references)
+iGPU(통합 GPU) Surface Laptop Studio는 대부분의 모델에서 보조 GPU로 설치됩니다. Intel Iris™ Xe Graphics는 Core i5 모델에서 단수 GPU로 기능합니다. 디자이너 및 작성자에게 더 풍부한 게임 환경과 더 빠른 속도를 지원할 수 있습니다. Intel Iris Xe는 고급 그래픽 기능과 AI 향상된 환경을 통해 소비자, 취미 및 온라인 작성자가 Adobe Creative Cloud와 같은 최신 생산성 소프트웨어를 실행하거나 1080p에서 게임 타이틀을 즐길 수 있습니다. 또한 지원되는 디스플레이 수를 3개에서 총 4개로 늘입니다. 이제 내부 디스플레이와 함께 최대 3개의 외부 디스플레이를 사용할 수 있으며, 한동안 외부 디스플레이 4개가 통합된 GPU 모델과 불연변 GPU 모델에 모두 사용할 수 있습니다. [[1]](#references)
 
 ### <a name="comparing-discrete-gpus"></a>불연산 GUS 비교
 
 NVIDIA GeForce RTX 30 Series 및 RTX Professional GPUS는 다양한 창의적인 작업 외에도 게임, 3D 렌더링, 비디오 편집, 그래픽 디자인 및 AI 가속 워크플로에 대한 빠른 속도를 제공합니다. 최신 NVIDIA 앰퍼 아키텍처 덕분에 다음을 할 수 있습니다.
 
-- Blender Cycles, Chaos V-Ray 및 Autodesk Arnold를 비롯한 최고 렌더러에서 최대 2배의 성능을 향상하는 2세대 RT 코어 및 DLSS
+- Blender Cycles, Chaos V-Ray 및 Autodesk Arnold를 비롯한 최상위 렌더러에서 최대 2배의 성능을 향상하는 2세대 RT 코어 및 DLSS
 - AI 기능을 가속화하는 3세대 텐서 코어. 또한 Tensor Cores는 DLSS, AI 디노이저 및 선택한 응용 프로그램에 대한 향상된 편집과 같은 기능이 있는 그래픽에 AI를 제공합니다.
-- 동급 최고의 비디오 인코더(NVENC)뿐만 아니라 프로덕션 렌더링에 사용되는 일반적인 기술인 광선 추적 동작 흐림을 위한 새로운 하드웨어 가속이 이제 최대 5배까지 향상됩니다.
+- 동급 최고의 비디오 인코더(NVENC) 및 광선 추적 동작 흐림을 위한 새로운 하드웨어 가속(프로덕션 렌더링에 사용되는 일반적인 기술)이 이제 최대 5배까지 향상됩니다.
 
 ### <a name="nvidia-geforce-rtx-3050-ti-laptop-gpu"></a>NVIDIA GeForce RTX 3050 Ti 노트북 GPU
 
@@ -52,7 +52,7 @@ GeForce RTX 3050 Ti를 사용하면:
 - Adobe Premiere, DaVinci Resolve 또는 OBS와 같은 앱의 전용 하드웨어 인코더, 향상된 AI 기능 및 앱 가속 덕분에 비디오 편집 및 ® Pro 가속합니다.
 - Adobe Lightroom 또는 Photoshop과 같은 앱의 AI 가속 기능을 사용하는 그래픽 디자인 및 사진.
 - Blender 또는 Autodesk®와 같은 앱에서 RTX 및 DLSS 가속 덕분에 매우 ® 렌더링. 
-- NVIDIA Reflex를 통해 대기 시간이 매우 짧을 뿐만 아니라 DLSS를 통해 RTX 그래픽과 고성능을 구현한 차세대 게임.
+- NVIDIA Reflex를 통해 DLSS를 통해 RTX 그래픽과 고성능을 구현한 차세대 게임.
 
 ### <a name="nvidia-rtx-a2000-laptop-gpu"></a>NVIDIA RTX A2000 노트북 GPU
 

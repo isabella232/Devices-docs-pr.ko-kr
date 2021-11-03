@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: 7ebdff37cb96589c765e9c9315b098a760976c80
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 7d09bc70a2e0c882bde9106ee2c241568c1fc991
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911243"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154133"
 ---
 # <a name="use-surface-diagnostic-toolkit-for-business-in-desktop-mode"></a>비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
 
@@ -30,18 +30,18 @@ SDT를 성공적으로 실행하면 하드웨어 오류 또는 사용자 오류�
 
 2. 사용자가 문제 설명을 입력할 수 있는 홈 페이지에서 시작하고 그림 1과 같이 **계속을**클릭합니다.
 
-    ![데스크톱 모드에서 SDT를 시작하십시오. ](images/sdt-desk-1.png)
- *그림 1. 데스크톱 모드의 SDT*
+    ![데스크톱 모드에서 SDT를 시작하십시오.](images/sdt-desk-1.png)<br/>
+    *그림 1. 데스크톱 모드의 SDT*
 
 3. SDT가 장치에 최신 업데이트가 있는 것으로 표시되면 그림 2와 같이 **계속을** 클릭하여 사용 가능한 테스트 카탈로그로 진행합니다.
 
-    ![SDT 옵션에서 선택합니다. ](images/sdt1.png)
- *그림 2. SDT 옵션에서 선택*
+    ![SDT 옵션에서 선택합니다.](images/sdt1.png)<br/>
+    *그림 2. SDT 옵션에서 선택*
 
 4. 모든 진단 테스트를 실행 하게 선택할 수 있습니다. 또는 결함이 있는 디스플레이 또는 전원 공급 장치 문제와 같은 **** 특정 문제가 이미 의심되는 **** 경우 선택을 클릭하여 사용 가능한 테스트에서 선택하고 선택된 실행을 클릭합니다(그림 3과 같이). 각 테스트에 대한 자세한 내용은 다음 표를 참조합니다. 
 
-    ![하드웨어 테스트를 선택합니다. ](images/sdt2.png)
- *그림 3. 하드웨어 테스트 선택*
+    ![하드웨어 테스트를 선택합니다.](images/sdt2.png)<br/>
+    *그림 3. 하드웨어 테스트 선택*
 
     하드웨어 테스트 | 설명
     --- | ---
@@ -49,7 +49,7 @@ SDT를 성공적으로 실행하면 하드웨어 오류 또는 사용자 오류�
     디스플레이 및 소리   | 밝기, 픽스 또는 데드 픽셀, 스피커 및 마이크 작동 확인
     포트 및 액세서리   | 액세서리, 화면 연결 및 USB 작동 확인
     Connectivity |  연결 Bluetooth, 무선 및 LTE 연결 확인
-    보안    | 보안 관련 문제 확인
+    Security    | 보안 관련 문제 확인
     터치   | 터치 관련 문제 확인
     키보드 및 터치 |    통합 키보드 연결 및 유형 커버 확인
     센서 | 장치에서 여러 센서의 작동 확인
@@ -57,13 +57,13 @@ SDT를 성공적으로 실행하면 하드웨어 오류 또는 사용자 오류�
 
 5. 모든 테스트가 완료되면 도구에서 문제가 해결된지 확인을 요청합니다. 
 
- ![문제가 해결된 경우 ](images/sdt3.png)
- *그림 3a. 문제가 해결되었습니다.*
+    ![문제가 해결된 경우](images/sdt3.png)<br/>
+    *그림 3a. 문제가 해결된 경우*
 
 6. 문제가 해결되지 않은 경우 또는 모르는 경우 지금 도움을 받을 수 있도록 **** 문의를 선택하여 지원 **티켓을 제출할 수 있습니다.**
  
- ![지원 티켓을 제출합니다. ](images/sdt4.png)
- *그림 3b. 지원 티켓 제출*
+    ![지원 티켓을 제출합니다.](images/sdt4.png)<br/>
+    *그림 3b. 지원 티켓 제출*
 
 <span id="multiple" />
 
@@ -104,5 +104,4 @@ SDT는 그림 6과 같이 응용 프로그램, 드라이버, 하드웨어 및 �
 
 ## <a name="related-topics"></a>관련 항목
 
-- [명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행](surface-diagnostic-toolkit-command-line.md)
-
+- [비즈니스용 Surface 진단 앱을 사용하여 명령줄 Toolkit 실행](surface-diagnostic-toolkit-command-line.md)

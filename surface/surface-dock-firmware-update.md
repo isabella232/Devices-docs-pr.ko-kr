@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 2/08/2021
-ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/25/2021
+ms.openlocfilehash: ebdb6e5999eb3564a21d23e661fa75d90a32e698
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911153"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154053"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Surface Dock 1 펌웨어 업데이트
 
@@ -30,6 +30,24 @@ ms.locfileid: "11911153"
 
 > [!IMPORTANT]
 > 이 문서에는 IT 관리자를 위한 기술 지침이 포함되어 있습니다. 가정적 사용자인 경우 Microsoft 지원 사이트에서 [Surface Dock 펌웨어를](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)업데이트하는   방법을 참조하세요. 지원 사이트의 지침은 아래 일반 설치 단계와 동일하지만 이 문서에는 네트워크의 여러 장치에 업데이트를 모니터링, 확인 및 배포하기 위한 추가 정보가 있습니다.
+
+## <a name="supported-devices"></a>지원되는 디바이스
+
+Surface Dock 1 펌웨어 업데이트는 다음 장치에서 지원됩니다.
+
+- Surface Pro 3 이상
+- Surface Pro X(모든 세대)
+- Surface 3
+- Surface Book(모든 세대)
+- Surface Laptop Studio
+- Surface Studio(모든 세대)
+- Surface Laptop(모든 세대)
+- Surface Laptop 이동
+- Surface Go(모든 세대)
+
+### <a name="minimum-os-requirement"></a>최소 OS 요구 사항
+
+- Windows 10 버전 1803 이상
 
 ## <a name="install-surface-dock-1-firmware-update"></a>Surface Dock 1 펌웨어 업데이트 설치
 
@@ -65,7 +83,7 @@ ms.locfileid: "11911153"
 
    업데이트가 성공하지 못하면 이벤트 ID 2007이 정보 대신 **Error** 이벤트로 **표시됩니다.** 또한 Windows 레지스트리에 보고된 버전이 최신 버전이 아되지 않습니다.
 
-5. 업데이트가 완료되면 업데이트된 DWORD 값이 현재 버전의 도구에 해당하는 Windows 레지스트리에 표시됩니다. 자세한 [내용은](#versions-reference) 이 문서의 버전 참조 섹션을 참조하세요. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+5. 업데이트가 완료되면 업데이트된 DWORD 값이 현재 버전의 도구에 해당하는 Windows 레지스트리에 표시됩니다. 자세한 [내용은](#versions-reference) 이 문서의 버전 참조 섹션을 참조하세요. 예시:
 
     - Component10CurrentFwVersion 0x04ac3970(78395760)
     - Component20CurrentFwVersion 0x04915a70(76634736)
@@ -86,7 +104,7 @@ ms.locfileid: "11911153"
 
 - **Msiexec.exe /i \<path to msi file\> /quiet /norestart**
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 ```console
 msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
