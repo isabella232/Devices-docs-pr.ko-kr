@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: bba49151973423d269dfdcf8eb5039ed5e39787f
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+ms.openlocfilehash: f3fcc6ddcda0cf8016e1ba9383da2b5be511c0f1
+ms.sourcegitcommit: 714a56ede92eb6b16878aef8fdf94f9d2bda7204
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154180"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "12154380"
 ---
 # <a name="surface-management-portal-overview"></a>Surface Management Portal 개요
 
@@ -30,6 +30,8 @@ Surface Management Portal은 회사 또는 사용자 소유 Surface 디바이스
 장치 규정 준수, 지원 활동 및 보증 범위에 대한 인사이트를 얻습니다. 곧 보증 또는 만료될 각 장치의 상태와 하드웨어 공급자의 활성 지원 요청 상태를 빠르게 확인합니다.
 
 Surface 디바이스가 클라우드 관리에 등록되고 사용자가 처음으로 로그인하면 이러한 Surface 디바이스의 정보가 Surface 관리 포털로 자동으로 이동하여 Surface 관련 장치 관리 활동을 위한 단일 창을 제공합니다.
+
+아래에서 알려진 [문제를 참조하세요.](#known-issues) 
 
 ## <a name="get-started"></a>시작
 
@@ -70,6 +72,10 @@ Surface 관리 포털은 각 요청의 상태와 함께 지원 활동에 대한 
 ## <a name="try-for-free"></a>무료 평가판
 
 Surface Management Portal은 Intune을 통해 Surface Microsoft Endpoint Manager 등록한 고객이 사용할 수 있습니다. Intune을 새로 사용하려는 경우 빠른 [시작:](/mem/intune/fundamentals/free-trial-sign-up)무료 Microsoft Intune 방문하여 Intune 테넌트 설정
+
+## <a name="known-issues"></a>알려진 문제
+
+- 소수의 테넌트에 대해 포털이 제대로 로드되지 않을 수 있습니다. Surface engineering is actively investigating this issue. *2021년 11월 2일*
 
 ## <a name="learn-more"></a>자세히 알아보기
 
