@@ -56,6 +56,12 @@
           href: surface-system-sku-reference.md
     - name: 배포 및 관리
       items:
+        - name: Surface 관리 포털
+          items:
+            - name: Surface 관리 포털 개요
+              href: surface-management-portal.md
+            - name: Surface 관리 포털이란?
+              href: /mem/intune/fundamentals/surface-management-portal
         - name: Windows Autopilot
           items:
             - name: Windows Autopilot 및 Surface 디바이스
@@ -94,7 +100,7 @@
               items:
                 - name: 비즈니스용 Surface 진단 도구 키트를 데스크톱 모드에서 사용
                   href: surface-diagnostic-toolkit-desktop-mode.md
-                - name: 명령을 사용하여 비즈니스용 Surface 진단 도구 키트 실행
+                - name: Busines용 Surface 진단 도구 키트 사용하여 명령줄 앱 콘솔 실행
                   href: surface-diagnostic-toolkit-command-line.md
             - name: Surface Data Eraser
               href: microsoft-surface-data-eraser.md
@@ -172,6 +178,8 @@
           href: contact-surface-support.md
     - name: 보증 및 서비스
       items:
+        - name: Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기
+          href: surface-driver-firmware-lifecycle-support.md
         - name: 비즈니스용 Surface 보증 및 보호 계획
           href: 'https://www.microsoft.com/surface/business/warranty-service-offerings-and-support'
         - name: 사용 약관
