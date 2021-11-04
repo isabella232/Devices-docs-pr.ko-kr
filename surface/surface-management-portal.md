@@ -1,5 +1,5 @@
 ---
-title: Surface Management Portal
+title: Surface 관리 포털
 description: 이 문서에서는 새로운 Surface Management Portal이 Surface 디바이스를 대규모로 자체 서비스, 관리 및 모니터링하는 중앙 집중식 솔루션을 제공하는 방법을 설명합니다.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -12,14 +12,14 @@ ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: f3fcc6ddcda0cf8016e1ba9383da2b5be511c0f1
-ms.sourcegitcommit: 714a56ede92eb6b16878aef8fdf94f9d2bda7204
+ms.openlocfilehash: a131e663aadbd10be039cff777001383178f7fc1
+ms.sourcegitcommit: 16889d72b0af81dfe79267c41574c3774e81f178
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "12154380"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "12155176"
 ---
-# <a name="surface-management-portal-overview"></a>Surface Management Portal 개요
+# <a name="surface-management-portal-overview"></a>Surface 관리 포털 개요
 
 기본 Microsoft Endpoint Manager 새로운 Surface Management Portal은 Surface 디바이스를 대규모로 자체 서비스, 관리 및 모니터링하는 중앙 집중식 솔루션을 제공합니다.
 
@@ -37,7 +37,7 @@ Surface 디바이스가 클라우드 관리에 등록되고 사용자가 처음�
 
 로그인하여 Microsoft Endpoint Manager **모든**서비스를 클릭한 다음 **Surface Management Portal 을 클릭합니다.**
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Surface 관리 포털 시작":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Surface 관리 포털 시작":::
 
 ## <a name="monitor-surface-devices"></a>Surface 장치 모니터링
 
@@ -52,7 +52,7 @@ Surface 디바이스가 클라우드 관리에 등록되고 사용자가 처음�
 
 보고서 **보기를** 선택하여 각 인사이트 범주에 대한 세부 정보를 확인하여 사용자 지정하고 내보낼 수 있는 진단 정보를 제공합니다.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Surface 디바이스 인사이트 및 보고서 보기":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Surface 디바이스 인사이트 및 보고서 보기":::
 
 ## <a name="device-warranty-and-coverage"></a>장치 보증 및 적용 범위
 
@@ -67,7 +67,7 @@ Surface 디바이스가 클라우드 관리에 등록되고 사용자가 처음�
 
 Surface 관리 포털은 각 요청의 상태와 함께 지원 활동에 대한 완전한 가시성을 제공합니다.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="각 요청의 상태와 함께 지원 활동에 대한 정보를 얻습니다.":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="각 요청의 상태와 함께 지원 활동에 대한 정보를 얻습니다.":::
 
 ## <a name="try-for-free"></a>무료 평가판
 
@@ -75,7 +75,7 @@ Surface Management Portal은 Intune을 통해 Surface Microsoft Endpoint Manager
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 소수의 테넌트에 대해 포털이 제대로 로드되지 않을 수 있습니다. Surface engineering is actively investigating this issue. *2021년 11월 2일*
+- 해결: 소수의 테넌트에 대해 포털이 올바르게 로드되지 않는 문제가 해결되었습니다. (2021년 11월 3일)
 
 ## <a name="learn-more"></a>자세히 알아보기
 
