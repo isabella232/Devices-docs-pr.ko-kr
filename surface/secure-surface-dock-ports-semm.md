@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: a6b1dcdb3cf0ff8fe2f6485520c6b6301f5d2b2f
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 7f9d1bd0b1d8e23432b0e855b2ec5c55d49c250c
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11912003"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338111"
 ---
 # <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Surface 및 SEMM(Secure Surface Dock 2) 관리 모드를 Enterprise Surface Dock 2 포트
 
@@ -30,20 +30,20 @@ SURFACE Enterprise 관리 모드(SEMM)를 사용하면 IT 관리자가 회사 �
 
 ### <a name="supported-devices"></a>지원되는 디바이스
 
-SEMM을 통해 Surface Dock 2를 관리하는 것은 Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 7+, Surface Pro 7 및 Surface Pro X에 연결된 도크에 사용할 수 있습니다. 이러한 호환되는 Surface 디바이스를 일반적으로 호스트 **장치라고 합니다.** 호스트 장치가 인증되거나 인증되지 않은 경우를 **** 기준으로 패키지가 호스트 장치에 **적용됩니다.** 구성된 설정은 호스트 디바이스의 UEFI 계층에 있으므로 IT 관리자는 카메라와 같은 다른 기본 제공 주변 장치와 마찬가지로 Surface Dock 2를 관리할 수 있습니다.
+SEMM을 통해 Surface Dock 2 관리는 Surface Book 3, Surface Laptop Studio, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 8에 연결된 도크에 사용할 수 있습니다. Surface Pro 7+, Surface Pro 7 및 Surface Pro X입니다. 이러한 호환되는 Surface 디바이스를 일반적으로 호스트 장치**라고 합니다**. 패키지는 호스트 장치가 인증되거나 인증되지 않은 경우를 기준으로 호스트 장치에 **** **적용됩니다**. 구성된 설정은 호스트 디바이스의 UEFI 계층에 있으므로 IT 관리자는 카메라와 같은 다른 기본 제공 주변 장치와 마찬가지로 Surface Dock 2를 관리할 수 있습니다.
 
 >[!NOTE]
->도크가 호환되는 디바이스인 Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 중 하나에 연결되어 있는 경우 Surface Dock 2 포트를 관리할 수 있습니다. UEFI 인증 정책 설정을 받지 않는 모든 장치는 본질적으로 인증되지 않은 장치입니다.
+>Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+) 중 하나에 도킹이 연결되어 있는 경우 Surface Dock 2 포트를 관리할 수 있습니다. Surface Pro 7. UEFI 인증 정책 설정을 받지 않는 모든 장치는 본질적으로 인증되지 않은 장치입니다.
 
 ### <a name="scenarios"></a>시나리오
 
-Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사용자로 제한하면 다른 데이터 보호 계층이 있습니다. Surface Dock 2를 잠그는 기능은 엄격한 보안 프로토콜을 준수하면서 도크의 기능과 생산성 이점을 원하는 특정 고객에게 중요합니다. Surface Dock 2에 사용되는 SEMM은 특히 보안상의 이유로 USB 포트를 잠그고자 하는 고객에게 열려 있는 사무실 및 공유 공간에서 특히 유용할 것으로 예상합니다. 비디오 데모는 [Surface Dock 2용 SEMM을 확인 합니다.](https://youtu.be/VLV19ISvq_s)
+Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사용자로 제한하면 다른 데이터 보호 계층이 있습니다. Surface Dock 2를 잠그는 기능은 엄격한 보안 프로토콜을 준수하면서 도크의 기능과 생산성 이점을 원하는 특정 고객에게 중요합니다. Surface Dock 2에 사용되는 SEMM은 특히 보안상의 이유로 USB 포트를 잠그고자 하는 고객에게 열려 있는 사무실 및 공유 공간에서 특히 유용할 것으로 예상합니다. 비디오 데모는 [Surface Dock 2의 SEMM을 확인 합니다](https://youtu.be/VLV19ISvq_s).
 
 ## <a name="configuring-and-deploying-uefi-settings-for-surface-dock-2"></a>Surface Dock 2에 대한 UEFI 설정 구성 및 배포
 
 이 섹션에서는 다음 작업에 대한 단계별 지침을 제공합니다.
 
-1. IT용 Surface 도구에서 Surface **UEFI 구성** [도구를 설치합니다.](https://www.microsoft.com/download/details.aspx?id=46703)
+1. IT **용 Surface 도구에서 Surface UEFI 구성** [도구를 설치합니다](https://www.microsoft.com/download/details.aspx?id=46703).
 1. 공개 키 인증서를 만들거나 얻습니다.
 1. 구성 .msi 만들 수 있습니다.
    1. 인증서를 추가합니다.
@@ -52,13 +52,13 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 1. 대상 Surface 디바이스(Surface Book 3, Surface Laptop 3 또는 Surface Pro 7)에 구성 패키지를 빌드하고 적용합니다.
 
 >[!NOTE]
->**RN(난수)은** 출하 시 프로비전되어 도킹 밑면에 작은 형식의 인쇄되는 고유한 16자리 16자리 16자리 16자리 코드 식별자입니다. RN은 전자적으로 읽을 수 없다는 점에서 대부분의 일련 번호와 다릅니다. 따라서 소유권 증명은 주로 장치에 물리적으로 액세스할 때 RN을 읽어야만 설정됩니다. 구매 거래 중에 RN을 얻을 수도 있으며 Microsoft 인벤토리 시스템에 기록됩니다.
+>**RN(난**수)은 출하 시 프로비전되어 도킹 밑면에 작은 형식의 인쇄되는 고유한 16자리 16자리 16자리 16자리 코드 식별자입니다. RN은 전자적으로 읽을 수 없다는 점에서 대부분의 일련 번호와 다릅니다. 따라서 소유권 증명은 주로 장치에 물리적으로 액세스할 때 RN을 읽어야만 설정됩니다. 구매 거래 중에 RN을 얻을 수도 있으며 Microsoft 인벤토리 시스템에 기록됩니다.
 
 ### <a name="install-semm-and-surface-uefi-configurator"></a>SEMM 및 Surface UEFI 구성기 설치
 
-다음을 실행하여 ** SEMM을SurfaceUEFI_Configurator_v2.83.139.0.msi.** 독립 실행형 설치 관리자로 Surface Dock 2용 구성 패키지를 만들고 배포하는 데 필요한 모든 것이 포함되어 있습니다.
+다음을 실행하여 SEMM ** 을SurfaceUEFI_Configurator_v2.83.139.0.msi.** 독립 실행형 설치 관리자로 Surface Dock 2용 구성 패키지를 만들고 배포하는 데 필요한 모든 것이 포함되어 있습니다.
 
-- IT용 Surface 도구에서 Surface **UEFI 구성** 도구를 [다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46703)
+- IT **용 Surface 도구에서 Surface UEFI 구성** [도구를 다운로드합니다](https://www.microsoft.com/download/details.aspx?id=46703).
 
 ## <a name="create-public-key-certificates"></a>공개 키 인증서 만들기
 
@@ -66,9 +66,9 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 
 ### <a name="prerequisites"></a>필수 구성 요소
 
-이 문서에서는 타사 공급자로부터 인증서를 얻거나 이미 PKI 인증서 서비스에 대한 전문 지식을 가지고 있으며 자체 인증서를 만드는 방법을 알고 있는 것으로 가정합니다.  한 가지 예외를 제외하고 Surface Enterprise 관리 [모드(SEMM)](surface-enterprise-management-mode.md) 설명서에 설명된 바와 같이 인증서를 만들기 위한 일반 권장 사항을 잘 알고 따라야 합니다. 이 페이지에 설명된 인증서에는 **Dock**인증 기관의 만료 기간은 30년, 호스트 인증 인증서는 20년이 **됩니다.**
+이 문서에서는 타사 공급자로부터 인증서를 얻거나 이미 PKI 인증서 서비스에 대한 전문 지식을 가지고 있으며 자체 인증서를 만드는 방법을 알고 있는 것으로 가정합니다.  한 가지 예외를 제외하고 Surface Enterprise 관리 모드([SEMM)](surface-enterprise-management-mode.md) 설명서에 설명된 바와 같이 인증서를 만들기 위한 일반 권장 사항을 잘 알고 따라야 합니다. 이 페이지에 설명된 인증서의 만료 기간은 **Dock 인증** 기관에 대해 30년, 호스트 인증 인증서의 경우 20년 **이 요구됩니다**.
 
-자세한 내용은 [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) 설명서를 참조하고 Windows Server [2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277)또는 Windows Server [2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press의 해당 장을 참조하십시오.
+자세한 내용은 [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) 설명서를 참조하고 Windows [Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277) 또는 [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press의 해당 장을 참조하십시오.
 
 ### <a name="root-and-host-certificate-requirements"></a>루트 및 호스트 인증서 요구 사항
 
@@ -104,19 +104,19 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 
 인증서를 얻거나 만들면 대상 Surface 디바이스에 적용할 .msi 구성 패키지를 빌드할 수 있습니다.
 
-1. Surface **UEFI 구성기 를 실행합니다.**
+1. Surface **UEFI 구성을 실행합니다**.
 
    ![Surface UEFI 구성을 실행합니다.](images/secure-surface-dock-ports-semm-1.png)
 
-1. **Surface Dock를 선택합니다.**
+1. **Surface Dock를 선택합니다**.
 
    ![Surface Dock를 선택합니다.](images/secure-surface-dock-ports-semm-2.png)
 
-1. 인증서 **페이지에**  적절한 인증서를 입력합니다. 데모 인증서는 [Surface Tools for IT(IT용 Surface 도구)](https://www.microsoft.com/download/details.aspx?id=46703): 다운로드 인증서를 다운로드하고SEMM_PowerShell.zip참조할 **수CreateSurfaceDock2Certificates.ps1. ** **** 데모 스크립트를 **실행하기 SurfaceDock2_WmiInstanceProvider** 설치해야 합니다.
+1. 인증서 **페이지에 적절한**  인증서를 입력합니다. 데모 인증서는 [SURFACE Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703):download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. 데모 스크립트를 실행 **하기 SurfaceDock2_WmiInstanceProvider** 설치해야 합니다.
 
    ![적절한 인증서를 입력합니다.](images/secure-surface-dock-ports-semm-3.png)
 
-1. 목록에 적절한 dock RNS를 추가합니다.
+1. 목록에 적절한 dock  RNS를 추가합니다.
 
    >[!TIP]
    >여러 Surface Dock 2 장치에 대한 구성 패키지를 만들 때 각 RN을 수동으로 입력하는 대신 RN 목록이 포함된 .csv 파일을 사용할 수 있습니다.
@@ -127,13 +127,13 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 
    - 인증된 사용자는 대상 장치에 적용한 .msi 구성 패키지에 구성된 적절한 인증서가 설치된 Surface 디바이스를 참조합니다. 디바이스에 로그인하는 인증된 사용자에게 적용됩니다.
    - 무단 사용자는 다른 모든 장치를 참조합니다.
-   - 초기화 **를** 선택하여 Dock에서 수락한 이전 구성 패키지를 제거하는 특수 "초기화" 패키지를 만들 수 있습니다.
+   - 초기 **화** 를 선택하여 Dock에서 수락한 이전 구성 패키지를 제거하는 특수 "초기화" 패키지를 만들 수 있습니다.
 
-1. **빌드를** 선택하여 지정된 패키지를 만들 수 있습니다.
+1. 빌드 **를** 선택하여 지정된 패키지를 만들 수 있습니다.
 
 ### <a name="apply-the-configuration-package-to-a-surface-dock-2"></a>Surface Dock 2에 구성 패키지 적용
 
-1. Surface .msi UEFI 구성기에서 생성한 파일로 받아 Surface 호스트 디바이스에 설치합니다. 호환 가능한 호스트 장치는 Surface Book 3, Surface Laptop 3 또는 Surface Pro 있습니다.
+1. Surface .msi UEFI 구성기에서 생성한 파일로 받아 Surface 호스트 디바이스에 설치합니다. 호환 가능한 호스트 장치는 Surface Book Studio Surface Laptop, Surface Laptop 3, Surface Laptop 4, Surface Pro 7+Surface Pro 있습니다.
 1. 커넥트 디바이스를 Surface Dock 2에 연결합니다. 도킹 UEFI 정책 설정이 연결될 때 적용됩니다.
 
 ## <a name="verify-managed-state-using-the-surface-app"></a>Surface App을 사용하여 관리 상태 확인
@@ -150,22 +150,22 @@ Surface Dock 2를 회사 호스트 장치에 로그인한 권한이 있는 사�
 
 1. 대상 장치에 구성 패키지를 적용한 다음 Surface Dock 2를 연결합니다.
 
-1. **Surface App을** 열고 **Surface Dock를** 선택하여 Surface Dock의 결과 정책 상태를 볼 수 있습니다. 정책 설정이 적용된 경우 Surface App은 포트를 사용할 수 있는 것으로 표시됩니다.
+1. **Surface App을** 열고 **Surface Dock**를 선택하여 Surface Dock의 결과 정책 상태를 볼 수 있습니다. 정책 설정이 적용된 경우 Surface App은 포트를 사용할 수 있는 것으로 표시됩니다.
 
    ![Surface 앱은 인증된 사용자가 모든 포트를 사용할 수 있는 것으로 표시되어 있습니다.](images/secure-surface-dock-ports-semm-5.png)
 
-1. 이제 정책 설정이 인증되지 않은 사용자에 대한 모든 포트를 해제하는지 확인해야 합니다. 커넥트 Surface Dock 2에서 관리되지 않는 디바이스( 예: 만든 구성 패키지의 관리 범위를 벗어날 수 있는 Surface 디바이스)입니다.
+1. 이제 정책 설정이 인증되지 않은 사용자에 대한 모든 포트를 해제하는지 확인해야 합니다. 커넥트 Surface Dock 2를 관리되지 않는 장치( 예: 생성한 구성 패키지에 대한 관리 범위를 벗어날 경우)에 설치합니다.
 
-1. **Surface App을 열고** **Surface Dock를 선택합니다.** 결과 정책 상태는 포트가 꺼져 있는 것을 나타냅니다.
+1. **Surface App을 열**고 **Surface Dock를 선택합니다**. 결과 정책 상태는 포트가 꺼져 있는 것을 나타냅니다.
 
    ![비인식 사용자에 대한 포트를 표시하는 Surface 앱입니다.](images/secure-surface-dock-ports-semm-6.png)
 
 >[!TIP]
->장치의 소유권을 유지하지만 모든 사용자가 모든 액세스를 허용하려는 경우 모든 것이 켜져 있는 새 패키지를 만들 수 있습니다. 디바이스의 제한 사항과 소유권을 완전히 제거하려면(관리되지 않는) **** Surface UEFI 구성기에서 재설정을 선택하여 대상 장치에 적용할 패키지를 만드십시오.
+>장치의 소유권을 유지하지만 모든 사용자가 모든 액세스를 허용하려는 경우 모든 것이 켜져 있는 새 패키지를 만들 수 있습니다. 디바이스의 제한 사항과 소유권을 완전히 제거하려면(관리되지 않는) Surface UEFI 구성기에서 **** 재설정을 선택하여 대상 장치에 적용할 패키지를 만드십시오.
 
 축하합니다. 대상 호스트 디바이스에서 Surface Dock 2 포트를 성공적으로 관리했습니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
 - [Surface Enterprise SEMM(관리 모드) 설명서](surface-enterprise-management-mode.md)
 - [인증서 서비스 아키텍처](/windows/win32/seccrypto/certificate-services-architecture)

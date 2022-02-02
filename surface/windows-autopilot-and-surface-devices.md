@@ -14,20 +14,20 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 9/14/2020
-ms.openlocfilehash: 6cf2996ab9348bcc778a4b334d82e52b2eebdcde
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: bfcb8c09b3228730e3255c4f92948dc4acfea506
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676602"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338541"
 ---
 # <a name="windows-autopilot-and-surface-devices"></a>Windows Autopilot 및 Surface 디바이스
 
-Windows Autopilot은 클라우드 기반 배포 기술로, Windows 10. Autopilot을 사용하여 Windows 바로 제로 터치 프로세스에서 장치를 원격으로 배포하고 구성할 수 있습니다.
+Windows Autopilot은 Windows 10. Autopilot을 사용하여 Windows 바로 제로 터치 프로세스에서 장치를 원격으로 배포하고 구성할 수 있습니다.
 
-일반적으로 IT 프로는 이미 완전히 좋은 OS가 이미 설치된 디바이스에 배포될 이미지를 구축하고 사용자 지정하는 데 많은 시간을 소비합니다. Windows Autopilot은 여러 기술 모음을 사용하여 새로운 제로 터치 배포 방법을 도입하여 디바이스를 설정하고 Windows 합니다. 이를 통해 IT 부서는 관리할 인프라가 거의 또는 없는 이미지와 쉽고 간단한 프로세스를 구성/사용자 지정할 수 있습니다. 사용자의 관점에서 보면 Surface를 생산성 상태로 설정하는 데 몇 가지 간단한 단계만 수행하면 됩니다. 실제로 최종 사용자에게 필요한 유일한 상호 작용은 네트워크에 연결하고 자격 증명을 확인하는 것입니다. 그 이후의 모든 것은 완전히 자동화됩니다.
+일반적으로 IT 프로는 이미 완전히 좋은 OS가 이미 설치된 디바이스에 배포될 이미지를 구축하고 사용자 지정하는 데 많은 시간을 소비합니다. Windows Autopilot은 여러 기술 모음을 사용하여 새로운 제로 터치 배포 접근 방식을 도입하고 Windows 합니다. 이를 통해 IT 부서는 관리할 인프라가 거의 또는 없는 이미지와 쉽고 간단한 프로세스를 구성/사용자 지정할 수 있습니다. 사용자의 관점에서 보면 Surface를 생산성 상태로 설정하는 데 몇 가지 간단한 단계만 수행하면 됩니다. 실제로 최종 사용자에게 필요한 유일한 상호 작용은 네트워크에 연결하고 자격 증명을 확인하는 것입니다. 그 이후의 모든 것은 완전히 자동화됩니다.
 
-Windows Autopilot을 사용하면 다음을 할 수 있습니다.
+Windows Autopilot을 사용하여 다음을 할 수 있습니다.
 
 - 디바이스를 Azure AD(Azure Active Directory 자동으로 가입합니다.
 - 장치와 같은 MDM 서비스에 장치를 Microsoft Intune(Azure AD Premium 필요).
@@ -39,13 +39,13 @@ Windows Autopilot을 사용하면 다음을 할 수 있습니다.
 
 ## <a name="how-it-works"></a>작동 방식
 
-Windows Autopilot 등록 장치는 하드웨어 해시라고 하는 고유한 장치 서명을 통해 처음 시작할 때 인터넷을 통해 *식별됩니다.* Azure AD(Azure Active Directory) 및 모바일 장치 관리와 같은 최신 관리 솔루션을 사용하여 자동으로 등록되고 구성됩니다.
+Windows 장치를 처음 시작할 때 하드웨어 해시라고 하는 고유한 장치 서명을 통해 인터넷을 통해 식별*됩니다*. Azure AD(Azure Active Directory) 및 모바일 장치 관리와 같은 최신 관리 솔루션을 사용하여 자동으로 등록되고 구성됩니다.
 
 Autopilot을 사용할 수 있는 Surface 파트너로부터 구매 시 Surface 디바이스를 등록할 Windows 있습니다. 이러한 파트너는 사용자에게 직접 새 장치를 배송할 수 있습니다. 장치를 처음 켜면 장치가 자동으로 등록되고 구성됩니다. 이 프로세스는 배포 중에 다시 구현되지 않습니다. 이를 통해 장치 관리 및 배포의 새로운 agile 방법을 구현할 수 있습니다.
 
 ## <a name="modern-management"></a>최신 관리
 
-Autopilot은 Autopilot을 통해 배포하도록 특별히 설계된 Surface Pro 7+, Surface Laptop 3, Surface Pro 7 및 Surface Pro X를 비롯한 Surface 디바이스에 권장되는 배포 옵션입니다.
+Autopilot은 Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop 4 및 Surface Pro X를 비롯한 Surface 디바이스에 권장되는 배포 옵션으로, Autopilot을 통해 배포하도록 특별히 디자인되었습니다.
 
  Surface 디바이스를 등록하는 것이 가장 Microsoft 클라우드 솔루션 공급자. 이 단계를 통해 Intune에서 직접 Surface에서 UEFI 펌웨어 설정을 관리할 수 있습니다. 인증서 관리를 위해 디바이스를 물리적으로 터치할 필요가 없습니다. 자세한 [내용은 Surface UEFI 설정의 Intune](surface-manage-dfci-guide.md) 관리를 참조하세요.
 
@@ -53,7 +53,7 @@ Autopilot은 Autopilot을 통해 배포하도록 특별히 설계된 Surface Pro
 
 구매 시 Surface 파트너의 등록을 포함하여 Windows Autopilot을 통해 Surface 디바이스를 광범위하게 배포하려면 버전 1709(Fall Creators Update) Windows 10 이상이 필요합니다.
 
-이러한 Windows 버전은 대규모 배포에 필요한 Windows Autopilot의 장치를 고유하게 식별하는 4,000비트(4k) 해시 값을 지원합니다. Surface Pro 7+, Surface Pro X, Surface Laptop 3을 비롯한 모든 새 Surface 디바이스는 Windows 10 버전 1903 이상과 함께 제공합니다.
+이러한 Windows 버전은 대규모 배포에 필요한 Windows Autopilot의 장치를 고유하게 식별하는 4,000비트(4k) 해시 값을 지원합니다.
 
 ## <a name="exchange-experience-on-surface-devices-in-need-of-repair-or-replacement"></a>Exchange 교체가 필요한 Surface 디바이스의 환경 제공
 
@@ -64,7 +64,7 @@ Microsoft는 Autopilot 등록을 위해 모든 Surface를 자동으로 확인하
 
 ## <a name="microsoft-support-registration"></a>Microsoft 지원 등록
 
-고객 및 Microsoft CSP(클라우드 솔루션 공급자)는 Microsoft 지원에 요청을 제출하여 Surface 디바이스를 등록할 수 있습니다. 자세한 내용은 [Autopilot 에 대한 Surface 등록 Windows 참조합니다.](surface-autopilot-registration-support.md)
+고객 및 Microsoft CSP(클라우드 솔루션 공급자)는 Microsoft 지원에 요청을 제출하여 Surface 디바이스를 등록할 수 있습니다. 자세한 내용은 [Autopilot에 대한 Surface 등록 Windows 참조합니다](surface-autopilot-registration-support.md).
 
 ## <a name="surface-partners-enabled-for-windows-autopilot"></a>Autopilot에서 사용할 수 Windows Surface 파트너
 
@@ -82,7 +82,7 @@ Autopilot에서 사용할 수 있는 Surface 파트너는 Windows 있습니다.
 |  [F1](https://www.functiononeit.com/#empower)  |   |  |
 |  [보호된 트러스트](https://go.microsoft.com/fwlink/p/?LinkID=2129005) | | |
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
 Autopilot에 대한 Windows 자세한 내용은 다음을 참조하세요.
 

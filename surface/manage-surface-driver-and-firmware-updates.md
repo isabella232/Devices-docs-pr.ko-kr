@@ -1,10 +1,10 @@
 ---
 title: Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
-description: 이 문서에서는 Surface 디바이스에 대한 펌웨어 및 드라이버 업데이트를 관리하고 배포하는 데 사용할 수 있는 옵션에 대해 설명합니다.
+description: 이 문서에서는 Surface 디바이스용 드라이버 및 펌웨어 업데이트를 포함하는 다운로드 가능한 패키지에 대한 링크를 제공하며 사용 가능한 관리 및 배포 솔루션에 대해 설명합니다.
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 ms.reviewer: ''
 manager: laurawi
-keywords: Surface, Surface Pro 3, 펌웨어, 업데이트, 디바이스, 관리, 배포, 드라이버, USB
+keywords: Surface, Surface Pro 8, Surface Go, Surface Laptop, Surface Studio, Surface Pro 3, 펌웨어, 업데이트, 장치, 관리, 배포, 드라이버, USB
 ms.localizationpriority: medium
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -14,77 +14,26 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.date: 10/12/2020
-ms.openlocfilehash: afc7b2e82519fb42ca07b107bff73ddea894cfdf
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 12/14/2021
+ms.openlocfilehash: 6cfe5f44c156c8042172741739fffbfed3ceba07
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911643"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338581"
 ---
 # <a name="manage-and-deploy-surface-driver-and-firmware-updates"></a>Surface 드라이버 및 펌웨어 업데이트 관리 및 배포
 
-Surface 드라이버 및 펌웨어 업데이트를 관리하는 방법은 환경 및 조직 요구 사항에 따라 다릅니다. Surface 디바이스에서 펌웨어는 운영 체제에 드라이버로 노출되어 장치 관리자에 표시됩니다. 이렇게 하면 비즈니스용 업데이트 또는 Windows 사용하여 장치 펌웨어 및 드라이버를 Windows 수 있습니다. 이 간소화된 접근 방식은 스타트업 및 중소기업에 적용이 되기는 하지만 대규모 조직에서는 일반적으로 내부적으로 업데이트를 배포하기 위해 IT 관리자가 필요합니다. 여기에는 포괄적인 계획, 응용 프로그램 호환성 테스트 및 네트워크 전체에 최종 승인 및 배포하기 전에 업데이트의 파일럿 및 유효성 검사가 수반될 수 있습니다.
+Surface 드라이버 및 펌웨어 업데이트를 관리하는 방법은 환경 및 조직 요구 사항에 따라 다를 수 있습니다. 대규모 조직에서 IT 관리자는 일반적으로 내부적으로 배포를 단계화하고 업그레이드를 사용자 장치에 배포하기 전에 테스트할 시간을 할당합니다.
 
 > [!NOTE]
-> 이 문서는 기술 지원 에이전트 및 IT 전문가를 위한 것으로 Surface 디바이스에만 적용됩니다. 홈 디바이스에 Surface 업데이트 또는 펌웨어를 설치하는 데 도움이 필요한 경우 [Surface](https://support.microsoft.com/help/4023505)펌웨어 업데이트 및 펌웨어 Windows 10.
+> 이 문서는 IT 전문가 및 기술 지원 에이전트를 위한 것으로 Surface 디바이스에만 적용됩니다. 홈 디바이스에 Surface 업데이트 또는 펌웨어를 설치하는 데 도움이 필요한 경우 Surface용 드라이버 및 펌웨어 다운로드를 [참조하세요](https://support.microsoft.com/help/4023505).
 
-엔터프라이즈급 소프트웨어 배포 솔루션은 계속 발전하고 있는 반면, 업데이트를 중앙에서 관리하기 위한 비즈니스 근거는 동일합니다. Surface 디바이스의 보안을 유지하고 최신 운영 체제 및 기능 개선 사항으로 업데이트된 상태로 유지하세요. 이는 안정적인 프로덕션 환경을 유지하며 사용자가 생산성을 차단하지 못하게 하는 데 필수적입니다. 이 문서에서는 대규모 조직에서 이러한 목표를 달성하기 위한 권장 도구 및 프로세스에 대해 간략하게 소개합니다.
+엔터프라이즈급 소프트웨어 배포 솔루션은 계속 발전하고 있는 반면, 업데이트를 중앙에서 관리하기 위한 비즈니스 근거는 동일합니다. Surface 디바이스의 보안을 유지하고 최신 운영 체제 및 기능 개선 사항으로 업데이트된 상태로 유지하세요. 이는 안정적인 프로덕션 환경을 유지하며 사용자가 생산성을 차단하지 못하게 하는 데 필수적입니다.
 
-## <a name="central-update-management-in-commercial-environments"></a>상업용 환경의 중앙 업데이트 관리
+## <a name="whats-in-surface-driver-and-firmware-updates"></a>Surface 드라이버 및 펌웨어 업데이트의 소식
 
-Microsoft는 드라이버 및 펌웨어 업데이트를 비롯한 장치를 관리하기 위한 도구를 Microsoft Endpoint Manager 관리 센터라는 단일 통합 환경으로 간소화하고 [devicemanagement.microsoft.com.](https://devicemanagement.microsoft.com/#home) [](https://devicemanagement.microsoft.com/)
-
-### <a name="manage-updates-with-configuration-manager-and-intune"></a>Configuration Manager 및 Intune을 사용하여 업데이트 관리
-
-Microsoft Endpoint Configuration Manager Surface 펌웨어 및 드라이버 업데이트를 Configuration Manager 클라이언트와 동기화하고 배포할 수 있습니다. 사용자와 Microsoft Intune 통합하면 모든 관리되는, 공동 관리 및 파트너 관리 장치를 한 장소에서 볼 수 있습니다. 이는 대규모 조직에서 Surface 업데이트를 관리하는 데 권장되는 솔루션입니다.
-
-자세한 단계는 다음 리소스를 참조하세요.
-
-- [Configuration Manager에서 구성 관리자 관리](https://docs.microsoft.com/surface/manage-surface-driver-updates-configuration-manager)
-- [Configuration Manager를 통해 응용 프로그램 배포](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
-- [Endpoint Configuration Manager 설명서](https://docs.microsoft.com/configmgr/)
-
-### <a name="manage-updates-with-microsoft-deployment-toolkit"></a>Microsoft Deployment Toolkit
-
-MDT(Microsoft Deployment Toolkit)는 Endpoint Configuration Manager에 포함되어 있습니다. 환경에 따라 사용할 수 있는 선택적 배포 도구가 포함되어 있습니다. 여기에는 Windows ADK(Windows Assessment and Deployment Kit), Windows SIM(Windows System Image Windows Manager), DISM(배포 이미지 서비스 및 관리) 및 USMT(사용자 환경 마이그레이션 도구)가 포함됩니다. 최신 버전의 MDT는 [Microsoft Deployment Toolkit 다운로드 페이지에서 다운로드할 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=54259)
-
-자세한 단계는 다음 리소스를 참조하세요.
-
-- [Microsoft Deployment Toolkit 설명서](https://docs.microsoft.com/configmgr/mdt/)
-- [Microsoft Deployment Toolkit을 사용하여 Windows 10 배포](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
-- [Microsoft Windows 10 Surface 디바이스에 배포 Toolkit](https://docs.microsoft.com/surface/deploy-windows-10-to-surface-devices-with-mdt)
-
-Surface 드라이버 및 펌웨어 업데이트는 설치 관리자(*Windows) 파일로 .msi 패키지로 제공됩니다. 이러한 설치 Windows 배포하려면 Endpoint Configuration Manager 또는 MDT를 사용할 수 있습니다. 장치 및 운영 체제의 올바른 .msi 파일을 선택하는 방법에 대한 자세한 내용은 파일 다운로드에 대한 다음 섹션의 .msi 참조하세요.
-
-Endpoint Configuration Manager를 사용하여 업데이트를 배포하는 방법에 대한 지침은 Configuration Manager를 사용하여 응용 프로그램 [배포를 참조하세요.](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications) MDT를 사용하여 업데이트를 배포하는 방법에 대한 지침은 MDT를 사용하여 Windows 10 [이미지 배포를 참조하세요.](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt)
-
-**WindowsPE 및 Surface 펌웨어 및 드라이버**
-
-끝점 구성 관리자와 MDT는 모두 배포 프로세스 Windows WindowsPE(사전 설치 환경)를 사용하게 됩니다. WindowsPE는 네트워크 어댑터 및 저장소 컨트롤러와 같은 제한된 기본 드라이버 집합만 지원됩니다. WindowsPE에 Windows 구성 요소에 대한 드라이버로 오류가 발생할 수 있습니다. WindowsPE 단계에서 필요한 드라이버만 사용하려면 배포 프로세스를 구성하여 이러한 오류를 방지하는 것이 가장 좋습니다.
-
-### <a name="endpoint-configuration-manager"></a>Endpoint Configuration Manager
-
-Endpoint Configuration Manager부터 Configuration Manager 클라이언트를 사용하여 Microsoft Surface 펌웨어 및 드라이버 업데이트를 동기화하고 배포할 수 있습니다. 자세한 내용은 KB 4098906 Configuration Manager에서 Surface 드라이버 업데이트를 관리하는 [방법을 참조하세요.](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager)
-
-## <a name="supported-devices"></a>지원되는 디바이스
-
-다운로드 가능한 .msi 파일은 Surface Pro 2 이상 장치에서 사용할 수 있습니다(Surface Pro X에서 실행되는 Windows 10 ARM).
-
-## <a name="managing-firmware-with-dfci"></a>DFCI로 펌웨어 관리
-
-Surface UEFI 관리는 Intune(이제 공개 미리 보기에서 [](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)사용 가능)에 기본 제공되는 DFCI(장치 펌웨어 구성 인터페이스) 프로필을 사용하여 최신 관리 스택을 UEFI 하드웨어 수준으로 확장합니다. DFCI는 제로 터치 프로비전을 지원하고, BIOS 암호를 제거하고, 보안 설정(시작 옵션 및 기본 제공 주변 장치 포함)을 제어하며, 향후 고급 보안 시나리오를 위한 초안을 마련합니다. 자세한 내용은 다음 문서를 참조하세요.
-
-- [Surface UEFI 설정의 Intune 관리](https://docs.microsoft.com/surface/surface-manage-dfci-guide)
-- [Ignite 2019: Intune에서 Surface UEFI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)설정의 원격 관리를 발표합니다.
-
-## <a name="best-practices-for-update-deployment-processes"></a>업데이트 배포 프로세스 모범 사례
-
-안정적인 환경을 유지 관리하기 위해 최신 버전의 최신 버전과 패리티를 유지하는 것이 Windows 10.  모범 사례 권장 사항은 업데이트용 배포 [링 Windows 10 참조하세요.](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates)
-
-## <a name="downloadable-surface-update-packages"></a>다운로드 가능한 Surface 업데이트 패키지
-
-특정 버전의 Windows 10 별도의 .msi 파일이 있으며, 각 파일에는 Surface 디바이스에 필요한 모든 누적 드라이버 및 펌웨어 업데이트가 들어 있습니다. 업데이트 패키지에는 다음 구성 요소 중 일부 또는 전체가 포함되어 있을 수 있습니다.
+Windows Installer .msi 파일에 Surface 디바이스에 필요한 모든 누적 드라이버 및 펌웨어 업데이트가 포함되어 있습니다. 업데이트 패키지에는 다음 구성 요소 중 일부 또는 전체가 포함되어 있을 수 있습니다.
 
 - Wi-Fi 및 LTE
 - 비디오
@@ -96,20 +45,85 @@ Surface UEFI 관리는 Intune(이제 공개 미리 보기에서 [](https://docs.
 - 관리 엔진(ME)
 - UEFI(Unified Extensible Firmware Interface)
 
-### <a name="downloading-msi-files"></a>파일 .msi 다운로드
+## <a name="download-msi-files"></a>파일 .msi 다운로드
 
-1. Microsoft 다운로드 [센터에서 Surface용](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware) 드라이버 및 펌웨어 다운로드를 찾아볼 수 있습니다.
-2. Surface .msi 버전과 일치하는 파일 이름을 Windows. .msi 파일 이름에는 드라이버 및 펌웨어를 설치하는 Windows 지원되는 최소 빌드 번호가 포함되어 있습니다. 예를 들어 다음 그림을 참조합니다. 빌드 Surface Book 18362가 있는 Windows 10 2를 업데이트 **SurfaceBook2_Win10_18362_19.101.13994.msi.** 빌드 Surface Book 16299가 있는 Windows 10 2의 경우 를 **SurfaceBook2_Win10_16299_1803509_3.msi. **
+이 섹션에서는 Surface 디바이스용 드라이버 및 펌웨어 업데이트를 포함하는 다운로드 가능한 패키지에 대한 직접 링크를 제공합니다. 
 
-    ![그림 1. Surface 업데이트 다운로드.](images/fig1-downloads-msi.png)
+1. 적절한 Windows 10 Windows 11 선택합니다. 
+2. 여러 개의 .msi 장치의 경우 조직에 배포된 Surface .msi 버전과 일치하는 Windows 파일 이름을 선택합니다.  
 
-    *그림 1. Surface 업데이트 다운로드*
+
+| Surface 디바이스                                                                                                                                        | 다운로드 가능한 .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Surface Pro**                                                                                                                                       | - [Surface Pro 8](https://www.microsoft.com/en-us/download/details.aspx?id=103503)<br>- [Surface Pro 7+ Surface Pro 7+(LTE)](https://www.microsoft.com/en-us/download/details.aspx?id=102633)<br>- [Surface Pro 7](https://www.microsoft.com/download/details.aspx?id=100419)<br>- [Surface Pro 6](https://www.microsoft.com/download/details.aspx?id=57514)<br>- [Surface Pro 5(LTE)](https://www.microsoft.com/download/details.aspx?id=56278)<br>- [Surface Pro 5(Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=55484)<br>- [Surface Pro 4](https://www.microsoft.com/download/details.aspx?id=49498)<br>- [Surface Pro 3](https://www.microsoft.com/download/details.aspx?id=38826)<br>- [Surface Pro 2](https://www.microsoft.com/download/details.aspx?id=49042)<br>- [Surface Pro](https://www.microsoft.com/download/details.aspx?id=49038) |
+| **surface 노트북**                                                                                                                                    | - [Surface Laptop 이동](https://www.microsoft.com/download/details.aspx?id=102261)<br>- [Surface Laptop 4(Intel 프로세서 사용)](https://www.microsoft.com/download/details.aspx?id=102924)<br>- [Surface Laptop 4 AMD 프로세서](https://www.microsoft.com/download/details.aspx?id=102923)<br>- [Surface Laptop 3 Intel 프로세서](https://www.microsoft.com/download/details.aspx?id=100429)<br>- [Surface Laptop 3 AMD 프로세서](https://www.microsoft.com/download/details.aspx?id=100428)<br>- [Surface Laptop 2](https://www.microsoft.com/download/details.aspx?id=57515)<br>- [Surface Laptop](https://www.microsoft.com/en-us/download/details.aspx?id=55489)                                                                                                                                                                                    |
+| **Surface Laptop Studio**                                                                                                                             | - [Surface Laptop Studio](https://www.microsoft.com/en-us/download/details.aspx?id=103505)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Surface Book**                                                                                                                                      | - [Surface Book 3](https://www.microsoft.com/download/details.aspx?id=101315)<br>- [Surface Book 2](https://www.microsoft.com/download/details.aspx?id=56261)<br>- [Surface Book](https://www.microsoft.com/download/details.aspx?id=49497)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Surface Go**                                                                                                                                        | - [Surface Go 3](https://www.microsoft.com/en-us/download/details.aspx?id=103504)<br>- [Surface Go 2](https://www.microsoft.com/download/details.aspx?id=101304)<br>- [Surface Go(Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=57439)<br>- [Surface Go(LTE)](https://www.microsoft.com/download/details.aspx?id=57601)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Surface Studio**                                                                                                                                    | - [Surface Studio 2](https://www.microsoft.com/download/details.aspx?id=57593)<br>- [Surface Studio](https://www.microsoft.com/download/details.aspx?id=54311)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Surface 3**                                                                                                                                         | - [Surface 3(Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=49040)<br>- [Surface 3(LTE) - ATT](https://www.microsoft.com/download/details.aspx?id=49039)<br>- [Surface 3(LTE) - Verizon](https://www.microsoft.com/download/details.aspx?id=49920)<br>- [Surface 3(LTE) - 북미 통신 사업자 잠금 해제](https://www.microsoft.com/download/details.aspx?id=49037)<br>- [Surface 3(LTE) - 북미 외 및 일본 Y!모바일](https://www.microsoft.com/download/details.aspx?id=49041)                                                                                                                                                                                                                                                                                                                                                   |
+| **Surface Hub Windows 10 Pro** [**또는 Windows 10 Enterprise**](/surface-hub/surface-hub-2s-migrate-os)   | - [Windows 10 Pro 2의 Enterprise 및 Surface Hub OS](https://www.microsoft.com/download/details.aspx?id=101974)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Surface Hub 2020 Windows 10 Teams 실행 중인 업데이트**                                                                                                  | - [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Surface Dock 2**                                                                                                                                    | - [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
+ 
+
+> [!TIP]
+> 다른 Windows 버전에 대해 별도의 파일이 포함된 이전 장치의 경우 Surface 모델 및 .msi 버전과 일치하는 파일 이름을 Windows. .msi 파일 이름에는 드라이버 및 펌웨어를 설치하는 Windows 지원되는 최소 빌드 번호가 포함되어 있습니다. 예를 들어 빌드 18362가 Surface Book 2를 업데이트하기 위해 Windows 10SurfaceBook2_Win10_18362_19.101.13994.msi ** .** 빌드 Surface Book 16299가 있는 Windows 10 2의 경우 를 **SurfaceBook2_Win10_16299_1803509_3.msi**.
+
+## <a name="central-update-management-in-commercial-environments"></a>상업용 환경의 중앙 업데이트 관리
+
+드라이버 및 펌웨어 업데이트를 비롯한 장치 관리 도구는 [Microsoft Endpoint Manager.](https://devicemanagement.microsoft.com/) 
+
+### <a name="manage-updates-with-configuration-manager-and-intune"></a>Configuration Manager 및 Intune을 사용하여 업데이트 관리
+
+Microsoft Endpoint Configuration Manager Surface 펌웨어 및 드라이버 업데이트를 Configuration Manager 클라이언트와 동기화하고 배포할 수 있습니다. 사용자와 Microsoft Intune 통합하면 모든 관리되는, 공동 관리 및 파트너 관리 장치를 한 장소에서 볼 수 있습니다. 이는 대규모 조직에서 Surface 업데이트를 관리하는 데 권장되는 솔루션입니다.
+
+자세한 단계는 다음 리소스를 참조하세요.
+
+- [Configuration Manager에서 구성 관리자 관리](manage-surface-driver-updates-configuration-manager.md)
+- [Configuration Manager를 통해 응용 프로그램 배포](/configmgr/apps/deploy-use/deploy-applications)
+- [Endpoint Configuration Manager 설명서](/configmgr/)
+
+### <a name="manage-updates-with-microsoft-deployment-toolkit"></a>Microsoft Deployment Toolkit
+
+MDT(Microsoft Deployment Toolkit)는 Endpoint Configuration Manager에 포함되어 있습니다. 환경에 따라 사용할 수 있는 선택적 배포 도구가 포함되어 있습니다.  여기에는 Windows ADK(Windows Assessment and Deployment Kit), Windows SIM(Windows System Image Windows Manager), DISM(배포 이미지 서비스 및 관리) 및 USMT(사용자 환경 마이그레이션 도구)가 포함됩니다. 최신 버전의 MDT는 [Microsoft Deployment Toolkit 다운로드 페이지에서 다운로드할 수 있습니다](https://www.microsoft.com/download/details.aspx?id=54259).
+
+자세한 단계는 다음 리소스를 참조하세요.
+
+- [Microsoft Deployment Toolkit 설명서](/configmgr/mdt/)
+- [MDT를 사용하여 배포 준비](/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
+
+Endpoint Configuration Manager를 사용하여 업데이트를 배포하는 방법에 대한 지침은 Configuration Manager를 사용하여 응용 프로그램 배포 [를 참조하세요](/configmgr/apps/deploy-use/deploy-applications). MDT를 사용하여 업데이트를 배포하는 방법에 대한 지침은 [MDT를 사용하여 Windows 10 이미지 배포를 참조하세요](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
+
+**WindowsPE 및 Surface 펌웨어 및 드라이버**
+
+끝점 구성 관리자와 MDT는 모두 배포 프로세스 Windows WindowsPE(사전 설치 환경)를 사용하게 됩니다. WindowsPE는 네트워크 어댑터 및 저장소 컨트롤러와 같은 제한된 기본 드라이버 집합만 지원됩니다. WindowsPE에 Windows 구성 요소에 대한 드라이버로 오류가 발생할 수 있습니다. WindowsPE 단계에서 필요한 드라이버만 사용하려면 배포 프로세스를 구성하여 이러한 오류를 방지하는 것이 가장 좋습니다.
+
+### <a name="endpoint-configuration-manager"></a>Endpoint Configuration Manager
+
+Endpoint Configuration Manager부터 Configuration Manager 클라이언트를 사용하여 Microsoft Surface 펌웨어 및 드라이버 업데이트를 동기화하고 배포할 수 있습니다. 자세한 내용은 KB 4098906 [Configuration Manager에서 Surface 드라이버 업데이트 관리를 참조하세요](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager).
+
+## <a name="supported-devices"></a>지원되는 디바이스
+
+다운로드 가능한 .msi 파일은 Surface Pro 2 이상 장치에서 사용할 수 있습니다(Surface Pro X에서 실행되는 Windows 10 ARM).
+
+## <a name="managing-firmware-with-dfci"></a>DFCI로 펌웨어 관리
+
+Surface UEFI 관리는 [Intune](/intune/configuration/device-firmware-configuration-interface-windows)에 기본 제공되는 DFCI(장치 펌웨어 구성 인터페이스) 프로필을 사용하여 최신 관리 스택을 UEFI 하드웨어 수준으로 확장합니다. DFCI는 제로 터치 프로비전을 지원하고, BIOS 암호를 제거하고, 보안 설정(시작 옵션 및 기본 제공 주변 장치 포함)을 제어하며, 향후 고급 보안 시나리오를 위한 초안을 마련합니다. 자세한 내용은 다음을 참조하십시오.
+
+- [Surface 장치에서 DFCI 관리](surface-manage-dfci-guide.md)
+- [Ignite 2019: Intune에서 Surface UEFI 설정의 원격 관리를 발표합니다](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+
+## <a name="best-practices-for-update-deployment-processes"></a>업데이트 배포 프로세스 모범 사례
+
+안정적인 환경을 유지 관리하기 위해 최신 버전의 최신 버전과 패리티를 유지하는 것이 Windows 10.  모범 사례 권장 사항은 클라이언트 업데이트에 대한 서비스 전략 [Windows 참조하세요](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
 
 ### <a name="surface-msi-naming-convention"></a>Surface .msi 이름 규칙
 
 2019년 8월부터 .msi 파일에서 다음 명명 규칙을 사용하고 있습니다.
 
-- *제품*_*Windows 릴리스 Windows*_**_**_ 버전 번호 버전 번호 개정 버전*번호(일반적으로 0)입니다.*
+- *제품*_*Windows 릴리스*_*Windows 번호*_**_ 판 번호비전 버전 번호(*일반적으로 0)입니다*.
 
 **예제**
 
@@ -139,21 +153,20 @@ Surface UEFI 관리는 Intune(이제 공개 미리 보기에서 [](https://docs.
 - **제품:** SurfacePro6
 - **Windows 릴리스:** Win10
 - **빌드:** 16299
-- **버전:** 1900307 – 다음과 같이 파일이 만들어진 날짜와 릴리스 순서의 해당 위치를 보여 주며,
+- **버전:** 1900307 – 다음과 같이 파일을 만든 날짜와 릴리스 순서의 해당 위치를 보여 주며,
   - **연도:** 19(2019)
   - **릴리스 수:** 003(연도의 세 번째 릴리스)
-  - **제품 버전 번호:** 07(Surface Pro 6은 공식적으로 7번째 버전의 Surface Pro)
+  - **제품 버전 번호:** 07(Surface Pro 6은 공식적으로 Surface Pro)
 - **버전 개정:** 0(이 버전의 첫 번째 릴리스)
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
-- [Surface용 드라이버 및 펌웨어 다운로드](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware)
-- [Configuration Manager에서 Surface 드라이버 업데이트를 관리하는 방법](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager)
-- [Configuration Manager를 통해 응용 프로그램 배포](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
-- [Endpoint Configuration Manager 설명서](https://docs.microsoft.com/configmgr/)
-- [Microsoft Deployment Toolkit 설명서](https://docs.microsoft.com/configmgr/mdt/)
-- [Microsoft Deployment Toolkit을 사용하여 Windows 10 배포](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
-- [Microsoft Windows 10 Surface 디바이스에 배포 Toolkit](https://docs.microsoft.com/surface/deploy-windows-10-to-surface-devices-with-mdt)  
-- [Surface UEFI 설정의 Intune 관리](https://docs.microsoft.com/surface/surface-manage-dfci-guide)
-- [Ignite 2019: Intune에서 Surface UEFI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)설정의 원격 관리를 발표합니다.
-- [Windows 10 업데이트 배포 링 빌드](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates)
+- [Windows 클라이언트 업데이트를 위한 서비스 전략 준비](/windows/deployment/update/waas-deployment-rings-windows-10-updates)
+- [Configuration Manager에서 구성 관리자 관리](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager)
+- [Configuration Manager를 통해 응용 프로그램 배포](/configmgr/apps/deploy-use/deploy-applications)
+- [Endpoint Configuration Manager 설명서](/configmgr/)
+- [Microsoft Deployment Toolkit 설명서](/configmgr/mdt/)
+- [MDT를 사용하여 배포 준비](/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
+- [Surface 장치에서 DFCI 관리](surface-manage-dfci-guide.md)
+- [Ignite 2019: Intune에서 Surface UEFI 설정의 원격 관리를 발표합니다](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+

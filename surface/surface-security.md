@@ -12,12 +12,12 @@ ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
-ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
+ms.openlocfilehash: f711c4c34beae8e1bad34c7994d1562bb3cad08f
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "12057648"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338561"
 ---
 # <a name="surface-security-overview"></a>Surface 보안 개요
 
@@ -27,7 +27,7 @@ ms.locfileid: "12057648"
 
 Microsoft Surface는 2015년 이후 하드웨어 디자인, 사내 펌웨어 개발 및 장치 업데이트 및 관리에 대한 전체적인 접근 방식을 통해 펌웨어 보호 및 장치 보안에 대한 통합된 접근 방식을 사용하고 있습니다.
 
-Surface의 경우 UEFI(Unified Extensible Firmware Interface) 1은 사장에서 유지 관리되고, Windows 업데이트를 통해 정기적으로 업데이트되고, Windows <sup> [](#references) Autopilot을 통해 관리를 위해 원활하게 배포되어 장치를 부팅하기 전에 위험을 최소화하고 펌웨어 수준에서 제어를 </sup> 최대화합니다. Microsoft는 UEFI에서 관리되는 UEFI의 Open Source Project [Mu를](https://microsoft.github.io/mu/) 통해 GitHub 완전하게 Microsoft Endpoint Manager.
+Surface의 경우 UEFI(Unified Extensible Firmware Interface)<sup> [1](#references)</sup>은 사장에서 유지 관리되고, Windows 업데이트를 통해 정기적으로 업데이트되고, Windows Autopilot을 통해 관리를 위해 원활하게 배포되어 장치를 부팅하기 전에 위험을 최소화하고 펌웨어 수준에서 제어를 최대화합니다. Microsoft는 UEFI에서 관리되는 UEFI의 Open Source Project [Mu](https://microsoft.github.io/mu/)를 통해 GitHub 완전 투명성을 Microsoft Endpoint Manager.
 
 ## <a name="microsoft-designed-and-built-components"></a>Microsoft에서 디자인 및 구축한 구성 요소
 
@@ -35,8 +35,10 @@ Surface의 경우 UEFI(Unified Extensible Firmware Interface) 1은 사장에서 
 
 Surface는 독립적인 방어 하위 구성 요소의 계층을 활용하여 심층 방어 접근 방식을 통해 보안을 강화합니다. 칩에서 클라우드로 또는 고급 위협을 방지, 감지, 조사 및 대응하기 위해 작동하는 AI 기반의 Microsoft Defender에 대한 신뢰 루트를 보장하는 UEFI 또는 Microsoft에서 기본 제공되는 것이 bolt-on보다 더 나은 위치를 적용합니다.
 
-| 기능                         | 설명                                                                                                                                                                                                                                                                                                                         | 자세히 알아보기                                                                                                                                                                   |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<br/>
+
+| 기능 | 설명 | 세부 정보 |
+| ------- | ----------- | ---------- |
 | Microsoft Built UEFI            | 장치를 구성하고 디바이스를 부팅하는 Windows 10<br>장치 및 디바이스의 초기 부팅을 Windows 10 운영 체제에 펌웨어 런타임 서비스를 제공합니다. 를 통해 SEMM의 프레미스 관리 및 DFCI 클라우드 기반 관리를 통해 장치의 하드웨어를 훨씬 더 Microsoft Endpoint Manager | [Surface UEFI 설정 관리](manage-surface-uefi-settings.md)                                                                        |
 | 실제 TPM 2.0                | 신뢰할 수 있는 플랫폼 모듈 - 통합된 암호화 키를 통해 하드웨어를 보호하도록 설계된 전용 마이크로컨트롤러입니다.<br>키 암호화 및 저장(BitLocker, Windows Hello, AD 자격 증명,)<br>PCR - 이전 구성의 변경 내용을 감지하기 위해 측정 및 관련 메트릭을 보호하는 플랫폼 구성 등록  | [TPM(신뢰할 수 있는 플랫폼 모듈) 기술 개요](/windows/security/information-protection/tpm/trusted-platform-module-overview)                 |
 | 비즈니스용 Windows Hello      | PC 및 모바일 장치에서 암호를 강력한 2단계 인증으로 대체합니다. 이 생체 인식 인증은 장치에 연결하고 생체 인식 또는 PIN을 사용하는 새로운 유형의 사용자 자격 증명으로 구성됩니다.                                                                                                                   | [비즈니스 Windows Hello 작동 방식 - Microsoft 365 보안](/windows/security/identity-protection/hello-for-business/hello-how-it-works) |
@@ -74,10 +76,13 @@ HVCI는 VBS를 사용하여 코드 무결성 정책 적용을 크게 강화합�
 
 다음 Surface 디바이스에서 VBS와 HVCI를 모두 사용할 수 있습니다.
 
+- Surface Pro 8
+- Surface Laptop Studio
+- Surface Go 3
 - Surface Laptop 4
 - Surface Pro 7+
 - Surface Book 3,
-- Surface Laptop 이동,
+- Surface Laptop 이동
 - Surface Pro X
 
 ## <a name="secure-boot-and-boot-guard"></a>보안 부팅 및 부팅 보호
@@ -86,12 +91,14 @@ Surface 디바이스의 신뢰 루트는 서명 및 측정을 확인하여 다�
 
 그림 2에 표시된 것 처럼 펌웨어의 무결성은 각 단계에서 전원 단추를 눌러 운영 체제를 실행하는지 검사합니다.
 
- > [!div class="mx-imgBorder"]
- > ![그림 1. Surface 디바이스에 대한 보안 부팅. ](images/secboot.png)
-  *그림 1. Surface 디바이스용 보안 부팅*
+> [!div class="mx-imgBorder"]
+> [ ![그림 1. Surface 디바이스에 대한 보안 부팅.](images/secboot.png) ](images/secboot.png#lightbox)
+*그림 1. Surface 디바이스용 보안 부팅*
 
-| 단계  | 보안 부팅 단계                                                                                                                                                                                                                                      |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<br/>
+
+| 단계  | 보안 부팅 단계 |
+| ----- | ----------------- |
 | **1** | TPM에서 제공하는 신뢰 루트에서 전원 단추를 누를 때마다 보안이 인스턴스화됩니다. 장치를 처음 전원으로 들이면 시스템에서 일련의 보안 검사를 실행하여 장치 펌웨어가 변조되거나 손상되지 않은지 확인합니다. |
 | **2** | 전원이 설정될 때 SoC는 칩세트 공급업체 키를 사용하여 ACM(Authenticated Code Module)(Intel 기반 디바이스)을 사용하여 마이크로코드 로드의 유효성을 검사하고 시작됩니다.                                                                              |
 | **3** | ACM은 로드하기 전에 UEFI 코드를 측정하고 TPM의 플랫폼 구성 레지스터[PCR]에서 알려진 측정값과 비교하여 UEFI 코드가 변경되지 않은지 확인합니다.                                                                |
@@ -116,25 +123,27 @@ DRTM은 TSME(Total System Memory Encryption)를 사용하여 측정을 암호화
 
 SMM(시스템 관리 모드)에 대한 런타임 호출은 가장 높은 수준에서 실행됩니다. SMM 코드에 문제가 있는 경우 위험할 수 있습니다. SURFACE LAPTOP 4에서는 SMI(시스템 관리 인터럽트)를 가로채 시스템을 보호하고 SMM 코드 실행을 더 낮은 수준(사용자)으로 디스패치하여 코드 및 데이터에 대한 잘못된 액세스로부터 시스템을 보호합니다. SMM 보호는 하드웨어 보호를 사용하여 액세스할 수 있는 코드, 데이터 및 시스템 리소스를 제한하여 부주의하거나 악의적인 인시던트에 대한 보호를 강화합니다.
 
-Surface Laptop 4에서 AMD Ryzen은 강력한 펌웨어 업데이트 지원 외에 [NIST 800-193](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf)플랫폼 펌웨어 복구 지침을 지원합니다. 부팅 펌웨어에 대한 복원력 업데이트 메커니즘은 부팅 시퀀스가 부팅 중에 펌웨어의 손상된 복사본을 감지하는 경우 펌웨어의 백업 복사본에 자동 복구를 제공하는 A-B 복구 메커니즘을 사용합니다.
+Surface Laptop 4에서 AMD Ryzen은 강력한 펌웨어 업데이트 지원 외에 [NIST 800-193 플랫폼](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf) 펌웨어 복구 지침을 지원합니다. 부팅 펌웨어에 대한 복원력 업데이트 메커니즘은 부팅 시퀀스가 부팅 중에 펌웨어의 손상된 복사본을 감지하는 경우 펌웨어의 백업 복사본에 자동 복구를 제공하는 A-B 복구 메커니즘을 사용합니다.
 
-DRTM 및 SMM에 대한 자세한 내용은 Windows Defender System Guard가 보안 및 보호를 Windows 10 - Windows [방법을 | Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
+DRTM 및 SMM에 대한 자세한 내용은 System Guard가 시스템 보호를 Windows Defender [방법을 Windows 10](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows).
 
 ## <a name="remote-device-management-control"></a>원격 장치 관리 제어
 
 IT 관리자는 모든 디바이스를 물리적으로 터치하지 않고도 Surface 디바이스를 원격으로 관리할 수 있습니다. Microsoft Endpoint Manager 및 Windows Autopilot을 사용하면 Azure 클라우드에서 Surface 디바이스를 완전히 원격으로 관리하여 시작할 때 완전히 구성된 디바이스를 사용자에게 제공합니다. 초기화 및 사용 중지 기능을 통해 IT는 새 원격 사용자에 대해 장치를 쉽게 재배포하고 도난당한 장치를 지우는 데 사용할 수 있습니다. 이를 통해 Surface 디바이스를 손실하거나 도난당하는 경우 신속하고 안전한 응답 기능을 통해 모든 회사 데이터를 원격으로 제거하고 Surface를 완전히 새로운 장치로 다시 구성할 수 있습니다.
 
-| 기능                                        | 설명                                                                                                                                                                                                                                                                                                                                                                                                        | 자세히 알아보기                                                                                                                                                                                                                                                              |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<br/>
+
+| 기능 | 설명 | 세부 정보 |
+| ------- | ----------- | ---------- |
 | DCFI(장치 펌웨어 구성 인터페이스) | 제로 터치 장치 프로비전을 통해 클라우드 규모의 원격 펌웨어 관리를 제공합니다. Microsoft의 자체 UEFI는 더 강력한 DCFI 구현을 허용하여 조직에서 하드웨어 요소를 사용하지 않도록 설정하고 Intune을 사용하여 UEFI를 원격으로 잠글 수 있도록 합니다. ¹                                                                                                                                                                          | [Surface UEFI 설정의 Intune 관리](surface-manage-dfci-guide.md)<br> <br>[Surface UEFI 설정 관리](manage-surface-uefi-settings.md)                                          |
 | SEMM(Surface Enterprise 관리 모드)      | 중앙 집중식 엔터프라이즈에서 UEFI 펌웨어 설정에 대한 중앙 집중식 연결(On-premises, hybrid 및 cloud environments)을 지원합니다.¹                                                                                                                                                                                                                                                                                           | [Surface Enterprise 관리 모드](surface-enterprise-management-mode.md)                                                                                                                                                       |
 | 비즈니스용 Windows 업데이트                    | IT 관리자는 이러한 시스템을 Windows 10 업데이트 서비스에 직접 연결하여 조직의 Windows 10 장치를 최신 보안 방어, Windows 기능 및 Surface 펌웨어로 항상 최신 Windows 있습니다. 그룹 정책 또는 MDM 솔루션(예: Microsoft Intune)을 사용하여 Surface 디바이스의 업데이트 방법과 Windows 제어하는 비즈니스용 업데이트 설정을 구성할 수 있습니다. | [비즈니스용 Windows 업데이트](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[Surface 드라이버 및 펌웨어 업데이트 관리 및 배포](manage-surface-driver-and-firmware-updates.md) |
 
 ## <a name="references"></a>참조
 
-1. Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+에서 사용할 수 있습니다. Surface Pro X를 Surface Pro. 
+1. Surface Go 및 Surface Go 2는 타사 UEFI를 사용하며 DFCI를 지원하지 않습니다. DFCI는 현재 Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 및 Surface Pro X입니다. 
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
 - [새 Surface PC를 사용하면 기본적으로 VBS(가상화 기반 보안)를 통해 고객이 더 많은 작업을 안전하게 할 수 있습니다.](https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/)
 - [Surface 펌웨어 보호의 중요한 역할을 강조하는 연구](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/study-highlights-critical-role-of-surface-firmware-protection/ba-p/2245244)
