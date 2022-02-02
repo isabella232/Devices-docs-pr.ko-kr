@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/26/2021
+ms.date: 01/11/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: c5cddde47b2046badf3f6deba5791b7642e044f3
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: ce2ceda9efb0462e987749a3167930825223945c
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11912033"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12337971"
 ---
 # <a name="surface-hub-2s-85-overview--tech-specs"></a>Surface Hub 2S 85" 개요 & 기술 사양
 
@@ -36,19 +36,21 @@ ms.locfileid: "11912033"
 |**배송 차원**| 89.5인치 x 62인치 x 22.8인치<br>(2275 x 1573 x 580mm)                                                                                                                                                                                                        |
 |**무게**| 185lbs(84kg)                                                                                                                                                                                                                                            |
 |**배송 가중치**| 399lbs(181kg)                                                                                                                                                                                                                                            |
-|**해결 방법**| 3840 x 2160                                                                                                                                                                                                                                               |
-|**Display**| PixelSense™ 디스플레이, 16:9 가로 세로 비율, 10비트 색, 30.5mm 테두리 너비, 앤티 글레이어, IPS한글씨, 동시 터치 20개가 있는 셀 내 터치                                                                                                           |
-|**컴퓨팅**| 모듈식 계산 계산 계산<br>쿼드 코어 8세대 Intel® Core™ i5 프로세서, 8GB RAM, 128GB SSD <sup> 1</sup>                                                                                                                                                      |
-|**소프트웨어 <sup> 2</sup>**| Windows 10 Team OS<br>Microsoft Teams 대한 Surface Hub<br>비즈니스용 Skype<br>Microsoft Whiteboard<br>Microsoft Office(모바일)<br>Microsoft Power BI                                                                                               |
-|**연결**| USB-A<br>Mini-DisplayPort 비디오 출력<br>RJ45 기가비트 이더넷<br>HDMI 비디오 입력<br>DisplayPort ® USB-C<br>(3) USB-C®(디스플레이)                                                                                                           |
+|**Display**| ™ PixelSense 디스플레이, 16:9 가로 세로 비율, 10비트 색, 30.5mm 테두리 너비, 앤티 글레이어, IPS한글씨, 동시 터치 20개가 있는 셀 내 터치                                                                                                           |
+|**해결 방법**| 3840 x 2160(4K UHD)                                                                                                                                                                                                                                              |
+|**명암비**| 1000:1(일반), 800:1(최소) |
+|**Brightness**| 280 nits(일반)|
+|**컴퓨팅**| 모듈식 계산 계산 계산<br>쿼드 코어 8세대 Intel® Core™ i5 프로세서, 8GB RAM, 128GB SSD1<sup></sup>                                                                                                                                                      |
+|**Software2<sup></sup>**| Windows 10 Team OS<br>Microsoft Teams 대한 Surface Hub<br>비즈니스용 Skype<br>Microsoft Whiteboard<br>Microsoft Office(모바일)<br>Microsoft Power BI                                                                                               |
+|**연결**| USB-A<br>Mini-DisplayPort 비디오 출력<br>RJ45 기가비트 이더넷<br>HDMI 비디오 입력<br>DisplayPort 입력이 있는 USB-C®<br>(3) USB-C®(디스플레이)                                                                                                           |
 |**그래픽**| Intel® UHD 그래픽 620                                                                                                                                                                                                                                   |
 |**오디오/비디오**| 100Hz - (2) 중/고 범위 및 (1) 후면 범프의 중간/저 범위를 포함하여 12KHz 범위 3웨이 스테레오 스피커. <br>전체 밴드 8 요소 MEMS 마이크 배열<br>Microsoft Surface Hub 2 카메라, 4K, USB-C® 연결, 90도 HFOV |
 |**펜**| Microsoft Surface Hub 2 펜(활성)<br>Surface Pen 호환                                                                                                                                                                                       |
-|**센서**| Doppler 점유 센서 <sup> 3</sup>                                                                                                                                                                                                                                 |
-|**무선**| Wi-Fi 5: IEEE 802.11 a/b/g/n/ac 호환<br>Bluetooth® 5.0 기술<br>Miracast 디스플레이                                                                                                                                                      |
+|**센서**| Doppler 점유 센서<sup>3</sup>                                                                                                                                                                                                                                 |
+|**무선**| Wi-Fi 5: IEEE 802.11 a/b/g/n/ac 호환<br>® Bluetooth 5.0 기술<br>Miracast 디스플레이                                                                                                                                                      |
 |**외부**| 대/소문자: 합성 합성을 사용하여 정밀한 기계 처리 처리<br>색: Platinum<br>물리적 단추: 전원, 볼륨, 소스                                                                                                                            |
 |**상자에 있는 것**| (1) Surface Hub 2S<br>(2) Surface Hub 2 펜<br>(1) Surface Hub 2 카메라<br>4m AC 전원 케이블<br>빠른 시작 가이드                                                                                                                                         |
-|**보증**| 1년 제한 하드웨어 보증 <sup> 4</sup>                                                                                                                                                                                                                          |
+|**보증**| 1년 제한 하드웨어 보증<sup>4</sup>                                                                                                                                                                                                                          |
 |**BTU**| 2047 BTU/hr |
 |**입력 입력 입력**| 50/60Hz 110/230v 명명, 90-265v 최대 |
 |**입력 전원, 작동**| 665 W(745 W 대리 로드) |
@@ -68,6 +70,6 @@ ms.locfileid: "11912033"
 3. 홍콩, 인도, 쿠웨이트 및 오만에서는 도플러 센서를 사용할 수 없습니다.
 4. Microsoft의 제한된 보증은 소비자 법률 권리 외에 추가됩니다. 
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
 - [Surface Hub 2S 85" - 대규모 공동 작업](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-85-quot-collaboration-at-a-massive-scale/ba-p/1669717)

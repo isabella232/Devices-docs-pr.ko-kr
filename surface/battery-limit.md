@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 manager: laurawi
 audience: itpro
 ms.date: 1/15/2021
-ms.openlocfilehash: 52e43a1ac14f89f5671b6fad8fc2e1ef49480470
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 9cf623a9a4b9d1a8d292cfa0cff25d2e57318db7
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911843"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338331"
 ---
 # <a name="battery-limit-setting"></a>배터리 제한 설정
 
@@ -30,23 +30,33 @@ ms.locfileid: "11911843"
 
 ## <a name="supported-devices"></a>지원되는 디바이스
 
-배터리 제한 UEFI 설정은 Surface Pro 7+, Surface Pro 7, Surface Laptop 3을 비롯한 최신 Surface 디바이스에 기본으로 사용됩니다. 이전 장치에는 [Surface UEFI](manage-surface-driver-and-firmware-updates.md)펌웨어 업데이트가 필요하며, Windows 업데이트 또는 Surface 지원 사이트의 MSI 드라이버 및 펌웨어 패키지를 통해 사용할 [수 있습니다.](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware-for-surface) 지원되는 각 장치에 필요한 특정 Surface UEFI 버전에 대해 장시간 연결해야 하는 Surface 디바이스에 대해 ["배터리 제한"](https://support.microsoft.com/help/4464941) 사용을 확인합니다.
+배터리 제한 UEFI 설정은 기본적으로 다음을 포함하여 Surface 장치에 기본 제공됩니다. 
+
+- Surface Pro 7 이상
+- Surface Laptop 3 이상
+- Surface Book 3
+- Surface Laptop Studio
+- Surface Laptop 이동
+- Surface Studio 2
+- Surface Laptop SE
+
+ 이전 디바이스에는 [surface UEFI](manage-surface-driver-and-firmware-updates.md) 펌웨어 업데이트가 필요하며, Windows 업데이트 또는 Surface 지원 사이트의 MSI 드라이버 및 펌웨어 패키지를 통해 사용할 [수 있습니다](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware-for-surface). 지원 [되는 각 장치에 필요한 특정 Surface](https://support.microsoft.com/help/4464941) UEFI 버전에 대해 장시간 연결해야 하는 Surface 디바이스에 대해 "배터리 제한" 사용을 확인합니다.
 
 ## <a name="enabling-battery-limit-in-surface-uefi-surface-pro-4-and-later"></a>Surface UEFI(Surface Pro 4 이상에서 배터리 제한 사용)
 
-Surface UEFI 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다( 디바이스를 켜면**Power + Vol Up).** 부팅 **구성 을**선택한 다음 고급 **옵션**에서 배터리 **제한** 모드 사용을 으로 **전환합니다.**  
+Surface UEFI 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다(디바이스를 켜면 **전원 + Vol Up** ). 부팅 **구성을 선택한** 다음 고급 옵션에서 ******배터리 제한 모드** 사용을 설정으로 전환**합니다**.  
 
 ![배터리 제한 고급 옵션.](images/enable-bl.png)
 
-## <a name="enabling-battery-limit-on-surface-go-and-surface-go-2"></a>Surface Go 및 Surface Go 2에서 배터리 제한 사용
+## <a name="enabling-battery-limit-on-surface-go-all-generations"></a>Surface Go에서 배터리 제한 사용(모든 세대)
 
-Surface 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다(디바이스를 켜면**전원 + Vol Up).** 부팅 **구성 을**선택하고 **키오스크**모드에서 슬라이더를 오른쪽으로 이동하여 배터리 제한을 사용으로 **설정합니다.**  
+Surface 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다(디바이스를 켜면 **전원 + Vol Up** ). 부팅 **구성을 선택한** 다음 키오스크 **** 모드에서 슬라이더를 오른쪽으로 이동하여 배터리 제한을 사용으로 **설정합니다**.  
 
 ![Surface Go의 키오스크 모드 배터리 제한.](images/go-batterylimit.png)
 
 ## <a name="enabling-battery-limit-in-surface-uefi-surface-pro-3"></a>Surface UEFI에서 배터리 제한 사용(Surface Pro 3)
 
-Surface UEFI 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다( 디바이스를 켜면**Power + Vol Up).** **키오스크 모드를 선택하고**배터리 제한을 선택한 다음 사용 을 **선택합니다.** ****
+Surface UEFI 배터리 제한 설정은 Surface UEFI로 부팅하여 구성할 수 있습니다(디바이스를 켜면 **전원 + Vol Up** ). 키 **오스크 모드를 선택하고** **배터리 제한을** 선택한 다음 사용 을 **선택합니다**.
 
 ![고급 옵션의 스크린샷.](images/enable-bl-sp3.png)
 
@@ -58,11 +68,11 @@ Surface UEFI 배터리 제한은 다음 방법을 통해 구성에도 사용할 
 
 - Surface Pro 4 이상
   - [Microsoft Surface UEFI 구성기](surface-enterprise-management-mode.md)  
-    - IT용 Surface 도구 다운로드의 Surface UEFI 관리자 Powershell [SEMM_Powershell.zip(Surface UEFI 관리자](https://www.microsoft.com/download/details.aspx?id=46703) Powershell 스크립트)
+    - [IT용 Surface](https://www.microsoft.com/download/details.aspx?id=46703) 도구 다운로드의 Surface UEFI 관리자 powershell 스크립트(SEMM_Powershell.zip)
 
 ### <a name="using-microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기 사용
 
-배터리 제한 모드를 구성하려면 SEMM(설정 이상)의 **** 고급 설정 페이지에서 키오스크 Surface Pro 4 설정을 설정하세요. ****
+배터리 제한 모드를 구성하려면 SEMM(**** 설정 이상)의 고급 설정 페이지에서 키오스크 Surface Pro 4 **** 설정하세요.
 
 ![고급 설정 스크린샷.](images/semm-bl.png)
 
@@ -72,8 +82,8 @@ Surface UEFI 배터리 제한은 다음 방법을 통해 구성에도 사용할 
 
 `407 = Battery Profile`
 
-**설명:** 배터리 사용 패턴에 대한 활성 관리 체계
+**설명**: 배터리 사용 패턴에 대한 활성 관리 체계
 
 **기본값**:  `0`
 
-배터리 `1` 제한을 사용하도록 설정하려면 이 설정을 설정하십시오.
+배터리 제한을 `1` 사용하도록 설정하려면 이 설정을 설정하십시오.

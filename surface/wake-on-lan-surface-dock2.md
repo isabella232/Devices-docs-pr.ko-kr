@@ -13,13 +13,13 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
-ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 11/30/2021
+ms.openlocfilehash: 09982dff2e44ffc2ebe9b890588e5a62a3259cf5
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911613"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338491"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>Surface Dock 2를 사용한 Wake On LAN
 
@@ -40,12 +40,14 @@ ms.locfileid: "11911613"
 - Surface Laptop 4(Intel 프로세서)
 - Surface Laptop 4(AMD 프로세서)
 - Surface Laptop 3(Intel 프로세서)
+- Surface Pro 8
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
-- Surface Go 2
+- Surface Go(모든 세대)
 - Surface Laptop 이동
 - Surface Book 3
+- Surface Laptop Studio
 
 Surface Dock 2는 다음과 같은 전원 상태의 장치에 대해 WOL 지원을 제공합니다.
 
@@ -53,7 +55,7 @@ Surface Dock 2는 다음과 같은 전원 상태의 장치에 대해 WOL 지원�
 - 최대전력(S4 전원 상태)
 - 종료(S5 "소프트오프" 전원 상태)
 
-전원 상태에 대한 자세한 내용은 [시스템 전원 상태 를 참조합니다.](/windows/win32/power/system-power-states)
+전원 상태에 대한 자세한 내용은 [시스템 전원 상태를 참조합니다](/windows/win32/power/system-power-states).
 
 ## <a name="how-it-works"></a>작동 방식
 
@@ -63,7 +65,7 @@ Surface Dock 2가 없는 장치에서 WOL을 사용하도록 설정하려면 다
 
 - [Surface 디바이스용 LAN 절전 모드 해제](wake-on-lan-for-surface-devices.md)
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [Surface Configuration Manager에 대한 Wake On LAN](wake-on-lan-for-surface-devices.md)
