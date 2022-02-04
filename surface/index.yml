@@ -29,12 +29,12 @@ conceptualContent:
   items:
     - title: Surface 개요
       links:
+        - url: /surface/surface-laptop-se-overview
+          itemType: concept
+          text: 교육용 Surface Laptop SE
         - url: 'https://www.microsoft.com/surface/business/surface-pro-8'
           itemType: concept
           text: 비즈니스용 Surface Pro 8
-        - url: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
-          itemType: concept
-          text: 비즈니스용 Surface Laptop Studio
         - url: 'https://www.microsoft.com/surface/business'
           itemType: concept
           text: 모든 Surface 제품군 제품 살펴보기
