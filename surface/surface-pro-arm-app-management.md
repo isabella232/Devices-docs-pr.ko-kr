@@ -1,6 +1,6 @@
 ---
-title: Surface Pro X 배포, 관리 및 서비스
-description: 이 문서에서는 Surface Pro X의 배포, 관리 및 서비스에 대한 주요 고려 사항에 대한 개요를 제공합니다.
+title: 'Surface Pro X 배포, 관리 및 서비스'
+description: '이 문서에서는 Surface Pro X의 배포, 관리 및 서비스에 대한 주요 고려 사항에 대한 개요를 제공합니다.'
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: high
@@ -8,16 +8,10 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: f0fed17dade345bf3f7dc9619eab7981dcb30cb0
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721278"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>Surface Pro X 배포, 관리 및 서비스
 
@@ -42,7 +36,7 @@ Autopilot 배포에는 다음과 같은 몇 가지 장점이 있습니다. 공�
 
 ## <a name="image-based-deployment-considerations"></a>이미지 기반 배포 고려 사항
 
-Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager(이전의 System Center Configuration Manager)는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7+을 고려하는 동시에 최신 배포 솔루션으로 전환할 적절한 시기를 계속 고려해야 합니다. 
+Microsoft Deployment Toolkit(MDT) 및 Microsoft Endpoint Configuration Manager(이전의 System Center Configuration Manager)는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 8을 고려하는 동시에 최신 배포 솔루션으로 전환할 적절한 시기를 계속 고려해야 합니다. 
 
 ## <a name="managing-surface-pro-x-devices"></a>Surface Pro X 디바이스 관리
 
@@ -180,7 +174,7 @@ Windows Virtual Desktop을 사용하면 모든 위치에서 모든 컴퓨팅 디
 
 ### <a name="can-i-deploy-surface-pro-x-with-mdt-or-endpoint-configuration-manager"></a>MDT 또는 Endpoint Configuration Manager로 Surface Pro X를 배포할 수 있습니까?
 
-MDT(Microsoft 배포 도구 키트) 및 Microsoft Endpoint Configuration Manager는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 7+을 고려하는 동시에 클라우드로 전환할 적절한 시기를 계속 평가해야 합니다.
+MDT(Microsoft 배포 도구 키트) 및 Microsoft Endpoint Configuration Manager는 현재 운영 체제 배포를 위해 Surface Pro X를 지원하지 않습니다. 이미지 기반 배포에 의존하는 고객은 Surface Pro 8을 고려하는 동시에 클라우드로 전환할 적절한 시기를 계속 평가해야 합니다.
 
 ### <a name="how-can-i-deploy-surface-pro-x"></a>Surface Pro X를 배포하는 방법은 무엇입니까?
 
