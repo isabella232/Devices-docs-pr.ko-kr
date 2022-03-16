@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: 3a17f30419027ea10c8e27c9221eec1926226234
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+ms.openlocfilehash: a5556181b6d7642933bcb10c3073ffddc494015f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338447"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449131"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
@@ -31,6 +31,19 @@ Windows 10은 서비스로 설계되었으므로 정기적인 소프트웨어 �
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
 
 <details>
+<summary>2022년 2월 15일 — KB5010415* 기반 팀 업데이트(OS 빌드 19042.1566)</summary>
+
+ Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. Surface Hub에 대한 주요 업데이트는 [Windows 10 Team 2020 업데이트 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2)에 요약되어 있으며 다음과 같은 기능도 포함되어 있습니다.
+
+* 장치 계정을 설정하는 동안 Exchange 서비스를 사용하지 않도록 설정할 수 있는 수정 사항입니다.
+* 온-프레미스 Exchange 사서함을 사용할 때 일부 장치 계정 설정 시나리오의 안정성이 개선되었습니다.
+* SurfaceHub CSP를 사용할 때 일부 MDM 정책 설정 시나리오의 안정성을 개선합니다.
+* 비즈니스용 Skype를 사용할 때 들어오는 통화 시나리오의 안정성을 개선합니다.
+
+장치 기능 및 서비스 활성화/비활성화에 대한 내용은 [Surface Hub 관리자 가이드](/surface-hub/)를 참조하세요. *[KB5010415](https://support.microsoft.com/help/5010415)
+</details>
+
+<details>
 <summary>2022년 1월 25일 — KB5009596* 기반의 Team 업데이트(OS 빌드 19042.1503)</summary>
 
 Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 설명되어 있지 않은 Surface Hub 주요 업데이트는 다음을 포함합니다.
@@ -44,7 +57,18 @@ Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항
 </details>
 
 <details>
-<summary>2021년 11월 22일 — KB5007253* 기반의 Team 업데이트(OS 빌드 19042.1382)</summary>
+<summary>2022년 1월 21일 — Surface Hub 2S용 업데이트</summary>
+
+이 업데이트는 Surface Hub 2S에만 적용되며 아래에 설명된 드라이버 및 펌웨어 업데이트를 제공합니다.
+
+* Surface UEFI 업데이트 - 694.3924.768.0
+  * 시스템 보안과 안정성을 개선합니다.
+* Intel(R) 관리 엔진 인터페이스 드라이버 - 2120.100.0.1085
+  * 시스템 보안과 안정성을 개선합니다.
+</details>
+
+<details>
+<summary>2021년 11월 22일 — KB5007253* 기반의 Team 업데이트(OS 빌드 19042.1387)</summary>
 
 Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 설명되어 있지 않은 Surface Hub 주요 업데이트는 다음을 포함합니다.
 
@@ -76,7 +100,7 @@ Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항
 <details>
 <summary>2021년 9월 1일 — KB5005101* 기반의 Team 업데이트(OS 빌드 19042.1202)</summary>
 
-Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. Surface Hub에 대한 주요 업데이트는 [Windows 10 Team 2020 업데이트 1](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)에 요약되어 있으며 다음과 같은 기능도 포함되어 있습니다.
+Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. Surface Hub에 대한 주요 업데이트는 [Windows 10 Team 2020 업데이트 1](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-1)에 요약되어 있으며 다음과 같은 기능도 포함되어 있습니다.
 
 * 온-프레미스 Exchange 사서함을 사용할 때 일부 장치 계정 설정 시나리오의 안정성이 개선되었습니다.
 
