@@ -11,12 +11,15 @@ ms.topic: article
 ms.reviewer: carlol
 ms.date: 06/29/2021
 manager: laurawi
-ms.openlocfilehash: b130f6b0bf52dc1c3a28231a2330cae51a5ef44a
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 3b6525c979160d6f732e330086565c3de6f73cbd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643834"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449151"
 ---
 # <a name="surface-asset-tag-tool"></a>Surface 자산 태그 도구
 
@@ -32,10 +35,10 @@ Surface 자산 태그는 Surface 디바이스에 할당된 자산 태그 값을 
 
 Surface 자산 태그를 실행합니다.
 
-1. Surface 디바이스에서 Microsoft Tag.zip센터에서 Surface [](https://www.microsoft.com/download/details.aspx?id=46703) **Asset Tag.zip** 다운로드하고 zip 파일을 추출한 다음 원하는 폴더(이 예에서는 C:\\assets)에 AssetTag.exe 파일을 저장합니다.
+1. Surface 디바이스에서 Microsoft Tag.zip센터에서 **Surface Asset Tag.zip** 다운로드하고 zip 파일을 [](https://www.microsoft.com/download/details.aspx?id=46703)추출한 다음 원하는 폴더(이 예에서는 C:\\assets)에 AssetTag.exe 파일을 저장합니다.
 
     > [!NOTE]
-    > X Surface Pro ZIP 파일의 AssetTag_x86 **응용** 프로그램을 사용 합니다.
+    > X Surface Pro ZIP 파일에 **AssetTag_x86 응용 프로그램을** 사용 합니다.
 
 2. 관리자 권한으로 명령 콘솔을 열고 AssetTag.exe 전체 경로를 입력합니다.
 
@@ -48,19 +51,19 @@ Surface 자산 태그를 실행합니다.
 
 다음 예제에서는 AssetTag.exe(C:\assets)의 디렉터리에 저장됩니다.
 
-제안된 자산 태그를 얻기 위해 **AssetTag -g :**
+제안된 자산 태그를 얻기 위해 **AssetTag -g를 실행합니다**.
 
 ```console
 C:\assets\AssetTag.exe -g
 ```
 
-제안된 자산 태그를 지우기 위해 **AssetTag -s를 실행합니다.**
+제안된 자산 태그를 지우기 위해 **AssetTag -s를 실행합니다**.
 
 ```console
 C:\assets\AssetTag.exe -s
 ```
 
-제안된 자산 태그를 설정하기 위해 **AssetTag -s testassettag12를 실행합니다.**
+제안된 자산 태그를 설정하기 위해 **AssetTag -s testassettag12를 실행합니다**.
 
 ```
 C:\assets\AssetTag.exe -s testassettag12
@@ -71,7 +74,7 @@ C:\assets\AssetTag.exe -s testassettag12
 
 ## <a name="managing-asset-tags"></a>자산 태그 관리
 
-UEFI 설정의 장치 정보(제어판 > 복구 또는 고급 시작 시작 > 지금 다시 시작)의 UEFI**설정에서 기존 자산 태그를 > 수 있습니다.**
+UEFI 설정의 장치 정보(제어판 > 복구 및 고급 시작 > 지금 다시 시작)의 UEFI **설정에서 기존 자산 태그를 > 있습니다**.
 
 아래 그림은 Surface Go에서 자산 태그 도구를 실행한 결과를 보여줍니다.
 

@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/23/2021
+ms.date: 02/15/2022
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
-ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
+ms.openlocfilehash: 6963a51b492bfbdc09da5ec667d091d62eed4569
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "12094461"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449241"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>운영 체제 필수 항목(Surface Hub)
 
@@ -24,7 +24,7 @@ Surface Hub 운영 체제인 Windows 10 Team은 Windows 10 Enterprise를 기반�
 
 2020년 9월부터 고객은 2S에서 Windows 10 Pro 또는 Enterprise Surface Hub 있습니다. 자세한 내용은 다음을 참조하세요.
 
-- [2 에서 Windows 10 Pro 및](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)Enterprise Surface Hub 발표
+- [2부에서 Windows 10 Pro 및 Enterprise 가용성을 Surface Hub 발표합니다](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
 
 - [Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션](surface-hub-2s-migrate-os.md)
 
@@ -111,7 +111,7 @@ Surface Hub에 미리 설치된 UWP 앱:
 
 ## <a name="security-and-lockdown"></a>보안 및 잠금
 
-회의실 등의 공용 공간에서 Surface Hub를 사용하기 위해 해당 사용자 지정 OS는 Windows 10에서 사용할 수 있는 많은 보안 및 잠금 기능을 구현합니다. 자세한 내용은 보안 [개요를 Surface Hub 참조하세요.](surface-hub-security.md)
+회의실 등의 공용 공간에서 Surface Hub를 사용하기 위해 해당 사용자 지정 OS는 Windows 10에서 사용할 수 있는 많은 보안 및 잠금 기능을 구현합니다. 자세한 내용은 보안 개요 Surface Hub [참조하세요.](surface-hub-security.md)
 
 Surface Hub에서 구현하는 Windows 10 보안 기능은 다음과 같습니다.
 
@@ -147,11 +147,22 @@ Surface Hub에서 구현하는 Windows 10 보안 기능은 다음과 같습니�
 
 ### <a name="administrative-features"></a>관리 기능
 
-Microsoft Management Console, 실행, 명령 프롬프트, PowerShell, 레지스트리 편집기, 이벤트 뷰어, 작업 관리자 등의 Windows 10 Enterprise 관리 기능은 Surface Hub에서 지원되지 않습니다. 설정 앱에는 Surface Hub에서 로컬로 사용할 수 있는 모든 관리 기능이 포함되어 있습니다.
+Microsoft 관리 콘솔, Windows 10 Enterprise, 명령 프롬프트, PowerShell, 레지스트리 편집기 및 작업 관리자와 같은 관리 기능은 관리 콘솔에서 지원되지 Surface Hub. 설정 앱에는 Surface Hub에서 로컬로 사용할 수 있는 모든 관리 기능이 포함되어 있습니다.
+
+#### <a name="event-viewer"></a>이벤트 뷰어
+
+Windows 10 Team 2020 업데이트 2에서는 Windows 이벤트 뷰어에 대한 지원이 추가되었습니다. 이는 Windows 10 Pro 또는 업데이트에 설치된 이벤트 뷰어와 [](/host-integration-server/core/windows-event-viewer1) Windows 10 Enterprise. 
+
+**이벤트 뷰어를 열기 위해**
+
+1. 관리자 자격 **증명으로** 설정 앱에 로그인합니다.
+2. **SecurityLog** **& 업데이트를** >  선택하고 이벤트 뷰어에서 열기 를 **선택합니다**. 
+
+자세한 내용은 이벤트 [뷰어 Windows 참조합니다](/host-integration-server/core/windows-event-viewer1).
 
 ### <a name="remote-management-and-monitoring"></a>원격 관리 및 모니터링
 
-Surface Hub Azure Monitor를 통한 원격 관리 및 모니터링과 같은 [MDM(모바일 Microsoft Intune](/mem/intune/) 관리) 솔루션을 통한 원격 관리를 [지원합니다.](/azure/azure-monitor/) 
+Surface Hub Azure Monitor를 통한 원격 관리 및 모니터링과 같은 MDM[(모바일 장치](/mem/intune/) 관리) Microsoft Intune 원격 [관리를 지원합니다](/azure/azure-monitor/). 
 
 *이러한 차이가 영향을 줄 수 있는 조직 정책:* 
 

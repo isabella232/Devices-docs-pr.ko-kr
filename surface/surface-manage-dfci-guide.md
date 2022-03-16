@@ -12,12 +12,15 @@ ms.date: 10/01/2021
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: cedb4584952d5852efde3ea7644976e7bc6573e1
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: c4a39c094c0621ed491ab04148f0c8338771a6a6
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337991"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448601"
 ---
 # <a name="manage-dfci-on-surface-devices"></a>Surface 장치에서 DFCI 관리
 
@@ -27,19 +30,19 @@ ms.locfileid: "12337991"
 
 ### <a name="background"></a>Background
 
-Surface Windows 10 실행하는 컴퓨터와 마찬가지로 Surface 디바이스는 CPU가 하드 드라이브, 디스플레이 장치, USB 포트 및 기타 장치와 인터페이스할 수 있도록 SoC에 저장된 코드를 사용합니다. 이 읽기 전용 메모리(ROM)에 저장된 프로그램을 펌웨어라고 합니다(동적 미디어에 저장된 프로그램을 소프트웨어라고도 합니다).
+Windows 10 또는 Windows 11 실행하는 컴퓨터와 마찬가지로 Surface 디바이스는 CPU가 하드 드라이브, 디스플레이 장치, USB 포트 및 기타 장치와 인터페이스할 수 있도록 하는 SoC에 저장된 코드를 사용합니다. 이 읽기 전용 메모리(ROM)에 저장된 프로그램을 펌웨어라고 합니다(동적 미디어에 저장된 프로그램을 소프트웨어라고도 합니다).
 
-현재 시장에 출시된 다른 Windows 10 디바이스와 달리 Surface는 IT 관리자에게 다양한 UEFI 구성 설정 집합을 통해 펌웨어를 구성하고 관리하는 기능을 제공합니다. MDM(모바일 장치 관리) 정책, Configuration Manager 또는 그룹 정책을 통해 구현되는 소프트웨어 기반 정책 관리 위에 하드웨어 제어 계층을 제공합니다. 예를 들어 중요한 정보가 있는 높은 보안 영역에 장치를 배포하는 조직은 하드웨어 수준에서 기능을 제거하여 카메라 사용을 방지할 수 있습니다. 장치 관점에서 펌웨어 설정을 통해 카메라를 끄는 것은 카메라를 물리적으로 제거하는 데 해당합니다. 펌웨어 수준에서 추가된 관리 보안을 운영 체제 소프트웨어 설정에만 적용하는지 비교합니다. 예를 들어 도메인 환경에서 정책 설정을 통해 Windows 오디오 서비스를 사용하지 않도록 설정하면 로컬 관리자가 서비스를 다시 사용하도록 설정할 수 있습니다.
+현재 시장에서 사용할 수 있는 다른 Windows 디바이스와 달리 Surface는 IT 관리자에게 다양한 UEFI 구성 설정 집합을 통해 펌웨어를 구성하고 관리하는 기능을 제공합니다. MDM(모바일 장치 관리) 정책, Configuration Manager 또는 그룹 정책을 통해 구현되는 소프트웨어 기반 정책 관리 위에 하드웨어 제어 계층을 제공합니다. 예를 들어 중요한 정보가 있는 높은 보안 영역에 장치를 배포하는 조직은 하드웨어 수준에서 기능을 제거하여 카메라 사용을 방지할 수 있습니다. 장치 관점에서 펌웨어 설정을 통해 카메라를 끄는 것은 카메라를 물리적으로 제거하는 데 해당합니다. 펌웨어 수준에서 추가된 관리 보안을 운영 체제 소프트웨어 설정에만 적용하는지 비교합니다. 예를 들어 도메인 환경에서 정책 설정을 통해 Windows 오디오 서비스를 사용하지 않도록 설정하면 로컬 관리자가 서비스를 다시 사용하도록 설정할 수 있습니다.
 
 ### <a name="dfci-versus-semm"></a>DFCI 및 SEMM
 
 이전에 펌웨어를 관리하려면 수동 IT를 많이 사용하는 작업의 오버헤드를 Enterprise Surface Enterprise 관리 모드에 장치를 등록해야 합니다. 예를 들어 SEMM을 사용하려면 IT 직원이 인증서 관리 프로세스의 일부로 2자리 핀을 입력하기 위해 각 PC에 물리적으로 액세스해야 합니다. SEMM은 엄격하게 온-프레미스 환경의 조직에 좋은 솔루션으로 유지되어도 복잡성과 IT를 많이 사용하는 요구 사항으로 인해 비용이 많이 드는 것입니다.
 
-Microsoft Intune 통합된 UEFI 펌웨어 관리 기능을 사용하면 하드웨어를 잠그는 기능이 간소화되고 프로비저닝, 보안 및 단일 콘솔의 모든 업데이트가 간소화되어 이제는 통합된 새로운 기능과 함께 사용하기 [Microsoft Endpoint Manager.](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager) 다음 그림에서는 디바이스(왼쪽)에서 직접 보고 Endpoint Manager 콘솔(오른쪽)에서 UEFI 설정을 보여줍니다.
+Microsoft Intune 통합된 UEFI 펌웨어 관리 기능을 사용하면 하드웨어를 잠그는 기능이 간소화되고 프로비저닝, 보안에 대한 새로운 기능 및 단일 콘솔에서 통합된 간소화된 업데이트에 더 쉽게 사용할 수 [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). 다음 그림에서는 디바이스(왼쪽)에서 직접 보고 Endpoint Manager 콘솔(오른쪽)에 표시되어 있습니다.
 
 :::image type="content" alt-text="UEFI 설정은 디바이스(왼쪽) 및 Endpoint Manager 콘솔(오른쪽)에 표시됩니다." source="images/uefidfci.png" lightbox="images/uefidfci.png":::
 
-중요하게 DFCI는 제로 터치 관리를 가능하게 하여 IT 관리자가 수동으로 상호 작용할 필요가 없습니다. DFCI는 Intune의 장치 Windows 기능을 사용하여 Autopilot을 통해 배포됩니다. 장치 프로필을 사용하면 조직 내의 관리에 등록된 장치에 배포할 수 있는 설정을 추가하고 구성할 수 있습니다. 디바이스가 장치 프로필을 받으면 기능 및 설정이 자동으로 적용됩니다. 일반적인 장치 프로필의 예로는 전자 메일, 장치 제한, VPN, Wi-Fi 및 관리 템플릿이 있습니다. DFCI는 단순히 사내 인프라를 유지 관리하지 않고도 클라우드에서 UEFI 구성 설정을 관리할 수 있는 추가 장치 프로필입니다.  
+중요하게 DFCI는 제로 터치 관리를 가능하게 하여 IT 관리자가 수동으로 상호 작용할 필요가 없습니다. DFCI는 Intune의 장치 프로필 기능을 Windows Autopilot을 통해 배포됩니다. 장치 프로필을 사용하면 조직 내의 관리에 등록된 장치에 배포할 수 있는 설정을 추가하고 구성할 수 있습니다. 디바이스가 장치 프로필을 받으면 기능 및 설정이 자동으로 적용됩니다. 일반적인 장치 프로필의 예로는 전자 메일, 장치 제한, VPN, Wi-Fi 및 관리 템플릿이 있습니다. DFCI는 단순히 사내 인프라를 유지 관리하지 않고도 클라우드에서 UEFI 구성 설정을 관리할 수 있는 추가 장치 프로필입니다.  
 
 ## <a name="supported-devices"></a>지원되는 디바이스
 
@@ -49,13 +52,13 @@ DFCI는 다음 장치에서 지원됩니다.
 - Surface Laptop Studio(상업용 SKUS만 해당)
 - Surface Pro 8(상업용 SUS만 해당)
 - Surface Go 3(상업용 SKUS만 해당)
-- Surface Pro 7+(상업용 SKUS만 해당)
+- Surface Pro 7+(상업용 SUS만 해당)
 - Surface Pro 7(모든 SKUS)
-- Surface Pro X(모든 SKUS)
-- Surface Laptop 4(상업용 SUS만 해당)
+- Surface Pro X(모든 SUS)
+- Surface Laptop 4(상업용 SKUS만 해당)
 - Surface Laptop 3(Intel 프로세서만 해당)
 - Surface Book 3
-- Surface Laptop 이동
+- Surface Laptop Go
 
 
 >[!TIP]
@@ -66,9 +69,9 @@ DFCI는 다음 장치에서 지원됩니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-- 디바이스는 [CSP](https://partner.microsoft.com/membership/cloud-solution-provider)(Windows OEM 배포자)Microsoft 클라우드 솔루션 공급자 Autopilot에 등록해야 합니다.
+- 디바이스는 [CSP](https://partner.microsoft.com/membership/cloud-solution-provider)(Windows OEM 배포자)에 Microsoft 클라우드 솔루션 공급자 Autopilot에 등록해야 합니다.
 
-- Surface에 대해 DFCI를 구성하기 전에 Azure AD(Microsoft Intune 및 Azure Active Directory)의 Autopilot 구성 요구 [사항에 익숙](/azure/active-directory/)해야 합니다.[](/intune/)
+- Surface에 대해 DFCI를 구성하기 전에 Azure AD(Microsoft Intune 및 Azure Active Directory)의 Autopilot 구성 요구 사항을 잘 알고 [Azure Active Directory](/azure/active-directory/) 합니다.[](/intune/)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -100,7 +103,7 @@ DFCI 정책 설정을 구성하기 전에 먼저 DFCI 프로필을 만들어 대
 
 ## <a name="create-autopilot-profile"></a>Autopilot 프로필 만들기
 
-1. 등록 Endpoint Manager devicemanagement.microsoft.com 장치를 선택하고 > Windows 아래로 **스크롤합니다**.****
+1. 등록 Endpoint Manager devicemanagement.microsoft.com 등록할 장치를 > Windows 배포 프로필로 스크롤 **** **합니다**.
 
 2. 프로필 **만들기를 선택하고** 이름을 입력합니다. 예를 들어 **내 Autopilot 프로필과** 다음을 **선택합니다**.
 
@@ -130,7 +133,7 @@ DFCI에는 하드웨어 수준에서 장치를 잠가 추가 수준의 보안을
 
 아래 그림에 표시된 Endpoint Manager DFCI 프로필을 편집하여 DFCI 정책 설정을 구성합니다. 
 
-- 이 Endpoint Manager devicemanagement.microsoft.com 속성 > Windows > "**DFCI** 프로필 이름> 구성 프로필 > 선택합니다> 설정.
+- 이 Endpoint Manager 에서 Devicemanagement.microsoft.com 속성 > Windows > "**DFCI** 프로필 이름> 구성 프로필 > 선택합니다> 설정.
 
   :::image type="content" alt-text="DFCI 설정을 구성합니다." source="images/dfciconfig.png" lightbox="images/dfciconfig.png":::
 
@@ -147,10 +150,10 @@ DFCI에는 하드웨어 수준에서 장치를 잠가 추가 수준의 보안을
 | 카메라를 사용하지 않도록 설정                               | 기본 **제공 하드웨어 > 카메라에서** 사용 **안 을 선택합니다**.                                       |
 | 마이크 및 스피커를 사용하지 않도록 설정              | Built **in Hardware > Microphones and speakers**에서 **Disabled를 선택합니다**.                      |
 | 무선(Bluetooth, Wi-Fi)을 사용하지 않도록 설정             | Built **in Hardware > Radios (Bluetooth, Wi-Fi, etc...)** 에서 **사용 안 를 선택합니다**.                   |
-| 외부 미디어(USB, SD)에서 부팅을 사용하지 않도록 설정    | 기본 **제공 하드웨어 > 부팅 옵션에서 >(USB, SD)에서** 부팅 사용 안 **을 선택합니다**. |
+| 외부 미디어(USB, SD)에서 부팅을 사용하지 않도록 설정    | 기본 **제공 하드웨어 > 부팅 옵션에서 >(USB, SD)에서** 사용 안 **을 선택합니다**. |
 
 > [!CAUTION]
-> 무선 **송수신 장치(Bluetooth Wi-Fi)** 설정은 유선 이더넷 연결이 있는 디바이스에서만 사용 가능합니다.
+> 무선 **송수신 장치(Bluetooth Wi-Fi 사용 안 )** 설정은 유선 이더넷 연결이 있는 디바이스에서만 사용해야 합니다.
  
 > [!NOTE]
 >  Intune의 DFCI에는 현재 Surface 장치에 적용되지 않는 두 가지 설정, 즉 (1) CPU 및 IO 가상화와 (2) 네트워크 어댑터에서 부팅을 사용하지 않도록 설정
@@ -165,7 +168,7 @@ Intune은 관리 권한을 위임하기 위한 범위 태그와 장치 유형을
 
 Intune 정책 설정은 일반적으로 거의 즉시 적용되지만 설정이 대상 장치에 적용되기까지 10분이 지연될 수 있습니다. 드물지만 최대 8시간의 지연이 가능합니다. 설정이 가능한 한 빨리 적용되도록(예: 테스트 시나리오에서) 대상 장치를 수동으로 동기화할 수 있습니다.
 
-- Endpoint Manager devicemanagement.microsoft.com **Autopilot** Devices에서 장치 등록 > 장치 등록으로 > Windows > Windows 동기화를 **선택합니다**.
+- In Endpoint Manager at devicemanagement.microsoft.com, go to **Devices > Device enrollment > Windows enrollment > Windows Devices** and select **Sync**.
 
  자세한 내용은 수동으로 디바이스 동기화[를 Windows 참조하세요](/intune-user-help/sync-your-device-manually-windows).
 
@@ -200,10 +203,10 @@ DFCI 프로필을 만들면 구성된 모든 설정이 프로필 관리 범위 �
 1. Intune에서 디바이스를 사용 중지합니다.
     1. In Endpoint Manager at devicemanagement.microsoft.com, choose **Groups > All Devices**. 사용 중지할 장치를 선택한 다음 사용 중지/지우 **기를 선택합니다.** 자세한 내용은 장치 초기화, 사용 중지 또는 수동으로 장치 초기화를 사용하여 장치 [제거를 참조하세요](/intune/remote-actions/devices-wipe). 
 2. Intune에서 Autopilot 등록을 삭제합니다.
-    1.  장치 **등록을 > Windows 등록을 >.**
+    1.  장치 **등록 또는 > Windows 등록을 >.**
     2. Autopilot Windows 아래에서 삭제할 장치를 선택한 다음 삭제를 **선택하십시오**.
-3. 커넥트 Surface 브랜드 이더넷 어댑터를 사용하여 유선 인터넷에 연결할 수 있습니다. 장치를 다시 시작하고 UEFI 메뉴를  여십시오(전원 단추를 누를 때 볼륨 업 단추를 누르고 있습니다).
-4. 관리 **> 네트워크** 에서 > 새로 고침 구성을 선택한 다음 **옵트아웃을 선택합니다.**
+3. 커넥트 장치를 Surface 브랜드 이더넷 어댑터를 사용하여 유선 인터넷에 연결합니다. 장치를 다시 시작하고 UEFI 메뉴를  여십시오(전원 단추를 누를 때 볼륨 업 단추를 누르고 있습니다).
+4. 관리 **> 네트워크에서** > 새로 고침 구성을 선택한 다음 **옵트아웃을 선택합니다.**
 
 Intune을 사용하여 장치를 관리하지만 DFCI 관리 없이 장치를 Autopilot에 자체 등록하고 Intune에 등록합니다. DFCI는 자체 등록 장치에 적용되지 않습니다.
 

@@ -10,12 +10,12 @@ ms.date: 01/18/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 8edc5bf1da384809e38451c9d164503bfcc10241
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 01ee3530f7d9db9947d4be6395660170cfb30142
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911773"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448711"
 ---
 # <a name="whats-new-in-windows-10-version-1703-for-microsoft-surface-hub"></a>Microsoft Surface Hub에 대한 Windows 10 버전 1703의 새로운 기능은 무엇인가요?
 
@@ -53,15 +53,6 @@ MDM(모바일 디바이스 관리) 및 CSP(구성 서비스 공급자)에 설정
 ## <a name="miracast-on-your-existing-wireless-network-or-lan"></a>기존 무선 네트워크 또는 LAN의 Miracast 
 
 Microsoft는 직접 무선 링크가 아니라 [로컬 네트워크를 통해 Miracast 스트림을 보낼 수 있는](miracast-over-infrastructure.md) 기능을 확장했습니다. 
-    
-## <a name="cloud-recovery"></a>클라우드 복구
-
-Surface Hub 디바이스를 초기화하면 이제 클라우드에서 운영 체제의 초기 빌드를 다운로드하여 설치할 수 있습니다. [클라우드 복구에 대해 알아봅니다.](device-reset-surface-hub.md#cloud-recovery)
-
->[!NOTE]
->프록시 서버를 사용하는 경우 클라우드 복구는 작동하지 않습니다.
-    
-![다시 설치합니다.](images/reinstall.png)
     
 ## <a name="end-session"></a>세션 종료
 

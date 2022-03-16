@@ -12,16 +12,19 @@ ms.date: 12/01/2021
 ms.reviewer: carlol
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: ae648f54f7abd97a6397dca5aa204205b582e4b0
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: a0f04b4dd089309ad44cab12cf738d8203d1526d
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338051"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449501"
 ---
 # <a name="dma-protection-on-surface-devices"></a>Surface 디바이스의 DMA 보호
 
-DMA(직접 메모리 액세스) 보호는 이동식 SSD 또는 외부 저장 장치를 사용하는 경우와 관련된 잠재적인 보안 취약성을 완화하도록 디자인되었습니다. 새로운 Surface 디바이스는 기본적으로 DMA 보호를 사용하도록 설정되어 있습니다. 여기에는 Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Laptop SE, Surface Pro 7+, Surface Pro 7, Surface Laptop 3 및 Surface Pro  X.  디바이스에 DMA 보호 기능이 존재할지 확인하려면 아래 그림과 같이**** >  시스템 정보(시작msinfo32.exe)를 열어 보십시오.** **
+DMA(직접 메모리 액세스) 보호는 이동식 SSD 또는 외부 저장 장치를 사용하는 경우와 관련된 잠재적인 보안 취약성을 완화하도록 디자인되었습니다. 새로운 Surface 디바이스는 기본적으로 DMA 보호를 사용하도록 설정되어 있습니다. 여기에는 Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Laptop SE, Surface Pro 7+, Surface Pro 7, Surface Laptop 3 및 Surface Pro  X.  디바이스에 DMA 보호 기능이 존재할지 확인하려면 아래 그림과 같이**** >  시스템 정보(시작msinfo32.exe)를 열습니다.** **
 
 ![DMA 보호를 사용하도록 설정한 시스템을 보여 주며 시스템 정보입니다.](images/systeminfodma.png)
 

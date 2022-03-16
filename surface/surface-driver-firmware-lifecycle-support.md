@@ -12,8 +12,16 @@ ms.date: 11/30/2021
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 54a6fd560b16d29e8a155bcf24efd814a6d5bf77
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449621"
 ---
-
 # <a name="surface-driver-and-firmware-lifecycle-for-windows-based-devices"></a>Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기
  
 하드웨어 및 소프트웨어 배포를 계획하고 관리하는 데 도움이 되는 보다 자세한 수명 주기 정보에 대한 고객의 요청에 따라 Surface는 드라이버 및 펌웨어 업데이트에 대한 추가 지침을 제공합니다.

@@ -9,21 +9,24 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/07/2022
+ms.date: 02/03/2022
 ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 4d9b845901734e23c5b83ee47f9d6608f7495b91
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 45fd61ff59273e5ae3fc269058b663f271e641d4
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338511"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448691"
 ---
 # <a name="surface-system-sku-reference"></a>Surface 시스템 SKU 참조
 
-이 문서에서는 명령 실행 또는 장치 모델/SKU 이름을 기반으로 드라이버 설치와 같은 다양한 IT 작업에 사용할 수 있는 참조를 제공합니다. 시스템 모델 및 시스템 SKU는 Surface 디바이스의 UEFI 계층에 있는 SMBIOS(시스템 관리 BIOS) 테이블에 저장된 변수입니다. LTE Advanced와 같은 시스템 모델 이름과 시스템 모델 이름을 Surface Pro Surface Pro 시스템 SKU 이름을 사용 합니다. 다음 표에 나열된 SKUS는 소비자로 레이블이 지정되지 않은 경우 상업용 장치를 참조합니다. 
+이 문서에서는 명령 실행 또는 장치 모델/SKU 이름을 기반으로 드라이버 설치와 같은 다양한 IT 작업에 사용할 수 있는 참조를 제공합니다. 시스템 모델 및 시스템 SKU는 Surface 디바이스의 UEFI 계층에 있는 SMBIOS(시스템 관리 BIOS) 테이블에 저장된 변수입니다. LTE Advanced를 사용하여 동일한 시스템 모델 이름을 사용하는 디바이스를 Surface Pro Surface Pro 시스템 SKU 이름을 사용하십시오. 다음 표에 나열된 SKUS는 소비자로 레이블이 지정되지 않은 경우 상업용 장치를 참조합니다. 
 
 | 장치   | 시스템 모델 | System SKU       |
 | ---------- | ----------- | -------------- |
@@ -34,7 +37,7 @@ ms.locfileid: "12338511"
 | 북미 외의 Surface 3 LTE 및 일본 Y!모바일 | Surface 3        | Surface_3_ROW                    |
 | Surface Book 2 13인치                                           | Surface Book 2   | Surface_Book_1832                |
 | Surface Book 2 15인치                                           | Surface Book 2   | Surface_Book_1793                |
-| Surface Book 3 13"                                           | Surface Book 3   | Surface_Book_3_1900                |
+| Surface Book 3 13인치                                           | Surface Book 3   | Surface_Book_3_1900                |
 | Surface Book 3 15인치                                           | Surface Book 3   | Surface_Book_3_1899
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 소비자                                          | Surface Go       | Surface_Go_1824_Consumer         |
@@ -46,7 +49,7 @@ ms.locfileid: "12338511"
 | Surface Go 3 소비자                                        | Surface Go 3     | Surface_Go_3_1901                |
 | Surface Go 3 LTE                                             | Surface Go 3     | Surface_Go_3_2022                |
 | Surface Hub 2S 50"                                           | Surface Hub 2S   | Surface Hub 2S                   |
-| Surface Hub 2S 85"                                           | Surface Hub 2S   | Surface Hub 2S 85                |
+| Surface 허브 2S 85"                                           | Surface Hub 2S   | Surface Hub 2S 85                |
 | surface 노트북                                               | surface 노트북   | Surface_Laptop                   |
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Laptop 2 소비자                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
@@ -57,19 +60,20 @@ ms.locfileid: "12338511"
 | Surface Laptop 4 13인치 Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
 | Surface Laptop 4 15인치 AMD                                     | Surface Laptop 4 | Surface_Laptop_4_1952:1953     |
 | Surface Laptop 4 15인치 Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
-| Surface Laptop 이동                                            | Surface Laptop 이동 | Surface_Laptop_Go_1943      |
+| Surface Laptop Go                                            | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop SE                                            | Surface Laptop SE | Surface Laptop SE            |
-| Surface Laptop Studio                                        | Surface Laptop Studio | Surface_Laptop_Studio_1964 |
+| Surface Laptop 스튜디오                                        | Surface Laptop 스튜디오 | Surface_Laptop_Studio_1964 |
 | Surface Pro(5세대)                                        | Surface Pro      | Surface_Pro_1796                 |
-| Surface Pro LTE Advanced(5세대)                      | Surface Pro      | Surface_Pro_1807                 |
+| Surface Pro(5세대)                      | Surface Pro      | Surface_Pro_1807                 |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Pro 6 소비자                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 7                                                | Surface Pro 7    | Surface_Pro_7_1866         |
 | Surface Pro 7+                                               | Surface Pro 7+   | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+   | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 8                                                | Surface Pro 8    | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 소비자                                       | Surface Pro 8    | Surface_Pro_8_1983|
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
-| Surface Pro X와 SQ1 프로세서                             | Surface Pro X    | Surface_Pro_X_1876         |
+| Surface Pro X SQ1 프로세서                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X와 SQ2 프로세서                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X(Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |

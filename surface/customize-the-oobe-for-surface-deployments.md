@@ -14,12 +14,15 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f460577c6c0d87586d80e183dfeaf2796b8a3bbe
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: de84d4db52006991308bf19893a50594f6a1d1dc
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338301"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449521"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>Surface 배포용 OOBE 사용자 지정
 

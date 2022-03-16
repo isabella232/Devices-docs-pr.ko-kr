@@ -12,12 +12,15 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 660a96a8825002c6d52d067dac77894bb0c0b7a9
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7c27bacde65ef8c0fab75b123283bf2e6699afed
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337831"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449111"
 ---
 # <a name="surface-brightness-control"></a>Surface 밝기 제어
 
@@ -35,10 +38,10 @@ IT용 Surface 도구에서 [Surface 밝기 컨트롤을 다운로드합니다](h
 - Surface Pro X(모든 세대)
 - Surface 3
 - Surface Book(모든 세대)
-- Surface Laptop Studio
+- Surface Laptop 스튜디오
 - Surface Studio(모든 세대)
 - Surface Laptop(모든 세대)
-- Surface Laptop 이동
+- Surface Laptop Go
 - Surface Go(모든 세대)
 
 
@@ -50,7 +53,7 @@ IT용 Surface 도구에서 [Surface 밝기 컨트롤을 다운로드합니다](h
 
 레지스트리를 통해 기본값을 Windows 있습니다. Windows 레지스트리 사용에 대한 자세한 내용은 레지스트리 설명서[를 참조하십시오](/windows/desktop/sysinfo/registry).
 
-1. 명령 **프롬프트에서 regedit**를 실행하여 Windows 레지스트리 편집기를 런타입니다.
+1. 명령 **프롬프트에서 regedit**를 실행하여 레지스트리 편집기를 Windows 를 습니다.
 2. Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control으로 이동합니다.
 3. 다음 표에 설명된 레지스트리 키 값을 조정합니다.
 
@@ -71,7 +74,7 @@ FullBrightness   | 기본값: 100  <br>옵션: 화면 밝기에서 0~100% 범위
 ### <a name="version-116137br"></a>버전 1.16.137<br>
 
 *릴리스 날짜: 2019년 10월 22일*<br>
-이 버전의 Surface Brightness Control은 -Recompiled for x86에 대한 지원을 추가하여 Surface Pro 7, Surface Pro X 및 Surface Laptop 3에 대한 지원을 추가합니다.
+이 버전의 Surface Brightness Control은 x86용 -Recompiled에 대한 지원을 추가하여 Surface Pro 7, Surface Pro X 및 Surface Laptop 3에 대한 지원을 추가합니다.
 
 ### <a name="version-1122390"></a>버전 1.12.239.0
 

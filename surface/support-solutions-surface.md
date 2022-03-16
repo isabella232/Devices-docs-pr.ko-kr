@@ -15,19 +15,22 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 65cd0822f9419d2a2b678c598681891539855c9f
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 0308c2e721e441ebb354e6cfb8a22a5a5a26d268
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939529"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449451"
 ---
 # <a name="top-support-solutions-for-surface-devices"></a>Surface 기기에 대한 주요 지원 솔루션
 
 > [!Note]
-> **가정용**사용자: 이 문서는 IT 전문가 및 기술 지원 에이전트만 사용할 수 있으며 Surface 디바이스에만 적용됩니다. 홈 디바이스에 문제가 있는 경우 [Surface 장치 도움말을 참조하세요.](https://support.microsoft.com/products/surface-devices)
+> **가정용** 사용자: 이 문서는 IT 전문가 및 기술 지원 에이전트만 사용할 수 있으며 Surface 디바이스에만 적용됩니다. 홈 장치에 대한 문제의 도움말을 찾고 있는 경우 [Surface 장치 도움말을 참조하세요](https://support.microsoft.com/products/surface-devices).
 
-다음은 엔터프라이즈에서 Surface 디바이스를 사용할 때 경험할 수 있는 일반적인 문제에 대한 Microsoft 지원 솔루션입니다. 여기에 문제가 나열되지 않은 경우 [Surface 지원에 문의하세요.](contact-surface-support.md?tabs=online)
+다음은 엔터프라이즈에서 Surface 디바이스를 사용할 때 경험할 수 있는 일반적인 문제에 대한 Microsoft 지원 솔루션입니다. 여기에 문제가 나열되지 않은 경우 [Surface 지원에 문의하세요](contact-surface-support.md?tabs=online).
 
 ## <a name="surface-drivers-and-firmware"></a>Surface 드라이버 및 펌웨어
 

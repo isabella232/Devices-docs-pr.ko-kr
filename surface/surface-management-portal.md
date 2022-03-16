@@ -12,16 +12,19 @@ ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a131e663aadbd10be039cff777001383178f7fc1
-ms.sourcegitcommit: 16889d72b0af81dfe79267c41574c3774e81f178
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8c0f4f6c80ff7341b795839c3897dff6733414bc
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "12155176"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448881"
 ---
 # <a name="surface-management-portal-overview"></a>Surface 관리 포털 개요
 
-기본 Microsoft Endpoint Manager 새로운 Surface Management Portal은 Surface 디바이스를 대규모로 자체 서비스, 관리 및 모니터링하는 중앙 집중식 솔루션을 제공합니다.
+기본 Microsoft Endpoint Manager 새로운 Surface Management Portal은 Surface 디바이스를 대규모로 셀프 서비스, 관리 및 모니터링하는 중앙 집중식 솔루션을 제공합니다.
 
 ## <a name="introduction"></a>소개
 
@@ -31,17 +34,17 @@ Surface Management Portal은 회사 또는 사용자 소유 Surface 디바이스
 
 Surface 디바이스가 클라우드 관리에 등록되고 사용자가 처음으로 로그인하면 이러한 Surface 디바이스의 정보가 Surface 관리 포털로 자동으로 이동하여 Surface 관련 장치 관리 활동을 위한 단일 창을 제공합니다.
 
-아래에서 알려진 [문제를 참조하세요.](#known-issues) 
+아래에서 알려진 [문제를 참조](#known-issues) 하세요. 
 
 ## <a name="get-started"></a>시작
 
-로그인하여 Microsoft Endpoint Manager **모든**서비스를 클릭한 다음 **Surface Management Portal 을 클릭합니다.**
+로그인하여 Microsoft Endpoint Manager 모든 서비스를 클릭한 다음 **Surface Management Portal을 클릭합니다**.****
 
 :::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Surface 관리 포털 시작":::
 
 ## <a name="monitor-surface-devices"></a>Surface 장치 모니터링
 
-**모니터를** 선택하여 다음을 비롯한 모든 Surface 디바이스에 대한 인사이트를 표시합니다.
+모니터 **를** 선택하여 다음을 비롯한 모든 Surface 디바이스에 대한 인사이트를 표시합니다.
 
 - 장치가 규정을 준수하지 않습니다. 이는 사용자가 Azure AD 로그인을 요구하는 정보에 액세스할 수 없는 것을 의미할 수 있습니다.
 - 등록되지 않은 장치.
@@ -71,13 +74,13 @@ Surface 관리 포털은 각 요청의 상태와 함께 지원 활동에 대한 
 
 ## <a name="try-for-free"></a>무료 평가판
 
-Surface Management Portal은 Intune을 통해 Surface Microsoft Endpoint Manager 등록한 고객이 사용할 수 있습니다. Intune을 새로 사용하려는 경우 빠른 [시작:](/mem/intune/fundamentals/free-trial-sign-up)무료 Microsoft Intune 방문하여 Intune 테넌트 설정
+Surface Management Portal은 Intune을 통해 Surface Microsoft Endpoint Manager 등록한 고객이 사용할 수 있습니다. Intune을 새로 사용하려는 경우 빠른 시작: 무료 Microsoft Intune 방문하여 지금 [Intune 테넌트 설정하세요](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## <a name="known-issues"></a>알려진 문제
 
 - 해결: 소수의 테넌트에 대해 포털이 올바르게 로드되지 않는 문제가 해결되었습니다. (2021년 11월 3일)
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>세부 정보
 
 - [Microsoft Surface Management Portal이란?](/mem/intune/fundamentals/surface-management-portal?)
 - [Microsoft Mechanics](https://youtu.be/_MmutkqNudk)

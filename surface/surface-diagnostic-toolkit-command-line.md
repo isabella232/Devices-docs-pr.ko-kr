@@ -11,26 +11,29 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 1410760fc89d4654322f2bc9b738e87e839251c3
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: bdd91df1f1ce105ecd19ea15e78bd9dc29d0ee95
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154123"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448471"
 ---
 # <a name="run-command-line-app-console-with-surface-diagnostic-toolkit-for-business"></a>비즈니스용 Surface 진단 앱을 사용하여 명령줄 Toolkit 실행
 
-명령 프롬프트에서 Toolkit SDT(Surface Diagnostic Toolkit)를 실행하려면 SDT 앱 콘솔을 다운로드해야 합니다. SDT를 설치한 후 명령 프롬프트에서 Windows 명령 콘솔(cmd.exe)을 통해 또는 명령, 복사/붙여넣기 및 기타 기능을 자동으로 Windows PowerShell PowerShell ISE(통합 스크립팅 환경)를 포함하여 SDT를 실행할 수 있습니다.  SDT에서 지원되는 Surface 디바이스 목록은 [Deploy Surface Diagnostic Toolkit for Business를 참조하세요.](surface-diagnostic-toolkit-business.md)
+명령 프롬프트에서 Toolkit SDT(Surface Diagnostic Toolkit)를 실행하려면 SDT 앱 콘솔을 다운로드해야 합니다. SDT를 설치한 후 명령 프롬프트에서 Windows 명령 콘솔(cmd.exe)을 통해 또는 명령, 복사/붙여넣기 및 기타 기능을 자동으로 Windows PowerShell PowerShell ISE(통합 스크립팅 환경)를 포함하여 SDT를 실행할 수 있습니다.  SDT에서 지원되는 Surface 디바이스 목록은 [Deploy Surface Diagnostic Toolkit for Business를 참조하세요](surface-diagnostic-toolkit-business.md).
 
 >[!NOTE]
 >명령을 사용하여 SDT를 실행하려면 관리자 계정에 로그인하거나 Surface 디바이스에서 Administrator 그룹의 구성원인 계정에 로그인해야 합니다.
 
 ## <a name="running-sdt-app-console"></a>SDT 앱 콘솔 실행
 
-1. Surface Tools for IT 다운로드 페이지에서 SDT 앱 [콘솔을 다운로드하여 설치합니다.](https://www.microsoft.com/download/details.aspx?id=46703)
+1. Surface Tools for IT 다운로드 페이지에서 SDT 앱 콘솔 [을 다운로드하여 설치합니다](https://www.microsoft.com/download/details.aspx?id=46703).
 
 - Intel/AMD 장치의 경우 다음을 ** 다운로드합니다Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0.exe**
-- ARM 디바이스의 경우 다음을 ** 다운로드합니다Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
+- ARM 디바이스의 경우 다음을 다운로드 ** 합니다**Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe
 
 2. Windows 명령 프롬프트(cmd.exe) 또는 Windows PowerShell 다음을 실행합니다.
 
@@ -64,97 +67,97 @@ BitLocker, 보안 부팅 및 TPM(신뢰할 수 있는 플랫폼 모듈)과 같�
 ### <a name="sample-bpa-results-output"></a>샘플 BPA 결과 출력
 
 <table>
-<tr><th colspan="2"><font color="00ff00">BitLocker</font></th></tr>
+<tr><th colspan="2">BitLocker</th></tr>
 <tr><td><strong>설명:</strong></td><td>시스템 드라이브에서 BitLocker가 활성화되어 있는지 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>보호 기능</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>보호 기능</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>BitLocker를 사용하여 데이터를 보호하는 것이 좋습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">보안 부팅</font></th></tr>
+<tr><th colspan="2">보안 부팅</th></tr>
 <tr><td><strong>설명:</strong></td><td>보안 부팅이 활성화되어 있는지 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>True</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>True</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>PC를 보호하기 위해 보안 부팅을 사용하도록 설정하는 것이 좋습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">신뢰할 수 있는 플랫폼 모듈</font></th></tr>
+<tr><th colspan="2">신뢰할 수 있는 플랫폼 모듈</th></tr>
 <tr><td><strong>설명:</strong></td><td>TPM이 작동하도록 합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>True</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>True</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>TPM 기능이 없는 경우 BitLocker와 같은 보안 기반 기능이 제대로 작동하지 않을 수 있습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">연결된 대기</font></th></tr>
+<tr><th colspan="2">연결된 대기</th></tr>
 <tr><td><strong>설명:</strong></td><td>연결된 대기실이 활성화되어 있는지 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>True</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>True</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>연결된 대기를 통해 Surface 디바이스는 사용되지 않는 동안 업데이트 및 알림을 받을 수 있습니다. 최상의 환경을 위해 연결된 대기 환경을 사용하도록 설정해야 합니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Bluetooth</font></th></tr>
+<tr><th colspan="2">Bluetooth</th></tr>
 <tr><td><strong>설명:</strong></td><td>사용 가능한 Bluetooth 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>설정됨</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>설정됨</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td></td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">디버그 모드</font></th></tr>
+<tr><th colspan="2">디버그 모드</th></tr>
 <tr><td><strong>설명:</strong></td><td>운영 체제가 디버그 모드에 있는지 검사합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>중</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>중</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>디버그 부팅 옵션은 디버그 운영 체제의 커널 디버깅을 Windows 비활성화합니다. 이 옵션을 사용하도록 설정하면 시스템 문제가 발생할 수 있으며 DRM(디지털 권한 관리 권한 관리)으로 보호된 미디어가 재생되지 않도록 할 수 있습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">테스트 서명</font></th></tr>
+<tr><th colspan="2">테스트 서명</th></tr>
 <tr><td><strong>설명:</strong></td><td>테스트 서명이 활성화되어 있는지 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>중</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>중</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>테스트 서명은 시험판 Windows 테스트하는 데만 사용할 수 있는 시작 설정입니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Active Power Plan</font></th></tr>
+<tr><th colspan="2">Active Power Plan</th></tr>
 <tr><td><strong>설명:</strong></td><td>올바른 전원 계획이 활성 상태인지 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>균형 조정</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>균형 조정</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>생산성과 배터리 수명을 최대화하기 위해 "균형 조정된" 전원 계획을 사용하는 것이 좋습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="ff9500">Windows 업데이트</font></th></tr>
+<tr><th colspan="2">Windows 업데이트</th></tr>
 <tr><td><strong>설명:</strong></td><td>장치가 최신 업데이트로 최신 Windows 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>Microsoft Silverlight(KB4023307), Windows Defender 바이러스 백신 정의 업데이트 - KB2267602(정의 1.279.1433.0)</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="ff9500">최적화되지 않습니다.</font></td></tr>
+<tr><td><strong>값: </strong></td><td>Microsoft Silverlight(KB4023307), Windows Defender 바이러스 백신 정의 업데이트 - KB2267602(정의 1.279.1433.0)</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적화되지 않습니다.</td></tr>
 <tr><td><strong>지침:</strong></td><td>최신 창으로 업데이트하면 최신 펌웨어 및 드라이버를 사용할 수 있습니다. 장치를 항상 최신으로 유지하는 것이 좋습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">무료 하드 드라이브 공간</font></th></tr>
+<tr><th colspan="2">무료 하드 드라이브 공간</th></tr>
 <tr><td><strong>설명:</strong></td><td>사용이 적은 하드 드라이브 공간을 검사합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td>66%</td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td>66%</td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>최상의 성능을 위해 하드 드라이브 용량의 10% 이상을 사용 가능 공간으로 설정해야 합니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">작동하지 않는 장치</font></th></tr>
+<tr><th colspan="2">작동하지 않는 장치</th></tr>
 <tr><td><strong>설명:</strong></td><td>장치 관리자의 작동하지 않는 장치 목록입니다.</td></tr>
-<tr><td><strong>값:</strong></td><td></td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td></td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>장치 관리자에서 작동하지 않는 장치는 각 하드웨어 구성 요소에 대한 절전과 같이 Surface 디바이스에서 예측할 수 없는 문제가 발생할 수 있습니다.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">외부 모니터</font></th></tr>
+<tr><th colspan="2">외부 모니터</th></tr>
 <tr><td><strong>설명:</strong></td><td>호환성 문제가 있을 수 있는 외부 모니터를 확인합니다.</td></tr>
-<tr><td><strong>값:</strong></td><td></td></tr>
-<tr><td><strong>조건:</strong></td><td><font color="00ff00">최적</font></td></tr>
+<tr><td><strong>값: </strong></td><td></td></tr>
+<tr><td><strong>조건:</strong></td><td>최적</td></tr>
 <tr><td><strong>지침:</strong></td><td>Surface 디바이스와 호환되는지 원래 장비 제조업체에 문의하십시오.</td></tr>
 </table>

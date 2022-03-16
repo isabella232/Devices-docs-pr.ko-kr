@@ -13,12 +13,15 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 39cd721606a44fed21c2a8cf59baaf806db47959
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 368ab2bc1480c00ef27a9d35910a1db7a6856748
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939509"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448301"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>Surface 디바이스에서 PEAP, EAP-FAST 및 Cisco LEAP 사용
 
@@ -26,7 +29,7 @@ Surface 디바이스에서 PEAP, EAP-FAST 또는 Cisco LEAP 프로토콜을 지�
 
 엔터프라이즈 네트워크에서 PEAP, EAP-FAST 또는 Cisco LEAP를 사용하는 경우 이러한 세 가지 무선 인증 프로토콜이 기본 제공되는 Surface 디바이스에서 지원되지 않음을 이미 알고 있을 수도 있습니다. 무선 네트워크에 연결하려고 할 때 또는 파일 공유와 내부 사이트와 같이 네트워크 내부 리소스에 대한 액세스 권한을 얻지 못할 때 알 수도 있습니다. 자세한 내용은 [Extensible Authentication Protocol](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)(확장할 수 있는 인증 프로토콜)을 참조하세요.
 
-USB 스틱 또는 파일 공유에서 작은 MSI 패키지를 실행하여 각 프로토콜에 대한 지원을 추가할 수 있습니다. Surface 디바이스에서 EAP 지원을 사용하도록 설정하려는 조직의 경우 MSI 패키지 형식은 MDT(Microsoft Deployment Toolkit) 및 배포와 같은 다양한 관리 및 배포 도구를 Microsoft Endpoint Configuration Manager.
+USB 스틱 또는 파일 공유에서 작은 MSI 패키지를 실행하여 각 프로토콜에 대한 지원을 추가할 수 있습니다. Surface 디바이스에서 EAP 지원을 사용하도록 설정하려는 조직의 경우 MSI 패키지 형식은 MDT(Microsoft Deployment Toolkit) 및 배포 도구와 같은 다양한 관리 및 배포 도구를 Microsoft Endpoint Configuration Manager.
 
 ## <a name="download-peap-eap-fast-or-cisco-leap-installation-files"></a><a href="" id="download-peap--eap-fast--or-cisco-leap-installation-files--"></a>PEAP, EAP-FAST 또는 Cisco LEAP 설치 파일 다운로드
 
@@ -84,5 +87,5 @@ Install Applications page(응용 프로그램 설치) 페이지에서 이러한 
 
 Configuration Manager를 사용하여 Surface 디바이스를 관리하는 조직의 경우 PEAP, EAP-FAST 또는 Cisco LEAP 지원을 Surface 디바이스에 배포하는 것이 훨씬 더 간단합니다. 소프트웨어 라이브러리에서 각 MSI 파일을 응용 프로그램으로 가져와 Surface 디바이스 컬렉션에 배포를 구성하기만 하면 됩니다.
 
-Configuration Manager를 사용하여 응용 프로그램을 배포하는 방법에 대한 자세한 내용은 Configuration Manager를 사용하여 응용 프로그램 만들기 및 [배포를 참조하세요.](/mem/configmgr/apps/get-started/create-and-deploy-an-application)
+Configuration Manager를 사용하여 응용 프로그램을 배포하는 방법에 대한 자세한 내용은 Configuration Manager를 사용하여 응용 프로그램 [만들기 및 배포를 참조하세요](/mem/configmgr/apps/get-started/create-and-deploy-an-application).
 

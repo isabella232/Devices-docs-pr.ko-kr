@@ -13,12 +13,15 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 01/18/2022
-ms.openlocfilehash: 94e39a67ef80e4e95db3441778af915d2e535bab
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7da3a2908acc654abd86406af36eba4929bf4760
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338175"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449661"
 ---
 # <a name="manage-surface-uefi-settings"></a>Surface UEFI 설정 관리
 
@@ -41,7 +44,7 @@ UEFI 관리는 다음에서 지원됩니다.
 
 ## <a name="support-for-cloud-based-management"></a>클라우드 기반 관리 지원
 
-Surface UEFI 관리는 Microsoft Intune(공개 미리 보기에서 사용 가능)에 기본 제공되는 DFCI(장치 펌웨어 구성 인터페이스) 프로필을 사용하여 최신 관리 스택을 UEFI 하드웨어 수준으로 확장합니다. DFCI는 제로 터치 프로비전을 지원하고, BIOS 암호를 제거하고, 부팅 옵션 및 기본 제공 주변 장치를 비롯한 보안 설정을 제어하며, 향후 고급 보안 시나리오를 위한 초안을 마련합니다. DFCI는 현재 Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3에서 사용할 수 있습니다. Surface Laptop 3, Surface Pro 7+, Surface Pro 7 및 Surface Pro X입니다.   자세한 내용은 [Surface UEFI 설정의 Intune 관리를 참조하세요](surface-manage-dfci-guide.md).
+디바이스 펌웨어 구성 인터페이스(DFCI) 프로필이 Microsoft Intune(공개 미리 보기에서 사용 가능)를 사용하여 Surface UEFI 관리는 최신 관리 스택을 UEFI 하드웨어 수준으로 확장합니다. DFCI는 제로 터치 프로비전을 지원하고, BIOS 암호를 제거하고, 부팅 옵션 및 기본 제공 주변 장치를 비롯한 보안 설정을 제어하며, 향후 고급 보안 시나리오를 위한 초안을 마련합니다. DFCI는 현재 Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 및 Surface Pro X입니다.   자세한 내용은 [Surface UEFI 설정의 Intune 관리를 참조하세요](surface-manage-dfci-guide.md).
 
 ## <a name="open-surface-uefi-menu"></a>Surface UEFI 메뉴 열기
 
@@ -93,7 +96,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 - 숫자: 1-0
 
-- 특수 문자: !@#$%^&*()?<>{}[]-_=+|.,;:''"
+- 특수 문자: !@#$%^&*()?<>{}[]-_=+|.,;:''
 
 암호는 6자 이상으로 대소문자 구분이 필요합니다.
 
@@ -107,7 +110,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 *그림 4. 보안 부팅 구성*
 
-장치에 따라 TPM이 사용 또는 사용되지 않도록 설정되어 있는지 여부도 볼 수 있습니다. **TPM** 사용 설정이 없는 경우 그림 5에 표시된 Windows tpm.msc를 열어 상태를 검사합니다. TPM은 BitLocker로 디바이스 데이터에 대한 암호화를 인증하는 데 사용됩니다. 자세한 내용은 [BitLocker 개요를 참조하세요](/windows/security/information-protection/bitlocker/bitlocker-overview).
+장치에 따라 TPM이 사용 또는 사용되지 않도록 설정되어 있는지 여부도 볼 수 있습니다. **TPM** 사용 설정이 없는 경우 그림 5에 표시된 Windows tpm.msc를 열고 상태를 검사합니다. TPM은 BitLocker로 디바이스 데이터에 대한 암호화를 인증하는 데 사용됩니다. 자세한 내용은 [BitLocker 개요를 참조하세요](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
 ![TPM 콘솔.](images/manage-surface-uefi-fig5-a.png "TPM console")
 
@@ -161,7 +164,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 
 ## <a name="uefi-menu-management"></a>UEFI 메뉴: 관리
 
-관리 페이지에서는 제로 터치 UEFI 관리 및 Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4 등 적합한 장치에서 사용 가능한 디바이스의 사용을 관리할 수 있습니다. 는 Surface Laptop 3, Surface Laptop SE 및 Surface Book 3입니다. 
+관리 페이지에서는 Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4 등 적합한 장치에서 제로 터치 UEFI 관리 및 기타 기능의 사용을 관리할 수 있습니다. , Surface Laptop 3, Surface Laptop SE 및 Surface Book 3. 
 
 :::image type="content" alt-text="제로 터치 UEFI 관리 및 기타 기능에 대한 액세스를 관리합니다." source="images/manage-surface-uefi-fig7a.png":::
 
@@ -170,7 +173,7 @@ Surface 디바이스의 최신 펌웨어 버전에 대한 최신 정보는 디�
 제로 터치 UEFI 관리를 사용하면 DFCI(장치 펌웨어 구성 인터페이스)라는 Intune 내의 장치 프로필을 사용하여 UEFI 설정을 원격으로 관리할 수 있습니다. 이 설정을 구성하지 않는 경우 DFCI를 사용하여 적합한 장치를 관리하는 능력이 준비로 설정 **됩니다**. DFCI를 방지하려면 **옵트아웃을 선택합니다**.
 
 > [!NOTE]
-> UEFI 관리 설정 페이지 및 DFCI의 사용은 현재 Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go에서 사용할 수 있습니다. Surface Book 3, Surface Laptop 7+Surface Pro, Surface Pro 7, Surface Pro X입니다.  자세한 내용은 [Surface UEFI 설정의 Intune 관리를 참조하세요](surface-manage-dfci-guide.md).
+> UEFI 관리 설정 페이지 및 DFCI의 사용은 현재 Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go에서 사용할 수 있습니다. Surface Book 3, Surface Laptop Surface Pro 7+, Surface Pro 7 및 Surface Pro X입니다.  자세한 내용은 [Surface UEFI 설정의 Intune 관리를 참조하세요](surface-manage-dfci-guide.md).
 
 ## <a name="uefi-menu-exit"></a>UEFI 메뉴: 종료
 

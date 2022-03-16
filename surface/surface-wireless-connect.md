@@ -1,6 +1,6 @@
 ---
 title: Surface 장치에 대한 Wi-Fi 연결 최적화
-description: 이 항목에서는 Surface Wi-Fi 및 모바일 시나리오에서 계속 연결되도록 하는 권장 설정에 대해 설명합니다.
+description: 이 항목에서는 Surface Wi-Fi 및 모바일 시나리오에서 연결된 환경을 유지하도록 하는 권장 설정에 대해 설명합니다.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -12,14 +12,17 @@ ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
 ms.date: 11/30/2021
-ms.openlocfilehash: e031b485979b20d6206398840466d553772b6f1d
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 2f0aaaff212475887c3cf446709947d4e960c353
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338251"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449311"
 ---
-# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>Surface Wi-Fi 연결 최적화
+# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>Surface 장치에서 Wi-Fi 연결 최적화
 
 하루 종일 배터리 수명과 연결하기 위해 Surface 디바이스는 성능과 전원 절약의 균형을 조정하는 무선 연결 설정을 구현합니다. 가장 까다로운 모바일 작업 외의 사용자는 기본 네트워크 어댑터 또는 관련 설정을 수정하지 않고도 충분한 무선 연결을 유지할 수 있습니다. 이 페이지에서는 Surface 디바이스를 사용하는 모바일 시나리오의 주요 무선 연결 고려 사항을 중점적으로 설명합니다.
 
@@ -45,7 +48,7 @@ ms.locfileid: "12338251"
 특정 상황에서는 Surface 디바이스에 기본 제공되는 고급 네트워크 어댑터 설정을 수정하면 보다 안정적인 연결을 지원할 수 있습니다. 그러나 액세스 지점 문제, 네트워킹 디자인 결함 또는 환경 사이트 문제로 인해 무선 리소스에 연결할 수 없는 경우가 더 자주 있습니다.
 
 > [!TIP]
-> Surface Go 또는 Surface Pro 설정하는 방법도 신호 강도에 영향을 줄 수 있습니다. 대역폭 손실이 발생하는 경우 디스플레이의 맨 위를 잡고 있지 않은지, Wi-Fi 라디오 수신기가 있는지 검사합니다. 디스플레이의 위쪽을 잡아도 무선 신호가 차단되지는 않습니다. 그러나 장치 드라이버가 연결을 줄이는 변경을 시작하게 할 수 있습니다.
+> Surface Go 또는 Surface Pro 설정하는 방법도 신호 강도에 영향을 줄 수 있습니다. 대역폭 손실이 발생하는 경우 디스플레이의 맨 위에 있지 않은지, Wi-Fi 라디오 수신기가 있습니다. 디스플레이의 위쪽을 잡아도 무선 신호가 차단되지는 않습니다. 그러나 장치 드라이버가 연결을 줄이는 변경을 시작하게 할 수 있습니다.
 
 ### <a name="keep-default-auto-setting-for-dual-bandwidth-capability"></a>이중 대역폭 기능에 대한 기본 자동 설정 유지
 
@@ -65,7 +68,7 @@ ms.locfileid: "12338251"
 > [!NOTE]
 > 기본적으로 Surface 디바이스는 사용 가능한 경우 5GHz에 연결하는 것을 선호합니다. 그러나 Surface는 먼저 2.4GHz 연결을 찾아 배터리 부족 상태로 전원을 보존합니다.
 
-환경에 맞게 필요한 경우 밴드 설정을 전환할 수도 있습니다. 예를 들어 소비자 장치가 모두 2.4GHz를 통해 브로드캐스팅되는 동안 여러 개의 Wi-Fi 핫스팟이 있는 고밀도 아파트 건물에 거주하는 사용자는 Surface 디바이스를 5GHz에서만 연결한 다음 필요할 때 자동으로 되감기하면 도움이 될 수 있습니다.
+환경에 맞게 필요한 경우 밴드 설정을 전환할 수도 있습니다. 예를 들어 소비자 장치가 모두 2.4GHz를 통해 브로드캐스팅되는 동안 여러 개의 Wi-Fi 핫스팟이 있는 고밀도 아파트 건물에 거주하는 사용자는 Surface 디바이스를 5GHz에서만 연결한 다음 필요할 때 자동으로 되버려도 도움이 될 수 있습니다.
 
 ### <a name="roaming-aggressiveness-settings-on-surface-devices-with-intel-adapters"></a>Intel 어댑터를 사용하여 Surface 디바이스의 로밍 적극성 설정
 

@@ -14,12 +14,15 @@ ms.audience: itpro
 ms.reviewer: hachinda
 manager: laurawi
 ms.date: 1/15/2021
-ms.openlocfilehash: 61b15bf1d7ae5f99d57fb4dcd7bd9f83d9eb4b0a
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7626c6b5d98f65cbaa4f3ffae7649bd5dc05b56f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337941"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449491"
 ---
 # <a name="enroll-and-configure-surface-devices-with-semm"></a>SEMM을 사용하여 Surface 장치 등록 및 구성
 
@@ -30,7 +33,7 @@ SEMM에 대한 자세한 개요는 [Microsoft Surface Enterprise 관리 모드�
 SEMM의 대안으로, 새로운 Surface 디바이스는 펌웨어 설정의 하위 집합을 원격으로 관리하기 위해 Microsoft Intune. 자세한 내용은 [Surface UEFI 설정의 Intune 관리를 참조하세요](surface-manage-dfci-guide.md).
 
 > [!NOTE]
-> SEMM은 UEFI Surface Pro X에서만 지원됩니다. 자세한 내용은 X에서 배포, 관리 [및 Surface Pro 참조하세요](surface-pro-arm-app-management.md).
+> SEMM은 UEFI Surface Pro X에서만 지원됩니다. 자세한 내용은 X 배포, 관리 및 서비스 Surface Pro [참조하세요](surface-pro-arm-app-management.md).
 
 #### <a name="download-and-install-microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI 구성기 다운로드 및 설치
 
@@ -38,7 +41,7 @@ SEMM 패키지를 만드는 데 사용되는 도구는 Microsoft Surface UEFI �
 Microsoft Surface UEFI Configurator Windows Installer(.msi) 파일을 실행하여 도구 설치를 시작할 수 있습니다. 설치 관리자를 완료하면 설치 관리자의 모든 앱 섹션에서 Microsoft Surface UEFI 구성 시작 메뉴.
 
 >[!NOTE]
->Microsoft Surface UEFI 구성기는 UEFI 구성기에서만 Windows 10.
+>Microsoft Surface UEFI 구성기는 사용자 및 Windows 10 지원 Windows 11.
 
 ## <a name="create-a-surface-uefi-configuration-package"></a>Surface UEFI 구성 패키지 만들기
 
@@ -119,7 +122,7 @@ SEMM에서 Surface 디바이스를 등록하는 프로세스를 시작하기 전
 
 Surface UEFI 구성 패키지를 사용하여 SEMM에 Surface 디바이스를 등록하려면 다음 단계를 수행합니다.
 
-1. SEMM에 등록할 Surface .msi Surface UEFI 구성 패키지를 실행합니다. 그러면 디바이스 펌웨어에서 Surface UEFI 구성 파일을 프로비전합니다.
+1. SEMM에 등록할 Surface .msi Surface UEFI 구성 패키지 파일로 실행합니다. 그러면 디바이스 펌웨어에서 Surface UEFI 구성 파일을 프로비전합니다.
 2. EULA****(최종 사용자 사용권 계약)에 동의하려면 동의함 확인란을 선택한 다음 설치를 클릭하여 설치 프로세스를 시작할 수 **** 있습니다.
 3. 마 **쳤습니다** .를 클릭하여 Surface UEFI 구성 패키지 설치를 완료하고 설치하라는 메시지가 표시될 때 Surface 디바이스를 다시 시작합니다.
 4. Surface UEFI는 구성 파일을 로드하고 장치에서 SEMM이 사용되지 않는지 확인합니다. 그러면 Surface UEFI에서 다음과 같이 SEMM 등록 프로세스를 시작됩니다.
@@ -132,7 +135,7 @@ Surface UEFI 구성 패키지를 사용하여 SEMM에 Surface 디바이스를 �
 
    * Surface UEFI는 SEMM 인증서를 펌웨어에 저장하고 Surface UEFI 구성 파일에 지정된 구성 설정을 적용합니다.
    
-5. 이제 Surface 디바이스가 SEMM에 등록되어 있으며 디바이스로 Windows.
+5. 이제 Surface 디바이스가 SEMM에 등록되어 있으며 디바이스가 Windows.
 
 그림 9에 표시된 프로그램 및 기능의 **Microsoft Surface** 구성 패키지 또는 이벤트 뷰어의 응용 프로그램 및 서비스 로그에 있는 **** **Microsoft Surface UEFI** 구성자 로그에 저장된 이벤트(그림 10에 표시)에서 Surface 디바이스가 SEMM에 성공적으로 등록되어 있는지 확인할 수 **** 있습니다.
 
@@ -144,7 +147,7 @@ Surface UEFI 구성 패키지를 사용하여 SEMM에 Surface 디바이스를 �
 
 *그림 10. 이벤트 뷰어에서 SEMM에서 Surface 디바이스 등록 확인*
 
-디바이스가 등록된 동안 Surface UEFI에서 장치가 SEMM에 등록되어 있는지 확인할 수 있습니다. **Surface** UEFI에는 Enterprise 관리 페이지가 포함되어 있습니다(그림 11 참조).
+디바이스가 등록된 동안 Surface UEFI에서 장치가 SEMM에 등록되어 있는지 확인할 수 있습니다. Surface UEFI에는 Enterprise 관리 페이지가 포함되어 있습니다(그림 11 참조).****
 
 :::image type="content" alt-text="Surface UEFI Enterprise 페이지입니다." source="images/surface-semm-enroll-fig11.png":::
 
@@ -153,11 +156,11 @@ Surface UEFI 구성 패키지를 사용하여 SEMM에 Surface 디바이스를 �
 
 ## <a name="configure-surface-uefi-settings-with-semm"></a>SEMM을 사용하여 Surface UEFI 설정 구성
 
-장치가 SEMM에 등록된 후 동일한 SEMM 인증서로 서명된 Surface UEFI 구성 패키지를 실행하여 새 Surface UEFI 설정을 적용할 수 있습니다. 이러한 설정은 다음에 디바이스가 부팅될 때 사용자와의 상호 작용 없이 자동으로 적용됩니다. UEFI와 같은 응용 프로그램 배포 솔루션을 Microsoft Endpoint Configuration Manager Surface 디바이스에 Surface UEFI 구성 패키지를 배포하여 Surface UEFI의 설정을 변경하거나 관리할 수 있습니다.
+장치가 SEMM에 등록된 후 동일한 SEMM 인증서로 서명된 Surface UEFI 구성 패키지를 실행하여 새 Surface UEFI 설정을 적용할 수 있습니다. 이러한 설정은 다음에 디바이스가 부팅될 때 사용자와의 상호 작용 없이 자동으로 적용됩니다. 디바이스와 같은 응용 프로그램 배포 솔루션을 Microsoft Endpoint Configuration Manager Surface 디바이스에 Surface UEFI 구성 패키지를 배포하여 Surface UEFI의 설정을 변경하거나 관리할 수 있습니다.
 
 Configuration Manager를 사용하여 Windows Installer(.msi) 파일을 배포하는 방법에 대한 자세한 내용은 [Deploy and manage applications with Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt627959).
 
-암호로 Surface UEFI를 보호한 경우 암호가 없는 사용자는 PC **정보, 정보********, Enterprise** 관리 및 종료 페이지만 표시됩니다.****
+암호로 Surface UEFI를 보호한 경우 Surface UEFI로 부팅을 시도하는 암호가 없는 사용자에게는 **PC** **정보, 정보****, Enterprise** 관리 및 종료 페이지만 표시됩니다.****
 
 암호로 Surface UEFI를 보호하지 않은 경우 또는 사용자가 암호를 올바르게 입력하면 SEMM으로 구성된 설정이 희미해지며(사용할 수 없음) 조직에서 관리하는 텍스트 일부 설정이 그림 12와 같이 페이지 맨 위에 표시됩니다.
 

@@ -14,12 +14,15 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 11/30/2021
-ms.openlocfilehash: 09982dff2e44ffc2ebe9b890588e5a62a3259cf5
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8f09941b555ba1b0870bd1e27fa1b85d0d72a19c
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338491"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448441"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>Surface Dock 2를 사용한 Wake On LAN
 
@@ -33,7 +36,7 @@ ms.locfileid: "12338491"
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
 > [!NOTE]
-> Surface Dock 2에 연결된 장치를 깨우는 경우 Surface Enterprise 관리 모드(SEMM)를 사용하지 말고 UEFI 정책 설정을 사용할 필요가 없습니다.
+> Surface Dock 2에 연결된 깨어나는 장치는 Surface Enterprise 관리 모드(SEMM)를 사용하지 말고 UEFI 정책 설정을 사용할 필요가 없습니다.
  
 ## <a name="supported-surface-devices"></a>지원되는 Surface 디바이스
 
@@ -45,9 +48,9 @@ ms.locfileid: "12338491"
 - Surface Pro 7
 - Surface Pro X
 - Surface Go(모든 세대)
-- Surface Laptop 이동
+- Surface Laptop Go
 - Surface Book 3
-- Surface Laptop Studio
+- Surface Laptop 스튜디오
 
 Surface Dock 2는 다음과 같은 전원 상태의 장치에 대해 WOL 지원을 제공합니다.
 

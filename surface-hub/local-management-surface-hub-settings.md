@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: ff70b7033e83804f178d35e22935011936ba2d14
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11883005"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449121"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Surface Hub 설정에 대한 로컬 관리
 
@@ -55,7 +55,8 @@ Surface Hub에는 다른 Windows 장치와 공통된 설정이 많지만 Surface
 | 유지 관리 시간 | 업데이트 및 보안 &gt; Windows 업데이트 &gt; 고급 옵션 | 업데이트를 설치할 수 있는 시기를 구성합니다. |
 | 클라우드에서 복구 | 업데이트 및 보안 > 복구 | Surface Hub의 운영 체제를 클라우드의 제조업체 빌드에 다시 설치합니다. |
 | BitLocker 키 저장 | 업데이트 및 보안 > 복구 | Surface Hub의 BitLocker 키를 USB 드라이브에 백업합니다. |
-| 로그 수집 | 업데이트 및 보안 &gt; 복구 | 나중에 Microsoft에 보낼 로그를 USB 드라이브에 저장합니다. | 
+| 로그 수집 | 보안 & 업데이트 > 로그 | 나중에 Microsoft에 보낼 로그를 USB 드라이브에 저장합니다. | 
+| 이벤트 뷰어 | 보안 & 업데이트 > 로그 | 이벤트 Windows 시작하여 이벤트 뷰어에서 발생된 이벤트를 Surface Hub. | 
 
 ## <a name="related-topics"></a>관련 항목
 

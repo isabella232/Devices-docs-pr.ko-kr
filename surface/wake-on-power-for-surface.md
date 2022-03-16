@@ -20,12 +20,15 @@ ms.topic: article
 manager: laurawi
 ms.audience: itpro
 ms.date: 12/08/2021
-ms.openlocfilehash: e8e4ddbd559fc6aea2d04e61208b911ebef3ec22
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 44508875254d2e3d004afef710b43ada2911de08
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338401"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448661"
 ---
 # <a name="wake-on-power-for-surface-devices"></a>Surface 디바이스에 대한 Wake On Power
 
@@ -34,15 +37,15 @@ ms.locfileid: "12338401"
 절전 모드 해제 기능은 다음 장치에서 사용할 수 있습니다.
 
 - Surface Pro 8(상업용 SUS만 해당)
-- Surface Pro 7+(상업용 SKUS만 해당)
-- Surface Pro X(모든 SKUS)
+- Surface Pro 7+(상업용 SUS만 해당)
+- Surface Pro X(모든 SUS)
 - Surface Pro 7(모든 SKUS)
 - Surface Go 3(상업용 SKUS만 해당)
 - Surface Laptop Studio(상업용 SKUS만 해당)
-- Surface Book 3(모든 SUS)
-- Surface Laptop 4(상업용 SUS만 해당)
+- Surface Book 3(모든 SKUS)
+- Surface Laptop 4(상업용 SKUS만 해당)
 - Surface Laptop 3(모든 SKUS)
-- Surface Laptop 이동(모든 SKUS)
+- Surface Laptop 이동(모든 SUS)
 
 
 >[!TIP]
@@ -50,7 +53,7 @@ ms.locfileid: "12338401"
 
 ## <a name="overview-and-prerequisites"></a>개요 및 선행 준비
 
-Surface UEFI 구성 도구를 사용하면 개별 UEFI 설정을 대상 Windows 배포할 .msi 설치 관리자 패키지에 저장할 수 있습니다. 
+Surface UEFI 구성 도구를 사용하면 개별 UEFI 설정을 대상 Windows 배포할 .msi 패키지에 저장할 수 있습니다. 
 
 > [!NOTE]
 > 이 문서에서는 SEMM 사용 방법을 알고 있는 것으로 가정합니다. 자세한 내용은 [Surface Enterprise 관리 모드(SEMM) 설명서를 참조](surface-enterprise-management-mode.md)하세요.
@@ -78,7 +81,7 @@ Surface UEFI 구성 도구를 사용하면 개별 UEFI 설정을 대상 Windows 
 
 ## <a name="apply-the-msi-package"></a>MSI 패키지 적용 
 
-네트워크의 디바이스에 MSI 패키지를 적용할 수 있습니다( 예: Microsoft Endpoint Configuration Manager. 이 절차에는 로컬 컴퓨터에 패키지를 설치하는 단계가 포함됩니다. 
+네트워크의 디바이스에 MSI 패키지를 적용할 수 있습니다. MSI 패키지는 네트워크의 장치와 같은 소프트웨어 배포 도구를 사용하여 Microsoft Endpoint Configuration Manager. 이 절차에는 로컬 컴퓨터에 패키지를 설치하는 단계가 포함됩니다. 
 
 1.  승격된 명령 프롬프트에서 .msi 파일의 전체 경로를 입력하여 .msi 실행합니다. 
 

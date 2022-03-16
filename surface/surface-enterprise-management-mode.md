@@ -14,12 +14,15 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 12/08/2021
-ms.openlocfilehash: 8b9a39d412efeff30a7f864d5c38b6135dca4b9b
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 4e1d9b012b79fadc7876d3cd5d8004eee4955ea8
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338101"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449201"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Microsoft Surface Enterprise 관리 모드
 
@@ -36,13 +39,13 @@ SEMM은 Surface UEFI 펌웨어가 있는 장치에서만 사용할 수 있습니
 
 - Surface Pro 8(상업용 SUS만 해당)
 - Surface Pro 4 이상(모든 SUS)
-- Surface Pro X(모든 SKUS)
+- Surface Pro X(모든 SUS)
 - Surface Laptop SE(모든 SUS)
 - Surface Laptop Studio(상업용 SKUS만 해당) 
 - Surface Hub 2S
-- Surface Laptop 4(상업용 SUS만 해당)
+- Surface Laptop 4(상업용 SKUS만 해당)
 - Surface Laptop 3(Intel 프로세서만 해당)
-- Surface Laptop 이동 
+- Surface Laptop Go 
 - Surface Book(모든 세대)
 - Surface Go, Surface Go 2
 - Surface Go 3(상업용 SKUS만 해당)
@@ -104,7 +107,7 @@ Surface UEFI 구성 패키지는 Surface 디바이스에서 SEMM을 구현하고
 SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 의 2부에서 [Surface Enterprise 관리](#surface-enterprise-management-mode-certificate-requirements) 모드 인증서 요구 사항 섹션을 참조하세요.
 
 >[!TIP]
->SEMM을 사용하여 UEFI 암호를 요구할 수 있습니다. 이 경우 Surface UEFI의 **보안, 장치**, 부팅 구성 및 보안 관리 **** 페이지를 Enterprise 암호가 **** 필요합니다. ****
+>SEMM을 사용하여 UEFI 암호를 요구할 수 있습니다. 이 경우 Surface UEFI의 **보안, 장치**, 부팅 구성 및 보안 관리 **** Enterprise 암호가 필요합니다****. ****
 
 장치가 SEMM에 등록된 후 구성 파일을 읽고 파일에 지정된 설정이 UEFI에 적용됩니다. 이미 SEMM에 등록된 장치에서 구성 패키지를 실행하면 구성 파일의 서명이 장치 펌웨어에 저장된 인증서에 대해 확인됩니다. 서명이 일치하지 않는 경우 장치에 변경 내용이 적용되지 않습니다.
 
@@ -141,11 +144,11 @@ SEMM 인증서의 요구 사항에 대한 자세한 내용은 이 문서 의 2�
 | 자동 전원 공급                      | 자동 전원 사용 부팅 설정을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 자동 전원 사용이 사용하도록 설정됩니다.                                                                                                        |
 | SMT(동시 다중 스레딩) | SMT(동시 다중 스레딩)를 관리하여 하이퍼스레딩을 활성화 또는 비활성화할 수 있습니다. 이 설정을 구성하지 않은 경우 SMT가 사용하도록 설정됩니다.                                                  |
 |배터리 제한 사용| 배터리 제한 기능을 관리할 수 있습니다. 이 설정을 구성하지 않은 경우 배터리 제한이 사용하도록 설정됩니다. |
-| Security                           | Surface **UEFI 보안** 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
+| 보안                           | Surface **UEFI 보안** 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 보안 페이지가 표시됩니다.                                                                                                                 |
 | 장치                            | Surface UEFI 장치 **페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 장치 페이지가 표시됩니다.                                                                                                                     |
 | Boot                               | Surface **UEFI 부팅** 페이지를 표시됩니다. 이 설정을 구성하지 않은 경우 부팅 페이지가 표시됩니다.                                                                                                                                                            |
 | DateTime                           | Surface UEFI **DateTime 페이지를** 표시됩니다. 이 설정을 구성하지 않은 경우 DateTime 페이지가 표시됩니다.                                                                                                                |
-| EnableOSMigration                          | 2에서 Surface Hub 2를 마이그레이션할 Windows 10 Team Windows 10 Pro Enterprise. 이 설정을 구성하지 않는 경우 Surface Hub 2 장치가 하나의 OS만 실행할 Windows 10 Team 있습니다. 참고: Windows 10 Team 및 Windows 10 Pro/Enterprise 2에서는 이중 부팅을 사용할 Surface Hub 없습니다.                                                                                                           |
+| EnableOSMigration                          | Surface Hub 2를 Windows 10 Team Windows 10/11로 Pro Enterprise. 이 설정을 구성하지 않는 경우 두 Surface Hub OS만 실행할 Windows 10 Team 있습니다. 참고: Windows 10 Team 및 Windows 10/11 Pro/Enterprise 간의 이중 부팅은 Surface Hub 2에서 사용할 수 없습니다.                                                                                                           |
 
 >[!TIP]
 >SEMM 구성 패키지를 만들면 그림 3과 같이 성공 페이지에 두 문자 **** 가 표시됩니다.
@@ -181,12 +184,12 @@ Surface UEFI 재설정 패키지는 SEMM에서 Surface 디바이스를 초기화
 
 ### <a name="recovery-request"></a>복구 요청
 
-일부 시나리오에서는 Surface UEFI 재설정 패키지를 사용하는 것이 불가능할 수 있습니다. 예를 들어 Surface Windows 사용할 수 없는 경우) 이러한 시나리오에서는 복구 요청 작업을 사용하여 Surface UEFI의 Enterprise 관리 페이지를 통해 SeMM **** 에서 Surface 디바이스의 디바이스를 회수할 수 있습니다.
+일부 시나리오에서는 Surface UEFI 재설정 패키지를 사용하는 것이 불가능할 수 있습니다. 예를 들어 Surface Windows 사용할 수 없는 경우) 이러한 시나리오에서는 복구 요청 작업을 사용하여 Surface UEFI의 Enterprise 관리 페이지를 통해 Surface 디바이스 **** 의 설치를 해지할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![SEMM 복구 요청을 초기화합니다.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
-*그림 5. Enterprise 페이지에서 SEMM 복구 요청 시작*
+*그림 5. Enterprise 관리 페이지에서 SEMM 복구 요청 시작*
 
 surface 디바이스에서 Enterprise 관리 페이지에서 프로세스를 **** 사용하여 SEMM을 다시 설정하면 초기화 요청이 제공됩니다. 이 재설정 요청은 USB 드라이브에 파일로 저장하거나 텍스트로 복사하거나 모바일 장치를 사용하여 QR 코드로 읽을 수 있습니다. Microsoft Surface UEFI 구성기 다시 설정 요청 옵션을 사용하여 다시 설정 요청 파일을 로드하거나 요청 텍스트 또는 QR 코드 재설정을 입력합니다. Microsoft Surface UEFI 구성기는 Surface 디바이스에 입력할 수 있는 확인 코드를 생성합니다. Surface 디바이스에 코드를 입력하고 다시 시작을 선택하면 디바이스**** 가 SEMM에서 인가되지 않습니다.
 
@@ -222,7 +225,7 @@ SEMM 인증서에 권장되는 설정은 다음과 같습니다.
 ### <a name="self-signed-certificate"></a>자체 서명된 인증서
 
 다음 예제 PowerShell 스크립트를 사용하여 개념 증명 시나리오에서 사용할 자체 서명된 인증서를 만들 수 있습니다.
-이 스크립트를 사용 하 고 다음 텍스트를 복사 하는 메모장 파일을 PowerShell 스크립트 (.ps1).
+이 스크립트를 사용 하 고 다음 텍스트를 복사 하 메모장 PowerShell 스크립트로 파일을 저장 (.ps1.
 
 > [!NOTE]
 > 이 스크립트는 의 암호를 사용하여 인증서를 만듭니다 `12345678`. 이 스크립트로 생성된 인증서는 프로덕션 환경에는 권장되지 않습니다.
@@ -256,7 +259,7 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 자체 서명된 인증서를 만들 수 있는 경우:
 
 1. C: 드라이브에서 스크립트를 저장할 폴더를 생성합니다. 예: C:\SEMM.
-2. 예제 스크립트를 메모장(또는 해당하는 텍스트 편집기)에 복사한 다음 파일을 PowerShell 스크립트(.ps1) 저장합니다.
+2. 예제 스크립트를 파일(또는 메모장 편집기)에 복사한 다음 파일을 PowerShell 스크립트(파일 편집기)로 .ps1.
 3. 관리자 자격 증명을 사용하여 컴퓨터에 로그인한 다음 관리자 권한 PowerShell 세션을  열 수 있습니다.
 4. 스크립트 실행을 허용하도록 사용 권한이 설정되어 있는지 확인 기본적으로 실행 정책을 수정하지 않으면 스크립트가 실행되지 않습니다. 자세한 내용은 [실행 정책 정보를 참조합니다](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 5. 명령 프롬프트에서 스크립트의 전체 경로를 입력한 다음 **Enter를 누를 수 있습니다**. 이 스크립트는 TempOwner.pfx라는 데모 인증서를 만듭니다.
@@ -320,10 +323,10 @@ SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유�
 이 SEMM 버전에는 다음이 포함됩니다.
 
 - SEMM을 사용하여 Surface Hub2S에서 오디오를 사용하지 않도록 설정하는 기능을 제공합니다.
-- Dock 2용 Surface Pro X 지원
+- Dock 2용 Surface Pro X 지원.
 - Dock 2 관련 작업에 대한 UEFI 관리자 지원
 - Surface Go 패키지 버그 수정.
-- Surface Hub OS에서 Windows 10 Team 또는 Windows 10 Pro 장치로 Enterprise.
+- Surface Hub OS에서 Surface Hub 또는 Windows 10 Team 장치로 Windows 10 Pro Enterprise.
 
 ### <a name="version-2711390"></a>버전 2.71.139.0
 
@@ -344,7 +347,7 @@ SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유�
 
 이 SEMM 버전에는 다음이 포함됩니다.
 
-- Intel 프로세서가 Surface Pro 7, Surface Pro X 및 Surface Laptop 3 13.5인치 및 15인치 모델이 지원됩니다.
+- Intel 프로세서가 Surface Pro 7, Surface Pro X 및 Surface Laptop 3 13.5인치 및 15인치 모델 지원
     >[!NOTE]
     >Surface Laptop 3 15인치 AMD 프로세서는 지원되지 않습니다.
 - 절전 모드 해제 기능 지원.
@@ -375,7 +378,7 @@ SEMM 재설정 또는 복구가 작동하게 하려는 경우 인증서가 유�
 
 이 SEMM 버전에는 다음이 포함됩니다.
 
-- Surface Pro 6.
+- 6. Surface Pro 지원.
 - Surface Laptop 지원 2.
 
 ### <a name="version-2141360"></a>버전 2.14.136.0
