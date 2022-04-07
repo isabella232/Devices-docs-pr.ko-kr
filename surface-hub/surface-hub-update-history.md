@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: a5556181b6d7642933bcb10c3073ffddc494015f
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 70b052ec9bc87c0062f72e884c17e6be9cdfdbc0
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12449131"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472337"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
@@ -31,9 +31,21 @@ Windows 10은 서비스로 설계되었으므로 정기적인 소프트웨어 �
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
 
 <details>
+<summary>2022년 3월 22일 - KB5011543* 기반 팀용 업데이트(OS 빌드 19042.1620)</summary>
+
+Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 설명되어 있지 않은 Surface Hub 주요 업데이트는 다음을 포함합니다.
+
+* 관리자가 [프로그레시브 웹 앱 설치](install-pwa-surface-hub.md)(PWA) 기능을 추가합니다.
+* Azure AD에 조인되거나 로컬 관리자 계정으로 구성된 Surface Hub가 컴퓨터 시계를 동기화하지 못할 수 있는 문제를 해결합니다.
+* Authenticator 앱에서 모임 및 파일 로그인 제안을 사용하면 사용자가 로그인 프로세스를 반복해야 하는 문제를 해결합니다.
+ 
+장치 기능 및 서비스 활성화/비활성화에 대한 내용은 [Surface Hub 관리자 가이드](/surface-hub/)를 참조하세요. *[KB5011543](https://support.microsoft.com/help/5011543)
+</details>
+
+<details>
 <summary>2022년 2월 15일 — KB5010415* 기반 팀 업데이트(OS 빌드 19042.1566)</summary>
 
- Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. Surface Hub에 대한 주요 업데이트는 [Windows 10 Team 2020 업데이트 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2)에 요약되어 있으며 다음과 같은 기능도 포함되어 있습니다.
+Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. Surface Hub에 대한 주요 업데이트는 [Windows 10 Team 2020 업데이트 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2)에 요약되어 있으며 다음과 같은 기능도 포함되어 있습니다.
 
 * 장치 계정을 설정하는 동안 Exchange 서비스를 사용하지 않도록 설정할 수 있는 수정 사항입니다.
 * 온-프레미스 Exchange 사서함을 사용할 때 일부 장치 계정 설정 시나리오의 안정성이 개선되었습니다.
@@ -114,7 +126,7 @@ Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항
 
 * "로그 수집" 기능으로 업데이트하여 Windows 진단 데이터를 CSV 형식으로 포함할 수 있습니다.
 * 종료 세션 정리가 Edge Chromium과 관련된 모든 데이터를 완전히 제거하도록 하는 수정 사항입니다.
-* Authenticator 앱을 사용할 때 Azure AD 조인 Surface Hub를 사용하는 일부 시나리오를 개선합니다.
+* Authenticator 앱을 사용할 때 Azure AD 조인 Surface Hub를 사용하는 일부 개인 로그인 시나리오를 개선합니다.
 
 장치 기능 및 서비스 활성화/비활성화에 대한 내용은 [Surface Hub 관리자 가이드](/surface-hub/)를 참조하세요. *[KB5004296](https://support.microsoft.com/help/5004296)
 </details>
@@ -161,7 +173,7 @@ Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항
 Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 설명되어 있지 않은 Surface Hub 주요 업데이트는 다음을 포함합니다.
 
 * 장치 계정의 UPN이 SMTP와 동일하지 않을 때 Exchange와의 일정 동기화가 작동할 수 있도록 하는 수정 사항입니다.
-* 관리자가 Exchange와 일정 동기화 중에 최신 인증 사용을 비활성화할 수 있는 기능을 추가합니다.
+* Exchange와 일정 동기화 중에 관리자가 [최신 인증 사용을 비활성화](/windows/client-management/mdm/surfacehub-csp#deviceaccount-exchangemodernauthenabled)할 수 있는 기능 추가합니다.
 * "장치 계정 자격 증명 정보 사용" 기능이 활성화된 후 Surface Hub 사용자에게 프록시 인증 정보를 입력하라는 메시지가 표시되지 않도록 합니다.
 * 인증이 필요한 프록시가 사용 중인 경우 Windows Update 및 Microsoft Store 업데이트 확인이 완료되지 않는 문제를 해결합니다.
 * 유선 수집 시나리오 중 Connect 앱의 안정성을 개선합니다.
