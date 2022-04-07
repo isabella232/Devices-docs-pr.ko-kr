@@ -15,12 +15,12 @@ audience: itpro
 appliesto:
 - Windows 10
 - Windows 11
-ms.openlocfilehash: 54a6fd560b16d29e8a155bcf24efd814a6d5bf77
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 37cea81c7d23b2b00e5d7d1136963fae55d9c193
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12449621"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472437"
 ---
 # <a name="surface-driver-and-firmware-lifecycle-for-windows-based-devices"></a>Windows 기반 장치용 Surface 드라이버 및 펌웨어 수명 주기
  
@@ -77,6 +77,7 @@ Surface 드라이버 및 펌웨어 수명 주기는 장치에 대한 드라이�
 | Surface Pro 8                      | 2021년 10월 5일   |2025년 10월 5일|
 | Surface Laptop 스튜디오              | 2021년 10월 5일   |2025년 10월 5일|
 | Surface Go 3                       | 2021년 10월 5일   |2025년 10월 5일|
+| Surface Laptop SE                  | 2022년 1월 11일  |2026년 1월 11일|
 
  **1.** *이전에 선언된 펌웨어/드라이버 서비스 지원 날짜가 종료된 장치를 나타냅니다.*
 

@@ -19,6 +19,8 @@
           href: 'https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d'
         - name: 일반 데이터 개인 정보 보호 규정 및 Surface Hub
           href: general-data-privacy-regulation-and-surface-hub.md
+        - name: Surface Hub 2 스마트 카메라 설치 및 관리
+          href: surface-hub-2-smart-camera.md
     - name: 계획
       items:
         - name: Surface Hub 2S 사이트 준비 가이드
@@ -61,6 +63,8 @@
               href: apply-activesync-policies-for-surface-hub-device-accounts.md
         - name: Surface Hub용 프로비전 패키지 만들기
           href: provisioning-packages-for-surface-hub.md
+        - name: Surface Hub 프로그레시브 Web Apps 설치
+          href: install-pwa-surface-hub.md
         - name: Windows 10 Pro/Enterprise
           items:
             - name: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션

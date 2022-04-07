@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: bb947ae85d725a140ea2cc789575c0d40436ba97
-  ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+  ms.openlocfilehash: a373029bf07e6f36486342d2e27209365ff7c1b3
+  ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/16/2022
-  ms.locfileid: "12449211"
+  ms.lasthandoff: 04/06/2022
+  ms.locfileid: "12472567"
 landingContent:
 - title: 새로운 기능
   linkLists:
@@ -27,6 +27,10 @@ landingContent:
     links:
     - text: 릴리스된 최신 Surface Hub OS 업데이트
       url: surface-hub-2020-update-whats-new.md
+    - text: Surface Hub 프로그레시브 Web Apps 설치
+      url: install-pwa-surface-hub.md
+    - text: Surface Hub 2 스마트 카메라 설치 및 관리
+      url: surface-hub-2-smart-camera.md
     - text: Surface Hub 사무실로 돌아가기 비디오 시리즈
       url: surface-hub-return-to-office-videos.md
     - text: Surface Hub Microsoft Teams 룸
