@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: cd0112f805b60b16c7f32099d5f5e3fde3c821fb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 6d921fd1a418863eaf03434f2c27344470f12ca2
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911383"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497741"
 ---
 # <a name="surface-hub-security-overview"></a>Surface Hub 보안 개요
 
@@ -44,7 +44,7 @@ SoC에는 다른 모든 코어와는 분리된 보안 프로세서가 있습니�
 
 #### <a name="secure-boot"></a>보안 부팅
 
-보안 부팅은 드라이버 및 운영 체제를 포함하여 부팅 프로세스의 구성 요소가 유효하고 알려진 서명의 데이터베이스에 대해 검증되었는지 확인하는 데 사용됩니다. Surface Hub에서 먼저 플랫폼 관련 서명의 유효성을 검사한 후에 공인 Windows Team 운영 체제를 로드할 수 있습니다. 이를 통해 정상적인 사용자 환경으로 보이는 악성 코드를 실행하는 복제되거나 수정된 시스템의 공격을 방지할 수 있습니다.  자세한 내용은 [보안 부팅 개요](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)를 참조하세요.
+보안 부팅은 드라이버 및 운영 체제를 포함하여 부팅 프로세스의 구성 요소가 유효하고 알려진 서명의 데이터베이스에 대해 검증되었는지 확인하는 데 사용됩니다. Surface Hub에서 먼저 플랫폼 관련 서명의 유효성을 검사한 후에 공인 Windows Team 운영 체제를 로드할 수 있습니다. 이를 통해 정상적인 사용자 환경으로 보이는 악성 코드를 실행하는 복제되거나 수정된 시스템의 공격을 방지할 수 있습니다.  자세한 내용은 [보안 부팅 개요](/windows-hardware/design/device-experiences/oem-secure-boot)를 참조하세요.
 
 ### <a name="operating-system-defenses"></a>운영 체제 방어
 
@@ -52,7 +52,7 @@ SoC에는 다른 모든 코어와는 분리된 보안 프로세서가 있습니�
 
 Surface Hub는 Windows Application Control(이전까지의 Device Guard)에서 UMCI(사용자 모드 코드 무결성)라는 코드 서명 기능을 사용합니다. 정책 설정은 다음 요구 사항 중 하나를 충족하는 앱만 허용하도록 구성되어 있습니다.
 
-- [공식적으로 인증된](https://docs.microsoft.com/windows/uwp/publish/the-app-certification-process) 유니버설 Windows 플랫폼(Microsoft Store) 앱.
+- [공식적으로 인증된](/windows/uwp/publish/the-app-certification-process) 유니버설 Windows 플랫폼(Microsoft Store) 앱.
 - 고유한 Microsoft 프로덕션 루트 CA(인증 기관)로 서명된 앱(해당 인증서에 대한 액세스 권한이 부여된 Microsoft 직원만 서명할 수 있음).
 - 고유한 Surface Hub 프로덕션 루트 C로 서명된 앱.
 
@@ -66,9 +66,9 @@ Surface Hub는 Windows Application Control(이전까지의 Device Guard)에서 U
 
 Surface Hub는 UMCI를 통해 서명되지 않거나 잘못 서명된 코드를 차단하는 것 외에도 Windows Application Control을 사용하여 명령 프롬프트, PowerShell 및 작업 관리자와 같은 Windows 구성 요소를 차단합니다. 이러한 보호책은 안전한 컴퓨팅 어플라이언스로 Surface Hub의 주요 설계 기능을 반영합니다. 자세한 내용은 다음을 참조하십시오.
 
-- [Application Control 개요](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [Application Control 개요](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 
-- [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
 ### <a name="user-interface-defenses"></a>사용자 인터페이스 방어
 
@@ -98,7 +98,7 @@ SEMM(Microsoft Surface Enterprise 관리 모드)를 통해 관리되는 경우 I
 
 ![Surface Hub UEFI 설정.](images/hub-sec-2.png)
 
-관리자는 다운로드 가능한 [Microsoft Surface UEFI 구성기](https://www.microsoft.com/download/details.aspx?id=46703)를 사용하여 SEMM과 등록된 Surface Hub 2S 장치를 구현할 수 있습니다. 자세한 내용은 [SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리하기](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)를 참조하세요.
+관리자는 다운로드 가능한 [Microsoft Surface UEFI 구성기](https://www.microsoft.com/download/details.aspx?id=46703)를 사용하여 SEMM과 등록된 Surface Hub 2S 장치를 구현할 수 있습니다. 자세한 내용은 [SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리하기](/surface-hub/surface-hub-2s-secure-with-uefi-semm)를 참조하세요.
 인증서를 사용하여 허가되지 않은 변조 또는 제거로부터 구성을 보호하는 SEMM을 통해 다음 구성 요소를 관리할 수 있습니다.
 
 - 유선 LAN
@@ -124,14 +124,14 @@ Surface Hub 2S를 사용하면 관리자는 복구 이미지를 사용하여 20�
 
 Surface Hub는 "룸 계정"이라는 장치 계정을 사용하여 Exchange, Microsoft Teams 및 기타 서비스를 인증합니다. 암호 순환을 사용하도록 설정하면 Hub 2S는 자동으로 7일마다 대문자, 소문자, 숫자 및 특수 문자를 조합하여 15~32문자로 구성된 새 암호를 생성합니다. 사용자가 암호를 알고 있는 것이 아니기 때문에 장치 계정 암호 순환은 사용자 오류와 사회 공학적 보안 공격에 관련된 위험을 효과적으로 완화합니다.
 
-## <a name="windows-10-enterprise-grade-security"></a>Windows 10 엔터프라이즈급 보안
+## <a name="enterprise-grade-security"></a>엔터프라이즈급 보안
 
-Surface Hub는 이 문서에서 다루는 Surface Hub 관련 구성 및 기능 외에도 Windows 10의 표준 보안 기능을 사용합니다. 확인할 수 있습니다.
+이 문서에서 다루는 Surface Hub 관련 구성 및 기능 외에도 Surface Hub는 표준 Windows 보안 기능도 사용합니다. 확인할 수 있습니다.
 
-- **BitLocker** Surface Hub SSD는 BitLocker를 장착하여 장치의 데이터를 보호합니다. 해당 구성은 업계 표준을 따릅니다. 자세한 내용은 [BitLocker 개요](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)를 참조하세요.
-- **Windows Defender** Windows Defender 맬웨어 방지 엔진은 Surface Hub에서 지속적으로 실행되며, Surface Hub에서 발견되는 위협을 자동으로 해결합니다. Windows Defender 엔진은 자동으로 업데이트를 받으며, IT 관리자용 원격 관리 도구를 통해 관리할 수 있습니다. Windows Defender 엔진은 심층 방어 접근 방식을 완벽하게 보여 주는 예제입니다. 맬웨어가 핵심 코드 신호 기반 보안 솔루션을 찾는 방법을 찾을 수 있는 경우 여기에서 발견됩니다. 자세한 내용은 [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)를 참조하세요.
+- **BitLocker** Surface Hub SSD는 BitLocker를 장착하여 장치의 데이터를 보호합니다. 해당 구성은 업계 표준을 따릅니다. 자세한 내용은 [BitLocker 개요](/windows-hardware/design/device-experiences/oem-secure-boot)를 참조하세요.
+- **Windows Defender** Windows Defender 맬웨어 방지 엔진은 Surface Hub에서 지속적으로 실행되며, Surface Hub에서 발견되는 위협을 자동으로 해결합니다. Windows Defender 엔진은 자동으로 업데이트를 받으며, IT 관리자용 원격 관리 도구를 통해 관리할 수 있습니다. Windows Defender 엔진은 심층 방어 접근 방식을 완벽하게 보여 주는 예제입니다. 맬웨어가 핵심 코드 신호 기반 보안 솔루션을 찾는 방법을 찾을 수 있는 경우 여기에서 발견됩니다. 자세한 내용은 [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)를 참조하세요.
 - **플러그 앤 플레이 드라이버.** 드라이버를 통해 악성 코드가 장치에 도달하는 것을 방지하기 위해 Surface Hub는 PnP 장치용 고급 드라이버를 다운로드하지 않습니다. 이를 통해 USB 플래시 드라이브와 같은 기본 드라이버를 활용하는 장치는 프린터와 같은 고급 시스템을 차단하면서 예상대로 작동할 수 있습니다.
-- **신뢰할 수 있는 플랫폼 모듈 2.0** Surface Hub에는 암호화 키 및 해시를 생성하고 저장하기 위한 산업 표준 dTPM(개별 신뢰할 수 있는 플랫폼 모듈)이 있습니다. dTPM은 부팅 단계, BitLocker 마스터 키, 암호가 없는 sign-on 키 등을 확인하는 데 사용되는 키를 보호합니다. dTPM은 [FIPS 140-2 수준 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation) 인증, 미국 정부 컴퓨터 보안 표준을 충족하고, 전 세계에서 사용하는 [공통 평가 기준](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria) 인증을 준수합니다.
+- **신뢰할 수 있는 플랫폼 모듈 2.0** Surface Hub에는 암호화 키 및 해시를 생성하고 저장하기 위한 산업 표준 dTPM(개별 신뢰할 수 있는 플랫폼 모듈)이 있습니다. dTPM은 부팅 단계, BitLocker 마스터 키, 암호가 없는 sign-on 키 등을 확인하는 데 사용되는 키를 보호합니다. dTPM은 [FIPS 140-2 수준 2](/windows/security/threat-protection/fips-140-validation) 인증, 미국 정부 컴퓨터 보안 표준을 충족하고, 전 세계에서 사용하는 [공통 평가 기준](/windows/security/threat-protection/windows-platform-common-criteria) 인증을 준수합니다.
 
 ## <a name="wireless-security-for-surface-hub"></a>Surface Hub에 대한 무선 보안
 
@@ -141,24 +141,24 @@ Miracast는 Wi-Fi Direct 프로토콜이 지원하는 Wi-Fi 디스플레이 표�
 
 Wi-Fi Direct 또는 Wi-Fi "P2P"(피어 투 피어)는 Wi-Fi Alliance가 "애드혹" 네트워크용으로 발표한 표준입니다. 이 표준은 지원되는 디바이스가 일반적인 Wi-Fi 액세스 지점 또는 인터넷 연결 없이 직접 통신하고 네트워크 그룹을 만들도록 허용합니다.
 
-Wi-Fi Direct에 대한 보안은 WPA2가 WPS 표준을 사용하여 제공합니다. 숫자 핀, 물리적 또는 가상 누름 단추 또는 근거리 통신을 사용하는 대역 외 메시지를 사용하여 장치를 인증할 수 있습니다. Surface Hub는 기본적으로 누름 단추와 PIN 메서드를 모두 지원합니다. 자세한 내용은 [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)을 참조하세요.
+Wi-Fi Direct에 대한 보안은 WPA2가 WPS 표준을 사용하여 제공합니다. 숫자 핀, 물리적 또는 가상 누름 단추 또는 근거리 통신을 사용하는 대역 외 메시지를 사용하여 장치를 인증할 수 있습니다. Surface Hub는 기본적으로 누름 단추와 PIN 메서드를 모두 지원합니다. 자세한 내용은 [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](/surface-hub/surface-hub-wifi-direct)을 참조하세요.
 
 ## <a name="learn-more"></a>자세히 알아보기
 
-- [보안 부팅 개요](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)
+- [보안 부팅 개요](/windows-hardware/design/device-experiences/oem-secure-boot)
 
-- [BitLocker 개요](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)
+- [BitLocker 개요](/windows/security/information-protection/bitlocker/bitlocker-overview)
 
-- [Application Control 개요](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [Application Control 개요](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 
-- [SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)
+- [SEMM 및 UEFI를 사용하여 Surface Hub 2S 보호 및 관리](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
 
-- [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)
+- [Surface Hub가 Wi-Fi Direct 보안 문제를 해결하는 방법](/surface-hub/surface-hub-wifi-direct)
 
-- [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender Application Control 및 코드 무결성의 가상화 기반 보호](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
 - [IT용 Surface 도구](https://www.microsoft.com/download/details.aspx?id=46703)
 
-- [FIPS 140-2 수준 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
+- [FIPS 140-2 수준 2](/windows/security/threat-protection/fips-140-validation)
 
-- [공통 평가 기준 인증](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria)
+- [공통 평가 기준 인증](/windows/security/threat-protection/windows-platform-common-criteria)

@@ -9,26 +9,34 @@ author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: 70b052ec9bc87c0062f72e884c17e6be9cdfdbc0
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 9d48779195702952314baf07636749b70ce000ab
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472337"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497951"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 업데이트 기록
 
-Windows 10은 서비스로 설계되었으므로 정기적인 소프트웨어 업데이트를 통해 자동으로 향상됩니다. 일반적으로 최신 Windows 10 업데이트를 받는 데 필요한 작업은 없으며 사용 가능할 경우 항상 자동으로 다운로드되어 설치됩니다.
+Windows는 서비스로 설계되었으므로 정기적인 소프트웨어 업데이트를 통해 자동으로 개선됩니다. 일반적으로 최신 Windows 10 업데이트를 받기 위해 아무 것도 할 필요가 없습니다. 업데이트가 있을 때마다 다운로드하여 설치합니다.
 
-대부분의 Windows 업데이트는 성능 및 보안 개선에 집중하여 연중무휴로 계속 지원합니다.
+대부분의 Windows 업데이트는 성능 및 보안 개선에 중점을 둡니다. 아래 목록에는 Surface Hub 관련 기능이 향상된 최신 Windows 업데이트가 먼저 나열되어 있습니다. 업데이트는 누적되므로 사용 가능한 최신 Windows 업데이트를 설치하면(아래 목록에 없는 경우에도) 이전 업데이트의 향상된 기능도 활용할 수 있습니다. Microsoft Store 앱은 Microsoft Store를 통해 업데이트됩니다(Surface Hub의 시스템 관리자가 관리). 앱 업데이트에 대한 자세한 내용은 앱별로 제공됩니다.
 
-사용자들은 Windows 10 업데이트의 새로운 기능에 대해 자세히 알고 싶어한다는 사실을 알고 있으므로 이 페이지에서 자세한 내용을 제공합니다. 아래 목록에는 Surface Hub 관련 기능이 향상된 최신 Windows 업데이트가 먼저 나열되어 있습니다. 업데이트는 누적되므로 사용 가능한 최신 Windows 업데이트를 설치하면(아래 목록에 없는 경우에도) 이전 업데이트의 향상된 기능도 활용할 수 있습니다. Microsoft Store 앱은 Microsoft Store를 통해 업데이트됩니다(Surface Hub의 시스템 관리자가 관리). 앱 업데이트에 대한 자세한 내용은 앱별로 제공됩니다.
-
-새로운 업데이트가 릴리스되면 이 페이지를 새로 고침할 예정이므로 최신 정보를 기다려 주세요. 그리고 각 업데이트에 대해 알아보고 개선하는 데 도움을 주셔서 감사합니다!
-
-사용자의 주의가 필요할 수 있는 현재 릴리스 및 이전 릴리스에 대한 관련 항목에 대해서는 “[Surface Hub 중요 정보](https://support.microsoft.com/products/surface-devices/surface-hub)” 페이지를 참조하세요.
+> [!TIP]
+> 이 페이지는 새로운 업데이트가 릴리스되면 새로 고쳐집니다. 주의가 필요할 수 있는 현재 및 과거 릴리스에 대한 관련 주제는 [Surface Hub 중요 정보](https://support.microsoft.com/products/surface-devices/surface-hub) 페이지를 참조하세요.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 업데이트(20H2)
+
+<details>
+<summary>2022년 4월 21일 - KB5011831* 기반 팀용 업데이트(OS 빌드 19042.1679)</summary>
+
+Surface Hub에 대한 이 업데이트는 품질 향상 및 보안 수정 사항을 포함합니다. [Windows 10 업데이트 기록](https://support.microsoft.com/help/4581839/windows-10-update-history)에 설명되어 있지 않은 Surface Hub 주요 업데이트는 다음을 포함합니다.
+
+* "세션 종료"가 "장치에 업데이트가 필요합니다”라는 메시지를 트리거하지 못하도록 하는 수정 끝내기 위해 다시 시작하는 중..." 일부 시나리오에서는 이후에 다시 시작합니다.
+* [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp#deviceaccount)를 `DOMAIN\username` 형식으로 장치 계정을 구성하는 SyncML 정책과 함께 사용할 수 있도록 수정했습니다.
+ 
+장치 기능 및 서비스 활성화/비활성화에 대한 내용은 [Surface Hub 관리자 가이드](/surface-hub/)를 참조하세요. *[KB5011831](https://support.microsoft.com/help/5011831)
+</details>
 
 <details>
 <summary>2022년 3월 22일 - KB5011543* 기반 팀용 업데이트(OS 빌드 19042.1620)</summary>

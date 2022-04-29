@@ -65,13 +65,13 @@
           href: provisioning-packages-for-surface-hub.md
         - name: Surface Hub 프로그레시브 Web Apps 설치
           href: install-pwa-surface-hub.md
-        - name: Windows 10 Pro/Enterprise
+        - name: Windows 10/11 Pro 또는 Enterprise
           items:
-            - name: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise로 마이그레이션
+            - name: Surface Hub 2에서 Windows 10/11 Pro 또는 Enterprise로 마이그레이션
               href: surface-hub-2s-migrate-os.md
-            - name: Surface Hub 2에서 Windows 10 Pro 또는 Enterprise 구성
+            - name: Surface Hub 2에서 Windows 10/11 Pro 또는 Enterprise 구성
               href: surface-hub-2-post-install.md
-            - name: Surface Hub 2에서 Windows 10 Pro 및 Enterprise의 필수 추가 기능
+            - name: Surface Hub 2에서 Windows 10/11 Pro 및 Enterprise의 필수 추가 기능
               href: surface-hub-2-essential-add-ons.md
         - name: Microsoft Teams
           items:
