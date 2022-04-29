@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6a35783c08fdc4da3b3c7aabcd99da385c292d24
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 995766eb216051de270a387c15c96ee42dd008a3
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472537"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497961"
 ---
 # <a name="whats-new-in-windows-10-team-2020-updates"></a>Windows 10 Team 2020 업데이트의 새로운 기능
 
-Surface Hub 새로운 기능과 기능을 제공하는 정기 업데이트의 이점을 제공합니다. Windows 10 Team 2020 업데이트(20H2)와 이후 업데이트 1 & 업데이트 2는 최신 Windows 10 기능과 함께 디바이스 배포 및 관리 효율성이 크게 향상되었습니다.
+Surface Hub 새로운 기능과 기능을 제공하는 정기 업데이트의 이점을 제공합니다. Windows 10 Team 2020 업데이트(20H2)와 이후 업데이트 1 & 업데이트 2는 최신 Windows 기능과 함께 디바이스 배포 및 관리 효율성이 크게 향상되었습니다.
 
 ## <a name="windows-10-team-2020-update-2"></a>Windows 10 Team 2020 업데이트 2 
 
@@ -38,7 +38,7 @@ AI 기반 Surface Hub 2 스마트 카메라는 하이브리드 팀에 최적화�
 
 ### <a name="ease-of-access-updates"></a>접근성 업데이트
 
-사용자는 다른 버전의 Windows 10 것처럼 Surface Hub 세션 중에 접근성 설정을 조정하고 앱을 닫을 수 있습니다. 
+사용자는 다른 버전의 Windows 10 또는 Windows 11 것처럼 Surface Hub 세션 중에 접근성 설정을 조정하고 앱을 닫을 수 있습니다. 
 
 - **접근성.** 사용자는 로그인하지 않고 표시, 텍스트 커서, 돋보기, 고대비, 내레이터, 선택 자막 및 키보드 설정을 조정할 수 있습니다. 
 - **앱에 익숙한 UI**입니다. 사용자는 앱의 오른쪽 위 모서리에 있는 닫기 단추를 선택하여 Surface Hub 앱을 닫을 수 있습니다. 이렇게 하면 앱을 Surface Hub 표시의 아래쪽으로 끌어서 닫을 필요가 없습니다. (참고: 이 기능은 2022년 3월로 예정된 다음 Edge 업데이트의 일부로 Edge 브라우저에서 사용할 수 있습니다.) 
@@ -91,9 +91,9 @@ AI 기반 Surface Hub 2 스마트 카메라는 하이브리드 팀에 최적화�
 
 ### <a name="azure-active-directory-joined-devices"></a>조인된 디바이스 Azure Active Directory
 
-- **Azure AD 조인 디바이스에 대한 SSO(Single Sign-On)** 입니다. 사용자가 Microsoft 365 자격 증명을 사용하여 **내 모임 및 파일에** 로그인하면 브라우저의 Microsoft 365 환경을 포함하여 앱에서 앱으로 자격 증명이 원활하게 전달됩니다.
-- **Azure AD 조인 디바이스에 대한 CA(조건부 액세스)** 입니다. IT 관리자는 회사 보안 및 규정 준수 요구 사항에 따라 디바이스 정책을 할당하여 Azure AD 조인 Surface Hubs에서 조직 리소스에 대한 사용자 액세스를 제어할 수 있습니다.
-- **Azure AD 조인 디바이스에 대한 비 전역 관리자에 대한 지원**. 고객은 관리자 계층 구조 내에서 보다 세분화된 관리자 집합을 선택하여 Surface Hub 관리할 수 있습니다. 자세한 내용은 [Surface Hub 전역이 아닌 관리자 계정 구성을 참조](surface-hub-2s-nonglobal-admin.md)하세요.
+- **Azure AD 조인된 디바이스에 대한 SSO(Single Sign-On)** 입니다. 사용자가 Microsoft 365 자격 증명을 사용하여 **내 모임 및 파일에** 로그인하면 브라우저의 Microsoft 365 환경을 포함하여 앱에서 앱으로 자격 증명이 원활하게 전달됩니다.
+- **Azure AD 조인된 디바이스에 대한 CA(조건부 액세스)** 입니다. IT 관리자는 회사 보안 및 규정 준수 요구 사항에 따라 디바이스 정책을 할당하여 Azure AD 가입된 Surface Hubs에서 조직 리소스에 대한 사용자 액세스를 제어할 수 있습니다.
+- **Azure AD 조인된 디바이스에 대한 전역이 아닌 관리자를 지원합니다**. 고객은 관리자 계층 구조 내에서 보다 세분화된 관리자 집합을 선택하여 Surface Hub 관리할 수 있습니다. 자세한 내용은 [Surface Hub 전역이 아닌 관리자 계정 구성을 참조](surface-hub-2s-nonglobal-admin.md)하세요.
 
 ### <a name="inking-improvements"></a>수동 입력 개선 사항
 
@@ -112,7 +112,7 @@ AI 기반 Surface Hub 2 스마트 카메라는 하이브리드 팀에 최적화�
 ### <a name="security"></a>보안
 
 - **FIDO2 보안 키를 사용하는 암호 없는 로그인** FIDO2 보안 키를 사용하면 사용자는 사용자 이름과 암호를 입력하지 않고도 Surface Hub 빠르게 로그인할 수 있습니다. SSO(Single Sign-On)와 결합된 이 기능은 모임 중에 파일, 앱 및 웹 사이트에 빠르고 원활한 인증을 제공합니다. 자세한 내용은 [Surface Hub 암호 없는 로그인 구성을](surface-hub-2s-phone-authenticate.md) 참조하세요.
-- **Microsoft Authenticator 사용하여 암호 없는 로그인을 개선**했습니다.  Azure AD를 사용하는 조직의 경우 사용자는 Microsoft Authenticator 앱으로 로그인할 수 있습니다. 또한 사용자는 Azure AD에서 선호하는 이메일 별칭 또는 UPN(사용자 계정 이름)으로 로그인할 수 있습니다. 자세한 내용은 [Microsoft Authenticator 사용하여 Surface Hub 로그인을](surface-hub-authenticator-app.md) 참조하세요.
+- **Microsoft Authenticator 사용하여 암호 없는 로그인을 개선**했습니다.  Azure AD 사용하는 조직의 경우 사용자는 Microsoft Authenticator 앱으로 로그인할 수 있습니다. 또한 사용자는 Azure AD 기본 설정 전자 메일 별칭 또는 UPN(사용자 계정 이름)으로 로그인할 수 있습니다. 자세한 내용은 [Microsoft Authenticator 사용하여 Surface Hub 로그인을](surface-hub-authenticator-app.md) 참조하세요.
 
 ## <a name="learn-more"></a>세부 정보
 

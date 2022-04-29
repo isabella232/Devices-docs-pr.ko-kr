@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 03/16/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9cdf7d2d5b6f1f6a99d2f3caa1168804c2110159
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 1b510d98cf65b5b1594d300a3bcf6c928e1f27e2
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472732"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497521"
 ---
 # <a name="install-and-manage-surface-hub-2-smart-camera"></a>Surface Hub 2 스마트 카메라 설치 및 관리
 
@@ -35,7 +35,7 @@ Surface Hub 2 Smart Camera1<sup></sup>은 하이브리드 팀을 위해 설계�
 자세한 내용은 [Surface Hub 업데이트 기록을](surface-hub-update-history.md) 참조하세요.
 
 > [!NOTE]
-> Windows 10 또는 Windows 11 Pro/Enterprise 실행하기 위해 마이그레이션된 Surface Hub에 대한 추가 업데이트는 필요하지 않습니다.
+> Windows 10/11 Pro 또는 Enterprise 실행하기 위해 마이그레이션된 Surface Hub에 대한 추가 업데이트는 필요하지 않습니다.
 
 ## <a name="install-smart-camera"></a>스마트 카메라 설치
 

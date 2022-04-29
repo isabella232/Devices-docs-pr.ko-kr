@@ -17,12 +17,12 @@ ms.date: 12/08/2021
 appliesto:
 - Windows 10
 - Windows 11
-ms.openlocfilehash: 9e08b3dd804b8b4ac6e2ee4dd4041ed2e684d5d7
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 5e54a56a49e16ce23d760337f5ae8a1d76ab7728
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472647"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497751"
 ---
 # <a name="microsoft-surface-enterprise-management-mode-semm"></a>MICROSOFT Surface Enterprise 관리 모드(SEMM)
 
@@ -264,7 +264,7 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 4. 스크립트를 실행할 수 있도록 사용 권한이 설정되어 있는지 확인합니다. 기본적으로 실행 정책을 수정하지 않으면 스크립트 실행이 차단됩니다. 자세한 내용은 [실행 정책에 대해](/powershell/module/microsoft.powershell.core/about/about_execution_policies) 참조하세요.
 5. 명령 프롬프트에서 스크립트의 전체 경로를 입력한 다음 Enter 키를 누릅니 **다**. 스크립트는 TempOwner.pfx라는 데모 인증서를 만듭니다.
 
-또는 PowerShell을 사용하여 자체 서명된 인증서를 만들 수 있습니다. 자세한 내용은 [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate)를 참조하세요.
+또는 PowerShell을 사용하여 자체 서명된 인증서를 만들 수 있습니다. 자세한 내용은 [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps&preserve-view=true)를 참조하세요.
 
 >[!NOTE]
 >PKI 인프라에서 오프라인 루트를 사용하는 조직의 경우 MICROSOFT Surface UEFI 구성기를 루트 CA에 연결된 환경에서 실행하여 SEMM 인증서를 인증해야 합니다. Microsoft Surface UEFI 구성기에서 생성된 패키지는 파일로 전송할 수 있으므로 USB 스틱과 같은 이동식 스토리지를 사용하여 오프라인 네트워크 환경 외부로 전송할 수 있습니다.
